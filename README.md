@@ -57,6 +57,9 @@ cp .env.example .env
 | `NEXT_PUBLIC_SUPABASE_URL` | Yes | — |
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Yes | — |
 | `SUPABASE_SERVICE_ROLE_KEY` | No (reserved for upcoming admin/parent features) | — |
+| `GUEST_DEMO_EMAIL` | No | `guest@director.local` |
+| `GUEST_DEMO_PASSWORD` | No | `GuestDemo123!` |
+| `GUEST_DEMO_NAME` | No | `Guest Student` |
 | `AGENT_OPENAI_MODEL` | No | `gpt-4o` |
 | `SUMMARY_OPENAI_MODEL` | No | `gpt-4o-mini` |
 | `DEEPGRAM_STT_MODEL` | No | `flux-general-en` |
@@ -91,7 +94,6 @@ cd apps/web && npm install && cd ../..
 # Agent — creates apps/agent/.venv with Python 3.11 or 3.12
 # (livekit-agents 1.4.x does NOT support Python 3.13+)
 make venv
-```
 ```
 
 **Install [overmind](https://github.com/DarthSim/overmind) for the best experience (optional but recommended):**
@@ -162,6 +164,8 @@ make logs     # tail all logs
 - Calendar scheduling: `/calendar`
 - Parent dashboard: `/parent/dashboard`
 - Parent controls/restrictions: `/parent/settings`
+
+The login page includes a **Log in as Guest** button that provisions/updates a deterministic demo student account via Supabase admin API and signs in automatically.
 
 ## Ingestion (RAG)
 

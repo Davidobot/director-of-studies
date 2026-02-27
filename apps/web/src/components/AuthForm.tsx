@@ -60,6 +60,46 @@ export function AuthForm({ mode, redirectTo = "/" }: Props) {
     }
   }
 
+  async function loginAsGuest() {
+    setLoading(true);
+    setMessage(null);
+
+    try {
+      const bootstrapRes = await fetch("/api/auth/guest-login", { method: "POST" });
+      const contentType = bootstrapRes.headers.get("content-type") ?? "";
+
+      if (!bootstrapRes.ok) {
+        if (contentType.includes("application/json")) {
+          const body = (await bootstrapRes.json().catch(() => ({}))) as { error?: string };
+          throw new Error(body.error ?? "Could not initialize guest account");
+        }
+
+        const bodyText = await bootstrapRes.text().catch(() => "");
+        throw new Error(bodyText.slice(0, 120) || "Could not initialize guest account");
+      }
+
+      if (!contentType.includes("application/json")) {
+        throw new Error("Guest login endpoint returned an invalid response.");
+      }
+
+      const creds = (await bootstrapRes.json()) as { email: string; password: string };
+      const { error } = await supabase.auth.signInWithPassword({
+        email: creds.email,
+        password: creds.password,
+      });
+
+      if (error) throw error;
+
+      router.push(redirectTo);
+      router.refresh();
+    } catch (error) {
+      const text = error instanceof Error ? error.message : "Unexpected auth error";
+      setMessage(text);
+    } finally {
+      setLoading(false);
+    }
+  }
+
   return (
     <form onSubmit={onSubmit} className="space-y-4 rounded-lg border border-slate-800 bg-slate-900 p-6">
       <h2 className="text-xl font-semibold">{mode === "login" ? "Log in" : "Create account"}</h2>
@@ -116,6 +156,17 @@ export function AuthForm({ mode, redirectTo = "/" }: Props) {
       <button disabled={loading} className="rounded-md bg-sky-600 px-4 py-2 font-medium text-white disabled:opacity-50">
         {loading ? "Please wait..." : mode === "login" ? "Log in" : "Create account"}
       </button>
+
+      {mode === "login" ? (
+        <button
+          type="button"
+          disabled={loading}
+          onClick={() => void loginAsGuest()}
+          className="rounded-md border border-slate-700 px-4 py-2 font-medium text-slate-200 disabled:opacity-50"
+        >
+          Log in as Guest
+        </button>
+      ) : null}
 
       {message ? <p className="text-sm text-red-400">{message}</p> : null}
     </form>

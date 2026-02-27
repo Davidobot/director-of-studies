@@ -4,7 +4,6 @@ import { and, desc, eq, sql } from "drizzle-orm";
 import { getServerUser } from "@/lib/supabase/server";
 import { getStudentContext } from "@/lib/student";
 import { DoSChat } from "@/components/DoSChat";
-import { StudentInviteCode } from "@/components/StudentInviteCode";
 import { db } from "@/db";
 import { boardSubjects, progressSnapshots, repeatFlags, scheduledTutorials, sessions, studentEnrolments, subjects } from "@/db/schema";
 
@@ -83,7 +82,6 @@ export default async function DashboardPage() {
         <div className="mt-3 flex flex-wrap gap-2">
           <Link className="rounded-md bg-sky-600 px-3 py-2 text-sm text-white" href="/">Start tutorial</Link>
           <Link className="rounded-md border border-slate-700 px-3 py-2 text-sm" href="/calendar">Open calendar</Link>
-          <Link className="rounded-md border border-slate-700 px-3 py-2 text-sm" href="/settings/tutors">Tutor settings</Link>
         </div>
       </section>
 
@@ -147,7 +145,6 @@ export default async function DashboardPage() {
       </section>
 
       <DoSChat />
-      <StudentInviteCode />
     </main>
   );
 }

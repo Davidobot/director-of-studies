@@ -143,3 +143,54 @@ Use this file as shared working memory across tasks.
   - Agent wiring: `/join` payload extended (student/enrolment/tutor/recommendation fields), agent runtime prompt now includes tutor personality + DoS focus context via new DB helper.
 - **Files touched:** Major updates across `apps/web/src/db/schema.ts`, `apps/web/src/db/{seed.ts,seed-reference.ts}`, multiple `apps/web/src/app/api/**` routes (`session/*`, `student/*`, `reference/*`, `tutor-config`, `progress/overview`, `dos-chat`, `calendar/*`, `parent/*`), UI pages (`dashboard`, `calendar`, `onboarding/subjects`, `settings/tutors`, `parent/dashboard`, `parent/settings`), components (`EnrolmentWizard`, `TutorConfigManager`, `DoSChat`, `CalendarPlanner`, `ParentRestrictionsManager`, `StudentInviteCode`), and agent files (`apps/agent/app/{main.py,agent_worker.py,db.py,prompts.py}`), plus `README.md`.
 - **Follow-up:** Run DB push + seed commands before runtime (`npm run db:push`, `npm run db:seed:reference`, `npm run db:seed` in `apps/web`), then rebuild/restart containers for agent/web compatibility and validate end-to-end auth/session calendar flows in browser.
+
+### 2026-02-27 (UI fixes — nav, home page, dropdowns, tutors, calendar)
+- **Context:** UX review identified 5 issues: duplicate nav links, no user name in nav, empty course/topic dropdowns, unexpected "Oxbridge tutor" default in tutor settings, no real calendar view.
+- **Discovery:**
+  - Nav had both "Home" (`/`) and "Profile" (`/onboarding`) links plus the brand title — redundant. Supabase `user.email` is available as fallback when `displayName` is unset.
+  - Duplicate "Dashboard / Calendar / Tutor settings" quick-link buttons on home page duplicated the nav.
+  - Empty dropdowns occur when the student is enrolled in a subject (e.g. "Oxbridge Admissions") that has no matching entry in the `courses` table. The page doesn't redirect in this case (it redirects only when `enrolmentRows.length === 0`).
+  - The "Oxbridge tutor" the user saw is the `tutorConfigs.tutorName` field defaulting to `"TutorBot"` for the "Oxbridge Admissions" enrolment, plus the fact that there was no `make seed` command to explain how to populate courses.
+  - `TutorConfigManager` pre-filled name/personality/speed with hard-coded defaults giving the impression a tutor was already configured.
+  - `CalendarPlanner` was a plain list — no monthly grid.
+- **Decisions:**
+  - `layout.tsx`: brand title becomes a `<Link href="/">` (clicking logo = home); "Home" link removed; "Profile" text replaced with user's `displayName` (or email as fallback) linking to `/onboarding`.
+  - `page.tsx`: removed duplicate quick-button row; added meaningful "No courses available" empty state with `make seed` instructions when `filteredCourses.length === 0`; added server-side courseId→tutorName lookup passed down to `CourseTopicSelector`.
+  - `CourseTopicSelector.tsx`: accept `tutorNameByCourseId` prop and display which tutor will be used for the selected course with an "Edit tutor settings →" link.
+  - `TutorConfigManager.tsx`: replaced pre-filled `?? "TutorBot"` / `?? "Be warm…"` / `?? "1.0"` with empty strings and placeholder attributes so new configs start blank.
+  - `CalendarPlanner.tsx`: full monthly grid calendar — Mon-first 7-column layout, prev/next month navigation, coloured dots per status, day-click opens detail panel showing tutorials and direct status actions, schedule form pre-fills date when a day is clicked.
+  - `Makefile`: added `make seed` target that runs `npm run db:seed:reference` then `npm run db:seed` in `apps/web` against `NATIVE_DATABASE_URL`.
+- **Files touched:** `apps/web/src/app/layout.tsx`, `apps/web/src/app/page.tsx`, `apps/web/src/components/CourseTopicSelector.tsx`, `apps/web/src/components/TutorConfigManager.tsx`, `apps/web/src/components/CalendarPlanner.tsx`, `Makefile`.
+- **Follow-up:** Run `make seed` on any environment with an empty `courses` table. Verify nav shows user's name in the header. Verify calendar grid renders correctly. If multiple tutor personas per subject are needed in future, the `tutorConfigs` schema needs a named-preset model.
+
+### 2026-02-27 (nav account menu + profile settings page)
+- **Context:** User requested the student's name in the nav bar open a dropdown with settings links (tutor settings, personal settings, enrolment settings); and move the parent-link invite code out of the dashboard into a dedicated personal settings page.
+- **Decision:**
+  - Created `AccountMenu` client component: shows a chevron-tagged name button; toggles a dropdown with `Personal settings → /settings/profile`, `Enrolment settings → /onboarding/subjects`, `Tutor settings → /settings/tutors` (student only), and `Log out`. Closes on outside click via `useEffect` mousedown listener. Receives `displayName` and `accountType` as props from server layout.
+  - Created `/settings/profile` page: display name (editable), email (read-only from Supabase), DOB + school year (student only), enrolment shortcut link, and `StudentInviteCode` component. Has a server action to save changes and redirects with `?saved=1`.
+  - `layout.tsx`: removed `SignOutButton` import, replaced the plain Link + SignOutButton with `<AccountMenu>`. Removed the standalone "Tutors" nav link (reachable from dropdown).
+  - `dashboard/page.tsx`: removed `StudentInviteCode` import and `<StudentInviteCode />` usage; removed the "Tutor settings" quick-link button (accessible from dropdown).
+- **Files touched:** `apps/web/src/components/AccountMenu.tsx` (new), `apps/web/src/app/settings/profile/page.tsx` (new), `apps/web/src/app/layout.tsx`, `apps/web/src/app/dashboard/page.tsx`.
+- **Follow-up:** None — all four files pass type-check cleanly. If parent personal settings are needed (display name, linked students), extend the `AccountMenu` PARENT_ITEMS list and add a parent-specific section to `/settings/profile`.
+
+### 2026-02-27 (tutor personas refactor — completed)
+- **Context:** User requested tutors be reusable across subjects. Session was interrupted mid-refactor; this entry records the completed state.
+- **Schema changes:**
+  - Old `tutorConfigs` had `tutorName/personalityPrompt/ttsVoiceModel/ttsSpeed` inline. These columns are removed.
+  - New `tutorPersonas` table: `(id, studentId, name, personalityPrompt, ttsVoiceModel, ttsSpeed, createdAt, updatedAt)` with unique index on `(studentId, name)`.
+  - New slim `tutorConfigs`: `(id, studentId, enrolmentId, personaId FK→tutorPersonas)` — assignment-only.
+  - DB migration required: `cd apps/web && npm run db:push`
+- **API routes:**
+  - `GET/POST /api/tutor-personas` — list and create personas
+  - `PUT/DELETE /api/tutor-personas/[id]` — update and delete personas (ownership validated)
+  - `GET /api/tutor-config` — returns enrolments with joined personaId/personaName
+  - `PUT /api/tutor-config` — assigns persona (nullable) to an enrolment
+- **Component:** `TutorConfigManager.tsx` fully rewritten. Two sections:
+  1. "Your tutors" — persona cards with inline edit/delete + "+ New tutor" creation form
+  2. "Subject assignments" — per-enrolment `<select>` dropdown of all personas + "— No tutor —"
+  - Uses `useReducer` for state; fetches from both `/api/tutor-personas` and `/api/tutor-config` on mount.
+- **Other files updated:** `apps/web/src/app/page.tsx` (tutorNameByCourseId now joins through tutorPersonas.name), `apps/web/src/app/api/session/start-agent/route.ts` (fetches tutorPersonas fields via leftJoin).
+- **Watch out:** Both files had duplicate old code appended (the `replace_string_in_file` tool prepended the new content without removing what it replaced). Fixed by truncating with `head -N`. Also `tutor-config/route.ts` needed a closing `}` added after the truncation.
+- **Files touched:** `apps/web/src/db/schema.ts`, `apps/web/src/app/api/tutor-personas/route.ts` (new), `apps/web/src/app/api/tutor-personas/[id]/route.ts` (new), `apps/web/src/app/api/tutor-config/route.ts`, `apps/web/src/components/TutorConfigManager.tsx`, `apps/web/src/app/page.tsx`, `apps/web/src/app/api/session/start-agent/route.ts`.
+- **Follow-up:** Run `cd apps/web && npm run db:push` to apply schema to Postgres. The `tutor_personas` table will be created and `tutor_configs` will be altered (removing the old text columns, adding `persona_id`).
+

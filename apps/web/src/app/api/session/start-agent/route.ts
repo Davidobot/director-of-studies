@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { and, desc, eq } from "drizzle-orm";
 import { db } from "@/db";
-import { progressSnapshots, repeatFlags, sessions, tutorConfigs } from "@/db/schema";
+import { progressSnapshots, repeatFlags, sessions, tutorConfigs, tutorPersonas } from "@/db/schema";
 import { requireStudent } from "@/lib/auth";
 
 export const dynamic = "force-dynamic";
@@ -35,12 +35,13 @@ export async function POST(request: Request) {
     const tutorConfigRows = current.enrolmentId
       ? await db
           .select({
-            tutorName: tutorConfigs.tutorName,
-            personalityPrompt: tutorConfigs.personalityPrompt,
-            ttsVoiceModel: tutorConfigs.ttsVoiceModel,
-            ttsSpeed: tutorConfigs.ttsSpeed,
+            tutorName: tutorPersonas.name,
+            personalityPrompt: tutorPersonas.personalityPrompt,
+            ttsVoiceModel: tutorPersonas.ttsVoiceModel,
+            ttsSpeed: tutorPersonas.ttsSpeed,
           })
           .from(tutorConfigs)
+          .leftJoin(tutorPersonas, eq(tutorPersonas.id, tutorConfigs.personaId))
           .where(and(eq(tutorConfigs.studentId, auth.studentId), eq(tutorConfigs.enrolmentId, current.enrolmentId)))
       : [];
 

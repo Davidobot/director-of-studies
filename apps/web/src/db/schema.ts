@@ -113,14 +113,27 @@ export const sessions = pgTable("sessions", {
   studentIdx: index("sessions_student_idx").on(table.studentId),
 }));
 
+// A reusable named tutor persona that can be assigned to any subject enrolment.
+export const tutorPersonas = pgTable("tutor_personas", {
+  id: serial("id").primaryKey(),
+  studentId: uuid("student_id").notNull().references(() => students.id, { onDelete: "cascade" }),
+  name: text("name").notNull(),
+  personalityPrompt: text("personality_prompt").notNull().default("Be warm, concise, and Socratic."),
+  ttsVoiceModel: text("tts_voice_model").notNull().default("aura-2-draco-en"),
+  ttsSpeed: text("tts_speed").notNull().default("1.0"),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+  updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
+}, (table) => ({
+  tutorPersonaUniqIdx: uniqueIndex("tutor_personas_student_name_uniq").on(table.studentId, table.name),
+  tutorPersonaStudentIdx: index("tutor_personas_student_idx").on(table.studentId),
+}));
+
+// Per-enrolment assignment — which persona (if any) is active for this subject.
 export const tutorConfigs = pgTable("tutor_configs", {
   id: serial("id").primaryKey(),
   studentId: uuid("student_id").notNull().references(() => students.id, { onDelete: "cascade" }),
   enrolmentId: integer("enrolment_id").notNull().references(() => studentEnrolments.id, { onDelete: "cascade" }),
-  tutorName: text("tutor_name").notNull().default("TutorBot"),
-  personalityPrompt: text("personality_prompt").notNull().default("Be warm, concise, and Socratic."),
-  ttsVoiceModel: text("tts_voice_model").notNull().default("aura-2-draco-en"),
-  ttsSpeed: text("tts_speed").notNull().default("1.0"),
+  personaId: integer("persona_id").references(() => tutorPersonas.id, { onDelete: "set null" }),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
   updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
 }, (table) => ({

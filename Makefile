@@ -103,6 +103,16 @@ db-migrate:
 	  -c "ALTER TABLE topics ADD COLUMN IF NOT EXISTS stt_keywords jsonb DEFAULT '[]';"
 	@echo "Migration applied."
 
+# Seed reference data (exam boards, subjects, board-subjects) and course/topic data.
+# Run once after 'make infra' has started Postgres, or any time you reset the DB.
+.PHONY: seed
+seed:
+	@echo "Seeding reference data (exam boards, subjects)..."
+	cd apps/web && DATABASE_URL="$(NATIVE_DATABASE_URL)" npm run db:seed:reference
+	@echo "Seeding courses and topics..."
+	cd apps/web && DATABASE_URL="$(NATIVE_DATABASE_URL)" npm run db:seed
+	@echo "Seed complete."
+
 # ---------------------------------------------------------------------------
 # Single-command local dev  (all three processes in one terminal)
 # ---------------------------------------------------------------------------

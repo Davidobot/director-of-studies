@@ -1,10 +1,10 @@
 import { db } from "@/db";
-import { boardSubjects, courses, studentEnrolments, topics } from "@/db/schema";
+import { boardSubjects, courses, studentEnrolments, topics, tutorConfigs, tutorPersonas } from "@/db/schema";
 import { CourseTopicSelector } from "@/components/CourseTopicSelector";
 import { getServerUser } from "@/lib/supabase/server";
 import { getStudentContext } from "@/lib/student";
 import { redirect } from "next/navigation";
-import { eq } from "drizzle-orm";
+import { and, eq, inArray } from "drizzle-orm";
 import Link from "next/link";
 
 export const dynamic = "force-dynamic";
@@ -68,6 +68,39 @@ export default async function HomePage() {
   const filteredCourses = allCourses.filter((course) => allowedCourseIds.has(course.id));
   const allTopics = await db.select().from(topics);
   const filteredTopics = allTopics.filter((topic) => allowedCourseIds.has(topic.courseId));
+
+  // Build courseId → enrolmentId map so we can look up the matching tutor config
+  const courseEnrolmentMap = new Map<number, number>();
+  for (const course of filteredCourses) {
+    const enrolment = enrolmentRows.find((e) => {
+      if (course.subjectId !== e.subjectId) return false;
+      if (e.examBoardId === null) return true;
+      return course.examBoardId === e.examBoardId;
+    });
+    if (enrolment) courseEnrolmentMap.set(course.id, enrolment.enrolmentId);
+  }
+
+  const allEnrolmentIds = [...courseEnrolmentMap.values()];
+  const tutorConfigRows =
+    allEnrolmentIds.length > 0
+      ? await db
+          .select({ enrolmentId: tutorConfigs.enrolmentId, personaName: tutorPersonas.name })
+          .from(tutorConfigs)
+          .leftJoin(tutorPersonas, eq(tutorPersonas.id, tutorConfigs.personaId))
+          .where(
+            and(
+              eq(tutorConfigs.studentId, studentContext.studentId),
+              inArray(tutorConfigs.enrolmentId, allEnrolmentIds),
+            ),
+          )
+      : [];
+
+  const tutorNameByCourseId: Record<number, string | null> = {};
+  for (const [courseId, enrolmentId] of courseEnrolmentMap.entries()) {
+    const config = tutorConfigRows.find((r) => r.enrolmentId === enrolmentId);
+    tutorNameByCourseId[courseId] = config?.personaName ?? null;
+  }
+
   const defaultModels = {
     agentOpenAI: process.env.AGENT_OPENAI_MODEL ?? "gpt-4o",
     summaryOpenAI: process.env.SUMMARY_OPENAI_MODEL ?? "gpt-4o-mini",
@@ -76,15 +109,32 @@ export default async function HomePage() {
     silenceNudgeAfterS: parseFloat(process.env.SILENCE_NUDGE_AFTER_S ?? "3.0"),
   };
 
+  if (filteredCourses.length === 0) {
+    return (
+      <main className="space-y-4">
+        <h2 className="text-xl font-semibold">No courses available</h2>
+        <p className="text-slate-300">
+          Your enrolled subjects don&apos;t have any course content set up yet. This usually means the
+          reference content hasn&apos;t been loaded into the database, or your subjects haven&apos;t
+          been matched to course material.
+        </p>
+        <ul className="list-disc pl-5 text-sm text-slate-400 space-y-1">
+          <li>Run <code className="text-sky-400">make seed</code> to load reference courses and topics.</li>
+          <li>
+            Then go to{" "}
+            <Link href="/onboarding/subjects" className="text-sky-400 underline">Subject settings</Link>{" "}
+            and make sure your subjects match an available course.
+          </li>
+        </ul>
+      </main>
+    );
+  }
+
   return (
     <main className="space-y-4">
-      <div className="flex flex-wrap gap-2">
-        <Link href="/dashboard" className="rounded-md border border-slate-700 px-3 py-2 text-sm">Dashboard</Link>
-        <Link href="/calendar" className="rounded-md border border-slate-700 px-3 py-2 text-sm">Calendar</Link>
-        <Link href="/settings/tutors" className="rounded-md border border-slate-700 px-3 py-2 text-sm">Tutor settings</Link>
-      </div>
+      <h2 className="text-xl font-semibold">Start a tutoring call</h2>
       <p className="text-slate-300">Select your course and topic, then join a live tutoring call.</p>
-      <CourseTopicSelector courses={filteredCourses} topics={filteredTopics} defaultModels={defaultModels} />
+      <CourseTopicSelector courses={filteredCourses} topics={filteredTopics} defaultModels={defaultModels} tutorNameByCourseId={tutorNameByCourseId} />
     </main>
   );
 }

@@ -34,10 +34,12 @@ export function CourseTopicSelector({
   courses,
   topics,
   defaultModels,
+  tutorNameByCourseId = {},
 }: {
   courses: Course[];
   topics: Topic[];
   defaultModels: DefaultModels;
+  tutorNameByCourseId?: Record<number, string | null>;
 }) {
   const router = useRouter();
   const [courseId, setCourseId] = useState<number>(courses[0]?.id ?? 1);
@@ -173,6 +175,18 @@ export function CourseTopicSelector({
               <option key={topic.id} value={topic.id}>{topic.name}</option>
             ))}
           </select>
+        </div>
+        {/* Tutor for this call */}
+        <div className="rounded-md border border-slate-700 bg-slate-950 px-4 py-3 text-sm">
+          <span className="text-slate-400">Tutor: </span>
+          {tutorNameByCourseId[courseId] ? (
+            <span className="font-medium text-slate-200">{tutorNameByCourseId[courseId]}</span>
+          ) : (
+            <span className="italic text-slate-500">none configured — will use default settings</span>
+          )}
+          <a href="/settings/tutors" className="ml-3 text-xs text-sky-400 hover:underline">
+            Edit tutor settings →
+          </a>
         </div>
         <button
           onClick={joinCall}

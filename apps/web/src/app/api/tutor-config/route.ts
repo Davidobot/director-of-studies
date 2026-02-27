@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { and, eq } from "drizzle-orm";
 import { db } from "@/db";
-import { boardSubjects, studentEnrolments, subjects, tutorConfigs } from "@/db/schema";
+import { boardSubjects, studentEnrolments, subjects, tutorConfigs, tutorPersonas } from "@/db/schema";
 import { requireStudent } from "@/lib/auth";
 
 export const dynamic = "force-dynamic";
@@ -17,10 +17,8 @@ export async function GET() {
       enrolmentId: studentEnrolments.id,
       subjectName: subjects.name,
       level: subjects.level,
-      tutorName: tutorConfigs.tutorName,
-      personalityPrompt: tutorConfigs.personalityPrompt,
-      ttsVoiceModel: tutorConfigs.ttsVoiceModel,
-      ttsSpeed: tutorConfigs.ttsSpeed,
+      personaId: tutorConfigs.personaId,
+      personaName: tutorPersonas.name,
     })
     .from(studentEnrolments)
     .innerJoin(boardSubjects, eq(boardSubjects.id, studentEnrolments.boardSubjectId))
@@ -29,9 +27,10 @@ export async function GET() {
       tutorConfigs,
       and(eq(tutorConfigs.enrolmentId, studentEnrolments.id), eq(tutorConfigs.studentId, auth.studentId))
     )
+    .leftJoin(tutorPersonas, eq(tutorPersonas.id, tutorConfigs.personaId))
     .where(eq(studentEnrolments.studentId, auth.studentId));
 
-  return NextResponse.json({ configs: rows });
+  return NextResponse.json({ enrolments: rows });
 }
 
 export async function PUT(request: Request) {
@@ -42,10 +41,7 @@ export async function PUT(request: Request) {
 
   const body = (await request.json()) as {
     enrolmentId?: number;
-    tutorName?: string;
-    personalityPrompt?: string;
-    ttsVoiceModel?: string;
-    ttsSpeed?: string;
+    personaId?: number | null;
   };
 
   const enrolmentId = Number(body.enrolmentId);
@@ -62,30 +58,24 @@ export async function PUT(request: Request) {
     return NextResponse.json({ error: "Enrolment not found" }, { status: 404 });
   }
 
-  const tutorName = (body.tutorName ?? "TutorBot").trim() || "TutorBot";
-  const personalityPrompt = (body.personalityPrompt ?? "Be warm, concise, and Socratic.").trim() || "Be warm, concise, and Socratic.";
-  const ttsVoiceModel = (body.ttsVoiceModel ?? "aura-2-draco-en").trim() || "aura-2-draco-en";
-  const ttsSpeed = (body.ttsSpeed ?? "1.0").trim() || "1.0";
+  const personaId = body.personaId != null ? Number(body.personaId) : null;
+
+  if (personaId !== null) {
+    const persona = await db
+      .select({ id: tutorPersonas.id })
+      .from(tutorPersonas)
+      .where(and(eq(tutorPersonas.id, personaId), eq(tutorPersonas.studentId, auth.studentId)));
+    if (persona.length === 0) {
+      return NextResponse.json({ error: "Persona not found" }, { status: 404 });
+    }
+  }
 
   await db
     .insert(tutorConfigs)
-    .values({
-      studentId: auth.studentId,
-      enrolmentId,
-      tutorName,
-      personalityPrompt,
-      ttsVoiceModel,
-      ttsSpeed,
-    })
+    .values({ studentId: auth.studentId, enrolmentId, personaId })
     .onConflictDoUpdate({
       target: [tutorConfigs.studentId, tutorConfigs.enrolmentId],
-      set: {
-        tutorName,
-        personalityPrompt,
-        ttsVoiceModel,
-        ttsSpeed,
-        updatedAt: new Date(),
-      },
+      set: { personaId, updatedAt: new Date() },
     });
 
   return NextResponse.json({ ok: true });

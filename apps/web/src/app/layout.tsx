@@ -3,7 +3,7 @@ import "@livekit/components-styles";
 import "./globals.css";
 import Link from "next/link";
 import { getServerUser } from "@/lib/supabase/server";
-import { SignOutButton } from "@/components/SignOutButton";
+import { AccountMenu } from "@/components/AccountMenu";
 import { getStudentContext } from "@/lib/student";
 
 export const metadata: Metadata = {
@@ -20,17 +20,17 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       <body>
         <div className="mx-auto min-h-screen max-w-5xl px-4 py-6">
           <header className="mb-8 flex items-center justify-between border-b border-slate-800 pb-4">
-            <h1 className="text-2xl font-semibold">Director of Studies</h1>
-            <nav className="flex gap-4 text-sm">
+            <Link href="/" className="text-2xl font-semibold hover:text-sky-400 transition-colors">
+              Director of Studies
+            </Link>
+            <nav className="flex items-center gap-4 text-sm">
               {user ? (
                 <>
-                  <Link href="/">Home</Link>
                   {context?.accountType === "student" ? (
                     <>
                       <Link href="/dashboard">Dashboard</Link>
                       <Link href="/calendar">Calendar</Link>
                       <Link href="/sessions">Session History</Link>
-                      <Link href="/settings/tutors">Tutors</Link>
                     </>
                   ) : null}
                   {context?.accountType === "parent" ? (
@@ -39,8 +39,10 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                       <Link href="/parent/settings">Parent Controls</Link>
                     </>
                   ) : null}
-                  <Link href="/onboarding">Profile</Link>
-                  <SignOutButton />
+                  <AccountMenu
+                    displayName={context?.displayName ?? user.email ?? "Account"}
+                    accountType={context?.accountType ?? null}
+                  />
                 </>
               ) : (
                 <>
