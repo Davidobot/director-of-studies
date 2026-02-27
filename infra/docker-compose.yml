@@ -1,0 +1,91 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: dos-postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-director}
+      POSTGRES_USER: ${POSTGRES_USER:-director}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-director}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-director} -d ${POSTGRES_DB:-director}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  livekit:
+    image: livekit/livekit-server:latest
+    container_name: dos-livekit
+    command: ["--config", "/etc/livekit/livekit.yaml", "--node-ip", "0.0.0.0"]
+    volumes:
+      - ./livekit.yaml:/etc/livekit/livekit.yaml:ro
+    ports:
+      - "7880:7880"
+      - "7881:7881"
+      - "50000-50060:50000-50060/udp"
+    healthcheck:
+      test: ["CMD-SHELL", "nc -z localhost 7880"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  web:
+    build:
+      context: ../apps/web
+      dockerfile: Dockerfile
+    container_name: dos-web
+    environment:
+      DATABASE_URL: ${DATABASE_URL:-postgresql://director:director@postgres:5432/director}
+      NEXT_PUBLIC_LIVEKIT_URL: ${NEXT_PUBLIC_LIVEKIT_URL:-ws://localhost:7880}
+      LIVEKIT_URL: ${LIVEKIT_URL:-ws://livekit:7880}
+      LIVEKIT_API_KEY: ${LIVEKIT_API_KEY:-devkey}
+      LIVEKIT_API_SECRET: ${LIVEKIT_API_SECRET:-devsecretdevsecretdevsecretdevse}
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      AGENT_URL: http://agent:8000
+    depends_on:
+      postgres:
+        condition: service_healthy
+      livekit:
+        condition: service_started
+    ports:
+      - "3000:3000"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:3000 >/dev/null 2>&1 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+
+  agent:
+    build:
+      context: ../apps/agent
+      dockerfile: Dockerfile
+    container_name: dos-agent
+    environment:
+      DATABASE_URL: ${DATABASE_URL:-postgresql://director:director@postgres:5432/director}
+      LIVEKIT_URL: ${LIVEKIT_URL:-ws://livekit:7880}
+      LIVEKIT_API_KEY: ${LIVEKIT_API_KEY:-devkey}
+      LIVEKIT_API_SECRET: ${LIVEKIT_API_SECRET:-devsecretdevsecretdevsecretdevse}
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      DEEPGRAM_API_KEY: ${DEEPGRAM_API_KEY}
+      PYTHONUNBUFFERED: "1"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      livekit:
+        condition: service_started
+    volumes:
+      - ../content:/content:ro
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request; urllib.request.urlopen('http://localhost:8000/health')\""]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+
+volumes:
+  postgres_data:
