@@ -40,7 +40,20 @@ export function CourseTopicSelector({ courses, topics }: { courses: Course[]; to
         body: JSON.stringify({ sessionId: session.sessionId }),
       });
 
-      if (!startRes.ok) throw new Error("Could not start agent");
+      if (!startRes.ok) {
+        let message = "Could not start agent";
+
+        try {
+          const body = (await startRes.json()) as { error?: string };
+          if (typeof body.error === "string" && body.error.length > 0) {
+            message = body.error;
+          }
+        } catch {
+          // keep default message when response body is not JSON
+        }
+
+        throw new Error(message);
+      }
 
       router.push(`/call/${session.sessionId}`);
     } catch (err) {

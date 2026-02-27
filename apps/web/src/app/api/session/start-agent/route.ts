@@ -28,7 +28,18 @@ export async function POST(request: Request) {
     });
 
     if (!response.ok) {
-      return NextResponse.json({ error: "Agent failed to join" }, { status: 502 });
+      let detail = "Agent failed to join";
+
+      try {
+        const body = (await response.json()) as { detail?: string };
+        if (typeof body.detail === "string" && body.detail.length > 0) {
+          detail = body.detail;
+        }
+      } catch {
+        // keep default error detail when response body is not JSON
+      }
+
+      return NextResponse.json({ error: detail }, { status: 502 });
     }
 
     await db

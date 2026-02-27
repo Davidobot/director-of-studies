@@ -18,6 +18,13 @@ Director of Studies is a local-first MVP voice tutor for GCSE/A-level Humanities
 - Agent joins same room as `TutorBot`
 - Transcript updates flow during call; transcript + summary saved and exposed via session pages
 
+## Planning prompt for agents
+Agents when in planning mode should refer to:
+
+`/.github/memory/review-plan.prompt.md`
+
+To structure their approach and answer.
+
 ## Shared memory location (required)
 
 Use this file for cross-task memory:

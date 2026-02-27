@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import asyncio
 import os
 from typing import Any
 
@@ -33,9 +34,24 @@ def build_agent_token(room_name: str, identity: str = "TutorBot") -> str:
             can_publish=True,
             can_subscribe=True,
             can_publish_data=True,
+            can_update_own_metadata=True,
         )
     )
     return token.to_jwt()
+
+
+def _validate_agent_runtime_config() -> list[str]:
+    required = ["OPENAI_API_KEY", "DEEPGRAM_API_KEY"]
+    return [name for name in required if not os.environ.get(name)]
+
+
+def _on_agent_task_done(task: asyncio.Task[None]) -> None:
+    try:
+        task.result()
+    except Exception:
+        import traceback
+
+        traceback.print_exc()
 
 
 @app.get("/health")
@@ -48,11 +64,14 @@ async def join_room(payload: JoinRequest) -> dict[str, Any]:
     if not LIVEKIT_API_KEY or not LIVEKIT_API_SECRET:
         raise HTTPException(status_code=500, detail="LiveKit credentials missing")
 
+    missing_config = _validate_agent_runtime_config()
+    if missing_config:
+        names = ", ".join(missing_config)
+        raise HTTPException(status_code=500, detail=f"Missing required agent env vars: {names}")
+
     token = build_agent_token(payload.roomName)
 
-    import asyncio
-
-    asyncio.create_task(
+    task = asyncio.create_task(
         run_agent_session(
             room_name=payload.roomName,
             token=token,
@@ -61,5 +80,6 @@ async def join_room(payload: JoinRequest) -> dict[str, Any]:
             topic_id=payload.topicId,
         )
     )
+    task.add_done_callback(_on_agent_task_done)
 
     return {"ok": True}

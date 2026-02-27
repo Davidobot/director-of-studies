@@ -5,12 +5,33 @@ import { db } from "@/db";
 import { sessionSummaries, sessionTranscripts, sessions } from "@/db/schema";
 
 export const dynamic = "force-dynamic";
+const SUMMARY_OPENAI_MODEL = process.env.SUMMARY_OPENAI_MODEL ?? "gpt-4o";
 
 type SummaryPayload = {
   summaryMd: string;
   keyTakeaways: string[];
   citations: string[];
 };
+
+async function waitForTranscriptText(sessionId: string, maxAttempts = 6, delayMs = 400): Promise<string> {
+  for (let attempt = 0; attempt < maxAttempts; attempt += 1) {
+    const transcriptRow = await db
+      .select({ transcriptText: sessionTranscripts.transcriptText })
+      .from(sessionTranscripts)
+      .where(eq(sessionTranscripts.sessionId, sessionId));
+
+    const transcriptText = transcriptRow[0]?.transcriptText ?? "";
+    if (transcriptText.trim().length > 0) {
+      return transcriptText;
+    }
+
+    if (attempt < maxAttempts - 1) {
+      await new Promise((resolve) => setTimeout(resolve, delayMs));
+    }
+  }
+
+  return "";
+}
 
 async function summarizeTranscript(transcriptText: string): Promise<SummaryPayload> {
   const apiKey = process.env.OPENAI_API_KEY;
@@ -24,7 +45,7 @@ async function summarizeTranscript(transcriptText: string): Promise<SummaryPaylo
 
   const openai = new OpenAI({ apiKey });
   const completion = await openai.chat.completions.create({
-    model: "gpt-4o-mini",
+    model: SUMMARY_OPENAI_MODEL,
     response_format: { type: "json_object" },
     messages: [
       {
@@ -58,12 +79,7 @@ export async function POST(request: Request) {
       .set({ status: "ended", endedAt: new Date() })
       .where(eq(sessions.id, body.sessionId));
 
-    const transcriptRow = await db
-      .select({ transcriptText: sessionTranscripts.transcriptText })
-      .from(sessionTranscripts)
-      .where(eq(sessionTranscripts.sessionId, body.sessionId));
-
-    const transcriptText = transcriptRow[0]?.transcriptText ?? "";
+    const transcriptText = await waitForTranscriptText(body.sessionId);
     const summary = await summarizeTranscript(transcriptText);
 
     await db

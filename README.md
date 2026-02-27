@@ -26,8 +26,9 @@ content/
 
 ## Agent memory
 
-- Project guidance prompt: `.github/prompts/project-overview-and-memory.prompt.md`
+- Project guidance prompt: `.github/copilot-instructions.md`
 - Shared memory notes: `.github/memory/agent-notes.md`
+- Planning/review instructions: `.github/prompts/review-plan.prompt.md`
 
 Agents should read memory notes before starting work and append discoveries/implementation notes after completing tasks.
 
@@ -48,12 +49,16 @@ cp .env.example .env
 2. Add values in `.env`:
 
 - `OPENAI_API_KEY`
+- `AGENT_OPENAI_MODEL` (optional, defaults to `gpt-4o`)
+- `SUMMARY_OPENAI_MODEL` (optional, defaults to `gpt-5-mini`)
 - `DEEPGRAM_API_KEY`
+- `DEEPGRAM_STT_MODEL` (optional, defaults to `flux-general-en`)
+- `DEEPGRAM_TTS_MODEL` (optional, defaults to `aura-2-draco-en`)
 
 3. Start everything:
 
 ```bash
-docker compose -f infra/docker-compose.yml up --build
+docker compose --env-file .env -f infra/docker-compose.yml up --build
 ```
 
 4. Open:
