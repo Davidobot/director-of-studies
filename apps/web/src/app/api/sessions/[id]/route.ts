@@ -1,11 +1,17 @@
 import { NextResponse } from "next/server";
-import { eq } from "drizzle-orm";
+import { and, eq } from "drizzle-orm";
 import { db } from "@/db";
 import { courses, sessionSummaries, sessionTranscripts, sessions, topics } from "@/db/schema";
+import { requireStudent } from "@/lib/auth";
 
 export const dynamic = "force-dynamic";
 
 export async function GET(_: Request, { params }: { params: { id: string } }) {
+  const auth = await requireStudent();
+  if ("error" in auth) {
+    return NextResponse.json({ error: auth.error }, { status: auth.status });
+  }
+
   const rows = await db
     .select({
       id: sessions.id,
@@ -30,7 +36,7 @@ export async function GET(_: Request, { params }: { params: { id: string } }) {
     .innerJoin(topics, eq(sessions.topicId, topics.id))
     .leftJoin(sessionTranscripts, eq(sessionTranscripts.sessionId, sessions.id))
     .leftJoin(sessionSummaries, eq(sessionSummaries.sessionId, sessions.id))
-    .where(eq(sessions.id, params.id));
+    .where(and(eq(sessions.id, params.id), eq(sessions.studentId, auth.studentId)));
 
   if (rows.length === 0) {
     return NextResponse.json({ error: "Not found" }, { status: 404 });

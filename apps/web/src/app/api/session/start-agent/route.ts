@@ -1,12 +1,18 @@
 import { NextResponse } from "next/server";
-import { eq } from "drizzle-orm";
+import { and, desc, eq } from "drizzle-orm";
 import { db } from "@/db";
-import { sessions } from "@/db/schema";
+import { progressSnapshots, repeatFlags, sessions, tutorConfigs } from "@/db/schema";
+import { requireStudent } from "@/lib/auth";
 
 export const dynamic = "force-dynamic";
 
 export async function POST(request: Request) {
   try {
+    const auth = await requireStudent();
+    if ("error" in auth) {
+      return NextResponse.json({ error: auth.error }, { status: auth.status });
+    }
+
     const body = (await request.json()) as {
       sessionId: string;
       agentOpenAIModel?: string;
@@ -15,13 +21,52 @@ export async function POST(request: Request) {
       silenceNudgeAfterS?: number;
     };
     const { sessionId, agentOpenAIModel, deepgramSttModel, deepgramTtsModel, silenceNudgeAfterS } = body;
-    const session = await db.select().from(sessions).where(eq(sessions.id, sessionId));
+    const session = await db
+      .select()
+      .from(sessions)
+      .where(and(eq(sessions.id, sessionId), eq(sessions.studentId, auth.studentId)));
 
     if (session.length === 0) {
       return NextResponse.json({ error: "Session not found" }, { status: 404 });
     }
 
     const current = session[0];
+
+    const tutorConfigRows = current.enrolmentId
+      ? await db
+          .select({
+            tutorName: tutorConfigs.tutorName,
+            personalityPrompt: tutorConfigs.personalityPrompt,
+            ttsVoiceModel: tutorConfigs.ttsVoiceModel,
+            ttsSpeed: tutorConfigs.ttsSpeed,
+          })
+          .from(tutorConfigs)
+          .where(and(eq(tutorConfigs.studentId, auth.studentId), eq(tutorConfigs.enrolmentId, current.enrolmentId)))
+      : [];
+
+    const recentRepeatFlags = current.enrolmentId
+      ? await db
+          .select({ concept: repeatFlags.concept, reason: repeatFlags.reason, priority: repeatFlags.priority })
+          .from(repeatFlags)
+          .where(
+            and(
+              eq(repeatFlags.studentId, auth.studentId),
+              eq(repeatFlags.enrolmentId, current.enrolmentId),
+              eq(repeatFlags.status, "active")
+            )
+          )
+      : [];
+
+    const latestSnapshot = current.enrolmentId
+      ? await db
+          .select({ recommendedFocus: progressSnapshots.recommendedFocus })
+          .from(progressSnapshots)
+          .where(and(eq(progressSnapshots.studentId, auth.studentId), eq(progressSnapshots.enrolmentId, current.enrolmentId)))
+          .orderBy(desc(progressSnapshots.generatedAt))
+          .limit(1)
+      : [];
+
+    const tutorConfig = tutorConfigRows[0];
 
     const response = await fetch(`${process.env.AGENT_URL ?? "http://agent:8000"}/join`, {
       method: "POST",
@@ -31,6 +76,14 @@ export async function POST(request: Request) {
         sessionId: current.id,
         courseId: current.courseId,
         topicId: current.topicId,
+        studentId: auth.studentId,
+        enrolmentId: current.enrolmentId,
+        tutorName: tutorConfig?.tutorName ?? "TutorBot",
+        personalityPrompt: tutorConfig?.personalityPrompt ?? "Be warm, concise, and Socratic.",
+        tutorVoiceModel: tutorConfig?.ttsVoiceModel ?? deepgramTtsModel ?? "aura-2-draco-en",
+        tutorTtsSpeed: tutorConfig?.ttsSpeed ?? "1.0",
+        repeatFlags: recentRepeatFlags,
+        recommendedFocus: latestSnapshot[0]?.recommendedFocus ?? [],
         ...(agentOpenAIModel !== undefined && { agentOpenAIModel }),
         ...(deepgramSttModel !== undefined && { deepgramSttModel }),
         ...(deepgramTtsModel !== undefined && { deepgramTtsModel }),

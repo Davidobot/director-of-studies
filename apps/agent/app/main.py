@@ -21,6 +21,14 @@ class JoinRequest(BaseModel):
     sessionId: str
     courseId: int
     topicId: int
+    studentId: str | None = None
+    enrolmentId: int | None = None
+    tutorName: str | None = None
+    personalityPrompt: str | None = None
+    tutorVoiceModel: str | None = None
+    tutorTtsSpeed: str | None = None
+    repeatFlags: list[dict[str, Any]] | None = None
+    recommendedFocus: list[str] | None = None
     agentOpenAIModel: str | None = None
     deepgramSttModel: str | None = None
     deepgramTtsModel: str | None = None
@@ -82,6 +90,14 @@ async def join_room(payload: JoinRequest) -> dict[str, Any]:
             session_id=payload.sessionId,
             course_id=payload.courseId,
             topic_id=payload.topicId,
+            student_id=payload.studentId,
+            enrolment_id=payload.enrolmentId,
+            tutor_name=payload.tutorName,
+            personality_prompt=payload.personalityPrompt,
+            tutor_voice_model=payload.tutorVoiceModel,
+            tutor_tts_speed=payload.tutorTtsSpeed,
+            repeat_flags=payload.repeatFlags,
+            recommended_focus=payload.recommendedFocus,
             agent_openai_model=payload.agentOpenAIModel,
             deepgram_stt_model=payload.deepgramSttModel,
             deepgram_tts_model=payload.deepgramTtsModel,

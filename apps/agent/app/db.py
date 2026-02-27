@@ -78,3 +78,44 @@ def get_topic_vocabulary(course_id: int, topic_id: int) -> list[str]:
     if isinstance(value, str):
         return [str(v) for v in json.loads(value) if v]
     return []
+
+
+def get_student_focus_context(student_id: str, enrolment_id: int | None) -> tuple[list[str], list[str]]:
+    if not enrolment_id:
+        return ([], [])
+
+    with get_conn() as conn, conn.cursor() as cur:
+        cur.execute(
+            """
+            SELECT concept
+            FROM repeat_flags
+            WHERE student_id = %s AND enrolment_id = %s AND status = 'active'
+            ORDER BY flagged_at DESC
+            LIMIT 10
+            """,
+            (student_id, enrolment_id),
+        )
+        repeat_rows = cur.fetchall()
+
+        cur.execute(
+            """
+            SELECT recommended_focus
+            FROM progress_snapshots
+            WHERE student_id = %s AND enrolment_id = %s
+            ORDER BY generated_at DESC
+            LIMIT 1
+            """,
+            (student_id, enrolment_id),
+        )
+        snapshot_row = cur.fetchone()
+
+    repeats = [str(row[0]) for row in repeat_rows if row and row[0]]
+    focus: list[str] = []
+    if snapshot_row and snapshot_row[0]:
+        value = snapshot_row[0]
+        if isinstance(value, list):
+            focus = [str(v) for v in value if v]
+        elif isinstance(value, str):
+            focus = [str(v) for v in json.loads(value) if v]
+
+    return (repeats, focus)

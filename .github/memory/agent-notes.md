@@ -114,3 +114,32 @@ Use this file as shared working memory across tasks.
   5. `make db-migrate` applies the ALTER TABLE to a running Postgres instance.
 - **Files touched:** `content/1/1/keywords.txt` (new), `content/1/2/keywords.txt` (new), `infra/db/init.sql`, `apps/web/src/db/schema.ts`, `apps/agent/scripts/ingest.py`, `apps/agent/app/db.py`, `Makefile`.
 - **Follow-up:** Run `make db-migrate` then `make ingest` on existing environments. New environments get the column from `init.sql` automatically.
+
+### 2026-02-27 (account system phase 1 — auth + student ownership)
+- **Context:** Started implementation of the account system with two account types (student and parent/guardian), prioritising student-scoped access to sessions and onboarding.
+- **Discovery:** Existing app was fully anonymous; all sessions/transcripts were globally visible and session create/start/end routes lacked ownership checks.
+- **Decision:** Added Supabase Cloud auth integration in `apps/web` (middleware + login/signup/callback), introduced account schema (`profiles`, `students`, `parents`, `parent_student_links`), and added `sessions.student_id` ownership. All session APIs now require an authenticated student and scope by `student_id`. Student onboarding captures UK student data (`date_of_birth`, `school_year`), while parent accounts are supported for sign-in with a placeholder home view.
+- **Files touched:** `apps/web/package.json`, `apps/web/src/middleware.ts`, `apps/web/src/lib/supabase/{client.ts,server.ts}`, `apps/web/src/lib/{auth.ts,student.ts}`, `apps/web/src/components/{AuthForm.tsx,SignOutButton.tsx}`, `apps/web/src/app/{layout.tsx,page.tsx,login/page.tsx,signup/page.tsx,onboarding/page.tsx,auth/callback/route.ts}`, `apps/web/src/app/api/session/{create,end,start-agent}/route.ts`, `apps/web/src/app/api/sessions/{route.ts,[id]/route.ts}`, `apps/web/src/app/sessions/{page.tsx,[id]/page.tsx}`, `apps/web/src/db/schema.ts`, `.env.example`, `README.md`.
+- **Follow-up:** Apply DB migration (`drizzle-kit push`) before running, then implement phase 2+ entities: exam board/subject enrolments, per-subject tutor configs, parent-student linking UX, Director of Studies dashboard/chat, and scheduling tables/API/UI.
+
+### 2026-02-27 (account system phase 2 continuation — parent linking + enum hardening)
+- **Context:** Continued Phase 2 to close remaining account/profile gaps after initial auth rollout.
+- **Discovery:** Parent accounts could be created but had no way to link to students during onboarding; account type was free-text in DB schema.
+- **Decision:** Added DB enum for `profiles.account_type` and implemented parent-to-student linking by student email in onboarding with relationship metadata and duplicate-safe inserts. Also exposed parent link management API (`GET/POST /api/parent/links`) for immediate integration with parent dashboard work.
+- **Files touched:** `apps/web/src/db/schema.ts`, `apps/web/src/app/onboarding/page.tsx`, `apps/web/src/app/api/parent/links/route.ts`, `README.md`.
+- **Follow-up:** Run `npm run db:push` in `apps/web` to apply enum/table/column updates, then build parent dashboard pages against `/api/parent/links`; move from email-linking to invite-code linking in a later phase for stronger consent flow.
+
+### 2026-02-27 (phases 3-7 implementation sweep)
+- **Context:** User requested continuing from Phase 2 through Phase 7 in one pass.
+- **Discovery:** Existing stack needed broad schema and API expansion to support enrolments, tutor persona/voice, DoS planning chat, calendar scheduling, and parent restrictions; agent needed new payload/context fields.
+- **Decision:** Implemented a full MVP sweep across web + agent with explicit UK-oriented subject/board modeling and parent/student multi-account workflows:
+  - Schema added: `exam_boards`, `subjects`, `board_subjects`, `student_enrolments`, `tutor_configs`, `progress_snapshots`, `repeat_flags`, `dos_chat_threads`, `dos_chat_messages`, `scheduled_tutorials`, `restrictions`, `student_invite_codes`; `courses` now references `subject_id` and `exam_board_id`; `sessions` now includes `enrolment_id`.
+  - Student flow: onboarding now routes to `/onboarding/subjects`; home filters courses/topics to enrolled subjects; session creation enforces enrolment membership.
+  - Tutor config: per-enrolment tutor name/personality/voice API + settings page (`/settings/tutors`), and start-agent route now forwards this context.
+  - Progress/DoS: end-session now generates progress snapshots + repeat flags; dashboard and `/api/progress/overview` added; DoS chat API + UI (`/api/dos-chat`, `DoSChat`) added.
+  - Calendar: scheduling APIs (`/api/calendar`, `/api/calendar/:id`) and `/calendar` page added; recurrence + sync placeholders in `lib/calendar-sync.ts`.
+  - Parent tools: parent dashboard + settings pages, restrictions API (`/api/parent/restrictions`), mandatory revision injection into repeat flags.
+  - Parent linking: both email-based and invite-code linking supported (`/api/student/invite-code`, `/api/parent/link-code`).
+  - Agent wiring: `/join` payload extended (student/enrolment/tutor/recommendation fields), agent runtime prompt now includes tutor personality + DoS focus context via new DB helper.
+- **Files touched:** Major updates across `apps/web/src/db/schema.ts`, `apps/web/src/db/{seed.ts,seed-reference.ts}`, multiple `apps/web/src/app/api/**` routes (`session/*`, `student/*`, `reference/*`, `tutor-config`, `progress/overview`, `dos-chat`, `calendar/*`, `parent/*`), UI pages (`dashboard`, `calendar`, `onboarding/subjects`, `settings/tutors`, `parent/dashboard`, `parent/settings`), components (`EnrolmentWizard`, `TutorConfigManager`, `DoSChat`, `CalendarPlanner`, `ParentRestrictionsManager`, `StudentInviteCode`), and agent files (`apps/agent/app/{main.py,agent_worker.py,db.py,prompts.py}`), plus `README.md`.
+- **Follow-up:** Run DB push + seed commands before runtime (`npm run db:push`, `npm run db:seed:reference`, `npm run db:seed` in `apps/web`), then rebuild/restart containers for agent/web compatibility and validate end-to-end auth/session calendar flows in browser.

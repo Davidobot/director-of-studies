@@ -1,11 +1,30 @@
 import Link from "next/link";
-import { desc, eq } from "drizzle-orm";
+import { and, desc, eq } from "drizzle-orm";
 import { db } from "@/db";
 import { courses, sessions, topics } from "@/db/schema";
+import { redirect } from "next/navigation";
+import { getServerUser } from "@/lib/supabase/server";
+import { getStudentContext } from "@/lib/student";
 
 export const dynamic = "force-dynamic";
 
 export default async function SessionsPage() {
+  const user = await getServerUser();
+  if (!user) redirect("/login");
+
+  const studentContext = await getStudentContext(user.id);
+  if (!studentContext) {
+    redirect("/onboarding");
+  }
+
+  if (studentContext.accountType === "parent") {
+    redirect("/");
+  }
+
+  if (!studentContext.studentId) {
+    redirect("/onboarding");
+  }
+
   const rows = await db
     .select({
       id: sessions.id,
@@ -17,6 +36,7 @@ export default async function SessionsPage() {
     .from(sessions)
     .innerJoin(courses, eq(sessions.courseId, courses.id))
     .innerJoin(topics, eq(sessions.topicId, topics.id))
+    .where(and(eq(sessions.studentId, studentContext.studentId)))
     .orderBy(desc(sessions.createdAt));
 
   return (

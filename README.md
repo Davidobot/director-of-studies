@@ -54,11 +54,23 @@ cp .env.example .env
 |---|---|---|
 | `OPENAI_API_KEY` | Yes | — |
 | `DEEPGRAM_API_KEY` | Yes | — |
+| `NEXT_PUBLIC_SUPABASE_URL` | Yes | — |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Yes | — |
+| `SUPABASE_SERVICE_ROLE_KEY` | No (reserved for upcoming admin/parent features) | — |
 | `AGENT_OPENAI_MODEL` | No | `gpt-4o` |
 | `SUMMARY_OPENAI_MODEL` | No | `gpt-4o-mini` |
 | `DEEPGRAM_STT_MODEL` | No | `flux-general-en` |
 | `DEEPGRAM_TTS_MODEL` | No | `aura-2-draco-en` |
 | `SILENCE_NUDGE_AFTER_S` | No | `3.0` |
+
+4. Apply DB schema and seed reference data:
+
+```bash
+cd apps/web
+npm run db:push
+npm run db:seed:reference
+npm run db:seed
+```
 
 > Model settings can also be changed per-session on the home page UI.
 
@@ -131,13 +143,25 @@ make logs     # tail all logs
 
 ## Usage flow
 
-1. On Home page, choose Course and Topic.
-2. Click **Join Call**.
-3. Browser joins LiveKit room; agent joins as `TutorBot`.
-4. Speak into mic and receive voice responses.
-5. Live transcript appears on call page.
-6. Click **End Call** to finalize transcript and generate summary.
-7. Go to **Session History** (`/sessions`) and open session details.
+1. Create an account at `/signup` and choose Student or Parent/Guardian.
+2. Complete onboarding at `/onboarding`.
+	- Students provide date of birth and UK school year.
+	- Parents/guardians can optionally link a student immediately using the student account email.
+3. Student accounts: choose Course and Topic on Home, then click **Join Call**.
+4. Browser joins LiveKit room; the tutor agent joins the same room.
+5. Speak into mic and receive voice responses.
+6. Live transcript appears on call page.
+7. Click **End Call** to finalize transcript and generate summary.
+8. Open **Session History** (`/sessions`) for your own sessions.
+
+## New user flows
+
+- Student dashboard: `/dashboard`
+- Student subject enrolment: `/onboarding/subjects`
+- Tutor per-subject voice/personality: `/settings/tutors`
+- Calendar scheduling: `/calendar`
+- Parent dashboard: `/parent/dashboard`
+- Parent controls/restrictions: `/parent/settings`
 
 ## Ingestion (RAG)
 
@@ -171,6 +195,18 @@ Retrieval filters by `course_id` and `topic_id` and returns top `k=5` chunks.
 - `POST /api/session/end` -> end session and generate summary
 - `GET /api/sessions` -> list sessions
 - `GET /api/sessions/:id` -> session detail (transcript + summary)
+- `GET /api/parent/links` -> list parent-linked students
+- `POST /api/parent/links` -> link a student to parent by student email
+- `GET /api/reference/board-subjects` -> list UK board/subject mappings
+- `GET/POST/DELETE /api/student/enrolments` -> student enrolment management
+- `GET/PUT /api/tutor-config` -> per-subject tutor configuration
+- `GET /api/progress/overview` -> dashboard progress aggregates
+- `GET/POST /api/dos-chat` -> Director of Studies chat threads/messages
+- `GET/POST /api/calendar` -> list/create tutorial schedule
+- `PUT/DELETE /api/calendar/:id` -> update/cancel schedules
+- `GET/PUT /api/parent/restrictions` -> parent restriction settings + mandatory revision tasks
+- `GET /api/student/invite-code` -> generate student invite code for parent linking
+- `POST /api/parent/link-code` -> link parent using student invite code
 
 ## Troubleshooting
 

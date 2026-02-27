@@ -12,7 +12,7 @@ from livekit.agents import llm
 from livekit.agents.voice import Agent, AgentSession, room_io
 from livekit.plugins import deepgram, openai as lk_openai, silero
 
-from .db import get_course_topic_names, get_topic_vocabulary, upsert_transcript
+from .db import get_course_topic_names, get_student_focus_context, get_topic_vocabulary, upsert_transcript
 from .prompts import build_system_prompt
 from .rag import retrieve_chunks
 
@@ -94,7 +94,18 @@ def _build_stt(
 
 
 class TutorAgent(Agent):
-    def __init__(self, *, course_id: int, topic_id: int, course_name: str, topic_name: str) -> None:
+    def __init__(
+        self,
+        *,
+        course_id: int,
+        topic_id: int,
+        course_name: str,
+        topic_name: str,
+        tutor_name: str,
+        personality_prompt: str,
+        repeat_flags: list[str],
+        recommended_focus: list[str],
+    ) -> None:
         super().__init__(
             instructions=(
                 f"You are a Director of Studies tutor for {course_name} and topic {topic_name}. "
@@ -105,6 +116,10 @@ class TutorAgent(Agent):
         self._topic_id = topic_id
         self._course_name = course_name
         self._topic_name = topic_name
+        self._tutor_name = tutor_name
+        self._personality_prompt = personality_prompt
+        self._repeat_flags = repeat_flags
+        self._recommended_focus = recommended_focus
 
     @staticmethod
     def _format_references(chunks: list[dict[str, Any]]) -> str:
@@ -116,7 +131,15 @@ class TutorAgent(Agent):
         latest_user = new_message.text_content or ""
         chunks = retrieve_chunks(latest_user, self._course_id, self._topic_id)
         references = self._format_references(chunks)
-        system_prompt = build_system_prompt(self._course_name, self._topic_name, references)
+        system_prompt = build_system_prompt(
+            self._course_name,
+            self._topic_name,
+            references,
+            tutor_name=self._tutor_name,
+            personality_prompt=self._personality_prompt,
+            repeat_flags=self._repeat_flags,
+            recommended_focus=self._recommended_focus,
+        )
 
         filtered_items = [
             item
@@ -137,6 +160,14 @@ async def run_agent_session(
     course_id: int,
     topic_id: int,
     *,
+    student_id: str | None = None,
+    enrolment_id: int | None = None,
+    tutor_name: str | None = None,
+    personality_prompt: str | None = None,
+    tutor_voice_model: str | None = None,
+    tutor_tts_speed: str | None = None,
+    repeat_flags: list[dict[str, Any]] | None = None,
+    recommended_focus: list[str] | None = None,
     agent_openai_model: str | None = None,
     deepgram_stt_model: str | None = None,
     deepgram_tts_model: str | None = None,
@@ -154,8 +185,10 @@ async def run_agent_session(
         # Resolve per-call model overrides, falling back to module-level env defaults.
         _openai_model = agent_openai_model or AGENT_OPENAI_MODEL
         _stt_model = deepgram_stt_model or DEEPGRAM_STT_MODEL
-        _tts_model = deepgram_tts_model or DEEPGRAM_TTS_MODEL
+        _tts_model = tutor_voice_model or deepgram_tts_model or DEEPGRAM_TTS_MODEL
         _silence_nudge = silence_nudge_after_s if silence_nudge_after_s is not None else SILENCE_NUDGE_AFTER_S
+        _tutor_name = (tutor_name or "TutorBot").strip() or "TutorBot"
+        _personality_prompt = (personality_prompt or "Be warm, concise, and Socratic.").strip() or "Be warm, concise, and Socratic."
         # Tracks when agent last finished speaking and when student last replied,
         # used by the silence watchdog to prompt unresponsive students.
         _silence_state: dict[str, float | None] = {"last_agent": None, "last_student": 0.0}
@@ -181,12 +214,30 @@ async def run_agent_session(
 
         course_name, topic_name = get_course_topic_names(course_id, topic_id)
         topic_vocabulary = await asyncio.to_thread(get_topic_vocabulary, course_id, topic_id)
+        db_repeat_flags: list[str] = []
+        db_recommended_focus: list[str] = []
+
+        if student_id and enrolment_id:
+            db_repeat_flags, db_recommended_focus = await asyncio.to_thread(
+                get_student_focus_context,
+                student_id,
+                enrolment_id,
+            )
+
+        payload_repeat_flags = [str(item.get("concept", "")).strip() for item in (repeat_flags or []) if isinstance(item, dict)]
+        payload_repeat_flags = [item for item in payload_repeat_flags if item]
+        final_repeat_flags = payload_repeat_flags or db_repeat_flags
+        final_recommended_focus = [str(item).strip() for item in (recommended_focus or []) if str(item).strip()] or db_recommended_focus
 
         tutor_agent = TutorAgent(
             course_id=course_id,
             topic_id=topic_id,
             course_name=course_name,
             topic_name=topic_name,
+            tutor_name=_tutor_name,
+            personality_prompt=_personality_prompt,
+            repeat_flags=final_repeat_flags,
+            recommended_focus=final_recommended_focus,
         )
 
         _llm_kwargs: dict[str, Any] = {"model": _openai_model}
@@ -277,7 +328,7 @@ async def run_agent_session(
         _watchdog_task = asyncio.create_task(_silence_watchdog())
 
         await session.say(
-            f"Hi! I'm your Director of Studies tutor for {course_name}, topic {topic_name}. What would you like to focus on first?",
+            f"Hi! I'm {_tutor_name}, your tutor for {course_name}, topic {topic_name}. What would you like to focus on first?",
             allow_interruptions=True,
         )
 

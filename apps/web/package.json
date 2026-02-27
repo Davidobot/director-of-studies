@@ -9,12 +9,16 @@
     "lint": "next lint",
     "db:generate": "drizzle-kit generate",
     "db:push": "drizzle-kit push",
-    "db:seed": "tsx src/db/seed.ts"
+    "db:seed": "tsx src/db/seed.ts",
+    "db:seed:reference": "tsx src/db/seed-reference.ts"
   },
   "dependencies": {
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.49.1",
     "@livekit/components-react": "^2.9.10",
     "@livekit/components-styles": "^1.1.6",
     "drizzle-orm": "^0.40.0",
+    "dotenv": "^16.4.7",
     "livekit-client": "^2.15.7",
     "livekit-server-sdk": "^2.13.1",
     "next": "14.2.16",

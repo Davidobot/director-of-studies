@@ -1,7 +1,10 @@
 import ReactMarkdown from "react-markdown";
-import { eq } from "drizzle-orm";
+import { and, eq } from "drizzle-orm";
 import { db } from "@/db";
 import { courses, sessionSummaries, sessionTranscripts, sessions, topics } from "@/db/schema";
+import { redirect } from "next/navigation";
+import { getServerUser } from "@/lib/supabase/server";
+import { getStudentContext } from "@/lib/student";
 
 export const dynamic = "force-dynamic";
 
@@ -19,6 +22,22 @@ function SummaryPending() {
 }
 
 export default async function SessionDetailPage({ params }: { params: { id: string } }) {
+  const user = await getServerUser();
+  if (!user) redirect("/login");
+
+  const studentContext = await getStudentContext(user.id);
+  if (!studentContext) {
+    redirect("/onboarding");
+  }
+
+  if (studentContext.accountType === "parent") {
+    redirect("/");
+  }
+
+  if (!studentContext.studentId) {
+    redirect("/onboarding");
+  }
+
   const rows = await db
     .select({
       id: sessions.id,
@@ -39,7 +58,7 @@ export default async function SessionDetailPage({ params }: { params: { id: stri
     .innerJoin(topics, eq(sessions.topicId, topics.id))
     .leftJoin(sessionTranscripts, eq(sessionTranscripts.sessionId, sessions.id))
     .leftJoin(sessionSummaries, eq(sessionSummaries.sessionId, sessions.id))
-    .where(eq(sessions.id, params.id));
+    .where(and(eq(sessions.id, params.id), eq(sessions.studentId, studentContext.studentId)));
 
   const session = rows[0];
 
