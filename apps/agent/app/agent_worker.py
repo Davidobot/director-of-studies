@@ -12,7 +12,7 @@ from livekit.agents import llm
 from livekit.agents.voice import Agent, AgentSession, room_io
 from livekit.plugins import deepgram, openai as lk_openai, silero
 
-from .db import get_course_topic_names, upsert_transcript
+from .db import get_course_topic_names, get_topic_vocabulary, upsert_transcript
 from .prompts import build_system_prompt
 from .rag import retrieve_chunks
 
@@ -21,6 +21,20 @@ AGENT_OPENAI_MODEL = os.environ.get("AGENT_OPENAI_MODEL", "gpt-4o")
 DEEPGRAM_STT_MODEL = os.environ.get("DEEPGRAM_STT_MODEL", "flux")
 DEEPGRAM_TTS_MODEL = os.environ.get("DEEPGRAM_TTS_MODEL", "aura-2-draco-en")
 SILENCE_NUDGE_AFTER_S = float(os.environ.get("SILENCE_NUDGE_AFTER_S", "3.0"))
+# Base URL for Deepgram API.  Defaults to the EU deployment.
+# Set to https://api.deepgram.com for US, or any self-hosted endpoint.
+DEEPGRAM_API_URL = os.environ.get("DEEPGRAM_API_URL", "https://api.eu.deepgram.com").rstrip("/")
+# Optional base URL override for OpenAI-compatible endpoints (e.g. Azure OpenAI
+# in uksouth/swedencentral).  Leave blank to use the default OpenAI global API.
+OPENAI_BASE_URL: str | None = os.environ.get("OPENAI_BASE_URL") or None
+
+
+def _deepgram_url(path: str, *, websocket: bool = False) -> str:
+    """Build a full Deepgram endpoint URL from the configured base."""
+    base = DEEPGRAM_API_URL
+    if websocket:
+        base = base.replace("https://", "wss://", 1).replace("http://", "ws://", 1)
+    return f"{base}{path}"
 
 
 def _resolve_stt_model(model: str) -> str:
@@ -37,21 +51,46 @@ def _resolve_tts_model(model: str) -> str:
     return model.strip()
 
 
-def _build_stt(http_session: aiohttp.ClientSession, model: str) -> Any:
+def _build_stt(
+    http_session: aiohttp.ClientSession,
+    model: str,
+    keywords: list[str] | None = None,
+) -> Any:
     resolved = _resolve_stt_model(model)
     normalized = resolved.strip().lower()
+    kw = keywords or []
 
     if normalized.startswith("flux"):
         stt_v2 = getattr(deepgram, "STTv2", None)
         if stt_v2 is not None:
             try:
-                return stt_v2(model=resolved, http_session=http_session)
+                kwargs: dict[str, Any] = {
+                    "model": resolved,
+                    "http_session": http_session,
+                    "base_url": _deepgram_url("/v2/listen", websocket=True),
+                }
+                if kw:
+                    kwargs["keyterm"] = kw
+                return stt_v2(**kwargs)
             except TypeError:
                 return stt_v2(model=resolved)
 
         return None
 
-    return deepgram.STT(model=resolved, http_session=http_session)
+    # nova-2 and other legacy models: keywords as (word, boost) tuples
+    kw_tuples: list[tuple[str, float]] = [(w, 1.0) for w in kw]
+    if kw_tuples:
+        return deepgram.STT(
+            model=resolved,
+            http_session=http_session,
+            keywords=kw_tuples,
+            base_url=_deepgram_url("/v1/listen"),
+        )
+    return deepgram.STT(
+        model=resolved,
+        http_session=http_session,
+        base_url=_deepgram_url("/v1/listen"),
+    )
 
 
 class TutorAgent(Agent):
@@ -141,6 +180,7 @@ async def run_agent_session(
                 return
 
         course_name, topic_name = get_course_topic_names(course_id, topic_id)
+        topic_vocabulary = await asyncio.to_thread(get_topic_vocabulary, course_id, topic_id)
 
         tutor_agent = TutorAgent(
             course_id=course_id,
@@ -149,11 +189,19 @@ async def run_agent_session(
             topic_name=topic_name,
         )
 
+        _llm_kwargs: dict[str, Any] = {"model": _openai_model}
+        if OPENAI_BASE_URL:
+            _llm_kwargs["base_url"] = OPENAI_BASE_URL
+
         session = AgentSession(
-            stt=_build_stt(http_session, _stt_model),
+            stt=_build_stt(http_session, _stt_model, topic_vocabulary),
             vad=silero.VAD.load(),
-            llm=lk_openai.LLM(model=_openai_model),
-            tts=deepgram.TTS(model=_resolve_tts_model(_tts_model), http_session=http_session),
+            llm=lk_openai.LLM(**_llm_kwargs),
+            tts=deepgram.TTS(
+                model=_resolve_tts_model(_tts_model),
+                http_session=http_session,
+                base_url=_deepgram_url("/v1/speak"),
+            ),
             turn_detection="stt",
         )
 

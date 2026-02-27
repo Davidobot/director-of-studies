@@ -94,6 +94,15 @@ ingest:
 	  CONTENT_DIR="$(PWD)/content" \
 	  $(PWD)/$(AGENT_PY) scripts/ingest.py
 
+# Apply incremental DB schema changes to a running Postgres instance.
+# Safe to run multiple times — all statements use IF NOT EXISTS / IF EXISTS guards.
+.PHONY: db-migrate
+db-migrate:
+	docker exec dos-postgres psql \
+	  -U "$(POSTGRES_USER)" -d "$(POSTGRES_DB)" \
+	  -c "ALTER TABLE topics ADD COLUMN IF NOT EXISTS stt_keywords jsonb DEFAULT '[]';"
+	@echo "Migration applied."
+
 # ---------------------------------------------------------------------------
 # Single-command local dev  (all three processes in one terminal)
 # ---------------------------------------------------------------------------

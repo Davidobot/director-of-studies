@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { RoomEvent, type Room } from "livekit-client";
 
 type TranscriptItem = {
@@ -11,6 +11,7 @@ type TranscriptItem = {
 
 export function LiveTranscript({ room }: { room: Room | undefined }) {
   const [items, setItems] = useState<TranscriptItem[]>([]);
+  const bottomRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!room) return;
@@ -32,6 +33,10 @@ export function LiveTranscript({ room }: { room: Room | undefined }) {
     };
   }, [room]);
 
+  useEffect(() => {
+    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+  }, [items]);
+
   return (
     <div className="h-80 overflow-y-auto rounded-md border border-slate-800 bg-slate-900 p-3">
       {items.length === 0 ? <p className="text-sm text-slate-400">Transcript will appear here...</p> : null}
@@ -44,6 +49,7 @@ export function LiveTranscript({ room }: { room: Room | undefined }) {
           </li>
         ))}
       </ul>
+      <div ref={bottomRef} />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import os
 from pathlib import Path
 
@@ -8,7 +9,7 @@ from openai import OpenAI
 
 DATABASE_URL = os.environ.get("DATABASE_URL", "")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
-CONTENT_ROOT = Path("/content")
+CONTENT_ROOT = Path(os.environ.get("CONTENT_DIR", "/content"))
 
 openai_client = OpenAI(api_key=OPENAI_API_KEY)
 
@@ -52,6 +53,9 @@ def ingest() -> None:
                 topic_id = int(topic_dir.name)
 
                 for source_file in sorted(topic_dir.glob("*.md")) + sorted(topic_dir.glob("*.txt")):
+                    # keywords.txt is processed separately below — skip it here.
+                    if source_file.name == "keywords.txt":
+                        continue
                     source_path = str(source_file)
                     title = source_file.stem.replace("-", " ").title()
 
@@ -87,6 +91,25 @@ def ingest() -> None:
 
                     conn.commit()
                     print(f"Ingested {source_path} ({len(chunks)} chunks)")
+
+                # Upsert STT keywords from keywords.txt at the topic level.
+                # Processed here (inside the topic loop) so it runs once per topic
+                # even when no new .md files were ingested.
+                keywords_file = topic_dir / "keywords.txt"
+                if keywords_file.exists():
+                    raw_lines = keywords_file.read_text(encoding="utf-8").splitlines()
+                    keywords = [
+                        line.strip()
+                        for line in raw_lines
+                        if line.strip() and not line.startswith("#")
+                    ]
+                    if keywords:
+                        cur.execute(
+                            "UPDATE topics SET stt_keywords = %s::jsonb WHERE id = %s",
+                            (json.dumps(keywords), topic_id),
+                        )
+                        conn.commit()
+                        print(f"Seeded {len(keywords)} STT keywords for topic {topic_id}")
 
 
 if __name__ == "__main__":

@@ -10,6 +10,7 @@ export const topics = pgTable("topics", {
   id: serial("id").primaryKey(),
   courseId: integer("course_id").notNull().references(() => courses.id, { onDelete: "cascade" }),
   name: text("name").notNull(),
+  sttKeywords: jsonb("stt_keywords").default(sql`'[]'::jsonb`),
 }, (table) => ({
   courseIdx: index("topics_course_idx").on(table.courseId),
 }));

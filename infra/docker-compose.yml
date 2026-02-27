@@ -78,6 +78,8 @@ services:
       DEEPGRAM_API_KEY: ${DEEPGRAM_API_KEY}
       DEEPGRAM_STT_MODEL: ${DEEPGRAM_STT_MODEL:-flux-general-en}
       DEEPGRAM_TTS_MODEL: ${DEEPGRAM_TTS_MODEL:-aura-2-draco-en}
+      DEEPGRAM_API_URL: ${DEEPGRAM_API_URL:-https://api.eu.deepgram.com}
+      OPENAI_BASE_URL: ${OPENAI_BASE_URL:-}
       SILENCE_NUDGE_AFTER_S: ${SILENCE_NUDGE_AFTER_S:-3.0}
       PYTHONUNBUFFERED: "1"
     depends_on:

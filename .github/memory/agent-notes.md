@@ -96,3 +96,21 @@ Use this file as shared working memory across tasks.
 - **Decision (plain speech):** Removed the citation rule from `build_system_prompt` entirely; added an explicit rule forbidding all markdown/citation punctuation.
 - **Files touched:** `apps/agent/app/prompts.py`, `apps/agent/app/agent_worker.py`, `infra/docker-compose.yml`.
 - **Follow-up:** `SILENCE_NUDGE_AFTER_S` defaults to 3.0 s; tune via env var. If LLM still produces markdown, consider a post-processing strip step on LLM output before TTS.
+
+### 2026-02-27 (STT topic vocabulary hints)
+- **Context:** Deepgram STT confused "Lenin" with "Lennon" — common proper nouns specific to GCSE/A-level content aren't in the base acoustic model vocabulary.
+- **Discovery:** `deepgram.STTv2` (Flux) accepts `keyterm: list[str]`; `deepgram.STT` (nova-2) accepts `keywords: list[tuple[str, float]]`. Both are set at construction time and emitted in the WebSocket URL query string.
+- **Decision:** Added `get_topic_vocabulary(course_id, topic_id)` to `db.py`: fetches all chunk content for the topic and extracts unique capitalized mid-sentence words (proper nouns) via regex. Called in `run_agent_session` after `get_course_topic_names`, result passed to `_build_stt` as `keywords: list[str]`. Capped at 60 terms. `_build_stt` maps to the correct Deepgram parameter (`keyterm` for Flux, `keywords` tuples for STT).
+- **Files touched:** `apps/agent/app/db.py`, `apps/agent/app/agent_worker.py`.
+- **Follow-up:** Rebuild `agent` container and verify Deepgram WS URL contains `keyterm=Lenin` (or similar) after joining a Russia/Soviet topic session.
+
+### 2026-02-27 (STT vocabulary — explicit keywords.txt structure)
+- **Context:** Previous regex approach was fragile and non-deterministic. User wanted a predictable, authoritative vocabulary source.
+- **Decision:** Replaced regex heuristic with an explicit file-and-DB pipeline:
+  1. `content/{courseId}/{topicId}/keywords.txt` — one term per line, `#` lines ignored. This is where content authors add names and specialist terms.
+  2. `ingest.py` reads `keywords.txt` per topic dir (skipped from chunk ingestion) and upserts the list into `topics.stt_keywords jsonb`.
+  3. `get_topic_vocabulary` in `db.py` now just queries `topics.stt_keywords` — no regex, no chunk scanning.
+  4. `init.sql` adds the column with `ALTER TABLE IF EXISTS … ADD COLUMN IF NOT EXISTS` (safe for re-runs).
+  5. `make db-migrate` applies the ALTER TABLE to a running Postgres instance.
+- **Files touched:** `content/1/1/keywords.txt` (new), `content/1/2/keywords.txt` (new), `infra/db/init.sql`, `apps/web/src/db/schema.ts`, `apps/agent/scripts/ingest.py`, `apps/agent/app/db.py`, `Makefile`.
+- **Follow-up:** Run `make db-migrate` then `make ingest` on existing environments. New environments get the column from `init.sql` automatically.

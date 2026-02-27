@@ -9,8 +9,12 @@ from openai import OpenAI
 
 DATABASE_URL = os.environ.get("DATABASE_URL", "")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
+_OPENAI_BASE_URL: str | None = os.environ.get("OPENAI_BASE_URL") or None
 
-openai_client = OpenAI(api_key=OPENAI_API_KEY)
+_openai_kwargs: dict = {"api_key": OPENAI_API_KEY}
+if _OPENAI_BASE_URL:
+    _openai_kwargs["base_url"] = _OPENAI_BASE_URL
+openai_client = OpenAI(**_openai_kwargs)
 
 
 def get_conn() -> psycopg.Connection:
@@ -49,3 +53,28 @@ def get_course_topic_names(course_id: int, topic_id: int) -> tuple[str, str]:
         cur.execute("SELECT name FROM topics WHERE id = %s", (topic_id,))
         topic = cur.fetchone()
     return (course[0] if course else f"course-{course_id}", topic[0] if topic else f"topic-{topic_id}")
+
+
+def get_topic_vocabulary(course_id: int, topic_id: int) -> list[str]:
+    """Return STT hint keywords for a topic.
+
+    Populated by the ingest script from the topic's ``keywords.txt`` file
+    and stored in ``topics.stt_keywords``.  Returns an empty list if no
+    keywords have been ingested yet.
+    """
+    with get_conn() as conn, conn.cursor() as cur:
+        cur.execute(
+            "SELECT stt_keywords FROM topics WHERE id = %s",
+            (topic_id,),
+        )
+        row = cur.fetchone()
+
+    if not row or not row[0]:
+        return []
+    # psycopg3 deserialises jsonb to a Python object automatically.
+    value = row[0]
+    if isinstance(value, list):
+        return [str(v) for v in value if v]
+    if isinstance(value, str):
+        return [str(v) for v in json.loads(value) if v]
+    return []

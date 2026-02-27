@@ -1,0 +1,33 @@
+# STT vocabulary hints for Elizabethan England (GCSE History AQA).
+# One term per line. Used by the ingest script to populate topics.stt_keywords
+# and injected into Deepgram at the start of every session for this topic.
+# Add proper nouns, specialist terms, and names that an STT model might mishear.
+
+Elizabeth
+Walsingham
+Drake
+Raleigh
+Armada
+Burghley
+Babington
+Ridolfi
+Throckmorton
+Hawkins
+Philip
+Puritans
+Protestant
+Catholic
+Reformation
+Privy
+Parliament
+Supremacy
+Uniformity
+Netherlands
+Privateering
+Tudor
+Somerset
+Norfolk
+Recusancy
+excommunication
+Papal
+Gloriana

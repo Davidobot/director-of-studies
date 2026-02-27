@@ -1,0 +1,33 @@
+# STT vocabulary hints for An Inspector Calls (GCSE English Literature AQA).
+# One term per line. Populated into topics.stt_keywords by make ingest.
+
+Priestley
+Goole
+Birling
+Arthur
+Sybil
+Sheila
+Gerald
+Croft
+Eva
+Smith
+Daisy
+Renton
+Brumley
+Inspector
+Edwardian
+capitalism
+socialism
+Welfare
+didactic
+dramatic
+irony
+prosody
+Attlee
+naturalistic
+omniscient
+philanthropy
+proletariat
+bourgeois
+collectivism
+individualism
