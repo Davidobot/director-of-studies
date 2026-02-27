@@ -257,3 +257,17 @@ Use this file as shared working memory across tasks.
 - **Files touched:** `apps/web/src/db/seed.ts` (deleted), `apps/web/src/db/seed-reference.ts` (deleted), `apps/web/package.json`, `apps/web/entrypoint.sh`, `.github/memory/agent-notes.md`.
 - **Follow-up:** Refresh web lockfile (`apps/web/package-lock.json`) after dependency/script removal if this workspace uses committed lockfiles.
 
+### 2026-02-27 (agent startup fix — missing psycopg_pool in local venv)
+- **Context:** Runtime crashed on startup with `ModuleNotFoundError: No module named 'psycopg_pool'` from `apps/agent/app/db.py` import path.
+- **Discovery:** Repo dependency files already include `psycopg-pool==3.2.4` (`apps/agent/requirements.txt`, `apps/agent/pyproject.toml`); local `apps/agent/.venv` was stale and had not installed that package yet.
+- **Decision:** Installed/updated agent dependencies in-place using `apps/agent/.venv/bin/python -m pip install -r apps/agent/requirements.txt`; verified imports with `apps/agent/.venv/bin/python -c "from psycopg_pool import AsyncConnectionPool, ConnectionPool"` and `apps/agent/.venv/bin/python -c "import app.main"`.
+- **Files touched:** `.github/memory/agent-notes.md`.
+- **Follow-up:** If this reappears after dependency changes, rerun `make venv` (or re-run pip install in `apps/agent/.venv`) before starting `make agent`/`make local`.
+
+### 2026-02-27 (Next 16 params Promise fix on call/session pages)
+- **Context:** Runtime error in call route: `params` accessed synchronously (`params.sessionId`) under Next 16 dynamic APIs, plus call page requested `/api/sessions/undefined`.
+- **Discovery:** `apps/web/src/app/call/[sessionId]/page.tsx` was typed with sync `params` and still used removed TS API route path (`/api/sessions/:id`). `apps/web/src/app/sessions/[id]/page.tsx` also used sync `params` in server component.
+- **Decision:** Updated call page to unwrap params via `use(params)` (`params: Promise<{ sessionId: string }>`), switched session fetch to direct Python API using `apiFetch(..., { userScope: 'studentId' })`, and updated session detail page to `await params` (`params: Promise<{ id: string }>`).
+- **Files touched:** `apps/web/src/app/call/[sessionId]/page.tsx`, `apps/web/src/app/sessions/[id]/page.tsx`, `.github/memory/agent-notes.md`.
+- **Follow-up:** If similar errors appear on other dynamic routes, apply the same Promise-unwrapping pattern (`use(params)` in client components, `await params` in server components).
+

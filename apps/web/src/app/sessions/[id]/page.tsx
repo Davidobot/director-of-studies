@@ -21,7 +21,8 @@ function SummaryPending() {
   );
 }
 
-export default async function SessionDetailPage({ params }: { params: { id: string } }) {
+export default async function SessionDetailPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const user = await getServerUser();
   if (!user) redirect("/login");
 
@@ -58,7 +59,7 @@ export default async function SessionDetailPage({ params }: { params: { id: stri
     .innerJoin(topics, eq(sessions.topicId, topics.id))
     .leftJoin(sessionTranscripts, eq(sessionTranscripts.sessionId, sessions.id))
     .leftJoin(sessionSummaries, eq(sessionSummaries.sessionId, sessions.id))
-    .where(and(eq(sessions.id, params.id), eq(sessions.studentId, studentContext.studentId)));
+    .where(and(eq(sessions.id, id), eq(sessions.studentId, studentContext.studentId)));
 
   const session = rows[0];
 

@@ -1,9 +1,10 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { use, useEffect, useState } from "react";
 import { LiveKitRoom, RoomAudioRenderer, useRoomContext } from "@livekit/components-react";
 import { CallControls } from "@/components/CallControls";
 import { LiveTranscript } from "@/components/LiveTranscript";
+import { apiFetch } from "@/lib/api-client";
 
 type SessionResponse = {
   session: {
@@ -25,19 +26,20 @@ function CallInner({ sessionId }: { sessionId: string }) {
   );
 }
 
-export default function CallPage({ params }: { params: { sessionId: string } }) {
+export default function CallPage({ params }: { params: Promise<{ sessionId: string }> }) {
+  const { sessionId } = use(params);
   const [session, setSession] = useState<SessionResponse["session"] | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch(`/api/sessions/${params.sessionId}`)
+    apiFetch(`/api/sessions/${sessionId}`, { userScope: "studentId" })
       .then(async (response) => {
         if (!response.ok) throw new Error("Failed to load session");
         return response.json();
       })
       .then((data: SessionResponse) => setSession(data.session))
       .catch((err) => setError(err.message));
-  }, [params.sessionId]);
+  }, [sessionId]);
 
   if (error) return <p className="text-red-400">{error}</p>;
   if (!session?.participantToken) return <p>Connecting...</p>;
@@ -51,7 +53,7 @@ export default function CallPage({ params }: { params: { sessionId: string } }) 
       video={false}
       className="space-y-4"
     >
-      <CallInner sessionId={params.sessionId} />
+      <CallInner sessionId={sessionId} />
     </LiveKitRoom>
   );
 }
