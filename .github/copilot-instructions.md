@@ -18,10 +18,10 @@ Director of Studies is a local-first MVP voice tutor for GCSE/A-level Humanities
 - Agent joins same room as `TutorBot`
 - Transcript updates flow during call; transcript + summary saved and exposed via session pages
 
-## Planning prompt for agents
+## Planning prompt for agents (required)
 Agents when in planning mode should refer to:
 
-`/.github/memory/review-plan.prompt.md`
+`/.github/prompts/review-plan.prompt.md`
 
 To structure their approach and answer.
 
@@ -37,6 +37,7 @@ This is the single source for discoveries, implementation notes, decisions, and 
 
 1. **Before starting any task**
    - Read `/.github/memory/agent-notes.md` and use relevant prior discoveries.
+   - Check if you're in planning mode and refer to `/.github/prompts/review-plan.prompt.md` if so.
 
 2. **While working**
    - Record important findings (dependency quirks, runtime issues, API constraints, edge cases).

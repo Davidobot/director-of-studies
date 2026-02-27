@@ -7,8 +7,15 @@ export const dynamic = "force-dynamic";
 
 export async function POST(request: Request) {
   try {
-    const body = (await request.json()) as { sessionId: string };
-    const session = await db.select().from(sessions).where(eq(sessions.id, body.sessionId));
+    const body = (await request.json()) as {
+      sessionId: string;
+      agentOpenAIModel?: string;
+      deepgramSttModel?: string;
+      deepgramTtsModel?: string;
+      silenceNudgeAfterS?: number;
+    };
+    const { sessionId, agentOpenAIModel, deepgramSttModel, deepgramTtsModel, silenceNudgeAfterS } = body;
+    const session = await db.select().from(sessions).where(eq(sessions.id, sessionId));
 
     if (session.length === 0) {
       return NextResponse.json({ error: "Session not found" }, { status: 404 });
@@ -24,6 +31,10 @@ export async function POST(request: Request) {
         sessionId: current.id,
         courseId: current.courseId,
         topicId: current.topicId,
+        ...(agentOpenAIModel !== undefined && { agentOpenAIModel }),
+        ...(deepgramSttModel !== undefined && { deepgramSttModel }),
+        ...(deepgramTtsModel !== undefined && { deepgramTtsModel }),
+        ...(silenceNudgeAfterS !== undefined && { silenceNudgeAfterS }),
       }),
     });
 
@@ -45,7 +56,7 @@ export async function POST(request: Request) {
     await db
       .update(sessions)
       .set({ status: "live", startedAt: new Date() })
-      .where(eq(sessions.id, body.sessionId));
+      .where(eq(sessions.id, sessionId));
 
     return NextResponse.json({ ok: true });
   } catch (error) {

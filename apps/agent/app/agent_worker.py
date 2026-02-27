@@ -20,6 +20,7 @@ LIVEKIT_URL = os.environ.get("LIVEKIT_URL", "ws://livekit:7880")
 AGENT_OPENAI_MODEL = os.environ.get("AGENT_OPENAI_MODEL", "gpt-4o")
 DEEPGRAM_STT_MODEL = os.environ.get("DEEPGRAM_STT_MODEL", "flux")
 DEEPGRAM_TTS_MODEL = os.environ.get("DEEPGRAM_TTS_MODEL", "aura-2-draco-en")
+SILENCE_NUDGE_AFTER_S = float(os.environ.get("SILENCE_NUDGE_AFTER_S", "3.0"))
 
 
 def _resolve_stt_model(model: str) -> str:
@@ -36,21 +37,21 @@ def _resolve_tts_model(model: str) -> str:
     return model.strip()
 
 
-def _build_stt(http_session: aiohttp.ClientSession) -> Any:
-    model = _resolve_stt_model(DEEPGRAM_STT_MODEL)
-    normalized = model.strip().lower()
+def _build_stt(http_session: aiohttp.ClientSession, model: str) -> Any:
+    resolved = _resolve_stt_model(model)
+    normalized = resolved.strip().lower()
 
     if normalized.startswith("flux"):
         stt_v2 = getattr(deepgram, "STTv2", None)
         if stt_v2 is not None:
             try:
-                return stt_v2(model=model, http_session=http_session)
+                return stt_v2(model=resolved, http_session=http_session)
             except TypeError:
-                return stt_v2(model=model)
+                return stt_v2(model=resolved)
 
         return None
 
-    return deepgram.STT(model=model, http_session=http_session)
+    return deepgram.STT(model=resolved, http_session=http_session)
 
 
 class TutorAgent(Agent):
@@ -96,14 +97,30 @@ async def run_agent_session(
     session_id: str,
     course_id: int,
     topic_id: int,
+    *,
+    agent_openai_model: str | None = None,
+    deepgram_stt_model: str | None = None,
+    deepgram_tts_model: str | None = None,
+    silence_nudge_after_s: float | None = None,
 ) -> None:
     room = rtc.Room()
     transcript_items: list[dict[str, Any]] = []
     http_session = aiohttp.ClientSession()
     persist_lock = asyncio.Lock()
     session: AgentSession | None = None
+    _watchdog_task: asyncio.Task[None] | None = None
 
     try:
+        loop = asyncio.get_running_loop()
+        # Resolve per-call model overrides, falling back to module-level env defaults.
+        _openai_model = agent_openai_model or AGENT_OPENAI_MODEL
+        _stt_model = deepgram_stt_model or DEEPGRAM_STT_MODEL
+        _tts_model = deepgram_tts_model or DEEPGRAM_TTS_MODEL
+        _silence_nudge = silence_nudge_after_s if silence_nudge_after_s is not None else SILENCE_NUDGE_AFTER_S
+        # Tracks when agent last finished speaking and when student last replied,
+        # used by the silence watchdog to prompt unresponsive students.
+        _silence_state: dict[str, float | None] = {"last_agent": None, "last_student": 0.0}
+
         await room.connect(LIVEKIT_URL, token)
 
         participant: rtc.RemoteParticipant | None = None
@@ -133,10 +150,10 @@ async def run_agent_session(
         )
 
         session = AgentSession(
-            stt=_build_stt(http_session),
+            stt=_build_stt(http_session, _stt_model),
             vad=silero.VAD.load(),
-            llm=lk_openai.LLM(model=AGENT_OPENAI_MODEL),
-            tts=deepgram.TTS(model=_resolve_tts_model(DEEPGRAM_TTS_MODEL), http_session=http_session),
+            llm=lk_openai.LLM(model=_openai_model),
+            tts=deepgram.TTS(model=_resolve_tts_model(_tts_model), http_session=http_session),
             turn_detection="stt",
         )
 
@@ -162,8 +179,10 @@ async def run_agent_session(
             speaker: str | None = None
             if message.role == "user":
                 speaker = "Student"
+                _silence_state["last_student"] = loop.time()
             elif message.role == "assistant":
                 speaker = "TutorBot"
+                _silence_state["last_agent"] = loop.time()
 
             if speaker is None:
                 return
@@ -173,6 +192,25 @@ async def run_agent_session(
             transcript_items.append(item)
             asyncio.create_task(_publish_transcript_item(item))
             asyncio.create_task(_persist_transcript_snapshot())
+
+        async def _silence_watchdog() -> None:
+            """Nudge the student if they haven't replied within _silence_nudge seconds."""
+            while True:
+                await asyncio.sleep(0.5)
+                last_agent = _silence_state["last_agent"]
+                if last_agent is None:
+                    continue
+                elapsed = loop.time() - last_agent
+                last_student = _silence_state["last_student"] or 0.0
+                if elapsed >= _silence_nudge and last_agent > last_student:
+                    _silence_state["last_agent"] = None  # prevent repeated nudges
+                    try:
+                        await session.say(  # type: ignore[union-attr]
+                            "Are you still there? Feel free to answer in your own words, or ask me to rephrase.",
+                            allow_interruptions=True,
+                        )
+                    except Exception:
+                        pass
 
         @session.on("close")
         def _on_session_close(_: Any) -> None:
@@ -188,6 +226,8 @@ async def run_agent_session(
             ),
         )
 
+        _watchdog_task = asyncio.create_task(_silence_watchdog())
+
         await session.say(
             f"Hi! I'm your Director of Studies tutor for {course_name}, topic {topic_name}. What would you like to focus on first?",
             allow_interruptions=True,
@@ -195,6 +235,8 @@ async def run_agent_session(
 
         await close_fut
     finally:
+        if _watchdog_task is not None:
+            _watchdog_task.cancel()
         await asyncio.to_thread(upsert_transcript, session_id, list(transcript_items))
         if session is not None:
             try:

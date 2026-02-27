@@ -8,9 +8,9 @@ export const dynamic = "force-dynamic";
 const SUMMARY_OPENAI_MODEL = process.env.SUMMARY_OPENAI_MODEL ?? "gpt-4o";
 
 type SummaryPayload = {
-  summaryMd: string;
-  keyTakeaways: string[];
-  citations: string[];
+  summaryMd: string;        // Narrative assessment of the student's performance
+  keyTakeaways: string[];   // Topics and concepts covered during the session
+  citations: string[];      // Personalised study recommendations
 };
 
 async function waitForTranscriptText(sessionId: string, maxAttempts = 6, delayMs = 400): Promise<string> {
@@ -51,7 +51,14 @@ async function summarizeTranscript(transcriptText: string): Promise<SummaryPaylo
       {
         role: "system",
         content:
-          "You summarize tutoring sessions. Return strict JSON with keys: summaryMd (markdown string), keyTakeaways (string array), citations (string array). Keep it concise.",
+          `You are a Director of Studies reviewing a tutoring session transcript.
+
+Return strict JSON with exactly these keys:
+- "summaryMd": A markdown string (2-4 paragraphs) assessing the student's performance. Cover: what they understood well, where they struggled, quality of their answers, and whether they engaged with Socratic prompts.
+- "keyTakeaways": A JSON array of short strings (max 6) listing the specific topics and concepts that were actually covered in the session.
+- "citations": A JSON array of short strings (max 5) giving concrete, personalised study recommendations for this student based on their performance — e.g. what to revise, practise questions to attempt, or areas to clarify with their teacher.
+
+Be specific and honest. Do not pad or invent content not evidenced in the transcript.`,
       },
       {
         role: "user",

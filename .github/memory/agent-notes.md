@@ -88,3 +88,11 @@ Use this file as shared working memory across tasks.
 - **Follow-up:** None — container boots cleanly and health endpoint responds.
 
 
+
+### 2026-02-27 (voice-tutor prompt tightening + silence watchdog)
+- **Context:** Tutor responses were too long (risking student attention loss), included citation brackets `[DocTitle:chunk_id]` and potential markdown that would be read aloud verbatim by TTS.
+- **Decision (30 s cap):** Prompt-only heuristic: instruct the LLM to target ~65 words per turn (~30 s at 130 wpm) and split into Socratic Q&A if more is needed. No hard interrupt in code.
+- **Decision (silence nudge):** Added `_silence_watchdog()` asyncio task in `run_agent_session`. Polls every 0.5 s; fires `session.say(...)` once when `SILENCE_NUDGE_AFTER_S` seconds have elapsed since the last assistant message without a student reply. `_silence_state` dict shared with `_on_conversation_item` — no locks needed (single-threaded event loop). Watchdog cancelled in `finally` block.
+- **Decision (plain speech):** Removed the citation rule from `build_system_prompt` entirely; added an explicit rule forbidding all markdown/citation punctuation.
+- **Files touched:** `apps/agent/app/prompts.py`, `apps/agent/app/agent_worker.py`, `infra/docker-compose.yml`.
+- **Follow-up:** `SILENCE_NUDGE_AFTER_S` defaults to 3.0 s; tune via env var. If LLM still produces markdown, consider a post-processing strip step on LLM output before TTS.

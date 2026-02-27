@@ -5,6 +5,19 @@ import { courses, sessionSummaries, sessionTranscripts, sessions, topics } from 
 
 export const dynamic = "force-dynamic";
 
+// Polls until the summary is ready. Used when the user navigates to the
+// session page immediately after ending a call (summarisation is async).
+function SummaryPending() {
+  return (
+    <>
+      {/* Refresh the server component every 3 seconds until summary arrives */}
+      {/* eslint-disable-next-line @next/next/no-head-element */}
+      <meta httpEquiv="refresh" content="3" />
+      <p className="text-slate-400">Generating summary…</p>
+    </>
+  );
+}
+
 export default async function SessionDetailPage({ params }: { params: { id: string } }) {
   const rows = await db
     .select({
@@ -63,11 +76,17 @@ export default async function SessionDetailPage({ params }: { params: { id: stri
       </section>
 
       <section className="rounded border border-slate-800 bg-slate-900 p-4">
-        <h3 className="mb-2 text-lg font-semibold">Summary</h3>
-        {session.summaryMd ? <ReactMarkdown>{session.summaryMd}</ReactMarkdown> : <p className="text-slate-400">No summary yet.</p>}
+        <h3 className="mb-2 text-lg font-semibold">Student Performance</h3>
+        {session.summaryMd ? (
+          <ReactMarkdown>{session.summaryMd}</ReactMarkdown>
+        ) : session.status === "ended" ? (
+          <SummaryPending />
+        ) : (
+          <p className="text-slate-400">No summary available.</p>
+        )}
         {takeaways.length > 0 && (
           <>
-            <h4 className="mt-4 font-semibold">Key takeaways</h4>
+            <h4 className="mt-4 font-semibold">Topics covered</h4>
             <ul className="list-disc pl-6">
               {takeaways.map((takeaway, idx) => (
                 <li key={`${takeaway}-${idx}`}>{takeaway}</li>
@@ -77,7 +96,7 @@ export default async function SessionDetailPage({ params }: { params: { id: stri
         )}
         {citations.length > 0 && (
           <>
-            <h4 className="mt-4 font-semibold">Citations</h4>
+            <h4 className="mt-4 font-semibold">Study recommendations</h4>
             <ul className="list-disc pl-6">
               {citations.map((citation, idx) => (
                 <li key={`${citation}-${idx}`}>{citation}</li>

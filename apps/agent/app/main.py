@@ -21,6 +21,10 @@ class JoinRequest(BaseModel):
     sessionId: str
     courseId: int
     topicId: int
+    agentOpenAIModel: str | None = None
+    deepgramSttModel: str | None = None
+    deepgramTtsModel: str | None = None
+    silenceNudgeAfterS: float | None = None
 
 
 def build_agent_token(room_name: str, identity: str = "TutorBot") -> str:
@@ -78,6 +82,10 @@ async def join_room(payload: JoinRequest) -> dict[str, Any]:
             session_id=payload.sessionId,
             course_id=payload.courseId,
             topic_id=payload.topicId,
+            agent_openai_model=payload.agentOpenAIModel,
+            deepgram_stt_model=payload.deepgramSttModel,
+            deepgram_tts_model=payload.deepgramTtsModel,
+            silence_nudge_after_s=payload.silenceNudgeAfterS,
         )
     )
     task.add_done_callback(_on_agent_task_done)

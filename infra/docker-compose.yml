@@ -78,6 +78,7 @@ services:
       DEEPGRAM_API_KEY: ${DEEPGRAM_API_KEY}
       DEEPGRAM_STT_MODEL: ${DEEPGRAM_STT_MODEL:-flux-general-en}
       DEEPGRAM_TTS_MODEL: ${DEEPGRAM_TTS_MODEL:-aura-2-draco-en}
+      SILENCE_NUDGE_AFTER_S: ${SILENCE_NUDGE_AFTER_S:-3.0}
       PYTHONUNBUFFERED: "1"
     depends_on:
       postgres:

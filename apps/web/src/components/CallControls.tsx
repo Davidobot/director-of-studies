@@ -12,10 +12,15 @@ export function CallControls({ sessionId }: { sessionId: string }) {
 
   async function endCall() {
     setEnding(true);
-    await fetch("/api/session/end", {
+    // Fire-and-forget: mark session ended + generate summary in the background.
+    // Do not await — the OpenAI summarisation call can take 10–30 s and would
+    // leave the button stuck on "Ending..." the whole time.
+    fetch("/api/session/end", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ sessionId }),
+    }).catch(() => {
+      // best-effort; summary page will show a fallback if it never completes
     });
     await room.disconnect();
     router.push(`/sessions/${sessionId}`);
