@@ -8,8 +8,8 @@ export type AuthContext = {
   email: string | null;
 };
 
-export function getRequestAuth(): AuthContext | null {
-  const requestHeaders = headers();
+export async function getRequestAuth(): Promise<AuthContext | null> {
+  const requestHeaders = await headers();
   const userId = requestHeaders.get("x-user-id");
   const email = requestHeaders.get("x-user-email");
   if (!userId) return null;
@@ -17,7 +17,7 @@ export function getRequestAuth(): AuthContext | null {
 }
 
 export async function requireStudent() {
-  const auth = getRequestAuth();
+  const auth = await getRequestAuth();
   if (!auth) return { error: "Unauthorized", status: 401 as const };
 
   const profileRows = await db
@@ -43,7 +43,7 @@ export async function requireStudent() {
 }
 
 export async function requireParent() {
-  const auth = getRequestAuth();
+  const auth = await getRequestAuth();
   if (!auth) return { error: "Unauthorized", status: 401 as const };
 
   const profileRows = await db

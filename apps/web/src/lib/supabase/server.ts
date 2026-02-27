@@ -8,11 +8,11 @@ function getSupabaseConfig() {
   return { supabaseUrl, supabaseAnonKey };
 }
 
-export function createServerSupabaseClient() {
+export async function createServerSupabaseClient() {
   const config = getSupabaseConfig();
   if (!config) return null;
 
-  const cookieStore = cookies();
+  const cookieStore = await cookies();
 
   return createServerClient(config.supabaseUrl, config.supabaseAnonKey, {
     cookies: {
@@ -38,7 +38,7 @@ export function createServerSupabaseClient() {
 }
 
 export async function getServerUser() {
-  const supabase = createServerSupabaseClient();
+  const supabase = await createServerSupabaseClient();
   if (!supabase) return null;
   const { data, error } = await supabase.auth.getUser();
   if (error) return null;

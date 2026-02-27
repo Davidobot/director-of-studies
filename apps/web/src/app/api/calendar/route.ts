@@ -35,7 +35,7 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: auth.error }, { status: auth.status });
   }
 
-  const raw = getRequestAuth();
+  const raw = await getRequestAuth();
   if (!raw) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
