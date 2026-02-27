@@ -35,6 +35,8 @@ Agents should read memory notes before starting work and append discoveries/impl
 ## Prerequisites
 
 - Docker + Docker Compose
+- Node.js 20+ and npm (for native dev)
+- Python 3.11+ (for native dev)
 - OpenAI API key
 - Deepgram API key
 
@@ -46,22 +48,83 @@ Agents should read memory notes before starting work and append discoveries/impl
 cp .env.example .env
 ```
 
-2. Add values in `.env`:
+2. Fill in secrets in `.env`:
 
-- `OPENAI_API_KEY`
-- `AGENT_OPENAI_MODEL` (optional, defaults to `gpt-4o`)
-- `SUMMARY_OPENAI_MODEL` (optional, defaults to `gpt-5-mini`)
-- `DEEPGRAM_API_KEY`
-- `DEEPGRAM_STT_MODEL` (optional, defaults to `flux-general-en`)
-- `DEEPGRAM_TTS_MODEL` (optional, defaults to `aura-2-draco-en`)
+| Variable | Required | Default |
+|---|---|---|
+| `OPENAI_API_KEY` | Yes | — |
+| `DEEPGRAM_API_KEY` | Yes | — |
+| `AGENT_OPENAI_MODEL` | No | `gpt-4o` |
+| `SUMMARY_OPENAI_MODEL` | No | `gpt-4o-mini` |
+| `DEEPGRAM_STT_MODEL` | No | `flux-general-en` |
+| `DEEPGRAM_TTS_MODEL` | No | `aura-2-draco-en` |
+| `SILENCE_NUDGE_AFTER_S` | No | `3.0` |
 
-3. Start everything:
+> Model settings can also be changed per-session on the home page UI.
+
+---
+
+## Running locally
+
+### Option A — one command (recommended for development)
+
+Runs Postgres + LiveKit in Docker and starts Next.js (HMR) and the agent (auto-reload) as native processes. File saves reflect immediately with no container rebuilds.
+
+**Install dependencies first (once):**
 
 ```bash
-docker compose --env-file .env -f infra/docker-compose.yml up --build
+# Web
+cd apps/web && npm install && cd ../..
+
+# Agent — creates apps/agent/.venv with Python 3.11 or 3.12
+# (livekit-agents 1.4.x does NOT support Python 3.13+)
+make venv
+```
 ```
 
-4. Open:
+**Install [overmind](https://github.com/DarthSim/overmind) for the best experience (optional but recommended):**
+
+```bash
+brew install overmind
+```
+
+**Start everything:**
+
+```bash
+make local
+```
+
+With overmind you get labelled, colour-coded output and can restart individual processes:
+
+```bash
+overmind restart web    # hot-swap Next.js without touching the agent
+overmind restart agent
+overmind connect web    # attach to a single process's output
+```
+
+Without overmind, `make local` falls back to shell background jobs — a single Ctrl-C stops all processes.
+
+### Option B — split terminals
+
+```bash
+make infra    # Terminal 1 — Postgres + LiveKit
+make web      # Terminal 2 — Next.js http://localhost:3000
+make agent    # Terminal 3 — FastAPI http://localhost:8000
+```
+
+### Option C — full Docker stack (original)
+
+All services in containers. Requires a full rebuild after code changes.
+
+```bash
+make up       # build + start all containers
+make down     # stop
+make logs     # tail all logs
+```
+
+---
+
+3. Open:
 
 - Web app: http://localhost:3000
 - Agent health: http://localhost:8000/health
@@ -84,9 +147,13 @@ Content files live at:
 content/{courseId}/{topicId}/*.md
 ```
 
-Ingestion runs automatically on agent startup. To run manually inside agent container:
+Ingestion runs automatically on agent startup (Docker). To run it manually:
 
 ```bash
+# Native (make local / make agent workflow)
+make ingest
+
+# Inside Docker container
 docker compose -f infra/docker-compose.yml exec agent python scripts/ingest.py
 ```
 

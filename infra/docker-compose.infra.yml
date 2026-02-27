@@ -1,0 +1,39 @@
+# Lightweight dev compose — starts only the stateful infrastructure.
+# Run the web and agent processes natively (see root Makefile).
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: dos-postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-director}
+      POSTGRES_USER: ${POSTGRES_USER:-director}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-director}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-director} -d ${POSTGRES_DB:-director}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  livekit:
+    image: livekit/livekit-server:latest
+    container_name: dos-livekit
+    command: ["--config", "/etc/livekit/livekit.yaml", "--node-ip", "0.0.0.0"]
+    volumes:
+      - ./livekit.yaml:/etc/livekit/livekit.yaml:ro
+    ports:
+      - "7880:7880"
+      - "7881:7881"
+      - "50000-50060:50000-50060/udp"
+    healthcheck:
+      test: ["CMD-SHELL", "nc -z localhost 7880"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+volumes:
+  postgres_data:
