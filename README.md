@@ -6,16 +6,16 @@ Simple local-first MVP for a voice-first AI tutor for GCSE/A-level Humanities.
 
 - Next.js 14 (App Router) + TypeScript + Tailwind
 - LiveKit Server (self-hosted in Docker)
-- Python 3.11 agent service (FastAPI + LiveKit Agents + Deepgram + OpenAI)
+- Python 3.11 API + agent service (FastAPI + LiveKit Agents + Deepgram + OpenAI)
 - Postgres 16 + pgvector
-- Drizzle ORM (web app)
+- Drizzle schema (legacy reference only; runtime API is Python/FastAPI)
 
 ## Repo layout
 
 ```
 apps/
-	web/      # Next.js app + API routes + Drizzle schema
-	agent/    # FastAPI + LiveKit agent worker + ingestion script
+	web/      # Next.js app (frontend)
+	agent/    # FastAPI API + LiveKit agent worker + ingestion/bootstrap scripts
 infra/
 	docker-compose.yml
 	livekit.yaml
@@ -56,23 +56,24 @@ cp .env.example .env
 | `DEEPGRAM_API_KEY` | Yes | — |
 | `NEXT_PUBLIC_SUPABASE_URL` | Yes | — |
 | `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Yes | — |
-| `SUPABASE_SERVICE_ROLE_KEY` | No (reserved for upcoming admin/parent features) | — |
+| `SUPABASE_SERVICE_ROLE_KEY` | Yes (used for demo guest provisioning endpoint) | — |
 | `GUEST_DEMO_EMAIL` | No | `guest@director.local` |
 | `GUEST_DEMO_PASSWORD` | No | `GuestDemo123!` |
 | `GUEST_DEMO_NAME` | No | `Guest Student` |
+| `NEXT_PUBLIC_API_URL` | Yes | `http://localhost:8000` |
+| `WEB_ORIGIN` | Yes | `http://localhost:3000` |
+| `DB_POOL_MIN_SIZE` | No | `2` |
+| `DB_POOL_MAX_SIZE` | No | `12` |
 | `AGENT_OPENAI_MODEL` | No | `gpt-4o` |
 | `SUMMARY_OPENAI_MODEL` | No | `gpt-4o-mini` |
 | `DEEPGRAM_STT_MODEL` | No | `flux-general-en` |
 | `DEEPGRAM_TTS_MODEL` | No | `aura-2-draco-en` |
 | `SILENCE_NUDGE_AFTER_S` | No | `3.0` |
 
-4. Apply DB schema and seed reference data:
+4. Bootstrap and seed DB via Python:
 
 ```bash
-cd apps/web
-npm run db:push
-npm run db:seed:reference
-npm run db:seed
+make seed
 ```
 
 > Model settings can also be changed per-session on the home page UI.
@@ -194,23 +195,21 @@ Retrieval filters by `course_id` and `topic_id` and returns top `k=5` chunks.
 
 ## API endpoints
 
-- `POST /api/session/create` -> create session, ensure room, return participant token
-- `POST /api/session/start-agent` -> ask agent service to join room
-- `POST /api/session/end` -> end session and generate summary
-- `GET /api/sessions` -> list sessions
-- `GET /api/sessions/:id` -> session detail (transcript + summary)
-- `GET /api/parent/links` -> list parent-linked students
-- `POST /api/parent/links` -> link a student to parent by student email
-- `GET /api/reference/board-subjects` -> list UK board/subject mappings
-- `GET/POST/DELETE /api/student/enrolments` -> student enrolment management
-- `GET/PUT /api/tutor-config` -> per-subject tutor configuration
-- `GET /api/progress/overview` -> dashboard progress aggregates
-- `GET/POST /api/dos-chat` -> Director of Studies chat threads/messages
-- `GET/POST /api/calendar` -> list/create tutorial schedule
-- `PUT/DELETE /api/calendar/:id` -> update/cancel schedules
-- `GET/PUT /api/parent/restrictions` -> parent restriction settings + mandatory revision tasks
-- `GET /api/student/invite-code` -> generate student invite code for parent linking
-- `POST /api/parent/link-code` -> link parent using student invite code
+All endpoints are served by the Python FastAPI service on `NEXT_PUBLIC_API_URL` (default `http://localhost:8000`).
+Representative endpoints:
+
+- `POST /api/session/create`
+- `POST /api/session/start-agent`
+- `POST /api/session/end`
+- `GET /api/sessions`
+- `GET /api/sessions/{id}`
+- `GET /api/reference/board-subjects`
+- `GET|POST|DELETE /api/student/enrolments`
+- `GET|POST /api/calendar` and `PUT|DELETE /api/calendar/{id}`
+- `GET|POST /api/dos-chat`
+- `GET /api/progress/overview`
+- `GET|POST /api/parent/links`, `POST /api/parent/link-code`, `GET|PUT /api/parent/restrictions`
+- `GET|POST|PUT|DELETE /api/tutor-personas*`, `GET|PUT /api/tutor-config`
 
 ## Troubleshooting
 

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useLocalParticipant, useRoomContext } from "@livekit/components-react";
+import { apiFetch } from "@/lib/api-client";
 
 export function CallControls({ sessionId }: { sessionId: string }) {
   const router = useRouter();
@@ -15,10 +16,10 @@ export function CallControls({ sessionId }: { sessionId: string }) {
     // Fire-and-forget: mark session ended + generate summary in the background.
     // Do not await — the OpenAI summarisation call can take 10–30 s and would
     // leave the button stuck on "Ending..." the whole time.
-    fetch("/api/session/end", {
+    apiFetch("/api/session/end", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ sessionId }),
+      userScope: "studentId",
+      body: { sessionId },
     }).catch(() => {
       // best-effort; summary page will show a fallback if it never completes
     });

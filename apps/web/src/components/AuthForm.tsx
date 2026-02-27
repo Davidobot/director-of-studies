@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
+import { apiFetch } from "@/lib/api-client";
 
 type Mode = "login" | "signup";
 
@@ -65,7 +66,7 @@ export function AuthForm({ mode, redirectTo = "/" }: Props) {
     setMessage(null);
 
     try {
-      const bootstrapRes = await fetch("/api/auth/guest-login", { method: "POST" });
+      const bootstrapRes = await apiFetch("/api/auth/guest-login", { method: "POST", requireAuth: false });
       const contentType = bootstrapRes.headers.get("content-type") ?? "";
 
       if (!bootstrapRes.ok) {

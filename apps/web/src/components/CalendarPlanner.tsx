@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { apiFetch, getCurrentUserId } from "@/lib/api-client";
 
 type CalendarItem = {
   id: string;
@@ -48,7 +49,7 @@ export function CalendarPlanner() {
   const [message, setMessage] = useState<string | null>(null);
 
   async function load() {
-    const res = await fetch("/api/calendar");
+    const res = await apiFetch("/api/calendar", { userScope: "studentId" });
     if (!res.ok) {
       setMessage("Could not load calendar.");
       return;
@@ -66,10 +67,11 @@ export function CalendarPlanner() {
       setMessage("Title and date/time are required.");
       return;
     }
-    const res = await fetch("/api/calendar", {
+    const userId = await getCurrentUserId();
+    const res = await apiFetch("/api/calendar", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ title, scheduledAt, durationMinutes }),
+      userScope: "studentId",
+      body: { title, scheduledAt, durationMinutes, createdBy: userId },
     });
     if (!res.ok) {
       setMessage("Failed to create tutorial schedule.");
@@ -83,10 +85,10 @@ export function CalendarPlanner() {
   }
 
   async function updateStatus(id: string, status: CalendarItem["status"]) {
-    const res = await fetch(`/api/calendar/${id}`, {
+    const res = await apiFetch(`/api/calendar/${id}`, {
       method: "PUT",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ status }),
+      userScope: "studentId",
+      body: { status },
     });
     if (!res.ok) {
       setMessage("Failed to update schedule status.");

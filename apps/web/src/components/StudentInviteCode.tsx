@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { apiFetch } from "@/lib/api-client";
 
 export function StudentInviteCode() {
   const [code, setCode] = useState<string | null>(null);
@@ -12,7 +13,7 @@ export function StudentInviteCode() {
     setLoading(true);
     setMessage(null);
     try {
-      const res = await fetch("/api/student/invite-code");
+      const res = await apiFetch("/api/student/invite-code", { userScope: "studentId" });
       if (!res.ok) throw new Error("Failed to create invite code");
       const data = (await res.json()) as { code: string; expiresAt: string };
       setCode(data.code);

@@ -194,3 +194,66 @@ Use this file as shared working memory across tasks.
 - **Files touched:** `apps/web/src/db/schema.ts`, `apps/web/src/app/api/tutor-personas/route.ts` (new), `apps/web/src/app/api/tutor-personas/[id]/route.ts` (new), `apps/web/src/app/api/tutor-config/route.ts`, `apps/web/src/components/TutorConfigManager.tsx`, `apps/web/src/app/page.tsx`, `apps/web/src/app/api/session/start-agent/route.ts`.
 - **Follow-up:** Run `cd apps/web && npm run db:push` to apply schema to Postgres. The `tutor_personas` table will be created and `tutor_configs` will be altered (removing the old text columns, adding `persona_id`).
 
+### 2026-02-27 (python API consolidation phase 1 — session end)
+- **Context:** User asked to start implementation of moving API work from Next.js routes toward the Python/FastAPI service to reduce perceived slowness and simplify runtime architecture.
+- **Discovery:** `POST /api/session/end` in Next.js was a high-latency path with transcript polling, two sequential OpenAI calls, and per-item repeat-flag inserts.
+- **Decision:** Added a new FastAPI endpoint `POST /api/session/end` in `apps/agent/app/main.py` and moved summarization/progress generation there. Implemented parallel OpenAI work via `asyncio.gather` (`asyncio.to_thread` wrappers around sync SDK calls), and switched repeat flag writes to batched `executemany` insert. Updated Next.js `apps/web/src/app/api/session/end/route.ts` to become an authenticated proxy to the agent endpoint while preserving student ownership checks. Added optional internal shared-secret header validation via `AGENT_INTERNAL_API_KEY` on both sides.
+- **Files touched:** `apps/agent/app/main.py`, `apps/web/src/app/api/session/end/route.ts`, `.env.example`, `.github/memory/agent-notes.md`.
+- **Follow-up:** Continue phase 2 by migrating `session/start-agent` and `session/create` into FastAPI (with equivalent restrictions/enrolment checks), then convert Next.js routes into proxies and add integration tests for parity.
+
+### 2026-02-27 (python API consolidation phase 2 — full session domain)
+- **Context:** Continued implementation after phase 1 to complete session-domain migration from Next.js API routes to Python/FastAPI.
+- **Discovery:** Session domain includes five API routes (`/api/session/create`, `/api/session/start-agent`, `/api/session/end`, `/api/sessions`, `/api/sessions/:id`) and powers most call lifecycle UX paths.
+- **Decision:** Added FastAPI internal endpoints for all remaining session routes and converted Next.js handlers to thin student-authenticated proxies. Python `create` now enforces existing restrictions/enrolment rules, ensures LiveKit room existence, generates participant token, and inserts session row. Python `start-agent` now loads tutor/repeat/focus context from DB, starts `run_agent_session` task directly (no HTTP hop), then updates session status to `live`. Added Python list/detail endpoints for session history and detail retrieval. Standardized internal endpoint protection behind optional `AGENT_INTERNAL_API_KEY` header validation helper.
+- **Files touched:** `apps/agent/app/main.py`, `apps/web/src/app/api/session/create/route.ts`, `apps/web/src/app/api/session/start-agent/route.ts`, `apps/web/src/app/api/sessions/route.ts`, `apps/web/src/app/api/sessions/[id]/route.ts`, `.github/memory/agent-notes.md`.
+- **Follow-up:** Next migration targets are non-session domains (`progress`, `dos-chat`, `calendar`, `tutor-*`, `student/*`, `parent/*`, `reference/*`, `auth/guest-login`) plus introducing explicit FastAPI auth dependencies and async DB pooling to remove remaining per-request DB connection overhead.
+
+### 2026-02-27 (python API consolidation phase 3 — remaining domains + python db bootstrap)
+- **Context:** User requested continuing migration for all remaining API domains and wanted DB creation/seed owned by Python instead of TS scripts.
+- **Discovery:** All non-session routes still had business logic in `apps/web/src/app/api/**`; schema/data bootstrap depended on TS (`drizzle` schema + seed scripts) and Makefile `seed` used npm scripts.
+- **Decision:** Implemented remaining FastAPI internal endpoints in `apps/agent/app/main.py` for: calendar (`GET/POST/PUT/DELETE`), DoS chat (`GET/POST`), progress overview (`GET`), reference board-subjects (`GET`), student enrolments/invite (`GET/POST/DELETE + GET invite-code`), tutor personas/config (`GET/POST/PUT/DELETE + GET/PUT`), parent links/link-code/restrictions (`GET/POST`, `POST`, `GET/PUT`), and guest login (`POST`). Replaced all corresponding web API routes with thin auth-preserving forwarders to Python and removed remaining TS DB/OpenAI/Supabase business logic from API route files. Added Python DB ownership scripts: `apps/agent/scripts/bootstrap_db.py` (schema/extensions/tables creation) and `apps/agent/scripts/seed_db.py` (reference + course/topic seeds). Updated `Makefile` so `db-migrate` and `seed` now run Python scripts.
+- **Files touched:** `apps/agent/app/main.py`, `apps/agent/scripts/bootstrap_db.py`, `apps/agent/scripts/seed_db.py`, all remaining `apps/web/src/app/api/**/route.ts` files (calendar, dos-chat, parent, progress, reference, student, tutor, auth/guest-login, plus existing session proxies), `Makefile`, `.github/memory/agent-notes.md`.
+- **Follow-up:** If desired, next step is removing the web route wrappers entirely and having UI call Python API directly with bearer token auth; this requires adding FastAPI JWT auth dependencies + CORS and updating client/server fetch patterns.
+
+### 2026-02-27 (phase 4 — direct frontend to python api + bearer auth)
+- **Context:** User approved the next step to stop relying on TS API wrappers and have client-facing flows call Python API directly.
+- **Discovery:** Client components used relative `/api/*` fetches; without wrappers they need browser-side auth headers and explicit API base URL config. FastAPI also needed CORS and token validation.
+- **Decision:** Added browser API helper `apps/web/src/lib/api-client.ts` that pulls Supabase access token from session and sends `Authorization: Bearer ...`, plus optional automatic `studentId`/`parentId` injection. Updated all client-side API consumers (session start/end/create, dos-chat, enrolments, calendar, parent restrictions, tutor config/personas, student invite, guest login) to use direct calls to `NEXT_PUBLIC_API_URL` (Python API). Added FastAPI CORS middleware (`WEB_ORIGIN`) and Supabase bearer token validation in `apps/agent/app/main.py` (`_get_user_id_from_bearer`, `_validate_internal_api_key` supporting internal-key OR bearer mode with expected user-id matching). Kept guest-login unauthenticated for demo bootstrap. Added env/make wiring for direct browser API URL (`NEXT_PUBLIC_API_URL`) and CORS origin (`WEB_ORIGIN`).
+- **Files touched:** `apps/agent/app/main.py`, `apps/web/src/lib/api-client.ts`, client components (`CourseTopicSelector`, `CallControls`, `DoSChat`, `EnrolmentWizard`, `CalendarPlanner`, `ParentRestrictionsManager`, `StudentInviteCode`, `TutorConfigManager`, `AuthForm`), `.env.example`, `Makefile`, `.github/memory/agent-notes.md`.
+- **Follow-up:** TS route wrappers still exist in `apps/web/src/app/api/**` but are no longer required by client components; they can be removed in a cleanup pass once all server-side consumers are migrated.
+
+### 2026-02-27 (phase 5 — db pool layer)
+- **Context:** User asked to continue with the next step after direct frontend-to-python API migration.
+- **Discovery:** Agent DB access still created new psycopg connections per call via `get_conn()`, adding handshake overhead under request load.
+- **Decision:** Added pooled DB layer in `apps/agent/app/db.py` using `psycopg_pool` with both sync and async pools. `get_conn()` now leases connections from a shared sync pool; added `init_async_pool()`/`close_async_pool()` lifecycle APIs and wired them into FastAPI startup/shutdown hooks in `apps/agent/app/main.py`. Added pool-size env vars and dependency declarations.
+- **Files touched:** `apps/agent/app/db.py`, `apps/agent/app/main.py`, `apps/agent/pyproject.toml`, `apps/agent/requirements.txt`, `.env.example`, `.github/memory/agent-notes.md`.
+- **Follow-up:** Run `make venv` or reinstall agent deps to pull `psycopg-pool`. Optional next cleanup: remove no-longer-needed TS API wrapper routes in `apps/web/src/app/api/**`.
+
+### 2026-02-27 (phase 6 — remove TS API wrapper layer)
+- **Context:** User requested cleanup pass so there is no TypeScript API layer acting as an intermediary.
+- **Discovery:** Client components were already switched to direct Python API calls; `apps/web/src/app/api/**` route handlers and `apps/web/src/lib/auth.ts` were now redundant.
+- **Decision:** Deleted all Next route handlers under `apps/web/src/app/api/**` and removed `apps/web/src/lib/auth.ts`. Updated `apps/web/src/middleware.ts` public paths to drop `/api/auth/guest-login` since that route no longer exists. Verified no web code imports `@/lib/auth` and no `apps/web/src/app/api/**` files remain.
+- **Files touched:** `apps/web/src/app/api/**` (all deleted route files), `apps/web/src/lib/auth.ts` (deleted), `apps/web/src/middleware.ts`, `.github/memory/agent-notes.md`.
+- **Follow-up:** `AGENT_INTERNAL_API_KEY` is now optional; keep it for server-to-server hardening / non-browser callers, but it is no longer required for normal browser flows using bearer auth.
+
+### 2026-02-27 (phase 6b — remove empty api directories)
+- **Context:** User asked to remove empty TypeScript API folders after deleting wrapper route files.
+- **Discovery:** Empty directory structure under `apps/web/src/app/api/**` still remained.
+- **Decision:** Removed the full empty tree bottom-up using `find ... -depth -type d -empty -delete`, including `apps/web/src/app/api` root.
+- **Files touched:** `.github/memory/agent-notes.md`.
+- **Follow-up:** None.
+
+### 2026-02-27 (phase 7 — env/docs cleanup for direct python api)
+- **Context:** User requested final cleanup of stale wrapper-era env/docs after removing TS API layer.
+- **Discovery:** `.env.example` and `README.md` still contained wording from mixed TS+Python API architecture and TS-driven DB seeding steps.
+- **Decision:** Updated docs/config to reflect the current architecture: direct frontend-to-Python API (`NEXT_PUBLIC_API_URL`), Python API CORS origin (`WEB_ORIGIN`), Python DB pool env vars, and Python bootstrap/seed workflow via `make seed`. Clarified `AGENT_INTERNAL_API_KEY` is optional and intended for trusted non-browser callers.
+- **Files touched:** `.env.example`, `README.md`, `.github/memory/agent-notes.md`.
+- **Follow-up:** Optional: remove legacy drizzle seed scripts/docs entirely if they are no longer intended for any workflow.
+
+### 2026-02-27 (phase 8 — final prune of legacy web seed artifacts)
+- **Context:** User asked to complete the final prune after API consolidation to Python.
+- **Discovery:** `apps/web` still had legacy TS seed scripts/files (`src/db/seed.ts`, `src/db/seed-reference.ts`), package scripts (`db:seed*`), and `entrypoint.sh` still invoked `npm run db:seed`.
+- **Decision:** Removed both seed files and `db:seed` scripts from `apps/web/package.json`, dropped now-unused `tsx` dev dependency, and updated `apps/web/entrypoint.sh` to stop running web-side DB push/seed commands. Python remains the single DB bootstrap/seed path via `make seed` / `apps/agent/scripts/*.py`.
+- **Files touched:** `apps/web/src/db/seed.ts` (deleted), `apps/web/src/db/seed-reference.ts` (deleted), `apps/web/package.json`, `apps/web/entrypoint.sh`, `.github/memory/agent-notes.md`.
+- **Follow-up:** Refresh web lockfile (`apps/web/package-lock.json`) after dependency/script removal if this workspace uses committed lockfiles.
+

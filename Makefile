@@ -71,6 +71,7 @@ web:
 	  DATABASE_URL="$(NATIVE_DATABASE_URL)" \
 	  LIVEKIT_URL="$(NATIVE_LIVEKIT_URL)" \
 	  AGENT_URL="$(NATIVE_AGENT_URL)" \
+	  NEXT_PUBLIC_API_URL="$(NATIVE_AGENT_URL)" \
 	  npm run dev
 
 # ---------------------------------------------------------------------------
@@ -98,19 +99,19 @@ ingest:
 # Safe to run multiple times — all statements use IF NOT EXISTS / IF EXISTS guards.
 .PHONY: db-migrate
 db-migrate:
-	docker exec dos-postgres psql \
-	  -U "$(POSTGRES_USER)" -d "$(POSTGRES_DB)" \
-	  -c "ALTER TABLE topics ADD COLUMN IF NOT EXISTS stt_keywords jsonb DEFAULT '[]';"
-	@echo "Migration applied."
+	@test -f $(AGENT_PY) || (echo "Run 'make venv' first to set up the Python environment."; exit 1)
+	cd apps/agent && DATABASE_URL="$(NATIVE_DATABASE_URL)" $(PWD)/$(AGENT_PY) scripts/bootstrap_db.py
+	@echo "Python DB bootstrap/migration applied."
 
 # Seed reference data (exam boards, subjects, board-subjects) and course/topic data.
 # Run once after 'make infra' has started Postgres, or any time you reset the DB.
 .PHONY: seed
 seed:
-	@echo "Seeding reference data (exam boards, subjects)..."
-	cd apps/web && DATABASE_URL="$(NATIVE_DATABASE_URL)" npm run db:seed:reference
-	@echo "Seeding courses and topics..."
-	cd apps/web && DATABASE_URL="$(NATIVE_DATABASE_URL)" npm run db:seed
+	@test -f $(AGENT_PY) || (echo "Run 'make venv' first to set up the Python environment."; exit 1)
+	@echo "Bootstrapping schema from Python..."
+	cd apps/agent && DATABASE_URL="$(NATIVE_DATABASE_URL)" $(PWD)/$(AGENT_PY) scripts/bootstrap_db.py
+	@echo "Seeding reference + course data from Python..."
+	cd apps/agent && DATABASE_URL="$(NATIVE_DATABASE_URL)" $(PWD)/$(AGENT_PY) scripts/seed_db.py
 	@echo "Seed complete."
 
 # ---------------------------------------------------------------------------
@@ -136,6 +137,7 @@ local:
 	      DATABASE_URL="$(NATIVE_DATABASE_URL)" \
 	      LIVEKIT_URL="$(NATIVE_LIVEKIT_URL)" \
 	      AGENT_URL="$(NATIVE_AGENT_URL)" \
+	      NEXT_PUBLIC_API_URL="$(NATIVE_AGENT_URL)" \
 	      npm run dev 2>&1 | sed 's/^/\033[36m[web]  \033[0m /' \
 	  ) & \
 	  ( cd apps/agent && \

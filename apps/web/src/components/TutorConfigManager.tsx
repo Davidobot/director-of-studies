@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useReducer, useRef, useState } from "react";
+import { apiFetch } from "@/lib/api-client";
 
 // ── Types ──────────────────────────────────────────────────────────────────
 
@@ -142,10 +143,10 @@ function PersonaCard({
   async function handleSave(data: Omit<Persona, "id">) {
     setSaving(true);
     try {
-      const res = await fetch(`/api/tutor-personas/${persona.id}`, {
+      const res = await apiFetch(`/api/tutor-personas/${persona.id}`, {
         method: "PUT",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+        userScope: "studentId",
+        body: data,
       });
       if (!res.ok) throw new Error("Failed to update tutor");
       const json = (await res.json()) as { persona: Persona };
@@ -160,7 +161,7 @@ function PersonaCard({
     if (!confirm(`Delete tutor "${persona.name}"? This will unassign it from all subjects.`)) return;
     setDeleting(true);
     try {
-      await fetch(`/api/tutor-personas/${persona.id}`, { method: "DELETE" });
+      await apiFetch(`/api/tutor-personas/${persona.id}`, { method: "DELETE", userScope: "studentId" });
       onDelete(persona.id);
     } finally {
       setDeleting(false);
@@ -274,8 +275,8 @@ export function TutorConfigManager() {
   useEffect(() => {
     void (async () => {
       const [pRes, eRes] = await Promise.all([
-        fetch("/api/tutor-personas"),
-        fetch("/api/tutor-config"),
+        apiFetch("/api/tutor-personas", { userScope: "studentId" }),
+        apiFetch("/api/tutor-config", { userScope: "studentId" }),
       ]);
       if (!pRes.ok || !eRes.ok) { flash("Could not load tutor settings."); return; }
       const { personas } = (await pRes.json()) as { personas: Persona[] };
@@ -287,10 +288,10 @@ export function TutorConfigManager() {
   async function handleCreate(data: Omit<Persona, "id">) {
     setSaving(true);
     try {
-      const res = await fetch("/api/tutor-personas", {
+      const res = await apiFetch("/api/tutor-personas", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+        userScope: "studentId",
+        body: data,
       });
       if (!res.ok) throw new Error("Failed to create tutor");
       const json = (await res.json()) as { persona: Persona };
@@ -305,10 +306,10 @@ export function TutorConfigManager() {
   }
 
   async function handleAssign(enrolmentId: number, personaId: number | null) {
-    const res = await fetch("/api/tutor-config", {
+    const res = await apiFetch("/api/tutor-config", {
       method: "PUT",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ enrolmentId, personaId }),
+      userScope: "studentId",
+      body: { enrolmentId, personaId },
     });
     if (!res.ok) { flash("Failed to update assignment."); return; }
     const persona = personaId !== null ? state.personas.find((p) => p.id === personaId) ?? null : null;

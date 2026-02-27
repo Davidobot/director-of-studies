@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { apiFetch } from "@/lib/api-client";
 
 export function DoSChat() {
   const [threadId, setThreadId] = useState<string | null>(null);
@@ -17,10 +18,10 @@ export function DoSChat() {
     setLoading(true);
 
     try {
-      const res = await fetch("/api/dos-chat", {
+      const res = await apiFetch("/api/dos-chat", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: nextUserMessage.content, threadId }),
+        userScope: "studentId",
+        body: { message: nextUserMessage.content, threadId },
       });
 
       if (!res.ok) throw new Error("DoS chat failed");

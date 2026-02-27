@@ -2,14 +2,22 @@ from __future__ import annotations
 
 import json
 import os
+from contextlib import contextmanager
+from typing import Iterator
 from typing import Any
 
 import psycopg
 from openai import OpenAI
+from psycopg_pool import AsyncConnectionPool, ConnectionPool
 
 DATABASE_URL = os.environ.get("DATABASE_URL", "")
+DB_POOL_MIN_SIZE = int(os.environ.get("DB_POOL_MIN_SIZE", "2"))
+DB_POOL_MAX_SIZE = int(os.environ.get("DB_POOL_MAX_SIZE", "12"))
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 _OPENAI_BASE_URL: str | None = os.environ.get("OPENAI_BASE_URL") or None
+
+_sync_pool: ConnectionPool | None = None
+_async_pool: AsyncConnectionPool | None = None
 
 _openai_kwargs: dict = {"api_key": OPENAI_API_KEY}
 if _OPENAI_BASE_URL:
@@ -17,10 +25,49 @@ if _OPENAI_BASE_URL:
 openai_client = OpenAI(**_openai_kwargs)
 
 
-def get_conn() -> psycopg.Connection:
+def _get_sync_pool() -> ConnectionPool:
+    global _sync_pool
     if not DATABASE_URL:
         raise RuntimeError("DATABASE_URL is required")
-    return psycopg.connect(DATABASE_URL)
+    if _sync_pool is None:
+        _sync_pool = ConnectionPool(
+            conninfo=DATABASE_URL,
+            min_size=DB_POOL_MIN_SIZE,
+            max_size=DB_POOL_MAX_SIZE,
+            open=True,
+        )
+    return _sync_pool
+
+
+async def init_async_pool() -> None:
+    global _async_pool
+    _get_sync_pool()
+    if _async_pool is not None:
+        return
+    _async_pool = AsyncConnectionPool(
+        conninfo=DATABASE_URL,
+        min_size=DB_POOL_MIN_SIZE,
+        max_size=DB_POOL_MAX_SIZE,
+        open=False,
+    )
+    await _async_pool.open(wait=True)
+
+
+async def close_async_pool() -> None:
+    global _async_pool, _sync_pool
+    if _async_pool is not None:
+        await _async_pool.close()
+        _async_pool = None
+    if _sync_pool is not None:
+        _sync_pool.close()
+        _sync_pool = None
+
+
+@contextmanager
+def get_conn() -> Iterator[psycopg.Connection]:
+    pool = _get_sync_pool()
+    with pool.connection() as conn:
+        yield conn
 
 
 def embedding_for(text: str) -> list[float]:

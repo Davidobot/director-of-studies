@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { apiFetch } from "@/lib/api-client";
 
 type LinkedStudent = {
   studentId: string;
@@ -29,7 +30,7 @@ export function ParentRestrictionsManager() {
   const [message, setMessage] = useState<string | null>(null);
 
   async function loadStudents() {
-    const res = await fetch("/api/parent/links");
+    const res = await apiFetch("/api/parent/links", { userScope: "parentId" });
     if (!res.ok) {
       setMessage("Could not load linked students.");
       return;
@@ -60,10 +61,10 @@ export function ParentRestrictionsManager() {
         : [],
     };
 
-    const res = await fetch("/api/parent/restrictions", {
+    const res = await apiFetch("/api/parent/restrictions", {
       method: "PUT",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
+      userScope: "parentId",
+      body: payload,
     });
 
     if (!res.ok) {

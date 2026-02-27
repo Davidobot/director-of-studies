@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { apiFetch } from "@/lib/api-client";
 
 type BoardSubject = {
   boardSubjectId: number;
@@ -44,8 +45,8 @@ export function EnrolmentWizard() {
 
   async function loadData() {
     const [refRes, enrolRes] = await Promise.all([
-      fetch("/api/reference/board-subjects"),
-      fetch("/api/student/enrolments"),
+      apiFetch("/api/reference/board-subjects"),
+      apiFetch("/api/student/enrolments", { userScope: "studentId" }),
     ]);
 
     if (!refRes.ok || !enrolRes.ok) {
@@ -72,10 +73,10 @@ export function EnrolmentWizard() {
     setLoading(true);
     setMessage(null);
     try {
-      const res = await fetch("/api/student/enrolments", {
+      const res = await apiFetch("/api/student/enrolments", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ boardSubjectId, examYear, currentYearOfStudy }),
+        userScope: "studentId",
+        body: { boardSubjectId, examYear, currentYearOfStudy },
       });
       if (!res.ok) throw new Error("Failed to save enrolment");
       await loadData();
@@ -91,10 +92,10 @@ export function EnrolmentWizard() {
     setLoading(true);
     setMessage(null);
     try {
-      const res = await fetch("/api/student/enrolments", {
+      const res = await apiFetch("/api/student/enrolments", {
         method: "DELETE",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ enrolmentId }),
+        userScope: "studentId",
+        body: { enrolmentId },
       });
       if (!res.ok) throw new Error("Failed to remove enrolment");
       await loadData();

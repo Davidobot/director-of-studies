@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
+import { apiFetch } from "@/lib/api-client";
 
 type Topic = { id: number; name: string; courseId: number };
 type Course = { id: number; name: string };
@@ -60,24 +61,24 @@ export function CourseTopicSelector({
     setLoading(true);
     setError(null);
     try {
-      const createRes = await fetch("/api/session/create", {
+      const createRes = await apiFetch("/api/session/create", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ courseId, topicId: selectedTopicId }),
+        userScope: "studentId",
+        body: { courseId, topicId: selectedTopicId },
       });
       if (!createRes.ok) throw new Error("Could not create session");
       const session = await createRes.json();
 
-      const startRes = await fetch("/api/session/start-agent", {
+      const startRes = await apiFetch("/api/session/start-agent", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
+        userScope: "studentId",
+        body: {
           sessionId: session.sessionId,
           agentOpenAIModel: agentOpenAI,
           deepgramSttModel: deepgramStt,
           deepgramTtsModel: deepgramTts,
           silenceNudgeAfterS,
-        }),
+        },
       });
       if (!startRes.ok) {
         let message = "Could not start agent";
