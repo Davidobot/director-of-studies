@@ -106,7 +106,7 @@ export default async function HomePage() {
     summaryOpenAI: process.env.SUMMARY_OPENAI_MODEL ?? "gpt-4o-mini",
     deepgramStt: process.env.DEEPGRAM_STT_MODEL ?? "flux-general-en",
     deepgramTts: process.env.DEEPGRAM_TTS_MODEL ?? "aura-2-draco-en",
-    silenceNudgeAfterS: parseFloat(process.env.SILENCE_NUDGE_AFTER_S ?? "3.0"),
+    silenceNudgeAfterS: parseFloat(process.env.SILENCE_NUDGE_SHORT_S ?? "3.0"),
   };
 
   if (filteredCourses.length === 0) {

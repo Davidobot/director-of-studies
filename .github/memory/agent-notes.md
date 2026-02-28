@@ -271,3 +271,17 @@ Use this file as shared working memory across tasks.
 - **Files touched:** `apps/web/src/app/call/[sessionId]/page.tsx`, `apps/web/src/app/sessions/[id]/page.tsx`, `.github/memory/agent-notes.md`.
 - **Follow-up:** If similar errors appear on other dynamic routes, apply the same Promise-unwrapping pattern (`use(params)` in client components, `await params` in server components).
 
+### 2026-02-28 (tutor interaction humanization pass)
+- **Context:** User requested implementing the interaction-profile recommendations to improve pacing, pedagogy, trust, and conversational naturalness for Humanities tutoring.
+- **Discovery:** Existing flow used a fixed scripted greeting and fixed 3-second silence nudge, while prompt rules were optimized for short technical turns rather than adaptive cognitive pacing.
+- **Decision:** Upgraded prompt architecture in `build_system_prompt` with Two-Strike pedagogy, RAG honesty fallback, spoken prosody guidance, structured correction/praise/frustration behavior, and mandatory `<PACE:short|long>` metadata tags. In runtime, added `TutorAgent.llm_node` post-processing to strip pace tags before TTS/transcript, map pace tags to adaptive silence thresholds, randomize supportive nudges, and replace fixed first utterance with `session.generate_reply(...)` dynamic greeting.
+- **Files touched:** `apps/agent/app/prompts.py`, `apps/agent/app/agent_worker.py`, `.env.example`, `infra/docker-compose.yml`, `.github/memory/agent-notes.md`.
+- **Follow-up:** Validate in a live call that first-turn greeting is context-aware and that long analytical questions wait for `SILENCE_NUDGE_LONG_S` before nudging; tune short/long defaults after classroom trials.
+
+### 2026-02-28 (remove SILENCE_NUDGE_AFTER_S fallback)
+- **Context:** User requested removing the legacy `SILENCE_NUDGE_AFTER_S` fallback path entirely.
+- **Discovery:** Legacy key existed in runtime env parsing, `.env.example`, docker compose agent env, web page defaults, and README env table.
+- **Decision:** Removed `SILENCE_NUDGE_AFTER_S` as an env fallback and standardized defaults on `SILENCE_NUDGE_SHORT_S` + `SILENCE_NUDGE_LONG_S`. Kept per-session API payload override (`silenceNudgeAfterS`) unchanged.
+- **Files touched:** `apps/agent/app/agent_worker.py`, `.env.example`, `infra/docker-compose.yml`, `apps/web/src/app/page.tsx`, `README.md`, `.github/memory/agent-notes.md`.
+- **Follow-up:** Optional cleanup later: rename API field `silenceNudgeAfterS` to `silenceNudgeShortS` across web/agent payload contracts for naming consistency.
+

@@ -3,6 +3,8 @@ from __future__ import annotations
 import asyncio
 import json
 import os
+import random
+import re
 from datetime import datetime, timezone
 from typing import Any
 
@@ -20,13 +22,22 @@ LIVEKIT_URL = os.environ.get("LIVEKIT_URL", "ws://livekit:7880")
 AGENT_OPENAI_MODEL = os.environ.get("AGENT_OPENAI_MODEL", "gpt-4o")
 DEEPGRAM_STT_MODEL = os.environ.get("DEEPGRAM_STT_MODEL", "flux")
 DEEPGRAM_TTS_MODEL = os.environ.get("DEEPGRAM_TTS_MODEL", "aura-2-draco-en")
-SILENCE_NUDGE_AFTER_S = float(os.environ.get("SILENCE_NUDGE_AFTER_S", "3.0"))
+SILENCE_NUDGE_SHORT_S = float(os.environ.get("SILENCE_NUDGE_SHORT_S", "3.0"))
+SILENCE_NUDGE_LONG_S = float(os.environ.get("SILENCE_NUDGE_LONG_S", "8.0"))
 # Base URL for Deepgram API.  Defaults to the EU deployment.
 # Set to https://api.deepgram.com for US, or any self-hosted endpoint.
 DEEPGRAM_API_URL = os.environ.get("DEEPGRAM_API_URL", "https://api.eu.deepgram.com").rstrip("/")
 # Optional base URL override for OpenAI-compatible endpoints (e.g. Azure OpenAI
 # in uksouth/swedencentral).  Leave blank to use the default OpenAI global API.
 OPENAI_BASE_URL: str | None = os.environ.get("OPENAI_BASE_URL") or None
+
+PACE_TAG_RE = re.compile(r"\s*<PACE:(short|long)>\s*$", re.IGNORECASE)
+SILENCE_NUDGE_MESSAGES = [
+    "Take your time — it's a tricky one.",
+    "Feel free to think out loud, even if you're not sure.",
+    "Would it help if I broke that down a bit?",
+    "No rush — what's coming to mind so far?",
+]
 
 
 def _deepgram_url(path: str, *, websocket: bool = False) -> str:
@@ -107,9 +118,14 @@ class TutorAgent(Agent):
         recommended_focus: list[str],
     ) -> None:
         super().__init__(
-            instructions=(
-                f"You are a Director of Studies tutor for {course_name} and topic {topic_name}. "
-                "Use concise, clear explanations and ask follow-up questions where useful."
+            instructions=build_system_prompt(
+                course_name,
+                topic_name,
+                "Session start. No retrieved context yet; begin with a dynamic greeting.",
+                tutor_name=tutor_name,
+                personality_prompt=personality_prompt,
+                repeat_flags=repeat_flags,
+                recommended_focus=recommended_focus,
             )
         )
         self._course_id = course_id
@@ -120,6 +136,12 @@ class TutorAgent(Agent):
         self._personality_prompt = personality_prompt
         self._repeat_flags = repeat_flags
         self._recommended_focus = recommended_focus
+        self._next_nudge_s = SILENCE_NUDGE_SHORT_S
+
+    def consume_next_nudge_s(self) -> float:
+        nudge_s = self._next_nudge_s
+        self._next_nudge_s = SILENCE_NUDGE_SHORT_S
+        return nudge_s
 
     @staticmethod
     def _format_references(chunks: list[dict[str, Any]]) -> str:
@@ -147,6 +169,49 @@ class TutorAgent(Agent):
             if not (isinstance(item, llm.ChatMessage) and item.role in ("system", "developer"))
         ]
         turn_ctx.items = [llm.ChatMessage(role="system", content=[system_prompt])] + filtered_items
+
+    async def llm_node(
+        self,
+        chat_ctx: llm.ChatContext,
+        tools: list[llm.Tool],
+        model_settings: Any,
+    ) -> Any:
+        stream = Agent.default.llm_node(self, chat_ctx, tools, model_settings)
+        if asyncio.iscoroutine(stream):
+            stream = await stream
+
+        text_buffer: list[str] = []
+
+        async def _drain_async_stream() -> Any:
+            async for chunk in stream:
+                if isinstance(chunk, str):
+                    text_buffer.append(chunk)
+                    continue
+
+                if isinstance(chunk, llm.ChatChunk) and chunk.delta and chunk.delta.content:
+                    text_buffer.append(chunk.delta.content)
+                    cleaned_delta = chunk.delta.model_copy(update={"content": None})
+                    if cleaned_delta.role is not None or cleaned_delta.tool_calls or cleaned_delta.extra is not None:
+                        yield chunk.model_copy(update={"delta": cleaned_delta})
+                    elif chunk.usage is not None:
+                        yield chunk.model_copy(update={"delta": None})
+                    continue
+
+                yield chunk
+
+            merged = "".join(text_buffer).strip()
+            pace_match = PACE_TAG_RE.search(merged)
+            if pace_match:
+                pace_value = pace_match.group(1).lower()
+                self._next_nudge_s = SILENCE_NUDGE_LONG_S if pace_value == "long" else SILENCE_NUDGE_SHORT_S
+                merged = merged[: pace_match.start()].rstrip()
+            else:
+                self._next_nudge_s = SILENCE_NUDGE_SHORT_S
+
+            if merged:
+                yield merged
+
+        return _drain_async_stream()
 
 
 def _iso_now() -> str:
@@ -186,12 +251,16 @@ async def run_agent_session(
         _openai_model = agent_openai_model or AGENT_OPENAI_MODEL
         _stt_model = deepgram_stt_model or DEEPGRAM_STT_MODEL
         _tts_model = tutor_voice_model or deepgram_tts_model or DEEPGRAM_TTS_MODEL
-        _silence_nudge = silence_nudge_after_s if silence_nudge_after_s is not None else SILENCE_NUDGE_AFTER_S
+        _silence_nudge_short = silence_nudge_after_s if silence_nudge_after_s is not None else SILENCE_NUDGE_SHORT_S
         _tutor_name = (tutor_name or "TutorBot").strip() or "TutorBot"
-        _personality_prompt = (personality_prompt or "Be warm, concise, and Socratic.").strip() or "Be warm, concise, and Socratic."
+        _personality_prompt = (personality_prompt or "Be warm, concise, and Socratic. Always make the student feel capable.").strip() or "Be warm, concise, and Socratic. Always make the student feel capable."
         # Tracks when agent last finished speaking and when student last replied,
         # used by the silence watchdog to prompt unresponsive students.
-        _silence_state: dict[str, float | None] = {"last_agent": None, "last_student": 0.0}
+        _silence_state: dict[str, float | None] = {
+            "last_agent": None,
+            "last_student": 0.0,
+            "current_nudge_s": _silence_nudge_short,
+        }
 
         await room.connect(LIVEKIT_URL, token)
 
@@ -282,6 +351,7 @@ async def run_agent_session(
             elif message.role == "assistant":
                 speaker = "TutorBot"
                 _silence_state["last_agent"] = loop.time()
+                _silence_state["current_nudge_s"] = tutor_agent.consume_next_nudge_s()
 
             if speaker is None:
                 return
@@ -293,7 +363,7 @@ async def run_agent_session(
             asyncio.create_task(_persist_transcript_snapshot())
 
         async def _silence_watchdog() -> None:
-            """Nudge the student if they haven't replied within _silence_nudge seconds."""
+            """Nudge the student if they haven't replied within the current adaptive silence threshold."""
             while True:
                 await asyncio.sleep(0.5)
                 last_agent = _silence_state["last_agent"]
@@ -301,11 +371,12 @@ async def run_agent_session(
                     continue
                 elapsed = loop.time() - last_agent
                 last_student = _silence_state["last_student"] or 0.0
-                if elapsed >= _silence_nudge and last_agent > last_student:
+                nudge_s = float(_silence_state["current_nudge_s"] or _silence_nudge_short)
+                if elapsed >= nudge_s and last_agent > last_student:
                     _silence_state["last_agent"] = None  # prevent repeated nudges
                     try:
                         await session.say(  # type: ignore[union-attr]
-                            "Are you still there? Feel free to answer in your own words, or ask me to rephrase.",
+                            random.choice(SILENCE_NUDGE_MESSAGES),
                             allow_interruptions=True,
                         )
                     except Exception:
@@ -327,8 +398,11 @@ async def run_agent_session(
 
         _watchdog_task = asyncio.create_task(_silence_watchdog())
 
-        await session.say(
-            f"Hi! I'm {_tutor_name}, your tutor for {course_name}, topic {topic_name}. What would you like to focus on first?",
+        session.generate_reply(
+            instructions=(
+                "Begin the session now with your dynamic greeting. Keep it under 40 words. "
+                "If prior focus areas exist, reference one naturally, then invite the student to choose today's focus."
+            ),
             allow_interruptions=True,
         )
 

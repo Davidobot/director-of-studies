@@ -68,7 +68,8 @@ cp .env.example .env
 | `SUMMARY_OPENAI_MODEL` | No | `gpt-4o-mini` |
 | `DEEPGRAM_STT_MODEL` | No | `flux-general-en` |
 | `DEEPGRAM_TTS_MODEL` | No | `aura-2-draco-en` |
-| `SILENCE_NUDGE_AFTER_S` | No | `3.0` |
+| `SILENCE_NUDGE_SHORT_S` | No | `3.0` |
+| `SILENCE_NUDGE_LONG_S` | No | `8.0` |
 
 4. Bootstrap and seed DB via Python:
 

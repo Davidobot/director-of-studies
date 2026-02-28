@@ -80,7 +80,8 @@ services:
       DEEPGRAM_TTS_MODEL: ${DEEPGRAM_TTS_MODEL:-aura-2-draco-en}
       DEEPGRAM_API_URL: ${DEEPGRAM_API_URL:-https://api.eu.deepgram.com}
       OPENAI_BASE_URL: ${OPENAI_BASE_URL:-}
-      SILENCE_NUDGE_AFTER_S: ${SILENCE_NUDGE_AFTER_S:-3.0}
+      SILENCE_NUDGE_SHORT_S: ${SILENCE_NUDGE_SHORT_S:-3.0}
+      SILENCE_NUDGE_LONG_S: ${SILENCE_NUDGE_LONG_S:-8.0}
       PYTHONUNBUFFERED: "1"
     depends_on:
       postgres:
