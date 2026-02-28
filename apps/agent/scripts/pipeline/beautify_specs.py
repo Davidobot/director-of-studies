@@ -11,7 +11,7 @@ from .manifest import cache_root, enabled_specs
 from .prompts import beautify_prompt
 
 
-MODEL = os.environ.get("CONTENT_PIPELINE_OPENAI_MODEL", "gpt-5.2")
+MODEL = os.environ.get("CONTENT_PIPELINE_OPENAI_MODEL", "gpt-5-mini")
 OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY", "")
 
 

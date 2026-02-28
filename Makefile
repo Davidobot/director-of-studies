@@ -114,7 +114,7 @@ beautify:
 	@test -f $(AGENT_PY) || (echo "Run 'make venv' first to set up the Python environment."; exit 1)
 	cd apps/agent && \
 	  CONTENT_DIR="$(PWD)/content" \
-	  CONTENT_PIPELINE_OPENAI_MODEL="$${CONTENT_PIPELINE_OPENAI_MODEL:-gpt-5.2}" \
+	  CONTENT_PIPELINE_OPENAI_MODEL="$${CONTENT_PIPELINE_OPENAI_MODEL:-gpt-5-mini}" \
 	  $(PWD)/$(AGENT_PY) -m scripts.pipeline.beautify_specs
 
 .PHONY: discover-topics
@@ -122,7 +122,7 @@ discover-topics:
 	@test -f $(AGENT_PY) || (echo "Run 'make venv' first to set up the Python environment."; exit 1)
 	cd apps/agent && \
 	  CONTENT_DIR="$(PWD)/content" \
-	  CONTENT_PIPELINE_OPENAI_MODEL="$${CONTENT_PIPELINE_OPENAI_MODEL:-gpt-5.2}" \
+	  CONTENT_PIPELINE_OPENAI_MODEL="$${CONTENT_PIPELINE_OPENAI_MODEL:-gpt-5-mini}" \
 	  $(PWD)/$(AGENT_PY) -m scripts.pipeline.discover_topics
 
 .PHONY: keywords
@@ -130,7 +130,7 @@ keywords:
 	@test -f $(AGENT_PY) || (echo "Run 'make venv' first to set up the Python environment."; exit 1)
 	cd apps/agent && \
 	  CONTENT_DIR="$(PWD)/content" \
-	  CONTENT_PIPELINE_OPENAI_MODEL="$${CONTENT_PIPELINE_OPENAI_MODEL:-gpt-5.2}" \
+	  CONTENT_PIPELINE_OPENAI_MODEL="$${CONTENT_PIPELINE_OPENAI_MODEL:-gpt-5-mini}" \
 	  $(PWD)/$(AGENT_PY) -m scripts.pipeline.keywords_specs
 
 .PHONY: content-pipeline

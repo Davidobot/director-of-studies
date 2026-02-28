@@ -259,7 +259,7 @@ specs:
     category: academic
     syllabus_code: "H407"
     course_name: A-level Ancient History (OCR)
-    pdf_url: https://www.ocr.org.uk/Images/313570-specification-accredited-alevel-ancient-history-h407.pdf
+    pdf_url: https://www.ocr.org.uk/Images/313570-specification-accredited-a-level-ancient-history-h407.pdf
 
   - key: ocr-a-level-geography-h481
     enabled: true
@@ -269,7 +269,7 @@ specs:
     category: academic
     syllabus_code: "H481"
     course_name: A-level Geography (OCR)
-    pdf_url: https://www.ocr.org.uk/Images/223012-specification-accredited-alevel-gce-geography-h481.pdf
+    pdf_url: https://www.ocr.org.uk/images/223012-specification-accredited-a-level-gce-geography-h481.pdf
 
   - key: ocr-a-level-sociology-h580
     enabled: true
@@ -279,7 +279,7 @@ specs:
     category: academic
     syllabus_code: "H580"
     course_name: A-level Sociology (OCR)
-    pdf_url: https://www.ocr.org.uk/Images/170212-specification-accredited-alevel-gce-sociology.pdf
+    pdf_url: https://www.ocr.org.uk/Images/170212-specification-accredited-a-level-gce-sociology.pdf
 
   - key: wjec-gcse-history
     enabled: true
@@ -386,7 +386,7 @@ specs:
     category: academic
     syllabus_code: ""
     course_name: GCE AS/A Level Geography (CCEA)
-    pdf_url: https://ccea.org.uk/downloads/docs/Specifications/GCE/GCE%20Geography%20%282016%29/GCE%20Geography%20%282016%29-specification-Standard.pdf
+    pdf_url: https://syllabus.papacambridge.com/directories/CCEA/CCEA-syllabus/upload/gce%20geography%20%282018%29-specification-standard.pdf
   - key: ccea-a-level-government-and-politics
     enabled: true
     board: ccea
