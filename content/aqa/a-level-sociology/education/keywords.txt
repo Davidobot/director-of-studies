@@ -1,0 +1,57 @@
+# STT vocabulary hints for Education (A-level Sociology AQA).
+# One term per line. Used to improve speech recognition quality.
+
+A-level
+Assessment and Qualifications Alliance
+AQA
+UK
+PISA
+GCSE
+Durkheim
+Parsons
+Bowles and Gintis
+Althusserian
+Ideological state apparatus
+Bourdieu
+Cultural capital
+Habitus
+Willis
+Becker
+Marxism
+Neo-Marxist
+Functionalism
+Interactionism
+Feminist perspectives
+New Right
+Neoliberalism
+Marketisation
+Privatisation
+Academies
+Grammar schools
++
+League tables
+Parental choice
+Cream-skimming
+Pupil premium
+Free school meals
+Comprehensive reforms
+Meritocracy
+Correspondence principle
+Hidden curriculum
+Labelling
+Self-fulfilling prophecy
+Setting
+Streaming
+Pupil subcultures
+Ethnography
+Participant observation
+Positivist
+Interpretivist
+Modernity
+Postmodernity
+Institutional racism
+Cultural deprivation
+Material deprivation
+AO1
+AO2
+AO3

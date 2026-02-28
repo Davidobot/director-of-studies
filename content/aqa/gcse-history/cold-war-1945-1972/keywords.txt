@@ -1,0 +1,57 @@
+# STT vocabulary hints for Cold War 1945 1972 (GCSE History AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Cold War
+Soviet Union
+USSR
+United States
+Yalta Conference
+Potsdam Conference
+Truman Doctrine
+Marshall Plan
+Iron Curtain
+Cominform
+Comecon
+Berlin Blockade
+Berlin Airlift
+Deutschmark
+Federal Republic of Germany
+German Democratic Republic
+NATO
+Korean War
+People's Republic of China
+Chinese Communist Party
+Sputnik
+U-2 incident
+U-2 spy plane
+Berlin Wall
+Cuban Missile Crisis
+Nikita Khrushchev
+John F. Kennedy
+Mutually Assured Destruction
+MAD
+Moscow–Washington hotline
+Limited Test Ban Treaty
+Vietnam War
+Viet Cong
+North Vietnam
+South Vietnam
+Prague Spring
+Alexander Dubček
+Warsaw Pact
+Brezhnev Doctrine
+Richard Nixon
+détente
+SALT I
+Strategic Arms Limitation Talks
+Fidel Castro
+Mao Zedong
+decolonisation
+proxy wars
+intercontinental ballistic missile
+ICBM
+submarine-launched ballistic missile
+SLBM
+strategic bomber
+Suez Crisis
+Hungarian Uprising 1956

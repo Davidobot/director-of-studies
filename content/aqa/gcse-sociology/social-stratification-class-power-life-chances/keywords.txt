@@ -1,0 +1,52 @@
+# STT vocabulary hints for Social Stratification Class Power Life Chances (GCSE Sociology AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Social stratification
+Life chances
+GCSE Sociology
+Assessment and Qualifications Alliance
+Functionalism
+Davis and Moore
+Meritocracy
+Marxism
+Marx
+Bourgeoisie
+Proletariat
+Means of production
+Class conflict
+False consciousness
+Weberian
+Max Weber
+Status
+Party (Weber)
+Rational-legal authority
+Charismatic authority
+Traditional authority
+Socio-economic class
+Occupational categories
+Professional
+Managerial
+Skilled manual
+Semi-skilled
+Unskilled
+Cultural capital
+Social mobility
+Intergenerational mobility
+Devine
+Affluent worker
+Relative poverty
+Absolute poverty
+Relative deprivation
+Deprivation index
+Peter Townsend
+Charles Murray
+Underclass
+Welfare state
+Welfare reforms
+Minimum wage
+Living wage
+Precarious work
+Zero-hours contracts
+Labour market
+Sylvia Walby
+Patriarchy

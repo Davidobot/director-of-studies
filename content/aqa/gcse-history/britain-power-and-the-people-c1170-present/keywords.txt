@@ -1,0 +1,48 @@
+# STT vocabulary hints for Britain Power And The People C1170 Present (GCSE History AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Magna Carta
+King John
+Simon de Montfort
+parliament
+Montfort's Parliament
+Peasants' Revolt 1381
+Wat Tyler
+Pilgrimage of Grace 1536
+Henry VIII
+English Civil Wars
+Charles I
+Oliver Cromwell
+Restoration 1660
+Glorious Revolution 1688
+Bill of Rights 1689
+American Revolution
+Reform Acts 1832
+Chartism
+Tolpuddle Martyrs
+Matchgirls' Strike
+Trade unions
+Representation of the People Act 1918
+Equal Franchise Act 1928
+General Strike 1926
+Industrialisation
+Urbanisation
+National Health Service
+Welfare state
+Windrush generation
+Brixton riots 1981
+Scarman Report
+Decolonisation
+Civil rights movements
+Disability rights
+LGBT rights
+Parliamentary sovereignty
+Franchise
+Representation (political)
+Historic environment
+Continuity and change
+Cause and consequence
+Significance
+AO3
+AO4
+SPaG

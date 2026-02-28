@@ -1,0 +1,63 @@
+# STT vocabulary hints for Changing Economic World (GCSE Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Assessment and Qualifications Alliance
+Changing Economic World
+Industrialisation
+Global trade
+Migration
+Technological change
+Human development
+Gross National Income (GNI)
+GNI per head
+Life expectancy
+Infant mortality
+Literacy rates
+Human Development Index (HDI)
+Landlocked
+Colonialism
+Foreign direct investment (FDI)
+Special economic zones (SEZs)
+Tourism
+Microfinance
+Fairtrade
+Ethical supply chains
+Debt relief
+Sustainable development
+Newly Emerging Economy (NEE)
+India
+Liberalisation
+Information Technology
+Bangalore
+Hyderabad
+Transnational corporations (TNCs)
+Multinational companies
+Air pollution
+Water pollution
+Informal labour
+Underemployment
+Deindustrialisation
+Service sector
+Finance sector
+High-tech sectors
+United Kingdom
+London
+North–south divide
+Regeneration projects
+Enterprise zones
+London Docklands
+Science parks
+Business parks
+Northern Powerhouse
+Renewable energy
+Energy-efficient buildings
+Low-carbon transport
+Global supply chains
+Repatriate profits
+Tax breaks
+Cultural commodification
+Seasonal dependency
+Human capital
+Public services
+Case study

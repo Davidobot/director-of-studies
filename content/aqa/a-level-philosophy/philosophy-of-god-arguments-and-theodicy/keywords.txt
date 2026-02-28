@@ -1,0 +1,60 @@
+# STT vocabulary hints for Philosophy Of God Arguments And Theodicy (A-level Philosophy AQA).
+# One term per line. Used to improve speech recognition quality.
+
+A-level
+classical theism
+omniscient
+omnipotent
+omnibenevolent
+timeless
+everlasting
+paradox of the stone
+Euthyphro problem
+divine foreknowledge
+free will
+ontological argument
+a priori
+St Anselm
+Descartes
+Norman Malcolm
+modal ontological argument
+Gaunilo
+perfect island
+Kant
+existence is not a predicate
+cosmological argument
+Aquinas
+Kalam cosmological argument
+Principle of Sufficient Reason
+Leibniz
+Hume
+fallacy of composition
+teleological argument
+Paley
+watchmaker analogy
+Richard Swinburne
+inference to the best explanation
+fine-tuning
+multiverse
+natural selection
+problem of evil
+theodicy
+moral evil
+natural evil
+Alvin Plantinga
+Free Will Defence
+libertarian free will
+John Hick
+soul-making theodicy
+gratuitous evil
+logical positivism
+verification principle
+Antony Flew
+falsifiability
+Flew gardener parable
+eschatological verification
+modal claims
+deductive
+inductive
+abductive
+entailment

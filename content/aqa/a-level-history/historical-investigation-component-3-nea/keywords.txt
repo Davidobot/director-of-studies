@@ -1,0 +1,49 @@
+# STT vocabulary hints for Historical Investigation Component 3 Nea (A-level History AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Historical Investigation
+Component 3
+NEA
+AQA
+A-level History
+Assessment and Qualifications Alliance
+AO1
+AO2
+AO3
+Glorious Revolution
+Crown and Parliament
+provenance
+historiography
+primary source
+secondary literature
+monograph
+scholarly journal
+artefact
+official document
+private letter
+visual material
+government proclamation
+reliability
+bias
+interpretative framework
+Candidate Record Form
+NEA title approval form
+Components 1 and 2
+internal standardisation
+moderation
+mark scheme
+word count
+bibliography
+footnotes
+plagiarism
+collusion
+malpractice
+contextualisation
+continuity and change
+sustained analytical prose
+historiographical evaluation
+scholarly debate
+post-war decades
+structural economic explanations
+gender history
+archival material

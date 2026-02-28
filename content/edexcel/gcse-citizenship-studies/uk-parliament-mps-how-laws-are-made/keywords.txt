@@ -1,0 +1,54 @@
+# STT vocabulary hints for Uk Parliament Mps How Laws Are Made (GCSE Citizenship Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+UK Parliament
+Westminster
+House of Commons
+House of Lords
+Monarch
+Royal assent
+Members of Parliament (MPs)
+First-past-the-post
+Constituency
+Whips
+Backbench MPs
+Life peers
+Hereditary peers
+Lords Spiritual
+Statute law
+Common law
+Uncodified constitution
+Constitutional conventions
+Statutory instruments
+Secondary legislation
+Act of Parliament
+Government bill
+Private member's bill
+First reading
+Second reading
+Committee stage
+Report stage
+Third reading
+Select committees
+Chancellor of the Exchequer
+Budget
+Supply bills
+Prime Minister's Questions
+Devolution
+Scottish Parliament
+Senedd
+Northern Ireland Assembly
+Reserved matters
+Post-Brexit
+Parliamentary sovereignty
+Separation of powers
+Civil service
+Judiciary
+Parliamentary democracy
+PEEL approach
+AO1
+AO2
+AO3
+Pressure groups
+Parliamentary scrutiny
+MP surgeries

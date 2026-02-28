@@ -1,0 +1,52 @@
+# STT vocabulary hints for Buddhism Four Noble Truths (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Four Noble Truths
+Eightfold Path
+Siddhartha Gautama
+Bodhi tree
+Four Sights
+Dhammacakkappavattana Sutta
+sutta
+Anapanasati
+dukkha
+samudaya
+tanha
+nirodha
+nibbana
+samsara
+magga
+kamma
+sila
+samadhi
+panna
+Threefold Way
+Right View
+Right Intention
+Right Speech
+Right Action
+Right Livelihood
+Right Effort
+Right Mindfulness
+Right Concentration
+Three Jewels
+Five Precepts
+Theravada
+Mahayana
+bodhisattva
+arahant
+samatha
+jhana
+vipassana
+metta bhavana
+metta practice
+zazen
+Zen
+deity-yoga
+mantra recitation
+visualisation
+mindfulness-based techniques
+mindfulness of breathing
+mindfulness
+monastics
+Buddha

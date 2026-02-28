@@ -1,0 +1,62 @@
+# STT vocabulary hints for Theme D Peace Conflict (GCSE Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Theme D
+Religion, peace and conflict
+GCSE
+Religious Studies
+Assessment and Qualifications Alliance
+AQA
+peace
+justice
+forgiveness
+reconciliation
+restorative justice
+truth and reconciliation
+terrorism
+civil unrest
+just war theory
+holy war
+pacifism
+Augustine
+Thomas Aquinas
+just cause
+proper authority
+right intention
+last resort
+proportionality
+protecting civilians
+Quakers
+Anabaptist
+Sermon on the Mount
+jihad
+greater jihad
+lesser jihad
+saint-soldier
+Weapons of mass destruction
+WMDs
+nuclear deterrence
+nuclear weapons
+chemical weapons
+biological weapons
+disarmament
+sanctity of life
+peacebuilding
+humanitarian relief
+interfaith initiatives
+Archbishop Desmond Tutu
+Truth and Reconciliation Commission
+Corrymeela
+Northern Ireland
+Pax Christi
+Christian Peacemaker Teams
+Islamic Relief
+CAFOD
+pastoral support
+karuna
+ahimsa
+karma
+Catholic teaching
+Protestant denominations
+AO1
+AO2

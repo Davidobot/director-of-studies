@@ -1,0 +1,51 @@
+# STT vocabulary hints for Philosophy Of Mind Dualism Physicalism Consciousness (A-level Philosophy AQA).
+# One term per line. Used to improve speech recognition quality.
+
+qualia
+intentionality
+phenomenal properties
+phenomenology
+substance dualism
+property dualism
+physicalism
+Cartesian dualism
+René Descartes
+res cogitans
+res extensa
+indivisibility argument
+conceivability argument
+conceivability
+metaphysical possibility
+interactionist dualism
+Princess Elisabeth of Bohemia
+category mistake
+Gilbert Ryle
+Frank Jackson
+knowledge argument
+Mary
+David Chalmers
+philosophical zombie
+hard problem of consciousness
+epiphenomenalism
+behaviourism
+philosophical behaviourism
+identity theory
+type identity
+multiple realisability
+eliminative materialism
+folk psychology
+functionalism
+computationalism
+Ned Block
+China thought experiment
+inverted qualia
+mental causation
+representational content
+higher-order information-processing
+supervenience
+ontological reduction
+C-fibre firing
+Super-Spartans
+epistemic intuitions
+problem of other minds
+thought experiments

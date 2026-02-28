@@ -1,0 +1,48 @@
+# STT vocabulary hints for Sociological Perspectives (GCSE Sociology AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Functionalism
+Marxism
+Feminism
+Interactionism
+Durkheim
+Parsons
+Meritocracy
+Primary socialisation
+Stabilisation of adult personalities
+Social solidarity
+Social structure
+Means of production
+Bourgeoisie
+Proletariat
+Correspondence principle
+False consciousness
+Ideology
+Capitalist reproduction
+Class inequality
+Economic structures
+Patriarchy
+Intersectionality
+Multiple patriarchy
+Domestic division of labour
+Unpaid domestic labour
+Radical feminism
+Marxist feminism
+Liberal feminism
+Gender pay gap
+Labelling theory
+Self-fulfilling prophecy
+Deviant career
+Selective enforcement
+Participant observation
+Unstructured interviews
+Case studies
+Qualitative methods
+Quantitative data
+Official statistics
+Dark figure
+Role allocation
+Weberian
+Social stratification
+Life chances
+Agency

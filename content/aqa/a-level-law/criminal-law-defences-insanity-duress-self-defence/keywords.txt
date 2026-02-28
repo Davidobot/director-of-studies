@@ -1,0 +1,52 @@
+# STT vocabulary hints for Criminal Law Defences Insanity Duress Self Defence (A-level Law AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Insanity
+Automatism
+Duress
+Duress of circumstances
+Self-defence
+M'Naghten rules
+M'Naghten test
+Bratty
+Actus reus
+Mens rea
+Voluntary act
+Involuntary act
+Voluntariness
+Disease of the mind
+Defect of reason
+Internal cause
+External cause
+Non-insane automatism
+Insane automatism
+Hypoglycaemia
+Hyperglycaemia
+Epileptic episodes
+Psychotic illness
+Sleep disorder
+Adverse reaction to medication
+Spasm
+Insulin
+Special verdict
+Not guilty by reason of insanity
+Hospital orders
+Guardianship orders
+Supervisory orders
+Burden of proof
+Evidential burden
+Legal burden
+Balance of probabilities
+Beyond reasonable doubt
+Subjective element
+Objective element
+Reasonable person
+Reasonable firmness
+Necessity
+Proportionality
+Honest belief
+Duty to retreat
+Householder discretion
+Voluntary intoxication
+Voluntary association
+AO3 evaluation

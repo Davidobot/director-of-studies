@@ -1,0 +1,46 @@
+# STT vocabulary hints for Crime And Punishment Britain (GCSE History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Norman Forest Laws
+Anglo-Saxon compensation
+Tithings
+Hue and cry
+Parish constable
+Sanctuary
+Benefit of Clergy
+Trial by ordeal
+Black Death
+Vagabondage
+Heresy
+Treason
+Witch-hunts
+Matthew Hopkins
+Gunpowder Plot 1605
+Bloody Code
+Transportation
+Penal colonies
+John Howard
+Elizabeth Fry
+Pentonville
+Separate system
+Robert Peel
+Metropolitan Police
+Criminal Investigation Department (CID)
+Detectives
+Fingerprinting
+Forensic photography
+DNA
+Digital forensics
+Tolpuddle Martyrs
+Whitechapel
+Peabody Estates
+H Division
+Scotland Yard
+City of London Police
+Jack the Ripper
+Whitechapel Vigilance Committee
+Sir Charles Warren
+Charles Booth
+Coroners' reports
+Neighbourhood Watch
+Conscientious objectors

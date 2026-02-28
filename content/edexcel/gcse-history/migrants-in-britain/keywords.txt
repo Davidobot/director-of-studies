@@ -1,0 +1,38 @@
+# STT vocabulary hints for Migrants In Britain (GCSE History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Danelaw
+Viking settlers
+York
+Norman Conquest (1066)
+Normans
+Jewish pogroms (1189–90)
+Black Death
+Flemish clothworkers
+Walloon clothworkers
+Huguenot refugees
+Silk-weaving
+Enslaved Africans
+Indentured workers
+Industrial Revolution
+Great Famine (1840s)
+Liverpool
+East End
+Aliens Act 1905
+British Nationality Acts
+HMT Empire Windrush (1948)
+Commonwealth migration
+Decolonisation
+Race Relations Act 1965
+Notting Hill Carnival
+Notting Hill Riots (1958)
+Kelso Cochrane
+Peter Rachman
+Portobello Market
+Claudia Jones
+West Indian Gazette
+Frank Crichlow
+Mangrove Restaurant
+Mangrove Nine trial
+Houses of multiple occupation
+Oral testimonies

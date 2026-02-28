@@ -1,0 +1,49 @@
+# STT vocabulary hints for Aristotelian Virtue Ethics Practical Wisdom (A-level Philosophy AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Aristotle
+Aristotelian
+A-level
+Assessment and Qualifications Alliance
+AQA
+eudaimonia
+arete
+telos
+ergon
+function argument
+doctrine of the mean
+mesotes
+phronesis
+practical wisdom
+sophia
+theoretical wisdom
+habituation
+moral education
+virtue ethics
+moral virtue
+intellectual virtue
+temperance
+courage
+rashness
+cowardice
+generosity
+prodigality
+stinginess
+voluntary action
+involuntary action
+non-voluntary action
+agent-centred
+moral perception
+practical judgement
+action-guidance
+circularity
+exemplars
+cultural relativism
+human flourishing
+moral psychology
+synoptic
+AO1
+AO2
+utilitarianism
+Kantian deontology
+consequentialism

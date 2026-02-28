@@ -1,0 +1,53 @@
+# STT vocabulary hints for Stuart Britain Crisis Of Monarchy 1603 1702 (A-level History AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Stuart Britain
+James VI/I
+Charles I
+Charles II
+James II
+William III
+William of Orange
+Glorious Revolution
+Bill of Rights
+Toleration Act
+Act of Settlement
+Petition of Right
+Personal Rule
+Eleven Years' Tyranny
+Ship money
+Forced loans
+Impositions
+Long Parliament
+Rump Parliament
+New Model Army
+Marston Moor
+Naseby
+Levellers
+Diggers
+Regicide
+Commonwealth
+Protectorate
+Oliver Cromwell
+Major-Generals
+Restoration
+Clarendon Code
+Popish Plot
+Exclusion Crisis
+Duke of York
+Declarations of Indulgence
+Whigs
+Tories
+Political Nation
+Divine right of kings
+Royal prerogative
+Episcopal authority
+Arminianism
+William Laud
+Book of Common Prayer
+Bishops' Wars
+Billeting
+Feudal dues
+Court and Country
+House of Commons
+Interregnum

@@ -1,0 +1,54 @@
+# STT vocabulary hints for Sikhism Beliefs Gurdwara Sewa (GCSE Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Sikhism
+Guru Nanak
+Punjab
+Gurus
+Guru Gobind Singh
+Khalsa
+Guru Granth Sahib
+Mool Mantra
+mukti
+Sach Khand
+khands
+maya
+haumai
+gurmukh
+manmukh
+shabads
+akhand path
+hukamnama
+Panj Pyare
+Amrit Sanskar
+Amrit
+amritdhari
+sahajdhari
+Five Ks
+kesh
+kangha
+kara
+kachera
+kirpan
+Singh
+Kaur
+gurdwara
+palki
+diwan
+sangat
+kirtan
+Nishan Sahib
+langar
+langar hall
+sewa
+tan
+man
+dhan
+nam japna
+Vaisakhi
+Gurpurbs
+Harimandir Sahib
+Amritsar
+sant-sipahi
+bhakti
+Sufi

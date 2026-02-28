@@ -1,0 +1,58 @@
+# STT vocabulary hints for Theme C Existence God Revelation (GCSE Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Theme C: Existence of God and Revelation
+Design argument
+Teleological
+First Cause
+Cosmological
+Kalam cosmological argument
+William Paley
+Watchmaker analogy
+Fine-tuning
+Natural selection
+Evolution
+Thomas Aquinas
+Uncaused cause
+Necessary being
+Miracles
+Lourdes
+Gospel
+Feeding of the Five Thousand
+Visions
+Saul’s conversion
+Road to Damascus
+Paul
+Religious experience
+Prima facie
+David Hume
+Problem of evil
+Moral evil
+Natural evil
+Logical problem of evil
+Evidential problem of evil
+Free will defence
+Soul-making theodicy
+Augustine
+Irenaeus
+Privation of good
+Special revelation
+General revelation
+Qur’an
+Muhammad
+Bible
+Prophetic visions
+Enlightenment
+Nirvana
+Brahman
+Classical theism
+Omnipotence
+Omniscience
+Omnibenevolence
+Immanence
+Transcendence
+Methodological naturalism
+Atheism
+Humanism
+AO1
+AO2

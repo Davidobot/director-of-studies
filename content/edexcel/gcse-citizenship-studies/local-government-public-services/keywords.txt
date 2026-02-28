@@ -1,0 +1,51 @@
+# STT vocabulary hints for Local Government Public Services (GCSE Citizenship Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE Citizenship Studies
+Pearson Edexcel
+Local government
+Unitary authority
+Two-tier system
+County council
+District council
+Borough council
+Greater London Authority
+Mayor of London
+London Assembly
+Parish council
+Town council
+Councillor
+Council officer
+Leader-and-cabinet model
+Cabinet
+Committee system
+Directly elected mayor
+Overview and scrutiny committee
+Council tax
+Business rates
+Central government grants
+Capital receipts
+Procurement
+Legal compliance
+Freedom of Information Act
+Local Government Ombudsman
+Judicial review
+Devolution
+Outsourcing
+Private contractors
+Statutory services
+Adult social care
+Children's services
+Academies
+NHS
+Public health
+Trading standards
+Emergency planning
+Neighbourhood planning
+Residents' association
+Pressure group
+AO2 marks
+Council meetings
+Public consultation
+School council
+Youth forum

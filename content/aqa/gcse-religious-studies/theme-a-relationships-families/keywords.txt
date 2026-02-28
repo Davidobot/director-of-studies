@@ -1,0 +1,60 @@
+# STT vocabulary hints for Theme A Relationships Families (GCSE Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Assessment and Qualifications Alliance
+AQA
+Theme A
+Relationships and families
+Religious Studies
+Christianity
+Roman Catholic Church
+Catholicism
+Protestant
+Anglican
+Church of England
+Islam
+Qur'an
+Hadith
+Sikhism
+Guru Granth Sahib
+Judaism
+Orthodox Judaism
+Reform Judaism
+Humanism
+Natural Family Planning
+Contraception
+Natural law
+Sanctity of life
+Procreative purpose
+Unitive purpose
+Zina
+Fornication
+Adultery
+Same-sex marriage
+Sexual orientation
+Talaq
+Annulment
+Divorce
+Remarriage
+Polygamy
+Polygyny
+Gender equality
+Male headship
+Pastoral care
+Faith schools
+Faith-based charities
+Civil marriage
+Religious marriage ceremony
+Cohabitation
+SPaG
+AO1
+AO2
+Virtue ethics
+Utilitarianism
+Rights-based approach
+Marriage as covenant
+Sacrament
+Marriage preparation
+Family planning services
+Sex education

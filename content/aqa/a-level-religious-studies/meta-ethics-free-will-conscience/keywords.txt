@@ -1,0 +1,56 @@
+# STT vocabulary hints for Meta Ethics Free Will Conscience (A-level Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Meta-ethics
+Divine Command Theory
+Divine Command
+Utilitarianism
+Intuitionism
+A-level
+Assessment and Qualifications Alliance
+Cognitivism
+Non-cognitivism
+Ethical naturalism
+Moral naturalism
+Non-naturalism
+Euthyphro dilemma
+Euthyphro
+G. E. Moore
+Open question argument
+Hedonistic calculus
+Bentham
+Mill
+Higher and lower pleasures
+Rule-utilitarianism
+Act-utilitarianism
+Teleological
+Consequentialist
+Preference satisfaction
+Well-being
+Moral intuition
+Reflective equilibrium
+Synderesis
+Conscientia
+Aquinas
+Practical reason
+Libertarianism
+Hard determinism
+Compatibilism
+Retributivism
+Neuroscience
+Trolley problem
+Divine hiddenness
+Moral realism
+Moral epistemology
+Moral disagreement
+Cultural diversity
+Assisted suicide
+Whistleblower
+Rehabilitative approaches
+Moral authority
+Divine nature
+Moral properties
+Empirical verification
+Synoptic understanding
+AO1
+AO2

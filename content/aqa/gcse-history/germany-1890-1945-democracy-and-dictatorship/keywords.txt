@@ -1,0 +1,52 @@
+# STT vocabulary hints for Germany 1890 1945 Democracy And Dictatorship (GCSE History AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Kaiser Wilhelm II
+Weimar Republic
+Article 48
+Spartacist rising
+Kapp Putsch
+Beer Hall Putsch
+Hyperinflation 1923
+Occupation of the Ruhr
+Rentenmark
+Gustav Stresemann
+Dawes Plan
+League of Nations
+Locarno Treaties
+Wall Street Crash 1929
+Great Depression
+Paul von Hindenburg
+Heinrich Brüning
+Franz von Papen
+Kurt von Schleicher
+Adolf Hitler
+Reichstag Fire
+Reichstag Fire Decree
+Enabling Act
+Gleichschaltung
+Länder
+Night of the Long Knives
+Sturmabteilung (SA)
+Schutzstaffel (SS)
+Gestapo
+Heinrich Himmler
+Joseph Goebbels
+Nuremberg Laws
+Kristallnacht
+Final Solution
+Holocaust
+Deutsche Arbeitsfront
+Hitler Youth
+Volksgemeinschaft
+Aryan
+White Rose
+Sophie Scholl
+Hans Scholl
+July Plot
+Concentration camps
+Treaty of Versailles
+Prussian militarism
+Proportional representation
+Presidential emergency powers
+Reich Ministry of Public Enlightenment and Propaganda

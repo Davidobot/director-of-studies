@@ -1,0 +1,61 @@
+# STT vocabulary hints for Criminal Civil Youth Justice (GCSE Citizenship Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE Citizenship Studies
+Pearson Edexcel
+England and Wales
+Scotland
+Northern Ireland
+Acts of Parliament
+Statute
+Case law
+Common law
+Precedent
+Rule of law
+Presumption of innocence
+Beyond reasonable doubt
+Balance of probabilities
+Magistrates' court
+Crown Court
+High Court
+County Court
+Tribunals
+Employment tribunal
+Immigration tribunal
+Magistrate
+Juror
+Prosecutor
+Defence lawyer
+Special constable
+Indictable offence
+Summary offence
+Youth court
+Age of criminal responsibility
+Youth rehabilitation order
+Referral order
+Community order
+Community payback
+Custodial sentence
+Restorative justice
+Reparation
+Rehabilitation
+Deterrence
+Retribution
+Re-offending
+Alternative dispute resolution
+Mediation
+Small claims
+Personal injury
+Contract dispute
+Debt claim
+Legal aid
+Access to justice
+Sentencing guidelines
+Cross-examination
+Witness testimony
+Mock trial
+Citizenship action
+AO1
+AO2
+AO3
+Paper 2

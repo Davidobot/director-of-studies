@@ -1,0 +1,50 @@
+# STT vocabulary hints for Theme B Religion And Life (GCSE Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Theme B
+GCSE Religious Studies
+Assessment and Qualifications Alliance
+Christianity
+Islam
+Hinduism
+Buddhism
+Judaism
+Roman Catholic
+Genesis
+Big Bang
+Evolution by natural selection
+Karma
+Rebirth
+Stewardship
+Dominion
+Khalifah
+Ahimsa
+Pikuach nefesh
+Vegetarianism
+Animal experimentation
+Replace, reduce and refine
+Three Rs
+Abortion
+Foetal anomaly
+Personhood
+Sanctity of life
+Quality of life
+Euthanasia
+Active euthanasia
+Passive euthanasia
+Voluntary euthanasia
+Non-voluntary euthanasia
+Assisted dying
+Assisted suicide
+Palliative care
+Hospice
+Muslim chaplaincy
+Principle of double effect
+Utilitarianism
+Rights-based theory
+Natural law
+Deontological ethics
+Moral status
+Autonomy
+Common good
+SPaG

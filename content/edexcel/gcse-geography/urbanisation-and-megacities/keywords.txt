@@ -1,0 +1,48 @@
+# STT vocabulary hints for Urbanisation And Megacities (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Urbanisation
+Megacity
+Pearson Edexcel
+GCSE
+Central Business District
+CBD
+Urban primacy
+Primate city
+Rural-to-urban migration
+Natural increase
+Transnational corporation
+Suburbanisation
+Deindustrialisation
+Regeneration
+Peri-urban
+Urban–rural fringe
+GIS
+Satellite imagery
+Land use
+Informal sector
+Informal settlement
+Slum
+Slum upgrading
+Microfinance
+Participatory planning
+Mass transit
+Bus Rapid Transit
+BRT
+Metro
+Waste management
+Floodplain
+Greenhouse gas emissions
+Pollution hotspot
+Spatial inequality
+Secure tenure
+Property rights
+Census data
+Fieldwork
+Traffic counts
+Housing density
+Environmental quality scores
+PEEL
+Paper 2
+Colonial-era development
+Urban economy

@@ -1,0 +1,47 @@
+# STT vocabulary hints for Tudors England 1485 1603 (A-level History AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Tudors
+Henry VII
+Henry VIII
+Edward VI
+Mary I
+Elizabeth I
+Thomas Wolsey
+Thomas Cromwell
+William Cecil
+Lord Burghley
+Robert Cecil
+Philip II
+Mary, Queen of Scots
+Pilgrimage of Grace
+Dissolution of the Monasteries
+Council Learned in the Law
+Chancery
+Privy Council
+Royal Supremacy
+Acts of Supremacy
+Acts of Uniformity
+Elizabethan Settlement
+Mid-Tudor crisis
+Protector Somerset
+Northumberland
+Great Matter
+Marian persecutions
+Dutch Revolt
+Armada
+Maritime privateering
+Cloth trade
+Cloth towns
+East Anglia
+Enclosure
+Midlands enclosure debates
+Rising of the Earls
+Plantations
+Papal authority
+Via media
+Parish returns
+Bonds and recognisances
+Feudal dues
+Parish almsgiving
+Elizabethan Golden Age

@@ -1,0 +1,54 @@
+# STT vocabulary hints for Global Atmospheric Circulation And Climate Change (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Global atmospheric circulation
+Hadley cell
+Ferrel cell
+Polar cell
+Trade winds
+Westerlies
+Polar easterlies
+Pressure belts
+Equator
+Subtropics
+Tropics
+Gulf Stream
+North Atlantic Drift
+Labrador Current
+Ocean currents
+Milankovitch cycles
+Quaternary period
+Ice cores
+Greenland
+Antarctica
+Tree rings
+Pollen records
+Palaeoclimate proxies
+Instrumental record
+Greenhouse gases
+Carbon dioxide
+Methane
+Nitrous oxide
+Enhanced greenhouse effect
+Albedo
+Permafrost
+Thermal expansion
+Sea-level rise
+Tropical cyclones
+Hurricanes
+Typhoons
+Cyclone eye
+Storm surge
+Mid-troposphere
+Evaporation
+Latent heat
+Saffir–Simpson scale
+Hurricane Katrina
+Typhoon Haiyan
+Sahel
+Millennium Drought
+Medieval Warm Period
+Little Ice Age
+Monsoon
+Over-abstraction
+GIS

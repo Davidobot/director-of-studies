@@ -1,0 +1,46 @@
+# STT vocabulary hints for Statutory Interpretation Judicial Precedent (A-level Law AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Statutory interpretation
+Judicial precedent
+Assessment and Qualifications Alliance
+Literal rule
+Golden rule
+Mischief rule
+Purposive approach
+Heydon's Case
+Ghaidan v Mendoza
+Human Rights Act 1998
+Section 3
+Convention rights
+European Union law
+Teleological approach
+Practice Statement
+Stare decisis
+Ratio decidendi
+Obiter dicta
+Per incuriam
+Supreme Court
+House of Lords
+Court of Appeal
+High Court
+Crown Court
+County Courts
+Law reports
+Neutral citations
+Hansard
+Parliamentary supremacy
+Neighbour principle
+IRAC
+Law reform reports
+Legislative history
+Distinguishing
+Overruling
+Binding precedent
+Judicial law-making
+Rights‑conforming interpretation
+Marital rape
+Legislative scheme
+Long title
+Preamble
+Schedules

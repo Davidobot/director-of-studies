@@ -1,0 +1,45 @@
+# STT vocabulary hints for Classical Sociologists (GCSE Sociology AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Emile Durkheim
+Social facts
+Mechanical solidarity
+Organic solidarity
+Anomie
+Social cohesion
+Hidden curriculum
+Karl Marx
+Bourgeoisie
+Proletariat
+Means of production
+Class conflict
+Ideology
+Alienation
+Economic determinism
+Historical materialism
+Reproduction of labour power
+Max Weber
+Verstehen
+Social stratification
+Status
+Party
+Legal‑rational authority
+Charismatic authority
+Traditional authority
+Bureaucracy
+Life chances
+Correspondence principle
+Labelling theory
+Interactionism
+Legitimacy
+Socialisation
+Reproduction of class relations
+Exploitation
+Class consciousness
+GCSE
+Assessment and Qualifications Alliance
+AO1
+AO2
+AO3
+Interpretive approach
+Social action

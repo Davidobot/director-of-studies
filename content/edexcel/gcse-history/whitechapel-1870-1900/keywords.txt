@@ -1,0 +1,51 @@
+# STT vocabulary hints for Whitechapel 1870 1900 (GCSE History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Whitechapel
+East End
+East London
+H Division
+Metropolitan Police
+Criminal Investigation Department
+CID
+Scotland Yard
+City of London Police
+Sir Charles Warren
+Home Secretary
+Whitechapel Vigilance Committee
+Jack the Ripper
+Ripper killings
+Whitechapel murders
+Charles Booth
+Booth's survey
+Peabody Estate
+rookeries
+lodging houses
+workhouse
+coroner's inquest
+coroners' reports
+beat constable
+beat system
+fingerprinting
+DNA
+forensic science
+crime scene photography
+crime scene sketches
+protection rackets
+public houses
+casual labour
+piecework
+itinerant labourers
+Jewish migrants
+Irish migrants
+anti-immigrant groups
+sensationalism
+urban mass media
+Punch cartoons
+parliamentary papers
+trial records
+police recruitment
+housing reform
+municipal measures
+social mapping
+police professionalism

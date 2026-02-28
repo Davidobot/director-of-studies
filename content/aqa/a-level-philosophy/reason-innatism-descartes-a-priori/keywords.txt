@@ -1,0 +1,41 @@
+# STT vocabulary hints for Reason Innatism Descartes A Priori (A-level Philosophy AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Plato
+Meno
+Socratic method
+slave-boy example
+Leibniz
+Descartes
+John Locke
+David Hume
+innatism
+innate ideas
+tabula rasa
+a priori
+a posteriori
+intuition
+deduction
+intuition/deduction thesis
+analytic
+synthetic a priori
+relations of ideas
+matters of fact
+radical doubt
+cogito ergo sum
+clear and distinct ideas
+evil demon hypothesis
+non-deceiving God
+necessary truths
+modal status
+recollection
+empiricism
+rationalism
+induction
+causal inference
+epistemology
+epistemic
+introspection
+Cartesian doubt
+mathematical truths
+logical inference

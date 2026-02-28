@@ -1,0 +1,58 @@
+# STT vocabulary hints for Hazards Tectonics Storms Wildfires (A-level Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Park model
+Hazard Management Cycle
+Plate tectonics
+Constructive (divergent) margin
+Destructive (convergent) margin
+Conservative (transform) margin
+Subduction zone
+Ridge push
+Slab pull
+Mantle convection
+Hotspot
+Magma plume
+Ring of Fire
+Basaltic magma
+Andesitic magma
+Rhyolitic magma
+Magma viscosity
+Moment magnitude
+Modified Mercalli Intensity
+Pyroclastic density current
+Nuées ardentes
+Pyroclastic flow
+Ash fall
+Tephra
+Lahar
+Sulphur dioxide
+Eyjafjallajökull
+Mount Pinatubo
+Mount St Helens
+Seafloor displacement
+Tsunami
+Liquefaction
+Submarine landslide
+Haiti earthquake
+Tōhoku earthquake 2011
+Fukushima nuclear crisis
+Early-warning systems
+Retrofitting
+Building codes
+Typhoon Haiyan
+Yolanda
+Hurricane Harvey
+Storm surge
+Fluvial flooding
+Urban flooding
+Mangrove restoration
+Sea surface temperature
+Black Summer 2019–2020
+Camp Fire 2018
+Prescribed burning
+Fuel load
+Controlled burns
+Land-use planning
+Seawalls
+Levees

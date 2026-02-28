@@ -1,0 +1,45 @@
+# STT vocabulary hints for Meta Ethics Realism Anti Realism Emotivism (A-level Philosophy AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Meta-ethics
+Moral realism
+Moral anti-realism
+Emotivism
+Prescriptivism
+Cognitivism
+Non-cognitivism
+Moral naturalism
+Moral non-naturalism
+Intuitionism
+Open question argument
+Naturalistic fallacy
+Is-ought gap
+David Hume
+John Mackie
+Argument from queerness
+Error theory
+Frege–Geach problem
+Experience machine
+Moral zombie
+Moral intuition
+Mind-independent moral facts
+Normative ethics
+Applied ethics
+Moral ontology
+Moral epistemology
+Universalizability
+Utilitarianism
+Utility
+Suffering
+Pleasure
+Social welfare
+Moral motivation
+Moral disagreement
+Moral progress
+Moral persuasion
+Reductionism
+Reductive accounts
+Non-cognitivist anti-realism
+Cognitivist anti-realism
+Logic of attitudes
+Prescriptive force

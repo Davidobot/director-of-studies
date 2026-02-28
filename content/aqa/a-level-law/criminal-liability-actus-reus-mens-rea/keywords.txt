@@ -1,0 +1,53 @@
+# STT vocabulary hints for Criminal Liability Actus Reus Mens Rea (A-level Law AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Actus reus
+Mens rea
+Omissions
+State-of-affairs offence
+Conduct crimes
+Consequence crimes
+Factual causation
+But for test
+Legal causation
+Novus actus interveniens
+Thin-skull rule
+Voluntariness
+Involuntariness
+Continuing act
+Substantial and operating cause
+Duty to act
+Special relationships
+Voluntary assumption of care
+Contractual duty
+Statutory duty
+Gibbins and Proctor
+Pittwood
+Stone and Dobinson
+R v Miller
+R v White
+R v Larsonneur
+Hill v Baxter
+R v Pagett
+R v Roberts
+R v Blaue
+R v Cheshire
+R v Jordan
+Direct intention
+Oblique intention
+Woollin
+Mohan
+Recklessness
+R v Cunningham
+R v G
+Criminal negligence
+Adomako
+Transferred malice
+Latimer
+Pembleton
+Strict liability
+Gammon
+Attempts
+Preparatory acts
+Fagan v Metropolitan Police Commissioner
+Thabo Meli

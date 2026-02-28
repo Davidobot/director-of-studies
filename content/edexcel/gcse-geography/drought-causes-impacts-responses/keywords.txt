@@ -1,0 +1,57 @@
+# STT vocabulary hints for Drought Causes Impacts Responses (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Drought
+Meteorological drought
+Hydrological drought
+Agricultural drought
+Standardised Precipitation Index (SPI)
+El Niño–Southern Oscillation (ENSO)
+El Niño
+La Niña
+Jet stream
+Blocking highs
+Subtropical high-pressure belt
+Rain shadow
+Continental interior
+Climate change
+Greenhouse gas emissions
+Over-abstraction
+Groundwater abstraction
+Aquifer
+Managed aquifer recharge
+Saline intrusion
+Inter-basin transfer
+Reservoir management
+Hydrograph
+Multi-year rainfall chart
+Satellite remote sensing
+GIS
+Soil moisture
+Vegetation health
+Cape Town water crisis 2017–2018
+Day Zero
+Horn of Africa
+Somalia
+Ethiopia
+Kenya
+Desalination
+Drip irrigation
+Rainwater harvesting
+Catchment restoration
+Reforestation
+Wetland protection
+Leak detection
+Metering
+Water-use restrictions
+Hosepipe ban
+Water trucking
+Runoff
+Reservoir storage
+River discharge
+Pearson Edexcel
+GCSE
+AO1
+AO2
+AO3
+AO4

@@ -1,0 +1,48 @@
+# STT vocabulary hints for Theme E Crime Punishment (GCSE Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Theme E
+GCSE
+Assessment and Qualifications Alliance
+AQA
+Christianity
+Islam
+Buddhism
+Three Poisons
+karma
+sin
+qisas
+diyya
+capital punishment
+death penalty
+retribution
+deterrence
+protection
+reformation
+rehabilitation
+restoration
+restitution
+restorative justice
+victim-offender mediation
+corporal punishment
+caning
+flogging
+custodial sentences
+community sentences
+human rights
+rule of law
+equality before the law
+sanctity of life
+Lord’s Prayer
+Unforgiving Servant
+metta
+mercy
+repentance
+utilitarianism
+SPaG
+AO1
+AO2
+miscarriages of justice
+radicalisation
+due process
+Roman Catholic Church

@@ -1,0 +1,51 @@
+# STT vocabulary hints for Glacial Landscapes Uk (GCSE Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Glacial landscapes
+Quaternary
+Last Glacial Maximum
+British-Irish Ice Sheet
+Ice lobe
+Valley glacier
+Ice sheet
+Periglacial
+Freeze-thaw
+Abrasion
+Plucking
+Rock flour
+Rotational slip
+Internal deformation
+Bulldozing
+Meltwater channel
+Outwash plain
+Outwash deposits
+Till
+Drumlin
+Drumlin field
+Erratic
+Moraine
+Lateral moraine
+Medial moraine
+Terminal moraine
+Ground moraine
+Hummocky ground
+Corrie
+Cirque
+Tarn
+Arete
+Pyramidal peak
+U-shaped valley
+Glacial trough
+Truncated spur
+Hanging valley
+Ribbon lake
+Striation
+Polished rock
+Ordnance Survey
+Lake District
+Borrowdale
+Windermere
+Ullswater
+Scafell Pike
+Pennines
+Snowdonia

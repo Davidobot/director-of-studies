@@ -1,0 +1,45 @@
+# STT vocabulary hints for Perception Direct Indirect Realism Berkeley (A-level Philosophy AQA).
+# One term per line. Used to improve speech recognition quality.
+
+George Berkeley
+John Locke
+Bertrand Russell
+Assessment and Qualifications Alliance
+A-level Philosophy
+Direct realism
+Naive realism
+Indirect realism
+Sense-datum
+Sense-data
+Perceptual representation
+Representation
+Veridical perception
+Hallucination
+Illusion
+Perceptual variation
+Time-lag argument
+Disjunctivism
+Primary qualities
+Secondary qualities
+Mind-independent objects
+Material substance
+Material substratum
+Master Argument
+Esse est percipi
+Berkeleyan idealism
+Idealism
+Solipsism
+Epistemic scepticism
+Metaphysical scepticism
+Causal theory of perception
+Abductive inference
+Best hypothesis
+Involuntariness
+Coherence argument
+Phenomenology of perception
+Divine perception
+Infinite mind
+God
+Hypnagogic imagery
+External world scepticism
+Scientific regularities

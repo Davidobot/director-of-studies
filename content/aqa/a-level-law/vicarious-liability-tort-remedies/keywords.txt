@@ -1,0 +1,45 @@
+# STT vocabulary hints for Vicarious Liability Tort Remedies (A-level Law AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Vicarious liability
+Tort
+Tortfeasor
+Employer
+Employee
+Control test
+Economic reality test
+Multiple-factor test
+Mutuality of obligations
+Integration test
+Ready Mixed Concrete
+Salmond test
+Course of employment
+Close connection test
+Mohamud v WM Morrison Supermarkets
+Frolic of his own
+Independent contractor
+Enterprise connection
+Indemnity
+Contribution
+Subrogated claim
+Contributory negligence
+Compensatory damages
+General damages
+Special damages
+Discounted lump sum
+Remoteness
+Mitigation
+Injunction
+Interlocutory injunction
+Prohibitory injunction
+Mandatory injunction
+Balance of convenience
+Serious question to be tried
+Adequacy of damages
+Clean hands
+Breach of confidence
+Nuisance
+Trespass
+Seizure of assets
+Risk-spreading
+Internalisation of loss

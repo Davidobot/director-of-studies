@@ -1,0 +1,62 @@
+# STT vocabulary hints for Families Functions Forms Changes (GCSE Sociology AQA).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE Sociology
+Assessment and Qualifications Alliance
+Talcott Parsons
+Durkheim
+Rapoports
+Willmott and Young
+Oakley
+Delphy
+Zaretsky
+Walby
+Leonard
+Functionalism
+Marxism
+Feminism
+Interactionism
+Primary socialisation
+Stabilisation of adult personalities
+Instrumental role
+Expressive role
+Conjugal roles
+Segregated conjugal roles
+Joint roles
+Symmetrical family
+Stratified diffusion
+Domestic division of labour
+Unpaid domestic labour
+Double shift
+Dual-earner households
+Dual-career families
+Reconstituted family
+Blended family
+Lone-parent household
+Same-sex families
+Nuclear family
+Extended family
+Cohabitation
+Arranged marriage
+Patriarchy
+Gendered socialisation
+Labour power
+Capitalist relations
+Organisational diversity
+Cultural diversity
+Class differences
+Life-course differences
+Cohort differences
+Mixed methods
+Participant observation
+Official statistics
+Dark figure
+AO1
+AO2
+AO3
+Secularisation
+Divorce law reform
+State welfare
+Workplace rights
+Pre-industrial
+Industrialisation

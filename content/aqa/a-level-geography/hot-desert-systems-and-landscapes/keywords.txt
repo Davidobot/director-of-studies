@@ -1,0 +1,56 @@
+# STT vocabulary hints for Hot Desert Systems And Landscapes (A-level Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Sahara
+Arabian Desert
+Australian deserts
+Sahel
+American Southwest
+Rub' al Khali
+Namib Desert
+Benguela Current
+Humboldt Current
+Hadley cells
+Subtropical high pressure
+Continentality
+Rainshadow
+Coastal fog
+Aeolian processes
+Fluvial processes
+Deflation
+Abrasion
+Ventifact
+Yardang
+Zeugen
+Inselberg
+Pediment
+Regolith
+Desert pavement
+Erg
+Barchan dune
+Transverse dune
+Seif dune
+Saltation
+Suspension
+Surface creep
+Alluvial fan
+Bajada
+Wadi
+Playas
+Salt pans
+Ephemeral streams
+Sheet floods
+Aquifer recharge
+Thermal fracture
+Exfoliation
+Salt weathering
+Granular disintegration
+Evapotranspiration
+Aridity index
+Sand drift potential
+Sediment budget
+Qanat
+Desertification
+Salinisation
+Drip irrigation
+Check dams

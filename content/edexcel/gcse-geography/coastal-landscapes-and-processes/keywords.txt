@@ -1,0 +1,53 @@
+# STT vocabulary hints for Coastal Landscapes And Processes (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Pearson Edexcel
+Coastal system
+Sediment supply
+Longshore drift
+Wave energy
+Constructive waves
+Destructive waves
+Fetch
+Hydraulic action
+Abrasion
+Attrition
+Solution (corrosion)
+Freeze-thaw
+Salt crystallisation
+Chemical solution
+Biological weathering
+Mass movement
+Sliding
+Slumping
+Traction
+Saltation
+Suspension
+Deposition
+Concordant coastline
+Discordant coastline
+Headlands
+Bays
+Caves
+Arches
+Stacks
+Cliffs
+Wave-cut platform
+Beaches
+Spits
+Bars
+Saltmarshes
+Mudflats
+Jurassic Coast
+Lulworth Cove
+Durdle Door
+Holderness
+Boulder clay
+North Sea
+Hornsea
+Withernsea
+Sea wall
+Groynes
+Rock armour
+Rip-rap

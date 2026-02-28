@@ -1,0 +1,63 @@
+# STT vocabulary hints for Beliefs In Society (A-level Sociology AQA).
+# One term per line. Used to improve speech recognition quality.
+
+A-level
+Assessment and Qualifications Alliance
+UK
+Global South
+Western Europe
+United States
+Church of England
+Pentecostal congregations
+African and Caribbean communities
+Diasporic Muslim communities
+Mosques
+Faith schools
+New Age
+Spiritual but not religious
+New Religious Movements
+NRMs
+Secularisation
+Secularisation theory
+Religiosity
+Fundamentalism
+Spiritual pluralism
+Religious organisation
+Functionalism
+Collective conscience
+Rituals
+Social solidarity
+Marxist perspectives
+Ideological superstructure
+Weberian analysis
+Protestant ethic
+Capitalism
+Feminist critiques
+Patriarchal power
+Postmodernism
+Late modernity
+Spiritual marketplace
+Sects
+Cults
+Charismatic leadership
+Holistic healing
+Meditation
+Globalisation
+Migration
+Transnational religious organisations
+Religious revival
+Social differentiation
+Social stratification
+Quantitative approaches
+Qualitative methods
+Participant observation
+Life histories
+Interpretivist perspectives
+Positivist approaches
+Value freedom
+Religious affiliation
+Church attendance
+Religious pluralisation
+Evangelical movements
+Multiculturalism
+Political mobilization

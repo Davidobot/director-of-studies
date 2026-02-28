@@ -1,0 +1,63 @@
+# STT vocabulary hints for Biomes Forests And Conservation (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Tropical rainforest
+Temperate forest
+Taiga
+Boreal forest
+Tundra
+Desert
+Grasslands
+Amazon
+Congo Basin
+Borneo
+Southeast Asia
+Indonesia
+Malaysia
+Costa Rica
+Canada
+Russia
+Siberia
+Scandinavia
+Canopy
+Emergent trees
+Understory
+Forest floor
+Buttress roots
+Drip tips
+Nutrient cycling
+Carbon sequestration
+Ecosystem services
+Biodiversity
+Deforestation
+Cattle ranching
+Soybean cultivation
+Oil-palm plantations
+Hydroelectric schemes
+Biofuels
+Peat
+Coniferous
+Spruce
+Fir
+Pine
+Softwood
+Pulp
+Forest fires
+Pest outbreaks
+Land tenure
+REDD
+CITES
+Forest Stewardship Council
+Sustainable forestry
+Agroforestry
+Ecotourism
+Reforestation
+Afforestation
+Monoculture plantations
+GIS
+Satellite imagery
+Nutrient cycle diagrams
+Food webs
+Fragmentation
+PEEL
+TNCs

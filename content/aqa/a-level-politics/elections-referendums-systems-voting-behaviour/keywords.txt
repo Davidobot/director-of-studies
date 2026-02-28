@@ -1,0 +1,61 @@
+# STT vocabulary hints for Elections Referendums Systems Voting Behaviour (A-level Politics AQA).
+# One term per line. Used to improve speech recognition quality.
+
+A-level
+Assessment and Qualifications Alliance
+AQA
+United Kingdom
+House of Commons
+First Past the Post
+FPTP
+Member of Parliament
+constituency
+Scottish Parliament
+Welsh Senedd
+Northern Ireland Assembly
+Additional Member System
+AMS
+Single Transferable Vote
+STV
+Supplementary Vote
+SV
+Alternative Vote
+AV
+Proportional representation
+regional party list
+single-member constituency
+wasted votes
+constituency link
+coalition government
+minority government
+proportionality
+vote-seat mismatch
+geographic concentration
+tactical voting
+turnout threshold
+direct democracy
+parliamentary sovereignty
+referendum
+EEC referendum
+devolution referendums
+AV referendum
+Scottish independence referendum
+EU referendum
+Brexit
+Winter of Discontent
+general election
+Tony Blair
+New Labour
+Margaret Thatcher
+UKIP
+Scottish National Party
+SNP
+monetarism
+valence issues
+rational choice
+party identification
+partisan dealignment
+class realignment
+devolution
+pressure group influence
+campaign finance

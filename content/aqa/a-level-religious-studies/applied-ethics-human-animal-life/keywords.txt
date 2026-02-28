@@ -1,0 +1,63 @@
+# STT vocabulary hints for Applied Ethics Human Animal Life (A-level Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Applied ethics
+AQA
+Natural Moral Law
+Aquinas
+primary precept
+principle of double effect
+proportionalism
+Situation Ethics
+Fletcher
+agapeic love
+Virtue ethics
+Aristotle
+Utilitarianism
+Bentham
+Mill
+Kantian deontology
+Kant
+Divine Command Theory
+moral realism
+intuitionism
+sanctity of life
+personhood
+viability
+autonomy
+stewardship
+ahimsa
+pikuach nefesh
+ensoulment
+embryo research
+IVF embryos
+embryonic stem cells
+cloning
+therapeutic cloning
+reproductive cloning
+genetic modification
+designer babies
+precautionary principle
+Rs (replace, reduce, refine)
+speciesism
+animal liberation
+animals as organ sources
+intensive farming
+cosmetic testing
+palliative care
+slippery slope
+assisted suicide
+voluntary euthanasia
+non‑voluntary euthanasia
+involuntary euthanasia
+active euthanasia
+passive euthanasia
+moral status
+moral patient
+moral agent
+bioethics
+capital punishment
+animal welfare
+food security
+public health
+ethical regulation

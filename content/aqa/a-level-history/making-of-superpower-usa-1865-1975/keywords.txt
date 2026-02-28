@@ -1,0 +1,61 @@
+# STT vocabulary hints for Making Of Superpower Usa 1865 1975 (A-level History AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Reconstruction
+Thirteenth Amendment
+Fourteenth Amendment
+Fifteenth Amendment
+Jim Crow laws
+Gilded Age
+Captains of Industry
+Andrew Carnegie
+John D. Rockefeller
+Populist movement
+Progressivism
+Theodore Roosevelt
+Spanish-American War
+Panama Canal
+First World War
+Woodrow Wilson
+Isolationism
+Wall Street Crash
+Great Depression
+Franklin D. Roosevelt
+New Deal
+Social Security
+Second World War
+Allied victory
+Soviet Union
+Cold War
+Truman Doctrine
+Marshall Plan
+NATO
+Containment
+Korean War
+Vietnam War
+GI Bill
+Suburbanisation
+New Frontier
+Great Society
+Richard Nixon
+Watergate
+Fall of Saigon
+s energy crisis
+Great Migration
+Labour movement
+Civil Rights Movement
+Brown v. Board of Education
+Montgomery Bus Boycott
+March on Washington
+Black Power
+New Left
+Second-wave feminism
+Student protest
+McCarthyism
+Homestead Strike
+CCC
+WPA
+Gulf of Tonkin Resolution
+Supreme Court
+Party machines
+Corporate capitalism

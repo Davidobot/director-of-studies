@@ -1,0 +1,47 @@
+# STT vocabulary hints for British Empire C1857 1967 (A-level History AQA).
+# One term per line. Used to improve speech recognition quality.
+
+British Empire
+Indian Rebellion of 1857
+Indian Mutiny
+Indian Independence 1947
+Partition of India
+Suez Crisis
+Suez Canal
+Boer War
+High Water Mark (c.1857–1914)
+Scramble for Africa
+Cecil Rhodes
+Rhodesia
+Mau Mau emergency
+Mandates
+Dominions
+Settler colonies
+Canada
+Australia
+New Zealand
+White South Africa
+Protectorates
+Indirect rule
+Chartered companies
+Informal empire
+Unequal treaties
+Colonial Office
+India Office
+Colonial elites
+Civilising mission
+Social Darwinism
+Tariff reform
+Imperialism
+Decolonisation
+Commonwealth
+Nationalism
+Mahatma Gandhi
+Non-violent civil disobedience
+First World War
+Second World War
+Historiography
+Marxist materialist interpretation
+Post-colonial studies
+Migration ties
+Multiculturalism

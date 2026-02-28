@@ -1,0 +1,53 @@
+# STT vocabulary hints for Fieldwork Investigation And Geographical Skills (A-level Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+A-level Geography
+AQA
+Assessment and Qualifications Alliance
+NEA
+Candidate Record Form
+CRF
+Ordnance Survey (OS) maps
+GIS
+Geospatial
+Transect
+Channel cross-section
+Discharge measurement
+Pebble size analysis
+Soil moisture
+Hydrological data
+Sediment dynamics
+Coastal management
+Stratified sampling
+Systematic sampling
+Random sampling
+Sample size
+Pedestrian counts
+Land-use mapping
+Structured questionnaire
+Observational schedule
+Photographic inventory
+Traffic counts
+Qualitative coding
+Thematic analysis
+Triangulation
+Descriptive statistics
+Mean median mode
+Inter-quartile range
+Standard deviation
+Range
+Scatterplot
+Best-fit line
+Choropleth map
+Proportional circles
+Inferential statistics
+Spearman's rank correlation
+Chi-square test
+Non-parametric
+Remote sensing
+Crowd-sourced data
+Provenance
+Informed consent
+Anonymisation
+Safeguarding
+Centre responsibilities

@@ -1,0 +1,59 @@
+# STT vocabulary hints for Ecosystems Biodiversity And Management (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Pearson Edexcel
+ecosystems
+biomes
+tropical rainforest
+temperate deciduous woodland
+boreal taiga
+cloud forest
+canopy
+understory
+epiphytes
+lianas
+buttress roots
+drip tips
+nutrient cycling
+nitrogen
+phosphorus
+decomposition
+leaching
+biomass
+provisioning services
+regulating services
+supporting services
+cultural services
+ecosystem services
+shelf seas
+estuaries
+reedbeds
+peat-forming
+moorlands
+heaths
+overfishing
+habitat fragmentation
+coppicing
+selective thinning
+continuous habitat corridors
+Payment for Ecosystem Services
+PES
+ecotourism
+reforestation
+deforestation
+illegal logging
+land-use change
+New Forest National Park
+Costa Rica
+Amazon
+Gersmehl model
+PEEL approach
+transects
+quadrats
+GIS
+phenology
+invasive non-native species
+managed retreat
+carbon storage
+food webs

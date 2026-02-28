@@ -1,0 +1,51 @@
+# STT vocabulary hints for Political Parties Funding Campaigning (A-level Politics AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Political parties
+Political Parties, Elections and Referendums Act
+PPERA
+Electoral Commission
+Federal Election Commission
+FEC
+Citizens United
+Super PACs
+Political Action Committees (PACs)
+Soft money
+Short money
+Public grants
+Trade unions
+Labour Party
+Conservative Party
+First past the post
+FPTP
+Proportional representation
+Mixed electoral systems
+Electoral College
+Marginal constituencies
+Battlegrounds
+War chests
+Small-donor fundraising
+Small-donor model
+Microtargeting
+Microtargeted advertising
+Data analytics
+Harvested data
+Third-party analytics firms
+Independent expenditures
+Independent spenders
+Disclosure requirements
+Campaign finance
+Campaign expenditure
+Iron triangles
+Think tanks
+Devolved administrations
+Grassroots mobilisation
+Party whipping
+Burkean trustee
+Delegates
+Recallable penalties
+Public funding
+Online political advertising
+Foreign influence
+Brexit
+Obama campaign

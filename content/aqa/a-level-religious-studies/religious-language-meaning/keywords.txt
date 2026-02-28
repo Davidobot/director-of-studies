@@ -1,0 +1,48 @@
+# STT vocabulary hints for Religious Language Meaning (A-level Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+A-level
+AQA
+Verification principle
+Verificationism
+Logical positivism
+Falsification
+Falsificationism
+Antony Flew
+Parable of death by deathless denial
+Blik
+R. M. Hare
+Basil Mitchell
+Resistant believer
+Symbolism
+Analogy
+Analogy of proportion
+Univocal
+Equivocal
+Via negativa
+Apophatic tradition
+Apophatic
+Ludwig Wittgenstein
+Language games
+Forms of life
+Liturgy
+Worship
+Prayer
+Cognitive language
+Non-cognitive language
+Propositional statements
+Empirical verifiability
+Testability
+Self-refuting
+Testimony
+Anthropomorphic language
+Anthropomorphism
+Ineffable
+Transcendence
+Omnibenevolent
+Metaphysical assertions
+Theological assertions
+AO1
+AO2
+Creed statement
+Hymn line

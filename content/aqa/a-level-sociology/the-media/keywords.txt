@@ -1,0 +1,62 @@
+# STT vocabulary hints for The Media (A-level Sociology AQA).
+# One term per line. Used to improve speech recognition quality.
+
+A-level
+AQA
+UK
+Gramsci
+Gramscian hegemony
+Althusser
+Ideological State Apparatuses
+Stuart Hall
+Encoding/decoding
+Marxist
+Neo-Marxist
+Cultural studies
+Feminist perspectives
+Postmodernism
+Globalisation
+Transnational media
+Cultural imperialism
+Glocalisation
+Streaming services
+International news networks
+Conglomeration
+Ownership concentration
+Public service broadcasters
+Commercial broadcasters
+Global tech platforms
+Algorithms
+Targeted advertising
+Marketisation
+Privatisation
+Regulation
+Broadcasting standards
+News values
+Agenda-setting
+Framing
+Moral panic
+Youth subcultures
+Immigration debates
+Representation
+Intersectionality
+Social class
+Ethnicity
+Disability
+Content analysis
+Discourse analysis
+Participant observation
+Focus groups
+Surveys
+Coding reliability
+Sampling
+Two-step flow
+Uses and gratifications
+Reception theory
+Participatory cultures
+Fandoms
+User-generated content
+News routines
+Editorial control
+Prime-time television
+Audience analytics

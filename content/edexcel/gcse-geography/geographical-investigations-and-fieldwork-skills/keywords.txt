@@ -1,0 +1,63 @@
+# STT vocabulary hints for Geographical Investigations And Fieldwork Skills (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE Geography
+Pearson Edexcel
+Paper 3
+Fieldwork Statement
+British Geological Survey
+Environment Agency
+Office for National Statistics
+UK challenges
+Components 1 and 2
+transect
+systematic sampling
+stratified sampling
+random sampling
+sample size
+sampling bias
+risk assessment
+ethical issues
+primary data
+secondary data
+geo-referenced records
+channel width
+channel depth
+channel velocity
+discharge
+current meter
+float method
+cross-sectional area
+annotated photographs
+field sketches
+beach morphology
+profile levelling
+pebble counts
+sieve analysis
+coastal landforms
+sea defences
+sediment characteristics
+environmental quality survey
+land-use mapping
+pedestrian counts
+traffic surveys
+interviews
+questionnaires
+GIS layers
+elevation
+flood zones
+hydrograph
+cross-section diagram
+box plot
+cumulative frequency
+scatter plot
+line of best fit
+mean
+median
+interquartile range
+sediment load
+valley gradient
+coastal recession
+wave type
+mean annual erosion rate
+malpractice

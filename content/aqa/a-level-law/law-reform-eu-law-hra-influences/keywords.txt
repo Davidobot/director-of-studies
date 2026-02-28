@@ -1,0 +1,55 @@
+# STT vocabulary hints for Law Reform Eu Law Hra Influences (A-level Law AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Law Commission
+Human Rights Act 1998
+European Convention on Human Rights
+European Court of Human Rights
+Court of Justice of the European Union
+CJEU
+Marleasing
+European Union (Withdrawal) Act
+retained EU law
+direct effect
+supremacy
+declaration of incompatibility
+section 2
+section 3
+section 4
+section 6
+purposive interpretation
+proportionality
+ultra vires
+delegated legislation
+statutory instrument
+orders in council
+bylaws
+negative resolution
+affirmative resolution
+judicial review
+parliamentary sovereignty
+devolution
+Scottish Parliament
+Northern Ireland Assembly
+Strasbourg jurisprudence
+investigatory powers
+mischief rule
+literal rule
+golden rule
+codification
+consolidation
+repeal
+statutory interpretation
+hierarchy of courts
+direct applicability
+EU directives
+EU regulations
+EU decisions
+AQA
+AO1
+AO2
+AO3
+judicial precedent
+Convention rights
+administrative law
+merchant shipping rules

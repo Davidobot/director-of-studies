@@ -1,0 +1,53 @@
+# STT vocabulary hints for Scepticism Limits Of Knowledge (A-level Philosophy AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Philosophical scepticism
+Tripartite analysis
+Justified true belief
+Edmund Gettier
+Gettier cases
+No false lemmas
+Infallibilism
+Reliabilism
+Virtue epistemology
+Epistemic virtues
+Direct realism
+Indirect realism
+Sense-data
+Sense-impressions
+Brain-in-a-vat
+Argument from illusion
+Perceptual variation
+Hallucination
+Dream argument
+Descartes
+Methodic doubt
+Cogito
+Evil demon
+Malicious deceiver
+Foundationalism
+Local scepticism
+Global scepticism
+External world
+Other minds
+Locke
+Hume
+Relations of ideas
+Matters of fact
+Russell
+Best hypothesis
+Berkeley
+Idealism
+Three Dialogues
+Meditations
+A-level
+Assessment and Qualifications Alliance
+AO1
+AO2
+A priori
+A posteriori
+Analytic/synthetic
+Belief-forming process
+Justification
+Epistemic reconstruction
+Perception

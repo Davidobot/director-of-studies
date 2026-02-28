@@ -1,0 +1,49 @@
+# STT vocabulary hints for Devolution Regional Government Uk (A-level Politics AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Devolution
+Westminster
+Scotland
+Scottish Parliament
+Holyrood
+Scotland Act 1998
+Scotland Act 2012
+Scotland Act 2016
+Wales
+Senedd Cymru
+Welsh Parliament
+Government of Wales Act 1998
+Government of Wales Act 2006
+Wales Act 2017
+Northern Ireland
+Good Friday Agreement
+Northern Ireland Act 1998
+Northern Ireland Assembly
+Power‑sharing executive
+Consociational
+Barnett formula
+Block grant
+Fiscal devolution
+Tax and borrowing powers
+Reserved matters
+Reserved‑powers model
+Conferred model
+Sewel Convention
+Joint Ministerial Committee
+UK Internal Market Act 2020
+Brexit
+Brexit referendum
+Scottish referendum
+Scottish National Party
+West Lothian question
+English Votes for English Laws
+EVEL
+Combined authority
+Metro mayor
+Greater Manchester
+West Midlands
+Northern Ireland Protocol
+COVID-19 pandemic
+Supreme Court
+Parliamentary sovereignty
+AQA (Assessment and Qualifications Alliance)

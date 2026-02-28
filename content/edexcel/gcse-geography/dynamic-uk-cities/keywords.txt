@@ -1,0 +1,54 @@
+# STT vocabulary hints for Dynamic Uk Cities (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Pearson Edexcel
+Site
+Situation
+Functions
+Central Business District
+CBD
+Inner city
+Suburbs
+Urban-rural fringe
+London
+Manchester
+Birmingham
+Bristol
+Industrial Revolution
+De-industrialisation
+Globalisation
+Transnational corporations
+TNCs
+Indices of Multiple Deprivation
+IMD
+Studentification
+Gentrification
+Regeneration
+Rebranding
+Canary Wharf
+Docklands
+Salford Quays
+MediaCity
+Sustainable urban strategies
+Urban green infrastructure
+Public transport
+Active travel
+Mixed-use developments
+Counter-urbanisation
+Commuter flows
+Fieldwork
+Office for National Statistics
+ONS
+Census
+GIS
+OS maps
+Choropleth maps
+Land-use mapping
+Environmental quality surveys
+Traffic counts
+Housing price data
+Crime statistics
+Planning documents
+Scatter plots
+Enquiry question

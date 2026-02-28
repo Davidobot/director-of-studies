@@ -1,0 +1,62 @@
+# STT vocabulary hints for Families And Households (A-level Sociology AQA).
+# One term per line. Used to improve speech recognition quality.
+
+A-level
+Assessment and Qualifications Alliance
+UK
+socialisation
+primary socialisation
+culture and identity
+social differentiation
+stratification
+Functionalist
+Marxist
+Feminist
+Radical feminism
+New Right
+individualisation thesis
+postmodernism
+personal life perspective
+triple shift
+domestic labour
+emotional labour
+lone-parent households
+cohabitation
+same-sex partnerships
+stepfamilies
+living-apart-together
+single-person households
+multigenerational households
+transnational families
+fertility rates
+mortality rates
+life expectancy
+divorce rates
+net migration
+dependency ratios
+deindustrialisation
+flexible employment
+wage stagnation
+globalisation
+global care chains
+childcare support
+maternity leave
+paternity leave
+tax and benefit systems
+welfare provision
+longitudinal studies
+household surveys
+time-use studies
+qualitative interviews
+mixed-methods
+reliability
+validity
+representativeness
+informed consent
+domestic violence
+intensive parenting
+donor-conceived relationships
+chosen kin
+AO1
+AO2
+AO3

@@ -1,0 +1,63 @@
+# STT vocabulary hints for Christianity Beliefs Practices (GCSE Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Omnipotent
+Omniscient
+Omnibenevolent
+Transcendent
+Immanent
+Genesis
+John 1:1–3
+Logos
+Resurrection
+Judgement
+Heaven
+Hell
+Resurrection of the body
+Life everlasting
+Stewardship
+Trinity
+Holy Spirit
+Nicene Creed
+Incarnation
+Pentecost
+Jesus of Nazareth
+Crucifixion
+Atonement
+Substitutionary atonement
+Original sin
+Augustine
+Grace
+Sacrament
+Liturgy
+Eucharist
+Holy Communion
+Baptism
+Infant baptism
+Confirmation
+Reconciliation
+Transubstantiation
+Nativity
+Holy Week
+Good Friday
+Easter Sunday
+Pilgrimage
+Lourdes
+Iona
+Celtic Christianity
+CAFOD
+Christian Aid
+Tearfund
+Evangelism
+Sola scriptura
+Pope
+Anglicanism
+Pentecostal
+Sanctity of life
+AO1
+AO2
+SPaG
+Last Supper
+Ascension
+Lord's Prayer
+Mission

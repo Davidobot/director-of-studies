@@ -1,0 +1,50 @@
+# STT vocabulary hints for Uk Judiciary Supreme Court Judicial Review (A-level Politics AQA).
+# One term per line. Used to improve speech recognition quality.
+
+UK judiciary
+Supreme Court
+House of Lords
+Court of Appeal
+High Court
+Divisional courts
+Specialist tribunals
+Judicial review
+Judicial independence
+Separation of powers
+Human Rights Act 1998
+European Union law
+Proportionality
+Wednesbury test
+Ultra vires
+Procedural impropriety
+Natural justice
+Prerogative powers
+Quashing order
+Prohibiting order
+Mandatory order
+Declaration of incompatibility
+Injunctions
+Damages
+Judicial Appointments Commission
+JAC
+Lord Chancellor
+Parliamentary sovereignty
+Rule of law
+Factortame litigation
+R (Miller) v Secretary of State for Exiting the European Union
+Prorogation case
+A and others v Secretary of State for the Home Department
+Belmarsh case
+R (UNISON) v Lord Chancellor
+R (Evans) v Attorney General
+Freedom of Information Act
+Employment tribunal fees
+Judicial activism
+Judicial legitimacy
+Primary legislation
+Secondary legislation
+Delegated legislation
+Statutory instruments
+Administrative law
+Security of tenure
+Address of both Houses of Parliament

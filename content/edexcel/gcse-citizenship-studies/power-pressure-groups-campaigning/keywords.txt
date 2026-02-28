@@ -1,0 +1,60 @@
+# STT vocabulary hints for Power Pressure Groups Campaigning (GCSE Citizenship Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Pearson Edexcel
+GCSE Citizenship Studies
+United Kingdom
+UK
+European Union
+Brexit
+United Nations
+UN
+NATO
+World Trade Organization
+WTO
+Non-governmental organisations
+NGOs
+Trade unions
+Environmental organisations
+Human rights
+Sovereignty
+Multilateral agreement
+International law
+Diplomacy
+Development aid
+Peacekeeping
+Insider groups
+Outsider groups
+Sectional groups
+Promotional groups
+Collective bargaining
+Negotiation
+Lobbying
+Petition
+Demonstrations
+Direct action
+Legal action
+Peaceful protest
+Campaign planning
+Citizenship action
+Primary research
+Secondary research
+Surveys
+Interviews
+Target audience
+Partnerships
+Fundraising
+Social media
+Mainstream media
+Digital platforms
+Viral campaign
+Misinformation
+Evidence-based research
+Institutional power
+Collective power
+Individual power
+Assessment objectives
+AO1
+AO2
+AO3
+Critical evaluation

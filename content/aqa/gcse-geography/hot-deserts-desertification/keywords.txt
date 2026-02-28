@@ -1,0 +1,49 @@
+# STT vocabulary hints for Hot Deserts Desertification (GCSE Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Hot deserts
+Desertification
+Sahel
+Great Green Wall
+Sahara
+Thar
+Subtropical high-pressure belts
+Wadi
+Ephemeral stream
+Xerophytic adaptations
+Succulents
+CAM photosynthesis
+Salinisation
+Groundwater
+Sedimentary basins
+Phosphates
+Copper
+Gold
+Oil and gas
+Solar farms
+Transmission networks
+Oasis agriculture
+Semi-arid zones
+Desert fringe
+Overgrazing
+Over-cultivation
+Soil erosion
+Topsoil
+Dust storms
+Afforestation
+Contour bunding
+Terracing
+Mulching
+Reduced tillage
+Micro-catchments
+Zai pits
+Drip irrigation
+Solar-powered pumps
+Agroforestry
+Shelterbelts
+Windbreaks
+Farmer-managed natural regeneration
+Community-based natural resource management
+Land tenure
+PEEL
+AQA

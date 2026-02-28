@@ -1,0 +1,54 @@
+# STT vocabulary hints for Plate Tectonics Earthquakes And Volcanoes (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+lithosphere
+asthenosphere
+mantle convection
+slab-pull
+ridge-push
+subduction
+mid-ocean ridge
+divergent boundary
+convergent boundary
+transform boundary
+strike-slip fault
+San Andreas Fault
+hotspot
+mantle plume
+Hawaiian Islands
+ocean trench
+island arc
+continental collision
+shield volcano
+stratovolcano
+basaltic magma
+andesitic magma
+rhyolitic magma
+magma viscosity
+silica content
+pyroclastic flow
+pyroclastic density current
+volcanic bomb
+ashfall
+lahar
+geothermal energy
+focus
+epicentre
+seismic wave
+moment magnitude (Mw)
+Richter scale
+Modified Mercalli Intensity
+tsunami
+sea-floor displacement
+InSAR
+seismograph network
+GPS
+tiltmeters
+earthquake early-warning
+tsunami warning system
+Fukushima Daiichi
+Tohoku 2011
+Haiti 2010
+Mount St Helens 1980
+Eyjafjallajökull 2010
+soil liquefaction

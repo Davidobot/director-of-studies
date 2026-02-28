@@ -1,0 +1,47 @@
+# STT vocabulary hints for Industrialisation Britain C1783 1885 (A-level History AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Luddism
+Peterloo Massacre
+Combination Acts
+Six Acts
+Metropolitan Police
+Pitt the Younger
+Great Reform Act 1832
+Lord Liverpool
+Catholic Emancipation 1829
+Daniel O'Connell
+Wellington
+Robert Peel
+Edwin Chadwick
+Factory Act 1833
+Poor Law Amendment Act 1834
+Municipal Corporations Act 1835
+Chartism
+Anti-Corn Law League
+Corn Laws
+Richard Cobden
+John Bright
+Robert Owen
+Utilitarianism
+Classical political economy
+Enclosure
+Steam engine
+Cotton industry
+Lancashire
+Yorkshire
+Textile towns
+Coal industry
+Iron industry
+Railway mania
+Long Depression
+Workshop of the World
+Disraeli
+Gladstone
+Reform Act 1867
+Reform Act 1884–85
+Trades Union Congress
+Sadler Report
+Ashley Report
+Factory inspectors
+Cholera epidemics

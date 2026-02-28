@@ -1,0 +1,54 @@
+# STT vocabulary hints for Stratification And Differentiation (A-level Sociology AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Stratification
+Differentiation
+A-level Sociology
+Assessment and Qualifications Alliance
+Socialisation
+Social differentiation
+Social class
+Status
+Power
+Life chances
+Social mobility
+Intergenerational mobility
+Intragenerational mobility
+Cultural capital
+Social capital
+Economic capital
+Bourdieu
+Marxist
+Neo-Marxist
+Weber
+Functionalist
+Feminist theory
+Patriarchy
+Postmodernism
+Class reproduction
+Class conflict
+Means of production
+Ruling class
+Occupational class schemes
+Occupational classifications
+Occupational segregation
+Gender pay gap
+Unpaid domestic labour
+Ethnic inequalities
+Deindustrialisation
+Hollowing out
+Precarious labour
+Platform work
+Transnational capitalist class
+Sklair
+Globalisation
+Regional inequalities
+Progressive taxation
+Welfare provision
+Active labour market programmes
+Anti-discrimination laws
+Longitudinal cohort studies
+Ethnography
+Participant observation
+Mixed-methods
+Triangulation

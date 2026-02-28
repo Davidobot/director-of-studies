@@ -1,0 +1,47 @@
+# STT vocabulary hints for Us Constitution Federalism Separation Of Powers (A-level Politics AQA).
+# One term per line. Used to improve speech recognition quality.
+
+US Constitution
+Federalism
+Separation of powers
+Checks and balances
+Supreme Court
+Judicial review
+Supremacy Clause
+Bill of Rights
+Tenth Amendment
+Fourteenth Amendment
+Article V
+Marbury v. Madison
+McCulloch v. Maryland
+Brown v. Board of Education
+Roe v. Wade
+Miranda v. Arizona
+United States v. Nixon
+Obergefell v. Hodges
+Commerce Clause
+Necessary and Proper Clause
+New Deal
+Franklin D. Roosevelt
+Imperial presidency
+New Federalism
+Impeachment
+Advice and consent
+Confirmation process
+Life tenure
+Bicameral legislature
+House of Representatives
+Senate
+Electoral College
+Commander-in-Chief
+Executive orders
+Executive privilege
+National security directives
+Committee system
+Power of the purse
+Incorporation doctrine
+De jure segregation
+Civil rights legislation
+Devolution
+Unitary state
+Party discipline

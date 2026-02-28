@@ -1,0 +1,61 @@
+# STT vocabulary hints for English Legal System Courts Access To Justice (A-level Law AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Actus reus
+Mens rea
+Causation
+Homicide
+Murder
+Manslaughter
+Offences Against the Person Act 1861
+Inchoate offences
+Attempt
+Insanity
+Automatism
+Self‑defence
+Duress
+Negligence
+Duty of care
+Neighbour principle
+Caparo test
+Damages
+Injunctions
+Vicarious liability
+Occupiers' liability
+Nuisance
+Rylands v Fletcher
+Consideration
+Intention to create legal relations
+Consumer Rights Act 2015
+Unfair Contract Terms Act 1977
+Misrepresentation
+Economic duress
+Specific performance
+Human Rights Act 1998
+European Convention on Human Rights
+European Court of Human Rights
+Supreme Court
+High Court
+County Court
+Crown Court
+Magistrates' courts
+Tribunals
+Judicial precedent
+Ratio decidendi
+Obiter dicta
+Stare decisis
+Statutory interpretation
+Literal rule
+Golden rule
+Mischief rule
+Purposive approach
+Delegated legislation
+Law Commission
+Legal aid
+Conditional fee agreements
+Citizens Advice
+Judicial independence
+Security of tenure
+Immunity from suit
+Rule of law
+IRAC

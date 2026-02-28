@@ -1,0 +1,45 @@
+# STT vocabulary hints for Prime Minister Cabinet Power Accountability (A-level Politics AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Prime Minister
+Cabinet
+No.10
+Core executive
+Collective responsibility
+Individual ministerial responsibility
+Constitutional convention
+Royal prerogative
+Patronage
+Downing Street
+Prime Minister’s Office
+Special advisers
+Policy units
+Sofa government
+Kitchen cabinet
+Cabinet government
+Prime ministerial
+Inner cabinet
+Cabinet committees
+Community Charge
+Poll Tax (1990)
+invasion of Iraq
+Tony Blair
+House of Commons
+Fixed-term Parliaments Act 2011
+Judicial review
+Parliamentary approval
+Select Committees
+Prime Minister's Questions
+Ministerial Code
+Permanent secretaries
+Crichel Down affair
+Sir Thomas Dugdale
+Iain Duncan Smith
+Miller case (2017)
+Devolution
+Parliamentary scrutiny
+Party discipline
+Coalition government
+Executive legitimacy
+Ministerial patronage
+Administrative capacity

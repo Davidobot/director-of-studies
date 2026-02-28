@@ -1,0 +1,54 @@
+# STT vocabulary hints for Research Methods Design Methods Ethics (GCSE Sociology AQA).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Assessment and Qualifications Alliance
+operationalising
+pilot studies
+random sampling
+systematic sampling
+quota sampling
+snowball sampling
+representativeness
+generalisability
+quantitative methods
+qualitative methods
+mixed methods
+triangulation
+structured interviews
+unstructured interviews
+semi‑structured interviews
+closed questions
+open questions
+official statistics
+police recorded crime
+victim surveys
+self‑report studies
+participant observation
+ethnography
+case studies
+focus groups
+primary data
+secondary data
+validity
+reliability
+dark figure
+demand characteristics
+researcher bias
+covert observation
+informed consent
+confidentiality
+anonymity
+right to withdraw
+gatekeepers
+safeguarding procedures
+data protection laws
+debriefing
+anonymising data
+coding
+AO1
+AO2
+AO3
+labelling
+subcultures
+social stratification

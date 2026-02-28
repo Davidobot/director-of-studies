@@ -1,0 +1,58 @@
+# STT vocabulary hints for Glaciated Upland Landscapes And Processes (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Quaternary
+Scottish Highlands
+Lake District
+Snowdonia
+Red Tarn
+Helvellyn
+Ullswater
+Windermere
+Ordnance Survey
+National Park
+corrie
+cirque
+tarn
+arête
+pyramidal peak
+horn
+U-shaped valley
+glacial trough
+plucking
+abrasion
+striation
+stoss side
+lee side
+roche moutonnée
+moraine
+ground moraine
+terminal moraine
+drumlin
+esker
+till
+glacial till
+sedimentary
+igneous
+metamorphic
+headward erosion
+freeze–thaw
+periglacial
+solifluction
+patterned ground
+mass movement
+soil creep
+rockfall
+alluvial flats
+levees
+peatland restoration
+hydroelectric
+reservoirs
+wind farm
+slate quarrying
+visitor survey
+GIS
+contour lines
+slope angle
+hummocky
+armchair hollow

@@ -1,0 +1,63 @@
+# STT vocabulary hints for Russia 1894 1945 Tsardom And Communism (GCSE History AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Russia
+Romanov
+Tsardom
+Tsar Nicholas II
+St Petersburg
+Moscow
+Emancipation reforms
+Peasantry
+Revolution
+Russo-Japanese War
+Bloody Sunday
+October Manifesto
+Duma
+Stolypin
+First World War
+Rasputin
+February 1917
+Abdication
+Provisional Government
+Bolsheviks
+Vladimir Lenin
+Leon Trotsky
+October Revolution
+Red Army
+White Army
+Russian Civil War
+War Communism
+Requisitioning
+Nationalisation
+Kronstadt
+New Economic Policy (NEP)
+Soviets
+Communist Party
+Lenin’s death
+Joseph Stalin
+Socialism in One Country
+Permanent Revolution
+Exile (Trotsky)
+Forced industrialisation
+Collectivisation
+Five Year Plan
+Kolkhoz
+Sovkhoz
+Kulaks
+Holodomor (1932–33)
+Deportations
+Great Terror (1936–38)
+NKVD
+Show trials
+Gulag
+Cult of personality
+Socialist realism
+Nazi–Soviet Pact
+Operation Barbarossa
+Great Patriotic War
+Siege of Leningrad
+Evacuation east of the Urals
+Capture of Berlin
+Eastern Europe
+Soviet superpower

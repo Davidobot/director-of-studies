@@ -1,0 +1,50 @@
+# STT vocabulary hints for Utilitarianism Bentham Mill Objections (A-level Philosophy AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Jeremy Bentham
+John Stuart Mill
+Robert Nozick
+Bernard Williams
+A-level
+Assessment and Qualifications Alliance (AQA)
+Utilitarianism
+Consequentialism
+Principle of utility
+Greatest-happiness principle
+Felicific calculus
+Hedonic calculus
+Quantitative hedonism
+Qualitative hedonism
+Higher pleasures
+Lower pleasures
+Competent judges
+Act utilitarianism
+Rule utilitarianism
+Two-level utilitarianism
+Preference utilitarianism
+Non-hedonistic utilitarianism
+Preference satisfaction
+Objective list theory
+Pluralist consequentialism
+Impartiality
+Aggregation
+Utility maximisation
+Experience machine
+Tyranny of the majority
+Demandingness objection
+Moral integrity
+Moral identity
+Deontic constraints
+Satisficing
+Threshold constraints
+Propinquity
+Fecundity
+Purity
+Extent
+Intensity
+Duration
+Certainty
+Welfare economics
+Intrinsic goods
+Well-being
+Autonomy

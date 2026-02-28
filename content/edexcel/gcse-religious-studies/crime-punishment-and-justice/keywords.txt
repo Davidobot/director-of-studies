@@ -1,0 +1,47 @@
+# STT vocabulary hints for Crime Punishment And Justice (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Restorative justice
+Retribution
+Retributive justice
+Deterrence
+Rehabilitation
+Reformation
+Protection (aim of punishment)
+Incapacitation
+Capital punishment
+Death penalty
+Sanctity of life
+Clemency
+Wrongful conviction
+Indefinite detention
+Solitary confinement
+Fair trial
+Due process
+Human rights
+Human dignity
+Parole
+Life imprisonment without parole
+Prison chaplaincy
+Chaplaincy
+Faith-based charities
+Community sentences
+Restorative programmes
+Reparation
+Mediation
+Re‑offending
+Prison overcrowding
+Catholic Social Teaching
+Parable of the Sheep and Goats
+Qur'an
+Hadith
+Islamic law
+Sharia
+Jewish law
+Teshuvah
+Kamma
+Dharma
+Utilitarianism
+Situation ethics
+Virtue ethics
+Sikhism

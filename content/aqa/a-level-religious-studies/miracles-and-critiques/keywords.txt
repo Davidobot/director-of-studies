@@ -1,0 +1,48 @@
+# STT vocabulary hints for Miracles And Critiques (A-level Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+David Hume
+Maurice Wiles
+A-level
+Assessment and Qualifications Alliance
+Religious Studies
+miracle
+violation of natural law
+non-interventionism
+providence
+providential deliverance
+epistemic scepticism
+empiricist framework
+testimony
+uniform experience
+burden of proof
+credible testimony
+independent witnesses
+theological coherence
+doctrine of God
+divine action
+theological narratives
+soteriology
+eschatology
+feeding of the five thousand
+resurrection of Jesus
+Swinburne
+principle of testimony
+continuity thesis
+probabilistic reasoning
+historical method
+demythologising
+interventionist miracles
+natural law
+laws of nature
+canonical miracle stories
+exorcisms
+healings
+pastoral implications
+epistemic criteria
+testimonial standards
+historical unreliability
+sustaining processes
+divine sovereignty
+miracle narratives
+theological interpretation

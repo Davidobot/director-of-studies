@@ -1,0 +1,49 @@
+# STT vocabulary hints for Edexcel Source Interpretation Skills (GCSE History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Edexcel
+Pearson Edexcel
+GCSE
+AO3
+AO4
+AO2
+Source interpretation
+Provenance
+Inference
+Contextual knowledge
+Chain of evacuation
+Royal Army Medical Corps
+Western Front
+Somme
+Trench
+Field dressing station
+Whitechapel murders
+Jack the Ripper
+Ripper murders
+London newspaper
+Notting Hill
+Immigrant gangs
+Local council housing record
+Oral memoirs
+Police memo
+CID
+Victorian policing
+Policing reforms
+Parliamentary debates
+Paper 3
+Mao’s China
+Collectivisation
+Party documents
+Eyewitness accounts
+Statistical evidence
+Stalin’s rise
+Soviet archives
+Cold War
+Cult of personality
+Magna Carta
+Cultural Revolution
+Feudal incidents
+SPaG
+Mark schemes
+Specification topics
+Specimen questions

@@ -1,0 +1,47 @@
+# STT vocabulary hints for Parliament Structure Scrutiny Legislation (A-level Politics AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Parliament
+Uncodified constitution
+Parliamentary sovereignty
+Royal Assent
+House of Commons
+House of Lords
+Life peers
+Hereditary peers
+Bishops
+Parliament Acts 1911
+Parliament Act 1949
+Money bills
+First reading
+Second reading
+Committee stage
+Report stage
+Third reading
+Ping-pong
+Public bills
+Private bills
+Hybrid bills
+Private Members' Bills
+Abortion Act
+Parliamentary privilege
+Royal prerogative
+Prime Minister’s Questions
+Urgent questions
+Oral Questions
+Ministerial statements
+Select Committees
+Backbench Business Committee
+Leader of the House
+Party whips
+Trustee model
+Delegate model
+Mandate model
+Conscience votes
+Wright Committee
+Treasury Committee
+Public Accounts Committee
+Departmental select committees
+Devolution
+Judicial review
+Recall procedures

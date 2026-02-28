@@ -1,0 +1,63 @@
+# STT vocabulary hints for Uk Rivers Processes Flooding And Management (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Hydraulic action
+Abrasion
+Attrition
+Solution
+Erosion
+Transportation
+Deposition
+Vertical erosion
+Lateral erosion
+V-shaped valley
+Interlocking spurs
+Waterfall
+Rapids
+Meander
+Point bar
+Cut bank
+Ox-bow lake
+Levee
+Floodplain
+Delta
+Estuarine mudflat
+Storm hydrograph
+Rising limb
+Peak discharge
+Lag time
+Flash flood
+Boscastle
+Somerset Levels
+Thames Barrier
+Jubilee River
+River Quaggy
+Maidenhead
+Tidal surge
+Fluvial
+Urbanisation
+Permeable geology
+Impermeable rock
+Infiltration
+Interception
+Channel modification
+Straightening
+Dredging
+Embanking
+Flood storage reservoir
+Diversion channel
+Leaky dam
+Natural flood management
+NFM
+Catchment
+Confluence
+Drainage basin
+Sediment yield
+Pebble analysis
+Channel velocity
+Discharge
+Flood zoning
+Cost-benefit analysis
+Ordnance Survey
+British Geological Survey
+Environment Agency

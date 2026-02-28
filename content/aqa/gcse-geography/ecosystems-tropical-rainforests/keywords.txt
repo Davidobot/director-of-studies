@@ -1,0 +1,54 @@
+# STT vocabulary hints for Ecosystems Tropical Rainforests (GCSE Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Intertropical Convergence Zone
+ITCZ
+Amazon Basin
+Amazon
+Congo Basin
+Borneo
+Sumatra
+Rondônia
+Pará
+Brazil
+Indonesia
+Malaysia
+buttress roots
+drip tips
+lianas
+epiphytes
+arboreal adaptations
+closed canopy
+emergent layer
+understorey
+forest floor
+canopy
+food chains
+food webs
+primary productivity
+nutrient cycling
+lateritic soils
+leaching
+biomass
+decomposers
+convectional rainfall
+equator
+slash-and-burn agriculture
+cattle ranching
+soy cultivation
+oil palm plantations
+palm oil
+commercial logging
+selective logging
+agroforestry
+protected areas
+national parks
+Forest Stewardship Council
+FSC
+REDD+
+payments for ecosystem services
+satellite monitoring
+GIS
+CO2
+greenhouse gas emissions
+ecotourism

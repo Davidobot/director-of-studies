@@ -1,0 +1,59 @@
+# STT vocabulary hints for Us Congress Presidency Elections Powers And Checks (A-level Politics AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Constitution
+Separation of powers
+Checks and balances
+Federalism
+Articles I–II
+Congress
+House of Representatives
+Senate
+Bicameral
+Filibuster
+Power of the purse
+Advice and consent
+Impeachment
+Watergate hearings
+Iran–Contra investigations
+Executive Office of the President
+Executive orders
+Executive agreements
+Executive privilege
+United States v. Nixon
+Marbury v. Madison
+Brown v. Board of Education
+Dobbs v. Jackson Women's Health Organization
+Roe v. Wade
+War Powers Resolution
+Commander-in-chief
+Veto power
+Treaty ratification
+Judicial review
+Supreme Court
+Judicial activism
+Judicial restraint
+Strict constructionism
+Loose constructionism
+First-past-the-post
+Electoral College
+Primaries
+Caucuses
+National nominating conventions
+Front-loading
+Citizens United
+Super PACs
+Political Action Committees
+Incumbency advantage
+Iron triangle
+National Rifle Association
+American Civil Liberties Union
+Bill of Rights
+Civil Rights Movement
+New Deal
+Franklin D. Roosevelt
+Midterm elections
+Party whips
+Speaker of the House
+Party polarisation
+Two-party system

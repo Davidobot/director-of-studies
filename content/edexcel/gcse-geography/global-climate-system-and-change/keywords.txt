@@ -1,0 +1,63 @@
+# STT vocabulary hints for Global Climate System And Change (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Global climate system
+Atmosphere
+Oceans
+Cryosphere
+Biosphere
+Hadley cell
+Ferrel cell
+Polar cell
+Solar radiation
+Gulf Stream
+Ocean currents
+Sea-surface temperature
+Coriolis force
+High pressure belt
+Low pressure zone
+Milankovitch cycles
+Quaternary
+Ice ages
+Interglacials
+Volcanic aerosols
+Stratosphere
+Asteroid impacts
+Proxy evidence
+Ice cores
+Greenland
+Antarctica
+Tree rings
+Sediment cores
+Pollen records
+Carbon dioxide
+Methane
+Greenhouse effect
+Outgoing longwave radiation
+Sea-level rise
+Climate models
+Emission scenarios
+Climate sensitivity
+Feedbacks
+Carbon uptake
+Tropical cyclone
+Hurricane
+Typhoon
+Vertical wind shear
+Deep convection
+Eye (cyclone)
+Storm surge
+Numerical weather prediction
+Satellite technology
+Sea walls
+Storm surge barriers
+Coastal wetlands restoration
+Planned retreat
+Plate tectonics
+Mantle convection
+Subduction zones
+Mid-ocean ridges
+Transform faults
+Sea-floor spreading
+Tsunami
+GIS

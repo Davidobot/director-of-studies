@@ -1,0 +1,63 @@
+# STT vocabulary hints for Study Of Religion And Dialogues (A-level Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+AQA
+Quran
+Bible
+Vedas
+Pali Canon
+Talmud
+Hadith
+Guru
+Rabbi
+Imam
+Sangha
+Madrasa
+Rabbinic court
+Sunni
+Shia
+Protestant
+Catholic
+Trinity
+Resurrection
+Brahman
+Nirvana
+Atman
+Anatta
+Reincarnation
+Dharma
+Karma
+Mitzvot
+Sharia
+Eightfold Path
+Ahimsa
+Pikuach nefesh
+Deontological ethics
+Teleological ethics
+Virtue ethics
+Cloning
+Genetic engineering
+Baptism
+Puja
+Salah
+Hajj
+Synagogue
+Bhikkhuni
+Theravada
+Feminist theology
+Quranic verses
+Concordism
+Secularisation
+Pluralism
+Exclusivism
+Inclusivism
+Freedom of religion
+Process theology
+Problem of evil
+Miracles
+Mysticism
+Divine omnipotence
+Interfaith relations
+Cosmology
+Evolution
+Component 2

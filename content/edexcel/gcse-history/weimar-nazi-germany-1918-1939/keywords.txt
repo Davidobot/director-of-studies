@@ -1,0 +1,62 @@
+# STT vocabulary hints for Weimar Nazi Germany 1918 1939 (GCSE History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Weimar Republic
+Weimar Constitution
+Article 48
+Reichstag
+Treaty of Versailles
+Dolchstoßlegende
+Spartacist Uprising
+Kapp Putsch
+Freikorps
+Hyperinflation
+Occupation of the Ruhr
+Gustav Stresemann
+Rentenmark
+Dawes Plan
+Young Plan
+Locarno Pact
+League of Nations
+Adolf Hitler
+German Workers' Party
+National Socialist German Workers' Party (NSDAP)
+Twenty-Five Point Programme
+Sturmabteilung (SA)
+Munich Putsch
+Mein Kampf
+Great Depression
+Franz von Papen
+Paul von Hindenburg
+Reichstag Fire
+Reichstag Fire Decree
+Enabling Act
+Gleichschaltung
+Night of the Long Knives
+Ernst Röhm
+Gestapo
+Schutzstaffel (SS)
+Heinrich Himmler
+Concentration camps
+Joseph Goebbels
+Ministry of Propaganda
+Berlin Olympics
+Concordat of 1933
+Reich Church
+Martin Niemöller
+Swing Youth
+Edelweiss Pirates
+Hitler Youth
+League of German Maidens
+Mother's Cross
+Reich Labour Service (RAD)
+Autobahns
+German Labour Front (DAF)
+Kraft durch Freude (Strength Through Joy)
+Schönheit der Arbeit (Beauty of Labour)
+Nuremberg Laws
+Kristallnacht
+Roma and Sinti
+T4 euthanasia program
+KPD
+SPD

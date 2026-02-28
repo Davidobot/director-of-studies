@@ -1,0 +1,48 @@
+# STT vocabulary hints for Urban Issues Challenges (GCSE Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Urbanisation
+Megacity
+Newly emerging economies (NEEs)
+Lower-income countries (LICs)
+Higher-income countries (HICs)
+Natural increase
+Migration
+Push–pull model
+Informal settlement
+Slum
+Informal sector
+Underemployment
+Slum-upgrading programmes
+Microfinance
+Brownfield
+Brownfield redevelopment
+Greenfield
+Urban regeneration
+Deindustrialisation
+North–south divide
+Gentrification
+Sustainable urban development
+Integrated transport systems
+Congestion charging
+Public transport improvements
+Peri-urban
+Urban sprawl
+Commuter belt
+Rural–urban fringe
+Flood risk management
+Climate resilience
+Decentralised renewable energy
+Energy-efficient buildings
+Waste recycling
+Sanitation
+Water supply
+Biodiversity
+Ecosystem pressure
+Housing renewal
+Transport hubs
+Community water projects
+Assessment and Qualifications Alliance
+GCSE
+Urban deprivation
+Spatial inequalities

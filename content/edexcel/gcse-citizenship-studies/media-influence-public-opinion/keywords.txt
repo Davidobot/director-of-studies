@@ -1,0 +1,44 @@
+# STT vocabulary hints for Media Influence Public Opinion (GCSE Citizenship Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE Citizenship Studies
+Pearson Edexcel
+Ofcom
+IPSO
+Leveson Inquiry
+phone hacking scandal
+Cambridge Analytica
+#MeToo
+deepfakes
+algorithm-driven newsfeeds
+filter bubbles
+echo chambers
+agenda-setting
+framing
+gatekeeping
+priming
+media literacy
+investigative journalism
+investigative reporting
+targeted political advertising
+targeted adverts
+misinformation
+disinformation
+censorship
+contempt of court
+privacy laws
+press regulators
+press freedom
+plurality
+digital democracy
+social media platforms
+mobilisation
+accountability
+impartiality
+human rights standards
+United Nations
+international organisations
+non-democratic states
+justice system integrity
+regulatory standards
+AO3

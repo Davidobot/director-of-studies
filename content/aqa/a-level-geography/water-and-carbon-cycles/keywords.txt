@@ -1,0 +1,63 @@
+# STT vocabulary hints for Water And Carbon Cycles (A-level Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Systems approach
+Dynamic equilibrium
+Feedback loops
+Positive feedback
+Negative feedback
+Stomatal exchange
+Hydrosphere
+Cryosphere
+Lithosphere
+Evapotranspiration
+Interception
+Infiltration
+Percolation
+Groundwater flow
+Stemflow
+Overland flow
+Throughflow
+Baseflow
+Hydrograph
+Lag time
+Rising limb
+Recession limb
+Drainage basin
+Water balance equation
+Antecedent soil moisture
+Drainage density
+Impermeable surface
+Urbanisation
+Deforestation
+Carbon cycle
+Photosynthesis
+Respiration
+Decomposition
+Carbon sequestration
+Net primary productivity (NPP)
+Net ecosystem productivity (NEP)
+Heterotrophic respiration
+Solubility pump
+Biological pump
+Permafrost
+Fossil fuels
+Carbon capture and storage (CCS)
+BECCS
+Peatland restoration
+Sustainable Urban Drainage Systems (SUDS)
+Desalination
+Carbon budget
+Ocean carbon sink
+Tree allometry
+Spearman’s rank
+Mass-balance calculations
+Gauging point
+Channel cross-section
+Biomass sampling
+Wetland restoration
+Reforestation
+Afforestation
+Land-use change
+Carbon pricing
+Emissions trading schemes

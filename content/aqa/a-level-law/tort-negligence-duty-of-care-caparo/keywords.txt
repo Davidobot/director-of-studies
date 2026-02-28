@@ -1,0 +1,46 @@
+# STT vocabulary hints for Tort Negligence Duty Of Care Caparo (A-level Law AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Caparo v Dickman
+Caparo three-part test
+neighbour principle
+Donoghue v Stevenson
+Hedley Byrne v Heller
+Assessment and Qualifications Alliance
+A-level Law
+duty of care
+negligence
+foreseeability
+proximity
+relational proximity
+temporal proximity
+causal proximity
+fair, just and reasonable limb
+policy limb
+negligent misstatement
+assumption of responsibility
+reliance
+pure economic loss
+psychiatric injury
+primary victim
+secondary victim
+occupiers’ liability
+product liability
+manufacturers' duty
+omissions
+duty to rescue
+indeterminate liability
+floodgates argument
+public policy
+statutory schemes
+established categories of duty
+breach of duty
+causation
+remoteness
+auditors' liability
+police liability
+public authorities
+special relationship
+control over third parties
+supervisory roles
+legal precedent

@@ -1,0 +1,63 @@
+# STT vocabulary hints for Methods In Context (A-level Sociology AQA).
+# One term per line. Used to improve speech recognition quality.
+
+AQA
+Assessment and Qualifications Alliance
+A-level Sociology
+Ofsted
+UK
+Positivism
+Interpretivism
+Interactionism
+Marxism
+Functionalism
+Feminist research
+Epistemological stance
+Triangulation
+Reflexivity
+Validity
+Reliability
+Representativeness
+Generalisability
+Primary data
+Secondary data
+Quantitative data
+Qualitative data
+Questionnaire
+Structured interview
+Semi-structured interview
+Unstructured interview
+Participant observation
+Non-participant observation
+Content analysis
+Quasi-experimental design
+Random sampling
+Stratified sampling
+Purposive sampling
+Snowball sampling
+Pilot study
+Longitudinal design
+Cross-sectional design
+Case study
+Mixed-methods
+Official statistics
+Policy papers
+School league tables
+Free school meal status
+Local authority funding
+Marketisation
+Labeling
+Subcultures
+Gatekeepers
+Safeguarding
+Informed consent
+Covert methods
+Observer effects
+Reactivity
+Life course
+Redistributive funding
+Anti-bullying policy
+Vulnerable participants
+Researcher bias
+Micro-level
+Global capitalism

@@ -1,0 +1,41 @@
+# STT vocabulary hints for Britain Migration Empires And People C790 Present (GCSE History AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Vikings
+Danelaw
+Anglo-Saxon kingdoms
+Norman Conquest
+Hundred Years' War
+Crusades
+Jamestown
+John Hawkins
+East India Company
+British Raj
+Scramble for Africa
+Boer War
+Indian Rebellion of 1857
+Empire Windrush
+Windrush generation
+Huguenots
+Plantation economies
+Transatlantic slave trade
+Privateering
+Settler colonies
+Decolonisation
+Ugandan Asians
+Idi Amin
+Brixton Riots
+Multiculturalism
+Imperial rivalry
+Social Darwinism
+Industrialisation
+Missionary fervour
+Post-war migration
+Colonial troops
+Empire
+Plantation colonies
+Provenance
+Second-order concepts
+Continuity and change
+Significance
+Race relations

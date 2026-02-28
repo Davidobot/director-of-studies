@@ -1,0 +1,62 @@
+# STT vocabulary hints for Health (A-level Sociology AQA).
+# One term per line. Used to improve speech recognition quality.
+
+A-level Sociology
+Assessment and Qualifications Alliance
+disease
+illness
+social construction
+biomedical model
+social model
+medicalisation
+biomedicalisation
+National Health Service
+postcode lottery
+marketisation
+privatisation
+pharmaceutical companies
+biotech firms
+clinical trials
+clinical guidelines
+medical dominance
+multidisciplinary teams
+managerialism
+consumerist models
+health literacy
+globalisation
+pandemics
+vaccine access
+intellectual property rights
+epidemiological studies
+surveys
+ethnography
+participant observation
+positivists
+interpretivists
+life-course approaches
+social causation
+social drift
+intersectional analysis
+austerity
+public health
+non-governmental organisations
+low- and middle-income settings
+antidepressant prescribing
+suicide statistics
+health inequalities
+socioeconomic position
+infant mortality
+life expectancy
+long-term conditions
+Marxist
+neo-Marxist
+Weberian
+Interactionist
+feminist theories
+postmodern
+labelling processes
+stigma
+resource allocation
+welfare regimes
+community mental health services
+professionalism

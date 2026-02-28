@@ -1,0 +1,61 @@
+# STT vocabulary hints for Coastal Landscapes Uk (GCSE Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Holderness
+Hornsea
+Mappleton
+Spurn Head
+Humber
+Chesil Beach
+Isle of Portland
+Medmerry
+West Sussex
+Dorset
+North Sea
+boulder clay
+hydraulic action
+abrasion
+attrition
+solution
+freeze-thaw
+oxidation
+mass movement
+slumping
+rockfall
+undercutting
+longshore drift
+littoral cell
+sediment cell
+sediment budget
+traction
+saltation
+suspension
+wave-cut platform
+headland
+cliff
+stack
+natural arch
+concordant coastline
+discordant coastline
+tombolo
+spit
+bar
+lagoon
+salt marsh
+sand dune
+dune regeneration
+beach nourishment
+groynes
+sea wall
+rock armour
+managed realignment
+soft engineering
+hard engineering
+wave energy
+constructive wave
+destructive wave
+wave climate
+coastal retreat
+coastal defences
+pebble size sampling
+beach profile

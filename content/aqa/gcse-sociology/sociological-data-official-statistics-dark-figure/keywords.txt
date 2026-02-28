@@ -1,0 +1,58 @@
+# STT vocabulary hints for Sociological Data Official Statistics Dark Figure (GCSE Sociology AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Official statistics
+Dark figure
+Crime Survey for England and Wales
+GCSE Sociology
+Assessment and Qualifications Alliance
+Police recorded crime
+Victim survey
+Court and conviction statistics
+Prison population figures
+Census data
+Triangulation
+Victimisation
+White-collar crime
+Corporate crime
+Cybercrime
+Online fraud
+Recording practices
+Recording rules
+Administrative records
+Administrative errors
+Sentencing outcomes
+Time-series data
+Base rate
+Reliability
+Validity
+Qualitative methods
+Participant observation
+In-depth interviews
+Case studies
+Labelling
+Social construction of deviance
+Interactionists
+Functionalists
+Marxists
+Feminist sociologists
+Public awareness campaigns
+High-profile campaign
+Reporting bias
+Underreporting
+Institutional cultures
+Prosecutorial decisions
+Social cohesion
+Social harm
+AO1
+AO2
+AO3
+Ethical considerations
+Informed consent
+Confidentiality
+Stigma
+Representative sample
+Sampling frame
+Survey methodology
+Police priorities
+Victim experience

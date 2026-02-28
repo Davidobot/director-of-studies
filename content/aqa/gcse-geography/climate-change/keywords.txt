@@ -1,0 +1,58 @@
+# STT vocabulary hints for Climate Change (GCSE Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Climate change
+GCSE Geography
+Assessment and Qualifications Alliance
+Keeling Curve
+Quaternary
+Ice cores
+Antarctic
+Greenland
+Tree rings
+Pollen records
+Lake sediments
+Instrumental records
+Satellite measurements
+Thermal expansion
+Sea surface temperature
+Carbon dioxide (CO2)
+Methane (CH4)
+Nitrous oxide (N2O)
+Fluorinated gases
+Greenhouse effect
+Milankovitch cycles
+Stratosphere
+Sulphur dioxide
+Volcanic eruptions
+Solar output
+Fossil fuels
+Deforestation
+Peatlands
+Afforestation
+Reforestation
+Carbon capture and storage (CCS)
+Carbon pricing
+Emissions trading
+Paris Agreement
+Nationally Determined Contributions
+Thames Barrier
+Bangladesh
+Amazon rainforest
+Typhoon Haiyan
+Arctic tundra
+Tropical montane forests
+Coral bleaching
+Ocean acidification
+Managed realignment
+Urban heat island
+Early-warning systems
+Renewable energy
+Hydro
+Wind energy
+Solar energy
+Biomass
+Geothermal
+HICs
+LICs
+NEE

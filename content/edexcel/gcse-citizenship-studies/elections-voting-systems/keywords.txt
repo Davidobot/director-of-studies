@@ -1,0 +1,57 @@
+# STT vocabulary hints for Elections Voting Systems (GCSE Citizenship Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Elections
+Voting systems
+GCSE Citizenship Studies
+Representative democracy
+Direct democracy
+Referendum
+EU referendum
+general election
+coalition government
+Returning officer
+Electoral Commission
+Constituency
+By-election
+Voter registration
+Postal vote
+Proxy vote
+Polling station
+First-past-the-post
+FPTP
+Disproportionality
+Wasted vote
+Tactical voting
+UK Independence Party
+UKIP
+Proportional representation
+PR
+Party list system
+European Parliament elections
+Additional Member System
+AMS
+Scottish Parliament
+Welsh Senedd
+Single Transferable Vote
+STV
+Multi-member constituency
+Quota
+Surplus vote transfer
+Northern Ireland
+Scottish local elections
+Supplementary Vote
+SV
+Mayoral elections
+Minority government
+House of Commons
+House of Lords
+MP
+Prime Minister
+Turnout
+and 17-year-olds
+Marginal seat
+Devolved assemblies
+Campaign spending rules
+Misinformation
+AO1 AO2 AO3

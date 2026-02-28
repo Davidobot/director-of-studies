@@ -1,0 +1,50 @@
+# STT vocabulary hints for Occupiers Liability Private Nuisance Rylands (A-level Law AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Rylands v Fletcher
+Rule in Rylands v Fletcher
+Occupiers' Liability Act 1957
+Occupiers' Liability Act 1984
+Occupiers’ liability
+Private nuisance
+Common duty of care
+Occupier
+Premises
+Lawful visitor
+Trespasser
+Invitee
+Licensee
+Contractual entrant
+Statutory right of entry
+Non‑natural use
+Strict liability
+Escape
+Accumulation
+Bringing onto land
+Proprietary interest
+Unlawful interference
+Coming to the nuisance
+Abatement
+Injunction
+Equitable remedy
+Compensatory damages
+Diminution in land value
+Contributory negligence
+Volenti
+Foreseeability
+Act of God
+Statutory authority
+Act of a stranger
+Independent contractor
+Effective warning
+Objective reasonableness
+Sensitivity of claimant
+Character of the locality
+Malicious conduct
+Continuous emission
+Discrete escape
+Proportionality
+Self‑help
+Noxious fumes
+Hazardous substances
+Control of premises

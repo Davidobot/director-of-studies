@@ -1,0 +1,63 @@
+# STT vocabulary hints for Glacial Systems And Landscapes (A-level Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Pleistocene
+equilibrium line altitude (ELA)
+glacial budget
+firn
+ablation
+sublimation
+calving
+warm-based glacier
+cold-based glacier
+basal sliding
+internal deformation
+compressional flow
+extensional flow
+plucking
+abrasion
+striations
+rock flour
+corrie
+arête
+U-shaped valley
+glacial trough
+hanging valley
+truncated spur
+roche moutonnée
+moraine
+lateral moraine
+medial moraine
+terminal moraine
+drumlin
+erratic
+fluvioglacial
+outwash plain
+kame
+esker
+tunnel valley
+periglacial
+solifluction
+patterned ground
+pingos
+ice wedge
+thermokarst
+permafrost
+glacial lake outburst flood (GLOF)
+proglacial lake
+mass balance
+terminus retreat
+Spearman's rank
+GIS
+hypsometric curve
+Sognefjord
+Mer de Glace
+Matterhorn
+Perito Moreno
+Southern Patagonian Ice Field
+Tuktoyaktuk Peninsula
+Alps
+Himalaya
+Andes
+Greenland
+Antarctica

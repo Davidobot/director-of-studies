@@ -1,0 +1,51 @@
+# STT vocabulary hints for Changing Places Place Meaning Connections (A-level Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Changing Places
+AQA
+Assessment and Qualifications Alliance
+A-level Geography
+placemaking
+sense of place
+social production of space
+insider/outsider
+endogenous factors
+exogenous factors
+transect
+GIS
+geospatial datasets
+census data
+population statistics
+land-use change
+gentrification
+regeneration
+studentification
+Guggenheim Museum
+Bilbao
+Shenzhen
+Special Economic Zone
+Dharavi
+Mumbai
+Detroit
+transnational corporations
+flows of capital
+migration streams
+spatial segregation
+housing stress
+positionality
+qualitative methods
+quantitative methods
+semi-structured interviews
+participant observation
+photographic archives
+oral histories
+media representations
+flagship developments
+cultural-led economic change
+manufacturing city
+harbour
+shipyards
+global trade patterns
+marketing campaigns
+social inequalities
+demographic change

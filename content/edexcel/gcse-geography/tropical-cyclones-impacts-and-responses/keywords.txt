@@ -1,0 +1,58 @@
+# STT vocabulary hints for Tropical Cyclones Impacts And Responses (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Tropical cyclone
+Eye
+Eyewall
+Spiral rainbands
+Sea surface temperature
+Coriolis force
+Vertical wind shear
+Mid-troposphere
+Latent heat
+Convection
+Positive feedback
+Hurricane
+Typhoon
+Saffir-Simpson scale
+Storm surge
+Coastal flooding
+Inland flooding
+Flash flooding
+Landslides
+Storm track
+Satellite imagery
+Reconnaissance aircraft
+Northwest Pacific
+North Atlantic
+Indian Ocean
+Southwest Pacific
+Typhoon Haiyan
+Yolanda
+Hurricane Katrina
+Cyclone Idai
+Mozambique
+Zimbabwe
+Malawi
+Mangroves
+Coral reefs
+Coastal wetlands
+Salinisation
+Seawalls
+Levees
+Storm-surge barriers
+GIS
+Remote sensing
+Radar
+Early warning systems
+Land-use planning
+Building codes
+Sea-level rise
+Storm-track maps
+Riverine inundation
+Socio-economic data
+Exposure
+Vulnerability
+Evacuation orders
+Search and rescue
+Fieldwork

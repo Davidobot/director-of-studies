@@ -1,0 +1,54 @@
+# STT vocabulary hints for Tropical Cyclones Hazards And Responses (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Tropical cyclone
+Hurricane
+Typhoon
+Cyclone
+Eye
+Eyewall
+Rainbands
+Storm surge
+Coastal inundation
+Saffir–Simpson scale
+Category 4–5
+Sea-surface temperature
+Ocean heat content
+Latent heat
+Wind shear
+Rapid intensification
+Coriolis force
+Subtropical ridge
+Trade winds
+Mid-latitude westerlies
+El Niño–Southern Oscillation
+ENSO
+Bathymetry
+Continental shelf
+Mangroves
+Coral reefs
+Seawalls
+Storm surge barriers
+Levees
+Cyclone shelters
+Early warning system
+Evacuation plans
+Satellite imagery
+Ocean buoys
+Radar
+Aircraft reconnaissance
+Cyclone-resistant construction
+Land-use planning
+Informal settlements
+Freshwater flooding
+Landslides
+Storm-track maps
+Hurricane Katrina
+Hurricane Sandy
+Typhoon Haiyan
+Bangladesh cyclone
+Bangladesh
+Philippines
+New Orleans
+Sea level rise
+Climate change

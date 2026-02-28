@@ -1,0 +1,48 @@
+# STT vocabulary hints for Global Systems And Global Governance (A-level Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Globalisation
+Global governance
+Global commons
+Antarctic Treaty (1959)
+Protocol on Environmental Protection to the Antarctic Treaty (1991)
+International Whaling Commission
+Moratorium on commercial whaling (1982)
+Antarctica
+High seas
+Polar regions
+Outer space
+United Nations
+World Trade Organization
+Multilateral development banks
+Intergovernmental organisations
+Treaty systems
+International law
+Enforcement mechanisms
+NGOs (non-governmental organisations)
+Transnational corporations (TNCs)
+Foreign direct investment
+Portfolio flows
+Trade agreements
+Liberalised trade
+Tariffs
+Supply chains
+Commodity chains
+Value capture
+Comparative advantage
+Market access
+Power asymmetries
+Interdependence
+Financial shocks
+Pandemics
+Climate change
+Mineral exploitation moratorium
+Environmental protection measures
+Geospatial data visualisations
+GIS
+Digital services
+Information technology
+Mitigation and adaptation
+Civil society activism
+Malthusian
+Neo-Malthusian

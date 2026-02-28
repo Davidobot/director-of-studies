@@ -1,0 +1,63 @@
+# STT vocabulary hints for Coastal Systems And Landscapes (A-level Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+sediment cell
+sediment budget
+longshore drift
+littoral drift
+fetch
+constructive wave
+destructive wave
+storm surge
+tidal range
+intertidal zone
+dynamic equilibrium
+positive feedback
+negative feedback
+sub-aerial weathering
+freeze–thaw
+solution weathering
+oxidation
+biological weathering
+mass movement
+rockfall
+landslide
+hydraulic action
+wave quarrying
+abrasion
+corrasion
+attrition
+wave-cut platform
+stack
+spit
+tombolo
+offshore bar
+barrier beach
+sand dune system
+saltmarsh
+mudflat
+ria
+fjord
+Dalmatian coast
+eustatic sea-level change
+isostatic change
+post-glacial rebound
+tectonic uplift
+subsidence
+managed realignment
+Shoreline Management Plan
+Integrated Coastal Zone Management
+Holderness coast
+Medmerry managed realignment
+Maldives
+Bangladesh
+beach nourishment
+groyne
+seawall
+revetment
+rock armour
+breakwater
+GIS
+beach profiling
+grain-size analysis
+cliff recession monitoring

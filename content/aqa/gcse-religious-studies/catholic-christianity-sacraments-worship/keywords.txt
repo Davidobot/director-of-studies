@@ -1,0 +1,63 @@
+# STT vocabulary hints for Catholic Christianity Sacraments Worship (GCSE Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Catholic Christianity
+Sacramental imagination
+Sacrament
+Sacramental nature
+Sacramental economy
+Trinity
+Baptism
+Infant baptism
+Believers' baptism
+Confirmation
+Eucharist
+Mass
+Liturgy of the Eucharist
+Paschal Mystery
+Last Supper
+Communion rite
+Consecration
+Transubstantiation
+Real presence
+Eucharistic adoration
+Tabernacle
+Reconciliation
+Confession
+Anointing of the sick
+Last rites
+Matrimony
+Holy orders
+Ordained ministry
+Deacon
+Priest
+Bishop
+Form and matter
+Vestments
+Catechumen
+Catechesis
+Rosary
+Stations of the Cross
+Novena
+Devotions
+Pilgrimage
+Lourdes
+Walsingham
+Funeral rite
+Prevenient grace
+Catholic social teaching
+Preferential option for the poor
+Human dignity
+Common good
+Solidarity
+Second Vatican Council
+CAFOD
+Trocaire
+Missio
+Society of Saint Vincent de Paul
+Pax Christi
+Corrymeela
+Orthodox churches
+Protestant
+Lord's Supper
+Sacramental presence

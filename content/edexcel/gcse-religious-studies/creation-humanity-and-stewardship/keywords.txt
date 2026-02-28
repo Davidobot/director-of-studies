@@ -1,0 +1,44 @@
+# STT vocabulary hints for Creation Humanity And Stewardship (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Genesis 1–3
+John 1:1–18
+John's Gospel
+Logos
+Qur'an
+Qur'anic
+Allah
+khalifah
+Brahman
+atman
+moksha
+reincarnation
+dependent origination
+anatta
+karma
+imago Dei
+sanctity of life
+ensoulment
+stewardship
+dominion
+sewa
+ahimsa
+CAFOD
+Christian Aid
+Mool Mantar
+Georges Lemaître
+Big Bang
+evolution
+cosmology
+ecology
+abortion
+euthanasia
+animal ethics
+faith-based environmental initiatives
+utilitarianism
+natural law
+situation ethics
+Catholic teaching
+creationism
+creation narratives
+religious environmentalism

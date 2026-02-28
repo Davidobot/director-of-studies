@@ -1,0 +1,48 @@
+# STT vocabulary hints for Normative Ethical Theories (A-level Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Natural Moral Law
+NML
+Natural Law
+Thomas Aquinas
+Thomistic
+Primary precepts
+Secondary precepts
+Principle of double effect
+Double effect
+Proportionalism
+Deontological
+Teleological
+Consequentialism
+Joseph Fletcher
+Situation Ethics
+Agape
+Personalism
+Pragmatism (ethical)
+Positivism (ethical)
+Relativism (ethical)
+Virtue Ethics
+Aristotle
+Eudaimonia
+Phronesis
+Golden mean
+Practical wisdom
+Habituation
+Moral exemplar
+Theological virtues
+Faith
+Hope
+Charity
+Ordinary and extraordinary means
+Life‑and‑death choices
+Moral objectivity
+Absolutist prohibitions
+Intrinsic wrongness
+Moral agent
+Human flourishing
+A-level Religious Studies
+AQA
+Assessment and Qualifications Alliance
+AO1
+AO2
+Synoptic

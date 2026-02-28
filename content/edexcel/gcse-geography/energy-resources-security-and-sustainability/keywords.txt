@@ -1,0 +1,51 @@
+# STT vocabulary hints for Energy Resources Security And Sustainability (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Pearson Edexcel
+Energy security
+Sustainability
+Fossil fuels
+Greenhouse gases
+Climate change
+Non-renewable resources
+Renewable energy
+Recyclable resources
+Coal
+Oil
+Natural gas
+Wind power
+Solar power
+Tidal energy
+Hydroelectricity
+Hydroelectric dams
+Nuclear fuel cycle
+Nuclear power
+Biofuels
+Biomass
+Tar sands
+Deepwater oil
+Shale gas
+Coalbed methane
+Hydraulic fracturing
+Groundwater contamination
+Induced seismicity
+Intermittency
+Baseload
+Energy storage
+Grid upgrades
+Demand‑management
+Battery technology
+Smart grids
+Hydrogen
+Carbon pricing
+Strategic reserves
+Energy diversification
+Energy mix
+Carbon footprint
+Per capita energy consumption
+Traditional biomass
+Petrochemical industries
+Environmental impact assessment
+Protected areas
+International agreements

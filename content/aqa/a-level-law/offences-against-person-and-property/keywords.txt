@@ -1,0 +1,62 @@
+# STT vocabulary hints for Offences Against Person And Property (A-level Law AQA).
+# One term per line. Used to improve speech recognition quality.
+
+A-level
+Offences Against the Person Act
+s47
+s20
+s18
+actus reus
+mens rea
+causation
+factual causation
+but for test
+legal causation
+novus actus interveniens
+foreseeability
+directness
+intention
+direct intention
+oblique intention
+subjective recklessness
+negligence
+transferred malice
+homicide
+murder
+malice aforethought
+loss of control
+provocation
+sexual infidelity exclusion
+diminished responsibility
+abnormality of mental functioning
+recognised medical condition
+involuntary manslaughter
+unlawful act manslaughter
+gross negligence manslaughter
+assault
+battery
+actual bodily harm
+psychiatric injury
+grievous bodily harm
+theft
+appropriation
+dishonesty
+intention to permanently deprive
+robbery
+inchoate offences
+attempt
+more than merely preparatory
+insanity
+automatism
+non-insane automatism
+voluntary intoxication
+involuntary intoxication
+specific intent
+basic intent
+self-defence
+duress
+duress of circumstances
+IRAC
+AO1
+AO2
+AO3

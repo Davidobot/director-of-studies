@@ -1,0 +1,63 @@
+# STT vocabulary hints for Uk Landscapes And Geology (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+UK
+Quaternary glaciations
+Scottish Highlands
+Lake District
+Snowdonia
+Antrim coast
+Dover
+Chesil Beach
+River Severn
+River Thames
+sedimentary rocks
+igneous rocks
+metamorphic rocks
+chalk
+sandstone
+granite
+basalt
+schist
+slate
+tectonic events
+geological structure
+concordant coastline
+discordant coastline
+joints
+faults
+hydraulic action
+abrasion
+attrition
+longshore drift
+beach nourishment
+managed retreat
+sea wall
+groynes
+destructive waves
+constructive waves
+wave-cut platform
+arches
+stacks
+caves
+spits
+waterfalls
+gorges
+meanders
+floodplain
+levee
+delta
+traction
+saltation
+suspension
+plucking
+corrie
+arête
+U-shaped valley
+terminal moraine
+drumlin
+crag-and-tail
+frost weathering
+mass movement
+GIS
+hydrograph

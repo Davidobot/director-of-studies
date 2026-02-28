@@ -1,0 +1,52 @@
+# STT vocabulary hints for Ecosystems Under Stress (A-level Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Ecosystems
+Biomes
+Tropical rainforest
+Savanna grassland
+Coral reefs
+Great Barrier Reef
+Amazon
+Borneo
+Serengeti
+Sahel
+Caribbean reefs
+Studland
+Fenland
+Heather moorland
+Plagioclimax
+Succession
+Climatic climax
+Lithoseres
+Hydroseres
+Net primary productivity (NPP)
+Biomass
+Nutrient cycling
+Trophic levels
+Evapotranspiration
+Zooxanthellae
+Coral bleaching
+Ocean acidification
+Overfishing
+Sedimentation
+Algal overgrowth
+Fragmentation
+Connectivity
+REDD+
+Agroforestry
+Reduced-impact logging
+Oil palm plantations
+Cattle ranching
+Fire regimes
+Pastoralism
+Adaptive grazing
+Marine protected areas
+GIS
+Spearman's rank
+Chi-square tests
+Quadrat sampling
+Transects
+Remote sensing
+Rewilding
+Payments for ecosystem services

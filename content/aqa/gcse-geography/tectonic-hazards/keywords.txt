@@ -1,0 +1,54 @@
+# STT vocabulary hints for Tectonic Hazards (GCSE Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Tectonic hazards
+Plate tectonics
+Lithospheric plates
+Asthenosphere
+Plate margins
+Constructive margins
+Destructive margins
+Subduction
+Conservative margins
+Transform boundaries
+Mid-ocean ridges
+Pacific Ring of Fire
+Earthquakes
+Seismic waves
+Seismograph
+Seismometer
+Strike-slip faults
+Soil liquefaction
+Landslides
+Tsunami
+Pyroclastic flows
+Composite volcanoes
+Effusive eruptions
+Explosive eruptions
+Volcanic ash
+Pumice
+Lahars
+Magma
+Volcano monitoring
+GNSS
+Tiltmeters
+Thermal imaging
+Gas sampling
+Remote sensing
+Ocean buoys
+Tide gauges
+Base isolation
+Reinforced concrete
+Cross-bracing
+Earthquake-resistant design
+Land-use zoning
+Evacuation routes
+Exclusion zones
+Early warning systems
+Port-au-Prince 2010
+Haiti 2010 earthquake
+Tohoku earthquake 2011
+Fukushima Daiichi nuclear accident
+Frequency-magnitude relationship
+GIS
+Seismic hazard

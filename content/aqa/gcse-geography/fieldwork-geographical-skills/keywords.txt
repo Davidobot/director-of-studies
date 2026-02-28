@@ -1,0 +1,62 @@
+# STT vocabulary hints for Fieldwork Geographical Skills (GCSE Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+AQA
+GCSE
+Head of Centre
+Paper 3
+pre-release resources
+Ordnance Survey
+OS extracts
+Geographic Information Systems
+GIS
+remote sensing
+satellite imagery
+transect
+systematic sampling
+stratified sampling
+random sampling
+sampling strategy
+calliper
+clinometer
+cross-sectional area
+discharge
+stream velocity
+pebble size
+sediment transport
+beach profile
+channel width
+lateral erosion
+land-use transect
+pedestrian surveys
+timed traffic counts
+questionnaire design
+four-figure grid reference
+six-figure grid reference
+latitude and longitude
+contours
+gradient
+map scale
+histogram
+scattergraph
+trend line
+choropleth map
+isoline map
+proportional symbol map
+flow map
+population pyramid
+mean
+median
+mode
+interquartile range
+cumulative frequency
+percentage change
+bivariate data
+correlation
+thematic maps
+SPaG
+risk assessment
+observer bias
+cross-section
+field sketches
+qualitative data

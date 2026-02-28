@@ -1,0 +1,54 @@
+# STT vocabulary hints for Challenge Transformation Britain C1851 1964 (A-level History AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Beveridge Report
+National Health Service
+NHS
+Attlee government
+Labour landslide
+Welfare State
+Welfare settlement
+Second Reform Act 1867
+Third Reform Act 1884
+Redistribution Act 1885
+Disraeli
+Gladstone
+New Liberalism
+Liberal welfare reforms 1906–1914
+Liberal Party
+Labour Party
+Trade unions
+General Strike 1926
+Miners' disputes
+Keynesian demand management
+Mixed economy
+Stop-go policies
+Balance of payments
+Nationalisation
+National Insurance
+Education Act
+Suez Crisis 1956
+Anglo-Irish Treaty 1921
+Irish Free State
+Easter Rising 1916
+Anglo-Irish War 1919–1921
+Home Rule
+Charles Stewart Parnell
+Ulster unionism
+Partition
+First World War
+Second World War
+Appeasement
+Rearmament
+National Government
+Mass urbanisation
+Workshop of the world
+Imperial preference
+Tariff Reform
+Free trade
+National efficiency
+Post-war consensus
+Mass politics
+Universal suffrage
+Female enfranchisement 1918
+Equal suffrage 1928

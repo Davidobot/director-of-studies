@@ -1,0 +1,51 @@
+# STT vocabulary hints for Resource Management Energy And Water (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Pearson Edexcel
+GCSE Geography
+UK
+India
+Brazil
+Cape Town
+Day Zero
+energy mix
+renewables
+non‑renewable
+fossil fuels
+coal
+oil
+natural gas
+shale gas
+fracking
+uranium
+nuclear power
+radioactive waste
+offshore wind
+onshore wind farms
+solar
+hydroelectricity
+hydropower
+pumped‑storage hydropower
+battery systems
+energy storage
+smart grids
+distributed generation
+interconnectors
+energy security
+decarbonisation
+carbon budgets
+just transition
+greenhouse gases
+induced seismic activity
+desalination
+over‑abstraction
+groundwater
+leakage
+water stress
+Integrated Water Resources Management
+water metering
+wastewater recycling
+water transfers
+borehole drilling
+renewable auctions
+energy efficiency

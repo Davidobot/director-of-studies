@@ -1,0 +1,49 @@
+# STT vocabulary hints for First World War 1894 1918 Depth Study (GCSE History AQA).
+# One term per line. Used to improve speech recognition quality.
+
+First World War
+–1918
+Weltpolitik
+Triple Alliance
+Entente
+Kaiser Wilhelm II
+Moroccan Crises
+Balkans
+Ottoman Empire
+Sarajevo
+Archduke Franz Ferdinand
+July Crisis
+Austria-Hungary
+Ultimatum to Serbia
+Schlieffen Plan
+Belgian neutrality
+Battle of the Marne
+Western Front
+Trench warfare
+Barbed wire
+Machine gun
+Artillery
+Attrition
+Battle of Verdun
+Battle of the Somme
+Passchendaele
+Unrestricted submarine warfare
+U-boat campaign
+Convoy system
+Battle of Jutland
+Gallipoli campaign
+Commonwealth
+Eastern Front
+Colonial troops
+Poison gas
+Tanks
+Aircraft reconnaissance
+Blood transfusion
+Bolshevik Revolution
+Zimmermann Telegram
+Spring Offensive
+Erich Ludendorff
+Ferdinand Foch
+Hundred Days Offensive
+Armistice 11 November 1918
+Allied blockade

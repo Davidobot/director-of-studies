@@ -1,0 +1,57 @@
+# STT vocabulary hints for Beliefs About God And Ultimate Reality (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Trinity
+Incarnation
+Tawhid
+Allah
+Qur'an
+Sunni
+Shia
+Shekhinah
+Brahman
+Nirguna
+Saguna
+Atman
+Moksha
+Mool Mantar
+Guru Granth Sahib
+Dhamma
+Nirvana
+Nibbana
+Devas
+Revelation
+Miracles
+Design argument
+Cosmological argument
+Problem of evil
+Free will defence
+Soul-making theodicy
+Karma
+Rebirth
+Langar
+Puja
+Yoga
+Four Noble Truths
+Theravada
+Mahayana
+Monotheism
+Polytheism
+Pantheism
+Panentheism
+Transcendence
+Immanence
+Soteriology
+Sacramental
+Divine providence
+Sanctity of life
+Upanishads
+Bhagavad Gita
+Torah
+Tenakh
+John 1
+Buddhist suttas
+Assessment Objectives
+AO1
+AO2
+SPaG

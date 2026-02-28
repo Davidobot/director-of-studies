@@ -1,0 +1,39 @@
+# STT vocabulary hints for Kantian Deontology Categorical Imperative (A-level Philosophy AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Immanuel Kant
+Kantian deontology
+Categorical Imperative
+Hypothetical Imperative
+Good will
+Maxim
+Universal law
+Universalisability
+Universalisation test
+Contradiction in conception
+Contradiction in will
+Humanity as an end in itself
+Kingdom of ends
+Autonomy
+Self-legislation
+Heteronomy
+Perfect duties
+Imperfect duties
+Respect for persons
+Practical reason
+Moral law
+Moral worth
+Acting from duty
+Acting in accordance with duty
+Dignity
+Mere means
+Instrumentalization
+Lying to the murderer
+Institution of promising
+Self-preservation
+Formalism
+Universality
+Moral dilemma
+Consequentialism
+Utilitarianism
+Virtue ethics

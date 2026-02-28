@@ -1,0 +1,58 @@
+# STT vocabulary hints for Britain Health And The People C1000 Present (GCSE History AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Britain
+Black Death
+Hippocrates
+Galen
+Humoral theory
+Four humours
+Monastic hospitals
+Islamic medicine
+Andreas Vesalius
+Ambroise Paré
+William Harvey
+Circulation of the blood
+Variolation
+Edward Jenner
+Smallpox vaccination
+Germ theory
+Louis Pasteur
+Robert Koch
+Joseph Lister
+Antiseptic surgery
+Aseptic surgery
+Chloroform
+Ether
+James Young Simpson
+Edwin Chadwick
+Charles Booth
+Seebohm Rowntree
+John Snow
+Broad Street pump
+Epidemiology
+Public Health Act 1848
+Public Health Act 1875
+Sanitary movement
+Professionalisation
+Apothecary
+Penicillin
+Alexander Fleming
+Howard Florey
+Ernst Chain
+Beveridge Report 1942
+National Health Service
+NHS
+Organ transplantation
+X-ray
+CT scan
+MRI
+Keyhole surgery
+Antibiotic resistance
+Blood transfusion
+Prosthetics
+Plastic surgery
+Microbiology
+Sanitation
+Cholera
+Public health reforms

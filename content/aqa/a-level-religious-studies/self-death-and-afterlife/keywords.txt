@@ -1,0 +1,50 @@
+# STT vocabulary hints for Self Death And Afterlife (A-level Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+René Descartes
+Substance dualism
+Immaterial soul
+Mind–body problem
+Res extensa
+Indivisibility
+John Locke
+Psychological continuity
+Memory criterion
+Derek Parfit
+Reductionist physicalism
+Functionalism
+Emergentist physicalism
+Interactionism
+Mental causation
+Contemporary neuroscience
+Near-death experiences
+Apparitions
+Reincarnation
+Karma
+Atman
+Brahman
+Advaita Vedanta
+Samkhya
+Samsara
+Moksha
+Upanishads
+Chariot analogy
+Anatta
+Skandhas
+Milinda Panha
+Trikaya
+Bodhisattva
+Nirvana
+Resurrection
+Resurrection of the flesh
+Barzakh
+Sheol
+Tenakh
+Messianic Age
+Paul
+Augustine
+Split-brain cases
+Dementia
+Euthanasia
+Capital punishment
+Sanctity of life

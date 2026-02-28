@@ -1,0 +1,63 @@
+# STT vocabulary hints for Crime And Deviance (A-level Sociology AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Crime and Deviance
+AQA
+Assessment and Qualifications Alliance
+A-level
+Durkheim
+Merton
+Cohen
+Marxism
+Neo-Marxism
+Taylor
+Walton
+Young
+Becker
+Foucault
+Anomie
+Strain theory
+Subculture
+Labelling theory
+Moral panic
+Stigma
+Socialisation
+White-collar crime
+Corporate crime
+State crime
+Dark figure of crime
+Surveillance
+CCTV
+Biometrics
+Predictive policing
+Situational crime prevention
+Community policing
+Restorative justice
+Crime Survey for England and Wales
+Victim surveys
+Self-report studies
+Transnational organised crime
+Human trafficking
+Cyber-enabled fraud
+Cybercrime
+Globalisation
+Institutional racism
+Relative deprivation
+Left realism
+Right realism
+Feminist theory
+Postmodernism
+Late modernity
+Criminal justice system
+Police recorded crime figures
+Police recording practices
+AO1
+AO2
+AO3
+Paper 3
+Desistance
+Criminal careers
+Knife crime
+Online abuse
+Moral entrepreneurs
+Sentencing

@@ -1,0 +1,57 @@
+# STT vocabulary hints for Western Front 1914 1918 (GCSE History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Western Front
+Flanders
+no-man's-land
+trench system
+communication trenches
+parapet
+fire-step
+dugout
+parados
+traverse
+duckboards
+saps
+shell crater
+trench foot
+trench fever
+lice
+gas gangrene
+septic wound
+mustard gas
+chlorine gas
+phosgene
+poison gas
+shrapnel
+artillery bombardment
+machine gun
+Royal Army Medical Corps
+RAMC
+Queen Alexandras Imperial Military Nursing Service
+Voluntary Aid Detachments
+VADs
+stretcher-bearer
+regimental aid post
+field ambulance
+dressing station
+casualty clearing station
+CCS
+base hospital
+Thomas splint
+debridement
+Carrel–Dakin technique
+antiseptic irrigation
+mobile x-ray unit
+radiography
+Harold Gillies
+reconstructive surgery
+skin grafting
+blood transfusion
+blood depot
+early blood bank
+Battle of Cambrai
+Arras
+underground hospital
+shell shock
+triage

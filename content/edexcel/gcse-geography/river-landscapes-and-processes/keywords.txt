@@ -1,0 +1,67 @@
+# STT vocabulary hints for River Landscapes And Processes (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+River Tees
+High Force
+Whin Sill
+Tees Barrage
+Middlesbrough
+Teesside
+GCSE Pearson Edexcel
+hydraulic action
+abrasion
+attrition
+solution
+mechanical weathering
+chemical weathering
+biological weathering
+mass movement
+slumping
+landslide
+traction
+saltation
+bed load
+suspended load
+dissolved load
+helicoidal flow
+meander
+oxbow lake
+point bar
+natural levee
+floodplain
+plunge pool
+gorge
+interlocking spurs
+vertical erosion
+lateral erosion
+selective deposition
+sediment transport
+sediment supply
+overbank deposits
+channelisation
+embankments
+dams and reservoirs
+washlands
+afforestation
+floodplain zoning
+soft engineering
+hard engineering
+non-structural approaches
+storm hydrograph
+lag time
+peak discharge
+rising limb
+falling limb
+discharge (Q)
+velocity-area method
+Q = A × v
+current meter
+Wolman method
+pebble count
+grain-size distribution
+roundness
+BGS geological maps
+Environment Agency flood risk maps
+long profile
+channel roughness
+flood defences

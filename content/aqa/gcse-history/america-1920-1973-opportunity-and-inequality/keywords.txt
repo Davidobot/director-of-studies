@@ -1,0 +1,62 @@
+# STT vocabulary hints for America 1920 1973 Opportunity And Inequality (GCSE History AQA).
+# One term per line. Used to improve speech recognition quality.
+
+America 1920–1973
+American Dream
+Henry Ford
+Assembly line
+Advertising
+Radio
+Hire-purchase
+th Amendment
+Volstead Act
+Prohibition
+Immigration Act
+Nativism
+Ku Klux Klan
+Red Scare
+Sacco and Vanzetti
+Wall Street Crash
+Great Depression
+Herbert Hoover
+Franklin D. Roosevelt
+New Deal
+Civilian Conservation Corps (CCC)
+Works Progress Administration (WPA)
+Social Security Act
+Federal Deposit Insurance Corporation (FDIC)
+Lend-Lease
+World War II
+GI Bill
+Executive Order 8802
+Cold War
+Levittown
+Suburbanisation
+House Un-American Activities Committee (HUAC)
+Joseph McCarthy
+Brown v. Board of Education
+Montgomery Bus Boycott
+Martin Luther King Jr.
+Freedom Rides
+Birmingham campaign
+March on Washington
+I Have a Dream
+Civil Rights Act of 1964
+Voting Rights Act of 1965
+Malcolm X
+Black Power
+Lyndon B. Johnson
+Great Society
+Medicare
+Medicaid
+Elementary and Secondary Education Act
+Economic Opportunity Act
+Head Start
+National Organization for Women (NOW)
+Equal Rights Amendment (ERA)
+Title IX
+Roe v. Wade
+Segregation
+Desegregation
+Consumer credit
+Blacklisting

@@ -1,0 +1,48 @@
+# STT vocabulary hints for Medicine In Britain (GCSE History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Black Death
+Great Plague
+William Harvey
+John Snow
+Florence Nightingale
+Alexander Fleming
+Florey and Chain
+Penicillin
+Royal Army Medical Corps
+RAMC
+Western Front
+Battle of Cambrai
+Arras underground hospital
+Thomas splint
+Mobile x-ray units
+Shell shock
+Stretcher-bearers
+Casualty Clearing Station
+Dressing station
+Base hospital
+Germ Theory
+Louis Pasteur
+Robert Koch
+Joseph Lister
+Anaesthetics
+Antiseptics
+Sulphonamides
+Blood transfusion
+Blood storage
+Edward Jenner
+Vaccination
+Public Health Act 1875
+Edwin Chadwick
+Four Humours
+Galen
+Andreas Vesalius
+Thomas Sydenham
+Royal Society
+Medical Renaissance
+Crimean War
+Apothecaries
+Barber-surgeons
+Debridement
+Microscope
+Miasma

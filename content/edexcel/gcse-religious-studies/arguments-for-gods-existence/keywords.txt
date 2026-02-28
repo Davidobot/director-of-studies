@@ -1,0 +1,47 @@
+# STT vocabulary hints for Arguments For Gods Existence (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Teleological
+Cosmological
+Miracles
+Revelation
+Design argument
+Watchmaker analogy
+Paley
+Fine-tuning
+Physical constants
+David Hume
+Darwinian evolution
+Multiverse
+Aristotle
+Thomas Aquinas
+First Three Ways
+Unmoved Mover
+Necessary Being
+Contingency
+Kalam
+Kalam cosmological tradition
+Big Bang
+First Cause
+Quantum physics
+Lourdes
+Canonisation
+Hebrews 1:1–4
+Romans 1:18–24
+Qur'an
+Allah
+Muhammad
+John's Gospel
+Miracles of Jesus
+Magisterium
+Testimony
+Empirical
+Problem of evil
+Free will
+Soul-making
+Religious pluralism
+Special revelation
+General revelation
+Sustaining explanation
+Prima causa
+God

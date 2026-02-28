@@ -1,0 +1,52 @@
+# STT vocabulary hints for Pressure Groups Think Tanks Lobbying (A-level Politics AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Pressure groups
+Think tanks
+Lobbyists
+Insider groups
+Outsider groups
+Sectional groups
+Promotional groups
+Revolving door
+British Medical Association
+Confederation of British Industry
+Greenpeace
+Liberty
+Institute for Fiscal Studies
+Adam Smith Institute
+Brookings Institution
+Heritage Foundation
+Political Action Committees
+Super PACs
+Lobbying Disclosure Act
+Transparency registers
+Registers of interests
+Consultant lobbyists
+Parliamentary committees
+Judicial review
+Supreme Court
+Litigation
+Policy analysis
+White papers
+Costings
+Procurement decisions
+Party discipline
+Devolved governments
+Scotland
+Wales
+Northern Ireland
+Separation of powers
+Federalism
+Congressional constituencies
+Campaign finance
+Third-party money
+Digital campaigning
+Social media campaigning
+Media strategy
+Framing
+Pluralist theory
+Elitist critiques
+Transparency
+Electoral spending
+Insider access

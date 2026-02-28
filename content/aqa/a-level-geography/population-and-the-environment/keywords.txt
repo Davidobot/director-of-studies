@@ -1,0 +1,60 @@
+# STT vocabulary hints for Population And The Environment (A-level Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Demographic transition model
+Carrying capacity
+Ecological footprint
+Biocapacity
+Demographic dividend
+Age-sex structure
+Dependency ratios
+Fertility rates
+Mortality rates
+Population density
+Per capita resource use
+Epidemiological transition
+Non-communicable diseases
+Vector-borne diseases
+Malaria
+Mosquito vector
+Disease surveillance
+Bed nets
+Lateritic soils
+Podzols
+Chernozem
+Soil leaching
+Salinisation
+Soil erosion
+Soil structural deterioration
+Conservation agriculture
+Crop rotation
+Terracing
+Irrigation schemes
+Protected agriculture
+Climate-smart agriculture
+Agricultural intensification
+Mechanisation
+Improved seeds
+Urbanisation
+Rural-to-urban migration
+Remittances
+Refugees
+Asylum seekers
+Environmental migrants
+Sea-level rise
+Greenhouse gas emissions
+Mitigation
+Adaptation
+Ecosystem services
+Sustainable development
+Lagos
+Nigeria
+Japan
+Malthusian
+Neo-Malthusian
+Ester Boserup
+Julian Simon
+Particulate pollution
+Air pollution
+Age-sex pyramids
+Pandemics

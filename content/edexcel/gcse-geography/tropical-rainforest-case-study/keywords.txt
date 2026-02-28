@@ -1,0 +1,50 @@
+# STT vocabulary hints for Tropical Rainforest Case Study (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Amazon Basin
+Congo Basin
+Borneo
+Sumatra
+Costa Rica
+Indonesia
+Gersmehl model
+Lateritic soils
+Nutrient cycling
+Biomass
+Emergent trees
+Canopy
+Understory
+Forest floor
+Buttress roots
+Drip tips
+Lianas
+Epiphytes
+Orchids
+Bromeliads
+Biodiversity
+Slash-and-burn
+Cattle ranching
+Oil palm
+Soy cultivation
+Selective logging
+Reduced-impact logging
+Selective harvesting
+Reforestation
+Afforestation
+Community-based management
+Community reserves
+Forest Stewardship certification
+Payments for ecosystem services
+Carbon finance
+REDD+
+Evapotranspiration
+Carbon emissions
+Deforestation
+Forest degradation
+Land tenure conflicts
+Indigenous territories
+Ecotourism
+Landscape-scale conservation
+Nutrient-poor soils
+Road-building
+Mining

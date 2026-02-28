@@ -1,0 +1,61 @@
+# STT vocabulary hints for Contemporary Urban Environments (A-level Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Contemporary urban environments
+Assessment and Qualifications Alliance
+Global South
+Megacities
+World cities
+Deindustrialisation
+Service economy
+Suburbanisation
+Counter-urbanisation
+Urban resurgence
+Re-urbanisation
+Gentrification
+Edge cities
+Business parks
+Cultural quarters
+Heritage quarters
+Fortress developments
+Urban heat island
+Anthropogenic heat
+Evapotranspiration
+Particulate matter
+Nitrogen oxides
+Ozone
+London smogs
+Low-emission zones
+Congestion charging
+Sustainable Urban Drainage Systems
+SUDS
+Blue-green infrastructure
+Permeable paving
+Bioswales
+Green roofs
+Daylighting
+Cheonggyecheon
+Seoul
+Hydrographs
+Impervious surfaces
+Runoff
+Infiltration
+River restoration
+Energy-from-waste
+Incineration with energy recovery
+Liveability
+Bus rapid transit
+Curitiba
+Freiburg
+Circular economies
+Renewable energy
+Energy-efficient housing
+Globalisation
+Social segregation
+Spatial planning
+Dereliction
+Urban biodiversity
+Fieldwork transects
+River discharge measurements
+Non-exam assessment
+Air quality indices

@@ -1,0 +1,51 @@
+# STT vocabulary hints for Changing Cities Uk And Global Case Studies (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Urbanisation
+Transnational corporations
+TNCs
+Globalisation
+Megacity
+Primate city
+South East
+West Midlands
+North West
+London
+Suburbanisation
+Counter-urbanisation
+Re-urbanisation
+Central Business District
+CBD
+Inner-city
+Urban-rural fringe
+Manchester
+Salford Quays
+MediaCityUK
+Coalfields
+Deindustrialisation
+Lagos
+Nigeria
+Makoko
+Informal settlements
+Informal sector
+Slum upgrading
+Bus rapid transit
+BRT
+Urban heat island
+Floodplain
+Coastal defence
+Brownfield redevelopment
+Greenfield expansion
+Ecological footprint
+Deprivation indices
+Population pyramid
+Choropleth map
+GIS
+Satellite imagery
+Land-use survey
+Environmental quality survey
+Pedestrian count
+Urban regeneration
+Top-down
+Bottom-up
+Transport congestion

@@ -1,0 +1,63 @@
+# STT vocabulary hints for River Landscapes Uk (GCSE Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE Geography
+Assessment and Qualifications Alliance
+drainage basin
+watershed
+long profile
+cross-sectional shape
+floodplain
+overbank flooding
+interlocking spurs
+waterfall
+plunge pool
+gorge
+High Force
+River Tees
+dolerite
+lateral erosion
+meander
+river cliff
+slip-off slope
+oxbow lake
+natural levee
+estuary
+Severn Estuary
+tidal range
+mudflats
+salt marshes
+hydraulic action
+abrasion
+attrition
+solution
+traction
+saltation
+suspension
+deposition
+sediment load
+hydrograph
+rising limb
+peak discharge
+falling limb
+baseflow
+flashy hydrograph
+lag time
+impermeable geology
+urbanisation
+deforestation
+channel straightening
+dams
+reservoirs
+embankments
+flood relief channel
+Jubilee River
+River Thames
+Windsor
+river restoration
+transect
+longitudinal profile
+Ordnance Survey
+contour patterns
+thematic maps
+floodplain zoning

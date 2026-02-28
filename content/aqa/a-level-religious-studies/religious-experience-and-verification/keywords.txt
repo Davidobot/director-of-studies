@@ -1,0 +1,46 @@
+# STT vocabulary hints for Religious Experience And Verification (A-level Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Rudolf Otto
+William James
+Walter Stace
+Richard Swinburne
+Assessment and Qualifications Alliance
+A-level Religious Studies
+Road to Damascus
+Damascus
+Numinous
+Wholly other
+Ineffability
+Noetic quality
+Unitive state
+Introvertive mysticism
+Extrovertive mysticism
+Mystical experience
+Corporeal vision
+Imaginative vision
+Intellectual vision
+Transcendent presence
+Veridicality
+Verification
+Principle of credulity
+Principle of testimony
+Prima facie justification
+Probabilistic framework
+Probabilistic approach
+Defeater
+Testimony
+Corroboration
+Cultural conditioning
+Temporal lobe activity
+Temporal lobe epilepsy
+Hallucination
+Brain states
+Psychological suggestion
+Transformative outcomes
+Pragmatic criteria
+Existential criteria
+Theistic claim
+Moral order
+Metaphysical claims
+Private testimony

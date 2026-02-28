@@ -1,0 +1,49 @@
+# STT vocabulary hints for Contract Formation Terms Consumer Rights Remedies (A-level Law AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Contract law
+Offer
+Acceptance
+Invitation to treat
+Unilateral offer
+Carbolic Smoke Ball
+Postal rule
+Instantaneous communications
+Telex
+Electronic contracting
+Consideration
+Past consideration
+Practical benefit
+Promissory estoppel
+Intention to create legal relations
+Express terms
+Implied terms
+Conditions
+Warranties
+Innominate terms
+Officious bystander test
+Business efficacy
+Statutory implication
+Consumer Rights Act 2015
+Satisfactory quality
+Fit for purpose
+Short-term right to reject
+Repair or replacement
+Price reduction
+Burden of proof
+Six-month presumption
+Exclusion clauses
+Incorporation
+Unfair Contract Terms Act
+Reasonableness test
+Specific performance
+Injunction
+Rescission
+Misrepresentation
+Remoteness
+Mitigation
+Repeat performance
+Consumer-trader relationship
+Pre-contractual statements
+IRAC
+AO1 AO2 AO3

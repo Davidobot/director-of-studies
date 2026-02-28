@@ -1,0 +1,59 @@
+# STT vocabulary hints for Work Poverty And Welfare (A-level Sociology AQA).
+# One term per line. Used to improve speech recognition quality.
+
+A-level Sociology
+Assessment and Qualifications Alliance
+AQA
+National Health Service
+relative poverty
+absolute poverty
+material deprivation
+life chances
+social exclusion
+class mobility
+Functionalist
+Marxist
+neo-Marxist
+Weberian
+Feminist
+New Right
+social democratic
+welfare reform
+austerity measures
+means-testing
+means-tested benefits
+unconditional cash transfers
+conditionality
+sanctions
+poverty traps
+labour market segmentation
+precarious employment
+zero-hours contracts
+gig economy
+platform labour
+Taylorism
+Fordism
+post-Fordism
+labour process theory
+human capital theory
+trade unions
+collective bargaining
+deindustrialisation
+outsourcing
+offshoring
+transnational corporations
+global supply chains
+longitudinal studies
+participant observation
+ethnography
+household surveys
+labour force statistics
+income distribution measures
+intergenerational poverty
+social capital
+deskilling
+surplus value
+pension adequacy
+food banks
+civil society
+care sector

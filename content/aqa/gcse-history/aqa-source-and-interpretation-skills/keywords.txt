@@ -1,0 +1,44 @@
+# STT vocabulary hints for Aqa Source And Interpretation Skills (GCSE History AQA).
+# One term per line. Used to improve speech recognition quality.
+
+AQA
+Assessment and Qualifications Alliance
+GCSE History
+AO3
+AO4
+Paper 1
+Paper 2
+provenance
+provenance analysis
+corroboration
+bias
+reliability
+contextual knowledge
+contextualisation
+primary source
+secondary source
+historiography
+interpretation
+source evaluation
+source usefulness
+substantiated judgement
+SPaG
+command words
+how useful
+how far do you agree
+why do interpretations differ
+First World War
+WWI
+Sarajevo
+Kruger Telegram
+Weltpolitik
+Kaiser
+naval race
+mobilisation
+alliance system
+German naval expansion
+propaganda
+archival access
+anachronistic judgment
+nationalist account
+social history

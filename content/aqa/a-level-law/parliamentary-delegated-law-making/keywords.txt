@@ -1,0 +1,54 @@
+# STT vocabulary hints for Parliamentary Delegated Law Making (A-level Law AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Parliament
+Acts of Parliament
+Primary legislation
+Secondary legislation
+Delegated legislation
+Statutory instrument
+Statutory instruments
+Byelaws
+Orders in Council
+Enabling Act
+Enabling provisions
+Negative resolution procedure
+Affirmative resolution procedure
+Select committees
+Judicial review
+Ultra vires
+Wednesbury unreasonableness
+Procedural impropriety
+Illegality
+Public law
+Devolution settlements
+Scotland
+Wales
+Northern Ireland
+House of Commons
+House of Lords
+Bicameral
+Royal Assent
+Parliamentary supremacy
+Human Rights Act
+European Convention on Human Rights
+Declarations of incompatibility
+European Union law
+Direct effect
+EU supremacy
+Statutory interpretation
+Literal rule
+Golden rule
+Purposive approach
+Intrinsic aids
+Extrinsic aids
+Law Commission
+Convention rights
+Green Paper
+White Paper
+Bill
+Manifesto commitments
+Pressure groups
+AO1
+AO2
+AO3

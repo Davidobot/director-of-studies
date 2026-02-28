@@ -1,0 +1,46 @@
+# STT vocabulary hints for Hinduism Brahman Atman Karma Moksha (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Brahman
+Atman
+Karma
+Moksha
+Upanishads
+Nirguna Brahman
+Saguna Brahman
+Vishnu
+Shiva
+Devi
+Jiva
+Brihadaranyaka Upanishad
+Katha Upanishad
+Anatta
+Samsara
+Sanchita
+Prarabdha
+Agami
+Kriyamana
+Dharma
+Bhagavad Gita
+Advaita Vedanta
+Dvaita
+Vishishtadvaita
+Jnana yoga
+Bhakti yoga
+Karma yoga
+Raja yoga
+Ashtanga yoga
+Tat Tvam Asi
+Puja
+Ahimsa
+Varanasi
+Ganges
+Shaivism
+Vaishnavism
+Shaktism
+Rig Veda
+Bhakti
+Jnana
+AO1
+AO2
+SPaG

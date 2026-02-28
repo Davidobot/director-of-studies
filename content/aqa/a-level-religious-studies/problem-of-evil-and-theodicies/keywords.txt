@@ -1,0 +1,51 @@
+# STT vocabulary hints for Problem Of Evil And Theodicies (A-level Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+John Hick
+Irenaean tradition
+soul‑making theodicy
+vale of soul‑making
+epistemic distance
+eschatological completion
+universal salvation
+horrendous evils
+J.L. Mackie
+logical problem of evil
+evidential problem of evil
+William Rowe
+theodicy
+defence
+free‑will theodicy
+Alvin Plantinga
+Plantinga
+transworld depravity
+free‑will defence
+Richard Swinburne
+regular natural laws
+natural evil
+moral evil
+process theodicy
+David Ray Griffin
+Griffin
+Whiteheadian tradition
+dipolar God
+primordial nature
+consequent nature
+process theology
+omnipotence
+omniscience
+benevolence
+moral agency
+moral responsibility
+animal suffering
+ecological disaster
+Holocaust
+AQA
+AO1
+AO2
+A‑level Religious Studies
+pastoral care
+ethic of accompaniment
+coercive miracles
+supernatural suspension
+creator‑lordship

@@ -1,0 +1,58 @@
+# STT vocabulary hints for Culture And Identity (A-level Sociology AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Assessment and Qualifications Alliance
+A-level
+Culture and Identity
+High culture
+Low culture
+Folk culture
+Mass culture
+Subcultures
+Youth subcultures
+Global culture
+Globalisation
+Cultural imperialism
+Cultural capital
+Hidden curriculum
+Socialisation
+Primary socialisation
+Secondary socialisation
+Intersectionality
+Medical model
+Social model
+National identity
+Diasporic communities
+Hybridity
+Hybrid identities
+Consumer culture theory
+Political economy of culture
+Commodification
+Cultural repertoires
+Ethnography
+Participant observation
+In-depth interviews
+Content analysis
+Longitudinal survey
+Positivists
+Interpretivists
+Functionalism
+Marxist theory
+Neo‑Marxist
+Feminist theory
+Interactionism
+Dramaturgical performance
+Postmodernism
+Late modernity
+Reflexive identity
+DIY ethos
+Punk
+Streaming services
+Algorithms
+Influencers
+Brexit referendum
+LGBTQ+
+Marketisation of schools
+Multicultural education
+Division of labour
+Identity work

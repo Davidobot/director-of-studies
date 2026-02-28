@@ -1,0 +1,52 @@
+# STT vocabulary hints for Bible Magisterium Sources (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Bible
+Magisterium
+Scripture
+Tradition
+Inspiration
+Canon
+Council of Trent
+Reformation
+Gospels
+Epistles
+Old Testament
+New Testament
+First Council of Nicaea
+Trinity
+Second Vatican Council
+Vatican II
+Dei Verbum
+Papal encyclical
+Humanae Vitae
+Evangelii Gaudium
+Incarnation
+John 1:1–18
+Timothy 3:16
+sola scriptura
+Nicene Creed
+Catholic Social Teaching
+Eucharist
+Sacraments
+Historical-critical method
+Allegorical interpretation
+Typological reading
+Contextual interpretation
+Church Fathers
+Pontifical
+Conciliar
+Pope
+Bishops
+Laity
+Conscience
+Natural theology
+Matthew 25:31–46
+Anglican
+Orthodox
+Protestant
+Roman Catholic
+Magisterial teaching
+Pastoral guidance
+Liturgy
+Moral theology

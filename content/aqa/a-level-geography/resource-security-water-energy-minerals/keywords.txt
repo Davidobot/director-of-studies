@@ -1,0 +1,59 @@
+# STT vocabulary hints for Resource Security Water Energy Minerals (A-level Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Assessment and Qualifications Alliance
+Resource security
+Stock resources
+Flow resources
+Measured reserves
+Indicated reserves
+Inferred reserves
+Resource frontier
+Peak oil
+Environmental Impact Assessment
+Carrying capacity
+Virtual water
+Ecological footprint
+Water stress indices
+Per capita annual water availability
+Reserve-to-production ratio
+Transboundary water politics
+Grand Ethiopian Renaissance Dam
+Blue Nile
+Ogallala Aquifer
+South–North Water Transfer Project
+Three Gorges Dam
+Integrated Water Resource Management
+Desalination
+Inter-basin transfers
+Smart metering
+Remote sensing
+GIS
+Energy security
+Strait of Hormuz
+Russian gas
+Transnational corporations
+National oil companies
+Hydropower
+Nuclear power
+Renewable energy
+Carbon capture and storage
+Strategic petroleum reserves
+Hydrogen
+Critical minerals
+Lithium
+Cobalt
+Rare earth elements
+Copper
+Iron ore
+Bauxite
+Democratic Republic of Congo
+Brumadinho tailings dam collapse
+Acid mine drainage
+Urban mining
+Circular economy
+Energiewende
+Fracking
+Smart grids
+Supply–demand curves
+Energy storage

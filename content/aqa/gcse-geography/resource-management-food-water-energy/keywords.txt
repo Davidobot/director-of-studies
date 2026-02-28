@@ -1,0 +1,54 @@
+# STT vocabulary hints for Resource Management Food Water Energy (GCSE Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+food security
+water security
+energy security
+Green Revolution
+hydroponics
+aeroponics
+biotechnology
+organic farming
+permaculture
+urban agriculture
+Havana
+rainwater harvesting
+South-North Water Transfer Project
+desalination
+drip irrigation
+groundwater recharge
+greywater recycling
+North Sea oil and gas
+Niger Delta
+renewables
+offshore wind
+solar home systems
+microgrids
+hydroelectricity
+tidal energy
+bioenergy
+fossil fuels
+greenhouse gas emissions
+over-abstraction
+water stress
+water surplus
+water deficit
+mechanisation
+fertilisers
+pesticide use
+soil erosion
+irrigation
+energy mix
+low-carbon electricity
+coal-fired power stations
+smart metering
+leakage control
+waterborne disease
+HICs
+NEEs
+LICs
+AO1
+AO2
+AO3
+AO4
+SPaG

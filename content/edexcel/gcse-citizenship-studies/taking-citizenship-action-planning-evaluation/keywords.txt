@@ -1,0 +1,47 @@
+# STT vocabulary hints for Taking Citizenship Action Planning Evaluation (GCSE Citizenship Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Pearson Edexcel
+GCSE Citizenship Studies
+Paper 2
+AO2
+AO3
+Citizenship action
+Evidence-based
+Primary research
+Secondary research
+Surveys
+Interviews
+Observations
+Focus groups
+Sampling
+Consent
+Safeguarding
+Data protection
+Ethical considerations
+Teacher declaration form
+Malpractice
+Success criteria
+Risk assessment
+Contingency planning
+Stakeholders
+Social action
+Social enterprise
+Advocacy
+Campaigns
+Fairtrade stall
+Public awareness events
+Letter-writing campaigns
+Online petitions
+Social media promotion
+Analytics
+Attendance figures
+Promotional material
+Quantitative measures
+Qualitative measures
+Community cohesion
+Local democracy
+Human rights
+Drop-in advice session
+Community garden
+Food drive

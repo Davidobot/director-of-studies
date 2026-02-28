@@ -1,0 +1,51 @@
+# STT vocabulary hints for Cold War C1945 1991 (A-level History AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Cold War
+Soviet bloc
+United States
+Grand Alliance
+Eastern Europe
+Truman Doctrine
+Marshall Plan
+Cominform
+NATO
+Berlin Blockade
+Berlin Wall Crisis
+Cuban Missile Crisis
+People's Republic of China
+Korean War
+Thermonuclear weapons
+Mutual Assured Destruction
+Sputnik
+Hungarian Uprising 1956
+Prague Spring 1968
+Partial Test Ban Treaty
+SALT
+Vietnam War
+Angolan civil war
+Soviet invasion of Afghanistan
+Détente
+Glasnost
+Perestroika
+Mikhail Gorbachev
+Ronald Reagan
+Arms race
+Arms control agreements
+German reunification
+Dissolution of the Soviet Union
+Non-alignment
+Decolonisation
+Military-industrial complex
+Proxy wars
+Bipolar rivalry
+Security dilemma
+Orthodox interpretation
+Revisionist interpretation
+Post-revisionist synthesis
+Eastern Bloc
+Containment
+AO1
+AO2
+AO3
+NEA

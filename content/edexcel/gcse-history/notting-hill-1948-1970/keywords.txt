@@ -1,0 +1,42 @@
+# STT vocabulary hints for Notting Hill 1948 1970 (GCSE History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Notting Hill
+Windrush generation
+Caribbean migrants
+Commonwealth immigration
+Empire to Commonwealth
+Post‑war labour shortages
+Houses of Multiple Occupation
+HMO
+Peter Rachman
+Landlordism
+Slum renting
+Portobello Road
+All Saints Road
+Shebeens
+Kelso Cochrane
+Notting Hill riots (1958)
+Oswald Mosley
+Union Movement
+Metropolitan Police
+Policing bias
+Inner‑city disorder
+Overcrowding
+Mutual aid
+Pardner schemes
+Mangrove Restaurant
+Mangrove Nine trial (1971)
+Claudia Jones
+West Indian Gazette
+Notting Hill Carnival
+British Black Panthers
+Black Power
+Bruce Kenrick
+Notting Hill Housing Trust
+Housing files
+Newsreels
+Oral histories
+Race Relations Act 1965
+Race Relations Act 1968
+Civil liberties

@@ -1,0 +1,63 @@
+# STT vocabulary hints for Political Ideas Liberalism Conservatism Socialism And Optionals (A-level Politics AQA).
+# One term per line. Used to improve speech recognition quality.
+
+A-level Politics
+John Locke
+John Stuart Mill
+Thomas Hill Green
+John Rawls
+Mary Wollstonecraft
+Betty Friedan
+Thomas Hobbes
+Edmund Burke
+Michael Oakeshott
+Ayn Rand
+Robert Nozick
+Karl Marx
+Friedrich Engels
+Rosa Luxemburg
+Beatrice Webb
+Anthony Crosland
+Anthony Giddens
+Rousseau
+Herder
+Charlotte Perkins Gilman
+Simone de Beauvoir
+Kate Millett
+Sheila Rowbotham
+bell hooks
+Will Kymlicka
+Charles Taylor
+Max Stirner
+Bakunin
+Kropotkin
+Aldo Leopold
+Rachel Carson
+Schumacher
+New Right
+Third Way
+Social democracy
+Revolutionary socialism
+Marxism
+Class struggle
+Means of production
+Nationalisation
+Privatisation
+Welfare state
+Progressive taxation
+Redistributive measures
+Negative liberty
+Positive liberty
+Veil of ignorance
+Justice as fairness
+Harm principle
+Self-regarding actions
+Other-regarding actions
+Natural rights
+Minimal state
+Libertarianism
+Ethical egoism
+Paternalism
+Multiculturalism
+Intersectionality
+Green parties

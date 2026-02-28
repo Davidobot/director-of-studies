@@ -1,0 +1,53 @@
+# STT vocabulary hints for Rights Freedoms Rule Of Law (GCSE Citizenship Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Magna Carta
+UN Universal Declaration of Human Rights
+European Convention on Human Rights
+ECHR
+Human Rights Act 1998
+Equality Act 2010
+Judicial review
+Presumption of innocence
+Rule of law
+Acts of Parliament
+UK Parliament
+Common law
+Legislation
+Tribunals
+Civil courts
+Criminal courts
+Prosecutors
+Solicitor
+Youth court
+Age of criminal responsibility
+Devolution
+European Union
+Brexit
+Leveson Inquiry
+Phone-hacking scandal
+Freedom of expression
+Freedom of assembly
+Freedom of association
+Hate speech
+Incitement to violence
+Proportionality
+Access to justice
+Independent judiciary
+Council of Europe
+International Criminal Court
+United Nations
+Amnesty International
+Civil liberties groups
+Social media
+Digital platforms
+AO1
+AO2
+AO3
+Pearson Edexcel
+GCSE Citizenship Studies
+Youth justice
+Trade unions
+Press freedom
+Public order
+Mock trials

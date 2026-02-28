@@ -1,0 +1,46 @@
+# STT vocabulary hints for London Ww2 1939 1945 (GCSE History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+London
+Second World War
+–45
+GCSE Pearson Edexcel
+Luftwaffe
+The Blitz
+Black Saturday
+September 1940
+East End
+Docklands
+Docks
+Anderson shelter
+Gas mask
+Blackout
+Air Raid Precaution
+ARP wardens
+Cabinet War Rooms
+Mass Observation
+V1 flying bomb
+V2 rocket
+Deptford
+South Hallsville School
+Bethnal Green tube crush
+Tube shelters
+Underground stations
+Mickey’s shelters
+Dig for Victory
+Tower of London moat
+Civil defence
+Rescue squads
+Auxiliary first-aid teams
+Rationing
+Evacuation
+Evacuee
+Home Front
+Wartime production
+Radar
+Air-raid alerts
+V-weapons
+Aerial reconnaissance
+Newsreels
+Propaganda
+Censorship

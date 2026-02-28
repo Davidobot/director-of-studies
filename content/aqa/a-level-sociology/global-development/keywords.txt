@@ -1,0 +1,63 @@
+# STT vocabulary hints for Global Development (A-level Sociology AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Global development
+Gross Domestic Product
+GNI per capita
+Human Development Index
+HDI
+Gini coefficient
+Poverty line
+Informal economy
+Unpaid care work
+Modernisation theory
+Dependency theory
+World-systems theory
+Immanuel Wallerstein
+Neoliberalism
+Post-development
+Transnational corporation
+TNC
+Global value chains
+World Bank
+International Monetary Fund
+WTO
+Structural adjustment programmes
+Liberalisation
+Non-governmental organisation
+NGO
+Oxfam
+Médecins Sans Frontières
+Bilateral aid
+Multilateral aid
+Import substitution industrialisation
+Export-led growth
+State-led industrialisation
+South Korea
+Taiwan
+Resource-dependent economy
+Lagos
+Mumbai
+Small island states
+Climate change
+Climate justice
+Megacities
+Slums
+Informal employment
+Demographic transition model
+Maternal mortality
+Non-communicable diseases
+Ebola
+COVID-19
+United Nations Sustainable Development Goals
+SDGs
+Belt and Road Initiative
+South–South cooperation
+Microfinance
+AO1
+AO2
+AO3
+Socialisation
+Social differentiation
+Power and stratification
+Social democratic model

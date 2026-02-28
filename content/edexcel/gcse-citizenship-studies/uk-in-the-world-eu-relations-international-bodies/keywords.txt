@@ -1,0 +1,51 @@
+# STT vocabulary hints for Uk In The World Eu Relations International Bodies (GCSE Citizenship Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+United Kingdom
+UK
+European Union
+EU
+Brexit
+Trade and Cooperation Agreement
+Single Market
+Customs Union
+Customs checks
+Freedom of movement
+Points-based immigration system
+Territorial waters
+Fishing quotas
+European Commission
+European Parliament
+European Court of Justice
+Council of Europe
+European Convention on Human Rights
+ECHR
+European Court of Human Rights
+Strasbourg
+Human Rights Act 1998
+United Nations
+UN Security Council
+NATO
+Article 5
+Collective defence
+Commonwealth
+World Trade Organization
+WTO
+Geneva Conventions
+International Humanitarian Law
+International Criminal Court
+ICC
+Sanctions
+Non-governmental organisations
+Red Cross
+Oxfam
+Médecins Sans Frontières
+Peacekeeping
+UN peacekeeping missions
+Mediation
+Diplomatic mediation
+Soft power
+Hard power
+Sovereignty
+Regulatory divergence
+Trade disputes

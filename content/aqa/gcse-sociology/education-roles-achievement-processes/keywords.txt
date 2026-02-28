@@ -1,0 +1,57 @@
+# STT vocabulary hints for Education Roles Achievement Processes (GCSE Sociology AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Durkheim
+Parsons
+Bowles
+Gintis
+Ball
+Willis
+Halsey
+Correspondence principle
+Marketisation
+Market-style reforms
+Academies
+League tables
+Parental choice
+Hidden curriculum
+Formal curriculum
+Meritocracy
+Social cohesion
+Social mobility
+Cultural capital
+Material deprivation
+Labelling theory
+Self-fulfilling prophecy
+Setting
+Streaming
+Teacher expectations
+Social sorting
+Counter-school culture
+Social solidarity
+Particularistic standards
+Universalistic standards
+Division of labour
+Institutional bias
+Ethnography
+Qualitative methods
+Quantitative methods
+Mixed methods
+Informed consent
+Confidentiality
+Sampling bias
+Under-reporting
+Self-report surveys
+AO1
+AO2
+AO3
+Post-16 education
+GCSE
+A-level
+Labour force
+Social class
+Gender roles
+Social structures
+Individual agency
+Subcultural status systems
+Reproduction of inequality

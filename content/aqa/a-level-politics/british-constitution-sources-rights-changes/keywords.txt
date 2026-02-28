@@ -1,0 +1,44 @@
+# STT vocabulary hints for British Constitution Sources Rights Changes (A-level Politics AQA).
+# One term per line. Used to improve speech recognition quality.
+
+British constitution
+uncodified constitution
+statute law
+common law
+conventions
+royal prerogative
+prerogative powers
+Erskine May
+Magna Carta 1215
+Bill of Rights 1689
+Act of Settlement 1701
+Parliament Act 1911
+Parliament Act 1949
+Human Rights Act 1998
+Freedom of Information Act 2000
+Fixed-Term Parliaments Act 2011
+Fixed-Term Parliaments Act repeal 2022
+Scotland Act 1998
+House of Lords Act 1999
+Scottish Parliament
+Senedd
+Northern Ireland Assembly
+devolution
+asymmetrical union
+European Convention on Human Rights
+EU supremacy
+Brexit
+Article 50
+Factortame
+Miller cases
+prorogation ruling 2019
+judicial review
+habeas corpus
+collective ministerial responsibility
+Salisbury Convention
+parliamentary sovereignty
+codification
+written constitution
+judicial independence
+rule of law
+derogation

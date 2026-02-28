@@ -1,0 +1,56 @@
+# STT vocabulary hints for Buddhism Beliefs Practices (GCSE Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Dhamma
+paticcasamuppada
+dependent arising
+Three Marks of Existence
+anicca
+anatta
+dukkha
+Mahayana
+sunyata
+Buddha-nature
+Siddhartha Gautama
+Four Sights
+Bodhi tree
+Four Noble Truths
+tanha
+nibbana
+nirvana
+Eightfold Path
+Pali Canon
+Dhammapada
+sutras
+Threefold Way
+sila
+samadhi
+panna
+Five Aggregates
+skandhas
+rebirth
+kamma
+arahant
+bodhisattva
+Buddhahood
+Pure Lands
+viharas
+sangha
+puja
+samatha
+vipassana
+zazen
+mantra
+malas
+paramitas
+karuna
+metta
+Five Moral Precepts
+Vesak
+Parinirvana
+Vajrayana
+Tibetan Buddhism
+Zen
+Theravada
+Jataka tales
+mindfulness

@@ -1,0 +1,54 @@
+# STT vocabulary hints for Weather Hazards Tropical Storms (GCSE Geography AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Global atmospheric circulation
+Ferrel cell
+Polar cell
+Trade winds
+Mid-latitude westerlies
+Low-pressure belt
+High-pressure belt
+Equator
+° latitude
+Convergence
+Coriolis effect
+Tropical storm
+Hurricane
+Cyclone
+Typhoon
+Sea surface temperature
+°C
+Deep warm water layer
+Lower to mid-troposphere
+Vertical wind shear
+Area of low pressure
+Organised thunderstorms
+Latent heat
+Updraught
+Eye
+Eyewall
+Spiral rainbands
+Storm surge
+Storm surge barriers
+Onshore winds
+Subtropical high-pressure belt
+Storm track
+Atlantic hurricane season
+Typhoon Haiyan (Yolanda)
+Hurricane Katrina
+New Orleans
+Philippines
+Numerical weather prediction models
+Satellites
+Ocean buoys
+Aircraft reconnaissance
+Mangroves
+Coastal wetlands
+Sea-level rise
+Thermal expansion
+Category 4
+Category 5
+Levees
+Flood defences
+Sustainable drainage
+SPaG

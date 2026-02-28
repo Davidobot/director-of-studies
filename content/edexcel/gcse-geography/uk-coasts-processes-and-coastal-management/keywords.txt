@@ -1,0 +1,63 @@
+# STT vocabulary hints for Uk Coasts Processes And Coastal Management (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Holderness
+Hornsea
+Mappleton
+Jurassic Coast
+Durdle Door
+Lulworth Cove
+Chesil Beach
+Spurn Head
+Humber
+Fleet Lagoon
+East Anglia
+Happisburgh
+Norfolk
+North Sea
+longshore drift
+hydraulic action
+abrasion
+attrition
+solution
+suspension
+constructive waves
+destructive waves
+sediment budget
+concordant coastline
+discordant coastline
+headland
+bay
+cave
+arch
+stack
+stump
+wave-cut platform
+tombolo
+shingle ridge
+groynes
+sea wall
+revetments
+gabions
+rock armour
+beach nourishment
+dune regeneration
+managed realignment
+strategic realignment
+Integrated Coastal Zone Management
+ICZM
+saltmarsh
+beach profile
+clinometer
+callipers
+storm hydrograph
+glacial boulder clay
+mass movement
+rockfalls
+slumping
+rotational slide
+salt crystallisation
+biological weathering
+freeze–thaw
+sediment sorting
+cost–benefit analysis

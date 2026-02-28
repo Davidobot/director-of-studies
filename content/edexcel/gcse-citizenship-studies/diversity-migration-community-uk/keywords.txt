@@ -1,0 +1,48 @@
+# STT vocabulary hints for Diversity Migration Community Uk (GCSE Citizenship Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE Citizenship Studies
+Pearson Edexcel
+Diversity
+Migration
+Community
+United Kingdom
+Empire Windrush
+Commonwealth
+European Union
+EU free movement
+Brexit
+Refugee
+Asylum seeker
+Economic migrant
+Temporary worker
+Family migration
+Student migration
+Refugee resettlement programmes
+Humanitarian crises
+Labour markets
+Skills shortages
+Healthcare sector
+Agriculture sector
+Hospitality sector
+Community cohesion
+Multiculturalism
+Integration
+Protected characteristics
+Equality Act 2010
+Human Rights Act 1998
+Magna Carta
+UN Universal Declaration of Human Rights
+UN Convention on the Rights of the Child
+Rule of law
+Hate speech
+Local councils
+Councillors
+Council officers
+Council tax
+Business rates
+Citizenship action
+Language support
+Foodbank
+National sovereignty
+Migration policy

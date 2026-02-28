@@ -1,0 +1,53 @@
+# STT vocabulary hints for Islam Beliefs Practices Sunni Shia (GCSE Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Islam
+Sunni
+Shia
+Tawhid
+Allah
+Quran
+Hadith
+Sunnah
+Surah 112
+Adalat
+Imamate
+Ali
+Ahl al‑Bayt
+Risalah
+Adam
+Ibrahim
+Musa
+Muhammad
+Jibril
+Day of Judgment
+Qadr
+Five Pillars
+Shahadah
+Salah
+Wudu
+Zakah
+Sawm
+Ramadan
+Laylat al‑Qadr
+Hajj
+Makkah
+Kaaba
+Ten Obligatory Acts
+Khums
+Turbah
+Ashura
+Husayn
+Karbala
+Majalis
+Ummah
+Sadaqah
+Jihad
+Greater jihad
+Lesser jihad
+Ulama
+Caliph
+Twelver
+Mosques
+Sharia
+Jurisprudence

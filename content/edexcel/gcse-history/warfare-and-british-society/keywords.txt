@@ -1,0 +1,60 @@
+# STT vocabulary hints for Warfare And British Society (GCSE History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Falkirk
+Agincourt
+Longbow
+Schiltron
+Henry V
+New Model Army
+Naseby
+Oliver Cromwell
+Muskets
+Pikes
+Artillery
+Cardwell reforms
+Crimean War
+Boer War
+Waterloo
+Balaclava
+Charge of the Light Brigade
+Siege of Sevastopol
+Rifled barrels
+Steam-powered transport
+Railway network
+Trench warfare
+Machine guns
+Battle of the Somme
+Thomas splint
+Mobile x-ray units
+Conscientious Objectors
+Strategic bombing
+V1
+V2
+The Blitz
+Black Saturday
+Deptford
+Anderson shelter
+Bethnal Green disaster
+South Hallsville School
+Dig for Victory
+Mass Observation
+Western Front
+Total war
+Decolonisation
+Cold War deterrence
+Iraq War 2003
+Precision weapons
+Counterinsurgency
+Guerrilla warfare
+Signals units
+Bomb disposal
+Logistics
+Billeting
+Requisitioning
+Foraging
+Propaganda
+Censorship
+Evacuation
+Allotments
+Royal Family

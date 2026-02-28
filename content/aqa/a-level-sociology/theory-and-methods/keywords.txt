@@ -1,0 +1,59 @@
+# STT vocabulary hints for Theory And Methods (A-level Sociology AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Theory and Methods
+A-level
+Assessment and Qualifications Alliance
+Sociology
+socialisation
+culture
+identity
+social differentiation
+power
+stratification
+functionalism
+Marxism
+interpretivist perspectives
+social action
+symbolic interactionism
+participant observation
+in-depth interviews
+qualitative methods
+quantitative methods
+structured questionnaires
+official statistics
+mixed-methods
+triangulation
+primary data
+secondary data
+validity
+reliability
+representativeness
+ethics
+informed consent
+confidentiality
+right to withdraw
+safeguarding
+random probability sample
+purposive sample
+snowball sample
+longitudinal studies
+cross-sectional surveys
+hidden curriculum
+teacher labelling
+streaming
+pupil subcultures
+police recorded crime statistics
+victim surveys
+ethnographies of policing
+feminist approaches
+postmodernist critiques
+positivists
+interpretivists
+methodological pluralism
+social policy
+globalisation
+migration
+AO1
+AO2
+AO3

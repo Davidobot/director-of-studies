@@ -1,0 +1,55 @@
+# STT vocabulary hints for Judaism Beliefs Mitzvot Synagogue (GCSE Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Judaism
+Shekhinah
+Mashiach
+Olam Ha‑Ba
+Gehinnom
+Covenant
+Torah
+Written Torah
+Oral Torah
+Mishnah
+Talmud
+Mitzvot
+bein adam la‑Makom
+bein adam le‑chavero
+Pikuach Nefesh
+Halakhah
+responsa
+Shabbat
+Kashrut
+shechita
+Tzedakah
+tikkun olam
+synagogue
+aron hakodesh
+parochet
+bimah
+ner tamid
+Amidah
+Kaddish
+parashot
+Tenakh
+brit milah
+bar mitzvah
+bat mitzvah
+chuppah
+ketubah
+shiva
+Rosh Hashanah
+Yom Kippur
+shofar
+Pesach
+Seder
+chametz
+Orthodox
+Modern Orthodox
+Conservative
+Masorti
+Reform
+Liberal
+aliyot
+Ten Commandments
+Exodus 20

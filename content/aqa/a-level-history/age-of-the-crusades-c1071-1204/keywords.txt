@@ -1,0 +1,53 @@
+# STT vocabulary hints for Age Of The Crusades C1071 1204 (A-level History AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Age of the Crusades
+Manzikert
+Seljuk Turks
+Byzantine Empire
+Constantinople
+Alexios I Komnenos
+Pope Urban II
+Council of Clermont
+First Crusade
+Outremer
+Latin Kingdom of Jerusalem
+County of Edessa
+Principality of Antioch
+County of Tripoli
+Baldwin I
+Baldwin II
+Melisende
+Templars
+Hospitallers
+Military orders
+Imad ad-Din Zengi
+Nur ad-Din
+Jihad
+Fall of Edessa
+Second Crusade
+Salah ad-Din
+Battle of Hattin
+Third Crusade
+Frederick Barbarossa
+Philip II of France
+Richard I of England
+Fourth Crusade
+Zara
+Sack of Constantinople
+Latin Empire
+Venice
+Innocent III
+Atabegs
+Italian maritime republics
+Reconquista
+Penitential pilgrimage
+Indulgence
+Frankish realms
+Military settlers
+Anatolia
+Byzantine decline
+Religious mobilisation
+Military innovation
+Papal influence
+Religio-military

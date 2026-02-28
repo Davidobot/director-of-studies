@@ -1,0 +1,46 @@
+# STT vocabulary hints for Arguments For Gods Existence (A-level Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+AQA A-level
+William Paley
+David Hume
+St Anselm
+Gaunilo
+Immanuel Kant
+Thomas Aquinas
+Bertrand Russell
+Proslogion
+Paley's watch
+Watch analogy
+Watchmaker
+Teleological argument
+Teleology
+Ontological argument
+Cosmological argument
+A posteriori
+A priori
+Fine-tuning
+Anthropic principle
+Multiverse
+Inference to the best explanation
+Principle of Sufficient Reason
+Uncaused cause
+First cause
+Necessary being
+Contingency
+Necessity
+Fallacy of composition
+Existence as predicate
+Modal ontological argument
+Possible worlds
+Infinite regress
+Problem of evil
+Natural theology
+Revealed theology
+Fideism
+Natural selection
+Big Bang cosmology
+Brute fact
+Maximal greatness
+Causal chain
+Empirical observation

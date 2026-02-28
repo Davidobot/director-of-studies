@@ -1,0 +1,48 @@
+# STT vocabulary hints for Norman England C1066 C1100 Historic Environment (GCSE History AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Norman Conquest
+William of Normandy
+Edward the Confessor
+Harold Godwinson
+Stamford Bridge
+Battle of Hastings
+Harrying of the North
+motte-and-bailey
+motte
+bailey
+Norman castles
+castle-building
+Domesday Book
+Domesday survey
+tenants-in-chief
+under-tenants
+feudal obligation
+feudalism
+vassal
+shire-reeve
+sheriff
+shires
+murdrum fines
+murdrum
+fyrd
+housecarl
+mounted cavalry
+knights
+garrison
+royal writs
+forest law
+monastic reform
+Cluniac monasticism
+Lanfranc
+Archbishop of Canterbury
+Romanesque
+Romanesque style
+cathedral
+abbey
+Anglo-Saxon Chronicle
+William of Poitiers
+investiture
+episcopal authority
+landholding
+land redistribution

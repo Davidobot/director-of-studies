@@ -1,0 +1,62 @@
+# STT vocabulary hints for Hinduism Beliefs Worship (GCSE Religious Studies AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Hinduism
+GCSE
+mandir
+Vedas
+Upanishads
+Mahabharata
+Ramayana
+Bhagavad Gita
+puja
+pilgrimage
+Shaivism
+Vaishnavism
+Shiva
+Vishnu
+Krishna
+Rama
+dharma
+karma
+moksha
+Brahman
+Nirguna Brahman
+Saguna Brahman
+Trimurti
+Brahma
+Ganesha
+Lakshmi
+Saraswati
+Hanuman
+avatara
+atman
+samsara
+bhakti
+jnana
+sanatana dharma
+varnashrama dharma
+artha
+kama
+Brihadaranyaka Upanishad
+Puranas
+murti
+darshan
+arati
+mantra
+bhajan
+kirtan
+japa
+mala
+havan
+Mahashivaratri
+Janmashtami
+Rama Navami
+Diwali
+Holi
+Varanasi
+Ganges
+Kumbh Mela
+Ayodhya
+AO1
+AO2

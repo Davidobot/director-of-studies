@@ -1,0 +1,70 @@
+# STT vocabulary hints for Tsarist Communist Russia 1855 1964 (A-level History AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Tsarist Russia
+Communist Russia
+Tsarism
+Alexander II
+Emancipation of the serfs
+Zemstvos
+St Petersburg
+Moscow
+Sergei Witte
+Gold standard
+Protective tariffs
+Alexander III
+Russification
+Nicholas II
+Intelligentsia
+Revolution
+Bloody Sunday
+October Manifesto
+Duma
+World War I
+Rasputin
+Petrograd
+Provisional Government
+Petrograd Soviet
+Vladimir Lenin
+Peace Land Bread
+Bolsheviks
+October Revolution
+Treaty of Brest-Litovsk
+Russian Civil War
+Red Army
+White Armies
+War Communism
+Requisitioning
+Famine of 1921–22
+Red Terror
+Cheka
+New Economic Policy
+NEPmen
+Joseph Stalin
+Leon Trotsky
+Industrialisation
+Five Year Plans
+Collectivisation
+Dekulakisation
+Holodomor
+Great Terror
+Show trials
+NKVD
+Socialist Realism
+Great Patriotic War
+Evacuation to the Urals
+Soviet-installed regimes
+Cold War
+Nikita Khrushchev
+Secret Speech
+De-Stalinisation
+Virgin Lands campaign
+Sputnik
+Cuban Missile Crisis
+Kolkhoz
+Mir
+Silver Age
+Avant-garde
+Stolypin
+April Theses
+First Five Year Plan

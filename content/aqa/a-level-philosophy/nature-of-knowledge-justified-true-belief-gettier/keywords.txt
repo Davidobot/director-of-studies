@@ -1,0 +1,46 @@
+# STT vocabulary hints for Nature Of Knowledge Justified True Belief Gettier (A-level Philosophy AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Nature of Knowledge
+Justified True Belief
+Gettier
+Gettier (1963)
+Edmund Gettier
+Plato
+Plato's Meno
+Descartes
+Descartes' Meditations
+Ernest Sosa
+Linda Zagzebski
+Robert Nozick
+No False Lemmas
+Infallibilism
+Reliabilism
+Virtue Epistemology
+Safety Condition
+Sensitivity Condition
+Epistemic Luck
+Internalism
+Externalism
+Propositional Knowledge
+Acquaintance Knowledge
+Ability Knowledge
+Smith and Jones
+Stopped Clock
+Fake-barn county
+Disjunctive Gettier
+Generality Problem
+Logical Closure
+Epistemic Agency
+Intellectual Virtues
+Testimony
+Perception
+Memory
+A priori
+Justification
+Reasons
+Evidentialism
+Reliable Cognitive Process
+Knowledge as Achievement
+AO1
+AO2

@@ -1,0 +1,60 @@
+# STT vocabulary hints for Development Dynamics And Emerging Economies (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Pearson Edexcel
+Rostow
+Modernisation theory
+Andre Gunder Frank
+Dependency theory
+China
+India
+Brazil
+Vietnam
+Nigeria
+GDP per capita
+GNI per capita
+Human Development Index
+HDI
+Gini coefficient
+Income quintiles
+Infant mortality rate
+Maternal mortality rate
+Literacy rate
+Life expectancy
+Transnational corporations
+TNCs
+Foreign direct investment
+FDI
+Globalisation
+Urbanisation
+Industrialisation
+Export-oriented manufacturing
+Export-led manufacturing
+Special economic zones
+Core–periphery
+Core countries
+Peripheral countries
+Top-down
+Bottom-up
+Microfinance
+Proportional flow-line maps
+Population pyramids
+Demographic transition
+Informal settlements
+Informal economy
+Resource extraction
+Deforestation
+Soil degradation
+Greenhouse gas emissions
+Air pollution
+Water pollution
+Sectoral employment
+Multilateral institutions
+Conditionality
+Sustainable development
+Trade barriers
+Commodity exports
+Coastal manufacturing zones
+Capital cities
+Governance

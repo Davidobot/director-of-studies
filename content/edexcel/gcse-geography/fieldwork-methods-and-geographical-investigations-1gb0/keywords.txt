@@ -1,0 +1,58 @@
+# STT vocabulary hints for Fieldwork Methods And Geographical Investigations 1Gb0 (GCSE Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Edexcel
+GB0
+Pearson
+GCSE Geography
+Fieldwork
+Physical investigation
+Human investigation
+Coastal change and conflict
+River processes and pressures
+Dynamic urban areas
+Changing rural areas
+Pearson Fieldwork Statement
+Paper 2
+UK Geographical Issues
+Enquiry question
+Hard defences
+Soft defences
+Coastal retreat
+Beach profile
+Transect
+Ranging pole
+Clinometer
+Pebble size
+Mean particle size
+Rates of erosion
+Channel cross-section
+Flowmeter
+Discharge
+Sediment sampling
+Environmental Quality Index
+EQI
+Systematic sampling
+Stratified sampling
+Semi-structured questionnaire
+Photographic transect
+Environment Agency flood-risk map
+Geology map
+Ordnance Survey
+:25 000
+:50 000
+GIS
+GPS
+Satellite images
+Hydrograph
+Scatterplot
+Trend line
+Contour interpretation
+Proportional flow-line map
+Deprivation indices
+SPaG
+Paper 3
+Risk assessment
+Sample size
+Pilot study
+Bias

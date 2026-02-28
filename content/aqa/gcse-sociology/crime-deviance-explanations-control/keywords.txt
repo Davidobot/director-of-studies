@@ -1,0 +1,60 @@
+# STT vocabulary hints for Crime Deviance Explanations Control (GCSE Sociology AQA).
+# One term per line. Used to improve speech recognition quality.
+
+Crime
+Deviance
+Social construction
+Labelling theory
+Interactionism
+Moral panic
+Folk devils
+Dark figure
+Self-fulfilling prophecy
+Deviant career
+Functionalism
+Strain theory
+Anomie
+Robert Merton
+Conformity
+Innovation
+Ritualism
+Retreatism
+Rebellion
+Subcultural theory
+Delinquent subculture
+Albert Cohen
+Status frustration
+Non-utilitarian vandalism
+Youth gangs
+Feminist criminology
+Patriarchy
+Heidensohn
+Carlen
+Class deal
+Gender deal
+Marxist criminology
+Corporate crime
+White-collar crime
+Social control
+Formal social control
+Informal social control
+Stop-and-search
+Sentencing patterns
+Deterrence
+Rehabilitation
+Victim surveys
+Self-report studies
+Police-recorded statistics
+Qualitative interviews
+Institutional racism
+Differential policing
+Socio-economic disadvantage
+Knife crime
+Social media (enabling offences)
+Corporate scandals
+GCSE
+Assessment and Qualifications Alliance
+AQA
+AO1
+AO2
+AO3
