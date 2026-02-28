@@ -21,7 +21,8 @@ infra/
 	livekit.yaml
 	db/init.sql
 content/
-	<courseId>/<topicId>/*.md
+	{board}/{level}-{subject}/{topic-slug}/
+specs.yaml  # exam-board spec manifest (PDF URLs)
 ```
 
 ## Agent memory
@@ -174,8 +175,27 @@ The login page includes a **Log in as Guest** button that provisions/updates a d
 Content files live at:
 
 ```bash
-content/{courseId}/{topicId}/*.md
+content/{board}/{level}-{subject}/{topic-slug}/{topic-slug}.md
+content/{board}/{level}-{subject}/{topic-slug}/keywords.txt
 ```
+
+The source-of-truth mapping for exam boards/specs lives in `specs.yaml`.
+Topic lists are generated separately via `make discover-topics`, then manually reviewed/approved in `content/.cache/discovered_topics.yaml` before `make beautify`.
+
+### Specification PDF pipeline
+
+The staged pipeline downloads exam-board PDFs, extracts text, rewrites content via GPT, and generates STT keywords:
+
+```bash
+make download    # fetch PDFs from specs.yaml into content/.cache/pdfs
+make extract     # extract PDF text into content/.cache/raw
+make discover-topics  # generate editable topic catalog at content/.cache/discovered_topics.yaml
+make beautify    # generate topic markdown into content/{board}/{level}-{subject}/{topic-slug}
+make keywords    # generate keywords.txt alongside markdown
+make content-pipeline  # run all five stages
+```
+
+`make ingest` then embeds generated markdown into `documents/chunks`.
 
 Ingestion runs automatically on agent startup (Docker). To run it manually:
 

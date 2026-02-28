@@ -1,0 +1,122 @@
+version: 1
+
+exam_boards:
+  aqa:
+    code: AQA
+    name: Assessment and Qualifications Alliance
+    country: GB
+  edexcel:
+    code: EDEXCEL
+    name: Pearson Edexcel
+    country: GB
+  ocr:
+    code: OCR
+    name: Oxford Cambridge and RSA
+    country: GB
+  wjec:
+    code: WJEC
+    name: WJEC / Eduqas
+    country: GB
+  sqa:
+    code: SQA
+    name: Scottish Qualifications Authority
+    country: GB
+  ccea:
+    code: CCEA
+    name: Council for the Curriculum, Examinations and Assessment
+    country: GB
+  cie:
+    code: CIE
+    name: Cambridge International
+    country: GB
+
+specs:
+  - key: aqa-gcse-history-8145
+    enabled: true
+    board: aqa
+    level: GCSE
+    subject: History
+    category: academic
+    syllabus_code: "8145"
+    course_name: GCSE History (AQA)
+    pdf_url: https://filestore.aqa.org.uk/resources/history/specifications/AQA-8145-SP-2016.PDF
+    topics: []
+
+  - key: aqa-alevel-history-7042
+    enabled: true
+    board: aqa
+    level: A-level
+    subject: History
+    category: academic
+    syllabus_code: "7042"
+    course_name: A-level History (AQA)
+    pdf_url: https://filestore.aqa.org.uk/resources/history/specifications/AQA-7042-SP-2015.PDF
+    topics: []
+
+  - key: aqa-gcse-english-literature-8702
+    enabled: true
+    board: aqa
+    level: GCSE
+    subject: English Literature
+    category: academic
+    syllabus_code: "8702"
+    course_name: GCSE English Lit (AQA)
+    pdf_url: https://filestore.aqa.org.uk/resources/english/specifications/AQA-8702-SP-2015.PDF
+    topics: []
+
+  # Backlog entries for broader coverage (major boards + humanities).
+  # Fill in pdf_url and set enabled=true as each spec is onboarded.
+  - key: edexcel-gcse-history
+    enabled: false
+    board: edexcel
+    level: GCSE
+    subject: History
+    category: academic
+    syllabus_code: ""
+    course_name: GCSE History (Edexcel)
+    pdf_url: ""
+    topics: []
+
+  - key: ocr-gcse-history
+    enabled: false
+    board: ocr
+    level: GCSE
+    subject: History
+    category: academic
+    syllabus_code: ""
+    course_name: GCSE History (OCR)
+    pdf_url: ""
+    topics: []
+
+  - key: wjec-gcse-history
+    enabled: false
+    board: wjec
+    level: GCSE
+    subject: History
+    category: academic
+    syllabus_code: ""
+    course_name: GCSE History (WJEC)
+    pdf_url: ""
+    topics: []
+
+  - key: aqa-gcse-geography
+    enabled: false
+    board: aqa
+    level: GCSE
+    subject: Geography
+    category: academic
+    syllabus_code: ""
+    course_name: GCSE Geography (AQA)
+    pdf_url: ""
+    topics: []
+
+  - key: aqa-gcse-religious-studies
+    enabled: false
+    board: aqa
+    level: GCSE
+    subject: Religious Studies
+    category: academic
+    syllabus_code: ""
+    course_name: GCSE Religious Studies (AQA)
+    pdf_url: ""
+    topics: []

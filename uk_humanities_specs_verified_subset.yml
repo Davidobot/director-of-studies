@@ -1,0 +1,320 @@
+specs:
+  - key: aqa-gcse-geography-8035
+    enabled: true
+    board: aqa
+    level: GCSE
+    subject: Geography
+    category: academic
+    syllabus_code: "8035"
+    course_name: GCSE Geography (AQA)
+    pdf_url: https://cdn.sanity.io/files/p28bar15/green/ed1c32a343b4c229af091211f31c4dc5bcd6c095.pdf
+
+  - key: aqa-gcse-history-8145
+    enabled: true
+    board: aqa
+    level: GCSE
+    subject: History
+    category: academic
+    syllabus_code: "8145"
+    course_name: GCSE History (AQA)
+    pdf_url: https://cdn.sanity.io/files/p28bar15/green/8ce7740f340e7b7014741572fe0c0e1782e664cb.pdf
+
+  - key: aqa-gcse-religious-studies-8062
+    enabled: true
+    board: aqa
+    level: GCSE
+    subject: Religious Studies
+    category: academic
+    syllabus_code: "8062"
+    course_name: GCSE Religious Studies A (AQA)
+    pdf_url: https://cdn.sanity.io/files/p28bar15/green/ab272d86486eb6b391a2c33de9072a5031e0f584.pdf
+
+  - key: aqa-gcse-sociology-8192
+    enabled: true
+    board: aqa
+    level: GCSE
+    subject: Sociology
+    category: academic
+    syllabus_code: "8192"
+    course_name: GCSE Sociology (AQA)
+    pdf_url: https://cdn.sanity.io/files/p28bar15/green/22005e5d630f41170aad50fb0592ceab156b2176.pdf
+
+  - key: aqa-a-level-geography-7037
+    enabled: true
+    board: aqa
+    level: A-level
+    subject: Geography
+    category: academic
+    syllabus_code: "7037"
+    course_name: A-level Geography (AQA)
+    pdf_url: https://cdn.sanity.io/files/p28bar15/green/f106b757b19b55b70ba3c9db7746cdf7381470c5.pdf
+
+  - key: aqa-a-level-history-7042
+    enabled: true
+    board: aqa
+    level: A-level
+    subject: History
+    category: academic
+    syllabus_code: "7042"
+    course_name: A-level History (AQA)
+    pdf_url: https://cdn.sanity.io/files/p28bar15/green/2c896bdee6a0bd2c11452368cac03109175832d3.pdf
+
+  - key: aqa-a-level-law-7162
+    enabled: true
+    board: aqa
+    level: A-level
+    subject: Law
+    category: academic
+    syllabus_code: "7162"
+    course_name: A-level Law (AQA)
+    pdf_url: https://cdn.sanity.io/files/p28bar15/green/543e9f2bd397a5e918290f9ae265a559285cbbca.pdf
+
+  - key: aqa-a-level-philosophy-7172
+    enabled: true
+    board: aqa
+    level: A-level
+    subject: Philosophy
+    category: academic
+    syllabus_code: "7172"
+    course_name: A-level Philosophy (AQA)
+    pdf_url: https://cdn.sanity.io/files/p28bar15/green/8fc431624ff5982ffd34ac3c4eaa5227d1f72f4d.pdf
+
+  - key: aqa-a-level-politics-7152
+    enabled: true
+    board: aqa
+    level: A-level
+    subject: Politics
+    category: academic
+    syllabus_code: "7152"
+    course_name: A-level Politics (AQA)
+    pdf_url: https://cdn.sanity.io/files/p28bar15/green/561cbbf488ea93ca4ca864debad8c50c2bf25fee.pdf
+
+  - key: aqa-a-level-religious-studies-7062
+    enabled: true
+    board: aqa
+    level: A-level
+    subject: Religious Studies
+    category: academic
+    syllabus_code: "7062"
+    course_name: A-level Religious Studies (AQA)
+    pdf_url: https://cdn.sanity.io/files/p28bar15/green/135045b40a690b62c224b3193dd43fdd1c629f63.pdf
+
+  - key: aqa-a-level-sociology-7192
+    enabled: true
+    board: aqa
+    level: A-level
+    subject: Sociology
+    category: academic
+    syllabus_code: "7192"
+    course_name: A-level Sociology (AQA)
+    pdf_url: https://cdn.sanity.io/files/p28bar15/green/2dd8b4693a21360d91b21ea4ab9180ab9b6a2c34.pdf
+
+  - key: edexcel-gcse-history-1hi0
+    enabled: true
+    board: edexcel
+    level: GCSE
+    subject: History
+    category: academic
+    syllabus_code: "1HI0"
+    course_name: GCSE History (Pearson Edexcel)
+    pdf_url: https://qualifications.pearson.com/content/dam/pdf/GCSE/History/2016/specification-and-sample-assessments/gcse-9-1-history-specification.pdf
+
+  - key: edexcel-gcse-geography-a-1ga0
+    enabled: true
+    board: edexcel
+    level: GCSE
+    subject: Geography
+    category: academic
+    syllabus_code: "1GA0"
+    course_name: GCSE Geography A (Pearson Edexcel)
+    pdf_url: https://qualifications.pearson.com/content/dam/pdf/GCSE/Geography-A/2016/specification-and-sample-assessments/gcse-2016-l12-geography-a-spec.pdf
+
+  - key: edexcel-gcse-geography-b-1gb0
+    enabled: true
+    board: edexcel
+    level: GCSE
+    subject: Geography
+    category: academic
+    syllabus_code: "1GB0"
+    course_name: GCSE Geography B (Pearson Edexcel)
+    pdf_url: https://qualifications.pearson.com/content/dam/pdf/GCSE/Geography-B/2016/specification-and-sample-assessments/gcse-2016-l12-geography-b-spec.pdf
+
+  - key: edexcel-gcse-citizenship-studies-1cs0
+    enabled: true
+    board: edexcel
+    level: GCSE
+    subject: Citizenship Studies
+    category: academic
+    syllabus_code: "1CS0"
+    course_name: GCSE Citizenship Studies (Pearson Edexcel)
+    pdf_url: https://qualifications.pearson.com/content/dam/pdf/GCSE/Citizenship%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-in-citizenship.pdf
+
+  - key: edexcel-gcse-religious-studies-a-1ra0
+    enabled: true
+    board: edexcel
+    level: GCSE
+    subject: Religious Studies
+    category: academic
+    syllabus_code: "1RA0"
+    course_name: GCSE Religious Studies A (Pearson Edexcel)
+    pdf_url: https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-a-june-2016-draft-4.pdf
+
+  - key: edexcel-gcse-religious-studies-b-1rb0
+    enabled: true
+    board: edexcel
+    level: GCSE
+    subject: Religious Studies
+    category: academic
+    syllabus_code: "1RB0"
+    course_name: GCSE Religious Studies B (Pearson Edexcel)
+    pdf_url: https://qualifications.pearson.com/content/dam/pdf/GCSE/Religious%20Studies/2016/Specification%20and%20sample%20assessments/specification-gcse-l1-l2-religious-studies-b-june-2016-draft-4.pdf
+
+  - key: edexcel-a-level-history-9hi0
+    enabled: true
+    board: edexcel
+    level: A-level
+    subject: History
+    category: academic
+    syllabus_code: "9HI0"
+    course_name: A-level History (Pearson Edexcel)
+    pdf_url: https://qualifications.pearson.com/content/dam/pdf/A%20Level/History/2015/Specification%20and%20sample%20assessments/9781446914366-gce-2015-a-hist.pdf
+
+  - key: edexcel-a-level-religious-studies-9rs0
+    enabled: true
+    board: edexcel
+    level: A-level
+    subject: Religious Studies
+    category: academic
+    syllabus_code: "9RS0"
+    course_name: A-level Religious Studies (Pearson Edexcel)
+    pdf_url: https://qualifications.pearson.com/content/dam/pdf/A%20Level/Religious%20Studies/2013/Specification%20and%20sample%20assessments/UA035249_GCE_Lin_RelStud_Issue_3.pdf
+
+  - key: ocr-gcse-ancient-history-j198
+    enabled: true
+    board: ocr
+    level: GCSE
+    subject: Ancient History
+    category: academic
+    syllabus_code: "J198"
+    course_name: GCSE Ancient History (OCR)
+    pdf_url: https://www.ocr.org.uk/Images/313533-specification-accredited-gcse-ancient-history-j198.pdf
+
+  - key: ocr-gcse-history-a-j410
+    enabled: true
+    board: ocr
+    level: GCSE
+    subject: History
+    category: academic
+    syllabus_code: "J410"
+    course_name: GCSE History A (Explaining the Modern World) (OCR)
+    pdf_url: https://www.ocr.org.uk/Images/207163-specification-accredited-gcse-history-a-first-teaching-2019-with-first-assessment-2021-j410.pdf
+
+  - key: ocr-gcse-history-b-j411
+    enabled: true
+    board: ocr
+    level: GCSE
+    subject: History
+    category: academic
+    syllabus_code: "J411"
+    course_name: GCSE History B (Schools History Project) (OCR)
+    pdf_url: https://www.ocr.org.uk/Images/207164-specification-accredited-gcse-history-b-.pdf
+
+  - key: ocr-a-level-ancient-history-h407
+    enabled: true
+    board: ocr
+    level: A-level
+    subject: Ancient History
+    category: academic
+    syllabus_code: "H407"
+    course_name: A-level Ancient History (OCR)
+    pdf_url: https://www.ocr.org.uk/Images/313570-specification-accredited-a-level-ancient-history-h407.pdf
+
+  - key: ocr-a-level-geography-h481
+    enabled: true
+    board: ocr
+    level: A-level
+    subject: Geography
+    category: academic
+    syllabus_code: "H481"
+    course_name: A-level Geography (OCR)
+    pdf_url: https://www.ocr.org.uk/Images/223012-specification-accredited-a-level-gce-geography-h481.pdf
+
+  - key: ocr-a-level-sociology-h580
+    enabled: true
+    board: ocr
+    level: A-level
+    subject: Sociology
+    category: academic
+    syllabus_code: "H580"
+    course_name: A-level Sociology (OCR)
+    pdf_url: https://www.ocr.org.uk/Images/170212-specification-accredited-a-level-gce-sociology.pdf
+
+  - key: wjec-gcse-history
+    enabled: true
+    board: wjec
+    level: GCSE
+    subject: History
+    category: academic
+    syllabus_code: ""
+    course_name: GCSE History (WJEC)
+    pdf_url: https://www.wjec.co.uk/media/vxehgxuj/wjec-gcse-history-specification-e.pdf
+
+  - key: wjec-gcse-geography
+    enabled: true
+    board: wjec
+    level: GCSE
+    subject: Geography
+    category: academic
+    syllabus_code: ""
+    course_name: GCSE Geography (WJEC)
+    pdf_url: https://www.wjec.co.uk/media/1xvjoe4v/wjec-gcse-geography-specification-e.pdf
+
+  - key: wjec-a-level-history
+    enabled: true
+    board: wjec
+    level: A-level
+    subject: History
+    category: academic
+    syllabus_code: ""
+    course_name: GCE AS/A Level History (WJEC)
+    pdf_url: https://www.wjec.co.uk/media/uwlondvv/wjec-gce-history-spec-from-2015-e.pdf
+
+  - key: wjec-a-level-religious-studies
+    enabled: true
+    board: wjec
+    level: A-level
+    subject: Religious Studies
+    category: academic
+    syllabus_code: ""
+    course_name: GCE AS/A Level Religious Studies (WJEC)
+    pdf_url: https://www.wjec.co.uk/media/mwxdr1pj/wjec-gce-religious-studies-spec-from-2016-e.pdf
+
+  - key: cie-gcse-geography-0976
+    enabled: true
+    board: cie
+    level: GCSE
+    subject: Geography
+    category: academic
+    syllabus_code: "0976"
+    course_name: Cambridge IGCSE (9-1) Geography (CIE)
+    pdf_url: https://www.cambridgeinternational.org/Images/664647-2025-2026-syllabus.pdf
+
+  - key: cie-a-level-geography-9696
+    enabled: true
+    board: cie
+    level: A-level
+    subject: Geography
+    category: academic
+    syllabus_code: "9696"
+    course_name: Cambridge International AS & A Level Geography (CIE)
+    pdf_url: https://www.cambridgeinternational.org/Images/664556-2025-2026-syllabus.pdf
+
+  - key: cie-a-level-history-9489
+    enabled: true
+    board: cie
+    level: A-level
+    subject: History
+    category: academic
+    syllabus_code: "9489"
+    course_name: Cambridge International AS & A Level History (CIE)
+    pdf_url: https://www.cambridgeinternational.org/Images/504357-2021-syllabus.pdf

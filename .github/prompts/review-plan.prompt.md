@@ -75,6 +75,6 @@ Ask if the user wants one of two options:
 
 ## After Implementation
 
-Update any READMEs, prompts, documentation, and tests to reflect the changes made. Consider whether any new issues or technical debt were introduced during implementation and document those as well.
-
-Produce a final summary of the changes made, the rationale behind them, and any follow-up work that should be done in the future, and give a git commit message that captures the essence of the changes.
+1. Update any READMEs, prompts, documentation, and tests to reflect the changes made. Consider whether any new issues or technical debt were introduced during implementation and document those as well.
+2. Produce a final summary of the changes made, the rationale behind them, and any follow-up work that should be done in the future.
+3. Give a single informative git commit message that captures the essence of the changes.

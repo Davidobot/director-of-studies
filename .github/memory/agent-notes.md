@@ -285,3 +285,17 @@ Use this file as shared working memory across tasks.
 - **Files touched:** `apps/agent/app/agent_worker.py`, `.env.example`, `infra/docker-compose.yml`, `apps/web/src/app/page.tsx`, `README.md`, `.github/memory/agent-notes.md`.
 - **Follow-up:** Optional cleanup later: rename API field `silenceNudgeAfterS` to `silenceNudgeShortS` across web/agent payload contracts for naming consistency.
 
+### 2026-02-28 (spec pipeline topic auto-discovery)
+- **Context:** User requested removal of hardcoded topics from `specs.yaml` and automatic topic population during extraction/beautification.
+- **Discovery:** Initial pipeline implementation required `spec.topics` for `extract`, `beautify`, `keywords`, and manifest-backed ingestion mapping. With empty topic lists, no downstream content/keyword generation occurred.
+- **Decision:** Switched pipeline to spec-level raw extraction when topics are omitted (`{spec_key}.txt` in `content/.cache/raw/...`), then auto-discover topics in beautify via GPT JSON output and persist discovered topics in `content/.cache/discovered_topics.json`. Updated keywords generation and ingestion to discover topic folders from disk instead of manifest topic entries; ingestion now auto-creates missing `topics` DB rows from markdown title/slug.
+- **Files touched:** `specs.yaml`, `apps/agent/scripts/pipeline/{manifest.py,extract_specs.py,prompts.py,beautify_specs.py,keywords_specs.py}`, `apps/agent/scripts/{seed_db.py,ingest.py}`, `README.md`.
+- **Follow-up:** Fix invalid/404 spec URLs in `specs.yaml` (currently `aqa-alevel-history-7042`) so full end-to-end pipeline can run without per-spec download errors; optionally add a `discover-topics` stage to make topic generation independently runnable.
+
+### 2026-02-28 (dedicated discover-topics stage + approval gate)
+- **Context:** User requested a separate topic-discovery command so topic lists can be inspected/approved before content generation.
+- **Discovery:** `beautify_specs.py` still performed discovery internally, so discovery and generation were coupled.
+- **Decision:** Added standalone `scripts.pipeline.discover_topics` (Make target `discover-topics`) that writes editable approvals to `content/.cache/discovered_topics.yaml`; refactored `beautify_specs.py` to consume only approved topics (manifest topics or approved catalog topics) and skip otherwise with a clear message. Added shared catalog helpers in `discovered_topics.py` and updated pipeline docs/Makefile order (`download -> extract -> discover-topics -> beautify -> keywords`).
+- **Files touched:** `apps/agent/scripts/pipeline/{discover_topics.py,discovered_topics.py,beautify_specs.py}`, `Makefile`, `README.md`, `.github/memory/agent-notes.md`.
+- **Follow-up:** Runtime smoke test of `discover-topics` requires `OPENAI_API_KEY` in the executing shell; once set, run `make discover-topics` and review the generated approval file before running `make beautify`.
+

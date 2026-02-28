@@ -1,0 +1,64 @@
+from __future__ import annotations
+
+from pathlib import Path
+
+import httpx
+
+from .checksums import load_checksums, save_checksums, sha256_bytes
+from .manifest import cache_root, enabled_specs
+
+
+def _pdf_path(key: str) -> Path:
+    return cache_root() / "pdfs" / f"{key}.pdf"
+
+
+def main() -> None:
+    specs = enabled_specs()
+    if not specs:
+        print("No enabled specs in manifest.")
+        return
+
+    checksums = load_checksums()
+    download_count = 0
+    skip_count = 0
+    error_count = 0
+
+    with httpx.Client(follow_redirects=True, timeout=120.0) as client:
+        for spec in specs:
+            if not spec.pdf_url:
+                print(f"[skip] {spec.key} has no pdf_url")
+                skip_count += 1
+                continue
+
+            print(f"[download] {spec.key} <- {spec.pdf_url}")
+            try:
+                response = client.get(spec.pdf_url)
+                response.raise_for_status()
+            except httpx.HTTPError as exc:
+                print(f"[error] {spec.key}: {exc}")
+                error_count += 1
+                continue
+
+            content = response.content
+            pdf_sha = sha256_bytes(content)
+            cached = checksums.get(spec.key, {})
+            target = _pdf_path(spec.key)
+
+            if cached.get("pdf_sha256") == pdf_sha and target.exists():
+                print(f"[skip] {spec.key} unchanged")
+                skip_count += 1
+                continue
+
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(content)
+
+            checksums.setdefault(spec.key, {})["pdf_sha256"] = pdf_sha
+            save_checksums(checksums)
+            download_count += 1
+            print(f"[ok] {spec.key} saved -> {target}")
+
+    print(f"Done. Downloaded {download_count}; skipped {skip_count}; errors {error_count}.")
+
+
+if __name__ == "__main__":
+    main()
