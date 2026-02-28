@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 import httpx
@@ -12,6 +13,10 @@ def _pdf_path(key: str) -> Path:
     return cache_root() / "pdfs" / f"{key}.pdf"
 
 
+def _errors_report_path() -> Path:
+    return cache_root() / "download_errors.json"
+
+
 def main() -> None:
     specs = enabled_specs()
     if not specs:
@@ -22,6 +27,7 @@ def main() -> None:
     download_count = 0
     skip_count = 0
     error_count = 0
+    errors: list[dict[str, str]] = []
 
     with httpx.Client(follow_redirects=True, timeout=120.0) as client:
         for spec in specs:
@@ -37,6 +43,13 @@ def main() -> None:
             except httpx.HTTPError as exc:
                 print(f"[error] {spec.key}: {exc}")
                 error_count += 1
+                errors.append(
+                    {
+                        "spec_key": spec.key,
+                        "pdf_url": spec.pdf_url,
+                        "error": str(exc),
+                    }
+                )
                 continue
 
             content = response.content
@@ -56,6 +69,21 @@ def main() -> None:
             save_checksums(checksums)
             download_count += 1
             print(f"[ok] {spec.key} saved -> {target}")
+
+    if errors:
+        report_path = _errors_report_path()
+        report_path.parent.mkdir(parents=True, exist_ok=True)
+        report_path.write_text(json.dumps({"errors": errors}, indent=2), encoding="utf-8")
+
+        print("\n[warning] Some PDF downloads failed.")
+        print(f"[warning] Review and fix URLs in specs.yaml, then rerun make download.")
+        print(f"[warning] Error report written to: {report_path}")
+        for item in errors:
+            print(f"  - {item['spec_key']} -> {item['pdf_url']}")
+    else:
+        report_path = _errors_report_path()
+        if report_path.exists():
+            report_path.unlink()
 
     print(f"Done. Downloaded {download_count}; skipped {skip_count}; errors {error_count}.")
 

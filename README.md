@@ -195,6 +195,9 @@ make keywords    # generate keywords.txt alongside markdown
 make content-pipeline  # run all five stages
 ```
 
+If any PDF URL fails during `make download`, the pipeline writes `content/.cache/download_errors.json`
+with the failing `spec_key`, `pdf_url`, and error message so you can patch `specs.yaml` quickly.
+
 `make ingest` then embeds generated markdown into `documents/chunks`.
 
 Ingestion runs automatically on agent startup (Docker). To run it manually:
