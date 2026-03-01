@@ -348,3 +348,31 @@ Use this file as shared working memory across tasks.
 - **Files touched:** `apps/agent/scripts/bootstrap_db.py`, `.github/memory/agent-notes.md`.
 - **Follow-up:** Keep this pattern for any future added columns so existing local/prod DBs upgrade safely via `make db-migrate`.
 
+### 2026-03-01 (Stripe pricing env contract switched to product IDs)
+- **Context:** User requested removing `STRIPE_PRICE_*` from `.env.example` and retrieving plan prices from Stripe API by product.
+- **Discovery:** Billing sync logic previously depended on direct `STRIPE_PRICE_*` env vars only, so product-level lookup was not possible.
+- **Decision:** Added product-based resolution using new `STRIPE_PRODUCT_*` env vars in both runtime billing sync and `scripts/sync_stripe_prices.py`. Resolver picks the newest active matching price (`month`/`year` recurring for subscriptions, one-time for credit packs) and still accepts `STRIPE_PRICE_*` as optional overrides.
+- **Files touched:** `apps/agent/app/billing.py`, `apps/agent/scripts/sync_stripe_prices.py`, `.env.example`, `README.md`, `.github/memory/agent-notes.md`.
+- **Follow-up:** Populate `.env` with real `STRIPE_PRODUCT_*` IDs, then run `make billing-sync-prices`; if a product has multiple active prices for the same interval/type, archive old prices or set a single intended active one for deterministic selection.
+
+### 2026-03-01 (removed STRIPE_PRICE_* support entirely)
+- **Context:** User requested product IDs to be the only accepted billing configuration path.
+- **Discovery:** Runtime and sync script still had direct `STRIPE_PRICE_*` override logic; docker compose still passed `STRIPE_PRICE_*` variables into the agent service.
+- **Decision:** Deleted all `STRIPE_PRICE_*` override logic and map usage from `billing.py` and `sync_stripe_prices.py`; updated compose to pass only `STRIPE_PRODUCT_*` variables; removed remaining `STRIPE_PRICE_*` mention from README.
+- **Files touched:** `apps/agent/app/billing.py`, `apps/agent/scripts/sync_stripe_prices.py`, `infra/docker-compose.yml`, `README.md`, `.github/memory/agent-notes.md`.
+- **Follow-up:** Ensure every environment (local/staging/prod) sets all required `STRIPE_PRODUCT_*` IDs before running `make billing-sync-prices`.
+
+### 2026-03-01 (added live→test Stripe copy script)
+- **Context:** User requested a terminal-run script to copy Stripe products from live to test.
+- **Discovery:** Existing tooling only synced selected price IDs into DB and did not replicate catalog objects across Stripe accounts.
+- **Decision:** Added `apps/agent/scripts/copy_stripe_live_to_test.py` with dry-run default, `--apply` mode, optional `--product-id` filtering, idempotency via metadata keys (`copied_from_live_product_id`, `copied_from_live_price_id`), and JSON mapping output. Added Make target `billing-copy-live-to-test` and env keys `STRIPE_SECRET_KEY` / `STRIPE_TEST_SECRET_KEY` to docs/examples.
+- **Files touched:** `apps/agent/scripts/copy_stripe_live_to_test.py` (new), `Makefile`, `.env.example`, `README.md`, `.github/memory/agent-notes.md`.
+- **Follow-up:** Run dry-run first, inspect mapping JSON, then run with `APPLY=1`; unsupported price models (e.g., custom/tiered) are reported as `unsupported` and require manual handling.
+
+### 2026-03-01 (Stripe copy script compatibility fix + successful run)
+- **Context:** First run of `make billing-copy-live-to-test` failed with `TypeError` on `products.list(... limit=...)`.
+- **Discovery:** Installed Stripe SDK expects `StripeClient` service methods to receive `params={...}` objects for list/create/update operations.
+- **Decision:** Updated script calls to use `params=...` for product/price list/create/update, added live key resolver fallback (`STRIPE_LIVE_SECRET_KEY` -> `STRIPE_SECRET_KEY`), and corrected README env rows. Re-ran dry-run and apply successfully (`Products created: 7`, `Prices created: 7`).
+- **Files touched:** `apps/agent/scripts/copy_stripe_live_to_test.py`, `README.md`, `.github/memory/agent-notes.md`.
+- **Follow-up:** Use generated mapping file `apps/agent/stripe-live-to-test-map.json` as the source for wiring test product IDs into env.
+

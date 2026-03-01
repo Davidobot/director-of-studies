@@ -66,13 +66,13 @@ cp .env.example .env
 | `STRIPE_SECRET_KEY` | Yes (for billing) | — |
 | `STRIPE_WEBHOOK_SECRET` | Yes (for billing webhook verification) | — |
 | `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Yes (for billing UI) | — |
-| `STRIPE_PRICE_STANDARD_MONTHLY` | Yes (for paid monthly plan) | — |
-| `STRIPE_PRICE_SCHOOL_MONTHLY` | Yes (for school monthly plan) | — |
-| `STRIPE_PRICE_STANDARD_ANNUAL` | Yes (for paid annual plan) | — |
-| `STRIPE_PRICE_SCHOOL_ANNUAL` | Yes (for school annual plan) | — |
-| `STRIPE_PRICE_CREDIT_1H` | Yes (for 1h credit pack) | — |
-| `STRIPE_PRICE_CREDIT_2H` | Yes (for 2h credit pack) | — |
-| `STRIPE_PRICE_CREDIT_10H` | Yes (for 10h credit pack) | — |
+| `STRIPE_PRODUCT_STANDARD_MONTHLY` | Yes (Stripe Product ID used to resolve paid monthly price) | — |
+| `STRIPE_PRODUCT_SCHOOL_MONTHLY` | Yes (Stripe Product ID used to resolve school monthly price) | — |
+| `STRIPE_PRODUCT_STANDARD_ANNUAL` | Yes (Stripe Product ID used to resolve paid annual price) | — |
+| `STRIPE_PRODUCT_SCHOOL_ANNUAL` | Yes (Stripe Product ID used to resolve school annual price) | — |
+| `STRIPE_PRODUCT_CREDIT_1H` | Yes (Stripe Product ID used to resolve 1h credit-pack price) | — |
+| `STRIPE_PRODUCT_CREDIT_2H` | Yes (Stripe Product ID used to resolve 2h credit-pack price) | — |
+| `STRIPE_PRODUCT_CREDIT_10H` | Yes (Stripe Product ID used to resolve 10h credit-pack price) | — |
 | `DB_POOL_MIN_SIZE` | No | `2` |
 | `DB_POOL_MAX_SIZE` | No | `12` |
 | `AGENT_OPENAI_MODEL` | No | `gpt-4o` |
@@ -93,6 +93,24 @@ The agent container runs this bootstrap script automatically on startup, and you
 
 ```bash
 make db-migrate
+```
+
+To sync Stripe pricing into the `plans` table from product IDs, run:
+
+```bash
+make billing-sync-prices
+```
+
+The sync selects the most recent active matching price for each configured product (`month`/`year` recurring for subscriptions, one-time for credit packs).
+
+To copy products/prices from live Stripe to test Stripe:
+
+```bash
+# Dry-run preview
+make billing-copy-live-to-test
+
+# Apply (creates/updates in test account)
+make billing-copy-live-to-test APPLY=1
 ```
 
 > Model settings can also be changed per-session on the home page UI.

@@ -152,6 +152,14 @@ billing-sync-prices:
 	@echo "Syncing Stripe price IDs from env vars into plans table..."
 	cd apps/agent && DATABASE_URL="$(NATIVE_DATABASE_URL)" $(PWD)/$(AGENT_PY) scripts/sync_stripe_prices.py
 
+# Copy Stripe products/prices from live account to test account.
+# Dry-run by default; add APPLY=1 to perform writes in test mode.
+.PHONY: billing-copy-live-to-test
+billing-copy-live-to-test:
+	@test -f $(AGENT_PY) || (echo "Run 'make venv' first to set up the Python environment."; exit 1)
+	@echo "Copying Stripe products/prices from live to test (dry-run unless APPLY=1)..."
+	cd apps/agent && $(PWD)/$(AGENT_PY) scripts/copy_stripe_live_to_test.py $(if $(APPLY),--apply,)
+
 # Seed reference data (exam boards, subjects, board-subjects) and course/topic data.
 # Run once after 'make infra' has started Postgres, or any time you reset the DB.
 .PHONY: seed
