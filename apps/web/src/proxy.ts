@@ -5,12 +5,11 @@ const PUBLIC_PATHS = new Set(["/login", "/signup", "/terms", "/privacy"]);
 
 function isPublicPath(pathname: string): boolean {
   if (PUBLIC_PATHS.has(pathname)) return true;
-  // All /auth/* routes are public (callback, forgot-password, reset-password, confirm-email, consent-pending)
   if (pathname.startsWith("/auth/")) return true;
   return false;
 }
 
-export async function middleware(request: NextRequest) {
+export async function proxy(request: NextRequest) {
   let response = NextResponse.next({ request });
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;

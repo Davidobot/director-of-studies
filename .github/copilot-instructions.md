@@ -1,15 +1,15 @@
 # Director of Studies — Project Overview & Memory Workflow
 
-## Project overview
+## Project overview (current)
 
 Director of Studies is a local-first MVP voice tutor for GCSE/A-level Humanities.
 
 ### Core architecture
-- **Web app:** Next.js 14 (App Router, TypeScript, Tailwind) in `apps/web`
+- **Web app:** Next.js 16 (App Router, TypeScript, Tailwind) in `apps/web`
 - **Realtime audio:** Self-hosted LiveKit in Docker
 - **Tutor agent:** Python 3.11 FastAPI + LiveKit Agents in `apps/agent`
 - **Storage:** Postgres 16 + pgvector
-- **RAG:** content ingestion from `content/{courseId}/{topicId}/*` and retrieval filtered by course/topic
+- **RAG:** content ingestion from `content/{board}/{level}-{subject}/{topic-slug}/*` and retrieval filtered by course/topic
 - **Persistence:** sessions, transcript, and summary data in Postgres
 
 ### Runtime model
@@ -17,6 +17,28 @@ Director of Studies is a local-first MVP voice tutor for GCSE/A-level Humanities
 - Browser joins LiveKit room from web UI
 - Agent joins same room as `TutorBot`
 - Transcript updates flow during call; transcript + summary saved and exposed via session pages
+- Frontend calls Python API directly (`NEXT_PUBLIC_API_URL`); no Next.js API wrapper layer is required for core flows
+
+## Fast navigation map for agents (read this first)
+
+When a task starts, locate the likely file by domain before searching broadly:
+
+- **Auth gates and request interception (web):** `apps/web/src/proxy.ts`
+- **Web app routes/pages/components:** `apps/web/src/app/**`, `apps/web/src/components/**`
+- **API endpoints (FastAPI):** `apps/agent/app/main.py`
+- **Voice tutoring runtime:** `apps/agent/app/agent_worker.py`, `apps/agent/app/prompts.py`
+- **DB access helpers:** `apps/agent/app/db.py`
+- **DB schema/bootstrap/seed:** `apps/agent/scripts/bootstrap_db.py`, `apps/agent/scripts/seed_db.py`
+- **Content pipeline:** `apps/agent/scripts/pipeline/**` and `specs.yaml`
+- **Ops shortcuts:** `Makefile`
+
+## Common task entry points
+
+- **Reset + seed DB:** `make db-reset` (optional, destructive) then `make seed`
+- **Apply schema changes:** `make db-migrate`
+- **Run content ingest:** `make ingest`
+- **Run full content pipeline:** `make content-pipeline`
+- **Verify web compile:** `cd apps/web && npm run build`
 
 ## Planning prompt for agents (required)
 Agents when in planning mode should refer to:

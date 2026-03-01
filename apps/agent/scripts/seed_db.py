@@ -4,8 +4,14 @@ import datetime
 import os
 
 import psycopg
+from psycopg import sql
 
-from scripts.pipeline.manifest import load_manifest
+try:
+    from scripts.pipeline.manifest import load_manifest
+except ModuleNotFoundError as exc:
+    if exc.name != "scripts":
+        raise
+    from pipeline.manifest import load_manifest
 
 DATABASE_URL = os.environ.get("DATABASE_URL", "")
 
@@ -16,6 +22,21 @@ _FALLBACK_SUPERCURRICULAR_SUBJECTS = [
     ("Metacognition", "Enrichment", "supercurricular"),
     ("Oxbridge Admissions", "Enrichment", "supercurricular"),
 ]
+
+
+def _sync_id_sequence(cur: psycopg.Cursor, table_name: str) -> None:
+    cur.execute(
+        sql.SQL(
+            """
+            SELECT setval(
+                pg_get_serial_sequence(%s, 'id'),
+                COALESCE((SELECT MAX(id) FROM {table}), 1),
+                (SELECT MAX(id) IS NOT NULL FROM {table})
+            )
+            """
+        ).format(table=sql.Identifier(table_name)),
+        (table_name,),
+    )
 
 
 def main() -> None:
@@ -34,6 +55,15 @@ def main() -> None:
         subject_seeds.update(_FALLBACK_SUPERCURRICULAR_SUBJECTS)
 
     with psycopg.connect(DATABASE_URL) as conn, conn.cursor() as cur:
+        for table_name in [
+            "exam_boards",
+            "subjects",
+            "board_subjects",
+            "courses",
+            "topics",
+        ]:
+            _sync_id_sequence(cur, table_name)
+
         for board in boards.values():
             cur.execute(
                 """

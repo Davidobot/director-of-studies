@@ -2,13 +2,11 @@ import type { Metadata } from "next";
 import "@livekit/components-styles";
 import "./globals.css";
 import Link from "next/link";
-import dynamic from "next/dynamic";
 import { getServerUser } from "@/lib/supabase/server";
 import { AccountMenu } from "@/components/AccountMenu";
 import { getStudentContext } from "@/lib/student";
-
-const ToSBanner = dynamic(() => import("@/components/ToSBanner").then((m) => m.ToSBanner), { ssr: false });
-const CookieBanner = dynamic(() => import("@/components/CookieBanner").then((m) => m.CookieBanner), { ssr: false });
+import { ToSBanner } from "@/components/ToSBanner";
+import { CookieBanner } from "@/components/CookieBanner";
 
 export const metadata: Metadata = {
   title: "Director of Studies",
@@ -62,7 +60,10 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         {/* Footer */}
         <footer className="mx-auto max-w-5xl border-t border-slate-800 px-4 py-6">
           <div className="flex items-center justify-between text-xs text-slate-500">
-            <span>&copy; {new Date().getFullYear()} Director of Studies</span>
+            <div className="space-y-0.5">
+              <span>&copy; {new Date().getFullYear()} Director of Studies</span>
+              <p className="text-slate-600">studysesh ltd. &bull; Company No. 16860469 &bull; Registered in England and Wales</p>
+            </div>
             <div className="flex gap-4">
               <Link href="/terms" className="hover:text-slate-300">Terms of Service</Link>
               <Link href="/privacy" className="hover:text-slate-300">Privacy Policy</Link>

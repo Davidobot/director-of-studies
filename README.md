@@ -2,9 +2,32 @@
 
 Simple local-first MVP for a voice-first AI tutor for GCSE/A-level Humanities.
 
+## Quick navigation
+
+Use this index first when navigating the repo (human or agent):
+
+- Product/runtime overview: `README.md`
+- Agent operating guidance: `.github/copilot-instructions.md`
+- Shared task memory: `.github/memory/agent-notes.md`
+- Planning rubric: `.github/prompts/review-plan.prompt.md`
+- Local task shortcuts: `Makefile`
+- Frontend app (Next.js): `apps/web`
+- API + voice agent + ingestion scripts: `apps/agent`
+- Infra compose files: `infra/`
+- Content + generated topics: `content/`
+
+## Current architecture snapshot
+
+- Browser/UI calls Python API directly at `NEXT_PUBLIC_API_URL` (no TS API wrapper layer).
+- Auth/session handling in web uses Supabase and Next.js App Router.
+- API/business logic is in `apps/agent/app/main.py` (FastAPI).
+- Voice tutoring runtime is in `apps/agent/app/agent_worker.py`.
+- Database schema/bootstrap/seed are Python-owned (`apps/agent/scripts/bootstrap_db.py`, `apps/agent/scripts/seed_db.py`).
+- Content pipeline commands (`make download/extract/discover-topics/beautify/keywords`) generate ingestion artifacts under `content/`.
+
 ## Stack
 
-- Next.js 14 (App Router) + TypeScript + Tailwind
+- Next.js 16 (App Router) + TypeScript + Tailwind
 - LiveKit Server (self-hosted in Docker)
 - Python 3.11 API + agent service (FastAPI + LiveKit Agents + Deepgram + OpenAI)
 - Postgres 16 + pgvector
@@ -82,9 +105,11 @@ cp .env.example .env
 | `SILENCE_NUDGE_SHORT_S` | No | `3.0` |
 | `SILENCE_NUDGE_LONG_S` | No | `8.0` |
 
-4. Bootstrap and seed DB via Python:
+3. Bootstrap and seed DB via Python:
 
 ```bash
+# Optional: reset DB first (destructive)
+# make db-reset
 make seed
 ```
 
@@ -102,16 +127,6 @@ make billing-sync-prices
 ```
 
 The sync selects the most recent active matching price for each configured product (`month`/`year` recurring for subscriptions, one-time for credit packs).
-
-To copy products/prices from live Stripe to test Stripe:
-
-```bash
-# Dry-run preview
-make billing-copy-live-to-test
-
-# Apply (creates/updates in test account)
-make billing-copy-live-to-test APPLY=1
-```
 
 > Model settings can also be changed per-session on the home page UI.
 

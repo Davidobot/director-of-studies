@@ -145,6 +145,14 @@ db-migrate:
 	cd apps/agent && DATABASE_URL="$(NATIVE_DATABASE_URL)" $(PWD)/$(AGENT_PY) scripts/bootstrap_db.py
 	@echo "Python DB bootstrap/migration applied."
 
+# Reset DB schema only (drops all tables/data) without reseeding.
+# Useful when you want a clean DB before running 'make db-migrate' or 'make seed'.
+.PHONY: db-reset
+db-reset:
+	@echo "Resetting database schema for $(POSTGRES_DB)..."
+	@docker exec dos-postgres psql -U "$(POSTGRES_USER)" -d "$(POSTGRES_DB)" -v ON_ERROR_STOP=1 -c "DROP SCHEMA IF EXISTS public CASCADE; CREATE SCHEMA public;"
+	@echo "DB reset complete."
+
 # Sync Stripe price IDs from env vars into plans table via internal API endpoint.
 .PHONY: billing-sync-prices
 billing-sync-prices:

@@ -429,4 +429,39 @@ Use this file as shared working memory across tasks.
   - Run `npm run test` and `pytest` to verify test suites pass
   - Old `AuthForm.tsx` can be deleted (no longer imported)
 
+  ### 2026-03-01 (Makefile db-reset target)
+  - **Context:** `make seed` failed after fixing Python import path due to stale Postgres sequences / existing state; user asked for a command to reset DB only.
+  - **Discovery:** Existing workflow had `db-migrate` and `seed`, but no standalone destructive reset command.
+  - **Decision:** Added `make db-reset` target to drop/recreate `public` schema in the running `dos-postgres` container using `psql` (`DROP SCHEMA IF EXISTS public CASCADE; CREATE SCHEMA public;`). This intentionally does not reseed.
+  - **Files touched:** `Makefile`, `.github/memory/agent-notes.md`.
+  - **Follow-up:** After reset, run `make seed` to rebuild schema + seed data; if needed, sequence drift is also now handled in `apps/agent/scripts/seed_db.py` via `_sync_id_sequence`.
+
+  ### 2026-03-01 (seed sequence sync empty-table fix)
+  - **Context:** After adding sequence sync in `seed_db.py`, `make seed` failed on fresh/empty tables with `setval: value 0 is out of bounds`.
+  - **Discovery:** `setval(seq, 0, true)` is invalid for integer sequences starting at 1; empty tables need a non-called state at value 1.
+  - **Decision:** Updated `_sync_id_sequence` to call `setval(seq, COALESCE(MAX(id), 1), MAX(id) IS NOT NULL)`, which yields `setval(seq, 1, false)` when table is empty and `setval(seq, max_id, true)` otherwise.
+  - **Files touched:** `apps/agent/scripts/seed_db.py`, `.github/memory/agent-notes.md`.
+  - **Follow-up:** None; `make seed` now completes successfully after this change.
+
+  ### 2026-03-01 (Next.js searchParams promise fix)
+  - **Context:** Runtime error on `/onboarding` in Next.js 16: `searchParams` must be unwrapped with `await` before property access.
+  - **Discovery:** Three server pages still treated `searchParams` as a plain object: onboarding, login, and settings profile.
+  - **Decision:** Updated all three page signatures to `searchParams: Promise<...>` and resolved once via `const resolvedSearchParams = await searchParams;`, then switched property reads to the resolved object.
+  - **Files touched:** `apps/web/src/app/onboarding/page.tsx`, `apps/web/src/app/login/page.tsx`, `apps/web/src/app/settings/profile/page.tsx`, `.github/memory/agent-notes.md`.
+  - **Follow-up:** `get_errors` reports no issues in touched files; full `npm run build` currently fails for unrelated `vitest/config` dependency in `apps/web/vitest.config.ts`.
+
+  ### 2026-03-01 (web build repaired and verified)
+  - **Context:** User asked to fix and run the remaining web build failures.
+  - **Discovery:** `apps/web` dependencies were out of sync (`vitest/config` missing at build-time), and after reinstall Next.js 16 then failed prerendering `/auth/confirm-email` because `useSearchParams()` was not wrapped in `Suspense`.
+  - **Decision:** Ran `npm install` in `apps/web` to restore dependencies, then updated `apps/web/src/app/auth/confirm-email/page.tsx` to render a `Suspense` boundary and moved `useSearchParams()` usage into an inner component.
+  - **Files touched:** `apps/web/src/app/auth/confirm-email/page.tsx`, `.github/memory/agent-notes.md`.
+  - **Follow-up:** `npm run build` now completes successfully; only informational warning left is Next 16 middleware deprecation (`middleware` → `proxy`) for future cleanup.
+
+  ### 2026-03-01 (middleware→proxy migration + docs navigation refresh)
+  - **Context:** User requested running the Next.js middleware migration and updating docs for faster agent navigation/retrieval.
+  - **Discovery:** Web auth interception still used deprecated `src/middleware.ts` convention; docs lacked a compact “where to look first” map and had stale architecture details (Next.js 14 mention, old content path shape).
+  - **Decision:** Migrated to `apps/web/src/proxy.ts` with equivalent logic and removed `apps/web/src/middleware.ts`; verified with `cd apps/web && npm run build` (passes, no deprecation warning). Updated `README.md` with `Quick navigation` + `Current architecture snapshot` sections and corrected setup numbering/reset guidance. Updated `.github/copilot-instructions.md` with current architecture, explicit fast navigation map, and common task entry-point commands.
+  - **Files touched:** `apps/web/src/proxy.ts`, `apps/web/src/middleware.ts` (deleted), `README.md`, `.github/copilot-instructions.md`, `.github/memory/agent-notes.md`.
+  - **Follow-up:** Keep navigation maps in README/instructions synced whenever major folders or ownership boundaries change.
+
 

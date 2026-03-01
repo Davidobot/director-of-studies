@@ -138,10 +138,12 @@ async function saveProfile(formData: FormData) {
 export default async function OnboardingPage({
   searchParams,
 }: {
-  searchParams: { accountType?: string; error?: string };
+  searchParams: Promise<{ accountType?: string; error?: string }>;
 }) {
   const user = await getServerUser();
   if (!user) redirect("/login");
+
+  const resolvedSearchParams = await searchParams;
 
   const profileRow = await db.select().from(profiles).where(eq(profiles.id, user.id));
   const studentRow = await db.select({ id: students.id }).from(students).where(eq(students.id, user.id));
@@ -150,7 +152,7 @@ export default async function OnboardingPage({
     redirect("/");
   }
 
-  const initialType = searchParams.accountType === "parent" ? "parent" : "student";
+  const initialType = resolvedSearchParams.accountType === "parent" ? "parent" : "student";
 
   return (
     <main className="mx-auto max-w-md space-y-4">
@@ -226,7 +228,7 @@ export default async function OnboardingPage({
 
         <button className="rounded-md bg-sky-600 px-4 py-2 font-medium text-white">Save and continue</button>
 
-        {searchParams.error ? <p className="text-sm text-red-400">{searchParams.error}</p> : null}
+        {resolvedSearchParams.error ? <p className="text-sm text-red-400">{resolvedSearchParams.error}</p> : null}
       </form>
     </main>
   );

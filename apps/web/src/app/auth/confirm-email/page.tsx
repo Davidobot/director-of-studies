@@ -1,11 +1,19 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { Suspense, useMemo, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
 
 export default function ConfirmEmailPage() {
+  return (
+    <Suspense fallback={<main className="mx-auto max-w-md space-y-4" />}>
+      <ConfirmEmailContent />
+    </Suspense>
+  );
+}
+
+function ConfirmEmailContent() {
   const searchParams = useSearchParams();
   const email = searchParams.get("email") ?? "";
   const supabase = useMemo(() => createClient(), []);

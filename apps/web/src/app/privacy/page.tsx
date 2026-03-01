@@ -12,12 +12,13 @@ export default function PrivacyPage() {
 
       <h2>1. Who We Are</h2>
       <p>
-        Director of Studies Ltd (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) is the data
-        controller for personal data collected through our AI tutoring platform. We are registered in
-        England and Wales.
+        studysesh ltd. (trading as <strong>Director of Studies</strong>, &ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;)
+        is the data controller for personal data collected through our AI tutoring platform at{" "}
+        <a href="https://directorofstudies.com">directorofstudies.com</a>.
+        We are registered in England and Wales (Company No. 16860469).
       </p>
       <p>
-        Contact: <a href="mailto:privacy@directorofstudies.co.uk">privacy@directorofstudies.co.uk</a>
+        Contact: <a href="mailto:privacy@directorofstudies.com">privacy@directorofstudies.com</a>
       </p>
 
       <h2>2. Data We Collect</h2>
@@ -114,7 +115,7 @@ export default function PrivacyPage() {
       </ul>
       <p>
         To exercise any of these rights, contact{" "}
-        <a href="mailto:privacy@directorofstudies.co.uk">privacy@directorofstudies.co.uk</a>.
+        <a href="mailto:privacy@directorofstudies.com">privacy@directorofstudies.com</a>.
         We will respond within one month as required by UK GDPR.
       </p>
 

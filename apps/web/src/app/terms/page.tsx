@@ -13,7 +13,10 @@ export default function TermsPage() {
       <h2>1. Definitions</h2>
       <p>
         <strong>&ldquo;Director of Studies&rdquo;</strong> (also &ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;)
-        refers to the AI-powered tutoring platform operated by Director of Studies Ltd.
+        refers to the AI-powered tutoring platform at{" "}
+        <a href="https://directorofstudies.com">directorofstudies.com</a>,
+        operated by studysesh ltd. (trading as Director of Studies), a company registered in England and Wales
+        (Company No. 16860469).
       </p>
       <p>
         <strong>&ldquo;Service&rdquo;</strong> refers to the voice-based AI tutoring sessions, dashboard,
@@ -68,7 +71,7 @@ export default function TermsPage() {
       <h2>6. Intellectual Property</h2>
       <p>
         All content, software, and materials provided through the Service are owned by or licensed to
-        Director of Studies Ltd. Educational content is derived from publicly available exam board
+        studysesh ltd. (trading as Director of Studies). Educational content is derived from publicly available exam board
         specifications and study materials, appropriately attributed.
       </p>
 
@@ -103,7 +106,11 @@ export default function TermsPage() {
       <h2>11. Contact</h2>
       <p>
         For questions about these terms, please contact us at{" "}
-        <a href="mailto:legal@directorofstudies.co.uk">legal@directorofstudies.co.uk</a>.
+        <a href="mailto:legal@directorofstudies.com">legal@directorofstudies.com</a>.
+      </p>
+      <p className="text-sm text-slate-400">
+        studysesh ltd. &bull; Trading as Director of Studies &bull; Company No. 16860469 &bull;
+        Registered in England and Wales
       </p>
     </main>
   );

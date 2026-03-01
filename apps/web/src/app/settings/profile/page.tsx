@@ -42,10 +42,12 @@ async function saveProfile(formData: FormData) {
 export default async function ProfileSettingsPage({
   searchParams,
 }: {
-  searchParams: { error?: string; saved?: string };
+  searchParams: Promise<{ error?: string; saved?: string }>;
 }) {
   const user = await getServerUser();
   if (!user) redirect("/login");
+
+  const resolvedSearchParams = await searchParams;
 
   const profileRows = await db.select().from(profiles).where(eq(profiles.id, user.id));
   if (profileRows.length === 0) redirect("/onboarding");
@@ -59,14 +61,14 @@ export default async function ProfileSettingsPage({
     <main className="mx-auto max-w-xl space-y-6">
       <h1 className="text-2xl font-semibold">Personal settings</h1>
 
-      {searchParams.saved ? (
+      {resolvedSearchParams.saved ? (
         <p className="rounded-md border border-emerald-700 bg-emerald-900/40 px-4 py-2 text-sm text-emerald-300">
           Settings saved.
         </p>
       ) : null}
-      {searchParams.error ? (
+      {resolvedSearchParams.error ? (
         <p className="rounded-md border border-red-700 bg-red-900/40 px-4 py-2 text-sm text-red-300">
-          {searchParams.error}
+          {resolvedSearchParams.error}
         </p>
       ) : null}
 
