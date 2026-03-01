@@ -505,3 +505,19 @@ Use this file as shared working memory across tasks.
 - **Decision:** Renamed `NEXT_PUBLIC_SUPABASE_ANON_KEY` to `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` everywhere. Both apps share the same `.env`. `NEXT_PUBLIC_` prefix is harmless for Python reads.
 - **Files touched:** `.env`, `.env.example`, `README.md`, `apps/web/src/lib/supabase/client.ts`, `apps/web/src/lib/supabase/server.ts`, `apps/web/src/proxy.ts`, `apps/agent/app/main.py`, `apps/agent/app/billing.py`, `apps/agent/tests/conftest.py`
 - **Follow-up:** Deactivate the old JWT anon key in the Supabase dashboard once smoke-tested. Also note: conftest `INTERNAL_API_KEY` vs code's `AGENT_INTERNAL_API_KEY` may be a similar mismatch worth investigating.
+
+## 2026-03-01 — Waitlist backend + admin waitlist tab
+
+- **Context:** Implement backend support for a new public home landing flow where students/parents join a waiting list for early free-hour lessons, and surface these sign-ups under a separate admin tab.
+- **Discovery:** Existing admin dashboard had no tabbed structure and only exposed stats + feedback APIs/UI. There was no waitlist schema or endpoints.
+- **Decision:** Added `waitlist_signups` table to Python bootstrap schema, implemented FastAPI waitlist endpoints (public signup upsert by email, admin list with pagination/filtering, admin status updates, CSV export), and updated admin UI to include `Overview` and `Waitlist` tabs with status actions and export.
+- **Files touched:** `apps/agent/scripts/bootstrap_db.py`, `apps/agent/app/main.py`, `apps/web/src/app/admin/AdminDashboard.tsx`, `.github/memory/agent-notes.md`
+- **Follow-up:** Run `make db-migrate` in environments that already have a running DB to create `waitlist_signups`. Frontend landing page can call `POST /api/waitlist` directly via `NEXT_PUBLIC_API_URL`.
+
+## 2026-03-01 — Guest admin account + login button
+
+- **Context:** Add a pre-seeded admin account for testing purposes, with a one-click "Log in as Admin (test)" button on the login page.
+- **Discovery:** `_supabase_admin_request` in `main.py` had a bug: `service_role` was referenced but never defined — should be `secret_key` (from `SUPABASE_SECRET_KEY`). The existing guest-login machinery (`_guest_login_sync` + `POST /api/auth/guest-login`) only creates student accounts.
+- **Decision:** (1) Fixed `service_role` → `secret_key` in `_supabase_admin_request`. (2) Added `_guest_admin_login_sync` that creates/upserts a Supabase auth user + `profiles` row with `account_type='admin'`, driven by `GUEST_ADMIN_EMAIL`/`GUEST_ADMIN_PASSWORD`/`GUEST_ADMIN_NAME` env vars. (3) Added `POST /api/auth/guest-admin-login` FastAPI endpoint. (4) Added `loginAsAdmin()` helper and "Log in as Admin (test)" button (amber border) to `LoginForm.tsx` beneath the existing guest button.
+- **Files touched:** `apps/agent/app/main.py`, `apps/web/src/components/LoginForm.tsx`, `.env.example`, `.github/memory/agent-notes.md`
+- **Follow-up:** Set `GUEST_ADMIN_EMAIL`, `GUEST_ADMIN_PASSWORD`, `GUEST_ADMIN_NAME` in `.env.local` / Docker env before using the button. Rebuild/restart `agent` container to pick up changes. Consider hiding admin login button behind a dev-only env flag (`NEXT_PUBLIC_SHOW_DEMO_ADMIN=true`) before deploying to production.

@@ -407,6 +407,23 @@ SCHEMA_SQL = [
       CONSTRAINT feedback_rating_check CHECK (rating IS NULL OR (rating >= 1 AND rating <= 5))
     )
     """,
+    """
+    CREATE TABLE IF NOT EXISTS waitlist_signups (
+      id serial PRIMARY KEY,
+      email text NOT NULL UNIQUE,
+      name text,
+      role text,
+      school text,
+      school_year text,
+      subject_interests text[] NOT NULL DEFAULT '{}'::text[],
+      exam_board text,
+      status text NOT NULL DEFAULT 'pending',
+      created_at timestamptz NOT NULL DEFAULT NOW(),
+      updated_at timestamptz NOT NULL DEFAULT NOW(),
+      CONSTRAINT waitlist_role_check CHECK (role IS NULL OR role IN ('student', 'parent')),
+      CONSTRAINT waitlist_status_check CHECK (status IN ('pending', 'invited'))
+    )
+    """,
     # Active views for soft-delete
     "CREATE OR REPLACE VIEW active_profiles AS SELECT * FROM profiles WHERE deleted_at IS NULL",
     "CREATE OR REPLACE VIEW active_students AS SELECT s.* FROM students s INNER JOIN profiles p ON s.id = p.id WHERE p.deleted_at IS NULL",

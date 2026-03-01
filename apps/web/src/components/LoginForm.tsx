@@ -38,6 +38,46 @@ export function LoginForm({ redirectTo = "/" }: Props) {
     }
   }
 
+  async function loginAsAdmin() {
+    setLoading(true);
+    setMessage(null);
+
+    try {
+      const bootstrapRes = await apiFetch("/api/auth/guest-admin-login", { method: "POST", requireAuth: false });
+      const contentType = bootstrapRes.headers.get("content-type") ?? "";
+
+      if (!bootstrapRes.ok) {
+        if (contentType.includes("application/json")) {
+          const body = (await bootstrapRes.json().catch(() => ({}))) as { error?: string };
+          throw new Error(body.error ?? "Could not initialize admin account");
+        }
+
+        const bodyText = await bootstrapRes.text().catch(() => "");
+        throw new Error(bodyText.slice(0, 120) || "Could not initialize admin account");
+      }
+
+      if (!contentType.includes("application/json")) {
+        throw new Error("Admin login endpoint returned an invalid response.");
+      }
+
+      const creds = (await bootstrapRes.json()) as { email: string; password: string };
+      const { error } = await supabase.auth.signInWithPassword({
+        email: creds.email,
+        password: creds.password,
+      });
+
+      if (error) throw error;
+
+      router.push(redirectTo);
+      router.refresh();
+    } catch (error) {
+      const text = error instanceof Error ? error.message : "Unexpected auth error";
+      setMessage(text);
+    } finally {
+      setLoading(false);
+    }
+  }
+
   async function loginAsGuest() {
     setLoading(true);
     setMessage(null);
@@ -121,6 +161,15 @@ export function LoginForm({ redirectTo = "/" }: Props) {
         className="w-full rounded-md border border-slate-700 px-4 py-2 font-medium text-slate-200 disabled:opacity-50"
       >
         Log in as Guest
+      </button>
+
+      <button
+        type="button"
+        disabled={loading}
+        onClick={() => void loginAsAdmin()}
+        className="w-full rounded-md border border-amber-700 px-4 py-2 font-medium text-amber-200 disabled:opacity-50"
+      >
+        Log in as Admin (test)
       </button>
 
       {message ? <p className="text-sm text-red-400">{message}</p> : null}

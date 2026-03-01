@@ -1,10 +1,13 @@
 from __future__ import annotations
 
 import asyncio
+import csv
 import datetime
+import io
 import json
 import os
 import random
+import re
 import uuid
 from urllib import error as urllib_error
 from urllib import request as urllib_request
@@ -12,6 +15,7 @@ from typing import Any
 
 from fastapi import FastAPI, HTTPException, Header
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 from livekit import api as lk_api
 from livekit.api import AccessToken, VideoGrants
 from livekit.protocol import room as proto_room
@@ -226,7 +230,24 @@ class ProgressPayload(BaseModel):
     repeat: list[RepeatPayload]
 
 
+class WaitlistSignupRequest(BaseModel):
+    email: str
+    name: str | None = None
+    role: str | None = None
+    school: str | None = None
+    schoolYear: str | None = None
+    subjectInterests: list[str] | None = None
+    examBoard: str | None = None
+
+
+class WaitlistStatusUpdateRequest(BaseModel):
+    status: str
+
+
 SUMMARY_OPENAI_MODEL = os.environ.get("SUMMARY_OPENAI_MODEL", "gpt-4o")
+WAITLIST_ALLOWED_ROLES = {"student", "parent"}
+WAITLIST_ALLOWED_STATUSES = {"pending", "invited"}
+EMAIL_REGEX = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")
 
 
 def build_agent_token(room_name: str, identity: str = "TutorBot") -> str:
@@ -1453,7 +1474,7 @@ def _supabase_admin_request(method: str, path: str, body: dict[str, Any] | None 
         data=data,
         headers={
             "apikey": secret_key,
-            "Authorization": f"Bearer {service_role}",
+            "Authorization": f"Bearer {secret_key}",
             "Content-Type": "application/json",
         },
     )
@@ -1553,6 +1574,69 @@ def _guest_login_sync() -> dict[str, Any]:
         conn.commit()
 
     return {"email": guest_email, "password": guest_password}
+
+
+def _guest_admin_login_sync() -> dict[str, Any]:
+    admin_email = os.environ.get("GUEST_ADMIN_EMAIL", "admin@director.local")
+    admin_password = os.environ.get("GUEST_ADMIN_PASSWORD", "AdminDemo123!")
+    admin_name = os.environ.get("GUEST_ADMIN_NAME", "Guest Admin")
+
+    users_response = _supabase_admin_request("GET", "/auth/v1/admin/users?page=1&per_page=200")
+    users = users_response.get("users", []) if isinstance(users_response, dict) else []
+    existing = next((u for u in users if str(u.get("email", "")).lower() == admin_email.lower()), None)
+
+    metadata = {"displayName": admin_name, "accountType": "admin", "isDemo": True}
+    if existing:
+        user_id = existing.get("id")
+        _supabase_admin_request(
+            "PUT",
+            f"/auth/v1/admin/users/{user_id}",
+            {
+                "password": admin_password,
+                "email_confirm": True,
+                "user_metadata": metadata,
+            },
+        )
+    else:
+        created = _supabase_admin_request(
+            "POST",
+            "/auth/v1/admin/users",
+            {
+                "email": admin_email,
+                "password": admin_password,
+                "email_confirm": True,
+                "user_metadata": metadata,
+            },
+        )
+        user_obj = created.get("user") if isinstance(created, dict) else None
+        user_id = user_obj.get("id") if isinstance(user_obj, dict) else None
+
+    if not user_id:
+        raise HTTPException(status_code=500, detail="Failed to create or update guest admin user")
+
+    with get_conn() as conn, conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO profiles (id, account_type, display_name, email, country)
+            VALUES (%s, 'admin', %s, %s, 'GB')
+            ON CONFLICT (id)
+            DO UPDATE SET
+              account_type = 'admin',
+              display_name = EXCLUDED.display_name,
+              email = EXCLUDED.email,
+              country = 'GB',
+              updated_at = NOW()
+            """,
+            (user_id, admin_name, admin_email),
+        )
+        # Auto-accept ToS for demo accounts
+        cur.execute(
+            "UPDATE profiles SET terms_accepted_at = NOW() WHERE id = %s AND terms_accepted_at IS NULL",
+            (user_id,),
+        )
+        conn.commit()
+
+    return {"email": admin_email, "password": admin_password}
 
 
 def _wait_for_transcript_text_sync(session_id: str, max_attempts: int = 6, delay_ms: int = 400) -> str:
@@ -2372,6 +2456,13 @@ async def guest_login(x_internal_api_key: str | None = Header(default=None)) -> 
     return await asyncio.to_thread(_guest_login_sync)
 
 
+@app.post("/api/auth/guest-admin-login")
+async def guest_admin_login(x_internal_api_key: str | None = Header(default=None)) -> dict[str, Any]:
+    if AGENT_INTERNAL_API_KEY and x_internal_api_key != AGENT_INTERNAL_API_KEY:
+        raise HTTPException(status_code=401, detail="Unauthorized")
+    return await asyncio.to_thread(_guest_admin_login_sync)
+
+
 @app.patch("/api/profile/terms-accept")
 async def terms_accept(
     authorization: str | None = Header(default=None),
@@ -2535,6 +2626,254 @@ def _require_admin(authorization: str | None) -> str:
         if account_type != "admin" and email not in ADMIN_EMAILS:
             raise HTTPException(status_code=403, detail="Forbidden")
     return profile_id
+
+
+def _validate_waitlist_email(email: str) -> str:
+    cleaned = email.strip().lower()
+    if not EMAIL_REGEX.match(cleaned):
+        raise HTTPException(status_code=400, detail="Invalid email")
+    return cleaned
+
+
+def _validate_waitlist_role(role: str | None) -> str | None:
+    if role is None:
+        return None
+    normalized = role.strip().lower()
+    if normalized not in WAITLIST_ALLOWED_ROLES:
+        raise HTTPException(status_code=400, detail="Invalid role")
+    return normalized
+
+
+def _validate_waitlist_status(status: str) -> str:
+    normalized = status.strip().lower()
+    if normalized not in WAITLIST_ALLOWED_STATUSES:
+        raise HTTPException(status_code=400, detail="Invalid status")
+    return normalized
+
+
+@app.post("/api/waitlist")
+async def waitlist_signup(payload: WaitlistSignupRequest) -> dict[str, bool]:
+    email = _validate_waitlist_email(payload.email)
+    role = _validate_waitlist_role(payload.role)
+    subject_interests = [s.strip() for s in (payload.subjectInterests or []) if s.strip()]
+
+    def _upsert() -> None:
+        with get_conn() as conn, conn.cursor() as cur:
+            cur.execute(
+                """
+                INSERT INTO waitlist_signups (
+                    email, name, role, school, school_year, subject_interests, exam_board, status
+                )
+                VALUES (%s, %s, %s, %s, %s, %s, %s, 'pending')
+                ON CONFLICT (email)
+                DO UPDATE SET
+                    name = EXCLUDED.name,
+                    role = EXCLUDED.role,
+                    school = EXCLUDED.school,
+                    school_year = EXCLUDED.school_year,
+                    subject_interests = EXCLUDED.subject_interests,
+                    exam_board = EXCLUDED.exam_board,
+                    updated_at = NOW()
+                """,
+                (
+                    email,
+                    payload.name.strip() if payload.name else None,
+                    role,
+                    payload.school.strip() if payload.school else None,
+                    payload.schoolYear.strip() if payload.schoolYear else None,
+                    subject_interests,
+                    payload.examBoard.strip() if payload.examBoard else None,
+                ),
+            )
+            conn.commit()
+
+    await asyncio.to_thread(_upsert)
+    return {"ok": True}
+
+
+@app.get("/api/admin/waitlist")
+async def admin_waitlist(
+    authorization: str | None = Header(default=None),
+    page: int = 1,
+    per_page: int = 50,
+    status: str | None = None,
+) -> dict[str, Any]:
+    _require_admin(authorization)
+
+    normalized_status = _validate_waitlist_status(status) if status else None
+    safe_page = max(1, page)
+    safe_per_page = min(max(1, per_page), 200)
+
+    def _query() -> dict[str, Any]:
+        with get_conn() as conn, conn.cursor() as cur:
+            where_clauses = []
+            params: list[Any] = []
+
+            if normalized_status:
+                where_clauses.append("status = %s")
+                params.append(normalized_status)
+
+            where_sql = " AND ".join(where_clauses) if where_clauses else "TRUE"
+            cur.execute(f"SELECT COUNT(*) FROM waitlist_signups WHERE {where_sql}", params)
+            total = int(cur.fetchone()[0])
+
+            offset = (safe_page - 1) * safe_per_page
+            cur.execute(
+                f"""
+                SELECT id, email, name, role, school, school_year, subject_interests,
+                       exam_board, status, created_at, updated_at
+                FROM waitlist_signups
+                WHERE {where_sql}
+                ORDER BY created_at DESC
+                LIMIT %s OFFSET %s
+                """,
+                [*params, safe_per_page, offset],
+            )
+            rows = cur.fetchall()
+
+            items = [
+                {
+                    "id": int(row[0]),
+                    "email": str(row[1]),
+                    "name": str(row[2]) if row[2] else None,
+                    "role": str(row[3]) if row[3] else None,
+                    "school": str(row[4]) if row[4] else None,
+                    "schoolYear": str(row[5]) if row[5] else None,
+                    "subjectInterests": row[6] if row[6] else [],
+                    "examBoard": str(row[7]) if row[7] else None,
+                    "status": str(row[8]),
+                    "createdAt": row[9].isoformat() if row[9] else None,
+                    "updatedAt": row[10].isoformat() if row[10] else None,
+                }
+                for row in rows
+            ]
+
+            return {"items": items, "total": total, "page": safe_page, "perPage": safe_per_page}
+
+    return await asyncio.to_thread(_query)
+
+
+@app.patch("/api/admin/waitlist/{signup_id}/status")
+async def admin_waitlist_update_status(
+    signup_id: int,
+    payload: WaitlistStatusUpdateRequest,
+    authorization: str | None = Header(default=None),
+) -> dict[str, Any]:
+    _require_admin(authorization)
+    status = _validate_waitlist_status(payload.status)
+
+    def _update() -> dict[str, Any]:
+        with get_conn() as conn, conn.cursor() as cur:
+            cur.execute(
+                """
+                UPDATE waitlist_signups
+                SET status = %s, updated_at = NOW()
+                WHERE id = %s
+                RETURNING id, email, name, role, school, school_year, subject_interests,
+                          exam_board, status, created_at, updated_at
+                """,
+                (status, signup_id),
+            )
+            row = cur.fetchone()
+            conn.commit()
+
+        if not row:
+            raise HTTPException(status_code=404, detail="Signup not found")
+
+        return {
+            "id": int(row[0]),
+            "email": str(row[1]),
+            "name": str(row[2]) if row[2] else None,
+            "role": str(row[3]) if row[3] else None,
+            "school": str(row[4]) if row[4] else None,
+            "schoolYear": str(row[5]) if row[5] else None,
+            "subjectInterests": row[6] if row[6] else [],
+            "examBoard": str(row[7]) if row[7] else None,
+            "status": str(row[8]),
+            "createdAt": row[9].isoformat() if row[9] else None,
+            "updatedAt": row[10].isoformat() if row[10] else None,
+        }
+
+    item = await asyncio.to_thread(_update)
+    return {"ok": True, "item": item}
+
+
+@app.get("/api/admin/waitlist/export")
+async def admin_waitlist_export(
+    authorization: str | None = Header(default=None),
+    status: str | None = None,
+) -> StreamingResponse:
+    _require_admin(authorization)
+
+    normalized_status = _validate_waitlist_status(status) if status else None
+
+    def _query() -> list[Any]:
+        with get_conn() as conn, conn.cursor() as cur:
+            if normalized_status:
+                cur.execute(
+                    """
+                    SELECT id, email, name, role, school, school_year, subject_interests,
+                           exam_board, status, created_at, updated_at
+                    FROM waitlist_signups
+                    WHERE status = %s
+                    ORDER BY created_at DESC
+                    """,
+                    (normalized_status,),
+                )
+            else:
+                cur.execute(
+                    """
+                    SELECT id, email, name, role, school, school_year, subject_interests,
+                           exam_board, status, created_at, updated_at
+                    FROM waitlist_signups
+                    ORDER BY created_at DESC
+                    """
+                )
+            return cur.fetchall()
+
+    rows = await asyncio.to_thread(_query)
+    buffer = io.StringIO()
+    writer = csv.writer(buffer)
+    writer.writerow(
+        [
+            "id",
+            "email",
+            "name",
+            "role",
+            "school",
+            "school_year",
+            "subject_interests",
+            "exam_board",
+            "status",
+            "created_at",
+            "updated_at",
+        ]
+    )
+    for row in rows:
+        writer.writerow(
+            [
+                int(row[0]),
+                str(row[1]),
+                str(row[2]) if row[2] else "",
+                str(row[3]) if row[3] else "",
+                str(row[4]) if row[4] else "",
+                str(row[5]) if row[5] else "",
+                "; ".join(row[6]) if row[6] else "",
+                str(row[7]) if row[7] else "",
+                str(row[8]),
+                row[9].isoformat() if row[9] else "",
+                row[10].isoformat() if row[10] else "",
+            ]
+        )
+
+    csv_bytes = buffer.getvalue().encode("utf-8")
+    stream = io.BytesIO(csv_bytes)
+    filename = f"waitlist-{datetime.date.today().isoformat()}.csv"
+    return StreamingResponse(
+        stream,
+        media_type="text/csv",
+        headers={"Content-Disposition": f'attachment; filename="{filename}"'},
+    )
 
 
 @app.get("/api/admin/stats")
