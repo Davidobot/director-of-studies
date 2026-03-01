@@ -123,6 +123,12 @@ SCHEMA_SQL = [
     )
     """,
     "ALTER TABLE sessions ADD COLUMN IF NOT EXISTS duration_seconds integer",
+    # Phase: Auth + Legal columns
+    "ALTER TABLE profiles ADD COLUMN IF NOT EXISTS terms_accepted_at timestamptz",
+    "ALTER TABLE profiles ADD COLUMN IF NOT EXISTS deleted_at timestamptz",
+    "ALTER TABLE students ADD COLUMN IF NOT EXISTS consent_granted_at timestamptz",
+    "ALTER TABLE students ADD COLUMN IF NOT EXISTS consent_granted_by_parent_id uuid REFERENCES profiles(id) ON DELETE SET NULL",
+    "ALTER TABLE parents ADD COLUMN IF NOT EXISTS deleted_at timestamptz",
     """
     CREATE TABLE IF NOT EXISTS plans (
       id serial PRIMARY KEY,
@@ -365,6 +371,31 @@ SCHEMA_SQL = [
       embedding vector(1536) NOT NULL
     )
     """,
+    # Calendar integration tables
+    """
+    CREATE TABLE IF NOT EXISTS calendar_integrations (
+      id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+      student_id uuid NOT NULL REFERENCES students(id) ON DELETE CASCADE,
+      provider text NOT NULL,
+      enabled boolean NOT NULL DEFAULT true,
+      created_at timestamptz NOT NULL DEFAULT NOW(),
+      updated_at timestamptz NOT NULL DEFAULT NOW(),
+      CONSTRAINT calendar_integrations_student_provider_unique UNIQUE(student_id, provider)
+    )
+    """,
+    """
+    CREATE TABLE IF NOT EXISTS calendar_feed_tokens (
+      id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+      student_id uuid NOT NULL REFERENCES students(id) ON DELETE CASCADE,
+      token text NOT NULL UNIQUE,
+      created_at timestamptz NOT NULL DEFAULT NOW(),
+      UNIQUE(student_id)
+    )
+    """,
+    # Active views for soft-delete
+    "CREATE OR REPLACE VIEW active_profiles AS SELECT * FROM profiles WHERE deleted_at IS NULL",
+    "CREATE OR REPLACE VIEW active_students AS SELECT s.* FROM students s INNER JOIN profiles p ON s.id = p.id WHERE p.deleted_at IS NULL",
+    "CREATE OR REPLACE VIEW active_parents AS SELECT pa.* FROM parents pa INNER JOIN profiles p ON pa.id = p.id WHERE p.deleted_at IS NULL",
 ]
 
 

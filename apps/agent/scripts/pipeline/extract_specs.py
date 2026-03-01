@@ -8,10 +8,6 @@ from .checksums import load_checksums, save_checksums, sha256_file
 from .manifest import cache_root, enabled_specs
 
 
-def _pdf_path(key: str) -> Path:
-    return cache_root() / "pdfs" / f"{key}.pdf"
-
-
 def _raw_path(board_slug: str, level_subject_slug: str, topic_slug: str) -> Path:
     return cache_root() / "raw" / board_slug / level_subject_slug / f"{topic_slug}.txt"
 
@@ -45,7 +41,7 @@ def main() -> None:
     skip_count = 0
 
     for spec in specs:
-        pdf_path = _pdf_path(spec.key)
+        pdf_path = spec.resolved_pdf_path()
         if not pdf_path.exists():
             print(f"[skip] {spec.key} missing PDF at {pdf_path}")
             skip_count += 1

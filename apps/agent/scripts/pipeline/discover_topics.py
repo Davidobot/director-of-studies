@@ -33,6 +33,7 @@ def _discover_topics(
     subject: str,
     syllabus_code: str | None,
     raw_text: str,
+    category: str = "academic",
 ) -> list[dict[str, str]]:
     prompt = topic_discovery_prompt(
         board_name=board_name,
@@ -40,6 +41,7 @@ def _discover_topics(
         subject=subject,
         syllabus_code=syllabus_code,
         raw_text=raw_text[:120000],
+        category=category,
     )
     response = client.responses.create(model=MODEL, input=prompt)
     text = (response.output_text or "").strip()
@@ -123,6 +125,7 @@ def main() -> None:
             subject=spec.subject,
             syllabus_code=spec.syllabus_code,
             raw_text=raw_file.read_text(encoding="utf-8"),
+            category=spec.category,
         )
         if not topics:
             print(f"[skip] no topics discovered for {spec.key}")

@@ -14,6 +14,8 @@ export const profiles = pgTable("profiles", {
   displayName: text("display_name").notNull(),
   email: text("email").notNull().unique(),
   country: text("country").notNull().default("GB"),
+  termsAcceptedAt: timestamp("terms_accepted_at", { withTimezone: true }),
+  deletedAt: timestamp("deleted_at", { withTimezone: true }),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
   updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
 });
@@ -22,11 +24,14 @@ export const students = pgTable("students", {
   id: uuid("id").primaryKey().references(() => profiles.id, { onDelete: "cascade" }),
   dateOfBirth: date("date_of_birth").notNull(),
   schoolYear: integer("school_year").notNull(),
+  consentGrantedAt: timestamp("consent_granted_at", { withTimezone: true }),
+  consentGrantedByParentId: uuid("consent_granted_by_parent_id").references(() => profiles.id, { onDelete: "set null" }),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 });
 
 export const parents = pgTable("parents", {
   id: uuid("id").primaryKey().references(() => profiles.id, { onDelete: "cascade" }),
+  deletedAt: timestamp("deleted_at", { withTimezone: true }),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 });
 
@@ -346,3 +351,24 @@ export const chunks = pgTable("chunks", {
   filterIdx: index("chunks_course_topic_idx").on(table.courseId, table.topicId),
   vectorIdx: index("chunks_embedding_ivfflat_idx").using("ivfflat", table.embedding.op("vector_cosine_ops")),
 }));
+
+// Calendar integration with external providers (Google, Apple, CalDAV)
+export const calendarIntegrations = pgTable("calendar_integrations", {
+  id: uuid("id").primaryKey().default(sql`gen_random_uuid()`),
+  studentId: uuid("student_id").notNull().references(() => students.id, { onDelete: "cascade" }),
+  provider: text("provider").notNull(), // 'google' | 'apple' | 'caldav'
+  enabled: boolean("enabled").notNull().default(true),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+  updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
+}, (table) => ({
+  calIntStudentIdx: index("calendar_integrations_student_idx").on(table.studentId),
+  calIntStudentProviderUniq: uniqueIndex("calendar_integrations_student_provider_unique").on(table.studentId, table.provider),
+}));
+
+// Per-student iCal feed token for subscribable calendar URLs
+export const calendarFeedTokens = pgTable("calendar_feed_tokens", {
+  id: uuid("id").primaryKey().default(sql`gen_random_uuid()`),
+  studentId: uuid("student_id").notNull().references(() => students.id, { onDelete: "cascade" }).unique(),
+  token: text("token").notNull().unique(),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+});

@@ -506,6 +506,24 @@ def _create_session_sync(course_id: int, topic_id: int, student_id: str) -> Sess
         if not quota.allowed:
             raise HTTPException(status_code=402, detail=quota.reason or "Subscription quota exceeded")
 
+        # ToS gate — guests (terms_accepted_at auto-set) and normal users must have accepted
+        cur.execute("SELECT terms_accepted_at, deleted_at FROM profiles WHERE id = %s", (student_id,))
+        tos_row = cur.fetchone()
+        if tos_row and tos_row[1] is not None:
+            raise HTTPException(status_code=403, detail="account_deleted")
+        if tos_row and tos_row[0] is None:
+            raise HTTPException(status_code=403, detail="terms_not_accepted")
+
+        # Parental consent gate — students under 13 must have consent_granted_at set
+        cur.execute("SELECT date_of_birth, consent_granted_at FROM students WHERE id = %s", (student_id,))
+        consent_row = cur.fetchone()
+        if consent_row:
+            dob = consent_row[0]
+            today = datetime.date.today()
+            age = today.year - dob.year - ((today.month, today.day) < (dob.month, dob.day))
+            if age < 13 and consent_row[1] is None:
+                raise HTTPException(status_code=403, detail="consent_required")
+
         subject_id = course_row[0]
         exam_board_id = course_row[1]
         enrolment_id: int | None = None
@@ -1106,8 +1124,23 @@ def _parent_link_code_sync(payload: ParentLinkCodeRequest) -> str:
             (payload.parentId, invite[1], payload.relationship or "guardian"),
         )
         cur.execute("UPDATE student_invite_codes SET used_at = NOW() WHERE id = %s", (invite[0],))
+
+        # Grant parental consent for minors (under 13) when a parent links
+        student_id = str(invite[1])
+        cur.execute("SELECT date_of_birth FROM students WHERE id = %s", (student_id,))
+        student_row = cur.fetchone()
+        if student_row:
+            dob = student_row[0]
+            today = datetime.date.today()
+            age = today.year - dob.year - ((today.month, today.day) < (dob.month, dob.day))
+            if age < 13:
+                cur.execute(
+                    "UPDATE students SET consent_granted_at = NOW(), consent_granted_by_parent_id = %s WHERE id = %s AND consent_granted_at IS NULL",
+                    (payload.parentId, student_id),
+                )
+
         conn.commit()
-        return str(invite[1])
+        return student_id
 
 
 def _parent_restrictions_get_sync(parent_id: str, student_id: str) -> dict[str, Any] | None:
@@ -1495,6 +1528,12 @@ def _guest_login_sync() -> dict[str, Any]:
               date_of_birth = EXCLUDED.date_of_birth,
               school_year = EXCLUDED.school_year
             """,
+            (user_id,),
+        )
+
+        # Auto-accept ToS for guest/demo accounts
+        cur.execute(
+            "UPDATE profiles SET terms_accepted_at = NOW() WHERE id = %s AND terms_accepted_at IS NULL",
             (user_id,),
         )
 
@@ -1920,6 +1959,198 @@ async def calendar_delete(
     return {"ok": True}
 
 
+# ── iCal feed endpoints ─────────────────────────────────────────────────
+
+
+@app.get("/api/calendar/feed-token")
+async def calendar_feed_token_get(
+    studentId: str,
+    x_internal_api_key: str | None = Header(default=None),
+    authorization: str | None = Header(default=None),
+) -> dict[str, Any]:
+    _validate_internal_api_key(x_internal_api_key, authorization, studentId)
+    result = await asyncio.to_thread(_calendar_feed_token_get_sync, studentId)
+    return result
+
+
+@app.post("/api/calendar/feed-token/regenerate")
+async def calendar_feed_token_regenerate(
+    studentId: str,
+    x_internal_api_key: str | None = Header(default=None),
+    authorization: str | None = Header(default=None),
+) -> dict[str, Any]:
+    _validate_internal_api_key(x_internal_api_key, authorization, studentId)
+    result = await asyncio.to_thread(_calendar_feed_token_regenerate_sync, studentId)
+    return result
+
+
+from fastapi.responses import Response  # noqa: E402
+
+
+@app.get("/calendar/feed/{token}")
+async def calendar_ical_feed(token: str) -> Response:
+    """Public iCal feed — no auth required, uses unguessable token."""
+    body = await asyncio.to_thread(_calendar_ical_feed_sync, token)
+    return Response(content=body, media_type="text/calendar; charset=utf-8")
+
+
+def _calendar_feed_token_get_sync(student_id: str) -> dict[str, Any]:
+    with get_conn() as conn, conn.cursor() as cur:
+        cur.execute("SELECT token FROM calendar_feed_tokens WHERE student_id = %s", (student_id,))
+        row = cur.fetchone()
+        if row:
+            base_url = os.getenv("NEXT_PUBLIC_API_URL", "http://localhost:8000")
+            return {"token": row[0], "feedUrl": f"{base_url}/calendar/feed/{row[0]}"}
+        return {"token": None, "feedUrl": None}
+
+
+def _calendar_feed_token_regenerate_sync(student_id: str) -> dict[str, Any]:
+    token = str(uuid.uuid4())
+    with get_conn() as conn, conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO calendar_feed_tokens (student_id, token)
+            VALUES (%s, %s)
+            ON CONFLICT (student_id) DO UPDATE SET token = EXCLUDED.token, created_at = NOW()
+            RETURNING token
+            """,
+            (student_id, token),
+        )
+        row = cur.fetchone()
+        conn.commit()
+        final_token = row[0] if row else token
+        base_url = os.getenv("NEXT_PUBLIC_API_URL", "http://localhost:8000")
+        return {"token": final_token, "feedUrl": f"{base_url}/calendar/feed/{final_token}"}
+
+
+def _calendar_ical_feed_sync(token: str) -> bytes:
+    from icalendar import Calendar, Event as ICalEvent  # type: ignore[import-untyped]
+
+    with get_conn() as conn, conn.cursor() as cur:
+        # Look up student from token
+        cur.execute("SELECT student_id FROM calendar_feed_tokens WHERE token = %s", (token,))
+        row = cur.fetchone()
+        if not row:
+            raise HTTPException(status_code=404, detail="Invalid feed token")
+        student_id = row[0]
+
+        # Fetch scheduled tutorials
+        cur.execute(
+            """
+            SELECT id, title, scheduled_at, duration_minutes, status
+            FROM scheduled_tutorials
+            WHERE student_id = %s
+            ORDER BY scheduled_at
+            """,
+            (str(student_id),),
+        )
+        tutorials = cur.fetchall()
+
+    cal = Calendar()
+    cal.add("prodid", "-//Director of Studies//EN")
+    cal.add("version", "2.0")
+    cal.add("calscale", "GREGORIAN")
+    cal.add("x-wr-calname", "Director of Studies Tutorials")
+
+    for tut in tutorials:
+        tut_id, title, scheduled_at, duration_minutes, status = tut
+        event = ICalEvent()
+        event.add("uid", f"{tut_id}@directorofstudies.app")
+        event.add("summary", f"{title} [{status}]" if status != "scheduled" else title)
+        event.add("dtstart", scheduled_at)
+        event.add("duration", datetime.timedelta(minutes=duration_minutes))
+        event.add("status", "CONFIRMED" if status == "scheduled" else "CANCELLED" if status == "cancelled" else "COMPLETED")
+        cal.add_component(event)
+
+    return cal.to_ical()
+
+
+# ── Calendar integration management ─────────────────────────────────────
+
+
+@app.get("/api/calendar/integrations")
+async def calendar_integrations_list(
+    studentId: str,
+    x_internal_api_key: str | None = Header(default=None),
+    authorization: str | None = Header(default=None),
+) -> dict[str, Any]:
+    _validate_internal_api_key(x_internal_api_key, authorization, studentId)
+    rows = await asyncio.to_thread(_calendar_integrations_list_sync, studentId)
+    return {"integrations": rows}
+
+
+class CalendarIntegrationToggleRequest(BaseModel):
+    studentId: str
+    provider: str
+    enabled: bool
+
+
+@app.post("/api/calendar/integrations")
+async def calendar_integration_toggle(
+    payload: CalendarIntegrationToggleRequest,
+    x_internal_api_key: str | None = Header(default=None),
+    authorization: str | None = Header(default=None),
+) -> dict[str, Any]:
+    _validate_internal_api_key(x_internal_api_key, authorization, payload.studentId)
+    result = await asyncio.to_thread(
+        _calendar_integration_toggle_sync, payload.studentId, payload.provider, payload.enabled
+    )
+    return result
+
+
+@app.delete("/api/calendar/integrations/{integration_id}")
+async def calendar_integration_delete(
+    integration_id: str,
+    studentId: str,
+    x_internal_api_key: str | None = Header(default=None),
+    authorization: str | None = Header(default=None),
+) -> dict[str, bool]:
+    _validate_internal_api_key(x_internal_api_key, authorization, studentId)
+    await asyncio.to_thread(_calendar_integration_delete_sync, integration_id, studentId)
+    return {"ok": True}
+
+
+def _calendar_integrations_list_sync(student_id: str) -> list[dict[str, Any]]:
+    with get_conn() as conn, conn.cursor() as cur:
+        cur.execute(
+            "SELECT id, provider, enabled, created_at FROM calendar_integrations WHERE student_id = %s ORDER BY created_at",
+            (student_id,),
+        )
+        rows = cur.fetchall()
+        return [
+            {"id": str(r[0]), "provider": r[1], "enabled": r[2], "createdAt": r[3].isoformat() if r[3] else None}
+            for r in rows
+        ]
+
+
+def _calendar_integration_toggle_sync(student_id: str, provider: str, enabled: bool) -> dict[str, Any]:
+    with get_conn() as conn, conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO calendar_integrations (student_id, provider, enabled)
+            VALUES (%s, %s, %s)
+            ON CONFLICT ON CONSTRAINT calendar_integrations_student_provider_unique
+            DO UPDATE SET enabled = EXCLUDED.enabled, updated_at = NOW()
+            RETURNING id, provider, enabled
+            """,
+            (student_id, provider, enabled),
+        )
+        row = cur.fetchone()
+        conn.commit()
+        if row:
+            return {"id": str(row[0]), "provider": row[1], "enabled": row[2]}
+        return {"id": None, "provider": provider, "enabled": enabled}
+
+
+def _calendar_integration_delete_sync(integration_id: str, student_id: str) -> None:
+    with get_conn() as conn, conn.cursor() as cur:
+        cur.execute(
+            "DELETE FROM calendar_integrations WHERE id = %s AND student_id = %s",
+            (integration_id, student_id),
+        )
+        conn.commit()
+
+
 @app.get("/api/reference/board-subjects")
 async def reference_board_subjects(
     x_internal_api_key: str | None = Header(default=None),
@@ -2139,3 +2370,84 @@ async def guest_login(x_internal_api_key: str | None = Header(default=None)) -> 
     if AGENT_INTERNAL_API_KEY and x_internal_api_key != AGENT_INTERNAL_API_KEY:
         raise HTTPException(status_code=401, detail="Unauthorized")
     return await asyncio.to_thread(_guest_login_sync)
+
+
+@app.patch("/api/profile/terms-accept")
+async def terms_accept(
+    authorization: str | None = Header(default=None),
+    x_internal_api_key: str | None = Header(default=None),
+) -> dict[str, bool]:
+    user_id = _validate_internal_api_key(x_internal_api_key, authorization)
+    if not user_id:
+        raise HTTPException(status_code=401, detail="Unauthorized")
+    await asyncio.to_thread(_terms_accept_sync, user_id)
+    return {"ok": True}
+
+
+def _terms_accept_sync(user_id: str) -> None:
+    with get_conn() as conn, conn.cursor() as cur:
+        cur.execute(
+            "UPDATE profiles SET terms_accepted_at = NOW(), updated_at = NOW() WHERE id = %s AND terms_accepted_at IS NULL",
+            (user_id,),
+        )
+        conn.commit()
+
+
+@app.get("/api/student/consent-status")
+async def consent_status(
+    studentId: str,
+    authorization: str | None = Header(default=None),
+    x_internal_api_key: str | None = Header(default=None),
+) -> dict[str, Any]:
+    _validate_internal_api_key(x_internal_api_key, authorization, studentId)
+    return await asyncio.to_thread(_consent_status_sync, studentId)
+
+
+def _consent_status_sync(student_id: str) -> dict[str, Any]:
+    with get_conn() as conn, conn.cursor() as cur:
+        cur.execute(
+            "SELECT date_of_birth, consent_granted_at FROM students WHERE id = %s",
+            (student_id,),
+        )
+        row = cur.fetchone()
+        if not row:
+            return {"required": False, "granted": False, "minorAge": False}
+
+        dob = row[0]
+        consent_granted_at = row[1]
+        today = datetime.date.today()
+        age = today.year - dob.year - ((today.month, today.day) < (dob.month, dob.day))
+        is_minor = age < 13
+
+        return {
+            "required": is_minor,
+            "granted": consent_granted_at is not None,
+            "minorAge": is_minor,
+            "age": age,
+        }
+
+
+@app.delete("/api/profile")
+async def delete_profile(
+    authorization: str | None = Header(default=None),
+    x_internal_api_key: str | None = Header(default=None),
+) -> dict[str, bool]:
+    user_id = _validate_internal_api_key(x_internal_api_key, authorization)
+    if not user_id:
+        raise HTTPException(status_code=401, detail="Unauthorized")
+    await asyncio.to_thread(_soft_delete_profile_sync, user_id)
+    return {"ok": True, "signOutRequired": True}
+
+
+def _soft_delete_profile_sync(user_id: str) -> None:
+    with get_conn() as conn, conn.cursor() as cur:
+        now = datetime.datetime.now(datetime.timezone.utc)
+        cur.execute(
+            "UPDATE profiles SET deleted_at = %s, updated_at = %s WHERE id = %s AND deleted_at IS NULL",
+            (now, now, user_id),
+        )
+        cur.execute(
+            "UPDATE parents SET deleted_at = %s WHERE id = %s AND deleted_at IS NULL",
+            (now, user_id),
+        )
+        conn.commit()

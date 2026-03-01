@@ -29,6 +29,10 @@ exam_boards:
     code: CIE
     name: Cambridge International
     country: GB
+  extras:
+    code: EXTRAS
+    name: Supplementary & Enrichment
+    country: GB
 
 specs:
   - key: aqa-gcse-geography-8035
@@ -761,3 +765,94 @@ specs:
     syllabus_code: ""
     course_name: GCE AS/A Level Sociology (WJEC)
     pdf_url: https://www.wjec.co.uk/media/owifffk1/wjec-gce-sociology-spec-from-2015-e-09-06-2020.pdf
+
+  # ---------------------------------------------------------------------------
+  # Extras — supercurricular / enrichment subjects
+  #
+  # These have no exam-board PDF download. Place source PDFs manually:
+  #   content/.cache/pdfs/<key>.pdf   (or use pdf_file: to set a custom filename)
+  #
+  # Then run the normal pipeline:  make extract discover-topics beautify keywords
+  # ---------------------------------------------------------------------------
+
+  - key: extras-debating
+    enabled: false          # flip to true once PDF is placed
+    board: extras
+    level: Enrichment
+    subject: Debating
+    category: supercurricular
+    course_name: Debating & Public Speaking
+    pdf_url: ""
+
+  - key: extras-metacognition
+    enabled: false
+    board: extras
+    level: Enrichment
+    subject: Metacognition
+    category: supercurricular
+    course_name: Metacognition & Study Skills
+    pdf_url: ""
+
+  # Oxbridge admissions — one entry per target subject
+  - key: extras-oxbridge-history
+    enabled: false
+    board: extras
+    level: Enrichment
+    subject: Oxbridge Admissions — History
+    category: supercurricular
+    course_name: Oxbridge Admissions — History
+    pdf_url: ""
+
+  - key: extras-oxbridge-geography
+    enabled: false
+    board: extras
+    level: Enrichment
+    subject: Oxbridge Admissions — Geography
+    category: supercurricular
+    course_name: Oxbridge Admissions — Geography
+    pdf_url: ""
+
+  - key: extras-oxbridge-law
+    enabled: false
+    board: extras
+    level: Enrichment
+    subject: Oxbridge Admissions — Law
+    category: supercurricular
+    course_name: Oxbridge Admissions — Law
+    pdf_url: ""
+
+  - key: extras-oxbridge-philosophy
+    enabled: false
+    board: extras
+    level: Enrichment
+    subject: Oxbridge Admissions — Philosophy
+    category: supercurricular
+    course_name: Oxbridge Admissions — Philosophy
+    pdf_url: ""
+
+  - key: extras-oxbridge-politics
+    enabled: false
+    board: extras
+    level: Enrichment
+    subject: Oxbridge Admissions — Politics
+    category: supercurricular
+    course_name: Oxbridge Admissions — Politics
+    pdf_url: ""
+
+  - key: extras-oxbridge-sociology
+    enabled: false
+    board: extras
+    level: Enrichment
+    subject: Oxbridge Admissions — Sociology
+    category: supercurricular
+    course_name: Oxbridge Admissions — Sociology
+    pdf_url: ""
+
+  - key: extras-oxbridge-religious-studies
+    enabled: false
+    board: extras
+    level: Enrichment
+    subject: Oxbridge Admissions — Religious Studies
+    category: supercurricular
+    course_name: Oxbridge Admissions — Religious Studies
+    pdf_url: ""

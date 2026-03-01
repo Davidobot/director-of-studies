@@ -74,6 +74,22 @@ export default async function DashboardPage() {
 
   const stats = statsRows[0] ?? { totalSessions: 0, sessionsThisWeek: 0 };
 
+  // Determine if under-13 without consent
+  let needsConsent = false;
+  if (student.dateOfBirth && !student.consentGrantedAt) {
+    const dob = new Date(student.dateOfBirth);
+    const today = new Date();
+    let age = today.getFullYear() - dob.getFullYear();
+    if (today.getMonth() < dob.getMonth() || (today.getMonth() === dob.getMonth() && today.getDate() < dob.getDate())) {
+      age--;
+    }
+    needsConsent = age < 13;
+  }
+
+  if (needsConsent) {
+    redirect("/auth/consent-pending");
+  }
+
   return (
     <main className="space-y-4">
       <section className="rounded border border-slate-800 bg-slate-900 p-4">

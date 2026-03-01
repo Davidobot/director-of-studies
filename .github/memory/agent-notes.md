@@ -376,3 +376,57 @@ Use this file as shared working memory across tasks.
 - **Files touched:** `apps/agent/scripts/copy_stripe_live_to_test.py`, `README.md`, `.github/memory/agent-notes.md`.
 - **Follow-up:** Use generated mapping file `apps/agent/stripe-live-to-test-map.json` as the source for wiring test product IDs into env.
 
+### 2026-03-01 (extras / supercurricular content path)
+- **Context:** User requested a separate content path for non-exam-board subjects (debating, Oxbridge admissions per subject) that reuses the existing pipeline.
+- **Discovery:** Current pipeline is tightly coupled to the exam-board spec model (`board` + `pdf_url` required for enabled specs). Prompts hard-code "UK exam specification" framing.
+- **Decision:** Extended the existing spec infrastructure rather than creating a parallel system:
+  - Added pseudo exam board `extras` (code `EXTRAS`) to `specs.yaml`.
+  - Added `pdf_file` optional field to `Specification` dataclass for custom PDF naming.
+  - Added `is_extras` property and `resolved_pdf_path()` method on `Specification`.
+  - Relaxed `_validate_spec` to allow `pdf_url: ""` for non-academic specs.
+  - Updated `_slugify` to strip em-dashes and en-dashes.
+  - Updated `download_specs.py` to print manual-placement instructions for extras.
+  - Updated `extract_specs.py` and `download_specs.py` to use `spec.resolved_pdf_path()`.
+  - Made `topic_discovery_prompt` and `beautify_prompt` category-aware (non-academic uses generic educational framing, not "UK exam specification").
+  - Passed `category` through `discover_topics.py` and `beautify_specs.py`.
+  - Updated `seed_db.py` to derive supercurricular subjects from specs rather than hardcoding.
+  - Added 9 sample extras entries in `specs.yaml` (debating, metacognition, 7 Oxbridge per-subject), all `enabled: false` by default.
+- **Content directory layout:** `content/extras/{level}-{subject-slug}/{topic-slug}/` e.g. `content/extras/enrichment-oxbridge-admissions-history/`.
+- **Workflow:** Place PDF at `content/.cache/pdfs/{key}.pdf` → set `enabled: true` → `make extract discover-topics beautify keywords` → `make ingest`.
+- **Files touched:** `specs.yaml`, `apps/agent/scripts/pipeline/{manifest.py,download_specs.py,extract_specs.py,discover_topics.py,beautify_specs.py,prompts.py}`, `apps/agent/scripts/seed_db.py`, `README.md`, `.github/memory/agent-notes.md`.
+- **Follow-up:** Place actual PDFs for enabled extras, run pipeline, and verify generated content quality. If Oxbridge admissions needs subject-specific interview-style prompts, add a prompt variant in `prompts.py`.
+
+### 2025-07-07 (Auth Gaps + Legal + Calendar Sync implementation)
+- **Context:** Implemented TODO sections 2 (Auth Gaps), 3 (Legal & Safeguarding), and 7 (Calendar Sync).
+- **Discovery:** Next.js 16 uses Promise params pattern. Supabase auth `signUp` returns `session === null` when email confirmation is required. Under-13 consent threshold was chosen (UK GDPR default age for children's data).
+- **Decision:** Full 14-phase implementation completed:
+  - **Auth:** Split AuthForm into LoginForm + SignupForm. Created forgot-password, reset-password, confirm-email pages. Added ToS checkbox to signup. Middleware uses hybrid path matching (`startsWith('/auth/')` + explicit set).
+  - **Legal:** Static terms + privacy pages (UK-specific). ToS acceptance gate (API + non-dismissable overlay banner). Parental consent gate for under-13 (onboarding age check → `/auth/consent-pending`, parent link-code auto-grants consent, API session gate). Soft-delete with `deleted_at` columns + `active_*` views. Cookie banner with essential/analytics categories (localStorage).
+  - **Calendar:** iCal feed via `icalendar` library (token-based public endpoint at `/calendar/feed/{token}`). CalendarPlanner UI with subscribe section (copy URL, Add to Google Calendar, Add to Apple Calendar via webcal://). Google Calendar sync via OAuth2 access token + Google Calendar API v3 (create/update/delete events). Calendar integrations CRUD endpoints. Apple/CalDAV handled via iCal feed subscription.
+  - **Testing:** Pytest setup for Python (conftest + test_gates + test_calendar). Vitest setup for frontend (cookie-banner, calendar-sync, auth-validation tests).
+- **Files touched (new):**
+  - `apps/web/src/components/LoginForm.tsx`, `SignupForm.tsx`, `ToSBanner.tsx`, `CookieBanner.tsx`
+  - `apps/web/src/app/auth/forgot-password/page.tsx`, `reset-password/page.tsx`, `confirm-email/page.tsx`, `consent-pending/page.tsx`
+  - `apps/web/src/app/terms/page.tsx`, `privacy/page.tsx`
+  - `apps/web/src/app/settings/profile/delete/page.tsx`
+  - `apps/web/src/components/CalendarPlanner.tsx` (extended with CalendarSubscribe + CalendarIntegrations)
+  - `apps/web/vitest.config.ts`, `apps/web/src/__tests__/*.test.ts`
+  - `apps/agent/tests/conftest.py`, `test_gates.py`, `test_calendar.py`
+- **Files touched (modified):**
+  - `apps/agent/app/main.py` — added 7 endpoints (terms-accept, consent-status, delete-profile, feed-token, feed-token/regenerate, ical-feed, calendar-integrations CRUD), ToS gate, consent gate, soft-delete check
+  - `apps/agent/scripts/bootstrap_db.py` — new columns, tables, views, unique constraint
+  - `apps/web/src/db/schema.ts` — new columns, tables, indexes
+  - `apps/web/src/lib/student.ts` — added termsAcceptedAt + consentGrantedAt
+  - `apps/web/src/lib/calendar-sync.ts` — implemented GoogleCalendarSync, added deleteEvent interface
+  - `apps/web/src/app/layout.tsx`, `middleware.ts`, `login/page.tsx`, `signup/page.tsx`, `onboarding/page.tsx`, `dashboard/page.tsx`, `settings/profile/page.tsx`
+  - `apps/agent/pyproject.toml`, `requirements.txt` — added icalendar dep + test deps
+  - `apps/web/package.json` — added vitest + testing-library deps
+  - `TODO.md` — sections 2, 3, 7 marked ✅
+- **Follow-up:**
+  - Run `npm install` in `apps/web` to install vitest deps
+  - Run `pip install -e ".[test]"` in `apps/agent` to install pytest deps
+  - Set `GOOGLE_CLIENT_ID` + `GOOGLE_CLIENT_SECRET` in Supabase for Google OAuth
+  - Run `npm run test` and `pytest` to verify test suites pass
+  - Old `AuthForm.tsx` can be deleted (no longer imported)
+
+

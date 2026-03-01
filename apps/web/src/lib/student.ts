@@ -8,9 +8,11 @@ export async function getStudentContext(userId: string) {
       profileId: profiles.id,
       accountType: profiles.accountType,
       displayName: profiles.displayName,
+      termsAcceptedAt: profiles.termsAcceptedAt,
       studentId: students.id,
       schoolYear: students.schoolYear,
       dateOfBirth: students.dateOfBirth,
+      consentGrantedAt: students.consentGrantedAt,
     })
     .from(profiles)
     .leftJoin(students, eq(students.id, profiles.id))

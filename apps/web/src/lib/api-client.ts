@@ -5,7 +5,7 @@ import { createClient } from "@/lib/supabase/client";
 type UserScope = "studentId" | "parentId";
 
 type ApiFetchOptions = {
-  method?: "GET" | "POST" | "PUT" | "DELETE";
+  method?: "GET" | "POST" | "PUT" | "PATCH" | "DELETE";
   query?: Record<string, string | number | boolean | null | undefined>;
   body?: Record<string, unknown> | null;
   userScope?: UserScope;

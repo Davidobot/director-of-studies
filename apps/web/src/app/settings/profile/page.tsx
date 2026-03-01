@@ -145,6 +145,20 @@ export default async function ProfileSettingsPage({
 
       {/* Parent link invite code */}
       {isStudent ? <StudentInviteCode /> : null}
+
+      {/* Danger zone */}
+      <section className="rounded-lg border border-red-900 bg-red-950/30 p-5">
+        <h2 className="mb-1 text-base font-semibold text-red-400">Danger zone</h2>
+        <p className="mb-3 text-sm text-slate-400">
+          Permanently delete your account and all associated data.
+        </p>
+        <Link
+          href="/settings/profile/delete"
+          className="rounded-md border border-red-800 px-4 py-2 text-sm text-red-300 hover:bg-red-900/40"
+        >
+          Delete account
+        </Link>
+      </section>
     </main>
   );
 }

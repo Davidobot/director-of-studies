@@ -1,7 +1,14 @@
 import { createServerClient } from "@supabase/ssr";
 import { NextResponse, type NextRequest } from "next/server";
 
-const PUBLIC_PATHS = new Set(["/login", "/signup", "/auth/callback"]);
+const PUBLIC_PATHS = new Set(["/login", "/signup", "/terms", "/privacy"]);
+
+function isPublicPath(pathname: string): boolean {
+  if (PUBLIC_PATHS.has(pathname)) return true;
+  // All /auth/* routes are public (callback, forgot-password, reset-password, confirm-email, consent-pending)
+  if (pathname.startsWith("/auth/")) return true;
+  return false;
+}
 
 export async function middleware(request: NextRequest) {
   let response = NextResponse.next({ request });
@@ -29,16 +36,16 @@ export async function middleware(request: NextRequest) {
   const { data } = await supabase.auth.getUser();
   const user = data.user;
   const pathname = request.nextUrl.pathname;
-  const isPublicPath = PUBLIC_PATHS.has(pathname);
+  const isPublic = isPublicPath(pathname);
 
-  if (!user && !isPublicPath) {
+  if (!user && !isPublic) {
     const loginUrl = request.nextUrl.clone();
     loginUrl.pathname = "/login";
     loginUrl.searchParams.set("redirectTo", pathname);
     return NextResponse.redirect(loginUrl);
   }
 
-  if (user && isPublicPath) {
+  if (user && isPublic) {
     const homeUrl = request.nextUrl.clone();
     homeUrl.pathname = "/";
     return NextResponse.redirect(homeUrl);

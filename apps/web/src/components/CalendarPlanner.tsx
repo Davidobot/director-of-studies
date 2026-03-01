@@ -273,6 +273,229 @@ export function CalendarPlanner() {
       </section>
 
       {message ? <p className="text-sm text-slate-300">{message}</p> : null}
+
+      {/* iCal subscribe section */}
+      <CalendarSubscribe />
+
+      {/* Calendar integrations */}
+      <CalendarIntegrations />
     </div>
+  );
+}
+
+function CalendarSubscribe() {
+  const [feedUrl, setFeedUrl] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
+  const [copied, setCopied] = useState(false);
+
+  async function loadToken() {
+    const res = await apiFetch("/api/calendar/feed-token", { userScope: "studentId" });
+    if (res.ok) {
+      const data = (await res.json()) as { token: string | null; feedUrl: string | null };
+      setFeedUrl(data.feedUrl);
+    }
+  }
+
+  async function regenerate() {
+    setLoading(true);
+    try {
+      const res = await apiFetch("/api/calendar/feed-token/regenerate", {
+        method: "POST",
+        userScope: "studentId",
+      });
+      if (res.ok) {
+        const data = (await res.json()) as { token: string; feedUrl: string };
+        setFeedUrl(data.feedUrl);
+      }
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  useEffect(() => {
+    void loadToken();
+  }, []);
+
+  function copyUrl() {
+    if (!feedUrl) return;
+    void navigator.clipboard.writeText(feedUrl).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
+  }
+
+  // Build webcal:// URL for Apple Calendar / other clients
+  const webcalUrl = feedUrl?.replace(/^https?:\/\//, "webcal://") ?? null;
+  const googleAddUrl = feedUrl
+    ? `https://www.google.com/calendar/render?cid=${encodeURIComponent(feedUrl)}`
+    : null;
+
+  return (
+    <section className="rounded-lg border border-slate-800 bg-slate-900 p-4">
+      <h2 className="mb-2 text-base font-semibold">Subscribe to your calendar</h2>
+      <p className="mb-3 text-sm text-slate-400">
+        Get an iCal link to subscribe in Google Calendar, Apple Calendar, or any calendar app.
+      </p>
+
+      {feedUrl ? (
+        <div className="space-y-3">
+          <div className="flex items-center gap-2">
+            <input
+              readOnly
+              value={feedUrl}
+              className="flex-1 rounded-md border border-slate-700 bg-slate-950 px-3 py-2 text-xs font-mono"
+            />
+            <button
+              onClick={copyUrl}
+              className="rounded-md border border-slate-700 px-3 py-2 text-sm hover:bg-slate-800"
+            >
+              {copied ? "Copied!" : "Copy"}
+            </button>
+          </div>
+
+          <div className="flex flex-wrap gap-2">
+            {googleAddUrl && (
+              <a
+                href={googleAddUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-md border border-slate-700 px-3 py-1.5 text-sm hover:bg-slate-800"
+              >
+                Add to Google Calendar
+              </a>
+            )}
+            {webcalUrl && (
+              <a
+                href={webcalUrl}
+                className="rounded-md border border-slate-700 px-3 py-1.5 text-sm hover:bg-slate-800"
+              >
+                Add to Apple Calendar
+              </a>
+            )}
+          </div>
+
+          <button
+            onClick={() => void regenerate()}
+            disabled={loading}
+            className="text-xs text-slate-500 underline hover:text-slate-300"
+          >
+            {loading ? "Regenerating…" : "Regenerate feed URL"}
+          </button>
+        </div>
+      ) : (
+        <button
+          onClick={() => void regenerate()}
+          disabled={loading}
+          className="rounded-md bg-sky-600 px-4 py-2 text-sm text-white hover:bg-sky-500"
+        >
+          {loading ? "Generating…" : "Generate iCal feed URL"}
+        </button>
+      )}
+    </section>
+  );
+}
+
+type Integration = {
+  id: string;
+  provider: string;
+  enabled: boolean;
+  createdAt: string | null;
+};
+
+function CalendarIntegrations() {
+  const [integrations, setIntegrations] = useState<Integration[]>([]);
+  const [loading, setLoading] = useState(false);
+
+  async function loadIntegrations() {
+    const res = await apiFetch("/api/calendar/integrations", { userScope: "studentId" });
+    if (res.ok) {
+      const data = (await res.json()) as { integrations: Integration[] };
+      setIntegrations(data.integrations);
+    }
+  }
+
+  useEffect(() => {
+    void loadIntegrations();
+  }, []);
+
+  async function connectGoogle() {
+    setLoading(true);
+    try {
+      // Enable Google integration in our DB
+      await apiFetch("/api/calendar/integrations", {
+        method: "POST",
+        userScope: "studentId",
+        body: { provider: "google", enabled: true },
+      });
+      await loadIntegrations();
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  async function disconnectIntegration(id: string) {
+    setLoading(true);
+    try {
+      await apiFetch(`/api/calendar/integrations/${id}`, {
+        method: "DELETE",
+        userScope: "studentId",
+      });
+      await loadIntegrations();
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  const googleIntegration = integrations.find((i) => i.provider === "google");
+
+  return (
+    <section className="rounded-lg border border-slate-800 bg-slate-900 p-4">
+      <h2 className="mb-2 text-base font-semibold">Calendar integrations</h2>
+      <p className="mb-3 text-sm text-slate-400">
+        Connect external calendar providers to sync your tutorials.
+      </p>
+
+      <div className="space-y-3">
+        {/* Google Calendar */}
+        <div className="flex items-center justify-between rounded border border-slate-700 p-3">
+          <div>
+            <p className="text-sm font-medium">Google Calendar</p>
+            <p className="text-xs text-slate-400">
+              {googleIntegration
+                ? `Connected · ${googleIntegration.enabled ? "Active" : "Paused"}`
+                : "Not connected"}
+            </p>
+          </div>
+          {googleIntegration ? (
+            <button
+              onClick={() => void disconnectIntegration(googleIntegration.id)}
+              disabled={loading}
+              className="rounded-md border border-red-800 px-3 py-1.5 text-sm text-red-300 hover:bg-red-900/40"
+            >
+              Disconnect
+            </button>
+          ) : (
+            <button
+              onClick={() => void connectGoogle()}
+              disabled={loading}
+              className="rounded-md bg-sky-600 px-3 py-1.5 text-sm text-white hover:bg-sky-500"
+            >
+              {loading ? "Connecting…" : "Connect"}
+            </button>
+          )}
+        </div>
+
+        {/* Apple / CalDAV  — stub */}
+        <div className="flex items-center justify-between rounded border border-slate-700 p-3 opacity-60">
+          <div>
+            <p className="text-sm font-medium">Apple Calendar / CalDAV</p>
+            <p className="text-xs text-slate-400">Use the iCal feed URL above to subscribe</p>
+          </div>
+          <span className="rounded-md border border-slate-700 px-3 py-1.5 text-xs text-slate-500">
+            Via iCal feed
+          </span>
+        </div>
+      </div>
+    </section>
   );
 }

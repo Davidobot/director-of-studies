@@ -60,6 +60,18 @@ async function saveProfile(formData: FormData) {
         },
       });
 
+    // Check age — if under 13, require parental consent before proceeding
+    const dob = new Date(dateOfBirth);
+    const today = new Date();
+    let age = today.getFullYear() - dob.getFullYear();
+    if (today.getMonth() < dob.getMonth() || (today.getMonth() === dob.getMonth() && today.getDate() < dob.getDate())) {
+      age--;
+    }
+
+    if (age < 13) {
+      redirect("/auth/consent-pending");
+    }
+
     redirect("/onboarding/subjects");
   } else {
     const inviteCode = ((formData.get("inviteCode") as string) ?? "").trim().toUpperCase();

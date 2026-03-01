@@ -16,3 +16,4 @@ livekit-plugins-openai==1.4.3
 livekit-plugins-silero==1.4.3
 python-dotenv==1.0.1
 stripe>=11,<12
+icalendar==6.1.3

@@ -9,10 +9,12 @@ from scripts.pipeline.manifest import load_manifest
 
 DATABASE_URL = os.environ.get("DATABASE_URL", "")
 
-SUPERCURRICULAR_SUBJECTS = [
-    ("Debating / Public Speaking", "Supercurricular", "supercurricular"),
-    ("Metacognition", "Supercurricular", "supercurricular"),
-    ("Oxbridge Admissions", "Supercurricular", "supercurricular"),
+# Fallback supercurricular subjects if none are defined in specs.yaml.
+# Prefer defining extras as specs entries with category: supercurricular.
+_FALLBACK_SUPERCURRICULAR_SUBJECTS = [
+    ("Debating / Public Speaking", "Enrichment", "supercurricular"),
+    ("Metacognition", "Enrichment", "supercurricular"),
+    ("Oxbridge Admissions", "Enrichment", "supercurricular"),
 ]
 
 
@@ -22,9 +24,14 @@ def main() -> None:
 
     boards, specs = load_manifest()
 
-    subject_seeds: set[tuple[str, str, str]] = set(SUPERCURRICULAR_SUBJECTS)
+    subject_seeds: set[tuple[str, str, str]] = set()
+    # Add subjects from manifest specs (both academic and extras)
     for spec in specs:
         subject_seeds.add((spec.subject, spec.level, spec.category))
+    # Add fallback supercurricular entries if no extras specs define them
+    extras_from_specs = {s for s in subject_seeds if s[2] != "academic"}
+    if not extras_from_specs:
+        subject_seeds.update(_FALLBACK_SUPERCURRICULAR_SUBJECTS)
 
     with psycopg.connect(DATABASE_URL) as conn, conn.cursor() as cur:
         for board in boards.values():

@@ -8,8 +8,27 @@ def topic_discovery_prompt(
     subject: str,
     syllabus_code: str | None,
     raw_text: str,
+    category: str = "academic",
 ) -> str:
     syllabus = syllabus_code or "Unknown"
+    if category != "academic":
+        return (
+            "From this educational source text, identify the core teachable topics suitable for tutoring sessions.\n"
+            "Return strict JSON only with this schema:\n"
+            '{"topics":[{"name":"...","slug":"..."}]}\n'
+            "Rules:\n"
+            "- 4 to 12 topics.\n"
+            "- Topic names must be concise and learner-facing.\n"
+            "- Slugs must be lowercase kebab-case.\n"
+            "- Avoid duplicates and generic labels like 'introduction' or 'assessment'.\n"
+            "- Focus on practical skills and knowledge areas a student would benefit from practising.\n\n"
+            f"Subject: {subject}\n"
+            f"Level: {level}\n\n"
+            "Source text:\n"
+            "-----\n"
+            f"{raw_text}\n"
+            "-----"
+        )
     return (
         "From this UK exam specification text, identify the core teachable topics suitable for tutoring sessions.\n"
         "Return strict JSON only with this schema:\n"
@@ -39,8 +58,32 @@ def beautify_prompt(
     syllabus_code: str | None,
     topic_name: str,
     raw_text: str,
+    category: str = "academic",
 ) -> str:
     syllabus = syllabus_code or "Unknown"
+    if category != "academic":
+        return (
+            "You are rewriting educational source material into high-quality study/practice content.\n"
+            "Output must be plain markdown and must follow this exact structure:\n"
+            f"# {topic_name} ({subject})\n"
+            "Then 5-9 sections with `##` headings and paragraph prose.\n"
+            "Final section title must be exactly `## Practice & application`.\n\n"
+            "Requirements:\n"
+            "- Use flowing prose, not bullet lists.\n"
+            "- Keep facts accurate and practical.\n"
+            "- Clean formatting artefacts from OCR/PDF extraction.\n"
+            "- Supplement the material with relevant context, examples, and exercises useful for teaching.\n"
+            "- Keep language suitable for a motivated student.\n"
+            "- Do not use citations, links, YAML frontmatter, or code blocks.\n"
+            "- Target 1000-2500 words.\n\n"
+            f"Subject: {subject}\n"
+            f"Level: {level}\n"
+            f"Topic: {topic_name}\n\n"
+            "Raw source text follows:\n"
+            "-----\n"
+            f"{raw_text}\n"
+            "-----"
+        )
     return (
         "You are rewriting UK exam-board specification text into high-quality revision content.\n"
         "Output must be plain markdown and must follow this exact structure:\n"

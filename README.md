@@ -233,6 +233,35 @@ make content-pipeline  # run all five stages
 If any PDF URL fails during `make download`, the pipeline writes `content/.cache/download_errors.json`
 with the failing `spec_key`, `pdf_url`, and error message so you can patch `specs.yaml` quickly.
 
+### Extras / supercurricular subjects
+
+Subjects like Debating and Oxbridge Admissions (per target subject) are defined in `specs.yaml` under
+`board: extras` with `category: supercurricular`. They use the same pipeline but PDFs are placed manually
+instead of downloaded:
+
+1. Add or enable an entry in `specs.yaml` (see the `extras-*` examples at the bottom).
+2. Place the source PDF at `content/.cache/pdfs/<key>.pdf` (or set `pdf_file:` to use a custom filename).
+3. Set `enabled: true` on the spec entry.
+4. Run the normal pipeline: `make extract discover-topics beautify keywords`.
+5. `make ingest` embeds the generated markdown into the database.
+
+Generated content lands in `content/extras/{level}-{subject-slug}/{topic-slug}/`. For example,
+`extras-oxbridge-history` produces content at `content/extras/enrichment-oxbridge-admissions-history/`.
+
+To add a new extras subject, add a new entry to `specs.yaml`:
+
+```yaml
+- key: extras-my-subject
+  enabled: true
+  board: extras
+  level: Enrichment
+  subject: My Subject
+  category: supercurricular
+  course_name: My Subject Display Name
+  pdf_url: ""
+  # pdf_file: custom-source.pdf  # optional: override default {key}.pdf naming
+```
+
 `make ingest` then embeds generated markdown into `documents/chunks`.
 
 Ingestion runs automatically on agent startup (Docker). To run it manually:

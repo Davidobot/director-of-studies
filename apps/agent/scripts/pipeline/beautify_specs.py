@@ -81,6 +81,7 @@ def main() -> None:
                 syllabus_code=spec.syllabus_code,
                 topic_name=topic_name,
                 raw_text=raw_file.read_text(encoding="utf-8"),
+                category=spec.category,
             )
             result = _call_model(prompt, client)
             if not result:

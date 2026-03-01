@@ -33,6 +33,7 @@ class Specification:
     course_name: str
     pdf_url: str
     topics: list[TopicSpec]
+    pdf_file: str | None = None  # manual PDF filename in content/.cache/pdfs/
 
     @property
     def level_subject_slug(self) -> str:
@@ -41,6 +42,15 @@ class Specification:
     @property
     def content_base_dir(self) -> Path:
         return content_root() / self.board.slug / self.level_subject_slug
+
+    @property
+    def is_extras(self) -> bool:
+        return self.category != "academic"
+
+    def resolved_pdf_path(self) -> Path:
+        """Return the expected PDF path in .cache/pdfs/, respecting pdf_file override."""
+        filename = self.pdf_file if self.pdf_file else f"{self.key}.pdf"
+        return cache_root() / "pdfs" / filename
 
 
 def repo_root() -> Path:
@@ -112,6 +122,7 @@ def load_manifest() -> tuple[dict[str, BoardSpec], list[Specification]]:
             course_name=str(entry.get("course_name", "")).strip(),
             pdf_url=str(entry.get("pdf_url", "")).strip(),
             topics=topics,
+            pdf_file=(str(entry.get("pdf_file", "")).strip() or None),
         )
         _validate_spec(spec)
         specs.append(spec)
@@ -125,7 +136,16 @@ def enabled_specs() -> list[Specification]:
 
 
 def _slugify(text: str) -> str:
-    return "-".join(text.lower().replace("&", " and ").replace("/", " ").split())
+    return "-".join(
+        text.lower()
+        .replace("&", " and ")
+        .replace("/", " ")
+        .replace("\u2014", " ")   # em dash
+        .replace("\u2013", " ")   # en dash
+        .replace("—", " ")
+        .replace("–", " ")
+        .split()
+    )
 
 
 def _validate_spec(spec: Specification) -> None:
@@ -133,8 +153,11 @@ def _validate_spec(spec: Specification) -> None:
         raise ValueError("Each spec entry requires a non-empty key")
     if not spec.level or not spec.subject or not spec.course_name:
         raise ValueError(f"Spec {spec.key} is missing level/subject/course_name")
-    if spec.enabled and not spec.pdf_url:
+    if spec.enabled and not spec.pdf_url and not spec.is_extras:
         raise ValueError(f"Enabled spec {spec.key} requires pdf_url")
+    if spec.enabled and spec.is_extras and not spec.pdf_url and not spec.pdf_file:
+        # Extras without pdf_url must have pdf_file, or user places {key}.pdf manually
+        pass  # Allow — resolved_pdf_path() falls back to {key}.pdf
     for topic in spec.topics:
         if not topic.slug or not topic.name:
             raise ValueError(f"Spec {spec.key} has topic with missing slug/name")

@@ -17,7 +17,7 @@ Each item includes implementation notes written for an AI coding agent.
 
 ---
 
-## 2. Auth Gaps ❌
+## 2. Auth Gaps ✅
 
 ### 2.1 Password reset flow
 - Create `apps/web/src/app/auth/forgot-password/page.tsx`
@@ -46,7 +46,7 @@ Each item includes implementation notes written for an AI coding agent.
 
 ---
 
-## 3. Legal & Safeguarding ❌ (critical — UK GCSE/A-level product with minors)
+## 3. Legal & Safeguarding ✅ (critical — UK GCSE/A-level product with minors)
 
 ### 3.1 Terms of Service and Privacy Policy pages
 - Create `apps/web/src/app/terms/page.tsx` — static page with Terms of Service text
@@ -131,7 +131,7 @@ Each item includes implementation notes written for an AI coding agent.
 
 ---
 
-## 7. Calendar Sync Stubs ❌ (post-MVP)
+## 7. Calendar Sync Stubs ✅ (post-MVP)
 
 ### 7.1 Google Calendar sync
 - `apps/web/src/lib/calendar-sync.ts` has `GoogleCalendarSync` throwing `"not implemented yet"`

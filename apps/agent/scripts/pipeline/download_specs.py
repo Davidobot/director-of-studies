@@ -1,16 +1,11 @@
 from __future__ import annotations
 
 import json
-from pathlib import Path
 
 import httpx
 
 from .checksums import load_checksums, save_checksums, sha256_bytes
 from .manifest import cache_root, enabled_specs
-
-
-def _pdf_path(key: str) -> Path:
-    return cache_root() / "pdfs" / f"{key}.pdf"
 
 
 def _errors_report_path() -> Path:
@@ -32,7 +27,16 @@ def main() -> None:
     with httpx.Client(follow_redirects=True, timeout=120.0) as client:
         for spec in specs:
             if not spec.pdf_url:
-                print(f"[skip] {spec.key} has no pdf_url")
+                if spec.is_extras:
+                    pdf_dest = spec.resolved_pdf_path()
+                    if pdf_dest.exists():
+                        print(f"[ok] {spec.key} manual PDF present at {pdf_dest}")
+                    else:
+                        print(
+                            f"[info] {spec.key} is an extras spec — place PDF manually at {pdf_dest}"
+                        )
+                else:
+                    print(f"[skip] {spec.key} has no pdf_url")
                 skip_count += 1
                 continue
 
@@ -55,7 +59,7 @@ def main() -> None:
             content = response.content
             pdf_sha = sha256_bytes(content)
             cached = checksums.get(spec.key, {})
-            target = _pdf_path(spec.key)
+            target = spec.resolved_pdf_path()
 
             if cached.get("pdf_sha256") == pdf_sha and target.exists():
                 print(f"[skip] {spec.key} unchanged")
