@@ -145,6 +145,13 @@ db-migrate:
 	cd apps/agent && DATABASE_URL="$(NATIVE_DATABASE_URL)" $(PWD)/$(AGENT_PY) scripts/bootstrap_db.py
 	@echo "Python DB bootstrap/migration applied."
 
+# Sync Stripe price IDs from env vars into plans table via internal API endpoint.
+.PHONY: billing-sync-prices
+billing-sync-prices:
+	@test -f $(AGENT_PY) || (echo "Run 'make venv' first to set up the Python environment."; exit 1)
+	@echo "Syncing Stripe price IDs from env vars into plans table..."
+	cd apps/agent && DATABASE_URL="$(NATIVE_DATABASE_URL)" $(PWD)/$(AGENT_PY) scripts/sync_stripe_prices.py
+
 # Seed reference data (exam boards, subjects, board-subjects) and course/topic data.
 # Run once after 'make infra' has started Postgres, or any time you reset the DB.
 .PHONY: seed

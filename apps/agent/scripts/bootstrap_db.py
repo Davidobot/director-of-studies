@@ -14,6 +14,7 @@ SCHEMA_SQL = [
     "DO $$ BEGIN CREATE TYPE repeat_priority AS ENUM ('high','medium','low'); EXCEPTION WHEN duplicate_object THEN NULL; END $$;",
     "DO $$ BEGIN CREATE TYPE repeat_status AS ENUM ('active','resolved'); EXCEPTION WHEN duplicate_object THEN NULL; END $$;",
     "DO $$ BEGIN CREATE TYPE scheduled_status AS ENUM ('scheduled','completed','cancelled','missed'); EXCEPTION WHEN duplicate_object THEN NULL; END $$;",
+    "DO $$ BEGIN CREATE TYPE plan_type AS ENUM ('free','subscription','credit_pack'); EXCEPTION WHEN duplicate_object THEN NULL; END $$;",
     """
     CREATE TABLE IF NOT EXISTS profiles (
       id uuid PRIMARY KEY,
@@ -117,8 +118,102 @@ SCHEMA_SQL = [
       status text NOT NULL DEFAULT 'pending',
       started_at timestamptz,
       ended_at timestamptz,
+      duration_seconds integer,
       created_at timestamptz NOT NULL DEFAULT NOW()
     )
+    """,
+    "ALTER TABLE sessions ADD COLUMN IF NOT EXISTS duration_seconds integer",
+    """
+    CREATE TABLE IF NOT EXISTS plans (
+      id serial PRIMARY KEY,
+      name text NOT NULL,
+      plan_type plan_type NOT NULL,
+      stripe_price_id text,
+      monthly_minutes integer,
+      credit_minutes integer,
+      price_pence integer NOT NULL DEFAULT 0,
+      interval text,
+      is_school_plan boolean NOT NULL DEFAULT false,
+      is_active boolean NOT NULL DEFAULT true,
+      created_at timestamptz NOT NULL DEFAULT NOW(),
+      UNIQUE(name),
+      UNIQUE(stripe_price_id)
+    )
+    """,
+    """
+    CREATE TABLE IF NOT EXISTS billing_customers (
+      id serial PRIMARY KEY,
+      profile_id uuid NOT NULL REFERENCES profiles(id) ON DELETE CASCADE,
+      stripe_customer_id text NOT NULL UNIQUE,
+      created_at timestamptz NOT NULL DEFAULT NOW(),
+      UNIQUE(profile_id)
+    )
+    """,
+    """
+    CREATE TABLE IF NOT EXISTS subscriptions (
+      id serial PRIMARY KEY,
+      profile_id uuid NOT NULL REFERENCES profiles(id) ON DELETE CASCADE,
+      plan_id integer REFERENCES plans(id) ON DELETE SET NULL,
+      stripe_subscription_id text NOT NULL UNIQUE,
+      stripe_price_id text NOT NULL,
+      status text NOT NULL DEFAULT 'inactive',
+      current_period_start timestamptz,
+      current_period_end timestamptz,
+      cancel_at_period_end boolean NOT NULL DEFAULT false,
+      created_at timestamptz NOT NULL DEFAULT NOW(),
+      updated_at timestamptz NOT NULL DEFAULT NOW()
+    )
+    """,
+    """
+    CREATE TABLE IF NOT EXISTS usage_credits (
+      id serial PRIMARY KEY,
+      profile_id uuid NOT NULL REFERENCES profiles(id) ON DELETE CASCADE,
+      source text NOT NULL,
+      minutes_total integer NOT NULL,
+      minutes_remaining integer NOT NULL,
+      metadata jsonb NOT NULL DEFAULT '{}'::jsonb,
+      expires_at timestamptz,
+      created_at timestamptz NOT NULL DEFAULT NOW(),
+      updated_at timestamptz NOT NULL DEFAULT NOW()
+    )
+    """,
+    """
+    CREATE TABLE IF NOT EXISTS referrals (
+      id serial PRIMARY KEY,
+      referrer_profile_id uuid NOT NULL REFERENCES profiles(id) ON DELETE CASCADE,
+      referee_profile_id uuid REFERENCES profiles(id) ON DELETE SET NULL,
+      referral_code text NOT NULL UNIQUE,
+      referral_accepted_at timestamptz,
+      reward_granted_at timestamptz,
+      created_at timestamptz NOT NULL DEFAULT NOW(),
+      UNIQUE(referee_profile_id)
+    )
+    """,
+    """
+    CREATE TABLE IF NOT EXISTS school_email_domains (
+      id serial PRIMARY KEY,
+      domain text NOT NULL UNIQUE,
+      created_at timestamptz NOT NULL DEFAULT NOW()
+    )
+    """,
+    """
+    INSERT INTO plans (name, plan_type, stripe_price_id, monthly_minutes, credit_minutes, price_pence, interval, is_school_plan, is_active)
+    VALUES
+      ('Free Starter', 'free', NULL, NULL, 60, 0, NULL, false, true),
+      ('Standard Monthly', 'subscription', 'price_standard_monthly', 480, NULL, 5000, 'month', false, true),
+      ('School Monthly', 'subscription', 'price_school_monthly', 600, NULL, 5000, 'month', true, true),
+      ('Standard Annual', 'subscription', 'price_standard_annual', 480, NULL, 50000, 'year', false, true),
+      ('School Annual', 'subscription', 'price_school_annual', 600, NULL, 50000, 'year', true, true),
+      ('Credit Pack 1h', 'credit_pack', 'price_credit_1h', NULL, 60, 1000, NULL, false, true),
+      ('Credit Pack 2h', 'credit_pack', 'price_credit_2h', NULL, 120, 1500, NULL, false, true),
+      ('Credit Pack 10h', 'credit_pack', 'price_credit_10h', NULL, 600, 7000, NULL, false, true)
+    ON CONFLICT (name) DO NOTHING
+    """,
+    """
+    INSERT INTO school_email_domains (domain)
+    VALUES
+      ('school.example.uk')
+    ON CONFLICT (domain) DO NOTHING
     """,
     """
     CREATE TABLE IF NOT EXISTS tutor_personas (

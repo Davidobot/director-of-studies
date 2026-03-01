@@ -299,3 +299,38 @@ Use this file as shared working memory across tasks.
 - **Files touched:** `apps/agent/scripts/pipeline/{discover_topics.py,discovered_topics.py,beautify_specs.py}`, `Makefile`, `README.md`, `.github/memory/agent-notes.md`.
 - **Follow-up:** Runtime smoke test of `discover-topics` requires `OPENAI_API_KEY` in the executing shell; once set, run `make discover-topics` and review the generated approval file before running `make beautify`.
 
+### 2026-03-01 (billing + Stripe integration baseline)
+- **Context:** Implemented TODO section 1 billing/payment foundations across schema, FastAPI, and web UI.
+- **Discovery:** Existing architecture had no billing primitives and session quota logic only for parent restrictions; best insertion points were `_create_session_sync` for pre-flight quota checks and `_end_session_sync` for duration capture/credit consumption.
+- **Decision:** Added a dedicated FastAPI billing router (`apps/agent/app/billing.py`) with Stripe Checkout, webhook signature verification, customer portal, plan/subscription endpoints, school-email eligibility logic (`.sch.uk`/`.school.uk` + allowlist table), referral code flows, and quota helpers. Added billing tables (`plans`, `billing_customers`, `subscriptions`, `usage_credits`, `referrals`, `school_email_domains`) plus `sessions.duration_seconds` in both Drizzle schema and bootstrap SQL. Wired quota enforcement to return HTTP 402 at session create and usage capture at session end. Added `/settings/billing` page, pricing table component, paywall modal on 402, and Billing links in account menu.
+- **Files touched:** `apps/agent/app/billing.py` (new), `apps/agent/app/main.py`, `apps/agent/scripts/bootstrap_db.py`, `apps/agent/{requirements.txt,pyproject.toml}`, `apps/web/src/db/schema.ts`, `apps/web/src/app/settings/billing/page.tsx` (new), `apps/web/src/components/{PricingTable.tsx,PaywallModal.tsx}` (new), `apps/web/src/components/{CourseTopicSelector.tsx,AccountMenu.tsx}`, `apps/web/{package.json,package-lock.json}`, `.env.example`, `infra/docker-compose.yml`, `README.md`, `.github/memory/agent-notes.md`.
+- **Follow-up:** Replace placeholder Stripe `price_*` IDs in seeded `plans` rows with real Stripe Price IDs; then run webhook E2E via Stripe CLI (`stripe listen --forward-to localhost:8000/billing/webhook`) and validate `checkout.session.completed`/`invoice.*`/`customer.subscription.*` updates against DB state.
+
+### 2026-03-01 (billing operational follow-through)
+- **Context:** User requested completing remaining Stripe operational steps after baseline implementation.
+- **Discovery:** Parent-paid billing was not considered in `check_subscription_quota(student_id)`; it only evaluated the student profile. Also the first price-sync path depended on API internal key configuration and did not run in default local env.
+- **Decision:** Hardened quota routing to evaluate student + linked parent profiles (free tier only on student profile, subscription/credits on either) and consume credits from the best available non-subscription profile. Added env-driven plan price sync in billing runtime plus dedicated script/Make target for direct DB sync (`scripts/sync_stripe_prices.py`, `make billing-sync-prices`) independent of API internal-key config. Installed Stripe CLI locally (`stripe version 1.37.1`) and verified webhook listener starts, but full listen/forward requires interactive `stripe login` pairing and valid account auth.
+- **Files touched:** `apps/agent/app/billing.py`, `apps/agent/scripts/sync_stripe_prices.py` (new), `Makefile`, `.env.example`, `infra/docker-compose.yml`, `README.md`, `.github/memory/agent-notes.md`.
+- **Follow-up:** Run `stripe login` once, populate `.env` with real `STRIPE_PRICE_*` and key values, run `make billing-sync-prices`, then `stripe listen --forward-to localhost:8000/billing/webhook` and trigger test events from Stripe dashboard/CLI.
+
+### 2026-03-01 (school discount domain source switched to CSV)
+- **Context:** User requested school-discount eligibility to check against `content/schools_domain.csv`.
+- **Discovery:** Existing logic only used suffix heuristics (`.sch.uk` / `.school.uk`) plus `school_email_domains` DB table fallback.
+- **Decision:** Updated `is_school_email` in billing runtime to load domains from `content/schools_domain.csv` (header: `institution_number,domain`) via a cached loader (`@lru_cache`) and match exact/suffix subdomains. Kept heuristic and DB fallback for resilience if CSV is missing/incomplete.
+- **Files touched:** `apps/agent/app/billing.py`, `.github/memory/agent-notes.md`.
+- **Follow-up:** Optional: if CSV updates while server is running and hot-reload is disabled, restart agent to refresh cached domain set.
+
+### 2026-03-01 09:42 (schools domain mapping export)
+- **Context:** User requested a script to derive school domains from `content/.cache/schools-uk-june2025.csv` for future student-email validation and offline linkage.
+- **Discovery:** Source CSV includes `EstablishmentNumber`, `MainEmail`, and `SchoolWebsite`; both contact fields can provide useful domains and sometimes differ.
+- **Decision:** Added `apps/agent/scripts/build_schools_domain_csv.py` to parse and normalize domains from email/website fields, emit unique `(institutional_number, domain)` pairs, and write deterministic output to `content/schools_domain.csv` (header: `institutional_number,domain`). Executed script via `/Users/dgk27/git/director-of-studies/.venv/bin/python apps/agent/scripts/build_schools_domain_csv.py`, producing 35,676 rows.
+- **Files touched:** `apps/agent/scripts/build_schools_domain_csv.py` (new), `content/schools_domain.csv`, `.github/memory/agent-notes.md`.
+- **Follow-up:** If matching should be stricter for signup checks, consider filtering to email-only domains or excluding generic authority/vendor domains in a second-pass curation step.
+
+### 2026-03-01 (schools identifier collision fix)
+- **Context:** User flagged that generated institution number did not appear to correspond to `EstablishmentNumber`.
+- **Discovery:** In `schools-uk-june2025.csv`, `EstablishmentNumber` is heavily reused (`24,967` rows but only `3,170` distinct values), so grouping by it merges different schools.
+- **Decision:** Updated domain export to use a stable per-school `institution_number` built as `{EstablishmentNumber}-{PostcodeNoSpaces}` while preserving output shape `institution_number,domain`. Regenerated `content/schools_domain.csv` (35,742 rows) and confirmed first rows now map directly to source rows (e.g., `3614-EC3A5DE`).
+- **Files touched:** `apps/agent/scripts/build_schools_domain_csv.py`, `content/schools_domain.csv`, `.github/memory/agent-notes.md`.
+- **Follow-up:** If strict equivalence to raw `EstablishmentNumber` is required in downstream joins, add a third column `establishment_number` in a follow-up patch.
+

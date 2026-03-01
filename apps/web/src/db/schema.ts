@@ -1,11 +1,12 @@
 import { sql } from "drizzle-orm";
-import { date, index, integer, jsonb, pgEnum, pgTable, serial, text, timestamp, uniqueIndex, uuid, vector } from "drizzle-orm/pg-core";
+import { boolean, date, index, integer, jsonb, pgEnum, pgTable, serial, text, timestamp, uniqueIndex, uuid, vector } from "drizzle-orm/pg-core";
 
 export const accountTypeEnum = pgEnum("account_type", ["student", "parent"]);
 export const subjectCategoryEnum = pgEnum("subject_category", ["academic", "supercurricular"]);
 export const repeatPriorityEnum = pgEnum("repeat_priority", ["high", "medium", "low"]);
 export const repeatStatusEnum = pgEnum("repeat_status", ["active", "resolved"]);
 export const scheduledStatusEnum = pgEnum("scheduled_status", ["scheduled", "completed", "cancelled", "missed"]);
+export const planTypeEnum = pgEnum("plan_type", ["free", "subscription", "credit_pack"]);
 
 export const profiles = pgTable("profiles", {
   id: uuid("id").primaryKey(),
@@ -106,12 +107,88 @@ export const sessions = pgTable("sessions", {
   status: text("status").notNull().default("pending"),
   startedAt: timestamp("started_at", { withTimezone: true }),
   endedAt: timestamp("ended_at", { withTimezone: true }),
+  durationSeconds: integer("duration_seconds"),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 }, (table) => ({
   statusIdx: index("sessions_status_idx").on(table.status),
   createdAtIdx: index("sessions_created_at_idx").on(table.createdAt),
   studentIdx: index("sessions_student_idx").on(table.studentId),
 }));
+
+export const plans = pgTable("plans", {
+  id: serial("id").primaryKey(),
+  name: text("name").notNull(),
+  planType: planTypeEnum("plan_type").notNull(),
+  stripePriceId: text("stripe_price_id"),
+  monthlyMinutes: integer("monthly_minutes"),
+  creditMinutes: integer("credit_minutes"),
+  pricePence: integer("price_pence").notNull().default(0),
+  interval: text("interval"),
+  isSchoolPlan: boolean("is_school_plan").notNull().default(false),
+  isActive: boolean("is_active").notNull().default(true),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+}, (table) => ({
+  plansNameIdx: uniqueIndex("plans_name_unique_idx").on(table.name),
+  plansStripePriceIdx: uniqueIndex("plans_stripe_price_unique_idx").on(table.stripePriceId),
+}));
+
+export const billingCustomers = pgTable("billing_customers", {
+  id: serial("id").primaryKey(),
+  profileId: uuid("profile_id").notNull().references(() => profiles.id, { onDelete: "cascade" }),
+  stripeCustomerId: text("stripe_customer_id").notNull().unique(),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+}, (table) => ({
+  billingProfileUniqueIdx: uniqueIndex("billing_customers_profile_unique_idx").on(table.profileId),
+}));
+
+export const subscriptions = pgTable("subscriptions", {
+  id: serial("id").primaryKey(),
+  profileId: uuid("profile_id").notNull().references(() => profiles.id, { onDelete: "cascade" }),
+  planId: integer("plan_id").references(() => plans.id, { onDelete: "set null" }),
+  stripeSubscriptionId: text("stripe_subscription_id").notNull().unique(),
+  stripePriceId: text("stripe_price_id").notNull(),
+  status: text("status").notNull().default("inactive"),
+  currentPeriodStart: timestamp("current_period_start", { withTimezone: true }),
+  currentPeriodEnd: timestamp("current_period_end", { withTimezone: true }),
+  cancelAtPeriodEnd: boolean("cancel_at_period_end").notNull().default(false),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+  updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
+}, (table) => ({
+  subscriptionsProfileIdx: index("subscriptions_profile_idx").on(table.profileId),
+}));
+
+export const usageCredits = pgTable("usage_credits", {
+  id: serial("id").primaryKey(),
+  profileId: uuid("profile_id").notNull().references(() => profiles.id, { onDelete: "cascade" }),
+  source: text("source").notNull(),
+  minutesTotal: integer("minutes_total").notNull(),
+  minutesRemaining: integer("minutes_remaining").notNull(),
+  metadata: jsonb("metadata").notNull().default(sql`'{}'::jsonb`),
+  expiresAt: timestamp("expires_at", { withTimezone: true }),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+  updatedAt: timestamp("updated_at", { withTimezone: true }).notNull().defaultNow(),
+}, (table) => ({
+  usageCreditsProfileIdx: index("usage_credits_profile_idx").on(table.profileId),
+}));
+
+export const referrals = pgTable("referrals", {
+  id: serial("id").primaryKey(),
+  referrerProfileId: uuid("referrer_profile_id").notNull().references(() => profiles.id, { onDelete: "cascade" }),
+  refereeProfileId: uuid("referee_profile_id").references(() => profiles.id, { onDelete: "set null" }),
+  referralCode: text("referral_code").notNull().unique(),
+  referralAcceptedAt: timestamp("referral_accepted_at", { withTimezone: true }),
+  rewardGrantedAt: timestamp("reward_granted_at", { withTimezone: true }),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+}, (table) => ({
+  referralsReferrerIdx: index("referrals_referrer_idx").on(table.referrerProfileId),
+  referralsRefereeUniqueIdx: uniqueIndex("referrals_referee_unique_idx").on(table.refereeProfileId),
+}));
+
+export const schoolEmailDomains = pgTable("school_email_domains", {
+  id: serial("id").primaryKey(),
+  domain: text("domain").notNull().unique(),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+});
 
 // A reusable named tutor persona that can be assigned to any subject enrolment.
 export const tutorPersonas = pgTable("tutor_personas", {

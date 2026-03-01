@@ -63,6 +63,16 @@ cp .env.example .env
 | `GUEST_DEMO_NAME` | No | `Guest Student` |
 | `NEXT_PUBLIC_API_URL` | Yes | `http://localhost:8000` |
 | `WEB_ORIGIN` | Yes | `http://localhost:3000` |
+| `STRIPE_SECRET_KEY` | Yes (for billing) | — |
+| `STRIPE_WEBHOOK_SECRET` | Yes (for billing webhook verification) | — |
+| `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` | Yes (for billing UI) | — |
+| `STRIPE_PRICE_STANDARD_MONTHLY` | Yes (for paid monthly plan) | — |
+| `STRIPE_PRICE_SCHOOL_MONTHLY` | Yes (for school monthly plan) | — |
+| `STRIPE_PRICE_STANDARD_ANNUAL` | Yes (for paid annual plan) | — |
+| `STRIPE_PRICE_SCHOOL_ANNUAL` | Yes (for school annual plan) | — |
+| `STRIPE_PRICE_CREDIT_1H` | Yes (for 1h credit pack) | — |
+| `STRIPE_PRICE_CREDIT_2H` | Yes (for 2h credit pack) | — |
+| `STRIPE_PRICE_CREDIT_10H` | Yes (for 10h credit pack) | — |
 | `DB_POOL_MIN_SIZE` | No | `2` |
 | `DB_POOL_MAX_SIZE` | No | `12` |
 | `AGENT_OPENAI_MODEL` | No | `gpt-4o` |

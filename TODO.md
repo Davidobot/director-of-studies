@@ -40,7 +40,7 @@ Each item includes implementation notes written for an AI coding agent.
 - The quota check (1.3) should enforce this; sessions beyond the limit require an active paid subscription
 - Add a UI component that shows a paywall modal when the student is over quota, with a CTA to the billing page
 
-- In terms of plans: have only 1 hour free lesson per account. Have the standard subscription be monthly gbp50 for 8 hours a month (2 tutorials a week)
+- In terms of plans: have 1 hour free lesson per account - they can use this straight away after signing up without putting a card down. Have the standard subscription be monthly gbp50 for 8 hours a month (2 tutorials a week)
 - if the student signs up with their school email (check against list) then offer gbp50 for 10 hours a month (2 hours free, 25% more)
 - Also offer a year-long subscription that offers two months free so gbp500/year for the same 8 hours a month (or 10 hours a month if a student).
 - Present these prices as price-per-hour of tutoring in all these options 
@@ -183,6 +183,7 @@ Each item includes implementation notes written for an AI coding agent.
   - Total users (students/parents) counts
   - Sessions in the last 24h/7d
   - Failed sessions (no transcript generated)
+  - See number of subscribers and total hours they spent
 - Gate with middleware checking `profile.account_type === 'admin'` (add admin type to the DB enum)
 
 - Add a feedback button after each session and in general in the dashboard. Display these in the admin dashboard

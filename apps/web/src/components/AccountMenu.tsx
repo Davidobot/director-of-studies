@@ -12,12 +12,14 @@ type MenuItem = {
 
 const STUDENT_ITEMS: MenuItem[] = [
   { label: "Personal settings", href: "/settings/profile" },
+  { label: "Billing", href: "/settings/billing" },
   { label: "Enrolment settings", href: "/onboarding/subjects" },
   { label: "Tutor settings", href: "/settings/tutors" },
 ];
 
 const PARENT_ITEMS: MenuItem[] = [
   { label: "Personal settings", href: "/settings/profile" },
+  { label: "Billing", href: "/settings/billing" },
 ];
 
 export function AccountMenu({

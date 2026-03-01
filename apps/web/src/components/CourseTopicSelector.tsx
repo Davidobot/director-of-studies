@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { apiFetch } from "@/lib/api-client";
+import { PaywallModal } from "@/components/PaywallModal";
 
 type Topic = { id: number; name: string; courseId: number };
 type Course = { id: number; name: string };
@@ -47,6 +48,8 @@ export function CourseTopicSelector({
   const [topicId, setTopicId] = useState<number | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [showPaywall, setShowPaywall] = useState(false);
+  const [paywallReason, setPaywallReason] = useState<string | null>(null);
 
   const [agentOpenAI, setAgentOpenAI] = useState(defaultModels.agentOpenAI);
   const [deepgramStt, setDeepgramStt] = useState(defaultModels.deepgramStt);
@@ -66,7 +69,15 @@ export function CourseTopicSelector({
         userScope: "studentId",
         body: { courseId, topicId: selectedTopicId },
       });
-      if (!createRes.ok) throw new Error("Could not create session");
+      if (!createRes.ok) {
+        if (createRes.status === 402) {
+          const body = (await createRes.json().catch(() => ({}))) as { detail?: string };
+          setPaywallReason(body.detail ?? "quota_exceeded");
+          setShowPaywall(true);
+          return;
+        }
+        throw new Error("Could not create session");
+      }
       const session = await createRes.json();
 
       const startRes = await apiFetch("/api/session/start-agent", {
@@ -100,6 +111,12 @@ export function CourseTopicSelector({
 
   return (
     <div className="space-y-4">
+      <PaywallModal
+        open={showPaywall}
+        reason={paywallReason}
+        onClose={() => setShowPaywall(false)}
+      />
+
       {/* Model settings */}
       <section className="rounded-lg border border-slate-800 bg-slate-900 p-4">
         <h2 className="mb-3 text-sm font-semibold text-slate-200">Model Settings</h2>

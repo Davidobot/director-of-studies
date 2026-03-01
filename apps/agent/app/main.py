@@ -18,9 +18,11 @@ from livekit.protocol import room as proto_room
 from pydantic import BaseModel
 
 from .agent_worker import run_agent_session
+from .billing import check_subscription_quota, consume_quota_minutes, router as billing_router
 from .db import close_async_pool, get_conn, init_async_pool
 
 app = FastAPI(title="Director of Studies Agent")
+app.include_router(billing_router)
 
 WEB_ORIGIN = os.environ.get("WEB_ORIGIN", "http://localhost:3000")
 app.add_middleware(
@@ -499,6 +501,10 @@ def _create_session_sync(course_id: int, topic_id: int, student_id: str) -> Sess
                 raise HTTPException(status_code=403, detail="Weekly tutorial limit reached by parent/guardian restrictions")
             if _is_now_blocked(blocked_times):
                 raise HTTPException(status_code=403, detail="Tutorials are blocked at this time by parent/guardian restrictions")
+
+        quota = check_subscription_quota(student_id)
+        if not quota.allowed:
+            raise HTTPException(status_code=402, detail=quota.reason or "Subscription quota exceeded")
 
         subject_id = course_row[0]
         exam_board_id = course_row[1]
@@ -1624,6 +1630,7 @@ def _analyze_progress_sync(transcript_text: str) -> ProgressPayload:
 
 
 def _end_session_sync(session_id: str, student_id: str) -> bool:
+    duration_seconds = 0
     with get_conn() as conn, conn.cursor() as cur:
         cur.execute(
             "SELECT id, student_id, enrolment_id, topic_id FROM sessions WHERE id = %s",
@@ -1640,9 +1647,21 @@ def _end_session_sync(session_id: str, student_id: str) -> bool:
         topic_id = row[3]
 
         cur.execute(
-            "UPDATE sessions SET status = 'ended', ended_at = NOW() WHERE id = %s",
+            """
+            UPDATE sessions
+            SET status = 'ended',
+                ended_at = NOW(),
+                duration_seconds = GREATEST(
+                    0,
+                    COALESCE(EXTRACT(EPOCH FROM (NOW() - started_at))::integer, 0)
+                )
+            WHERE id = %s
+            RETURNING duration_seconds
+            """,
             (session_id,),
         )
+        duration_row = cur.fetchone()
+        duration_seconds = int(duration_row[0] or 0) if duration_row else 0
         conn.commit()
 
     transcript_text = _wait_for_transcript_text_sync(session_id)
@@ -1725,6 +1744,8 @@ def _end_session_sync(session_id: str, student_id: str) -> bool:
                 )
 
         conn.commit()
+
+    consume_quota_minutes(student_id, (duration_seconds + 59) // 60)
 
     return True
 
