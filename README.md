@@ -79,8 +79,8 @@ cp .env.example .env
 | `OPENAI_API_KEY` | Yes | — |
 | `DEEPGRAM_API_KEY` | Yes | — |
 | `NEXT_PUBLIC_SUPABASE_URL` | Yes | — |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | Yes | — |
-| `SUPABASE_SERVICE_ROLE_KEY` | Yes (used for demo guest provisioning endpoint) | — |
+| `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` | Yes | — |
+| `SUPABASE_SECRET_KEY` | Yes (used for demo guest provisioning endpoint) | — |
 | `GUEST_DEMO_EMAIL` | No | `guest@director.local` |
 | `GUEST_DEMO_PASSWORD` | No | `GuestDemo123!` |
 | `GUEST_DEMO_NAME` | No | `Guest Student` |

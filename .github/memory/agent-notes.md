@@ -495,3 +495,13 @@ Use this file as shared working memory across tasks.
   - **Verification:** `npm run build` passes (all routes including /admin, /_not-found). Python syntax OK for billing.py and main.py. Bootstrap SQL: 55 statements.
   - **Follow-up:** Run `make db-migrate` on any running DB to apply new schema. Set `ADMIN_EMAILS` env var for bootstrap admin access.
 
+
+---
+
+## 2026-03-01 — Migrate Supabase keys to publishable/secret format
+
+- **Context:** Supabase deprecated JWT-based `anon`/`service_role` keys in favour of `sb_publishable_...` / `sb_secret_...` keys.
+- **Discovery:** `SUPABASE_SERVICE_ROLE_KEY` was already on the new `sb_secret_...` format. Only the anon key needed migrating. Also found a pre-existing bug in `apps/agent/tests/conftest.py`: it was setting `SUPABASE_URL` / `SUPABASE_ANON_KEY` but the code reads `NEXT_PUBLIC_SUPABASE_URL` / `NEXT_PUBLIC_SUPABASE_ANON_KEY` — tests were silently not providing the right defaults.
+- **Decision:** Renamed `NEXT_PUBLIC_SUPABASE_ANON_KEY` to `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` everywhere. Both apps share the same `.env`. `NEXT_PUBLIC_` prefix is harmless for Python reads.
+- **Files touched:** `.env`, `.env.example`, `README.md`, `apps/web/src/lib/supabase/client.ts`, `apps/web/src/lib/supabase/server.ts`, `apps/web/src/proxy.ts`, `apps/agent/app/main.py`, `apps/agent/app/billing.py`, `apps/agent/tests/conftest.py`
+- **Follow-up:** Deactivate the old JWT anon key in the Supabase dashboard once smoke-tested. Also note: conftest `INTERNAL_API_KEY` vs code's `AGENT_INTERNAL_API_KEY` may be a similar mismatch worth investigating.

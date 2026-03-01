@@ -47,7 +47,7 @@ LIVEKIT_API_KEY = os.environ.get("LIVEKIT_API_KEY", "")
 LIVEKIT_API_SECRET = os.environ.get("LIVEKIT_API_SECRET", "")
 AGENT_INTERNAL_API_KEY = os.environ.get("AGENT_INTERNAL_API_KEY", "")
 SUPABASE_URL = os.environ.get("NEXT_PUBLIC_SUPABASE_URL", "")
-SUPABASE_ANON_KEY = os.environ.get("NEXT_PUBLIC_SUPABASE_ANON_KEY", "")
+SUPABASE_PUBLISHABLE_KEY = os.environ.get("NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY", "")
 
 
 class JoinRequest(BaseModel):
@@ -263,7 +263,7 @@ def _on_agent_task_done(task: asyncio.Task[None]) -> None:
 def _get_user_id_from_bearer(authorization: str | None) -> str:
     if not authorization or not authorization.startswith("Bearer "):
         raise HTTPException(status_code=401, detail="Unauthorized")
-    if not SUPABASE_URL or not SUPABASE_ANON_KEY:
+    if not SUPABASE_URL or not SUPABASE_PUBLISHABLE_KEY:
         raise HTTPException(status_code=500, detail="Supabase auth config missing")
 
     token = authorization.replace("Bearer ", "", 1).strip()
@@ -271,7 +271,7 @@ def _get_user_id_from_bearer(authorization: str | None) -> str:
         f"{SUPABASE_URL}/auth/v1/user",
         method="GET",
         headers={
-            "apikey": SUPABASE_ANON_KEY,
+            "apikey": SUPABASE_PUBLISHABLE_KEY,
             "Authorization": f"Bearer {token}",
         },
     )
@@ -1442,8 +1442,8 @@ def _dos_chat_post_sync(payload: DosChatRequest) -> dict[str, Any]:
 
 def _supabase_admin_request(method: str, path: str, body: dict[str, Any] | None = None) -> dict[str, Any]:
     supabase_url = os.environ.get("NEXT_PUBLIC_SUPABASE_URL", "")
-    service_role = os.environ.get("SUPABASE_SERVICE_ROLE_KEY", "")
-    if not supabase_url or not service_role:
+    secret_key = os.environ.get("SUPABASE_SECRET_KEY", "")
+    if not supabase_url or not secret_key:
         raise HTTPException(status_code=500, detail="Supabase admin config missing")
 
     data = json.dumps(body).encode("utf-8") if body is not None else None
@@ -1452,7 +1452,7 @@ def _supabase_admin_request(method: str, path: str, body: dict[str, Any] | None 
         method=method,
         data=data,
         headers={
-            "apikey": service_role,
+            "apikey": secret_key,
             "Authorization": f"Bearer {service_role}",
             "Content-Type": "application/json",
         },

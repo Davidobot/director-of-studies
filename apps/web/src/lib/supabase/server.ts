@@ -3,9 +3,9 @@ import { cookies } from "next/headers";
 
 function getSupabaseConfig() {
   const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
-  if (!supabaseUrl || !supabaseAnonKey) return null;
-  return { supabaseUrl, supabaseAnonKey };
+  const supabasePublishableKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY;
+  if (!supabaseUrl || !supabasePublishableKey) return null;
+  return { supabaseUrl, supabasePublishableKey };
 }
 
 export async function createServerSupabaseClient() {
@@ -14,7 +14,7 @@ export async function createServerSupabaseClient() {
 
   const cookieStore = await cookies();
 
-  return createServerClient(config.supabaseUrl, config.supabaseAnonKey, {
+  return createServerClient(config.supabaseUrl, config.supabasePublishableKey, {
     cookies: {
       get(name: string) {
         return cookieStore.get(name)?.value;

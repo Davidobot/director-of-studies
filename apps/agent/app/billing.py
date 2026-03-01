@@ -23,7 +23,7 @@ from .db import get_conn
 router = APIRouter(prefix="/billing", tags=["billing"])
 
 SUPABASE_URL = os.environ.get("NEXT_PUBLIC_SUPABASE_URL", "")
-SUPABASE_ANON_KEY = os.environ.get("NEXT_PUBLIC_SUPABASE_ANON_KEY", "")
+SUPABASE_PUBLISHABLE_KEY = os.environ.get("NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY", "")
 STRIPE_SECRET_KEY = os.environ.get("STRIPE_SECRET_KEY", "")
 STRIPE_WEBHOOK_SECRET = os.environ.get("STRIPE_WEBHOOK_SECRET", "")
 AGENT_INTERNAL_API_KEY = os.environ.get("AGENT_INTERNAL_API_KEY", "")
@@ -116,7 +116,7 @@ class QuotaResult:
 def _get_user_id_from_bearer(authorization: str | None) -> str:
     if not authorization or not authorization.startswith("Bearer "):
         raise HTTPException(status_code=401, detail="Unauthorized")
-    if not SUPABASE_URL or not SUPABASE_ANON_KEY:
+    if not SUPABASE_URL or not SUPABASE_PUBLISHABLE_KEY:
         raise HTTPException(status_code=500, detail="Supabase auth config missing")
 
     token = authorization.replace("Bearer ", "", 1).strip()
@@ -124,7 +124,7 @@ def _get_user_id_from_bearer(authorization: str | None) -> str:
         f"{SUPABASE_URL}/auth/v1/user",
         method="GET",
         headers={
-            "apikey": SUPABASE_ANON_KEY,
+            "apikey": SUPABASE_PUBLISHABLE_KEY,
             "Authorization": f"Bearer {token}",
         },
     )
@@ -224,10 +224,13 @@ def _pence_to_gbp_string(price_pence: int) -> str:
     return f"{value:.2f}"
 
 
-def _price_per_hour(price_pence: int, minutes: int | None) -> str | None:
+def _price_per_hour(price_pence: int, minutes: int | None, interval: str | None = None) -> str | None:
     if not minutes or minutes <= 0:
         return None
-    hourly = (Decimal(price_pence) / Decimal(100)) / (Decimal(minutes) / Decimal(60))
+    total_minutes = Decimal(minutes)
+    if interval == "year":
+        total_minutes *= 12
+    hourly = (Decimal(price_pence) / Decimal(100)) / (total_minutes / Decimal(60))
     return f"{hourly:.2f}"
 
 
@@ -679,7 +682,7 @@ async def get_plans() -> dict[str, Any]:
                 "priceGbp": _pence_to_gbp_string(int(row[6])),
                 "interval": str(row[7]) if row[7] else None,
                 "isSchoolPlan": bool(row[8]),
-                "pricePerHourGbp": _price_per_hour(int(row[6]), minutes),
+                "pricePerHourGbp": _price_per_hour(int(row[6]), minutes, str(row[7]) if row[7] else None),
             }
         )
 
