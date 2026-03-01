@@ -112,13 +112,14 @@ Each item includes implementation notes written for an AI coding agent.
 - Create `.github/workflows/deploy.yml` that triggers on push to `main` and deploys to the production host
 
 ### 5.5 DB backups
-- The current Postgres runs in a Docker named volume with no snapshot strategy
-- For production: use a managed Postgres (e.g. Neon, Supabase Postgres, RDS) instead of the containerised instance
-- If self-hosting, add a `pg_dump` cron job and ship dumps to S3/R2
+- ✅ Production uses Supabase-hosted Postgres (managed backups, point-in-time recovery)
+- Local Docker Postgres retained for development only
+- `docker-compose.prod.yml` override removes local Postgres service
 
 ### 5.6 Close the exposed Postgres port
-- `infra/docker-compose.yml` exposes `5432:5432` externally — fine for local dev, must be removed for production
-- Remove the `ports:` entry from the `db` service in the production compose file, or use a separate `docker-compose.prod.yml` override that omits it
+- ✅ Production via `docker-compose.prod.yml` disables the local Postgres container entirely
+- ✅ `make db-reset` refuses to run against non-local databases
+- Local dev retains `5432:5432` in `docker-compose.infra.yml` for debugging
 
 ---
 
@@ -172,7 +173,7 @@ Each item includes implementation notes written for an AI coding agent.
 | 🟠 P1 | Infra: pin LiveKit image |
 | 🟡 P2 | Observability: Sentry + structured logging |
 | 🟡 P2 | Infra: CI/CD pipeline |
-| 🟡 P2 | Infra: Postgres managed service / backups |
+| 🟡 P2 | Infra: Postgres managed service / backups ✅ |
 | 🟡 P2 | Error pages (404, 500) ✅ |
 | 🟡 P2 | Cookie consent banner |
 | 🟢 P3 | Calendar sync (Google/Apple) |

@@ -30,7 +30,8 @@ Use this index first when navigating the repo (human or agent):
 - Next.js 16 (App Router) + TypeScript + Tailwind
 - LiveKit Server (self-hosted in Docker)
 - Python 3.11 API + agent service (FastAPI + LiveKit Agents + Deepgram + OpenAI)
-- Postgres 16 + pgvector
+- Postgres 16 + pgvector (local Docker for dev, Supabase-hosted for production)
+- Supabase Auth for authentication
 - Drizzle ORM query builder in web + Python-owned database schema bootstrap
 
 ## Repo layout
@@ -98,6 +99,8 @@ cp .env.example .env
 | `STRIPE_PRODUCT_CREDIT_10H` | Yes (Stripe Product ID used to resolve 10h credit-pack price) | — |
 | `DB_POOL_MIN_SIZE` | No | `2` |
 | `DB_POOL_MAX_SIZE` | No | `12` |
+| `DATABASE_URL_POOLER` | No (prod only) | — |
+| `DB_SSL` | No | — |
 | `AGENT_OPENAI_MODEL` | No | `gpt-4o` |
 | `SUMMARY_OPENAI_MODEL` | No | `gpt-4o-mini` |
 | `DEEPGRAM_STT_MODEL` | No | `flux-general-en` |
@@ -313,6 +316,61 @@ Representative endpoints:
 - `GET /api/progress/overview`
 - `GET|POST /api/parent/links`, `POST /api/parent/link-code`, `GET|PUT /api/parent/restrictions`
 - `GET|POST|PUT|DELETE /api/tutor-personas*`, `GET|PUT /api/tutor-config`
+
+## Production Database (Supabase)
+
+Local development uses Docker Postgres (`make infra`). For production, the database is
+hosted on [Supabase](https://supabase.com).
+
+### One-time setup
+
+1. Create a Supabase project and note your project ref, region, and database password.
+
+2. Enable the **vector** extension in Supabase Dashboard → Database → Extensions.
+   (`pgcrypto` is already enabled by default.)
+
+3. Set the connection strings in `.env`:
+
+```bash
+# Direct connection (port 5432) — used by the Python agent and CLI scripts
+DATABASE_URL=postgresql://postgres.[ref]:[password]@aws-0-[region].pooler.supabase.com:5432/postgres?sslmode=require
+
+# Supavisor transaction-mode pooler (port 6543) — used by the Next.js web app
+DATABASE_URL_POOLER=postgresql://postgres.[ref]:[password]@aws-0-[region].pooler.supabase.com:6543/postgres?sslmode=require
+```
+
+4. Run schema bootstrap and seed against Supabase:
+
+```bash
+make db-migrate   # idempotent — safe to re-run
+make seed         # seeds reference data (exam boards, subjects, courses)
+```
+
+### Docker deployment against Supabase
+
+Use the production compose override to skip the local Postgres container:
+
+```bash
+docker compose -f infra/docker-compose.yml -f infra/docker-compose.prod.yml up --build
+```
+
+### Connection architecture
+
+| Service | Connection | Port | Why |
+|---------|-----------|------|-----|
+| Python agent (`apps/agent`) | Direct | 5432 | Supports advisory locks, `LISTEN`/`NOTIFY`, prepared statements via `psycopg_pool` |
+| Next.js web (`apps/web`) | Supavisor pooler | 6543 | Transaction-mode pooling for higher SSR concurrency; drizzle-orm via `node-postgres` |
+| CLI scripts (`make seed`, etc.) | Direct | 5432 | Short-lived connections, needs full SQL feature set |
+
+Both connection strings should include `?sslmode=require` for Supabase. The web app also
+accepts a `DB_SSL=true` env var as an alternative when the URL doesn't carry the `sslmode` param.
+
+### Safety guards
+
+- `make db-reset` refuses to run against non-local databases.
+- `make db-migrate` and `make seed` print a warning when targeting a remote host.
+- `bootstrap_db.py` catches `InsufficientPrivilege` errors on extension creation and
+  prints a message pointing to the Supabase Dashboard.
 
 ## Troubleshooting
 

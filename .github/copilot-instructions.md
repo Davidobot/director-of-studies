@@ -8,7 +8,8 @@ Director of Studies is a local-first MVP voice tutor for GCSE/A-level Humanities
 - **Web app:** Next.js 16 (App Router, TypeScript, Tailwind) in `apps/web`
 - **Realtime audio:** Self-hosted LiveKit in Docker
 - **Tutor agent:** Python 3.11 FastAPI + LiveKit Agents in `apps/agent`
-- **Storage:** Postgres 16 + pgvector
+- **Storage:** Postgres 16 + pgvector (local Docker for dev, Supabase-hosted for production)
+- **Auth:** Supabase Auth (JWT sessions, email/password)
 - **RAG:** content ingestion from `content/{board}/{level}-{subject}/{topic-slug}/*` and retrieval filtered by course/topic
 - **Persistence:** sessions, transcript, and summary data in Postgres
 

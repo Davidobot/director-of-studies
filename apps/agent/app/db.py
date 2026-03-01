@@ -10,6 +10,9 @@ import psycopg
 from openai import OpenAI
 from psycopg_pool import AsyncConnectionPool, ConnectionPool
 
+# psycopg natively understands ?sslmode=require in the connection string;
+# no extra SSL config is needed — just ensure Supabase URLs include the param.
+# For local Docker dev the default conninfo has no sslmode, which is fine.
 DATABASE_URL = os.environ.get("DATABASE_URL", "")
 DB_POOL_MIN_SIZE = int(os.environ.get("DB_POOL_MIN_SIZE", "2"))
 DB_POOL_MAX_SIZE = int(os.environ.get("DB_POOL_MAX_SIZE", "12"))

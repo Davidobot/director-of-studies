@@ -40,6 +40,7 @@ services:
     container_name: dos-web
     environment:
       DATABASE_URL: ${DATABASE_URL:-postgresql://director:director@postgres:5432/director}
+      DATABASE_URL_POOLER: ${DATABASE_URL_POOLER:-}
       NEXT_PUBLIC_LIVEKIT_URL: ${NEXT_PUBLIC_LIVEKIT_URL:-ws://localhost:7880}
       LIVEKIT_URL: ${LIVEKIT_URL:-ws://livekit:7880}
       LIVEKIT_API_KEY: ${LIVEKIT_API_KEY:-devkey}

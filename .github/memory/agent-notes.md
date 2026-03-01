@@ -521,3 +521,24 @@ Use this file as shared working memory across tasks.
 - **Decision:** (1) Fixed `service_role` → `secret_key` in `_supabase_admin_request`. (2) Added `_guest_admin_login_sync` that creates/upserts a Supabase auth user + `profiles` row with `account_type='admin'`, driven by `GUEST_ADMIN_EMAIL`/`GUEST_ADMIN_PASSWORD`/`GUEST_ADMIN_NAME` env vars. (3) Added `POST /api/auth/guest-admin-login` FastAPI endpoint. (4) Added `loginAsAdmin()` helper and "Log in as Admin (test)" button (amber border) to `LoginForm.tsx` beneath the existing guest button.
 - **Files touched:** `apps/agent/app/main.py`, `apps/web/src/components/LoginForm.tsx`, `.env.example`, `.github/memory/agent-notes.md`
 - **Follow-up:** Set `GUEST_ADMIN_EMAIL`, `GUEST_ADMIN_PASSWORD`, `GUEST_ADMIN_NAME` in `.env.local` / Docker env before using the button. Rebuild/restart `agent` container to pick up changes. Consider hiding admin login button behind a dev-only env flag (`NEXT_PUBLIC_SHOW_DEMO_ADMIN=true`) before deploying to production.
+
+### 2026-03-01 (Supabase production database migration)
+- **Context:** User requested moving DB to Supabase for production readiness while keeping local Docker Postgres for dev.
+- **Discovery:** All existing SQL (bootstrap, seed, drizzle queries) is fully Supabase-compatible. No incompatible syntax or extensions. `node-postgres` does not parse `sslmode` from URLs — needs explicit `ssl` config. `NEXT_PUBLIC_DATABASE_URL` was defined but never used (dead config; also a security risk since `NEXT_PUBLIC_*` is inlined into client bundles).
+- **Decision:**
+  - Added SSL support to web DB pool (`apps/web/src/db/index.ts`): detects `sslmode=require` in URL or `DB_SSL=true` env var, strips `sslmode` param from URL before passing to `pg.Pool`.
+  - Added `DATABASE_URL_POOLER` env var for Supavisor transaction-mode pooler (port 6543) used by web app; agent uses direct connection (port 5432) via `DATABASE_URL`. Web falls back to `DATABASE_URL` if `DATABASE_URL_POOLER` is not set.
+  - Documented in `apps/agent/app/db.py` that psycopg natively handles `?sslmode=require` — no code change needed.
+  - Updated `apps/agent/entrypoint.sh`: replaced hardcoded `nc -z postgres 5432` health check with a Python-based connection test that works for both Docker and Supabase hostnames.
+  - Updated `apps/agent/scripts/bootstrap_db.py`: added `InsufficientPrivilege` error handling on `CREATE EXTENSION` statements with a Supabase-specific help message.
+  - Created `infra/docker-compose.prod.yml` override that disables local Postgres and removes `depends_on` references, so production uses Supabase exclusively.
+  - Added `DATABASE_URL_POOLER` to Docker compose web service environment and all Makefile targets that start the web process.
+  - Added safety guards in `Makefile`: `db-reset` refuses non-local hosts; `db-migrate` and `seed` print warnings for remote targets.
+  - Removed dead `NEXT_PUBLIC_DATABASE_URL` from `.env.example` and `.env`.
+  - Updated `.env.example` with commented-out Supabase connection string templates, `DB_SSL` toggle, and `DATABASE_URL_POOLER`.
+  - Added comprehensive "Production Database (Supabase)" section to `README.md`.
+  - Updated `infra/db/init.sql` with comment noting it's local-dev-only.
+  - Updated `.github/copilot-instructions.md` core architecture section.
+  - Updated `TODO.md` to mark DB backup and port security items as done.
+- **Files touched:** `apps/web/src/db/index.ts`, `apps/agent/app/db.py`, `apps/agent/scripts/bootstrap_db.py`, `apps/agent/entrypoint.sh`, `infra/docker-compose.yml`, `infra/docker-compose.prod.yml` (new), `infra/db/init.sql`, `Makefile`, `.env`, `.env.example`, `README.md`, `.github/copilot-instructions.md`, `TODO.md`, `.github/memory/agent-notes.md`.
+- **Follow-up:** For first Supabase deployment: enable `vector` extension in Dashboard, set `DATABASE_URL` and `DATABASE_URL_POOLER` in `.env`, run `make db-migrate && make seed`, then start services. Consider adding RLS policies in a future pass for defense-in-depth.

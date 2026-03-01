@@ -20,7 +20,10 @@ export
 
 # When running natively the Docker container hostnames aren't reachable;
 # override just those three URLs to point at localhost instead.
+# For production, set DATABASE_URL (and DATABASE_URL_POOLER) to Supabase
+# connection strings in .env and the NATIVE_* overrides are ignored.
 NATIVE_DATABASE_URL = postgresql://$(POSTGRES_USER):$(POSTGRES_PASSWORD)@localhost:5432/$(POSTGRES_DB)
+NATIVE_DATABASE_URL_POOLER =
 NATIVE_LIVEKIT_URL  = ws://localhost:7880
 NATIVE_AGENT_URL    = http://localhost:8000
 
@@ -69,6 +72,7 @@ web:
 	cd apps/web && \
 	  PORT=3000 \
 	  DATABASE_URL="$(NATIVE_DATABASE_URL)" \
+	  DATABASE_URL_POOLER="$(NATIVE_DATABASE_URL_POOLER)" \
 	  LIVEKIT_URL="$(NATIVE_LIVEKIT_URL)" \
 	  AGENT_URL="$(NATIVE_AGENT_URL)" \
 	  NEXT_PUBLIC_API_URL="$(NATIVE_AGENT_URL)" \
@@ -139,16 +143,30 @@ content-pipeline: download extract discover-topics beautify keywords
 
 # Apply incremental DB schema changes to a running Postgres instance.
 # Safe to run multiple times — all statements use IF NOT EXISTS / IF EXISTS guards.
+# Shows a warning when targeting a non-local database.
 .PHONY: db-migrate
 db-migrate:
 	@test -f $(AGENT_PY) || (echo "Run 'make venv' first to set up the Python environment."; exit 1)
+	@case "$(NATIVE_DATABASE_URL)" in \
+	  *localhost*|*127.0.0.1*|*postgres:5432*) ;; \
+	  *) echo "WARNING: DATABASE_URL points to a remote host. Proceeding with schema migration...";; \
+	esac
 	cd apps/agent && DATABASE_URL="$(NATIVE_DATABASE_URL)" $(PWD)/$(AGENT_PY) scripts/bootstrap_db.py
 	@echo "Python DB bootstrap/migration applied."
 
 # Reset DB schema only (drops all tables/data) without reseeding.
 # Useful when you want a clean DB before running 'make db-migrate' or 'make seed'.
+# Safety: refuses to run against non-local databases to prevent accidental
+# production data loss.  Use the Supabase Dashboard to manage prod data.
 .PHONY: db-reset
 db-reset:
+	@case "$(NATIVE_DATABASE_URL)" in \
+	  *localhost*|*127.0.0.1*|*postgres:5432*) ;; \
+	  *) echo "ERROR: Refusing to reset a remote database."; \
+	     echo "       DATABASE_URL does not look like a local instance."; \
+	     echo "       Use the Supabase Dashboard to manage production data."; \
+	     exit 1;; \
+	esac
 	@echo "Resetting database schema for $(POSTGRES_DB)..."
 	@docker exec dos-postgres psql -U "$(POSTGRES_USER)" -d "$(POSTGRES_DB)" -v ON_ERROR_STOP=1 -c "DROP SCHEMA IF EXISTS public CASCADE; CREATE SCHEMA public;"
 	@echo "DB reset complete."
@@ -173,6 +191,10 @@ billing-copy-live-to-test:
 .PHONY: seed
 seed:
 	@test -f $(AGENT_PY) || (echo "Run 'make venv' first to set up the Python environment."; exit 1)
+	@case "$(NATIVE_DATABASE_URL)" in \
+	  *localhost*|*127.0.0.1*|*postgres:5432*) ;; \
+	  *) echo "WARNING: DATABASE_URL points to a remote host. Proceeding with seed...";; \
+	esac
 	@echo "Bootstrapping schema from Python..."
 	cd apps/agent && DATABASE_URL="$(NATIVE_DATABASE_URL)" $(PWD)/$(AGENT_PY) scripts/bootstrap_db.py
 	@echo "Seeding reference + course data from Python..."
@@ -200,6 +222,7 @@ local:
 	  trap 'kill 0' INT; \
 	  ( cd apps/web && \
 	      DATABASE_URL="$(NATIVE_DATABASE_URL)" \
+	      DATABASE_URL_POOLER="$(NATIVE_DATABASE_URL_POOLER)" \
 	      LIVEKIT_URL="$(NATIVE_LIVEKIT_URL)" \
 	      AGENT_URL="$(NATIVE_AGENT_URL)" \
 	      NEXT_PUBLIC_API_URL="$(NATIVE_AGENT_URL)" \

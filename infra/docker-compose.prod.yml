@@ -1,0 +1,30 @@
+# Production override — removes the local Postgres service.
+# Both web and agent connect to Supabase-hosted Postgres via DATABASE_URL.
+#
+# Usage:
+#   docker compose -f infra/docker-compose.yml -f infra/docker-compose.prod.yml up --build
+#
+# Required env vars in .env (or shell):
+#   DATABASE_URL=postgresql://postgres.[ref]:[password]@aws-0-[region].pooler.supabase.com:5432/postgres?sslmode=require
+#   DATABASE_URL_POOLER=postgresql://postgres.[ref]:[password]@aws-0-[region].pooler.supabase.com:6543/postgres?sslmode=require
+
+services:
+  # Remove local Postgres — production uses Supabase-hosted Postgres.
+  postgres:
+    deploy:
+      replicas: 0
+
+  web:
+    depends_on: !override
+      livekit:
+        condition: service_started
+    environment:
+      DATABASE_URL: ${DATABASE_URL}
+      DATABASE_URL_POOLER: ${DATABASE_URL_POOLER:-}
+
+  agent:
+    depends_on: !override
+      livekit:
+        condition: service_started
+    environment:
+      DATABASE_URL: ${DATABASE_URL}

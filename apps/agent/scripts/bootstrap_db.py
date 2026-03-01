@@ -437,7 +437,20 @@ def main() -> None:
 
     with psycopg.connect(DATABASE_URL) as conn, conn.cursor() as cur:
         for statement in SCHEMA_SQL:
-            cur.execute(statement)
+            try:
+                cur.execute(statement)
+            except psycopg.errors.InsufficientPrivilege as exc:
+                # Supabase requires extensions to be enabled via Dashboard
+                if "extension" in statement.lower() and "create extension" in statement.lower():
+                    ext_name = statement.split()[-1].strip('"').strip("'")
+                    print(
+                        f"WARNING: Could not create extension '{ext_name}'. "
+                        f"On Supabase, enable it via Dashboard → Database → Extensions. "
+                        f"Error: {exc}"
+                    )
+                    conn.rollback()
+                    continue
+                raise
         conn.commit()
 
     print("DB bootstrap complete")
