@@ -5,6 +5,7 @@ import { courses, sessionSummaries, sessionTranscripts, sessions, topics } from 
 import { redirect } from "next/navigation";
 import { getServerUser } from "@/lib/supabase/server";
 import { getStudentContext } from "@/lib/student";
+import { FeedbackButton } from "@/components/FeedbackButton";
 
 export const dynamic = "force-dynamic";
 
@@ -125,6 +126,14 @@ export default async function SessionDetailPage({ params }: { params: Promise<{ 
           </>
         )}
       </section>
+
+      {session.status === "ended" ? (
+        <section className="rounded border border-slate-800 bg-slate-900 p-4">
+          <h3 className="mb-2 text-lg font-semibold">How was this session?</h3>
+          <p className="mb-3 text-sm text-slate-400">Your feedback helps us improve the tutoring experience.</p>
+          <FeedbackButton feedbackType="session" sessionId={session.id} buttonLabel="Rate this session" />
+        </section>
+      ) : null}
     </main>
   );
 }

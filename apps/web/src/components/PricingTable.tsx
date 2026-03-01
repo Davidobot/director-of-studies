@@ -22,16 +22,20 @@ function formatHours(minutes: number | null | undefined) {
   return (minutes / 60).toFixed(minutes % 60 === 0 ? 0 : 1);
 }
 
-export function PricingTable({ plans }: { plans: Plan[] }) {
+export function PricingTable({ plans, schoolEmailEligible = false }: { plans: Plan[]; schoolEmailEligible?: boolean }) {
   const [loadingPlanId, setLoadingPlanId] = useState<number | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   const grouped = useMemo(() => {
-    const subscriptions = plans.filter((p) => p.planType === "subscription");
+    const allSubscriptions = plans.filter((p) => p.planType === "subscription");
+    // Show only school plans if eligible, only standard plans otherwise
+    const subscriptions = allSubscriptions.filter((p) =>
+      schoolEmailEligible ? p.isSchoolPlan : !p.isSchoolPlan
+    );
     const creditPacks = plans.filter((p) => p.planType === "credit_pack");
     const free = plans.find((p) => p.planType === "free") ?? null;
     return { subscriptions, creditPacks, free };
-  }, [plans]);
+  }, [plans, schoolEmailEligible]);
 
   async function startCheckout(planId: number) {
     setError(null);
@@ -68,8 +72,14 @@ export function PricingTable({ plans }: { plans: Plan[] }) {
       {grouped.free ? (
         <div className="rounded-md border border-emerald-800 bg-emerald-950/30 p-4 text-sm">
           <p className="font-medium text-emerald-300">{grouped.free.name}</p>
-          <p className="text-emerald-200/90">1 hour free trial included with every account.</p>
+          <p className="text-emerald-200/90">1 hour free trial included with every account. As long as the free hour lasts.</p>
         </div>
+      ) : null}
+
+      {schoolEmailEligible ? (
+        <p className="rounded-md border border-violet-800 bg-violet-950/30 px-3 py-2 text-sm text-violet-200">
+          School email detected — showing school pricing (25% more hours at the same price).
+        </p>
       ) : null}
 
       <div>

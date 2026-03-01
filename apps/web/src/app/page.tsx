@@ -1,6 +1,7 @@
 import { db } from "@/db";
 import { boardSubjects, courses, studentEnrolments, topics, tutorConfigs, tutorPersonas } from "@/db/schema";
 import { CourseTopicSelector } from "@/components/CourseTopicSelector";
+import { FeedbackButton } from "@/components/FeedbackButton";
 import { getServerUser } from "@/lib/supabase/server";
 import { getStudentContext } from "@/lib/student";
 import { redirect } from "next/navigation";
@@ -135,6 +136,15 @@ export default async function HomePage() {
       <h2 className="text-xl font-semibold">Start a tutoring call</h2>
       <p className="text-slate-300">Select your course and topic, then join a live tutoring call.</p>
       <CourseTopicSelector courses={filteredCourses} topics={filteredTopics} defaultModels={defaultModels} tutorNameByCourseId={tutorNameByCourseId} />
+
+      <div className="mt-4 rounded-lg border border-slate-800 bg-slate-900 p-4">
+        <p className="mb-2 text-sm text-slate-300">Can&apos;t find your course or subject?</p>
+        <FeedbackButton
+          feedbackType="course_suggestion"
+          buttonLabel="Suggest a course"
+          buttonClassName="rounded-md border border-violet-600 px-3 py-2 text-sm text-violet-200 hover:bg-violet-900/40"
+        />
+      </div>
     </main>
   );
 }

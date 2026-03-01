@@ -464,4 +464,34 @@ Use this file as shared working memory across tasks.
   - **Files touched:** `apps/web/src/proxy.ts`, `apps/web/src/middleware.ts` (deleted), `README.md`, `.github/copilot-instructions.md`, `.github/memory/agent-notes.md`.
   - **Follow-up:** Keep navigation maps in README/instructions synced whenever major folders or ownership boundaries change.
 
+  ### 2026-03-01 (5-feature batch: referral programme, billing filtering, feedback, error pages, admin dashboard)
+  - **Context:** User selected 5 items from TODO.md for implementation in a single pass. Clarification answers: vanity slug replaces auto-generated code, star+text feedback, DB enum for admin gate, simple textarea for course suggestion.
+  - **Decisions:**
+    - Referral: `custom_code` column on `referrals` table (4-20 alphanum, unique). `PUT /billing/referral-code` sets it. Share URL uses custom_code if set, else referral_code. `apply-referral` searches both columns.
+    - Feedback: new `feedback` table (id, user_id, session_id nullable, type enum, rating 1-5, comment text). `POST /api/feedback`. FeedbackButton component supports session/general/course_suggestion types.
+    - Admin: added `'admin'` to `account_type` enum. Admin gate via `_require_admin()` checking DB account_type OR `ADMIN_EMAILS` env var. Stats endpoint returns 7 metrics. Feedback endpoint paginated with type filter.
+    - Billing filtering: PricingTable accepts `schoolEmailEligible` prop and filters subscriptions. Free starter wording updated.
+    - Error pages: standard Next.js trio (not-found.tsx, error.tsx, global-error.tsx).
+  - **Files created:**
+    - `apps/web/src/components/FeedbackButton.tsx` — modal with 5 amber stars + textarea
+    - `apps/web/src/app/not-found.tsx`, `error.tsx`, `global-error.tsx`
+    - `apps/web/src/app/admin/page.tsx` — server component with admin gate via getStudentContext
+    - `apps/web/src/app/admin/AdminDashboard.tsx` — client component, stats grid + feedback table
+  - **Files modified:**
+    - `apps/agent/scripts/bootstrap_db.py` — admin enum value, custom_code column, feedback table (55 statements total)
+    - `apps/agent/app/billing.py` — PUT /billing/referral-code, GET returns customCode, apply-referral searches both codes
+    - `apps/agent/app/main.py` — POST /api/feedback, GET /api/admin/stats, GET /api/admin/feedback, _require_admin helper
+    - `apps/web/src/db/schema.ts` — admin enum, customCode, feedback table
+    - `apps/web/src/components/SignupForm.tsx` — referralCode from ?ref= URL param, collapsible input, auto-apply after signup
+    - `apps/web/src/app/signup/page.tsx` — Suspense wrapper for useSearchParams
+    - `apps/web/src/app/settings/billing/page.tsx` — referral sharing UI (copy link, custom code editor), schoolEmailEligible to PricingTable
+    - `apps/web/src/components/PricingTable.tsx` — schoolEmailEligible filtering, updated free starter wording
+    - `apps/web/src/app/sessions/[id]/page.tsx` — FeedbackButton after ended session
+    - `apps/web/src/app/dashboard/page.tsx` — FeedbackButton in top section
+    - `apps/web/src/app/page.tsx` — FeedbackButton "Suggest a course" below CourseTopicSelector
+    - `apps/web/src/components/AccountMenu.tsx` — admin account type + /admin nav item
+    - `apps/web/src/proxy.ts` — isAdminPath utility
+    - `TODO.md` — sections 6 and 8 marked ✅
+  - **Verification:** `npm run build` passes (all routes including /admin, /_not-found). Python syntax OK for billing.py and main.py. Bootstrap SQL: 55 statements.
+  - **Follow-up:** Run `make db-migrate` on any running DB to apply new schema. Set `ADMIN_EMAILS` env var for bootstrap admin access.
 

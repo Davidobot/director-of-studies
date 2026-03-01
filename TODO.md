@@ -122,7 +122,7 @@ Each item includes implementation notes written for an AI coding agent.
 
 ---
 
-## 6. Error Pages ❌
+## 6. Error Pages ✅
 
 ### 6.1 Custom 404 and 500 pages
 - Create `apps/web/src/app/not-found.tsx` — simple "Page not found" UI with a link back to `/dashboard`
@@ -143,7 +143,7 @@ Each item includes implementation notes written for an AI coding agent.
 
 ---
 
-## 8. Admin Tooling ❌ (pre-launch nice-to-have)
+## 8. Admin Tooling ✅ (pre-launch nice-to-have)
 
 ### 8.1 Admin dashboard
 - No route or UI exists for inspecting users, content, or sessions without direct DB access
@@ -153,9 +153,6 @@ Each item includes implementation notes written for an AI coding agent.
   - Failed sessions (no transcript generated)
   - See number of subscribers and total hours they spent
 - Gate with middleware checking `profile.account_type === 'admin'` (add admin type to the DB enum)
-
-- Add a feedback button after each session and in general in the dashboard. Display these in the admin dashboard
-- Also add a "suggest a course" feedback button in the course page
 
 ---
 
@@ -176,7 +173,7 @@ Each item includes implementation notes written for an AI coding agent.
 | 🟡 P2 | Observability: Sentry + structured logging |
 | 🟡 P2 | Infra: CI/CD pipeline |
 | 🟡 P2 | Infra: Postgres managed service / backups |
-| 🟡 P2 | Error pages (404, 500) |
+| 🟡 P2 | Error pages (404, 500) ✅ |
 | 🟡 P2 | Cookie consent banner |
 | 🟢 P3 | Calendar sync (Google/Apple) |
-| 🟢 P3 | Admin dashboard |
+| 🟢 P3 | Admin dashboard ✅ |

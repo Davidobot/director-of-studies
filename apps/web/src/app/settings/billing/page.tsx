@@ -53,6 +53,11 @@ export default function BillingSettingsPage() {
   const [summary, setSummary] = useState<BillingSummaryResponse | null>(null);
   const [plans, setPlans] = useState<Plan[]>([]);
   const [referralCode, setReferralCode] = useState<string | null>(null);
+  const [customCode, setCustomCode] = useState<string | null>(null);
+  const [customCodeInput, setCustomCodeInput] = useState("");
+  const [customCodeSaving, setCustomCodeSaving] = useState(false);
+  const [customCodeMsg, setCustomCodeMsg] = useState<string | null>(null);
+  const [linkCopied, setLinkCopied] = useState(false);
   const [loading, setLoading] = useState(true);
   const [portalLoading, setPortalLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -73,11 +78,13 @@ export default function BillingSettingsPage() {
 
       const summaryBody = (await summaryRes.json()) as BillingSummaryResponse;
       const plansBody = (await plansRes.json()) as { plans: Plan[] };
-      const referralBody = (await referralRes.json()) as { referralCode: string };
+      const referralBody = (await referralRes.json()) as { referralCode: string; customCode: string | null };
 
       setSummary(summaryBody);
       setPlans(plansBody.plans ?? []);
       setReferralCode(referralBody.referralCode ?? null);
+      setCustomCode(referralBody.customCode ?? null);
+      if (referralBody.customCode) setCustomCodeInput(referralBody.customCode);
     } catch (err) {
       setError(err instanceof Error ? err.message : "Failed to load billing data");
     } finally {
@@ -206,23 +213,93 @@ export default function BillingSettingsPage() {
             <p className="mt-2 text-sm text-slate-300">
               Refer a parent/student and you each get 5 free hours when they buy a subscription.
             </p>
-            <div className="mt-3 flex flex-wrap items-center gap-2">
-              <code className="rounded border border-slate-700 bg-slate-950 px-3 py-2 text-sm text-slate-100">
-                {referralCode ?? "Loading..."}
-              </code>
-              <button
-                onClick={() => {
-                  if (!referralCode) return;
-                  void navigator.clipboard.writeText(referralCode);
-                }}
-                className="rounded-md border border-slate-600 px-3 py-2 text-sm text-slate-200 hover:bg-slate-800"
-              >
-                Copy code
-              </button>
+
+            <div className="mt-3 space-y-3">
+              {/* Code display */}
+              <div className="flex flex-wrap items-center gap-2">
+                <code className="rounded border border-slate-700 bg-slate-950 px-3 py-2 text-sm text-slate-100">
+                  {customCode ?? referralCode ?? "Loading..."}
+                </code>
+                <button
+                  onClick={() => {
+                    const code = customCode ?? referralCode;
+                    if (!code) return;
+                    void navigator.clipboard.writeText(code);
+                  }}
+                  className="rounded-md border border-slate-600 px-3 py-2 text-sm text-slate-200 hover:bg-slate-800"
+                >
+                  Copy code
+                </button>
+                <button
+                  onClick={() => {
+                    const code = customCode ?? referralCode;
+                    if (!code) return;
+                    const url = `${window.location.origin}/signup?ref=${code}`;
+                    void navigator.clipboard.writeText(url);
+                    setLinkCopied(true);
+                    setTimeout(() => setLinkCopied(false), 2000);
+                  }}
+                  className="rounded-md bg-sky-600 px-3 py-2 text-sm font-medium text-white hover:bg-sky-500"
+                >
+                  {linkCopied ? "Link copied!" : "Copy share link"}
+                </button>
+              </div>
+
+              {/* Shareable URL preview */}
+              <p className="text-xs text-slate-500 break-all">
+                {typeof window !== "undefined" ? window.location.origin : ""}/signup?ref={customCode ?? referralCode ?? "..."}
+              </p>
+
+              {/* Custom code editor */}
+              <div className="border-t border-slate-800 pt-3">
+                <label className="mb-1 block text-xs text-slate-400">Customise your referral code</label>
+                <div className="flex items-center gap-2">
+                  <input
+                    className="w-48 rounded-md border border-slate-700 bg-slate-950 px-3 py-2 text-sm uppercase"
+                    value={customCodeInput}
+                    onChange={(e) => setCustomCodeInput(e.target.value.toUpperCase())}
+                    placeholder="e.g. JOHN2026"
+                    maxLength={20}
+                    minLength={4}
+                  />
+                  <button
+                    disabled={customCodeSaving || customCodeInput.trim().length < 4}
+                    onClick={async () => {
+                      setCustomCodeSaving(true);
+                      setCustomCodeMsg(null);
+                      try {
+                        const res = await apiFetch("/billing/referral-code", {
+                          method: "PUT",
+                          body: { customCode: customCodeInput.trim() },
+                        });
+                        if (!res.ok) {
+                          const body = (await res.json().catch(() => ({}))) as { detail?: string };
+                          throw new Error(body.detail || "Could not save code");
+                        }
+                        const body = (await res.json()) as { customCode: string };
+                        setCustomCode(body.customCode);
+                        setCustomCodeMsg("Saved!");
+                      } catch (err) {
+                        setCustomCodeMsg(err instanceof Error ? err.message : "Failed to save");
+                      } finally {
+                        setCustomCodeSaving(false);
+                      }
+                    }}
+                    className="rounded-md border border-slate-600 px-3 py-2 text-sm text-slate-200 hover:bg-slate-800 disabled:opacity-50"
+                  >
+                    {customCodeSaving ? "Saving..." : "Save"}
+                  </button>
+                </div>
+                {customCodeMsg ? (
+                  <p className="mt-1 text-xs text-slate-400">{customCodeMsg}</p>
+                ) : (
+                  <p className="mt-1 text-xs text-slate-500">4-20 alphanumeric characters. This becomes your shareable code.</p>
+                )}
+              </div>
             </div>
           </section>
 
-          <PricingTable plans={plans} />
+          <PricingTable plans={plans} schoolEmailEligible={summary.schoolEmailEligible} />
         </>
       )}
     </main>

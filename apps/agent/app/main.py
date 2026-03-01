@@ -2451,3 +2451,201 @@ def _soft_delete_profile_sync(user_id: str) -> None:
             (now, user_id),
         )
         conn.commit()
+
+
+# ---------------------------------------------------------------------------
+# Feedback endpoints
+# ---------------------------------------------------------------------------
+
+
+class FeedbackRequest(BaseModel):
+    feedbackType: str  # 'session' | 'general' | 'course_suggestion'
+    sessionId: str | None = None
+    rating: int | None = None
+    comment: str | None = None
+    metadata: dict[str, Any] | None = None
+
+
+@app.post("/api/feedback")
+async def create_feedback(
+    payload: FeedbackRequest,
+    authorization: str | None = Header(default=None),
+) -> dict[str, Any]:
+    profile_id = _get_user_id_from_bearer(authorization)
+
+    if payload.feedbackType not in ("session", "general", "course_suggestion"):
+        raise HTTPException(status_code=400, detail="Invalid feedback type")
+
+    if payload.rating is not None and (payload.rating < 1 or payload.rating > 5):
+        raise HTTPException(status_code=400, detail="Rating must be between 1 and 5")
+
+    if payload.feedbackType == "session" and not payload.sessionId:
+        raise HTTPException(status_code=400, detail="sessionId required for session feedback")
+
+    def _insert() -> int:
+        with get_conn() as conn, conn.cursor() as cur:
+            cur.execute(
+                """
+                INSERT INTO feedback (profile_id, feedback_type, session_id, rating, comment, metadata)
+                VALUES (%s, %s, %s, %s, %s, %s)
+                RETURNING id
+                """,
+                (
+                    profile_id,
+                    payload.feedbackType,
+                    payload.sessionId,
+                    payload.rating,
+                    payload.comment,
+                    json.dumps(payload.metadata or {}),
+                ),
+            )
+            row = cur.fetchone()
+            conn.commit()
+            return int(row[0]) if row else 0
+
+    feedback_id = await asyncio.to_thread(_insert)
+    return {"ok": True, "feedbackId": feedback_id}
+
+
+# ---------------------------------------------------------------------------
+# Admin endpoints
+# ---------------------------------------------------------------------------
+
+ADMIN_EMAILS: set[str] = set()
+_admin_emails_raw = os.environ.get("ADMIN_EMAILS", "")
+if _admin_emails_raw.strip():
+    ADMIN_EMAILS = {e.strip().lower() for e in _admin_emails_raw.split(",") if e.strip()}
+
+
+def _require_admin(authorization: str | None) -> str:
+    """Verify the caller is an admin (account_type = 'admin' in DB). Returns profile_id."""
+    profile_id = _get_user_id_from_bearer(authorization)
+    with get_conn() as conn, conn.cursor() as cur:
+        cur.execute(
+            "SELECT account_type, email FROM profiles WHERE id = %s AND deleted_at IS NULL",
+            (profile_id,),
+        )
+        row = cur.fetchone()
+        if not row:
+            raise HTTPException(status_code=403, detail="Forbidden")
+        account_type = str(row[0])
+        email = str(row[1]).lower()
+
+        # Allow access if DB account_type is admin OR email is in env whitelist
+        if account_type != "admin" and email not in ADMIN_EMAILS:
+            raise HTTPException(status_code=403, detail="Forbidden")
+    return profile_id
+
+
+@app.get("/api/admin/stats")
+async def admin_stats(
+    authorization: str | None = Header(default=None),
+) -> dict[str, Any]:
+    _require_admin(authorization)
+
+    def _query() -> dict[str, Any]:
+        with get_conn() as conn, conn.cursor() as cur:
+            # User counts
+            cur.execute("SELECT COUNT(*) FROM profiles WHERE account_type = 'student' AND deleted_at IS NULL")
+            total_students = int(cur.fetchone()[0])
+
+            cur.execute("SELECT COUNT(*) FROM profiles WHERE account_type = 'parent' AND deleted_at IS NULL")
+            total_parents = int(cur.fetchone()[0])
+
+            # Session counts
+            cur.execute("SELECT COUNT(*) FROM sessions WHERE created_at >= NOW() - interval '24 hours'")
+            sessions_24h = int(cur.fetchone()[0])
+
+            cur.execute("SELECT COUNT(*) FROM sessions WHERE created_at >= NOW() - interval '7 days'")
+            sessions_7d = int(cur.fetchone()[0])
+
+            # Failed sessions: ended but no summary generated
+            cur.execute(
+                """
+                SELECT COUNT(*) FROM sessions s
+                WHERE s.status = 'ended'
+                AND NOT EXISTS (SELECT 1 FROM session_summaries ss WHERE ss.session_id = s.id)
+                """
+            )
+            failed_sessions = int(cur.fetchone()[0])
+
+            # Active subscribers
+            cur.execute("SELECT COUNT(*) FROM subscriptions WHERE status = 'active'")
+            active_subscribers = int(cur.fetchone()[0])
+
+            # Total hours (from duration_seconds)
+            cur.execute("SELECT COALESCE(SUM(duration_seconds), 0) FROM sessions WHERE duration_seconds IS NOT NULL")
+            total_seconds = int(cur.fetchone()[0])
+            total_hours = round(total_seconds / 3600, 1)
+
+            return {
+                "totalStudents": total_students,
+                "totalParents": total_parents,
+                "sessions24h": sessions_24h,
+                "sessions7d": sessions_7d,
+                "failedSessions": failed_sessions,
+                "activeSubscribers": active_subscribers,
+                "totalHoursConsumed": total_hours,
+            }
+
+    return await asyncio.to_thread(_query)
+
+
+@app.get("/api/admin/feedback")
+async def admin_feedback(
+    authorization: str | None = Header(default=None),
+    page: int = 1,
+    per_page: int = 50,
+    feedback_type: str | None = None,
+) -> dict[str, Any]:
+    _require_admin(authorization)
+
+    def _query() -> dict[str, Any]:
+        with get_conn() as conn, conn.cursor() as cur:
+            where_clauses = []
+            params: list[Any] = []
+
+            if feedback_type:
+                where_clauses.append("f.feedback_type = %s")
+                params.append(feedback_type)
+
+            where_sql = (" AND ".join(where_clauses)) if where_clauses else "TRUE"
+
+            # Count
+            cur.execute(f"SELECT COUNT(*) FROM feedback f WHERE {where_sql}", params)
+            total = int(cur.fetchone()[0])
+
+            # Paginated results
+            offset = (max(1, page) - 1) * per_page
+            cur.execute(
+                f"""
+                SELECT f.id, f.profile_id, f.feedback_type, f.session_id, f.rating,
+                       f.comment, f.metadata, f.created_at, p.email, p.display_name
+                FROM feedback f
+                LEFT JOIN profiles p ON p.id = f.profile_id
+                WHERE {where_sql}
+                ORDER BY f.created_at DESC
+                LIMIT %s OFFSET %s
+                """,
+                [*params, per_page, offset],
+            )
+            rows = cur.fetchall()
+
+            items = []
+            for r in rows:
+                items.append({
+                    "id": int(r[0]),
+                    "profileId": str(r[1]),
+                    "feedbackType": str(r[2]),
+                    "sessionId": str(r[3]) if r[3] else None,
+                    "rating": int(r[4]) if r[4] is not None else None,
+                    "comment": str(r[5]) if r[5] else None,
+                    "metadata": r[6] if r[6] else {},
+                    "createdAt": r[7].isoformat() if r[7] else None,
+                    "email": str(r[8]) if r[8] else None,
+                    "displayName": str(r[9]) if r[9] else None,
+                })
+
+            return {"items": items, "total": total, "page": page, "perPage": per_page}
+
+    return await asyncio.to_thread(_query)

@@ -98,6 +98,10 @@ class ApplyReferralRequest(BaseModel):
     referralCode: str
 
 
+class CustomReferralCodeRequest(BaseModel):
+    customCode: str
+
+
 @dataclass
 class QuotaResult:
     allowed: bool
@@ -970,10 +974,55 @@ async def stripe_webhook(request: Request) -> dict[str, bool]:
 @router.get("/referral-code")
 async def get_referral_code(
     authorization: str | None = Header(default=None),
-) -> dict[str, str]:
+) -> dict[str, Any]:
     profile_id = _get_user_id_from_bearer(authorization)
     code = _ensure_referral_code(profile_id)
-    return {"referralCode": code}
+    custom = _get_custom_referral_code(profile_id)
+    return {"referralCode": code, "customCode": custom}
+
+
+def _get_custom_referral_code(profile_id: str) -> str | None:
+    with get_conn() as conn, conn.cursor() as cur:
+        cur.execute(
+            "SELECT custom_code FROM referrals WHERE referrer_profile_id = %s AND custom_code IS NOT NULL ORDER BY created_at DESC LIMIT 1",
+            (profile_id,),
+        )
+        row = cur.fetchone()
+        return str(row[0]) if row else None
+
+
+@router.put("/referral-code")
+async def set_custom_referral_code(
+    payload: CustomReferralCodeRequest,
+    authorization: str | None = Header(default=None),
+) -> dict[str, str]:
+    import re
+
+    profile_id = _get_user_id_from_bearer(authorization)
+    code = payload.customCode.strip().upper()
+
+    if not re.match(r'^[A-Z0-9]{4,20}$', code):
+        raise HTTPException(status_code=400, detail="Code must be 4-20 alphanumeric characters")
+
+    # Ensure referral row exists
+    _ensure_referral_code(profile_id)
+
+    with get_conn() as conn, conn.cursor() as cur:
+        # Check uniqueness against both referral_code and custom_code
+        cur.execute(
+            "SELECT 1 FROM referrals WHERE (referral_code = %s OR custom_code = %s) AND referrer_profile_id != %s",
+            (code, code, profile_id),
+        )
+        if cur.fetchone():
+            raise HTTPException(status_code=409, detail="Code already in use")
+
+        cur.execute(
+            "UPDATE referrals SET custom_code = %s WHERE referrer_profile_id = %s",
+            (code, profile_id),
+        )
+        conn.commit()
+
+    return {"customCode": code}
 
 
 @router.post("/apply-referral")
@@ -985,8 +1034,8 @@ async def apply_referral(
 
     with get_conn() as conn, conn.cursor() as cur:
         cur.execute(
-            "SELECT id, referrer_profile_id, referee_profile_id FROM referrals WHERE referral_code = %s",
-            (payload.referralCode.strip().upper(),),
+            "SELECT id, referrer_profile_id, referee_profile_id FROM referrals WHERE referral_code = %s OR custom_code = %s",
+            (payload.referralCode.strip().upper(), payload.referralCode.strip().upper()),
         )
         row = cur.fetchone()
         if not row:

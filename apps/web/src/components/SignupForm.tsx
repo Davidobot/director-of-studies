@@ -1,22 +1,35 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import { useRouter } from "next/navigation";
+import { useEffect, useMemo, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/client";
 import { apiFetch } from "@/lib/api-client";
 
 export function SignupForm() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const supabase = useMemo(() => createClient(), []);
+
+  const refFromUrl = searchParams.get("ref") ?? "";
 
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [displayName, setDisplayName] = useState("");
   const [accountType, setAccountType] = useState<"student" | "parent">("student");
   const [tosAccepted, setTosAccepted] = useState(false);
+  const [referralCode, setReferralCode] = useState(refFromUrl);
+  const [showReferral, setShowReferral] = useState(!!refFromUrl);
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
+
+  // Sync if URL param changes (e.g. navigating with ?ref=)
+  useEffect(() => {
+    if (refFromUrl) {
+      setReferralCode(refFromUrl);
+      setShowReferral(true);
+    }
+  }, [refFromUrl]);
 
   async function onSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -55,6 +68,16 @@ export function SignupForm() {
         await apiFetch("/api/profile/terms-accept", { method: "PATCH" });
       } catch {
         // Non-blocking — will be enforced on session creation
+      }
+
+      // Apply referral code if provided (non-blocking)
+      if (referralCode.trim()) {
+        apiFetch("/billing/apply-referral", {
+          method: "POST",
+          body: { referralCode: referralCode.trim() },
+        }).catch(() => {
+          // Silently ignore — reward only applies after subscription purchase
+        });
       }
 
       router.push(`/onboarding?accountType=${accountType}`);
@@ -113,6 +136,28 @@ export function SignupForm() {
           <option value="student">Student</option>
           <option value="parent">Parent / Guardian</option>
         </select>
+      </div>
+
+      <div>
+        {showReferral ? (
+          <>
+            <label className="mb-1 block text-xs text-slate-400">Referral code</label>
+            <input
+              className="w-full rounded-md border border-slate-700 bg-slate-950 px-3 py-2"
+              value={referralCode}
+              onChange={(event) => setReferralCode(event.target.value)}
+              placeholder="e.g. FRIEND2026"
+            />
+          </>
+        ) : (
+          <button
+            type="button"
+            onClick={() => setShowReferral(true)}
+            className="text-sm text-sky-400 hover:text-sky-300"
+          >
+            Have a referral code?
+          </button>
+        )}
       </div>
 
       <label className="flex items-start gap-2 text-sm">

@@ -1,7 +1,7 @@
 import { sql } from "drizzle-orm";
 import { boolean, date, index, integer, jsonb, pgEnum, pgTable, serial, text, timestamp, uniqueIndex, uuid, vector } from "drizzle-orm/pg-core";
 
-export const accountTypeEnum = pgEnum("account_type", ["student", "parent"]);
+export const accountTypeEnum = pgEnum("account_type", ["student", "parent", "admin"]);
 export const subjectCategoryEnum = pgEnum("subject_category", ["academic", "supercurricular"]);
 export const repeatPriorityEnum = pgEnum("repeat_priority", ["high", "medium", "low"]);
 export const repeatStatusEnum = pgEnum("repeat_status", ["active", "resolved"]);
@@ -181,6 +181,7 @@ export const referrals = pgTable("referrals", {
   referrerProfileId: uuid("referrer_profile_id").notNull().references(() => profiles.id, { onDelete: "cascade" }),
   refereeProfileId: uuid("referee_profile_id").references(() => profiles.id, { onDelete: "set null" }),
   referralCode: text("referral_code").notNull().unique(),
+  customCode: text("custom_code").unique(),
   referralAcceptedAt: timestamp("referral_accepted_at", { withTimezone: true }),
   rewardGrantedAt: timestamp("reward_granted_at", { withTimezone: true }),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
@@ -370,5 +371,17 @@ export const calendarFeedTokens = pgTable("calendar_feed_tokens", {
   id: uuid("id").primaryKey().default(sql`gen_random_uuid()`),
   studentId: uuid("student_id").notNull().references(() => students.id, { onDelete: "cascade" }).unique(),
   token: text("token").notNull().unique(),
+  createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
+});
+
+// User feedback (session ratings, general, course suggestions)
+export const feedback = pgTable("feedback", {
+  id: serial("id").primaryKey(),
+  profileId: uuid("profile_id").notNull().references(() => profiles.id, { onDelete: "cascade" }),
+  feedbackType: text("feedback_type").notNull(),
+  sessionId: uuid("session_id").references(() => sessions.id, { onDelete: "set null" }),
+  rating: integer("rating"),
+  comment: text("comment"),
+  metadata: jsonb("metadata").notNull().default({}),
   createdAt: timestamp("created_at", { withTimezone: true }).notNull().defaultNow(),
 });

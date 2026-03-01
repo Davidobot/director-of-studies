@@ -10,6 +10,7 @@ SCHEMA_SQL = [
     "CREATE EXTENSION IF NOT EXISTS vector",
     "CREATE EXTENSION IF NOT EXISTS pgcrypto",
     "DO $$ BEGIN CREATE TYPE account_type AS ENUM ('student','parent'); EXCEPTION WHEN duplicate_object THEN NULL; END $$;",
+    "ALTER TYPE account_type ADD VALUE IF NOT EXISTS 'admin'",
     "DO $$ BEGIN CREATE TYPE subject_category AS ENUM ('academic','supercurricular'); EXCEPTION WHEN duplicate_object THEN NULL; END $$;",
     "DO $$ BEGIN CREATE TYPE repeat_priority AS ENUM ('high','medium','low'); EXCEPTION WHEN duplicate_object THEN NULL; END $$;",
     "DO $$ BEGIN CREATE TYPE repeat_status AS ENUM ('active','resolved'); EXCEPTION WHEN duplicate_object THEN NULL; END $$;",
@@ -390,6 +391,20 @@ SCHEMA_SQL = [
       token text NOT NULL UNIQUE,
       created_at timestamptz NOT NULL DEFAULT NOW(),
       UNIQUE(student_id)
+    )
+    """,
+    "ALTER TABLE referrals ADD COLUMN IF NOT EXISTS custom_code text UNIQUE",
+    """
+    CREATE TABLE IF NOT EXISTS feedback (
+      id serial PRIMARY KEY,
+      profile_id uuid NOT NULL REFERENCES profiles(id) ON DELETE CASCADE,
+      feedback_type text NOT NULL,
+      session_id uuid REFERENCES sessions(id) ON DELETE SET NULL,
+      rating integer,
+      comment text,
+      metadata jsonb NOT NULL DEFAULT '{}'::jsonb,
+      created_at timestamptz NOT NULL DEFAULT NOW(),
+      CONSTRAINT feedback_rating_check CHECK (rating IS NULL OR (rating >= 1 AND rating <= 5))
     )
     """,
     # Active views for soft-delete

@@ -22,12 +22,18 @@ const PARENT_ITEMS: MenuItem[] = [
   { label: "Billing", href: "/settings/billing" },
 ];
 
+const ADMIN_ITEMS: MenuItem[] = [
+  { label: "Admin dashboard", href: "/admin" },
+  { label: "Personal settings", href: "/settings/profile" },
+  { label: "Billing", href: "/settings/billing" },
+];
+
 export function AccountMenu({
   displayName,
   accountType,
 }: {
   displayName: string;
-  accountType: "student" | "parent" | null;
+  accountType: "student" | "parent" | "admin" | null;
 }) {
   const [open, setOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
@@ -51,7 +57,7 @@ export function AccountMenu({
     router.refresh();
   }
 
-  const items = accountType === "parent" ? PARENT_ITEMS : STUDENT_ITEMS;
+  const items = accountType === "admin" ? ADMIN_ITEMS : accountType === "parent" ? PARENT_ITEMS : STUDENT_ITEMS;
 
   return (
     <div ref={containerRef} className="relative">
