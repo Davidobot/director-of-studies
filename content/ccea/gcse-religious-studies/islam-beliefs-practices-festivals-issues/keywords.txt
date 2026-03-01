@@ -1,0 +1,55 @@
+# STT vocabulary hints for Islam Beliefs Practices Festivals Issues (GCSE Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Islam
+Quran
+Hadith
+Sunnah
+Sharia
+Tawhid
+Shahada
+Salah
+Wudu
+Sawm
+Ramadan
+Tarawih
+Zakat
+Sadaqah
+Hajj
+Tawaf
+Sa'i
+Safa
+Marwa
+Arafat
+Mina
+Eid al-Adha
+Eid al-Fitr
+Mecca
+Medina
+Kaaba
+Muhammad
+Abu Bakr
+Umar
+Uthman
+Ali
+Rightly-Guided Caliphs
+Sunni
+Shi'a
+Sufi
+Imam
+Ashura
+Dhikr
+Mosque
+Mihrab
+Minbar
+Minaret
+Adhan
+Hijab
+Niqab
+Burqa
+Halal
+Haram
+Riba
+Islamic banking
+Usury
+Five Pillars

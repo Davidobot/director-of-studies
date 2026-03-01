@@ -1,0 +1,60 @@
+# STT vocabulary hints for Cultural Transmission Socialisation (GCSE Sociology WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+WJEC
+Eduqas
+Talcott Parsons
+Parsons
+Functionalism
+Marxism
+Feminism
+Interactionism
+Social constructionism
+Cultural transmission
+Socialisation
+Primary socialisation
+Secondary socialisation
+Hidden curriculum
+Peer groups
+Social media
+Cultural diffusion
+Assimilation
+Integration
+Resocialisation
+Anticipatory socialisation
+Social control
+Informal social control
+Formal social control
+Sanctions
+Norms
+Values
+Roles
+Status
+Identity
+Agency
+Structure
+Labelling
+Feral children
+Critical periods
+Cultural diversity
+Multiculturalism
+Hybrid identities
+Globalisation
+Social cohesion
+Social reproduction
+Patriarchy
+Gender roles
+Class
+Ethnicity
+Sexuality
+Demographic shifts
+Ethnographic observation
+Longitudinal studies
+Surveys
+Secondary sources
+AO1
+AO2
+AO3
+Vocational training
+Meritocracy

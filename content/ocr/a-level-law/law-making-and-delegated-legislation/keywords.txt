@@ -1,0 +1,45 @@
+# STT vocabulary hints for Law Making And Delegated Legislation (A-level Law OCR).
+# One term per line. Used to improve speech recognition quality.
+
+England and Wales
+Acts of Parliament
+Primary legislation
+Secondary legislation
+Delegated legislation
+Statutory instruments
+SIs
+By-laws
+Orders in Council
+Privy Council
+Prerogative powers
+Enabling Act
+Parent Act
+Henry VIII powers
+Negative resolution procedure
+Affirmative resolution procedure
+Joint Committee on Statutory Instruments
+Delegated Powers and Regulatory Reform Committee
+Judicial review
+Ultra vires
+Procedural ultra vires
+Substantive ultra vires
+Wednesbury unreasonableness
+Wednesbury principle
+Statutory interpretation
+Purposive approach
+Literal approach
+Human Rights Act 1998
+Convention rights
+Retained EU law
+Court of Justice
+Commencement
+Explanatory memorandum
+Impact assessment
+Regulatory reform
+Delegated powers
+Parliamentary supremacy
+Democratic legitimacy
+Rule of law
+AO1
+AO2
+AO3

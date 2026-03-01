@@ -1,0 +1,59 @@
+# STT vocabulary hints for Regenerating Places (A-level Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Regeneration
+Place-making
+Rebranding
+Pearson Edexcel
+Option 4A
+Shaping Places
+Brownfield sites
+Remediation
+London Olympics 2012
+Salford Quays
+Brontë country
+Gentrification
+Index of Multiple Deprivation (IMD)
+Spearman’s rank
+GIS
+NEA
+Place marketing
+Reimaging
+Transnational corporations
+Institutional investors
+Capital market policies
+Infrastructure investment
+Planning law
+Heritage conservation
+Social media sentiment
+Content analysis
+Mixed methods
+Scatter graphs
+Derelict land
+Green space
+Pollution levels
+Employment statistics
+Sectoral change
+Life expectancy
+School attainment
+Crime rates
+Deprivation indices
+Oral histories
+Pedestrian counts
+Land-use surveys
+House price observations
+Structured interviews
+Photographic inventories
+Census outputs
+Planning documents
+Historic maps
+Players (synoptic theme)
+Attitudes and Actions
+Futures and Uncertainties
+Private capital
+Public investment
+Creative industries
+Tourism diversification
+Place attachment
+Place identity
+Temporal scale

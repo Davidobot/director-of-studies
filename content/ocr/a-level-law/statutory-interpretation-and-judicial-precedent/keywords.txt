@@ -1,0 +1,48 @@
+# STT vocabulary hints for Statutory Interpretation And Judicial Precedent (A-level Law OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Statutory interpretation
+Judicial precedent
+Acts of Parliament
+Literal rule
+Golden rule
+Mischief rule
+Purposive approach
+Heydon's Case
+Whiteley v Chappell
+Fisher v Bell
+R v Allen
+Royal College of Nursing v DHSS
+Pepper v Hart
+Hansard
+European Union
+ECJ jurisprudence
+Retained EU law
+Human Rights Act 1998
+Section 3
+Section 4
+Ghaidan v Mendoza
+Declaration of incompatibility
+Ratio decidendi
+Obiter dicta
+Supreme Court
+Court of Appeal
+High Court
+County Courts
+Magistrates' Courts
+Practice Statement 1966
+Young v Bristol Aeroplane
+Per incuriam
+Binding precedent
+Persuasive precedent
+Overruling
+Reversing
+Distinguishing
+Original precedent
+Donoghue v Stevenson
+R v R
+Duty of care
+Negligence
+House of Lords
+Intrinsic aids
+Extrinsic aids

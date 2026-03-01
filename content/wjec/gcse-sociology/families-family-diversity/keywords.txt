@@ -1,0 +1,60 @@
+# STT vocabulary hints for Families Family Diversity (GCSE Sociology WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+WJEC
+Eduqas
+Talcott Parsons
+Rapoports
+Zaretsky
+Delphy
+Leonard
+Functionalist
+New Right
+Marxist
+Feminist
+Radical feminism
+Liberal feminism
+nuclear family
+extended family
+reconstituted family
+lone-parent family
+cohabiting family
+beanpole family
+single-sex family
+same-sex parent family
+polygamy
+arranged marriage
+one-child policy
+transnational family
+family pluralism
+secularisation
+domestic division of labour
+conjugal roles
+symmetrical family
+New Man
+dual-career family
+boomerang children
+sandwich generation
+primary socialisation
+stabilisation of adult personalities
+unit of consumption
+patriarchal institution
+coercive control
+domestic violence
+child abuse
+dark figure
+ethnography
+qualitative methods
+quantitative methods
+census
+official statistics
+social desirability bias
+assessment objective AO1
+AO2
+AO3
+methodological critique
+kinship networks
+communal childrearing
+gender roles
+family breakdown

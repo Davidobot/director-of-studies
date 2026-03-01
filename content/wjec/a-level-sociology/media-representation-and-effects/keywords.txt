@@ -1,0 +1,52 @@
+# STT vocabulary hints for Media Representation And Effects (A-level Sociology WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+A-level Sociology
+WJEC
+Eduqas
+Ownership concentration
+Media conglomerates
+Political economy
+Pluralist perspective
+Hypodermic model
+Two-step flow
+Uses and gratifications
+Cultivation theory
+Mean world syndrome
+Marxist critique
+Neo-Marxist
+Stuart Hall
+Encoding/decoding
+Feminist theory
+Intersectionality
+Postmodernism
+Symbolic annihilation
+Representation
+Stereotyping
+Tokenism
+Content analysis
+Audience studies
+Citizen journalism
+User-generated content
+Algorithms
+Filter bubbles
+Echo chambers
+Targeted advertising
+Commercialisation of attention
+Disinformation
+Public service broadcasting
+Regulatory bodies
+Media literacy
+Welsh-language broadcasting
+Welsh identity
+Devolved political debates
+Local journalism
+Newsroom news values
+Negativity
+Prominence
+Novelty
+Proximity
+Social media platforms
+Streaming services
+Black Lives Matter
+#MeToo

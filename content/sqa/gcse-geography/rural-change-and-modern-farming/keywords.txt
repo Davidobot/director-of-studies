@@ -1,0 +1,60 @@
+# STT vocabulary hints for Rural Change And Modern Farming (GCSE Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Rural change
+Modern farming
+Scottish Qualifications Authority
+GCSE Geography
+National 5
+Scotland
+North of England
+Eastern England
+Southeast Asia
+Green Revolution
+Mechanisation
+Specialisation
+Intensification
+Diversification
+Precision agriculture
+GPS guidance
+GPS-guided sprayers
+Precision drilling
+Variable-rate fertiliser application
+Drones
+Synthetic inputs
+Chemical fertilisers
+Pesticides
+Organic farming
+Agri-environment schemes
+Subsidies
+Agri-environment payments
+Agroforestry
+Conservation tillage
+Integrated pest management
+Rewilding
+Hedgerows
+Buffer strips
+Low-input grassland
+Stocking rates
+High-yielding varieties
+Irrigation
+Oil palm
+Biofuel crops
+Deforestation
+Biodiversity loss
+Carbon emissions
+Ecosystem services
+Environmental stewardship
+Supermarket contracts
+Global trade
+Multinational processors
+Ground-truth
+Photographic transect
+Soil sampling
+Compaction
+Nutrient pollution
+Water tests
+Grid reference
+Contour interpretation
+Processed Information
+Production stage

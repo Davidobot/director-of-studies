@@ -1,0 +1,54 @@
+# STT vocabulary hints for Islam Prophecy Oneness Sharia Sufism (A-level Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Islam
+nubuwwa
+wahy
+Muhammad
+Qur’an
+Jibril
+Ibrahim
+Musa
+Isa
+sira
+hadith
+isnad
+Sunni
+Shiʿa
+umma
+ijmaʿ
+madhhab
+ahl‑al‑bayt
+Imam
+seal of the prophets
+tawhid
+Muʿtazilites
+Ashʿarite
+Hanbali
+al‑Ghazali
+barzakh
+Day of Judgment
+eschatology
+predestination
+free will
+fiqh
+Sunna
+qiyas
+maslaha
+mujtahid
+ijtihad
+taqlid
+Hanafi
+Maliki
+Shafiʿi
+maqasid al‑Shariʿa
+tazkiyat al‑nafs
+ihsan
+dhikr
+samaʿ
+shaykh
+fanaʾ
+baqaʾ
+tariqa
+Jalal al‑Din Rumi
+Sufism

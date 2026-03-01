@@ -1,0 +1,54 @@
+# STT vocabulary hints for Water And Carbon Cycles (A-level Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Water cycle
+Carbon cycle
+Evapotranspiration
+Mass balance
+Drainage basin
+Catchment hydrology
+Storm hydrograph
+Rising limb
+Peak discharge
+Lag time
+Flashy hydrograph
+Attenuated hydrograph
+Infiltration
+Overland flow
+Throughflow
+Groundwater flow
+Interception
+Soil moisture
+Cryosphere
+Permafrost thaw
+Peatland degradation
+Peatlands
+Brecon Beacons
+Snowdonia
+Severn
+Monsoon
+Bergeron-Findeisen mechanism
+Collision-coalescence
+Dissolved organic carbon
+Particulate organic carbon
+Dissolved inorganic carbon
+Biological pump
+Carbonate chemistry
+Ocean acidification
+Thermal expansion
+Glacier retreat
+Fossil fuel combustion
+Land-use change
+Afforestation
+Aquifer over-abstraction
+Conjunctive use
+Artificial recharge
+Desalination
+River basin management
+Floodplain restoration
+Green infrastructure
+Carbon capture technologies
+Tipping point
+Threshold behaviour
+Resilience
+Equilibrium

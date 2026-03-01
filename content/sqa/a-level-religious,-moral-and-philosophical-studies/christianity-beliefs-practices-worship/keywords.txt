@@ -1,0 +1,57 @@
+# STT vocabulary hints for Christianity Beliefs Practices Worship (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Christianity
+Trinity
+Incarnation
+Jesus Christ
+Nicene Creed
+Apostles' Creed
+Christus Victor
+Penal substitution
+Moral influence theory
+Resurrection
+Atonement
+Imago Dei
+Original sin
+Purgatory
+Messianic Age
+Eucharist
+Holy Communion
+Mass
+Transubstantiation
+Real presence
+Sacramental re-presentation
+Baptism
+Believer's baptism
+Infant baptism
+Confirmation
+Sacrament
+Liturgy
+Liturgical calendar
+Magisterium
+Papal statements
+Pope
+Eastern Orthodoxy
+Roman Catholicism
+Protestantism
+Reformation
+Great Schism of 1054
+Anglicanism
+Lutheran
+Methodist
+Baptist
+Pentecostal
+Charismatic
+Sola scriptura
+Priesthood of all believers
+Conciliar authority
+Historical-critical method
+Canonical-traditional approach
+Theodicy
+Stewardship
+CAFOD
+Christian Aid
+Sermon on the Mount
+Eucharistic liturgy
+Sacramental worldview

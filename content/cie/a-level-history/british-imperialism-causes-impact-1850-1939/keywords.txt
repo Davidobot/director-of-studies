@@ -1,0 +1,59 @@
+# STT vocabulary hints for British Imperialism Causes Impact 1850 1939 (A-level History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+British Imperialism
+New Imperialism
+Scramble for Africa
+Settler colonies
+Crown administration
+Protectorates
+Treaty ports
+Informal empire
+Suez
+Cape
+Gibraltar
+India
+Jewel in the Crown
+Civilising mission
+Missionary zeal
+Mahdist Revolt
+Indian National Congress
+Rhodesia
+Kenya
+Lord Lugard
+Indirect rule
+Direct rule
+Chartered companies
+Royal Niger Company
+East Africa Company
+Mandate system
+League of Nations
+Ottoman territories
+German territories
+Gentlemanly capitalism
+Cain and Hopkins
+Hobson–Lenin thesis
+Monopoly capitalism
+City of London
+South Africa
+First World War
+Great Depression
+Dominion status
+Decolonisation
+Anti-imperialists
+Colonial troops
+African labour movements
+Anti-settler struggles
+Boer War
+Indian nationalism
+Mandate territories
+Indian Civil Service
+Railways
+Plantations
+Mission schools
+Missionary medicine
+Colonial education
+White settlers
+Egypt 1882
+s scramble
+Metropole

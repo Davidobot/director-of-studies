@@ -1,0 +1,48 @@
+# STT vocabulary hints for Uk Judiciary Judicial Review (A-level Government and Politics CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+UK judiciary
+Judicial review
+Supreme Court
+Court of Appeal
+High Court
+Constitutional Reform Act 2005
+Judicial Appointments Commission
+Judicial independence
+Security of tenure
+Parliamentary sovereignty
+Rule of law
+Illegality
+Procedural impropriety
+Irrationality
+Wednesbury unreasonableness
+Natural justice
+Quashing order
+Prohibiting order
+Mandatory order
+Declaration of incompatibility
+Injunction
+Justiciability
+Standing
+Locus standi
+Ouster clause
+Human Rights Act 1998
+European Convention on Human Rights
+ECHR
+Article 50
+Brexit
+Prerogative powers
+Prorogation
+Miller (Article 50)
+Miller (prorogation)
+Administrative law
+Public law
+Administrative action
+Judicial scrutiny
+Statutory limitations
+Access to justice
+Human rights jurisprudence
+Democratic accountability
+Regulatory enforcement
+Immigration law
+Planning law

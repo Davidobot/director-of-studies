@@ -1,0 +1,55 @@
+# STT vocabulary hints for Assignment Research Methods And Source Evaluation (GCSE Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Modern Studies
+GCSE
+Scottish Qualifications Authority
+Research Sheet
+research stage
+production stage
+research methods
+primary source
+secondary source
+official statistics
+academic research
+Freedom of Information request
+open-access reports
+charity reports
+qualitative interview
+quantitative survey
+structured questionnaire
+sampling bias
+selection bias
+representative sample
+sample size
+response rate
+piloting
+anonymising
+informed consent
+ethical constraints
+source authority
+source accuracy
+source currency
+source bias
+reliability
+validity
+triangulation
+provenance
+causation
+trend analysis
+synthesis
+hypothesis
+aims
+evidence weight
+cross-check
+generalisability
+local council
+youth anti-social behaviour
+youth services
+police statistics
+food banks
+food insecurity
+institutional interest
+question wording
+paraphrase
+academic integrity

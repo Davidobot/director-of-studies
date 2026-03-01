@@ -1,0 +1,45 @@
+# STT vocabulary hints for Health Illness And Disability (A-level Sociology WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+A-level Sociology
+WJEC
+Eduqas
+Power and Control
+social construction
+biomedical model
+medical model
+social model
+Equality Act 2010
+mortality
+morbidity
+life expectancy
+chronic conditions
+long-term conditions
+material deprivation
+artefact
+self-selection
+social determinants
+intersectionality
+Parsons
+sick role
+Marxism
+neo-Marxism
+commodification
+pharmaceuticalisation
+medicalisation
+professional dominance
+managerialism
+patient advocacy
+NHS Wales
+Welsh Government
+devolution
+ethnography
+longitudinal studies
+official statistics
+qualitative methods
+quantitative sources
+informed consent
+confidentiality
+anti-discrimination enforcement
+diagnostic bias
+androcentric

@@ -1,0 +1,50 @@
+# STT vocabulary hints for Human Rights Law And The Hra 1998 (A-level Law WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Human Rights Act 1998
+HRA
+European Convention on Human Rights
+ECHR
+European Court of Human Rights
+ECtHR
+Strasbourg
+Section 2 HRA
+Section 3 HRA
+Section 4 HRA
+Section 6 HRA
+Section 7 HRA
+Section 10 HRA
+Declaration of incompatibility
+Remedial order
+Positive obligations
+Negative obligations
+Proportionality
+Margin of appreciation
+Article 8 ECHR
+Article 10 ECHR
+Article 11 ECHR
+Right to a fair trial
+Right to life
+Ghaidan v Godin‑Mendoza
+R v A (No 2)
+House of Lords
+Supreme Court
+Equality and Human Rights Commission
+Devolution
+Northern Ireland
+Scotland
+Wales
+Parliamentary sovereignty
+Judicial review
+Public authority
+Convention rights
+Strasbourg jurisprudence
+Declarations of unlawful action
+Damages (human rights)
+Injunctions
+WJEC
+Eduqas
+A‑level Law
+Bill of Rights
+Domestic remedies
+Public functions

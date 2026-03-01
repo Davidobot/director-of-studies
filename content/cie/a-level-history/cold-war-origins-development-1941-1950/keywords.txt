@@ -1,0 +1,47 @@
+# STT vocabulary hints for Cold War Origins Development 1941 1950 (A-level History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Tehran Conference
+Yalta Conference
+Potsdam Conference
+Roosevelt
+Churchill
+Stalin
+Truman
+George Kennan
+Long Telegram
+X article
+Containment
+Truman Doctrine
+Marshall Plan
+Baruch Plan
+Atomic monopoly
+Soviet atomic test
+Berlin Blockade
+Berlin Airlift
+Deutsche Mark
+Federal Republic of Germany
+Czechoslovak coup
+Cominform
+NATO
+Eastern Front
+Red Army
+Lublin government
+Polish government-in-exile
+Satellite regimes
+Security dilemma
+Iron Curtain
+NSC-68
+Korean War
+Chinese Communist victory
+Greek Civil War
+Revisionists
+Traditionalists
+Post-revisionist
+New Cold War history
+Spheres of influence
+Provisional governments
+Free and unfettered elections
+Demobilisation
+Soviet expansionism
+Totalitarian

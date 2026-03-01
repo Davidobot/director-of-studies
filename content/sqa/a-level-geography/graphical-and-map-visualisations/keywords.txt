@@ -1,0 +1,50 @@
+# STT vocabulary hints for Graphical And Map Visualisations (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Qualifications Authority
+SQA
+Advanced Higher
+scattergraph
+kite diagram
+choropleth map
+polar chart
+radial chart
+proportional symbol map
+dot map
+flow lines
+transect
+bedload
+pebble size
+boulder size
+attrition
+multimodal distribution
+logarithmic scale
+heteroscedasticity
+line of best fit
+Pearson's product‑moment correlation coefficient
+Spearman's rank correlation
+chi‑squared test
+linear regression
+correlation coefficient
+regression gradient
+outlier
+interquartile range
+standard deviation
+mean
+median
+mode
+normalisation
+equal interval classification
+quantiles
+natural breaks (Jenks)
+Jenks
+Modifiable Areal Unit Problem
+MAUP
+perceptually uniform colour scheme
+colourblind‑friendly palette
+GIS
+Ordnance Survey
+scale bar
+north arrow
+deprivation indices
+population density

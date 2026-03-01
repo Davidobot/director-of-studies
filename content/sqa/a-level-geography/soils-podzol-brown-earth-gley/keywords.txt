@@ -1,0 +1,47 @@
+# STT vocabulary hints for Soils Podzol Brown Earth Gley (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Podzol
+Brown earth
+Gley
+Podzolisation
+Gleying
+Spodic horizon
+E horizon
+A horizon
+B horizon
+C horizon
+O horizon
+Humus-Fe/Al
+Fe/Al complexes
+Eluviation
+Illuviation
+Bioturbation
+Redox
+Ferric
+Ferrous
+Mottling
+Iron pan
+Hardpan
+Percolation
+Leaching
+Chelation
+Acidic litter
+Blanket bog
+Peat
+Loess
+Glacial till
+Cairngorms
+Central Belt
+River Tay
+Soil catena
+CLORPT
+Pedogenesis
+Soil profile
+Soil auger
+Soil pit
+Tile drains
+Drainage ditches
+Afforestation
+Liming
+Anaerobic

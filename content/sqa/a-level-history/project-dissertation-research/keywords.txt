@@ -1,0 +1,47 @@
+# STT vocabulary hints for Project Dissertation Research (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Advanced Higher
+project-dissertation
+Scottish Qualifications Authority
+SQA
+historiography
+historiographical awareness
+primary source
+secondary source
+provenance
+corroboration
+literature review
+bibliography
+abstract
+appendices
+transcriptions
+digitised archives
+online repositories
+archives
+statistical returns
+contemporary memoirs
+footnotes
+endnotes
+referencing
+Harvard
+Oxford
+Chicago
+MLA
+APA
+author–date
+ibid
+op. cit.
+plagiarism
+authentication
+progress logs
+spot-check interviews
+external marking
+quality assurance
+supervision
+literature matrix
+historiographical debate
+primary-source work
+Kershaw, Ian
+The Nazi Dictatorship
+Bloomsbury

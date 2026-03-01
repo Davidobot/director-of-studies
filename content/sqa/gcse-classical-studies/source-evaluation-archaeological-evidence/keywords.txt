@@ -1,0 +1,43 @@
+# STT vocabulary hints for Source Evaluation Archaeological Evidence (GCSE Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Source evaluation
+Archaeological evidence
+National 5
+GCSE
+Scottish Qualifications Authority
+Classical Studies
+Pompeii
+Vesuvius
+Pliny the Younger
+Thucydides
+Homer
+Greek tragedies
+Vindolanda tablets
+Vindolanda fort
+Pompeian house
+Thermopolium
+Lararium
+Amphitheatre
+Roman bath
+Loom weights
+Pottery typology
+Coin hoards
+Stratigraphy
+Findspot
+Assemblage
+Provenance
+Preservation bias
+Sampling bias
+Excavation
+Organic preservation
+Wall-painting
+Fresco
+Graffiti
+Epigraphy
+Plaster casts
+Ash layers
+Food residues
+Chronology
+Sequence of occupation
+Electoral notices

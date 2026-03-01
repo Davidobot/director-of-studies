@@ -1,0 +1,48 @@
+# STT vocabulary hints for Judicial Precedent And Court Hierarchy (A-level Law CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Judicial precedent
+Ratio decidendi
+Obiter dicta
+Binding precedent
+Persuasive precedent
+Distinguishing
+Overruling
+Reversing
+Practice Statement
+Young v Bristol Aeroplane Co
+Donoghue v Stevenson
+R v Shivpuri
+Anderton v Ryan
+Merritt v Merritt
+Balfour v Balfour
+Neighbour principle
+Court of Appeal
+Supreme Court
+House of Lords
+Judicial Committee of the Privy Council
+Magistrates' Courts
+Crown Court
+County Courts
+High Court
+Civil Division
+Criminal Division
+All England Law Reports
+Weekly Law Reports
+All ER
+WLR
+Case law
+Common law
+Material facts
+Judicial reasoning
+Young exceptions
+Court hierarchy
+Final appellate tribunal
+Crown dependencies
+Commonwealth
+Ratio identification
+AO2
+AO3
+Legal certainty
+Doctrinal change
+Law reporting

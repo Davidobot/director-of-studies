@@ -1,0 +1,52 @@
+# STT vocabulary hints for Diverse Places Demographic And Cultural Change (A-level Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Diverse Places
+Pearson Edexcel
+A‑level
+UK
+London
+Southall
+Lincolnshire
+Luton
+Slough
+Aik Saath
+South East
+internal migration
+international migration
+rural–urban migration
+population pyramids
+dependency ratios
+population density maps
+GIS
+Index of Multiple Deprivation
+IMD
+ethnic composition
+ethnic density
+ethnic concentration
+segregation
+spatial clustering
+ethnic economies
+multiculturalism
+assimilation
+cultural diffusion
+cultural preservation
+intercultural dialogue
+gentrification
+social clustering
+concentrated deprivation
+hate crime
+nationalist sentiment
+integration initiatives
+affordable housing
+planning policy
+housing market dynamics
+purposive sampling
+stratified sampling
+participant observation
+oral histories
+longitudinal approaches
+demographic indicators
+Players (synoptic theme)
+Attitudes and actions (synoptic theme)
+Futures and uncertainties (synoptic theme)

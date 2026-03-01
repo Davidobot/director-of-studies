@@ -1,0 +1,56 @@
+# STT vocabulary hints for Tectonic Processes And Hazards (A-level Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Plate tectonics
+Lithosphere
+Asthenosphere
+Sea-floor spreading
+Mid-ocean ridge
+Slab pull
+Ridge push
+Subduction zone
+Convergent margin
+Divergent boundary
+Transform margin
+Intra-plate earthquake
+Hotspot volcanism
+Mantle plume
+New Madrid 1811–12
+Kobe 1995
+Christchurch 2011
+Haiti 2010
+Nepal 2015
+Indian Ocean tsunami
+Tohoku earthquake and tsunami
+Fukushima nuclear crisis
+Megathrust earthquake
+Submarine rupture
+P waves
+S waves
+Surface waves
+Shallow-focus earthquake
+Deep-focus earthquake
+Liquefaction
+Triggered landslide
+Basaltic magma
+Andesitic magma
+Rhyolitic magma
+Effusive eruption
+Explosive eruption
+Pyroclastic flow
+Volcanic ash cloud
+Lahar
+Jokulhlaup
+Volcanic Explosivity Index (VEI)
+Moment Magnitude Scale (MMS)
+Mercalli Intensity Scale
+Seismicity
+Ground deformation
+Tsunami early warning system
+Hazard management cycle
+Pressure and Release model (PAR)
+Park's model
+Base isolation
+Retrofitting
+Land-use zoning
+GIS

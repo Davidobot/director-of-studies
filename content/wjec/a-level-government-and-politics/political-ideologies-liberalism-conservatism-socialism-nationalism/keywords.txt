@@ -1,0 +1,63 @@
+# STT vocabulary hints for Political Ideologies Liberalism Conservatism Socialism Nationalism (A-level Government and Politics WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Liberalism
+Conservatism
+Socialism
+Nationalism
+WJEC
+Eduqas
+Enlightenment
+John Locke
+Negative liberty
+Laissez-faire
+Social liberalism
+Positive freedom
+Liberal Democrats
+Rule of law
+Pluralism
+Constitutional checks
+Human rights
+Senedd
+Edmund Burke
+One-nation conservatism
+Traditional conservatism
+New Right
+Neoliberal conservatism
+Thatcherism
+Privatisation
+Deregulation
+Immigration
+Social democracy
+Marxism
+Class exploitation
+Means of production
+Democratic socialism
+Public ownership
+Progressive taxation
+Welfare state
+National Health Service
+Labour Party
+Third Way
+Trade unions
+Plaid Cymru
+Scottish National Party
+Devolution
+Brexit
+Sovereignty
+Nation-states
+Anti-colonial movements
+Self-determination
+Proportional representation
+Mixed-member
+First-past-the-post
+Multi-level governance
+Globalization
+Climate change
+Migration
+Economic integration
+Post-war consensus
+Electoral systems
+Political institutions
+Public services
+Market-oriented reform

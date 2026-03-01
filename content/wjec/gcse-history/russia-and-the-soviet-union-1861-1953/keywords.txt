@@ -1,0 +1,59 @@
+# STT vocabulary hints for Russia And The Soviet Union 1861 1953 (GCSE History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Alexander II
+Emancipation of the serfs
+Witte
+Intelligentsia
+Populists
+Marxist socialists
+Russo–Japanese War 1904–1905
+Revolution
+Bloody Sunday
+St Petersburg
+October Manifesto
+Duma
+Nicholas II
+Rasputin
+Petrograd
+February Revolution 1917
+Provisional Government
+Soviets
+Bolsheviks
+Lenin
+Trotsky
+October Revolution 1917
+Red Army
+White opposition
+Foreign intervention
+Commissar for War
+War Communism
+Grain requisitioning
+Nationalisation
+Tambov rising
+Famine 1921–22
+New Economic Policy (NEP)
+Commanding heights
+General Secretary
+Joseph Stalin
+Collectivisation
+Dekulakisation
+Ukraine famine 1932–33
+Five-Year Plans
+Heavy industry
+Great Terror
+NKVD
+Show trials
+Purge of the Red Army 1937–38
+Gulag labour camps
+Cult of personality
+Nazi–Soviet Pact 1939
+Operation Barbarossa
+Siege of Leningrad
+Battle of Stalingrad
+Defence of Moscow
+Urals
+Marshall Plan
+Reparations
+Cold War
+Soviet sphere of influence

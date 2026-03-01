@@ -1,0 +1,62 @@
+# STT vocabulary hints for Sociological Theories And Perspectives (A-level Sociology WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Sociological theories and perspectives
+A-level
+WJEC
+Eduqas
+Wales
+Emile Durkheim
+Talcott Parsons
+social facts
+role allocation
+meritocracy
+Functionalism
+bourgeoisie
+proletariat
+means of production
+ideological state apparatuses
+neo-Marxism
+Antonio Gramsci
+cultural hegemony
+Louis Althusser
+interpellation
+Max Weber
+verstehen
+neo‑Weberian
+class, status and party
+social closure
+cultural capital
+social capital
+economic capital
+Feminist perspectives
+intersectionality
+liberal feminism
+Marxist feminism
+radical feminism
+gender pay gap
+occupational segregation
+parental leave
+symbolic interactionism
+labelling theory
+deviant career
+moral panic
+Postmodernism
+New Right
+marketisation
+pluralism
+elite theory
+bureaucracy
+positivism
+interpretivism
+qualitative methods
+quantitative methods
+ethnography
+validity
+reliability
+representativeness
+reflexivity
+realist approaches
+AO1
+AO2
+AO3

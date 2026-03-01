@@ -1,0 +1,55 @@
+# STT vocabulary hints for Dialogue Between Religious And Non Religious Beliefs (GCSE Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE Religious Studies
+Oxford Cambridge and RSA
+secularism
+humanism
+atheism
+agnosticism
+exclusivism
+inclusivism
+pluralism
+freedom of belief
+freedom of expression
+freedom of practice
+secularisation
+medical ethics
+genetics
+genetic manipulation
+assisted reproduction
+abortion
+euthanasia
+Church of England
+House of Lords
+Lords Spiritual
+ecumenism
+Anglicans
+Catholics
+Baptists
+Pentecostals
+Sunni
+Shia
+sampradayas
+interfaith dialogue
+interfaith networks
+faith schools
+collective worship
+RE lessons
+sanctity of life
+same-sex marriage
+equalities law
+Jesus
+love your neighbour
+there is no compulsion in religion
+social cohesion
+autonomy
+conscience
+plural society
+secular values
+public ethics
+humanitarian relief
+AO1
+AO2
+Component Group 2
+scriptures

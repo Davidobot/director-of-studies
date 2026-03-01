@@ -1,0 +1,61 @@
+# STT vocabulary hints for Scotland 1707 1815 Union Enlightenment (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Treaty of Union
+Westminster Parliament
+Glasgow
+Tobacco lords
+Transatlantic trade
+Plantation slavery
+Jacobitism
+Jacobite risings
+rising
+Charles Edward Stuart
+Derby
+Culloden 1746
+Disarming Acts
+Proscription of clan dress
+Highland Clearances
+Highland landlords
+Sheep farming
+Crofting communities
+Improvement
+The Improvers
+Statistical Account of Scotland
+Enclosure
+Crop rotation
+Selective breeding
+Linen industry
+Cotton textiles
+Coal extraction
+Iron extraction
+Central Belt
+Water frame
+Steam engine
+Canals
+Shipbuilding
+Henry Dundas
+Dundas despotism
+Church of Scotland
+Kirk
+Patronage
+Secessions
+Evangelicals
+French Revolution
+Napoleonic Wars
+Scottish Enlightenment
+David Hume
+Adam Smith
+William Robertson
+Lord Kames
+Joseph Black
+James Hutton
+New Town Edinburgh
+Robert Adam
+Robert Burns
+Society in Scotland for Propagating Christian Knowledge
+SSPCK
+Parish schools
+Academy movement
+Neoclassical architecture
+Provenance

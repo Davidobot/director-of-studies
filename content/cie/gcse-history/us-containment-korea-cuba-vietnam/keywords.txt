@@ -1,0 +1,51 @@
+# STT vocabulary hints for Us Containment Korea Cuba Vietnam (GCSE History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Containment
+George Kennan
+Truman Doctrine
+NATO
+NSC-68
+Domino theory
+Korean War
+th Parallel
+North Korea
+South Korea
+United Nations
+UN resolution
+General MacArthur
+Inchon
+Yalu River
+Chinese intervention
+Korean Armistice
+Rearmament of West Germany
+Cuban Revolution
+Fidel Castro
+Bay of Pigs
+CIA
+Cuban Missile Crisis
+Naval quarantine
+Missile removal from Turkey
+Economic embargo
+Arms control
+Crisis-management mechanisms
+Vietnam War
+Dien Bien Phu
+Geneva Accords
+Ngo Dinh Diem
+Gulf of Tonkin
+Viet Cong
+North Vietnam
+Search-and-destroy
+Bombing campaigns
+Guerrilla warfare
+Tet Offensive
+Vietnamization
+Paris Peace Accords
+Fall of Saigon
+Indochina
+Pacification
+Attrition
+Détente
+Brinkmanship
+Executive war powers

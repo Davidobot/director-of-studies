@@ -1,0 +1,49 @@
+# STT vocabulary hints for Judaism Torah Talmud Covenant Halakhah (A-level Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Torah
+Written Torah
+Oral Torah
+Pentateuch
+Mishnah
+Gemara
+Talmud
+Babylonian Talmud
+Abrahamic covenant
+Mosaic covenant
+Sinai
+Exodus
+Abraham
+suzerainty treaty
+Covenant theology
+Halakhah
+mitzvot
+Maimonides
+Rambam
+Shulchan Arukh
+Responsa literature
+gezerah shavah
+hermeneutic principles
+minhag
+kashrut
+shechita
+niddah
+mikveh
+Pirkei Avot
+Ethics of the Fathers
+Haskalah
+Zionism
+State of Israel
+Holocaust
+theodicy
+patrilineal descent
+conversion
+chosenness
+Rabbinic interpretation
+dialectical method
+precedent
+Masorti
+Orthodox
+Reform
+Liberal
+Rabbinic authorities

@@ -1,0 +1,47 @@
+# STT vocabulary hints for Migration And Impacts (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE Cambridge International
+Migration
+Internal migration
+International migration
+Push–pull framework
+Push factors
+Pull factors
+Economic migrants
+Forced migration
+Refugees
+Internally displaced persons
+Asylum seekers
+Asylum systems
+Guest‑worker schemes
+Labour migration
+Labour migration agreements
+Remittances
+Remittance flows
+Brain drain
+Circular migration
+Return migration
+Rural-to-urban migration
+Urbanisation
+Diaspora networks
+Migrant networks
+Syrian refugees
+Syria
+Germany
+European migrant crisis
+–2016 migrant surge
+Ageing population
+Labour shortages
+Skills shortages
+Demographic effects
+Environmental degradation
+Desertification
+Transport networks
+Urban planning
+Integration programmes
+Assimilation
+Multicultural approaches
+Migration policy
+International law
+Forced displacement

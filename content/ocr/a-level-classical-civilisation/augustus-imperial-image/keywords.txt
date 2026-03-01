@@ -1,0 +1,50 @@
+# STT vocabulary hints for Augustus Imperial Image (A-level Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Augustus
+Octavian
+Julius Caesar
+Marcus Agrippa
+Mark Antony
+Lepidus
+Res Gestae Divi Augusti
+Divi filius
+Imperator
+Pater Patriae
+Ara Pacis Augustae
+Forum of Augustus
+Temple of Mars Ultor
+Mausoleum of Augustus
+Augustus of Prima Porta
+Cuirass relief
+Parthian standards
+Cupid (Prima Porta)
+Laureate head
+Cornucopia
+Pax (personification)
+Sidus Iulium
+Sebasteion at Aphrodisias
+Aphrodisias
+Secular Games
+Carmen Saeculare
+Aeneid
+Virgil
+Horace
+Odes
+Propertius
+Ovid
+Metamorphoses
+Lex Julia
+Imperial cult
+Pietas
+Augustan ideology
+Panegyric
+Triumphal procession
+Triumphs
+Dynastic continuity
+Gaius and Lucius
+Patronage
+Provincial monuments
+Imperial statuary
+Epigraphy
+Numismatics

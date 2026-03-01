@@ -1,0 +1,53 @@
+# STT vocabulary hints for English Civil War Interregnum 1603 1660 (A-level History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+James I
+Charles I
+Charles II
+Oliver Cromwell
+Richard Cromwell
+New Model Army
+Rump Parliament
+Barebones Parliament
+Instrument of Government
+Protectorate
+Lord Protector
+Major-Generals
+Pride's Purge
+Grand Remonstrance
+Bishops' Wars
+Irish Rebellion of 1641
+Personal Rule
+Short Parliament
+Long Parliament
+Regicide
+Commonwealth
+Restoration
+Levellers
+Diggers
+Baptists
+Seekers
+Arminianism
+Archbishop Laud
+Ship money
+Monopolies
+Triennial Act
+House of Lords
+Trial of Charles I
+Marston Moor
+Naseby
+Fairfax
+John Pym
+Royalist
+Parliamentarian
+Divine right
+Royal prerogative
+Prerogative taxation
+Abolition of the monarchy
+Republican government
+Primitive communism
+Nottingham
+Union of the Crowns
+Scotland
+London
+House of Commons

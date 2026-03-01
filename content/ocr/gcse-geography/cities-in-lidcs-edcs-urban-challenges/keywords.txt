@@ -1,0 +1,60 @@
+# STT vocabulary hints for Cities In Lidcs Edcs Urban Challenges (GCSE Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+LIDCs
+EDCs
+urbanisation
+megacities
+natural increase
+push factors
+pull factors
+globalisation
+informal economy
+informal settlements
+slums
+favelas
+shanty towns
+Dharavi
+Makoko
+Kibera
+Lagos
+Mumbai
+Nairobi
+Bogotá
+TransMilenio
+Favela Bairro
+Rio de Janeiro
+Lekki-Epe corridor
+Eko Atlantic
+land reclamation
+land tenure
+land tenure conflicts
+slum upgrading
+affordable housing
+densification
+bus rapid transit
+metro expansion
+non-motorised transport
+decentralised sanitation
+decentralised water kiosks
+rainwater harvesting
+solid waste management
+waterborne disease
+air pollution
+sea-level rise
+land subsidence
+environmental hazards
+urban resilience
+urban transect
+choropleth maps
+population pyramids
+informal transport
+motorcycle taxis
+shared rickshaws
+minibuses
+evictions
+gated communities
+AO1
+AO2
+AO3
+AO4

@@ -1,0 +1,50 @@
+# STT vocabulary hints for Criminal Liability Actus Reus Mens Rea And Causation (A-level Law OCR).
+# One term per line. Used to improve speech recognition quality.
+
+actus reus
+mens rea
+causation
+factual causation
+legal causation
+but for test
+novus actus interveniens
+novus actus
+intervening act
+transferred malice
+direct intention
+oblique intention
+foresight of virtual certainty
+virtual certainty test
+subjective recklessness
+subjective foresight
+negligence
+gross negligence manslaughter
+strict liability
+continuing act doctrine
+transaction test
+state of affairs offence
+possession of a controlled drug
+operating and substantial cause
+medical negligence
+thin skull rule
+omission
+duty to act
+duty by statute
+duty by contract
+special relationship
+assumption of care
+dangerous situation
+daftness (daft act test)
+murder
+manslaughter
+voluntary manslaughter
+involuntary manslaughter
+grievous bodily harm
+assault
+battery
+theft
+robbery
+burglary
+dishonesty
+victim conduct
+Oxford Cambridge and RSA

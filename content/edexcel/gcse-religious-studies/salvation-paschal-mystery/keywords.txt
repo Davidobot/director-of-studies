@@ -1,0 +1,56 @@
+# STT vocabulary hints for Salvation Paschal Mystery (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Salvation
+Paschal Mystery
+Atonement
+GCSE Religious Studies
+Pearson Edexcel
+Incarnation
+Luke 22–24
+John 1:1–18
+Romans 3:21–26
+Romans 5:8
+Corinthians 15
+Passion narratives
+Last Supper
+Crucifixion
+Resurrection
+Ascension
+Eucharist
+source and summit
+Christus Victor
+Ransom theory
+Anselm
+Satisfaction theory
+Penal Substitution
+Peter Abelard
+Moral Influence theory
+Baptism
+Original sin
+Justification
+Sanctification
+Catechism
+Lumen Gentium
+Body of Christ
+Sola fide
+Reformation
+Evangelical
+Reformed theology
+Eastern Orthodox
+Theosis
+Divinisation
+Holy Communion
+Mass
+Heavenly banquet
+Eschatology
+Purgatory
+Judgment
+Resurrection bodies
+Grace
+Sacraments
+Reconciliation
+SPaG
+Mission
+Evangelism
+Social action

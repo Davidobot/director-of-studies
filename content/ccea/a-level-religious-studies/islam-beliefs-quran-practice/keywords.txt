@@ -1,0 +1,63 @@
+# STT vocabulary hints for Islam Beliefs Quran Practice (A-level Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Muhammad
+Mecca
+Medina
+Quraysh
+Mount Hira
+Laylat al‑Qadr
+Qur’an
+Meccan surah
+Medinan surah
+Uthman
+Sunnah
+Hadith
+Tajwid
+Sharia
+Madhhab
+Hanafi
+Maliki
+Shafi‘i
+Hanbali
+Ja‘fari
+Usul al‑fiqh
+Ijtihad
+Taqlid
+Shahada
+Tawhid
+Salat
+Wudu
+Jumu‘ah
+Zakat
+Sawm
+Ramadan
+Eid al‑Fitr
+Hajj
+Tawaf
+Ka‘ba
+Sa‘i
+Safa
+Marwa
+Arafat
+Eid al‑Adha
+Masjid
+Qibla
+Minaret
+Mihrab
+Imam
+Sunni
+Shi’a
+Twelvers
+Ismailis
+Mahdi
+Ashura
+Husayn
+Karbala
+Surah 4
+An‑Nisa
+Maqasid al‑Sharia
+Bioethics
+Fiqh
+Hifz
+Isnad

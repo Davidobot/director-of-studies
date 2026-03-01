@@ -1,0 +1,62 @@
+# STT vocabulary hints for Sociological Theories Perspectives (GCSE Sociology WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+WJEC
+Eduqas
+GCSE Sociology
+Functionalism
+Marxism
+Feminism
+Interactionism
+Consensus perspective
+Conflict perspective
+Parsons
+Durkheim
+Weber
+Davis and Moore
+Bowles and Gintis
+Zaretsky
+New Right
+Meritocracy
+Socialisation
+Primary socialisation
+Cultural transmission
+Social control
+Hidden curriculum
+Labelling theory
+Self-fulfilling prophecy
+Streaming
+Peer subcultures
+Correspondence theory
+Social reproduction
+Social stratification
+Bourgeoisie
+Class status and party
+Glass ceiling
+Institutional racism
+Ageism
+Medical model
+Social model
+White collar crime
+Corporate crime
+Dark figure of crime
+Victim surveys
+Self report studies
+Official statistics
+Primary data
+Secondary data
+Quantitative methods
+Qualitative methods
+Participant observation
+Unstructured interviews
+Structured questionnaires
+Mixed methods
+Validity
+Reliability
+Informed consent
+Gatekeepers
+Catchment areas
+Relative deprivation
+Absolute deprivation
+Social mobility
+Patriarchy

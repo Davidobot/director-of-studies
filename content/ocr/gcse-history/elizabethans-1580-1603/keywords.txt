@@ -1,0 +1,46 @@
+# STT vocabulary hints for Elizabethans 1580 1603 (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Elizabeth I
+Spanish Armada
+Mary, Queen of Scots
+Babington Plot
+Mary’s execution
+Earl of Essex
+Essex Rebellion
+Roanoke
+Lost Colony
+East India Company
+William Cecil
+Lord Burghley
+Robert Cecil
+Privy Council
+Parliament
+Justices of the Peace
+Sheriffdoms
+Borough corporations
+Recusant Catholics
+Papal Bull of 1570
+Francis Walsingham
+Spymaster
+Intelligence network
+Privateering
+Sir Walter Raleigh
+The Globe
+Christopher Marlowe
+William Shakespeare
+Poor Law of 1601
+Vagrancy
+Bear-baiting
+Playhouses
+Puritans
+Witchcraft
+Witch-hunting
+Patronage
+Personal rule
+Elizabethan propaganda
+Pageants
+Naval triumph
+Seafaring skills
+Recusancy
+Company charter

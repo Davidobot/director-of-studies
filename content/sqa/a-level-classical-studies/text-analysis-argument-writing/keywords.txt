@@ -1,0 +1,63 @@
+# STT vocabulary hints for Text Analysis Argument Writing (A-level Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+A-level
+Scottish Qualifications Authority
+Higher Classical Studies
+close reading
+Sophocles
+Antigone
+Oedipus the King
+Medea
+Homer
+Odyssey
+chorus
+dramatic convention
+stagecraft
+City Dionysia
+Panathenaia
+Delphi
+Eleusinian Mysteries
+Asclepius
+Plato
+Athenian Assembly
+Council of 500
+archons
+ostracism
+metics
+mystery cults
+sacrifice
+libation
+votive offerings
+Senatus Populusque Romanus
+SPQR
+quaestor
+consul
+dictator
+tribune
+patricians
+equestrians
+plebeians
+Spartacus
+Boudicca
+Judean revolts
+Romanisation
+provincial administration
+augurs
+pontiffs
+Vestal Virgins
+imperial cult
+Lares
+Penates
+Stoicism
+Epicureanism
+Mithraism
+Isis
+Judaism
+early Christianity
+inscriptions
+archaeological remains
+grave goods
+provenance
+manumission
+divinatory practice

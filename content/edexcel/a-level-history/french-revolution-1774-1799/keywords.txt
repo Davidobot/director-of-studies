@@ -1,0 +1,60 @@
+# STT vocabulary hints for French Revolution 1774 1799 (A-level History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Louis XVI
+Napoleon Bonaparte
+Ancien Regime
+Estates‑General
+National Assembly
+Tennis Court Oath
+Bastille
+Great Fear
+Declaration of the Rights of Man and of the Citizen
+October Days
+Versailles
+National Constituent Assembly
+Flight to Varennes
+Legislative Assembly
+Brunswick Manifesto
+Tuileries
+September Massacres
+National Convention
+Execution of Louis XVI
+Committee of Public Safety
+Maximilien Robespierre
+Georges Danton
+Saint‑Just
+levee en masse
+revolutionary tribunals
+Committee of General Security
+Law of 22 Prairial
+Thermidorian Reaction
+Thermidor
+The Terror
+Girondins
+Jacobins
+Directory
+Fructidor
+Jourdan
+Italian campaign
+Egypt campaign
+Brumaire
+Sieyes
+Consulate
+First Consul
+Civil Code
+emigres
+dechristianisation
+Cult of Reason
+Cult of the Supreme Being
+Assembly of Notables
+Turgot
+Necker
+American War of Independence
+salons
+print culture
+bourgeoisie
+Third Estate
+seigneurial structures
+feudal privileges
+fiscal deadlock 1787–88

@@ -1,0 +1,45 @@
+# STT vocabulary hints for Scottish Parliament Devolved Reserved Powers (GCSE Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Parliament
+Holyrood
+Westminster
+Scotland Act
+elections
+Devolution
+Devolved powers
+Reserved powers
+National Health Service
+NHS Scotland
+Education policy
+Justice and policing
+Members of the Scottish Parliament
+MSPs
+Additional Member System
+AMS
+First-past-the-post
+Regional party list
+Constituency MSP
+Regional MSP
+First Minister
+Scottish Government
+Legislative programme
+Bills
+Acts
+Committees
+Committee scrutiny
+Sewel Convention
+Intergovernmental forums
+Fiscal powers
+Taxation powers
+Social security
+Mixed funding model
+Proportionality
+Competence disputes
+Public consultations
+Public petitions
+Trade unions
+Pressure groups
+Brexit
+Devolved competence
+Constitution of the United Kingdom

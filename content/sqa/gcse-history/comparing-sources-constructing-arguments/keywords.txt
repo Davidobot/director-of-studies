@@ -1,0 +1,45 @@
+# STT vocabulary hints for Comparing Sources Constructing Arguments (GCSE History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Qualifications Authority
+SQA
+National 5
+GCSE History
+History Resource Sheet
+Battle of Bannockburn
+Treaty of Union 1707
+debates
+Scottish pamphlet
+English merchant’s letter
+British recruiting poster
+Pals battalions
+Propaganda
+Enlistment
+Victorian towns
+Industrial migration
+Sanitation policies
+Diary entry
+Contemporary account
+First‑hand evidence
+Primary source
+Provenance
+Contextualisation
+Omissions
+Usefulness (evaluation)
+Source criticism
+Corroboration
+Bias
+Reliability
+Intended audience
+Authorial purpose
+Dating (timing)
+Evidence‑based argument
+Comparative analysis
+Point‑by‑point comparison
+Contextual knowledge
+Research stage
+Production hour
+Supervised conditions
+Referencing
+Deploying knowledge
+Reasoned conclusion

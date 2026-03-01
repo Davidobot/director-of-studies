@@ -1,0 +1,53 @@
+# STT vocabulary hints for Individual And Community Plato Aristotle Cicero (A-level Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Plato
+Aristotle
+Cicero
+Republic
+Politics
+De Officiis
+polis
+tripartite soul
+appetite
+spirit
+reason
+producers
+auxiliaries
+guardians
+noble lie
+myth of metals
+communal property
+communal living
+guardianship
+censorship
+pedagogy
+teleology
+political animal
+mixed constitution
+polity
+democracy
+oligarchy
+aristocracy
+monarchy
+tyranny
+distributive justice
+corrective justice
+citizenship
+habituation of virtue
+virtue ethics
+Stoicism
+natural law
+honestum
+utile
+res publica
+exempla
+magistrates
+clientela
+Roman republicanism
+dialectic
+empiricism
+constitutionalism
+civic virtue
+social cohesion
+middle class

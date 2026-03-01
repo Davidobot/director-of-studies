@@ -1,0 +1,44 @@
+# STT vocabulary hints for War On Terror 2001 03 (GCSE History CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+War on Terror
+/11
+September 11 2001
+Al-Qaeda
+Osama bin Laden
+Taliban
+Afghanistan
+Operation Enduring Freedom
+Northern Alliance
+Hamid Karzai
+Bonn Conference
+George W. Bush
+NATO
+Article 5
+World Trade Center
+Pentagon
+Flight 93
+Guantánamo Bay
+Extraordinary rendition
+Enhanced interrogation techniques
+Weapons of mass destruction
+WMD
+Shock and awe
+Saddam Hussein
+Iraq
+United Nations
+UN Security Council
+Intelligence assessments
+Counter-terrorism legislation
+Intelligence-sharing
+Surveillance capabilities
+Insurgency
+Sectarian violence
+Humanitarian crisis
+Nation-building
+State-building
+Anti-Soviet jihad
+Transnational Islamist terrorism
+Coalition
+Civil liberties
+Detention centre

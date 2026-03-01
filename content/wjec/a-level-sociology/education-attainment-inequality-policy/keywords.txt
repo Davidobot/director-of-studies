@@ -1,0 +1,62 @@
+# STT vocabulary hints for Education Attainment Inequality Policy (A-level Sociology WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+WJEC
+Eduqas
+A-level
+AS Unit 1
+A2 Unit 4
+Wales
+Welsh
+UK
+socialisation
+primary socialisation
+secondary socialisation
+cultural transmission
+social construction
+nature/nurture
+subcultures
+neo-tribes
+labelling
+stratification
+social differentiation
+power
+meritocracy
+New Right
+functionalism
+Marxist
+neo-Marxist
+Weberian
+interactionist
+postmodernism
+feminism
+patriarchy
+positivist
+interpretivist
+methodological pluralism
+triangulation
+validity
+reliability
+generalisability
+representativeness
+ethnography
+longitudinal studies
+stratified sampling
+purposive sampling
+snowball sampling
+informed consent
+confidentiality
+medicalisation
+social determinants
+world-systems theory
+modernisation
+dependency theory
+right realism
+left realism
+moral panics
+operationalise
+applied methods
+AO1
+AO2
+AO3
+summer 2021

@@ -1,0 +1,63 @@
+# STT vocabulary hints for Christian Worship Symbols Festivals Liturgy (GCSE Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Eucharist
+Holy Communion
+Mass
+Transubstantiation
+Real presence
+Baptism
+Baptismal font
+Baptismal pool
+Godparents
+Altar
+Communion table
+Tabernacle
+Nave
+Chancel
+Sanctuary
+Pulpit
+Lectern
+Eagle lectern
+Stained glass
+Icons
+Statues
+Crucifix
+Vestments
+Incense
+Liturgy
+Penitential rite
+Confession
+Creed
+Eucharistic prayer
+Homily
+Sermon
+Intercessions
+Sacrament
+Ordinance
+Priesthood of all believers
+Anglican
+Roman Catholic Church
+Orthodox
+Protestant
+Evangelical
+Charismatic
+Pentecostal
+Advent
+Christmas
+Epiphany
+Lent
+Holy Week
+Palm Sunday
+Maundy Thursday
+Good Friday
+Easter
+Ascension
+Pentecost
+Acts 2
+Saints' Days
+Harvest
+Rosary
+Lord's Prayer
+ACTS
+Speaking in tongues

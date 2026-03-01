@@ -1,0 +1,63 @@
+# STT vocabulary hints for Education Policy Differential Achievement (A-level Sociology OCR).
+# One term per line. Used to improve speech recognition quality.
+
+A-level
+Oxford
+Cambridge
+RSA
+Functionalism
+Marxism
+Feminism
+New Right
+Neoliberalism
+Weberian
+Social democracy
+Meritocracy
+Social reproduction
+Intersectionality
+Social class
+Cultural capital
+Labelling
+Self-fulfilling prophecy
+Pupil subcultures
+Hidden curriculum
+Streaming
+Setting
+Marketisation
+Accountability
+League tables
+Performance indicators
+High-stakes testing
+Performance management
+Parental choice
+School autonomy
+Alternative providers
+Vocational programmes
+Work-based programmes
+Digital divide
+Globalisation
+Policy borrowing
+Ethnography
+Classroom observation
+In-depth interviews
+Triangulation
+Validity
+Reliability
+Representativeness
+Consent
+Confidentiality
+AO1
+AO2
+AO3
+Synoptic
+Two-strand approach
+Traveller communities
+Chinese heritage pupils
+Indian heritage pupils
+International assessments
+Attainment statistics
+Labour market outcomes
+Selective higher education
+Elite courses
+Market mechanisms
+Cultural hybridisation

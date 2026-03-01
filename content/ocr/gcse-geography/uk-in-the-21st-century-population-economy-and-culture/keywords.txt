@@ -1,0 +1,60 @@
+# STT vocabulary hints for Uk In The 21St Century Population Economy And Culture (GCSE Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE Geography
+demographic transition
+deindustrialisation
+urbanisation
+migration
+population pyramids
+life expectancy
+fertility rate
+European Union
+Brexit
+North–South divide
+Canary Wharf
+City of London
+Silicon Fen
+Cambridge
+Manchester
+Bristol
+Glasgow
+Birmingham
+Docklands
+gig economy
+flexible working
+service sector
+knowledge-based sectors
+post-industrial redevelopment
+urban regeneration
+suburbanisation
+counter-urbanisation
+re-urbanisation
+housing affordability
+planning constraints
+green infrastructure
+public transport
+community-led housing
+soft power
+cultural exports
+managed retreat
+flood defences
+offshore wind power
+nuclear power
+fracking
+food security
+urban agriculture
+food waste reduction
+sustainable farming
+carbon reduction targets
+net-zero 2050
+devolution
+levelling up
+High Speed Rail
+enterprise zones
+labour shortages
+multiplier effects
+AO1
+AO2
+AO3
+AO4

@@ -1,0 +1,63 @@
+# STT vocabulary hints for Geographical Skills Mapwork Field Enquiry (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Cambridge IGCSE Geography
+Paper 2
+Paper 4
+Component 3
+mapwork
+field enquiry
+grid north
+four-figure grid reference
+six-figure grid reference
+eastings
+northings
+point compass
+bearing
+protractor
+scale line
+representative fraction
+:25 000
+:50 000
+contour
+cross-section
+relief
+drainage
+settlement morphology
+topographic map
+satellite image
+vertical photograph
+oblique photograph
+population pyramid
+choropleth map
+isoline map
+scatter graph
+divided bar
+histogram
+outlier
+best-fit line
+questionnaire
+environmental quality survey
+pedestrian count
+traffic count
+river discharge
+cross-sectional area
+mean velocity
+clinometer
+flow meter
+quadrat
+Stevenson screen
+rain gauge
+anemometer
+random sampling
+systematic sampling
+stratified sampling
+erosion
+deposition
+push–pull factors
+AO1
+AO2
+AO3
+nucleated settlement
+threshold population
+confluent

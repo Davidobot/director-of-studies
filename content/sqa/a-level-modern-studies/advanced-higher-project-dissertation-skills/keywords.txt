@@ -1,0 +1,56 @@
+# STT vocabulary hints for Advanced Higher Project Dissertation Skills (A-level Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Advanced Higher
+Modern Studies
+Scottish Qualifications Authority
+SQA
+project-dissertation
+dissertation
+research question
+primary research
+primary data
+community policing strategies
+violent crime
+urban Scotland
+comparative approach
+official statistics
+postal surveys
+online surveys
+structured interviews
+semi-structured interviews
+focus groups
+overt observation
+covert observation
+case studies
+longitudinal studies
+self-selection bias
+sampling bias
+reliability
+validity
+sampling
+triangulation
+consent
+anonymity
+data security
+ethical implications
+provenance
+think-tank analyses
+statistical databases
+appendices
+transcripts
+questionnaires
+consent forms
+authenticity
+reasonable assistance
+word limit
+word count
+bibliography
+footnotes
+A–D scale
+three-hour question paper
+law and order
+social inequality
+comparative analysis
+literature review
+peer-reviewed

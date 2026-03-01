@@ -1,0 +1,54 @@
+# STT vocabulary hints for Britain And Ireland 1900 1985 (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Irish Cultural Revival
+Gaelic League
+Gaelic Athletic Association
+Home Rule
+Home Rule Bills
+John Redmond
+Irish Parliamentary Party
+Edward Carson
+Ulster Volunteer Force
+Ulster Covenant
+Larne gun-running
+Irish Volunteers
+World War I
+Easter Rising 1916
+Conscription Crisis 1918
+Sinn Féin
+Dáil Éireann
+Anglo‑Irish War
+Irish Republican Army
+Black and Tans
+Auxiliaries
+Anglo‑Irish Treaty
+Irish Free State
+Dominion
+Boundary Commission
+Michael Collins
+Éamon de Valera
+Irish Civil War
+Stormont
+Ulster Unionist Party
+Gerrymandering
+Harland and Wolff
+Civil Rights Movement (Northern Ireland)
+British Army deployment 1969
+Provisional IRA
+UDA
+Internment 1971
+Bloody Sunday 1972
+Direct Rule
+Sunningdale Agreement
+Ulster Workers’ Council
+Hunger strikes 1981
+Bobby Sands
+Anglo‑Irish Agreement 1985
+Council of Ireland
+Partition
+Unionism
+Nationalism
+Republicanism
+Loyalism
+Sectarian violence

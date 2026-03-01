@@ -1,0 +1,57 @@
+# STT vocabulary hints for Urban Land Use And Urbanisation (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Concentric zone model
+Burgess
+Sector model
+Hoyt
+Multiple nuclei model
+CBD
+Accessibility
+Land value
+Urban fringe
+Rural-urban fringe
+Urban sprawl
+Brownfield regeneration
+Greenfield development
+Gentrification
+Suburbanisation
+Counter-urbanisation
+Deindustrialisation
+Docklands regeneration
+Transit-oriented development
+Inclusionary zoning
+Social housing
+Public-private partnership
+Slum upgrading
+In-situ upgrading
+Informal settlements
+Squatter settlements
+Favelas
+Shantytown
+Informal economy
+Tenure insecurity
+Permeable ground
+Sewage management
+Waste disposal
+Green infrastructure
+Sustainable drainage systems
+Walkable communities
+Compact city
+Green belt
+Decentralisation
+High-tech business park
+Industrial estate
+Mixed-use development
+Commuter towns
+Traffic corridor
+Docklands
+Dharavi
+Kibera
+Lagos
+Mumbai
+Rio de Janeiro
+London
+Manchester
+Barcelona
+Freiburg

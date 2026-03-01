@@ -1,0 +1,50 @@
+# STT vocabulary hints for Daily Life 5Th Century Athens (GCSE Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Pericles
+Golden Age
+polis
+Athens
+agora
+Acropolis
+Parthenon
+Theatre of Dionysus
+City Dionysia
+Panathenaia
+Athena
+Dionysus
+Ecclesia
+Pnyx
+ostracism
+ostraka
+paideia
+palaestra
+gymnasium
+lyre
+symposium
+kottabos
+hetairai
+oikos
+andron
+dowry
+infant exposure
+metics
+enslaved people
+manumission
+liturgies
+amphorae
+kylixes
+potters
+metalworkers
+mint
+Lares
+Penates
+Aeschylus
+Sophocles
+Euripides
+Arachne
+Midas
+Pan-Hellenic
+jurors
+law courts
+artisans

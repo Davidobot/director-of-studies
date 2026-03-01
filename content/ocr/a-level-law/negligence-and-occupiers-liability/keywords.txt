@@ -1,0 +1,48 @@
+# STT vocabulary hints for Negligence And Occupiers Liability (A-level Law OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Negligence
+Occupiers' Liability
+Duty of care
+Neighbour principle
+Donoghue v Stevenson
+Caparo test
+Three-part Caparo test
+Robinson v Chief Constable of West Yorkshire
+Blyth v Birmingham Waterworks
+Reasonable person standard
+Breach of duty
+Bolam test
+Professional standard
+Nettleship v Weston
+Mullin v Richards
+But-for test
+Factual causation
+Legal causation
+Novus actus interveniens
+Remoteness of damage
+Wagon Mound
+Thin skull rule
+Smith v Leech Brain
+Barnett v Chelsea & Kensington Hospital Management Committee
+Knightley v Johns
+Contributory negligence
+Law Reform (Contributory Negligence) Act 1945
+Volenti non fit injuria
+Morris v Murray
+Pecuniary loss
+Pain and suffering
+Loss of amenity
+Mitigation
+Injunction
+Occupiers' Liability Act 1957
+Occupiers' Liability Act 1984
+Wheat v Lacon
+Glasgow Corporation v Taylor
+Roles v Nathan
+Tomlinson v Congleton Borough Council
+Lawful visitor
+Trespasser
+IRAC
+Compensation culture
+AO1 AO2 AO3

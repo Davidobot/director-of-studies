@@ -1,0 +1,55 @@
+# STT vocabulary hints for Buddhism Four Noble Truths Meditation (GCSE Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Siddhartha Gautama
+Buddha
+Northern India
+fifth century BCE
+Three Marks of Existence
+anicca
+dukkha
+anatta
+non-self
+unsatisfactoriness
+kamma
+intentional action
+samsara
+rebirth
+nibbana
+Three Jewels
+Dhamma
+Sangha
+Four Noble Truths
+tanha
+craving
+Noble Eightfold Path
+Right View
+Right Intention
+Right Speech
+Right Action
+Right Livelihood
+Right Effort
+Right Mindfulness
+Right Concentration
+samatha
+vipassana
+jhana
+metta
+loving-kindness
+Three Poisons
+greed
+hatred
+ignorance
+Five Precepts
+puja
+monastics
+lay Buddhists
+taking refuge
+Pali
+GCSE
+Scottish Qualifications Authority
+SQA
+retreats
+guided sittings
+ethical conduct
+mental discipline

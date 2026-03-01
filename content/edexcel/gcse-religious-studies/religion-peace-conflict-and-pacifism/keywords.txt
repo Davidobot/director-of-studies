@@ -1,0 +1,51 @@
+# STT vocabulary hints for Religion Peace Conflict And Pacifism (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Pearson Edexcel
+Christianity
+Jesus
+Sermon on the Mount
+Quaker
+peace churches
+Islam
+Qur'an
+Hadith
+jihad
+Buddhism
+Hinduism
+Sikhism
+Bhagavad Gita
+saint-soldier
+Jainism
+ahimsa
+Mahatma Gandhi
+pacifism
+Just War
+Just War theory
+Catholic teaching
+just cause
+legitimate authority
+right intention
+probability of success
+proportionality
+last resort
+non-combatant
+pikuach nefesh
+sanctity of life
+restorative justice
+peacemaking
+reconciliation
+civil resistance
+interfaith
+weapons of mass destruction
+WMD
+terrorism
+humanitarian intervention
+international peacekeeping
+situation ethics
+utilitarianism
+virtue ethics
+AO1
+AO2
+SPaG

@@ -1,0 +1,50 @@
+# STT vocabulary hints for China 1950 1981 (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+People's Republic of China
+Chinese Communist Party
+Mao Zedong
+Deng Xiaoping
+Liu Shaoqi
+Gang of Four
+Dalai Lama
+Tibetans
+Tibetan uprising
+Land reform
+Land redistribution
+Collectivisation
+People's communes
+Dazhai model
+Model communes
+Great Leap Forward
+Great Leap Forward famine
+Backyard furnaces
+First Five-Year Plan
+Soviet-style central planning
+Industrialisation
+Heavy industry
+Hundred Flowers campaign
+Anti-Rightist Campaign
+Rightists
+Red Guards
+Cultural Revolution
+Down to the Countryside Movement
+Sent-down youth
+Re-education
+Mass campaigns
+Mass mobilisation
+Propaganda
+Four Modernisations
+Household Responsibility System
+Land contracting
+One Child policy
+Reform and Opening-Up
+Foreign investment
+People's Liberation Army
+Political purge
+Political rehabilitation
+Democracy Wall
+Oral histories
+Party documents
+Village records
+Local agency

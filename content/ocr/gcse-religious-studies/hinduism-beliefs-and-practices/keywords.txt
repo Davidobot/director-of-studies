@@ -1,0 +1,60 @@
+# STT vocabulary hints for Hinduism Beliefs And Practices (GCSE Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Atman
+Samsara
+Karma
+Moksha
+Brahman
+Nirguna
+Saguna
+Trimurti
+Brahma
+Vishnu
+Shiva
+Tridevi
+Saraswati
+Lakshmi
+Parvati
+Durga
+Shakti
+Avatara
+Rama
+Krishna
+Murti
+Darshan
+Puja
+Arati
+Mantra
+Ganges
+Varanasi
+Diwali
+Holi
+Navaratri
+Ganesh Chaturthi
+Samskaras
+Dharma
+Purusharthas
+Artha
+Kama
+Jnana yoga
+Bhakti yoga
+Karma yoga
+Raja yoga
+Ashtanga yoga
+Marga
+Varna
+Ashrama
+Vedas
+Upanishads
+Ramayana
+Mahabharata
+Bhagavad Gita
+Ahimsa
+Daya
+Satya
+Gandhi
+Seva
+Dana
+Advaita Vedanta
+Dualist traditions

@@ -1,0 +1,56 @@
+# STT vocabulary hints for Urban Change Planning And Sustainable Settlements (A-level Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Urban change
+Sustainable settlements
+Suburbanisation
+Counter-urbanisation
+Re-urbanisation
+Rural–urban continuum
+Greenfield development
+Brownfield redevelopment
+Gentrification
+Globalisation
+Urban heat island
+Ecological footprint
+Carbon footprint
+Mixed-use development
+Eco-town
+Eco-district
+Hammarby Sjöstad
+Vauban
+Freiburg
+Stockholm
+Cambridge
+Curitiba
+Nairobi
+Informal settlements
+Slums
+Informal economy
+Incremental urbanism
+Secure tenure
+Bus Rapid Transit
+Tram
+Light rail
+Low-emission zone
+Electric vehicle strategies
+Congestion charging
+Park-and-ride
+Pedestrianisation
+Cycling infrastructure
+Defensible space
+Nature-based solutions
+Soft engineering
+Hard engineering
+Environmental Impact Assessment
+Cost–Benefit Analysis
+Participatory planning
+Geographical Information Systems
+Spatial inequalities
+Urban governance
+Flood mitigation
+Contamination remediation
+Retail parks
+Out-of-town development
+Urban regeneration
+Housing affordability

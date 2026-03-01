@@ -1,0 +1,52 @@
+# STT vocabulary hints for Northern Britain Iron Age 1034 (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Northern Britain
+Iron Age
+Hadrian's Wall
+Hillforts
+Brochs
+Crannogs
+Pictish symbol stones
+Cult of the Head
+Votive offerings
+Ritual deposits
+Gnaeus Julius Agricola
+Tacitus
+Mons Graupius
+Gask Ridge
+Limes
+Flavian
+Antonine Wall
+Severan campaigns
+Septimius Severus
+Romanisation
+Caledonii
+Maeatae
+Legions
+Bede
+Adomnán
+Irish annals
+Norse sagas
+Columban monasticism
+Columba
+Iona
+Peregrinatio
+Tonsure
+Dál Riata
+Strathclyde
+Angles
+Northumbria
+Picts
+Scots
+Britons
+Viking
+Norse paganism
+Earldom of Orkney
+Caithness
+Hebrides
+Kenneth MacAlpin
+Alba
+Pictish disappearance
+Manuscript production
+Frontier systems

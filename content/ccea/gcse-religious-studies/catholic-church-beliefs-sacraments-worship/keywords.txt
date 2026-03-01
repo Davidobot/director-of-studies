@@ -1,0 +1,67 @@
+# STT vocabulary hints for Catholic Church Beliefs Sacraments Worship (GCSE Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Catholic Church
+Eucharist
+Mass
+Transubstantiation
+Real presence
+Consecration
+Communion
+Pentecost
+St Paul
+St Patrick
+Apostles' Creed
+Apostolic succession
+Pope
+Bishop
+Priest
+Laity
+Common priesthood
+Ordination
+Holy Orders
+Trinity
+Incarnation
+Salvation
+Grace
+Scripture
+Tradition
+Mary
+Saints
+Intercession
+Baptism
+Infant baptism
+Confirmation
+Chrism
+Laying on of hands
+Reconciliation
+Confession
+Anointing of the Sick
+Seven sacraments
+Sacramental grace
+Liturgy
+Liturgy of the Word
+Liturgy of the Eucharist
+Tabernacle
+Altar
+Ambo
+Lectern
+Baptismal font
+Liturgical year
+Advent
+Lent
+Holy Week
+Easter
+Rosary
+Novena
+Relics
+Gregorian chant
+Society of St Vincent de Paul
+Preferential option for the poor
+Ecumenical dialogue
+Clerical celibacy
+Catholic social teaching
+GCSE Religious Studies
+CCEA
+AO1
+AO2

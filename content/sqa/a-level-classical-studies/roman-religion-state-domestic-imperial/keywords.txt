@@ -1,0 +1,47 @@
+# STT vocabulary hints for Roman Religion State Domestic Imperial (A-level Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+pontifex maximus
+college of pontiffs
+flamines
+augurs
+haruspices
+quindecemviri
+Sibylline books
+Vestal Virgins
+Vesta
+pax deorum
+Lares
+Penates
+lararium
+genius
+bulla
+toga virilis
+Lupercalia
+Saturnalia
+Triumphs
+temple dedications
+imperial cult
+divus
+apotheosis
+Mithraism
+mithraea
+Isis
+Cybele
+Magna Mater
+Bacchus
+Dionysus
+Hannibalic crisis
+prodigies
+libations
+votive offerings
+votive deposits
+pietas
+res publica
+orthopraxy
+Stoicism
+Epicureanism
+mystery cults
+Bacchic rites
+funerary monuments
+ancestor worship

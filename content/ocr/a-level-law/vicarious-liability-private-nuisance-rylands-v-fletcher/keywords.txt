@@ -1,0 +1,46 @@
+# STT vocabulary hints for Vicarious Liability Private Nuisance Rylands V Fletcher (A-level Law OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Vicarious liability
+Private nuisance
+Rylands v Fletcher
+Tort
+Strict liability
+Non-natural use
+Close connection test
+Course of employment
+Control test
+Ready Mixed Concrete
+Salmond formulation
+Lister v Hesley Hall
+Mohamud v WM Morrison Supermarkets
+Employer-employee relationship
+Integration
+Mutuality of obligation
+Wrongful mode of doing something
+Secondary liability
+Proprietary interest
+Coming to the nuisance
+Sturges v Bridgman
+Prescription
+Statutory authority
+Contributory fault
+Volenti
+Injunctive relief
+Damages
+Accumulation
+Escape (Rylands)
+Likely to do mischief
+Cambridge Water
+Transco
+Foreseeability
+Remoteness
+Causation
+Negligence
+Duty of care
+Occupier
+Indemnity
+Contribution
+Act of God
+Hazardous accumulations
+Character of the locality

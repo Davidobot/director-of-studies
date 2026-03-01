@@ -1,0 +1,46 @@
+# STT vocabulary hints for Causes First World War 1890 1914 (GCSE History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+First World War
+Archduke Franz Ferdinand
+Sarajevo
+Gavrilo Princip
+July Crisis
+Austro-Hungarian ultimatum
+blank cheque
+Triple Alliance
+Germany
+Austria-Hungary
+Italy
+Triple Entente
+Britain
+France
+Russia
+Entente Cordiale
+Anglo–Russian Entente
+Schlieffen Plan
+mobilisation
+mobilisation orders
+HMS Dreadnought
+Kaiser Wilhelm II
+arms race
+militarism
+naval competition
+imperial rivalries
+colonial crises
+Fashoda
+Moroccan Crises
+Moroccan Crisis 1905
+Moroccan Crisis 1911
+Bosnian Crisis
+Annexation of Bosnia-Herzegovina
+Balkan Wars 1912–13
+Balkan nationalism
+Eastern Question
+Congress of Berlin
+Russo-Turkish War 1877–78
+Serbia
+Belgian neutrality
+military mind-set
+powder keg
+a place in the sun

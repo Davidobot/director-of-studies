@@ -1,0 +1,37 @@
+# STT vocabulary hints for Historical Investigations Interpretations Skills (A-level History CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+CCEA
+A-level History
+AS
+A2
+AO1
+AO2
+AO3
+Historical Investigations
+Interpretations
+Elizabethan religious settlement
+Nazis
+English Civil War
+Philip II
+state papers
+diplomatic reports
+contemporary pamphlets
+royal proclamation 1559
+primary sources
+provenance
+source utility
+historiography
+Cold War
+Soviet foreign policy
+revisionist
+Weimar Republic
+crisis
+Crown and Parliament 1625–1714
+Personal Rule
+Glorious Revolution
+synoptic essay
+turning points
+assessment objectives
+source-based questions
+extended essays

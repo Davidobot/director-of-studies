@@ -1,0 +1,50 @@
+# STT vocabulary hints for Nineteenth Century Imperialism Motives Impacts (GCSE History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+th-century imperialism
+imperialism
+colonialism
+Scramble for Africa
+Berlin Conference 1884–85
+Suez Canal
+British East India Company
+Revolt of 1857
+Indian Mutiny
+First War of Independence
+sepoys
+the Raj
+Frederick Lugard
+indirect rule
+direct rule
+assimilation
+protectorate
+chartered companies
+settler colonies
+King Leopold II
+Congo Free State
+rubber extraction
+ivory trade
+forced labour
+Social Darwinism
+civilising mission
+missionary societies
+Spanish–American War 1898
+Treaty of Paris 1898
+Philippines
+Philippine–American War 1899–1902
+Anti-Imperialist League
+Guam
+Puerto Rico
+coaling stations
+naval bases
+steamships
+telegraph
+railways
+malaria
+cash-crop agriculture
+plantations
+metropole
+great-power rivalry
+colonial administration
+nationalist movements
+annexation

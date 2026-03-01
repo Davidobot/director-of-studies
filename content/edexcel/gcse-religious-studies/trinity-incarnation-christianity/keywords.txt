@@ -1,0 +1,58 @@
+# STT vocabulary hints for Trinity Incarnation Christianity (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Trinity
+Incarnation
+Father
+Son
+Holy Spirit
+God
+Jesus Christ
+Nicene Creed
+Immanent Trinity
+Economic Trinity
+Tri-theism
+Modalism
+Monotheism
+Matthew 3:13–17
+Matthew 28
+John 1:1–18
+Logos
+First Council of Nicaea
+Nicaea
+Arianism
+Arians
+Homoousios
+First Council of Constantinople
+Council of Chalcedon
+Chalcedonian formula
+Hypostatic union
+Kenosis
+Two natures
+Atonement
+Grace
+Resurrection
+Baptism
+Creator
+Redeemer
+Sustainer
+Theotokos
+Council of Ephesus
+Ephesus
+Eucharist
+Lord's Supper
+Nativity
+Christ Pantocrator
+Orthodox Christianity
+Roman Catholicism
+Marian devotion
+Protestantism
+Icons
+Sacramental presence
+Nontrinitarian
+Relationality
+Personhood
+Metaphysics
+Creeds
+Scripture
+Worship

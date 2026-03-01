@@ -1,0 +1,59 @@
+# STT vocabulary hints for Global Uneven Development (GCSE Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Global uneven development
+GCSE
+Oxford Cambridge and RSA
+Gross National Income (GNI) per capita
+Human Development Index (HDI)
+Choropleth map
+Population pyramid
+Flow‑line map
+Bivariate plot
+Rostow’s stages of growth
+Foreign direct investment (FDI)
+Multinational corporations (MNCs)
+Remittances
+Overseas development assistance (ODA)
+LIDC (low‑income developing country)
+EDC (emerging and developing country)
+Resource curse
+Extractive institutions
+Colonialism
+Landlocked countries
+Primary commodities
+Manufacturing sector
+Services sector
+Political stability
+Governance
+Debt
+Structural adjustment programmes
+Bilateral aid
+Multilateral aid
+Non‑governmental organisations (NGOs)
+Sustainable development
+Deforestation
+Water stress
+Urbanisation
+Megacities
+Informal settlements
+Informal economy
+Slum upgrading
+Spatial segregation
+Niger Delta
+Lagos
+Dhaka
+Mumbai
+India
+Vietnam
+Nigeria
+Bangladesh
+Trade flow map
+Price shocks
+Trade rules
+Age structure
+Infant mortality
+Access to clean water
+Life expectancy
+Fieldwork
+SPaG marks

@@ -1,0 +1,43 @@
+# STT vocabulary hints for Devolution Scotland Governance Options (A-level Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Devolution
+Scottish Parliament
+Holyrood
+Scottish Government
+Westminster
+UK Parliament
+Scotland Act 1998
+Barnett formula
+Block grant
+Block grant top‑up
+Section 30 order
+Devo‑max
+Fiscal autonomy
+Fiscal devolution
+Federalism
+Asymmetric devolution
+Reserved matters
+Devolved matters
+independence referendum
+EU referendum
+Brexit
+European Union
+Uncodified constitution
+Sovereignty
+Currency arrangements
+Currency union
+Fiscal sustainability
+Equalisation
+Borrowing limits
+Fiscal stability
+Tax‑raising powers
+Welfare administration
+Policing
+NHS charges
+University funding
+Cross‑border cooperation
+International organisations
+Trade deals
+Comparative federalism
+Scottish budget

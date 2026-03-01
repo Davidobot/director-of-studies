@@ -1,0 +1,54 @@
+# STT vocabulary hints for Germany 1815 1939 Unification To Nazi Rise (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Congress of Vienna
+Napoleonic Wars
+Wars of Liberation
+German Confederation
+Zollverein
+Burschenschaften
+Frankfurt Parliament 1848–49
+Otto von Bismarck
+Realpolitik
+Danish War 1864
+Schleswig‑Holstein question
+Austro‑Prussian War 1866
+Battle of Königgrätz
+Ems Dispatch 1870
+Franco‑Prussian War 1870–71
+Proclamation of the German Empire (Versailles 1871)
+Kaiser
+Kulturkampf
+Anti‑Socialist Laws
+Bismarckian social legislation
+Prussia
+Austria
+Bundesrat
+Reichstag
+Weimar Republic
+Weimar Constitution
+Article 48
+Treaty of Versailles
+Article 231 (war guilt clause)
+Hyperinflation 1923
+Wall Street Crash 1929
+Great Depression
+Industrialisation
+Urbanisation
+NSDAP (Nazi Party)
+Adolf Hitler
+Paul von Hindenburg
+January 1933
+Reichstag Fire February 1933
+Enabling Act 23 March 1933
+Gleichschaltung
+German Labour Front (Deutsche Arbeitsfront)
+Sturmabteilung (SA)
+Schutzstaffel (SS)
+Gestapo
+Night of the Long Knives
+Reoccupation of the Rhineland 1936
+Anschluss 1938
+Autobahn
+Rearmament
+Führer

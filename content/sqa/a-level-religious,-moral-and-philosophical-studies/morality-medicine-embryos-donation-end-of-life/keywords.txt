@@ -1,0 +1,44 @@
+# STT vocabulary hints for Morality Medicine Embryos Donation End Of Life (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Embryo
+Embryonic stem cells
+Therapeutic cloning
+Brain death
+Assisted dying
+Euthanasia
+Palliative care
+Sanctity of life
+Personhood
+Autonomy
+Principle of double effect
+In vitro fertilisation
+IVF
+Pre-implantation genetic diagnosis
+PGD
+day rule
+Deontological ethics
+Consequentialism
+Utilitarianism
+Presumed consent
+Opt-out system
+Beating-heart donation
+Circulatory death
+Organ allocation
+Organ markets
+Living donation
+Deceased donation
+Organ transplantation
+Scottish Qualifications Authority
+SQA
+A-level
+Reproductive medicine
+Research ethics
+Moral status of embryos
+Withholding disproportionate treatment
+Voluntary euthanasia
+Non-voluntary euthanasia
+Neurological criteria
+Brain death diagnosis
+Virtue ethics
+Imago Dei

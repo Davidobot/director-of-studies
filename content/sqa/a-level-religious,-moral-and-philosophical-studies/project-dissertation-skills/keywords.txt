@@ -1,0 +1,48 @@
+# STT vocabulary hints for Project Dissertation Skills (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Advanced Higher
+RMPS
+Scottish Qualifications Authority
+SQA
+project–dissertation
+dissertation
+research question
+Swinburne
+Paley
+James
+Otto
+Aquinas
+Leibniz
+Kalam argument
+cosmological argument
+teleological argument
+design analogy
+religious experience
+sanctity of life
+physician-assisted dying
+organ allocation
+autonomy
+primary sources
+secondary scholarship
+peer-reviewed
+bibliography
+referencing
+author–date
+Harvard
+footnote styles
+plagiarism
+academic integrity
+methodology
+comparative textual analysis
+literature review
+evaluation
+analysis
+counter-arguments
+authentication
+spot-check interviews
+supervision meetings
+word limit
+appendices
+referee-style self-check
+reference management software

@@ -1,0 +1,51 @@
+# STT vocabulary hints for Julio Claudian Emperors 31Bc Ad68 (A-level Ancient History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Julio-Claudian
+Augustus
+Tiberius
+Gaius
+Caligula
+Claudius
+Nero
+Actium
+BC
+imperium maius
+tribunician authority
+princeps senatus
+Res Gestae
+principate
+veteran settlements
+imperial provinces
+senatorial provinces
+equestrian order
+Praetorian Guard
+Sejanus
+Germanicus
+Capri
+Narcissus
+Pallas
+Ostia
+Britain
+AD 43
+Great Fire of Rome
+AD 64
+Vindex
+Gaul
+Year of Four Emperors
+Tacitus
+Suetonius
+Dio Cassius
+Velleius
+numismatic
+epigraphic
+titulature
+annona
+archaeological evidence
+freedmen
+legions
+res publica
+praetorian prefect
+Seneca
+Burrus
+Agrippina

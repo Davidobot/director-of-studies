@@ -1,0 +1,52 @@
+# STT vocabulary hints for Us Congress Presidency Supreme Court (A-level Government and Politics WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+United States Constitution
+Separation of powers
+Checks and balances
+Federalism
+Congress
+House of Representatives
+Senate
+Bicameral
+Speaker of the House
+Party whips
+Standing committees
+Appropriations Committee
+Judiciary Committee
+Conference committee
+Filibuster
+Supermajority
+Reconciliation
+Power of the purse
+Subpoena
+Impeachment
+Two‑thirds vote
+Executive Office of the President
+EOP
+Cabinet
+Executive agencies
+Commander‑in‑Chief
+Senate ratification
+Advice and consent
+Veto
+Pardons
+Imperial presidency
+Executive orders
+Signing statements
+Administrative rulemaking
+Unitary executive
+Judicial review
+Marbury v. Madison
+Supreme Court
+Brown v. Board of Education
+McCulloch v. Maryland
+Certiorari
+Stare decisis
+Originalism
+Living Constitution
+Judicial activism
+Judicial restraint
+Lifetime tenure
+Confirmation fights
+Campaign finance

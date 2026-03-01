@@ -1,0 +1,62 @@
+# STT vocabulary hints for Advanced Higher Essay Writing And Exam Technique (A-level Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Advanced Higher
+Scottish Qualifications Authority
+A‑level Classical Studies
+dissertation
+project-dissertation
+historiography
+Part A
+Part B
+classical literature
+classical society
+Tacitus
+Herodotus
+Thucydides
+Polybius
+Livy
+Homer
+Euripides
+Virgil
+Aristophanes
+Plato
+Aristotle
+Cicero
+Ovid
+Juvenal
+Horace
+Aeneid
+Trojan Women
+Heroides
+Knights
+Clouds
+kleos
+pietas
+shame culture
+guilt culture
+epigraphic
+archaeological
+triangulate
+close reading
+primary texts
+secondary works
+bibliography
+footnotes
+command words
+analyse
+evaluate
+compare
+discuss
+thesis
+topic sentence
+source-based comparison
+marking instructions
+mini-dissertation
+comparative maps
+rhetorical strategies
+narrative voice
+interpretative claims
+prescribed text
+research log
+word count

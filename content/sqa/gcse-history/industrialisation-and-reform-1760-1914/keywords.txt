@@ -1,0 +1,49 @@
+# STT vocabulary hints for Industrialisation And Reform 1760 1914 (GCSE History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Industrial Revolution
+Enclosure
+Crop rotation
+Spinning Jenny
+Water Frame
+Power Loom
+James Watt
+Steam engine
+Coal industry
+Iron industry
+Factory system
+Manchester
+Birmingham
+Glasgow
+Edwin Chadwick
+John Snow
+Public Health Act 1848
+Joseph Bazalgette
+Victorian London sewer system
+Public Health Act 1875
+Cholera
+Typhus
+Tuberculosis
+Factory Acts (1830s–1840s)
+Mines Act 1842
+Combination Acts
+Trade unions
+Robert Owen
+New Lanark
+Canals
+Liverpool and Manchester Railway
+Stephenson's Rocket
+Railway boom
+Peterloo Massacre 1819
+Chartism
+People's Charter
+Reform Act 1832
+Reform Act 1867
+Reform Act 1884
+Friendly societies
+Temperance movement
+Laissez-faire
+Municipal activism
+Industrial bourgeoisie
+Urban working class
+Slum clearance

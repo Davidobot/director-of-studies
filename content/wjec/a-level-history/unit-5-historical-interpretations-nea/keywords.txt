@@ -1,0 +1,43 @@
+# STT vocabulary hints for Unit 5 Historical Interpretations Nea (A-level History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Unit 5 NEA
+WJEC
+Eduqas
+A‑level History
+Non‑examination assessment
+AO1
+AO2
+AO3
+Historiography
+Historiographical context
+Provenance
+Primary source
+Secondary interpretation
+Contemporary primary material
+Chamberlain
+Appeasement to 1939
+Black Death 1348–1400
+Welsh language
+Proposal Form
+Moderator
+Internal moderation
+External moderation
+Internal standardisation
+Candidate declaration
+Plagiarism
+Bibliography
+Harvard referencing
+Footnote‑based referencing
+Research log
+Provenance notes
+Source evaluation
+Authorial purpose
+Intended audience
+Reliability
+Usefulness
+Interpretative frameworks
+Thematic organisation
+Chronological organisation
+Sustained evaluation
+Evidence‑based judgement

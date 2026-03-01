@@ -1,0 +1,57 @@
+# STT vocabulary hints for Formulating Research Questions Proposals (A-level Global Perspectives & Research CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Cambridge International
+A Level
+Cambridge Research Report
+A-level Global Perspectives & Research
+Research question
+Research proposal
+Research methodology
+Primary evidence
+Secondary evidence
+Primary research
+Secondary literature
+Ethnographic observation
+Statistical analysis
+Close textual analysis
+Small experiments
+Surveys
+Interviews
+Research log
+Iterative research
+Reflective practice
+AO1
+AO2
+AO3
+Assessment objectives
+Declaration of Authenticity
+Academic honesty
+Plagiarism detection
+Referencing
+Harvard
+APA
+Chicago
+Bibliography
+Word count
+,000-word limit
+Administrative Guide
+Feasibility
+Ethical guidelines
+Consent
+Anonymity
+Data security
+Safeguarding
+Environmental levies
+Mass tourism
+Industrialisation
+Data control
+Rising global powers
+Ethics of food
+Climate change
+Migration
+Barcelona
+Non-specialist audience
+Evidence-based argument
+Methodological limitations
+Assessment criteria

@@ -1,0 +1,46 @@
+# STT vocabulary hints for Enslaved People Greece Rome (GCSE Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Greece
+Rome
+Athens
+Pompeii
+Vesuvius
+Sparta
+Peloponnese
+Spartacus
+Helots
+National 5
+Scottish Qualifications Authority
+GCSE
+Agora
+Forum
+Thermopolium
+Thermopolia
+Fullers
+Plaster casts
+Vindolanda tablets
+Inscriptions
+Graffiti
+Attic vase scenes
+Manumission
+Freedmen
+Freedwomen
+Liberti
+Libertae
+Patron‑client
+Debt slavery
+Debt bondage
+Piracy
+Mines
+Quarries
+Gladiators
+Tutors
+Artisans
+Domestic slaves
+Public slaves
+Legal personhood
+Civic rights
+Material culture
+Archaeology
+Legal texts

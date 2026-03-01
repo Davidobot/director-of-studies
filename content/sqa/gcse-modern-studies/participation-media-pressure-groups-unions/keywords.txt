@@ -1,0 +1,54 @@
+# STT vocabulary hints for Participation Media Pressure Groups Unions (GCSE Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Parliament
+UK Parliament
+Devolution
+Reserved powers
+Devolved matters
+First Past the Post
+FPTP
+Additional Member System
+AMS
+Proportional representation
+Constituency MSP
+Regional list
+Regional seats
+Coalition government
+Minority government
+Voter turnout
+franchise
+Enfranchisement
+All-women shortlists
+Candidate selection
+Incumbency effect
+Socioeconomic barriers
+Campaign finance
+Spending limits
+Party manifestos
+Data analytics
+Targeted advertising
+Social media advertising
+Filter bubbles
+Misinformation
+Agenda-setting
+Framing
+Investigative journalism
+Broadcast impartiality
+Media regulation
+Media literacy
+Pressure groups
+Insider groups
+Outsider groups
+Lobbying
+Public consultations
+Legal challenges
+Petitions
+Scottish Trades Union Congress
+Trade unions
+Collective bargaining
+Industrial action
+Strikes
+Civil society
+Voter registration
+Civic education

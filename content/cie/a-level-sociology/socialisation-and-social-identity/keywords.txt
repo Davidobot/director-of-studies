@@ -1,0 +1,72 @@
+# STT vocabulary hints for Socialisation And Social Identity (A-level Sociology CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Culture
+Norms
+Values
+Roles
+Status
+Ideology
+Social construction
+Primary socialisation
+Secondary socialisation
+Hidden curriculum
+Interactionism
+Structural theories
+Agencies of socialisation
+Family
+Education
+Peer groups
+Media
+Religion
+Digital media
+Global migration
+Cultural diversity
+Hybrid identities
+Social control
+Conformity
+Deviance
+Sanctions
+The state
+Power
+Consensus
+Subcultures
+Marginalisation
+Under-socialisation
+Resistance
+Youth subcultures
+Whistleblowers
+Social movements
+Class identity
+Cultural capital
+Gender identity
+Ethnic identity
+Age identity
+Cultural defence
+Ethnic revitalisation
+Globalisation
+Late modernity
+Postmodernism
+Consumption
+Socio-economic inequalities
+Quantitative methods
+Qualitative methods
+Surveys
+Participant observation
+Ethnography
+Operationalisation
+Positivism
+Interpretivism
+Verstehen
+Mixed methods
+Triangulation
+Validity
+Reliability
+Informed consent
+Researcher bias
+Functionalism
+Marxism
+Feminism
+AO1
+AO2
+AO3

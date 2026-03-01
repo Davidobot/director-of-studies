@@ -1,0 +1,54 @@
+# STT vocabulary hints for Uk Weather Systems And Air Masses (GCSE Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Arctic maritime (Am)
+Polar maritime (Pm)
+Tropical maritime (Tm)
+Polar continental (Pc)
+Tropical continental (Tc)
+Air mass
+Source region
+Depression
+Mid-latitude depression
+Anticyclone
+Blocking anticyclone
+Warm front
+Cold front
+Warm sector
+Frontal rain
+Orographic rainfall
+Convectional rainfall
+Rain shadow
+Isobars
+Pressure gradient
+Synoptic chart
+Cumulonimbus
+Temperature inversion
+Convergence
+Condensation
+Precipitation
+Maritime air
+Continental air
+Moisture-laden air
+South-westerly wind
+Prevailing wind
+North Atlantic
+North Africa
+Russia
+Scottish Highlands
+Lake District
+Snowdonia
+Cumbria
+Storm Desmond
+Beast from the East
+European heatwave
+Heatwave
+Gale
+Flash flooding
+River flooding
+Relief
+Aspect
+Uplands
+Lowlands
+Met Office
+Soil moisture monitoring

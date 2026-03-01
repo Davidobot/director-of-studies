@@ -1,0 +1,45 @@
+# STT vocabulary hints for Power Interest Groups Media (A-level Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Qualifications Authority
+Advanced Higher
+Modern Studies
+pluralist theory
+elitist perspective
+Marxist perspective
+corporatist models
+trade unions
+employer organisations
+insider groups
+outsider groups
+British Medical Association
+Black Lives Matter
+BBC
+Leveson Inquiry
+Ofcom
+Cambridge Analytica
+targeted advertising
+algorithms
+social platforms
+agenda-setting
+framing
+gatekeeping
+political parties
+SNP
+Scottish independence referendum
+NRA
+PACs
+corporatist policymaking
+public-service obligations
+public-service outlets
+content analysis
+longitudinal studies
+triangulation
+strategic litigation
+media partisanship
+press ethics
+electoral behaviour
+political finance
+civil society
+grassroots activists
+manifestos

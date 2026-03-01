@@ -1,0 +1,62 @@
+# STT vocabulary hints for Global Climate Change Causes Impacts And Responses (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Global heat budget
+Intertropical Convergence Zone
+ITCZ
+Greenhouse effect
+Greenhouse gases
+Carbon dioxide
+ppm
+Methane
+Nitrous oxide
+Permafrost thaw
+Cryosphere
+Biosphere
+Albedo
+Feedback mechanisms
+El Niño–Southern Oscillation
+ENSO
+Gulf Stream
+Ocean heat uptake
+Thermal expansion
+Sea-level rise
+Glacier retreat
+Arctic sea ice
+Ocean acidification
+Coral bleaching
+Carbon sinks
+Deforestation
+Land-use change
+Agricultural emissions
+Climate mitigation
+Climate adaptation
+Decarbonisation
+Renewable electricity
+Solar PV
+Onshore wind
+Offshore wind
+Carbon capture, utilisation and storage
+CCUS
+Afforestation
+Sustainable forestry
+Nature-based solutions
+Mangroves
+Managed retreat
+Paris Agreement
+UNFCCC
+Nationally determined contributions
+NDCs
+Climate finance
+Loss and damage
+Climate resilience
+Coastal zone management
+River basin management
+Hydrograph
+Kiribati
+Bangladesh
+Sahel
+Delta regions
+Adaptive capacity
+Quaternary
+Glacial-interglacial cycles

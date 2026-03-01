@@ -1,0 +1,56 @@
+# STT vocabulary hints for Families And Relationships (A-level Sociology OCR).
+# One term per line. Used to improve speech recognition quality.
+
+A-level Sociology
+Oxford Cambridge and RSA
+socialisation
+nuclear family
+extended family
+lone-parent households
+reconstituted families
+blended families
+same-sex couple families
+cohabitation
+hybrid identities
+ideology of the nuclear family
+postmodern fragmentation
+demographic trends
+falling birth rates
+age at first childbirth
+divorce rates
+ageing population
+life expectancy
+contraception access
+divorce law reform
+transnational family ties
+immigrant family networks
+housing affordability
+labour market precarity
+welfare provision
+childcare availability
+intergenerational relationships
+grandparental childcare
+sandwich generation
+functionalism
+New Right
+Marxist theory
+feminist theory
+intersectional feminism
+radical feminism
+postmodernism
+domestic division of labour
+domestic labour
+emotional labour
+triple shift
+coercive control
+domestic abuse
+child abuse
+child-centred family
+life course
+time-use studies
+national surveys
+census data
+ethnography
+participant observation
+content analysis
+representativeness

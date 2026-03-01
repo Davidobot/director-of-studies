@@ -1,0 +1,63 @@
+# STT vocabulary hints for Coastal Landscapes And Change (A-level Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+littoral zone
+backshore
+nearshore
+concordant coast
+discordant coast
+Dalmatian coastline
+wave-cut notch
+wave-cut platform
+cave–arch–stack–stump
+tombolo
+Roches moutonnées
+crag-and-tail
+hydraulic action
+abrasion (corrasion)
+attrition
+solution (corrosion)
+constructive wave
+destructive wave
+longshore drift
+tidal current
+subaerial processes
+freeze–thaw
+salt crystallisation
+rotational slumping
+sediment cell
+sediment budget
+spit
+barrier beach
+offshore bar
+estuary
+mudflat
+salt marsh
+eustatic change
+isostatic change
+emergent coastline
+submergent coastline
+ria
+fjord
+storm surge
+Holderness
+boulder clay
+Maldives
+managed realignment
+Hold the Line
+Advance the Line
+No Active Intervention
+shoreline management plan
+integrated coastal zone management
+groyne
+sea wall
+rock armour
+offshore breakwater
+beach nourishment
+dune stabilisation
+Happisburgh
+GIS
+grain-size analysis
+Spearman’s rank
+Gini coefficient
+NEA

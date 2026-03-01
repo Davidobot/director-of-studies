@@ -1,0 +1,47 @@
+# STT vocabulary hints for Interpreting Sources And Statistics (GCSE Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Qualifications Authority
+GCSE Modern Studies
+Modern Studies
+Official statistics
+Academic research
+Think-tank reports
+Press releases
+Political speeches
+Research reports
+Newspaper articles
+Graphs and charts
+Line graph
+Index 2010 = 100
+Raw numbers
+Absolute figures
+Percentages
+Percentage points
+Truncated vertical axis
+Non-linear scales
+Sample size
+Sampling methods
+Representative sample
+Polls
+Surveys
+Cross-checking
+Correlation
+Causation
+Seasonal variation
+Reporting delays
+Definitional changes
+Methodological detail
+Controlled task
+Research sheet
+Plagiarism
+Voter turnout
+International aid
+Property crime
+Unemployment
+Voting systems
+Government policy
+Social inequality
+Evaluative response
+Comparative language
+Trade-offs

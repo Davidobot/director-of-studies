@@ -1,0 +1,59 @@
+# STT vocabulary hints for Sustaining Ecosystems Rainforests And Polar Regions (GCSE Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Amazon
+Borneo
+Congo Basin
+Costa Rica
+Antarctica
+Arctic
+Arctic Council
+Antarctic Treaty System
+tundra
+permafrost
+permafrost thaw
+albedo
+evapotranspiration
+carbon sequestration
+carbon dioxide
+methane
+greenhouse gases
+sea ice
+ice sheet
+glaciers
+ice shelves
+phytoplankton blooms
+ocean circulation
+peatlands
+oil palm plantations
+palm oil expansion
+selective logging
+reduced impact logging
+payments for ecosystem services
+ecosystem services
+biodiversity
+habitat fragmentation
+deforestation
+canopy
+emergent trees
+understory
+forest floor
+mycorrhizal fungi
+nutrient cycle
+nutrient recycling
+photosynthesis
+carbon store
+reindeer herding
+indigenous reserves
+ecotourism
+marine protected areas
+illegal fishing
+Arctic shipping routes
+hydrocarbon resources
+mineral resources
+ecosystem tipping points
+soil erosion
+GIS
+transects
+canopy cover
+SPaG

@@ -1,0 +1,57 @@
+# STT vocabulary hints for Sampling Methods Research Design (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Advanced Higher
+Scottish Qualifications Authority
+Sampling frame
+Sampling unit
+Population
+Sample size
+Random sampling
+Systematic sampling
+Regular sampling
+Stratified sampling
+Stratified random
+Cluster sampling
+Convenience sampling
+Transect
+Transect cross-section
+Quadrat
+Randomly thrown quadrat
+Bedload
+Bedload types
+Pebble size
+Pebble dimensions
+Caliper measurement
+Mapped river reach
+Numbered grid references
+River velocity
+Spatial variability
+Periodicity
+Selection bias
+Sampling bias
+Systematic bias
+Randomisation
+Replication
+Pilot study
+Environmental quality score
+Perception survey
+Habitat types
+Land-use categories
+Nominal data
+Ordinal data
+Interval data
+Ratio data
+Chi-squared test
+Spearman’s rank
+Pearson’s product-moment correlation
+Linear regression
+Parametric tests
+Non-parametric tests
+Coefficient of variation
+Standard deviation
+Mean median range
+Calibrated instruments
+Risk assessment
+Informed consent
+Project–folio

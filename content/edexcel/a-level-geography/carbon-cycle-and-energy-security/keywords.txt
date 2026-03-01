@@ -1,0 +1,58 @@
+# STT vocabulary hints for Carbon Cycle And Energy Security (A-level Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Carbon cycle
+Energy security
+Carbonate rocks
+Fossil fuels
+Fast carbon stores
+Geological cycle
+Photosynthesis
+Respiration
+Biological pump
+Thermohaline circulation
+Petagrams (Pg)
+Carbon sequestration
+Permafrost
+Methane
+Ocean acidification
+Calcifying organisms
+Evapotranspiration
+Amazon rainforest
+Peatlands
+Tar sands
+Canadian tar sands
+Shale oil
+Unconventional hydrocarbons
+Fracking
+Induced seismicity
+Liquefied natural gas
+LNG
+Renewables
+Nuclear power
+Baseload capacity
+Energy mix
+Pipeline corridors
+Maritime chokepoints
+Russian gas dependence
+UK energy transition
+Sugar-cane ethanol
+Carbon capture and storage
+CCS
+Carbon dioxide removal
+CDR
+Biofuels
+Net-zero
+Carbon budget
+Tipping points
+Positive feedback
+Negative feedback
+Cryosphere
+Sedimentation
+Weathering
+Volcanism
+Soil organic carbon
+Ocean uptake
+Anthropogenic climate change
+Greenhouse effect
+CO2

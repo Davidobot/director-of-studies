@@ -1,0 +1,58 @@
+# STT vocabulary hints for Geographical Skills Os Maps Fieldwork And Data Analysis (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Ordnance Survey
+OS maps
+SQA
+Scottish Qualifications Authority
+SQA Higher
+six-figure grid reference
+contour interval
+spot heights
+contour patterns
+map scale
+map symbols
+grid line
+upland ridge
+valley forms
+hydrograph
+scatterplot
+line of best fit
+bar chart
+histogram
+cross-section
+transect
+systematic sampling
+purposive sampling
+random sampling
+risk assessment
+Processed Information
+primary research
+field sketch
+pebble counts
+longshore drift
+attrition
+sorting
+abrasion
+hydraulic action
+lag time
+rising limb
+peak flow
+discharge
+catchment
+peat soil
+built-up patterns
+urbanisation
+deforestation
+river basin works
+coastal protection
+Google Earth
+kmz
+GIS
+population pyramid
+GNI per capita
+HDI
+infant mortality
+time-series data
+gradient
+waypoints

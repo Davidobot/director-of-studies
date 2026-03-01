@@ -1,0 +1,49 @@
+# STT vocabulary hints for Project Dissertation Research And Referencing (A-level Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Advanced Higher Classical Studies
+Scottish Qualifications Authority
+project-dissertation
+three-hour question paper
+close reading
+comparative judgement
+source-based questions
+comparative discussion
+primary sources
+secondary sources
+prescribed literary texts
+inscriptions
+coins
+archaeological reports
+digitised editions
+academic monographs
+journal articles
+bibliography
+working bibliography
+research log
+footnotes
+referencing
+citation
+plagiarism
+methodology
+source evaluation
+critical reading
+synthesis of evidence
+sustained argument
+research question
+sub-issues
+specimen marking instructions
+authentication
+spot interviews
+progress reviews
+checkpoints
+reasonable assistance
+supervision
+Part A
+Part B
+classical literature
+classical society
+figures
+captions
+paraphrase
+quotations

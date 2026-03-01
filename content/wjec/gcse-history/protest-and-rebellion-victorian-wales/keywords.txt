@@ -1,0 +1,47 @@
+# STT vocabulary hints for Protest And Rebellion Victorian Wales (GCSE History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Merthyr Rising (1831)
+Merthyr Tydfil
+Penydarren House
+Court of Requests
+Castle Inn
+Dic Penderyn
+Richard Lewis
+ironworks
+collieries
+ironmasters
+Rebecca Riots (1839–1843)
+Rebecca and her daughters
+Efailwen tollgate
+Carmarthen workhouse
+Commission of Enquiry
+turnpike trusts
+Poor Law (1834 Poor Law)
+Chartism
+People's Charter
+William Lovett
+Feargus O'Connor
+Newport Rising (1839)
+John Frost
+Zephaniah Williams
+William Jones
+Westgate Street
+Blue Books (1847)
+Reports of the Commissioners of Inquiry into the State of Education in Wales
+Brad y Llyfrau Gleision
+Nonconformist chapels
+Anglicisation
+Tithe War (1886–1891)
+Llanarmon-yn-Iâl
+Anti-Tithe Leagues
+Mochdre disturbances
+Llangwm
+Welsh disestablishment
+land reform
+Rhondda valleys
+Great Reform Act
+transportation to Australia
+WJEC
+Eduqas
+GCSE History

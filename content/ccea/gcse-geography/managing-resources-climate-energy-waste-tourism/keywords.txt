@@ -1,0 +1,54 @@
+# STT vocabulary hints for Managing Resources Climate Energy Waste Tourism (GCSE Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+greenhouse effect
+carbon dioxide
+methane
+carbon footprint
+greenhouse gases
+Paris Agreement
+mitigation
+adaptation
+flood defences
+managed retreat
+renewable energy
+wind farms
+solar cooker
+Hippo Water Roller
+biofuels
+intermittency
+appropriate technology
+energy efficiency
+fossil fuels
+waste hierarchy
+kerbside recycling
+municipal waste-to-energy plants
+incineration
+composting programmes
+reuse
+recycling
+mass tourism
+ecotourism
+Costa Rica
+coral reefs
+Somerset Levels floods 2014
+Newcastle County Down
+hard engineering
+sea walls
+dams
+soft engineering
+beach nourishment
+MEDC
+LEDC
+Haiti earthquake
+Japan earthquake and tsunami
+Mississippi River
+United Nations Sustainable Development Goals
+Agenda
+fieldwork enquiry
+stream velocity
+channel shape
+synoptic charts
+annotated maps
+biodiversity conservation
+food security

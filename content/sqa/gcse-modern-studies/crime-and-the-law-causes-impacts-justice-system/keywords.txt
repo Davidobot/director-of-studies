@@ -1,0 +1,51 @@
+# STT vocabulary hints for Crime And The Law Causes Impacts Justice System (GCSE Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Qualifications Authority
+Modern Studies
+Police Scotland
+Children's Hearing System
+High Court of Justiciary
+Justice of the Peace Courts
+Sheriff Courts
+Magistrates' courts
+Crown Court
+Crown Office and Procurator Fiscal Service
+Crown Prosecution Service
+Police recorded crime
+Victim surveys
+Dark figure
+Acquisitive crime
+Cyber-enabled crime
+Public order offences
+Drug-related crime
+Violent crime
+Situational explanations
+Guardianship
+CCTV
+Stop and search
+Evidence gathering
+Community payback orders
+Electronic monitoring
+Restorative justice
+Diversion programmes
+Reoffending
+Recidivism
+Custodial sentences
+Community sentences
+Overcrowding
+Mental health care (custody)
+Status offences
+Problem-oriented policing
+Community policing
+Sentencing aims
+Rehabilitation
+Deterrence
+Public protection
+Legal representation
+Right to a fair trial
+Socio-economic background
+Social exclusion
+Victimisation
+Over-representation
+Public confidence

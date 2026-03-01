@@ -1,0 +1,50 @@
+# STT vocabulary hints for Climate Change Evidence And Impacts (GCSE Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Greenhouse effect
+Greenhouse gases
+Carbon dioxide
+Methane
+Nitrous oxide
+Radiative forcing
+Milankovitch cycles
+Keeling Curve
+Mauna Loa
+Ice cores
+Proxy records
+Tree rings
+Thermohaline circulation
+Plate tectonics
+Volcanic aerosols
+Solar activity
+Sunspots
+Industrial Revolution
+Fossil fuels
+Deforestation
+Land-use change
+Carbon sinks
+Carbon sequestration
+Permafrost thaw
+Ice–albedo feedback
+Positive feedback
+Ocean acidification
+Thermal expansion
+Sea-level rise
+Arctic sea ice
+Ice sheets
+Greenland
+Antarctica
+Alpine glaciers
+Coral bleaching
+Coral reefs
+Carbon capture and storage
+Reforestation
+Peatland restoration
+Managed realignment
+Sea walls
+Net-zero emissions
+Coastal megacities
+Low-lying deltas
+Maldives
+Bangladesh
+Extreme precipitation

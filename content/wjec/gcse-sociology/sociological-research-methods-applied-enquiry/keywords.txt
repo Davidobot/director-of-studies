@@ -1,0 +1,60 @@
+# STT vocabulary hints for Sociological Research Methods Applied Enquiry (GCSE Sociology WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE Sociology
+WJEC
+Eduqas
+Applied enquiry
+Sociological research
+Primary data
+Secondary data
+Quantitative data
+Qualitative data
+Official statistics
+Participant observation
+Non-participant observation
+Covert observation
+Overt observation
+Structured interview
+Unstructured interview
+Questionnaires
+Fixed-response items
+Open-ended responses
+Case study
+Life history
+Diaries
+Thematic analysis
+Coding
+Pilot study
+Mixed methods
+Triangulation
+Sampling
+Simple random sampling
+Systematic sampling
+Stratified sampling
+Opportunity sampling
+Snowball sampling
+Quota sampling
+Representativeness
+Generalisability
+Validity
+Reliability
+Reflexivity
+Gatekeepers
+Informed consent
+Confidentiality
+Anonymisation
+Debriefing
+Deception (research ethics)
+Ethical safeguards
+Streaming (education)
+Anti-school subcultures
+Self-report studies
+Dark figure
+Victim surveys
+Statistical techniques
+Measurement problems
+Sample size
+AO1
+AO2
+AO3

@@ -1,0 +1,48 @@
+# STT vocabulary hints for Uk Constitution And Devolution (A-level Politics EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Uncodified constitution
+Entrenched constitution
+Statute law
+Common law
+Constitutional conventions
+Authoritative works
+Treaties
+Bill of Rights 1689
+Acts of Union
+Human Rights Act 1998
+Scotland Acts
+A. V. Dicey
+Parliamentary sovereignty
+Rule of law
+Salisbury Convention
+House of Commons
+House of Lords
+Supreme Court
+Constitutional Reform Act 2005
+Fixed-term Parliaments Act 2011
+English Votes for English Laws
+Devolution
+Scottish Parliament
+Wales Acts
+Welsh Assembly
+Northern Ireland Assembly
+Good Friday Agreement
+Belfast Agreement
+Consociational model
+West Lothian question
+EVEL
+Metro-mayor
+Combined authorities
+Devolution deals
+Barnett formula
+Judicial review
+Miller (2017)
+R (Miller) v Prime Minister 2019
+Prorogation judgment
+European Communities Act 1972
+Sewel Convention
+Scottish referendum
+EU referendum
+Codification
+House of Lords reform

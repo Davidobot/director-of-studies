@@ -1,0 +1,62 @@
+# STT vocabulary hints for Coasts Erosion Deposition And Management (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE Geography
+Cambridge International
+Medmerry
+Holderness Coast
+Mappleton
+Spurn Head
+Fringing reef
+Barrier reef
+Atoll
+Coral bleaching
+Reef-building corals
+Mangrove swamp
+Longshore drift
+Hydraulic action
+Abrasion
+Corrasion
+Attrition
+Solution
+Corrosion
+Traction
+Saltation
+Suspension
+Fetch
+Constructive wave
+Destructive wave
+Wave-cut platform
+Caves
+Arches
+Stacks
+Stumps
+Headlands
+Bays
+Spit
+Bar
+Lagoon
+Beach nourishment
+Dune stabilisation
+Groynes
+Sea wall
+Rock armour
+Revetment
+Gabions
+Managed realignment
+Planned retreat
+Sediment supply
+Sea-level rise
+Relative sea-level rise
+Storm surge
+Tropical cyclone
+Tsunami
+Freeze-thaw
+Salt crystallisation
+Biological weathering
+Intertidal habitats
+Ecosystem services
+Beach profile
+Tracer methods
+Sand dunes
+Estuary

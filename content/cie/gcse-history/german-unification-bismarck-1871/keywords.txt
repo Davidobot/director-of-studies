@@ -1,0 +1,45 @@
+# STT vocabulary hints for German Unification Bismarck 1871 (GCSE History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Prussia
+Austria
+German Confederation
+Napoleonic Wars
+Congress of Vienna
+Zollverein
+Liberalism
+Nationalism
+Revolutions of 1848
+Frankfurt Parliament
+Grossdeutsch
+Kleindeutsch
+Frederick William IV
+Otto von Bismarck
+Realpolitik
+Blood and Iron
+Albrecht von Roon
+Helmuth von Moltke
+King Wilhelm I
+Junker
+Schleswig
+Holstein
+Austro–Prussian War
+Königgrätz (Sadowa)
+North German Confederation
+Treaty of Prague (1866)
+Franco–Prussian War
+Ems Dispatch
+Hohenzollern
+Battle of Sedan
+Siege of Paris
+Hall of Mirrors
+Versailles
+German Empire
+Kaiser
+Chancellor
+Napoleon III
+Prussian military reforms
+General Staff
+Mobilisation
+Industrialisation
+Zollverein (customs union)

@@ -1,0 +1,42 @@
+# STT vocabulary hints for Interpreting Sources Constructing Geographical Arguments (GCSE Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Oxford Cambridge and RSA
+GIS
+thematic mapping
+choropleth map
+flow-line map
+contour spacing
+spot heights
+gradient
+relief
+runoff
+erosion
+upland river catchment
+flood map
+floodplain
+river discharge
+transect
+suburbanisation
+regeneration
+urban morphology
+GDP per capita
+LIDC
+synoptic
+AO1
+AO2
+AO3
+AO4
+SPaG
+scatter plot
+bivariate data
+trend line
+percentage change
+central tendency
+transport corridor
+estuary
+coastal spit
+breaching
+data resolution
+spatial distribution

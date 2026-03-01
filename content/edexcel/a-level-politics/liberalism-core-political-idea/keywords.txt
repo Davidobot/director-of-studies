@@ -1,0 +1,52 @@
+# STT vocabulary hints for Liberalism Core Political Idea (A-level Politics EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Liberalism
+Enlightenment
+Social contract
+Individualism
+Egoistical individualism
+Developmental individualism
+Negative liberty
+Positive liberty
+Equality of opportunity
+Formal equality
+Foundational equality
+Constitutionalism
+Checks and balances
+Rule of law
+Representative institutions
+Mechanistic view of the state
+Contractual view
+Civil liberties
+Harm principle
+On Liberty
+John Locke
+John Stuart Mill
+Mary Wollstonecraft
+John Rawls
+Veil of ignorance
+Betty Friedan
+Laissez-faire capitalism
+Free markets
+Private property
+Enabling state
+Minimal state
+Welfare state
+Welfare provision
+Social security
+Keynesianism
+Social democracy
+Redistribution
+Free trade
+Deregulation
+Parliamentary sovereignty
+Uncodified constitution
+Codified constitution
+Human Rights Act
+Judicial review
+Anti-terror laws
+State surveillance
+Positive discrimination
+Educational inequality
+Public health

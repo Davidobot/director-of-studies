@@ -1,0 +1,54 @@
+# STT vocabulary hints for Weather And Climate (A-level Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+WJEC
+Eduqas
+tricellular circulation
+Hadley cell
+Ferrel cell
+Polar cell
+Inter-Tropical Convergence Zone
+ITCZ
+thermal equator
+North Atlantic Drift
+North Atlantic Current
+trade winds
+mid-latitude westerlies
+polar easterlies
+monsoon
+South Asian monsoon
+El Niño–Southern Oscillation
+ENSO
+El Niño
+La Niña
+North Atlantic Oscillation
+NAO
+Arctic amplification
+Atlantic Meridional Overturning Circulation
+AMOC
+Storm Desmond
+Cumbria
+jet stream
+anticyclone
+depression
+polar maritime air mass
+tropical maritime air mass
+polar continental air mass
+arctic maritime
+urban heat island
+evapotranspiration
+permafrost thaw
+methane
+carbon dioxide
+ocean acidification
+photochemical smog
+particulate matter
+nitrogen oxides
+volatile organic compounds
+green infrastructure
+managed realignment
+flood warning systems
+climate models
+tree rings
+ice cores
+sediment records

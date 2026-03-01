@@ -1,0 +1,55 @@
+# STT vocabulary hints for Social Identity Age Gender Class Ethnicity (GCSE Sociology CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Social identity
+Socialisation
+Social structures
+Ageism
+Ageing populations
+Retirement age
+Compulsory schooling
+Gender identity
+Sex‑gender distinction
+Patriarchy
+Domestic division of labour
+Dual burden
+Triple shift
+Occupational segregation
+Sexual harassment
+Gender performativity
+Postmodernism
+Interactionism
+Marxist analysis
+Marxism
+Cultural capital
+Meritocracy
+Life chances
+Institutional racism
+Assimilation
+Multiculturalism
+Cultural hybridity
+Diasporic communities
+Intersectionality
+Social constructionism
+Hidden curriculum
+Primary agencies
+Secondary agencies
+Globalisation
+Digitalisation
+Digital self
+Algorithms
+Digital surveillance
+Functionalism
+Labelling theory
+Self-fulfilling prophecy
+Master status
+Late modernity
+Cultural defence
+Curriculum bias
+Recruitment practices
+GCSE Sociology
+Cambridge International
+Paper 1
+Paper 2
+AO2
+AO3

@@ -1,0 +1,48 @@
+# STT vocabulary hints for Weather Climate Measurement Air Masses Forecasting (GCSE Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE Geography
+Stevenson screen
+Rain gauge
+Anemometer
+Wind vane
+Barometer
+Millimetres (mm)
+Degrees Celsius (°C)
+Millibars (mb)
+Hectopascals (hPa)
+Oktas
+Urban heat island
+Tropical maritime
+Tropical continental
+Polar maritime
+Polar continental
+Frontal depression
+Anticyclone
+Depression (low pressure)
+Warm front
+Cold front
+Occluded front
+Warm sector
+Cumulus
+Cumulonimbus
+Stratus
+Cirrus
+Isobars
+Ridge
+Trough
+Synoptic chart
+Geostationary satellite
+Polar orbiting satellite
+Weather radar
+Buoy
+Automatic weather station
+Numerical models
+Ensemble forecasting
+Probabilistic forecasts
+Nowcast
+Convective storms
+Storm surge
+Hurricane Katrina
+Gulf Coast
+New Orleans

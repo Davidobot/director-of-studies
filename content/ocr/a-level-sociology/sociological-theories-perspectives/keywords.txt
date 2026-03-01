@@ -1,0 +1,53 @@
+# STT vocabulary hints for Sociological Theories Perspectives (A-level Sociology OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Functionalism
+Marxism
+Neo‑Marxism
+Feminism
+Radical feminism
+Liberal feminism
+Socialist feminism
+Black feminism
+Intersectionality
+Interactionism
+Phenomenology
+Weberianism
+Postmodernism
+New Right
+Realism
+Right realism
+Left realism
+Durkheim
+Parsons
+Marx
+Althusser
+Gramsci
+Weber
+Mead
+Goffman
+Becker
+Ideological State Apparatuses
+Hegemony
+Base and superstructure
+Hidden curriculum
+Correspondence principle
+Patriarchy
+Social construction of reality
+Labelling theory
+Self‑fulfilling prophecy
+Impression management
+Role allocation
+Primary socialisation
+Social facts
+Rationalisation
+Hyperreality
+Media convergence
+Networked identities
+Ethnography
+Participant observation
+Triangulation
+Reflexivity
+AO1
+AO2
+AO3

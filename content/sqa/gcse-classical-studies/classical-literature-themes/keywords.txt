@@ -1,0 +1,47 @@
+# STT vocabulary hints for Classical Literature Themes (GCSE Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Scottish Qualifications Authority
+Homer
+Odysseus
+Cyclops
+Achilles
+Oedipus
+Creon
+Antigone
+Medea
+Penelope
+Zeus
+Apollo
+Moirai
+Fates
+Oracles
+Prophecy
+Prophetic pronouncements
+Divine intervention
+Divine determinism
+Fate
+Free will
+Agency
+Heroism
+Tragic error
+Tragedy
+Epic
+Leadership
+Plunder
+Dowry
+Enslavement
+Funeral rites
+Divination
+Cicones
+Book IX
+Odyssey
+Translations
+Retellings
+Archaeological evidence
+Humanitarian law
+Dramatised scenes
+Moral tension
+Civic conflict
+Martial conflict

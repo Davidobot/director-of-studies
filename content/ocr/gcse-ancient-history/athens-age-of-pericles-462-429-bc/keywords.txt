@@ -1,0 +1,47 @@
+# STT vocabulary hints for Athens Age Of Pericles 462 429 Bc (GCSE Ancient History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Pericles
+Age of Pericles
+Classical Athens
+Athenian democracy
+Delian League
+Delian Treasury
+Aegean Empire
+Persian Wars
+Marathon
+Thermopylae
+Salamis
+Ephialtes
+Areopagus
+Periclean Citizenship Law
+Funeral Oration
+Thucydides
+Plutarch
+Aristophanes
+Plato
+Aristotle
+Ecclesia
+Boule
+Archons
+Strategoi
+Ostracism
+Liturgies
+Long Walls
+Piraeus
+Megarian Decree
+Peloponnesian War
+Archidamian War
+Plague of Athens
+Parthenon
+Acropolis
+City Dionysia
+Panathenaia
+Sophists
+Rhetoricians
+Tragedians
+Comedians
+Periclean building programme
+Tribute
+Athenian pottery
+Athenian sculpture

@@ -1,0 +1,43 @@
+# STT vocabulary hints for Morality Relationships Sex Marriage (GCSE Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+National 5 RMPS
+Scottish Qualifications Authority
+GCSE
+Christianity
+Islam
+Hinduism
+Sikhism
+Buddhism
+dharma
+covenant
+sacrament
+marriage contract
+civil partnership
+same-sex marriage
+LGBTQ+
+human rights
+utilitarianism
+secular public health
+sexual consent
+age of consent
+sexual offences
+sexually transmitted infection
+contraception
+cohabitation
+arranged marriage
+forced marriage
+divorce
+pastoral care
+procreation
+gender roles
+complementary roles
+non-discrimination
+religious freedom
+exploitation
+sexual coercion
+trafficking
+grooming
+objectification
+acquiescence
+sanctity of marriage

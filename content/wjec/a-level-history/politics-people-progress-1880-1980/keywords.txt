@@ -1,0 +1,56 @@
+# STT vocabulary hints for Politics People Progress 1880 1980 (A-level History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Politics, People & Progress
+Wales
+England
+WJEC
+Eduqas
+A‑level History
+Industrialisation
+Urbanisation
+Coal industry
+Steel industry
+Shipbuilding
+Coalfields
+Interwar unemployment
+Depression (1920s–1930s)
+Boer War
+First World War
+Second World War
+Wartime mobilisation
+Post‑war consensus
+Post‑war settlement
+National Health Service
+Nationalisation
+National Government (1930s)
+People’s Budget 1909
+Constitutional crisis 1909–11
+Parliament Act 1911
+Representation of the People Act 1918
+Equal Franchise Act 1928
+Representation of the People Acts
+Suffrage
+Enfranchisement
+Liberal Party
+Conservative Party
+Labour Party
+Trade unionism
+Trade unions
+Plaid Cymru
+Cymdeithas yr Iaith Gymraeg
+Anglicisation
+Cultural revival
+Devolution referendum 1979
+Devolution
+National Insurance
+Factory Acts
+Welfare state
+Mixed economy
+Deindustrialisation
+Productivity problems
+Industrial unrest
+Historiography
+Quantitative data
+Electoral returns
+Housing statistics

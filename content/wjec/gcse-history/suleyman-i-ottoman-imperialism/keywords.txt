@@ -1,0 +1,49 @@
+# STT vocabulary hints for Suleyman I Ottoman Imperialism (GCSE History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Süleyman I
+Süleyman the Magnificent
+Kanuni
+Ottoman Empire
+Anatolia
+Balkans
+Habsburgs
+Safavids
+Timar system
+Janissaries
+Devshirme
+Grand Vizier
+Hürrem Sultan
+Roxelana
+Harem
+Belgrade 1521
+Rhodes 1522
+Mohács 1526
+Vienna 1529
+Hayreddin Barbarossa
+Preveza 1538
+Tunis 1534
+Charles V
+Corsairs
+Indian Ocean
+Red Sea
+Millets
+Reformation
+Counter-Reformation
+Reconquista
+Inquisition
+Kanun
+Mimar Sinan
+Prince Mustafa
+Franco-Ottoman rapprochement
+Ottoman–Habsburg rivalry
+Artillery
+Ottoman navy
+Naval dominance
+Legal codification
+Administrative reform
+Fiscal strain
+Palace politics
+Succession disputes
+Multi-confessional
+Maritime commanders

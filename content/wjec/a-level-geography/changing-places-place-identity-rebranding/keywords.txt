@@ -1,0 +1,56 @@
+# STT vocabulary hints for Changing Places Place Identity Rebranding (A-level Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+WJEC
+Eduqas
+Senedd
+Cardiff Bay
+South Wales Valleys
+Hay-on-Wye
+Bilbao
+Guggenheim Museum
+Rebranding
+Place identity
+Place attachment
+Place representation
+Deindustrialisation
+Deindustrialised towns
+Service-led growth
+Tertiary sector
+Quaternary sector
+Creative industries
+Foreign direct investment
+Multinational corporations
+Globalisation
+Demographic shifts
+Lifestyle migration
+Second homes
+Gentrification
+Waterfront regeneration
+Flagship developments
+Cultural quarter
+Sports stadia
+Post-productive countryside
+Heritage trusts
+National park authorities
+Participatory planning
+Community-led regeneration
+Conservation policy
+Planning policy
+Local economic strategies
+GIS analysis
+Cartographic analysis
+Transect walks
+Environmental quality surveys
+Photo-elicitation
+Mental maps
+Content analysis
+Independent Investigation
+NEA
+Covid-19 pandemic
+Overheating
+Thresholds
+Interdependence
+Resilience
+Sustainability
+Causality

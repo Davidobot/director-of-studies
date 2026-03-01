@@ -1,0 +1,47 @@
+# STT vocabulary hints for Utilitarianism Bentham Mill (A-level Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Jeremy Bentham
+John Stuart Mill
+Utilitarianism
+Principle of Utility
+greatest happiness for the greatest number
+Act utilitarianism
+Rule utilitarianism
+Hedonic calculus
+Intensity
+Duration
+Certainty
+Remoteness
+Fecundity
+Purity
+Extent
+Higher pleasures
+Lower pleasures
+Competent judges
+Harm Principle
+Consequentialism
+Quantitative hedonism
+Qualitative hierarchy
+Classical utilitarianism
+Millian utilitarianism
+Preference utilitarianism
+Well‑being
+Social welfare
+Health economics
+Law reform
+Prison reform
+Penal systems
+Free speech
+Individual liberty
+Justice objection
+Demandingness objection
+Measurement problem
+Swine objection
+Long‑run utility
+Moral realism
+Impartiality
+AO2 analysis
+WJEC
+Eduqas
+A‑level

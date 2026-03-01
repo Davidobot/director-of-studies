@@ -1,0 +1,59 @@
+# STT vocabulary hints for Fieldwork Skills Planning Data Evaluation (GCSE Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+CCEA
+Unit 3
+GCSE
+Unit 1
+Unit 2
+Ordnance Survey
+Met Office
+GIS
+CBD
+central place theory
+transect
+systematic transect
+stratified sampling
+random sampling
+sampling strategy
+clinometer
+anemometer
+pH probe
+flow meter
+sediment sieve
+beach profile
+beach morphology
+pebble size
+channel width
+discharge
+gradient
+load
+velocity
+long profile
+stream gauge
+satellite imagery
+transect map
+proportional symbol map
+scattergraph
+trendline
+correlation coefficient
+descriptive statistics
+mean
+range
+percentage
+calibration
+repeatability
+reliability
+validity
+bias
+blind questionnaires
+fieldwork statement
+field sketch
+pedestrian flow tallies
+land use survey
+census tables
+reconnaissance
+risk assessment
+ethical considerations
+temporal constraints
+spatial analysis

@@ -1,0 +1,52 @@
+# STT vocabulary hints for Socialism Core Political Idea (A-level Politics EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Socialism
+Capitalism
+Classical liberalism
+Collectivism
+Common ownership
+Workers' control
+Social democracy
+Revolutionary socialism
+Marxism
+Karl Marx
+Friedrich Engels
+Beatrice Webb
+Rosa Luxemburg
+Anthony Crosland
+Anthony Giddens
+Third Way
+Welfare state
+National Health Service
+Clement Attlee
+Attlee government 1945–51
+Nationalisation
+Mixed economy
+Keynesian
+Managed capitalism
+Surplus value
+Class consciousness
+Historical materialism
+Alienation
+Proletariat
+Russian Revolution
+Soviet model
+Central planning
+Trade unions
+Worker co‑operatives
+Market socialism
+Universal basic income
+Progressive taxation
+Scandinavian social democracy
+Public ownership
+Democratic socialism
+State intervention
+Welfare settlement
+AO1
+AO2
+AO3
+Pearson Edexcel
+Gig economy
+Social investment
+Tendency of the rate of profit to fall

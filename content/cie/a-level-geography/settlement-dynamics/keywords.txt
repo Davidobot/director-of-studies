@@ -1,0 +1,59 @@
+# STT vocabulary hints for Settlement Dynamics (A-level Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Settlement dynamics
+Rural settlements
+LICs
+MICs
+HICs
+Amenity migration
+Gentrification
+Mechanisation
+Farm consolidation
+Market integration
+Global commodity chains
+Agro-processing
+Rural diversification
+Renewable energy
+Urbanisation
+Informal settlements
+Shanty towns
+Squatter settlements
+Dharavi
+Mumbai
+Lagos
+Bogotá
+TransMilenio
+London
+New York
+Tokyo
+Shenzhen
+World cities
+Agglomeration economies
+High-order services
+Global financial networks
+Command functions
+Central business district (CBD)
+Bid rent
+Burgess concentric zone
+Hoyt sector model
+Harris and Ullman multiple nuclei
+Deindustrialisation
+Re-urbanisation
+Counterurbanisation
+Edge cities
+Suburban business parks
+Spatial competition
+Residential segregation
+Filtering
+Tenure shifts
+In-situ upgrading
+Site-and-service schemes
+Regularisation of tenure
+Grid extension
+Decentralised renewable systems
+Rapid bus systems
+Light rail
+Megacity
+Hinterland
+Push–pull migration

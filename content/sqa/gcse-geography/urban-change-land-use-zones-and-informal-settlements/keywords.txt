@@ -1,0 +1,59 @@
+# STT vocabulary hints for Urban Change Land Use Zones And Informal Settlements (GCSE Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Qualifications Authority
+National 5
+GCSE
+Central Business District
+CBD
+Inner city
+Rural–urban fringe
+Concentric zone model
+Sector model
+Multiple nuclei model
+Economic restructuring
+Deindustrialisation
+Gentrification
+Suburbanisation
+Counter-urbanisation
+Globalisation
+Flagship projects
+Waterfront regeneration
+Pedestrianisation
+Retail restructuring
+Cultural quarters
+Green belt
+Brownfield redevelopment
+Greenfield
+Edge-of-city business park
+Retail park
+Out-of-town supermarket
+Informal settlements
+Informal housing
+Rural-to-urban migration
+Land tenure
+Tenure insecurity
+In-situ upgrading
+Site-and-service scheme
+Serviced plot
+Microfinance
+Incremental building
+Forced clearance
+Eviction
+Relocation
+NGOs
+Public–private partnership
+Docklands regeneration
+Dharavi
+Kibera
+Rocinha
+Favela
+Rio de Janeiro
+Mumbai
+Nairobi
+Urban transect
+Pedestrian counts
+High-density housing
+Regeneration
+Urban model
+Sustainable solutions

@@ -1,0 +1,63 @@
+# STT vocabulary hints for Social Inequality Class Gender Ethnicity Age (A-level Sociology OCR).
+# One term per line. Used to improve speech recognition quality.
+
+A-level Sociology
+Oxford Cambridge and RSA
+Social inequality
+Class
+Gender
+Ethnicity
+Age
+Functionalism
+Marxism
+Weberian
+Feminist theory
+New Right
+Interactionism
+Postmodernism
+Occupational class
+Economic capital
+Cultural capital
+Social capital
+Deindustrialisation
+Service economy
+Knowledge economy
+Precarious work
+Means of production
+Ideology
+Status groups
+Life chances
+Gender pay gap
+Occupational segregation
+Glass ceiling
+Socialist feminism
+Marxist feminism
+Intersectional feminism
+Assimilationist
+Institutional racism
+Structural disadvantage
+Stop-and-search
+Residential segregation
+Ethnic categories
+Cohort effects
+Life course
+Longitudinal studies
+Ethnography
+Official statistics
+Victim survey
+Positivism
+Interpretivism
+Mixed methods
+Triangulation
+Digital divide
+Glocalisation
+Cultural homogenisation
+Welfare state
+Progressive taxation
+Equality legislation
+Paternity leave
+Maternity leave
+Anti-discrimination law
+Pension insecurity
+Active ageing
+Youth unemployment

@@ -1,0 +1,51 @@
+# STT vocabulary hints for Pressure Groups Media Influence (A-level Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Pressure groups
+A-level Modern Studies
+Scottish Qualifications Authority
+Democracy
+Insider groups
+Outsider groups
+Trade unions
+Business associations
+Lobbying
+Expert briefings
+Parliamentary committees
+Consultations
+Direct action
+Social media campaigns
+Micro-targeting
+Data-driven campaigning
+Data harvesting
+Foreign interference
+Astroturfing
+Legal challenges
+Crowdfunding
+Hashtag campaigns
+Viral videos
+User-generated content
+Gatekeepers
+Agenda-setting
+Framing
+Watchdog
+Broadcasting impartiality
+Press regulation
+Press scandals
+Campaign spending
+Political advertising
+Media literacy
+Echo chambers
+Fake news
+Misinformation
+NGOs
+Scottish independence referendum
+EU referendum
+Air quality standards
+Medical professional associations
+Industrial action
+Celebrity endorsements
+Sponsorship of research
+Regulatory regimes
+Opinion polls
+Source evaluation

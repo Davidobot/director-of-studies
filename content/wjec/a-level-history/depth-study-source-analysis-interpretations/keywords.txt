@@ -1,0 +1,52 @@
+# STT vocabulary hints for Depth Study Source Analysis Interpretations (A-level History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+WJEC
+Eduqas
+A-level
+Unit 2
+Unit 4
+Unit 5
+AS
+A2
+Depth study
+Source analysis
+Interpretations
+Assessment objectives
+AO1
+AO2
+AO3
+Provenance
+Historiography
+Interpretative judgement
+Source evaluation
+Corroborate
+Primary evidence
+Secondary interpretations
+Mid-Tudor
+Tudor England
+Pilgrimage of Grace
+Kett's Rebellion
+Acts of Union with Wales
+Enclosure
+Cromwell
+Somerset
+Weimar Germany
+Hyperinflation
+Reparations
+Nazi propaganda
+Legal changes
+French Revolution
+New Deal
+Marxist
+Revisionist
+Post-revisionist
+Social history
+Political narrative
+Non-examination assessment
+External moderation
+Authenticity declaration
+Bibliography
+Troop movement report
+Synthetised judgement
+Contextual knowledge

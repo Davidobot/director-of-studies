@@ -1,0 +1,53 @@
+# STT vocabulary hints for Hitler And Nazi Germany 1919 1939 (GCSE History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Weimar Republic
+Treaty of Versailles
+Freikorps
+Spartacist Uprising
+Hyperinflation
+Ruhr Occupation
+Beer Hall Putsch
+Adolf Hitler
+Gustav Stresemann
+Rentenmark
+Dawes Plan
+Wall Street Crash
+Great Depression
+Sturmabteilung (SA)
+Joseph Goebbels
+Reichstag
+Reichstag Fire
+Reichstag Fire Decree
+Enabling Act
+Gleichschaltung
+Night of the Long Knives
+Paul von Hindenburg
+Gestapo
+Schutzstaffel (SS)
+Volksgemeinschaft
+Nuremberg Rallies
+Reich Chamber of Culture
+Hitler Youth
+League of German Girls
+Kinder, Küche, Kirche
+Law for the Encouragement of Marriage
+Swing Youth
+Edelweiss Pirates
+Hjalmar Schacht
+Four Year Plan
+Hermann Göring
+Kraft durch Freude
+Rearmament
+Autarky
+Forced labour
+Nuremberg Laws
+Kristallnacht
+Anschluss
+Sudetenland Crisis
+Munich Agreement
+Pact of Steel
+Molotov–Ribbentrop Pact
+Lebensraum
+Reoccupation of the Rhineland
+Spanish Civil War

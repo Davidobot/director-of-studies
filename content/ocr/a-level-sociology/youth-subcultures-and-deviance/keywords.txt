@@ -1,0 +1,43 @@
+# STT vocabulary hints for Youth Subcultures And Deviance (A-level Sociology OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Teddy Boys
+Mods
+Punks
+Mods and Rockers
+Centre for Contemporary Cultural Studies
+New Right
+Marxism
+Neo‑Marxism
+Functionalism
+Interactionism
+Postmodernism
+Feminism
+Intersectionality
+Moral panic
+Deviance amplification
+Folk devils
+Labelling theory
+Subcultural capital
+Symbolic resistance
+Commodification
+Transnational organised crime
+Knife crime
+Gang violence
+Cyberbullying
+Online radicalisation
+Victim survey
+Self‑report study
+Police‑recorded crime statistics
+Anti‑school subculture
+Spectacular youth subculture
+Electronic dance culture
+Grime
+Hip‑hop
+Goth
+Hybridity
+Socialisation
+Stop‑and‑search
+Custodial rates
+Differential policing
+Cultural transmission

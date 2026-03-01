@@ -1,0 +1,55 @@
+# STT vocabulary hints for Upland Limestone And Rivers And Valleys (GCSE Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Carboniferous limestone
+karst
+carbonate / calcium carbonate
+carbonation
+clints
+grikes
+limestone pavement
+swallow hole
+swallet
+resurgence
+resurgent spring
+underground river
+cave system
+pothole
+stalactite
+stalagmite
+dripstone
+turlough
+dry valley
+limestone gorge
+karst valley
+conduit (solution‑enlarged conduit)
+tracing dye test
+helicoidal flow
+hydraulic action
+abrasion
+solution (chemical weathering)
+vertical erosion
+lateral erosion
+deposition
+traction
+saltation
+meander
+ox‑bow lake
+plunge‑pool
+V‑shaped valley
+floodplain
+natural levee
+point bar
+discharge
+channel width
+pebble roundness
+glacial erosion
+glacial scouring
+Ordnance Survey
+grid reference
+Sites of Special Scientific Interest
+National Park
+Yorkshire Dales
+The Burren
+Malham
+SQA

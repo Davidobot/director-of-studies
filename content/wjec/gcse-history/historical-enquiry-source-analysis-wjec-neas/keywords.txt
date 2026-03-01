@@ -1,0 +1,50 @@
+# STT vocabulary hints for Historical Enquiry Source Analysis Wjec Neas (GCSE History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+WJEC
+NEA
+Unit 2
+Unit 4
+Unit 1
+Unit 3
+AO1
+AO2
+AO3
+AO4
+historical enquiry
+source analysis
+provenance
+corroboration
+usefulness
+reliability
+interpretations
+historiography
+Genghis Khan
+Bukhara
+Samarkand
+Owain Glyndŵr
+Rhys ap Gruffudd
+Norman
+Acts of Union
+Tudor
+Wales
+Black Death
+Nazi propaganda
+Süleyman
+Ottoman
+Mongol
+administrative centralisation
+mobility
+bailiff’s letter
+archaeological sources
+documentary sources
+second-order concepts
+continuity and change
+cause and consequence
+significance
+similarity and difference
+contextual knowledge
+e-platform
+centre-marked
+moderation
+malpractice

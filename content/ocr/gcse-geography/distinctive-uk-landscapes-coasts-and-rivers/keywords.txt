@@ -1,0 +1,56 @@
+# STT vocabulary hints for Distinctive Uk Landscapes Coasts And Rivers (GCSE Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Holderness
+Holderness coast
+Spurn Head
+Humber
+Hornsea
+Bridlington
+River Tees
+High Force
+Pennines
+Middlesbrough
+Stockton
+Boulder clay
+Glacial till
+Dolerite
+Whinstone
+Carboniferous
+Longshore drift
+Wave-cut platform
+Hydraulic action
+Abrasion
+Attrition
+Mass movement
+Fetch
+Spit
+Headland
+Bay
+Cave
+Arch
+Stack
+Beach nourishment
+Sea wall
+Groynes
+Managed realignment
+Salt marsh
+Meander
+Ox-bow lake
+Point bar
+Levee
+Floodplain
+Plunge pool
+Gorge
+Channel modification
+Riparian planting
+Sustainable Urban Drainage Systems
+Sediment budget
+Catchment
+Runoff
+Re-meandering
+Estuary
+Coastal defences
+Hard engineering
+Soft engineering
+Coastal erosion

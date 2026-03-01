@@ -1,0 +1,59 @@
+# STT vocabulary hints for Human Fieldwork Techniques (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Human fieldwork
+Advanced Higher
+Scottish Qualifications Authority
+SQA
+Structured questionnaires
+Semi-structured interviews
+Focus groups
+Pedestrian counts
+Traffic counts
+Environmental quality surveys
+Land-use mapping
+Perception studies
+Mental maps
+Triangulation
+Random sampling
+Systematic sampling
+Stratified sampling
+Transect
+Pilot study
+Informed consent
+Risk assessment
+Safeguarding policies
+Likert scale
+Open-ended questions
+Coding strategy
+Thematic coding
+Origin–destination
+Decibel meter
+Flow-line maps
+Time-series charts
+Proportional symbol maps
+Choropleth maps
+Thematic maps
+Annotated overlays
+Ordnance Survey mapping
+GIS
+Spearman’s rank correlation
+Pearson correlation
+Chi-squared test
+Non-parametric tests
+Linear regression
+Descriptive statistics
+Central tendency
+Dispersion
+Bipolar analysis
+Time-in-queue
+Journey-time observation
+Automated counters
+Tally counters
+Voice recorders
+Transcription
+Mixed-methods
+Sampling bias
+Reliability
+Validity
+Interviewer effects

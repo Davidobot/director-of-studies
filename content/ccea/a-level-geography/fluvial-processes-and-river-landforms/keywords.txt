@@ -1,0 +1,76 @@
+# STT vocabulary hints for Fluvial Processes And River Landforms (A-level Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Fluvial processes
+Drainage basin
+Precipitation
+River discharge
+Evapotranspiration
+Interception
+Soil moisture
+Groundwater flow
+Infiltration
+Throughflow
+Surface runoff
+Hydrograph
+Storm hydrograph
+Lag time
+Flashy hydrograph
+Drainage density
+Soil permeability
+Antecedent moisture
+Hydraulic action
+Abrasion
+Corrasion
+Attrition
+Solution (chemical corrosion)
+Dissolved load
+Suspension
+Saltation
+Traction
+Competence
+Capacity
+Hjulström curve
+Caprock
+Plunge pool
+Gorge
+Rapids
+Pools
+Riffles
+Downstream fining
+Meander
+Cutbank
+Point bar
+Lateral accretion
+Floodplain
+Overbank flow
+Vertical accretion
+Alluvium
+Oxbow lake
+Natural levees
+Delta
+Bird's-foot delta
+Lower Mississippi
+Nile delta
+Progradation
+Avulsion
+Compaction
+Subsidence
+Relative sea-level rise
+Urbanisation
+Channelisation
+Re-sectioning
+Dredging
+Washlands
+Flood storage areas
+Afforestation
+Floodplain zoning
+Managed realignment
+Somerset Levels 2013–14
+Pakistan floods
+Monsoon
+Glacier melt
+Area-velocity method
+Pebble counts
+Current meter
+Planform

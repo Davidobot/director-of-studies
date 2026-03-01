@@ -1,0 +1,42 @@
+# STT vocabulary hints for Christianity Augustine Jesus Pluralism (A-level Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Augustine
+Pelagius
+Original sin
+Original righteousness
+Concupiscence
+Summum bonum
+Divine grace
+Confessions
+Jesus
+Son of God
+Sermon on the Mount
+Parable of the Prodigal Son
+Good Samaritan
+Table fellowship
+Agape
+Agape ethics
+Natural theology
+Revealed theology
+Christology
+Incarnation
+Salvation
+Dietrich Bonhoeffer
+Confessing Church
+Finkenwalde
+Costly grace
+Cheap grace
+Assassination plot against Hitler
+Cost of Discipleship
+Exclusivism
+Inclusivism
+Anonymous Christians
+Theological pluralism
+John Hick
+Scriptural reasoning
+Legal pluralism
+Moral anthropology
+Magisterial teaching
+Natural reason
+Conscience

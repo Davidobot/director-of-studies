@@ -1,0 +1,62 @@
+# STT vocabulary hints for Migration Causes And Impacts (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Migration
+Emigration
+Immigration
+Internal migration
+International migration
+Labour migration
+Forced migration
+Refugees
+Asylum seekers
+Internally displaced persons
+IDPs
+Seasonal migrants
+Circular migrants
+Chain migration
+Return migration
+Push factors
+Pull factors
+Desertification
+Sea-level rise
+Environmental drivers
+Rural–urban migration
+Urbanisation
+Megacities
+Remittances
+Brain drain
+Dependency ratios
+Net migration
+Demographic change
+Population models
+Age and sex structure
+Non-refoulement
+Refugee protection
+Resettlement
+Points-based system
+Visa rules
+Transit agreements
+Irregular migration
+Guest worker programmes
+Seasonal worker programmes
+Integration policies
+Pathways to citizenship
+Anti-discrimination measures
+Humanitarian organisations
+Syrian refugee crisis
+Syria
+Turkey
+Lebanon
+Jordan
+Gulf states
+South Asia
+Mexico
+Central America
+United States
+Europe
+Post-colonial migration
+Labour demand
+Urban planning
+Housing policy
+Asylum procedures

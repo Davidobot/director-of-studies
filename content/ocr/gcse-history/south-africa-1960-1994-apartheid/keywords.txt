@@ -1,0 +1,51 @@
+# STT vocabulary hints for South Africa 1960 1994 Apartheid (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+South Africa
+Apartheid
+Sharpeville Massacre
+Pass laws
+Bantustans
+Homelands
+Bantustan policy
+Job reservation
+Racial classification
+Umkhonto we Sizwe (MK)
+African National Congress (ANC)
+Pan Africanist Congress (PAC)
+Poqo
+Rivonia Trial
+Nelson Mandela
+Black Consciousness Movement
+Steve Biko
+South African Students’ Organisation (SASO)
+Durban strikes (1973)
+Soweto uprising (1976)
+Trade unions
+United Democratic Front (UDF)
+Inkatha
+Mangosuthu Buthelezi
+KwaZulu-Natal
+Transvaal
+Battle of Cuito Cuanavale
+Angola
+F. W. de Klerk
+election
+Universal suffrage
+Interim constitution
+Truth and Reconciliation Commission
+States of emergency
+Detention without trial
+Banning (of organisations)
+Exile
+Armed struggle
+Guerrilla tactics
+Sabotage
+Total strategy
+Anti-Apartheid Movement
+Sanctions
+Disinvestment
+Cultural boycott
+Sporting boycott
+Arms embargo
+Decolonisation

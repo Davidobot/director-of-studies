@@ -1,0 +1,55 @@
+# STT vocabulary hints for Applied Methods Research Design (A-level Sociology WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+WJEC
+Eduqas
+A-level
+GCSEs
+Welsh secondary schools
+Operationalisation
+Cultural capital
+Validity
+Reliability
+Generalisability
+Representativeness
+Positivist
+Interpretivist
+Realist
+Verstehen
+Triangulation
+Methodological pluralism
+Mixed methods
+Ethnography
+Longitudinal design
+Structured questionnaire
+Semi-structured interview
+Focus groups
+Participant observation
+Stratified random sampling
+Simple random sampling
+Systematic sampling
+Purposive sampling
+Snowball sampling
+Quota sampling
+Volunteer sampling
+Sampling frame
+Sample size
+Non-response bias
+Gatekeeper refusal
+Pilot study
+Informed consent
+Confidentiality
+Anonymity
+Safeguarding
+Ethical approval
+Sampling bias
+Statistical power
+Inferential statistics
+Cross-tabulations
+Thematic analysis
+Coding
+Verbatim extracts
+Social desirability
+Reflexivity
+Observer bias
+Measurement error

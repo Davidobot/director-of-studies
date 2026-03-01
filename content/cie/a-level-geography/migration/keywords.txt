@@ -1,0 +1,51 @@
+# STT vocabulary hints for Migration (A-level Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Migration
+Lee's push-pull framework
+Ravenstein's laws of migration
+Gravity model
+Zelinsky's mobility transition
+Rural–urban migration
+Counter-urbanisation
+Re-urbanisation
+Suburbanisation
+Gentrification
+Urban renewal
+Stepped migration
+Settlement hierarchy
+Labour migration
+Family reunification
+Student flows
+Refugee movements
+Chain migration
+Migrant networks
+Remittances
+Brain drain
+Brain gain
+Diaspora networks
+Hukou system
+Bid-rent model
+Points-based system
+Visa regimes
+Temporary worker programmes
+Asylum procedures
+UN Refugee System
+European Union freedom of movement
+Mexico–United States migration stream
+Circular migration
+Guest worker programmes
+Deportations
+Syrian refugees
+Turkey
+Lebanon
+Demographic transition
+Dependency ratios
+Immigrant selectivity
+Informal sector
+Megacities
+Urban sprawl
+Desertification
+Sea-level rise
+Sudden-onset disasters
+Human capital

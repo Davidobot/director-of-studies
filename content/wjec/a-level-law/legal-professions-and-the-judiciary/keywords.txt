@@ -1,0 +1,63 @@
+# STT vocabulary hints for Legal Professions And The Judiciary (A-level Law WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Solicitors Qualifying Examination
+SQE
+Solicitors Regulation Authority
+SRA
+Bar Standards Board
+BSB
+CILEX
+CILEX Regulation
+Judicial Appointments Commission
+JAC
+Judicial Conduct Investigations Office
+JCIO
+Supreme Court
+Appellate Committee of the House of Lords
+Court of Appeal
+Criminal Division
+Civil Division
+High Court
+Queen's Bench Division
+Chancery Division
+Crown Court
+County Court
+Magistrates' courts
+Magistracy
+Justices of the peace
+District judge
+Stipendiary magistrate
+Solicitor
+Barrister
+Chartered legal executive
+Paralegal
+In‑house lawyer
+Pupillage
+Legal Practice Course
+LPC
+Higher rights of audience
+Right of audience
+Security of tenure
+Immunity from suit
+Fixed remuneration
+Judicial independence
+Separation of powers
+Rule of law
+Access to justice
+Legal aid
+Pro bono
+Conditional fee agreement
+Damages‑based agreement
+Unbundled services
+Case management
+Less adversarial procedures
+Mediation
+IRAC
+AO1
+AO2
+AO3
+Advocacy
+Professional discipline
+Merit selection
+Judicial appointment

@@ -1,0 +1,44 @@
+# STT vocabulary hints for Settlement Patterns And Service Provision (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Settlement patterns
+Service provision
+Cambridge
+Central Business District (CBD)
+Nucleated settlement
+Dispersed settlement
+Linear settlement
+Settlement hierarchy
+Central place theory
+Threshold
+Range (service range)
+Sphere of influence
+Urban morphology
+Rural–urban fringe
+Urban sprawl
+Service deserts
+Suburbanisation
+Market town
+Hamlet
+Field systems
+Transport corridors
+Accessibility
+Site and situation
+Relief
+Water supply
+Extensive agriculture
+American Midwest
+Upland areas
+Ordnance Survey (OS) large‑scale maps
+Pedestrian counts
+Aerial imagery
+Technology clusters
+Business parks
+Green belt
+Industrial estates
+High‑order services
+Low‑order services
+Specialist hospitals
+Higher education
+Rural hinterland
+Commuting

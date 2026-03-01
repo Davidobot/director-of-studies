@@ -1,0 +1,55 @@
+# STT vocabulary hints for Physical Fieldwork Techniques (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+transect
+systematic sampling
+stratified sampling
+random sampling
+replication
+downstream fining
+longshore drift
+groynes
+seawalls
+fetch
+clinometer
+abney level
+ranging pole
+flow meter
+cross-sectional area
+discharge
+wetted perimeter
+channel roughness
+lateral sorting
+pebble lithology
+pebble angularity
+pebble size chart
+calipers
+sieving
+median grain size
+grain-size distribution
+hand feel test
+sedimentation methods
+gravimetric moisture content
+bulk density
+soil horizons
+humus depth
+pH probe
+anemometer
+erosion pins
+terracettes
+tension cracks
+mass movement
+landslip
+Spearman's rank
+Pearson's product-moment
+chi-squared
+interquartile range
+standard deviation
+boxplot
+scatterplot
+regression analysis
+kite diagram
+choropleth
+proportional symbols
+flow-line map
+Scottish Qualifications Authority

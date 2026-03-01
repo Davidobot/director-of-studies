@@ -1,0 +1,57 @@
+# STT vocabulary hints for Scripture Canon Biblical Criticism (A-level Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+WJEC
+Eduqas
+A-level
+biblical canon
+canon formation
+Hebrew Bible
+Old Testament
+New Testament
+synoptic problem
+Markan priority
+Q source
+Matthew
+Mark
+Luke
+John
+pericope adulterae
+longer ending of Mark
+textual criticism
+textual transmission
+manuscript families
+scribal habits
+source criticism
+form criticism
+Sitz im Leben
+redaction criticism
+historical-critical
+historical Jesus
+Christ of faith
+criteria of authenticity
+multiple attestation
+criterion of embarrassment
+criterion of dissimilarity
+John Dominic Crossan
+N. T. Wright
+Bultmann
+kerygma
+demythologise
+Pauline letters
+pseudonymous
+pseudepigraphy
+apostolicity
+orthodoxy
+catholicity
+hermeneutics
+reader-response
+liturgical use
+oral tradition
+harmonisation
+incarnation
+resurrection
+empty tomb
+resurrection appearances
+messianic expectation
+covenantal action

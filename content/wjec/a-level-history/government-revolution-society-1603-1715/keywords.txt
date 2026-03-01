@@ -1,0 +1,55 @@
+# STT vocabulary hints for Government Revolution Society 1603 1715 (A-level History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+James I
+Charles I
+Personal Rule
+Star Chamber
+forced loans
+impositions
+royal prerogative
+Archbishop Laud
+High Anglicanism
+Puritanism
+Scottish Covenanters
+Irish unrest
+English Civil War
+New Model Army
+regicide
+Rump Parliament
+Oliver Cromwell
+Lord Protector
+Commonwealth
+Protectorate
+Major-Generals
+Interregnum
+Restoration
+Charles II
+Clarendon Code
+Test Acts
+Exclusion Crisis
+Popish Plot
+James II
+Whigs
+Tories
+Glorious Revolution
+William and Mary
+Bill of Rights
+Toleration Act
+Hanoverian succession
+Jacobite rising 1715
+Levellers
+Diggers
+Fifth Monarchists
+Thomas Hobbes
+John Locke
+Royal Society
+Scientific Revolution
+Laudianism
+Nonconformists
+the Marches
+Welsh gentry
+parliamentary supremacy
+franchise
+prerogative courts
+party politics

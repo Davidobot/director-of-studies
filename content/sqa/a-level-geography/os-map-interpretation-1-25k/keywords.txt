@@ -1,0 +1,52 @@
+# STT vocabulary hints for Os Map Interpretation 1 25K (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Ordnance Survey
+OS Explorer
+:25,000
+Explorer sheet
+Advanced Higher
+Scottish Qualifications Authority
+National Grid
+eastings
+northings
+grid north
+four-figure grid reference
+six-figure grid reference
+grid square
+contour lines
+spot heights
+relief shading
+topographic map
+scale bar
+scale conversion
+cross-section
+profile diagram
+gradient ratio
+gradient percentage
+slope angle
+aspect
+interlocking spurs
+cols
+summits
+river meanders
+drainage pattern
+floodplain
+erosion
+deposition
+slope instability
+hilltop cairn
+quarry
+reservoir
+power line
+transect
+planimeter technique
+overlay tracing paper
+clinometer
+pictorial symbols
+settlement hierarchy
+nucleated village
+linear development
+isolated farmstead
+transport corridor
+turbidity

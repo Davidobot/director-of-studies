@@ -1,0 +1,54 @@
+# STT vocabulary hints for Changing Climate Evidence And Impacts (GCSE Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Quaternary
+Quaternary period
+Industrial Revolution
+Greenland
+Antarctica
+Ice cores
+Proxy data
+Tree rings
+Coral growth bands
+Instrumental records
+Milankovitch cycles
+Mount Tambora
+Year Without a Summer
+El Niño
+La Niña
+Solar variability
+Sunspot activity
+Volcanic eruptions
+Greenhouse effect
+Enhanced greenhouse effect
+Anthropogenic forcing
+Carbon dioxide
+CO2
+Methane
+CH4
+Nitrous oxide
+N2O
+Fossil fuels
+Deforestation
+Intensive agriculture
+Sea ice extent
+Glacier length
+Ice sheets
+Thermal expansion
+Sea-level rise
+Coastal erosion
+Saltwater intrusion
+River deltas
+Managed retreat
+Managed realignment
+Coral bleaching
+Ocean acidification
+Heatwaves
+Flood barriers
+Sea walls
+Wetlands restoration
+Wind energy
+Solar energy
+Hydro energy
+SPaG
+Climate graphs

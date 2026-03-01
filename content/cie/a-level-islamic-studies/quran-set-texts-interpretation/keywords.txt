@@ -1,0 +1,54 @@
+# STT vocabulary hints for Quran Set Texts Interpretation (A-level Islamic Studies CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Qur'an
+Yusuf Ali translation
+A-level Islamic Studies
+Cambridge International
+Paper 1
+Paper 2
+Surah 3:144
+Surah 4:12
+Surah 5:89–90
+Surah 10:99–100
+Surah 13:3–4
+Surah 17:31–34
+Verse 17:35
+Surah 25:68–70
+Surah 31:14–15
+Surah 31:17–19
+Prophet Muhammad
+Sunnah
+Hadith
+Tafsir
+Meccan
+Medinan
+Tawhid
+Niyyah
+Fiqh
+Ijtihad
+Qiyas
+Ijma'
+Madhahib
+Zakat
+Da'wa
+Expiation
+Intoxicants
+Inheritance shares
+Filial duties
+Orphans
+Islamic science
+Natural philosophy
+Asbab al-nuzul
+Hadith authenticity
+Hadith reliability
+Jurists
+Exegetes
+Social justice
+Freedom of belief
+Religious liberty
+Pluralism
+Economic ethics
+Banking practices
+Assessment Objective AO1
+Assessment Objective AO2

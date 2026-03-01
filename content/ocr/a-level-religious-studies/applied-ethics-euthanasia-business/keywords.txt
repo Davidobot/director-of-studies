@@ -1,0 +1,53 @@
+# STT vocabulary hints for Applied Ethics Euthanasia Business (A-level Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Applied ethics
+Euthanasia
+Business ethics
+A-level Religious Studies
+Oxford Cambridge and RSA
+Natural law
+Aquinas
+Aristotelian teleology
+Telos
+Situation ethics
+Joseph Fletcher
+Agape
+Kantian ethics
+Categorical imperative
+Utilitarianism
+Bentham
+Mill
+Voluntary euthanasia
+Non-voluntary euthanasia
+Involuntary euthanasia
+Assisted dying
+Direct euthanasia
+Sanctity of life
+Quality of life
+Autonomy
+Withholding treatment
+Withdrawing treatment
+Doctrine of double effect
+Dianne Pretty
+Tony Nicklinson
+Locked-in syndrome
+Suicide Act 1961
+Assisted Dying Bills
+Prosecutorial guidance
+Peter Singer
+Corporate social responsibility
+CSR
+Whistle-blowing
+Milton Friedman
+Shareholder primacy
+Enron
+Rana Plaza
+Sherron Watkins
+Stakeholder theory
+Human flourishing
+Stewardship
+Teleology
+Hedonic calculus
+AO1
+AO2

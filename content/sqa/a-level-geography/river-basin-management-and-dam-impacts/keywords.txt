@@ -1,0 +1,46 @@
+# STT vocabulary hints for River Basin Management And Dam Impacts (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Three Gorges Dam
+Aswan High Dam
+Colorado River
+Yangtze
+Nile
+SQA
+Catchment area
+Drainage density
+Hydrograph
+Runoff generation
+Interception
+Infiltration
+Throughflow
+Groundwater discharge
+Sediment yield
+Reservoir infilling
+Evaporation losses
+Riparian buffer strips
+Inter-basin transfers
+Hydropower
+Environmental flows
+Fish passage
+Sluicing
+Bypass channels
+Integrated Water Resources Management
+IWRM
+Sediment starvation
+Delta erosion
+Schistosomiasis
+Reservoir-induced seismicity
+Resettlement programmes
+Compensation programmes
+Transboundary rivers
+Riparian states
+Groundwater recharge
+Wetland restoration
+Ecosystem-based approaches
+Hydrological modelling
+Geological surveys
+Channel cross-section
+GIS
+Annotated hydrograph
+Hydroelectric capacity

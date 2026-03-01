@@ -1,0 +1,45 @@
+# STT vocabulary hints for Henry Ii Angevin Empire 1154 1189 (A-level History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Henry II
+Angevin Empire
+Anarchy
+Anjou
+Maine
+Normandy
+Eleanor of Aquitaine
+Curia Regis
+Justiciar
+Chancellor
+Itinerant justices
+General eyres
+Assizes of Clarendon
+Assize of Northampton
+Novel disseisin
+Mort d'ancestor
+Cartae Baronum
+Inquest of the Sheriffs
+Scutage
+Feudal incidents
+Richard fitzNigel
+Thomas Becket
+Archbishop of Canterbury
+Constitutions of Clarendon
+Avranches
+Canterbury Cathedral
+Investiture
+Henry the Young King
+Great Rebellion 1173–74
+Louis VII
+William the Lion
+Philip II of France
+Richard I
+Geoffrey Plantagenet
+John Lackland
+Coinage reform (1158)
+Crown lands
+Exchequer
+Invasion of Ireland 1171
+Capetian
+Plantagenet
+Anglo-Norman

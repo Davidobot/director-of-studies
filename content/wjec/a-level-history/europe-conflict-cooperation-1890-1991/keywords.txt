@@ -1,0 +1,55 @@
+# STT vocabulary hints for Europe Conflict Cooperation 1890 1991 (A-level History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Europe
+Bismarckian
+Triple Entente
+Triple Alliance
+Archduke Franz Ferdinand
+July Crisis
+First World War
+League of Nations
+Collective security
+Revisionist regimes
+Japanese aggression
+Italian expansionism
+Second Italo‑Ethiopian War
+Benito Mussolini
+Fascism
+Corporatism
+Spanish Civil War
+Pact of Steel
+Weimar Republic
+Treaty of Versailles
+NSDAP
+Enabling Act
+Gleichschaltung
+Holocaust
+Reoccupation of the Rhineland
+Anschluss
+Munich Agreement
+Invasion of Poland
+Revolution
+February Revolution
+October Revolution
+Bolsheviks
+New Economic Policy
+Stalin
+Collectivisation
+Stalinism
+United Nations
+Marshall Plan
+NATO
+Warsaw Pact
+ECSC
+EEC
+European Community
+Cold War
+Berlin Crisis
+Cuban Missile Crisis
+Détente
+Glasnost
+Perestroika
+Nuclear deterrence
+Proxy wars
+Third World

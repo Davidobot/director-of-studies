@@ -1,0 +1,48 @@
+# STT vocabulary hints for Family Finance Employment Shariah (A-level Islamic Studies CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Quran
+Sunnah
+Surah 4
+ijma
+qiyas
+aql
+fiqh
+urf
+sahaba
+madhahib
+Hanafi
+Maliki
+Shafi'i
+Hanbali
+Shi'i
+Twelver Shi'i
+maqasid al‑shariah
+maqasid
+maslahah
+niyyah
+nikah
+talaq
+khul
+ʿiddah
+mutah
+polygyny
+wali
+guardianship
+inheritance law
+riba
+usury
+mudarabah
+musharakah
+murabaha
+ijara
+sukuk
+takaful
+murabaha mortgage
+ijara‑based financing
+asset‑backed certificates
+risk‑sharing
+halal
+haram
+ijtihad
+triple‑talaq

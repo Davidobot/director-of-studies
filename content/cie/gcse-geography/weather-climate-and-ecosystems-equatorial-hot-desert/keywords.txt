@@ -1,0 +1,61 @@
+# STT vocabulary hints for Weather Climate And Ecosystems Equatorial Hot Desert (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Stevenson screen
+maximum-minimum thermometer
+rain gauge
+wet-and-dry bulb
+hygrometer
+anemometer
+wind vane
+sunshine recorder
+barometer
+automatic weather station
+climate graph
+mean monthly temperature
+monthly precipitation
+annual temperature range
+diurnal temperature range
+Intertropical Convergence Zone
+ITCZ
+convectional rainfall
+equatorial climate
+tropical rainforest
+emergent trees
+canopy layer
+understorey
+leached soils
+nutrient cycling
+biodiversity
+oil palm
+soya
+shifting cultivation
+selective logging
+clear-cut
+agroforestry
+Amazon Basin
+Borneo
+subtropical high-pressure belt
+Hadley cell
+Sahara
+Arabian Desert
+Namib Desert
+central Australian deserts
+xerophytic adaptations
+cacti
+succulents
+qanats
+boreholes
+desalination
+Great Green Wall
+Sahel
+afforestation
+salinisation
+potential evaporation
+oasis agriculture
+pastoralism
+solar energy projects
+hydrocarbons
+soil conservation
+habitat fragmentation
+carbon emissions

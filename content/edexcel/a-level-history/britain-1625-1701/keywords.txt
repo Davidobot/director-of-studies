@@ -1,0 +1,45 @@
+# STT vocabulary hints for Britain 1625 1701 (A-level History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Charles I
+Charles II
+James II
+Oliver Cromwell
+English Civil Wars
+Regicide
+Interregnum
+Protectorate
+Restoration
+Restoration settlement
+Glorious Revolution
+Bill of Rights 1689
+Toleration Act 1689
+Clarendon Code
+Popish Plot
+Exclusion Crisis
+Personal Rule
+Royal prerogative
+Parliamentary supremacy
+Political nation
+Archbishop Laud
+Puritans
+Nonconformists
+Presbyterians
+Independents
+Levellers
+Diggers
+Thomas Hobbes
+John Locke
+Royal Society
+Scientific Revolution
+Navigation Acts
+East India Company
+Bank of England 1694
+Financial revolution
+Mercantilism
+Triangular trade
+Atlantic economy
+Cloth trade
+Dutch rivalry
+Late Stuart warfare
+Patronage

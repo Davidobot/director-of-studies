@@ -1,0 +1,54 @@
+# STT vocabulary hints for Ontological Argument And Critiques Of Belief (A-level Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Ontological argument
+Anselm of Canterbury
+Proslogion
+that than which nothing greater can be conceived
+Descartes
+Supremely perfect being
+A priori
+Deductive
+Modal logic
+Possible worlds
+Maximally great being
+Necessary existence
+Contingent existence
+Analytic truths
+Synthetic truths
+Existence is not a predicate
+Gaunilo
+Greatest conceivable island
+Plantinga
+Norman Malcolm
+Modal ontological argument
+Modal premises
+Second-order property
+Verification principle
+A. J. Ayer
+Logical positivism
+Antony Flew
+Falsification
+Wittgenstein
+Language games
+R. M. Hare
+Blik
+David Hume
+Bertrand Russell
+Problem of evil
+Theodicy
+Augustine's free-will theodicy
+Irenaean soul-making
+Process theology
+Marx
+Freud
+Durkheim
+Fideism
+Non-classical theism
+Religious language analogy
+Post-linguistic approaches
+Omnipotent
+Omnibenevolent
+Pearson Edexcel A-level
+AO1
+AO2

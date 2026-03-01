@@ -1,0 +1,47 @@
+# STT vocabulary hints for Aquinas Natural Law (A-level Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Thomas Aququinas
+Aquinas
+Natural Law
+Natural law theory
+WJEC
+Eduqas
+Eternal law
+Divine law
+Human law
+Fourfold structure
+Primary precepts
+Secondary precepts
+Real goods
+Apparent goods
+Telos
+Beatitude
+Doctrine of Double Effect
+DDE
+Cardinal virtues
+Theological virtues
+Prudence
+Justice
+Temperance
+Fortitude
+Faith
+Hope
+Charity
+Teleological
+Deontological
+Naturalistic fallacy
+John Finnis
+Proportionalism
+Aristotelianism
+Teleological anthropology
+Practical reason
+Practical reasoning
+Ordered community
+Common good
+Roman Catholic thought
+Ectopic pregnancy
+Palliative care
+Abortion
+Euthanasia
+Revelation

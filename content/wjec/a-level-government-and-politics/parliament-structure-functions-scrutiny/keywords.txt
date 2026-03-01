@@ -1,0 +1,61 @@
+# STT vocabulary hints for Parliament Structure Functions Scrutiny (A-level Government and Politics WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Parliament
+United Kingdom
+Uncodified constitution
+Parliamentary sovereignty
+Rule of law
+Constitutional monarchy
+Constitutional conventions
+Devolution
+European Union
+House of Commons
+House of Lords
+Member of Parliament (MP)
+Speaker
+Party whips
+Backbenchers
+Life peers
+Hereditary peers
+Bishops
+Parliament Acts
+Royal Assent
+Act of Parliament
+Secondary legislation
+Delegated legislation
+Affirmative resolution
+Negative resolution
+Affirmative instruments
+Legislative timetable
+First reading
+Second reading
+Committee stage
+Report stage
+Third reading
+Ping-pong
+Prime Minister's Questions
+PMQs
+Urgent questions
+Select committees
+Departmental select committees
+Public Accounts Committee
+Cross-party committees
+Judicial review
+Human Rights Act 1998
+Ultra vires
+Prorogation
+Prerogative powers
+Supreme Court
+Scottish Parliament
+Northern Ireland Assembly
+Senedd Cymru
+Sewel Convention
+Westminster
+Henry VIII clauses
+Elective dictatorship
+Collective ministerial responsibility
+Individual ministerial responsibility
+Parliamentary privilege
+Legislative scrutiny
+Committee inquiry reports

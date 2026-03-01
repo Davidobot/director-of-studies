@@ -1,0 +1,63 @@
+# STT vocabulary hints for Hydrology And Fluvial Geomorphology (A-level Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Hydrology
+Fluvial geomorphology
+Drainage basin
+Evapotranspiration
+Interception
+Channel storage
+Groundwater aquifer
+Soil moisture
+Overland flow
+Throughfall
+Infiltration
+Percolation
+Throughflow
+Groundwater flow
+Hydrograph
+Rising limb
+Falling limb
+Peak discharge
+Baseflow
+Lag time
+Antecedent moisture
+Drainage density
+Impermeable geology
+Hydraulic action
+Abrasion
+Solution
+Cavitation
+Traction
+Saltation
+Suspension
+Hjulstrom curve
+Laminar flow
+Turbulent flow
+Helicoidal flow
+Braided channel
+Meandering channel
+Point bar
+River cliff
+Oxbow lake
+Riffle-pool sequence
+Waterfall
+Gorge
+Levee
+Floodplain
+Alluvium
+Delta
+Birds-foot delta
+Arcuate delta
+Cuspate delta
+Mississippi
+Nile
+Water table
+Recharge
+Permeability
+Porosity
+Chalk aquifer
+Limestone aquifer
+Tile drains
+Channel straightening
+Abstraction

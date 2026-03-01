@@ -1,0 +1,54 @@
+# STT vocabulary hints for Organ Transplant Ethics (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Organ transplantation
+Organ transplant ethics
+Human Tissue Act 2004
+Human Tissue legislation (Scotland)
+Opt-in
+Opt-out
+Presumed consent
+Soft opt-out
+Explicit consent
+Living donation
+Deceased donation
+Living kidney donation
+Living liver donation
+Paired kidney exchange
+Brainstem death
+Whole brain death
+Circulatory death
+Donation after circulatory death
+Dead donor rule
+Organ procurement
+Organ allocation
+Utilitarianism
+Deontology
+Virtue ethics
+Beneficence
+Non-maleficence
+Respect for persons
+Informed consent
+Autonomous consent
+Xenotransplantation
+Genetically modified pig organs
+Porcine xenograft
+Tissue engineering
+Synthetic organs
+Zoonotic risk
+Organ perfusion
+Heart-beating donor
+Non-heart-beating donor
+Pikuach nefesh
+Transplant tourism
+Organ trafficking
+Commodification
+Regulated organ markets
+Social inequalities
+Quality-adjusted outcomes
+Organ registries
+Life-sustaining technologies
+Integrated functioning
+Biological continuity
+Kantian ethics
+Roman Catholic Church

@@ -1,0 +1,57 @@
+# STT vocabulary hints for Research Methods And Design (A-level Sociology CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Cambridge International
+A-level
+Sociology
+Positivism
+Interpretivism
+Verstehen
+Max Weber
+Operationalisation
+Triangulation
+Methodological pluralism
+Reflexivity
+Informed consent
+Confidentiality
+Anonymity
+Covert observation
+Overt observation
+Participant observation
+Ethnography
+Content analysis
+Official statistics
+Census returns
+Digital archives
+Social media
+Digital content
+Primary sources
+Secondary sources
+Quantitative data
+Qualitative data
+Questionnaires
+Structured interviews
+Unstructured interviews
+Semi-structured interviews
+Experiments
+Interview transcripts
+Field notes
+Case studies
+Longitudinal studies
+Sampling
+Random sampling
+Stratified sampling
+Purposive sampling
+Snowball sampling
+Pilot studies
+Validity
+Reliability
+Representativeness
+Bias
+Replicability
+Hypothesis testing
+Generalisability
+Ethical safeguards
+AO1
+AO2
+AO3

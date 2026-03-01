@@ -2,45 +2,46 @@
 # One term per line. Used to improve speech recognition quality.
 
 Brahman
-Atman
-Karma
-Moksha
-Upanishads
 Nirguna Brahman
 Saguna Brahman
+Atman
+Jiva
+Karma
+Samsara
+Moksha
+Upanishads
+Brihadaranyaka
+Katha
+Tat Tvam Asi
+Bhagavad Gita
+Dharma
+Jnana Yoga
+Bhakti Yoga
+Karma Yoga
+Raja Yoga
+Ashtanga Yoga
+Advaita Vedanta
+Vishishtadvaita
+Dvaita
 Vishnu
 Shiva
 Devi
-Jiva
-Brihadaranyaka Upanishad
-Katha Upanishad
-Anatta
-Samsara
-Sanchita
-Prarabdha
-Agami
-Kriyamana
-Dharma
-Bhagavad Gita
-Advaita Vedanta
-Dvaita
-Vishishtadvaita
-Jnana yoga
-Bhakti yoga
-Karma yoga
-Raja yoga
-Ashtanga yoga
-Tat Tvam Asi
-Puja
-Ahimsa
-Varanasi
-Ganges
 Shaivism
 Vaishnavism
 Shaktism
 Rig Veda
-Bhakti
-Jnana
+Sanchita
+Prarabdha
+Agami
+Kriyamana
+Puja
+Ahimsa
+Varanasi
+Ganges
+SPaG
 AO1
 AO2
-SPaG
+Anatta
+Soteriology
+Bhakti
+Jnana

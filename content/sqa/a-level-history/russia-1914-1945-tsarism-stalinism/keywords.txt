@@ -1,0 +1,58 @@
+# STT vocabulary hints for Russia 1914 1945 Tsarism Stalinism (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Russia 1914–45
+Tsarism
+Stalinism
+Romanov dynasty
+Nicholas II
+First World War
+Petrograd
+February Revolution 1917
+October Revolution 1917
+Provisional Government
+Petrograd Soviet
+Kornilov affair
+Bolsheviks
+Lenin
+April Theses
+Trotsky
+Red Army
+Whites
+Civil War 1918–21
+War Communism
+Kronstadt uprising
+New Economic Policy
+NEP
+Cheka
+Brest-Litovsk
+Comintern
+General Secretary
+Zinoviev
+Kamenev
+Bukharin
+Socialism in One Country
+Permanent Revolution
+Five-Year Plans
+Great Turn
+Collectivisation
+Dekulakisation
+Grain requisitioning
+Industrialisation
+Urbanisation
+Great Purges 1936–38
+Sergey Kirov
+NKVD
+Gulag
+Komsomol
+Socialist realism
+Operation Barbarossa
+Battle of Moscow
+Battle of Stalingrad
+Urals
+Show trials
+Old Bolsheviks
+one-party dictatorship
+intentionalist
+structuralist
+historiography

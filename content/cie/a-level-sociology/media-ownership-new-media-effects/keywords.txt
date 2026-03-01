@@ -1,0 +1,49 @@
+# STT vocabulary hints for Media Ownership New Media Effects (A-level Sociology CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Cambridge International
+A‑level Sociology
+conglomeration
+cross‑media ownership
+media conglomerates
+multinational media firms
+public service broadcasters
+state regulation
+gatekeeping
+advertising market
+subscription models
+platform algorithms
+algorithmic recommendation systems
+algorithmic systems
+data harvesting
+surveillance capitalism
+microtargeting
+targeted political advertising
+user‑generated content
+citizen journalism
+streaming services
+social networks
+livestreams
+encrypted messaging
+echo chambers
+filter bubbles
+misinformation
+disinformation
+data misuse
+moral panics
+deviance amplification
+hegemony
+neo‑Marxist
+Marxist perspective
+pluralist perspective
+postmodernist
+hyperreal
+hypodermic syringe
+magic bullet
+two‑step flow
+uses and gratifications
+cultural effects
+intersectionality
+media representations
+#MeToo
+politically connected owners

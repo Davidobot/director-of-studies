@@ -1,0 +1,54 @@
+# STT vocabulary hints for Ordnance Survey Mapping Numeracy And Fieldwork Skills (GCSE Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Ordnance Survey
+OS map
+eastings
+northings
+four-figure grid reference
+six-figure grid reference
+tenths
+grid square
+contours
+relief
+cross-section
+spot height
+trig point
+gradient
+map scale
+:50 000
+:25 000
+compass bearing
+grid north
+magnetic north
+transect
+field sketch
+sampling interval
+systematic transect
+random sampling
+stratified sampling
+quadrat
+clinometer
+flow meter
+hand-held GPS
+odometer
+tape measure
+processed information
+controlled conditions
+A4
+A3
+spreadsheet
+scale bar
+north arrow
+legend
+best-fit line
+scatter plot
+mean
+range
+significant figures
+river velocity
+housing density
+sampling bias
+anonymise
+informed consent
+risk assessment

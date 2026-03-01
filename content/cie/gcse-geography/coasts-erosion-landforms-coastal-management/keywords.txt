@@ -1,0 +1,49 @@
+# STT vocabulary hints for Coasts Erosion Landforms Coastal Management (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Hydraulic action
+Abrasion
+Attrition
+Solution
+Longshore drift
+Sediment budget
+Constructive waves
+Destructive waves
+Fetch
+Tidal range
+Wave-cut platform
+Cliff retreat
+Headland
+Bay
+Cave
+Arch
+Stack
+Stump
+Spit
+Tombolo
+Bar
+Lagoon
+Chesil Beach
+Jurassic Coast
+Durdle Door
+Old Harry
+Holderness Coast
+Medmerry
+Managed realignment
+Seawalls
+Groynes
+Rock armour
+Revetments
+Beach nourishment
+Dune regeneration
+Sand fencing
+Coastal squeeze
+Storm surge
+Delta Works
+Dikes
+Mangroves
+Coral reefs
+Riprap
+Estuarine soils
+Offshore wind
+Coastal defences

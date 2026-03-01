@@ -1,0 +1,64 @@
+# STT vocabulary hints for Weather Climate And Atmospheric Circulation (A-level Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+global energy balance
+shortwave solar radiation
+longwave radiation
+albedo
+greenhouse gases
+natural greenhouse effect
+volcanic aerosols
+surface albedo
+atmospheric circulation
+ocean currents
+Hadley cell
+Ferrel cell
+Polar cell
+Inter-Tropical Convergence Zone
+ITCZ
+subtropical high-pressure belts
+subpolar low-pressure zones
+trade winds
+westerlies
+polar easterlies
+Coriolis effect
+jet streams
+tropopause
+troposphere
+stratosphere
+Polar Front Jet Stream
+mid-latitude depressions
+extratropical cyclones
+continentality
+environmental lapse rate
+North Atlantic Drift
+Gulf Stream
+seasonality
+tilt of the Earth's axis
+dew point
+orographic rainfall
+frontal rainfall
+convectional rainfall
+cumulonimbus
+cold front
+warm front
+anticyclone
+synoptic chart
+isobars
+occluded front
+ENSO
+El Niño
+La Niña
+teleconnection
+tropical cyclone
+hurricane Katrina
+Typhoon Haiyan
+storm surge
+vertical wind shear
+vorticity
+latent heat
+ocean heat content
+rain shadow
+orographic uplift
+early warning systems
+land-use zoning

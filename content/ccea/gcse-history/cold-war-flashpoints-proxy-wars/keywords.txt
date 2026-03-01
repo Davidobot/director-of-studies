@@ -1,0 +1,48 @@
+# STT vocabulary hints for Cold War Flashpoints Proxy Wars (GCSE History CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Cold War
+proxy war
+Korean War
+Korea
+th Parallel
+Battle of Inchon
+United Nations
+China
+Soviet Union
+United States
+Vietnam
+Ho Chi Minh
+Dien Bien Phu
+Geneva Accords
+Viet Cong
+Tet Offensive
+Paris Peace Accords
+Saigon
+Hanoi
+guerrilla warfare
+insurgency
+attrition
+Gulf of Tonkin
+domino theory
+Cuba
+Fidel Castro
+Bay of Pigs
+Cuban Missile Crisis
+Nikita Khrushchev
+John F. Kennedy
+naval quarantine
+reconnaissance
+hotline
+Soviet invasion of Afghanistan
+Soviet–Afghan War
+mujahideen
+Pakistan
+Saudi Arabia
+Taliban
+Al-Qaeda
+brinkmanship
+containment
+armistice
+ceasefire
+GCSE

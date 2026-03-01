@@ -1,0 +1,47 @@
+# STT vocabulary hints for Greeks And The Barbarian (A-level Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Barbarian
+Herodotus
+Histories
+Herodotean
+Aeschylus
+Persians (play)
+Euripides
+Medea
+Amazons
+Achaemenid Empire
+Persian Wars
+Xerxes
+Salamis
+Persepolis
+Apadana
+Gate of All Nations
+Stair reliefs
+Oxus Treasure
+Cyrus Cylinder
+Triptolemos Painter
+kylix
+krater
+symposium
+votive amphora
+funerary relief
+Temple of Athena Nike
+Parthenon
+frieze
+vase‑painting
+iconography
+ethnography
+historiography
+peripeteia
+chorus
+messenger speech
+poleis
+polis
+Athenian
+civic memory
+royal inscription
+monumental reliefs
+material culture
+OCR H408
+A‑Level Classical Civilisation

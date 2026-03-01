@@ -1,0 +1,48 @@
+# STT vocabulary hints for Making Of England 871 1016 (A-level History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Making of England 871–1016
+Alfred
+Great Heathen Army
+Vikings
+Lindisfarne
+Athelney
+Burhs
+Burghal Hidage
+Fyrd
+Naval reforms
+Counter-raiding
+Alfredian Renaissance
+Asser’s Life
+Anglo-Saxon Chronicle
+Law codes
+Charters
+Coinage
+Burh layouts
+Edward the Elder
+Aethelflaed
+Mercia
+Athelstan
+Brunanburh
+York
+Edgar
+Coronation 973
+Ealdormen
+Magnates
+Royal council
+Danelaw
+Conquest of the Danelaw
+Aethelred the Unready
+Danegeld
+Treaty with Duke of Normandy 991
+Battle of Maldon
+Edward the Martyr
+Sweyn Forkbeard
+Cnut
+Monastic reform
+Patronage
+Seaborne raiding
+Maritime activity
+Archaeology
+Fortifications
+Negotiated lordship

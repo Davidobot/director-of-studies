@@ -1,0 +1,53 @@
+# STT vocabulary hints for Source Analysis And Evaluation (A-level History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+OCR
+Oxford Cambridge and RSA
+A-level History
+H505
+AO1
+AO2
+AO3
+Unit Y100
+British period study
+Unit group 1
+Unit group 3
+Source-based enquiries
+Source enquiry
+Non-exam assessment
+NEA
+Provenance
+Historiography
+Interpretation
+Primary sources
+Secondary material
+Cross-comparison
+Contextual knowledge
+Content analysis
+Utility and limitations
+Authorial proximity
+Ideological stance
+Marxism
+Liberalism
+Revisionism
+Post-revisionist
+Methodology
+Corroboration
+Contradiction
+Annal
+Chronicle
+Court cleric
+Minister's dispatch
+State archives
+Authentication
+Internal standardisation
+Moderation
+Bibliography
+Mark scheme
+Synoptic skills
+Socio-economic trend
+Political actors
+Campaign logistics
+Retrospective myth-making
+Contingency
+Explanatory power

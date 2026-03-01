@@ -1,0 +1,54 @@
+# STT vocabulary hints for Christianity Beliefs And Practices (GCSE Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Jesus Christ
+Messiah
+Son of God
+Lord
+Saviour
+Trinity
+Father
+Holy Spirit
+Omnipotence
+Omniscience
+Benevolence
+Transcendence
+Immanence
+Incarnation
+Resurrection
+Atonement
+Salvation
+Eschatology
+Judgement
+Heaven
+Hell
+Purgatory
+Baptism
+Infant baptism
+Believer's baptism
+Eucharist
+Holy Communion
+Mass
+Transubstantiation
+Sacramental realism
+Sacraments
+Liturgical
+Charismatic
+Lord's Prayer
+Christmas
+Easter
+The Church
+Great Commission
+Evangelism
+Ecumenical movement
+Just War
+Pacifism
+Quakers
+Truth and reconciliation
+Scripture
+Tradition
+Reason
+AO1
+AO2
+SPaG
+Synoptic understanding

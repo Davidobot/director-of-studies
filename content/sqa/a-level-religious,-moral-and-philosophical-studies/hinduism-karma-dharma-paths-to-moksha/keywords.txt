@@ -1,0 +1,48 @@
+# STT vocabulary hints for Hinduism Karma Dharma Paths To Moksha (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Hinduism
+Karma
+Dharma
+Moksha
+Samsara
+Jiva
+Atman
+Isvara
+Brahman
+Avidya
+Dukkha
+Sanchita karma
+Prarabdha karma
+Kriyamana karma
+Agami
+Punya
+Svadharma
+Ashrama
+Varna
+Varnashrama dharma
+Sanatana dharma
+Bhagavad Gita
+Arjuna
+Krishna
+Nishkama karma
+Karma marga
+Jnana marga
+Bhakti marga
+Vishnu
+Shiva
+Devi
+Raja Yoga
+Patanjali
+Samadhi
+Advaita Vedanta
+Viveka
+Ramanuja
+Vishishtadvaita
+Dualism
+Puja
+Mantra
+Pilgrimage
+Yajna
+Sannyasa
+Karmayoga

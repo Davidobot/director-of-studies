@@ -1,0 +1,62 @@
+# STT vocabulary hints for Hazardous Earth Tectonics Volcanoes Earthquakes (A-level Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Hazardous Earth
+Plate tectonics
+Continental drift
+Lithosphere
+Asthenosphere
+Slab pull
+Ridge push
+Mantle convection
+Seafloor spreading
+Magnetic stripes
+Mid‑ocean ridge
+Oceanic crust
+Subduction
+Convergent margin
+Divergent (constructive) margin
+Mid‑Atlantic Ridge
+Iceland
+Hotspot volcanism
+Mantle plume
+Hawaiian islands
+Shield volcano
+Basaltic lava
+Fissure eruption
+Stratovolcano
+Mount St Helens
+Mount Pinatubo
+Eyjafjallajökull
+Caldera
+Super‑volcano
+Magma chamber
+Tephra
+Pyroclastic density current
+Lahar
+Ash cloud
+Volcanic gases
+Volcanic arc
+Deep ocean trench
+Himalayas
+Strike‑slip fault
+San Andreas
+Normal fault
+Reverse (thrust) fault
+Focus
+Epicentre
+Seismic waves
+Seismometer
+Moment magnitude (Mw)
+Modified Mercalli Scale
+Liquefaction
+Tsunami
+Indian Ocean event
+Haiti earthquake
+Tōhoku earthquake and tsunami
+Disaster risk equation
+Park model
+Earthquake early warning
+Tsunami warning systems
+GIS
+Lava diversion channels

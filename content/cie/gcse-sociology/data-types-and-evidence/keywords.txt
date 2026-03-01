@@ -1,0 +1,50 @@
+# STT vocabulary hints for Data Types And Evidence (GCSE Sociology CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Cambridge IGCSE Sociology
+primary evidence
+secondary evidence
+primary data
+secondary data
+quantitative data
+qualitative data
+official statistics
+census
+police-recorded crime rates
+crime statistics
+dark figure of crime
+historical documents
+media content
+social media posts
+longitudinal studies
+triangulation
+validity
+reliability
+representativeness
+sampling
+probability sample
+random sampling
+stratified sampling
+interviewer bias
+leading questions
+pilot testing
+anonymising
+informed consent
+confidentiality
+ethical safeguards
+structured interviews
+unstructured interviews
+focus groups
+open-ended questions
+closed questions
+thematic coding
+coding themes
+descriptive statistics
+evidence explanation evaluation
+bar charts
+line graphs
+pie charts
+averages
+percentages
+operationalisation
+assessment objectives

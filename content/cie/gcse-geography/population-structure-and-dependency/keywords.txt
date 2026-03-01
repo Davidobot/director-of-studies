@@ -1,0 +1,48 @@
+# STT vocabulary hints for Population Structure And Dependency (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Cambridge International
+Population structure
+Population pyramid
+Age-sex pyramid
+Dependency ratio
+Youth dependency ratio
+Elderly dependency ratio
+Working-age population
+Working-age cohort
+Fertility
+Birth rate
+Mortality
+Death rate
+Migration
+Life expectancy
+Median age
+Cohort
+Expansive pyramid
+Stationary pyramid
+Constrictive pyramid
+Ageing population
+Demographic dividend
+Pro-natalist incentives
+Family planning
+Reproductive health
+Immunisation
+Baby boom
+Epidemics
+Famines
+Wars
+Human capital
+Underemployment
+Social unrest
+Pensions
+Retirement age
+Active ageing
+Selective migration policy
+Labour market
+Labour shortages
+Sub-Saharan Africa
+Japan
+Healthcare technology
+Robotics in eldercare
+Age-appropriate housing

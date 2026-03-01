@@ -1,0 +1,53 @@
+# STT vocabulary hints for Sociological Perspectives And Debates (A-level Sociology CIE).
+# One term per line. Used to improve speech recognition quality.
+
+A-level Sociology
+Cambridge International
+Functionalism
+Marxism
+Feminism
+New Right
+Postmodernism
+Value consensus
+Cultural reproduction
+Hegemony
+Hybridity
+Structure and agency
+Verstehen
+Cultural capital
+Hidden curriculum
+Labelling
+Intersectionality
+Social stratification
+Socialisation
+Transnational social movements
+Human trafficking
+Digital platforms
+Algorithms
+Echo chambers
+Globalisation
+Cultural convergence
+Cultural defence
+Hybrid identities
+Secularisation
+Resacralisation
+Evangelical movements
+Liberation theology
+Positivist
+Interpretivist
+Ethnography
+Triangulation
+Validity
+Reliability
+Representativeness
+Objectivity
+AO2
+AO3
+Gatekeepers
+Consumer culture
+Meritocratic
+Institutional bias
+Material deprivation
+Labour market shifts
+Capitalist ruling class
+Labour power

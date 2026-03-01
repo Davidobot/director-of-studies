@@ -1,0 +1,43 @@
+# STT vocabulary hints for Theories Of Criminal Behaviour (A-level Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Modern Studies
+Scottish Qualifications Authority
+Advanced Higher
+Crime Survey for England and Wales
+MAOA gene
+warrior gene
+Low resting heart rate
+Frontal lobe dysfunction
+Psychopathy
+Bandura
+Social learning theory
+Attachment theory
+Hostile attribution bias
+Neutralisation techniques
+Strain theory
+Subcultural theory
+Labelling theory
+Neo-Marxist
+Right realism
+Violence Reduction Unit
+Community Payback Orders
+Restorative justice
+Dark figure of crime
+Victimisation surveys
+Self-report studies
+Hot-spot policing
+Target hardening
+Incapacitation
+Deterrence
+Rehabilitation
+Retributivism
+Denunciation
+Multi-agency initiatives
+Longitudinal studies
+Life-course
+Moral panics
+Postcode poverty
+Clinical assessment tools
+Recidivism
+Public health approach

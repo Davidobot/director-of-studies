@@ -1,0 +1,45 @@
+# STT vocabulary hints for Scotland 1249 1334 Independence Kingship (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scotland
+Alexander III
+Western Isles
+Maid of Norway
+Guardianship
+Treaties of Salisbury
+Birgham–Northampton
+Edward I
+Great Cause
+Overlordship
+John Balliol
+Regalia
+William de Warenne
+Hugh de Cressingham
+Andrew Moray
+William Wallace
+Stirling Bridge 1297
+Falkirk 1298
+Guerrilla warfare
+Papacy
+Robert I
+Robert the Bruce
+John Comyn
+Red Comyn
+Usurpation
+Civil War 1306–09
+Cambuskenneth
+Statute of disinheritance
+Tailzies
+Bannockburn 1314
+Declaration of Arbroath 1320
+Soules conspiracy 1320
+David II
+Treaty of Edinburgh–Northampton 1328
+Edward II
+Disinherited nobles
+Scottish magnates
+Tenants-in-chief
+Charters
+Parliaments
+Anglo-Scottish relations
+Medieval kingship

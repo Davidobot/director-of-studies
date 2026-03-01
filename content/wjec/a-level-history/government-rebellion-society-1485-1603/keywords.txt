@@ -1,0 +1,45 @@
+# STT vocabulary hints for Government Rebellion Society 1485 1603 (A-level History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Henry VII
+Bosworth
+James VI
+Tudor
+Henry VIII
+Edward VI
+Mary I
+Elizabeth I
+Council Learned in the Law
+bonds
+recognisances
+Cardinal Wolsey
+Thomas Cromwell
+Privy Council
+William Cecil
+Francis Walsingham
+Parliament
+Henrician Reformation
+Great Matter
+Dissolution of the Monasteries
+Acts of Supremacy
+Acts of Uniformity
+Pilgrimage of Grace
+Western Rising
+Kett's Rebellion
+Wyatt's Rebellion
+Rising of the North
+enclosure
+recusants
+papal bull
+Acts of Union 1536
+Acts of Union 1543
+Council of Wales and the Marches
+William Morgan
+Welsh Bible
+Book of Common Prayer
+via media
+Puritanism
+gentry
+poor relief
+martial force
+regency governments

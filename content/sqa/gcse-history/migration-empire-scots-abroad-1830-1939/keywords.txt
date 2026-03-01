@@ -1,0 +1,48 @@
+# STT vocabulary hints for Migration Empire Scots Abroad 1830 1939 (GCSE History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Migration
+Empire
+Scots abroad
+Highland and Island Clearances
+Glasgow
+Dundee
+Edinburgh
+Dunfermline
+Dunbar
+Ayrshire
+Ireland
+Canada
+Australia
+New Zealand
+United States
+British Empire
+Eastern European Jews
+Lithuanians
+Italians
+Andrew Carnegie
+John Muir
+Andrew Fisher
+Emigration societies
+Government-assisted schemes
+Emigration schemes
+Shipping lines
+Passenger lists
+Census returns
+Parish records
+Chain migration
+Remittances
+Tenements
+Pogroms
+Synagogues
+Mutual aid societies
+Shipyards
+Railways
+Mining
+Pastoralism
+Settler societies
+Presbyterian institutions
+Sectarian tension
+Depression of the 1930s
+First World War
+Steamship

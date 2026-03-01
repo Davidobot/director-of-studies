@@ -1,0 +1,60 @@
+# STT vocabulary hints for Islam Beliefs Practices (GCSE Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Islam
+GCSE
+WJEC
+Eduqas
+Allah
+Tawhid
+Shirk
+Fitrah
+Al-qadr
+Prophethood
+Adam
+Ibrahim
+Musa
+Isa
+Muhammad
+Jibril
+Seal of the Prophets
+Qur'an
+Hadith
+Sunnah
+Five Pillars
+Shahadah
+Salah
+Makkah
+Zakah
+Sadaqah
+Sawm
+Ramadan
+Eid al-Fitr
+Hajj
+Tawaf
+Kaaba
+Arafat
+Eid al-Adha
+Jummah
+Akhirah
+Barzakh
+Jannah
+Jahannam
+Ghusl
+Kafan
+Salat al-Janazah
+Sharia
+Halal
+Haram
+Riba
+Ummah
+Madrasa
+Hijab
+Niqab
+Sunni
+Shia
+Islamic Relief
+Islamophobia
+Mosque
+Fiqh
+Jurisprudence

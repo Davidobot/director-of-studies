@@ -1,0 +1,51 @@
+# STT vocabulary hints for Life Of Prophet Muhammad (A-level Islamic Studies CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Prophet Muhammad
+pbuh
+Qurʾan
+Sunnah
+Hadith
+al-Amin
+Khadija
+ʿAʾisha
+Fatima
+Quraysh
+Mecca
+Medina
+Yathrib
+Hijrah
+Kaʿbah
+Cave of Hira
+Tawhid
+Ummah
+Constitution of Medina
+Abyssinia
+Boycott of the Banu Hashim
+Migration to Abyssinia
+Badr
+Uhud
+Khandaq
+Hudaybiyyah
+Conquest of Mecca
+Zakat
+Hajj
+Wahy
+Risalah
+Tafsir
+Fiqh
+Isnad
+Matn
+Sunni
+Shiʿi
+Hijri calendar
+State formation
+Interfaith relations
+Rights of minorities
+Sabr
+Ikhlas
+Tawbah
+Taqwa
+Sidq
+AO1
+AO2

@@ -1,0 +1,39 @@
+# STT vocabulary hints for Athenian Democracy And Citizenship (GCSE Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Athenian democracy
+Athenian citizenship
+Golden Age of Athens
+Ekklesia
+Assembly
+Pnyx
+agora
+Theatre of Dionysus
+sortition
+strategoi
+jurors
+juries
+law courts
+magistrates
+metics
+enslaved people
+hoplites
+Athenian navy
+rowers
+marines
+liturgies
+dramatic choruses
+Panathenaia
+City Dionysia
+ostracism
+potsherd
+citizenship law
+public inscriptions
+official decrees
+direct democracy
+representative democracy
+civic duty
+civic religion
+jury service
+public contracts
+archaeological evidence

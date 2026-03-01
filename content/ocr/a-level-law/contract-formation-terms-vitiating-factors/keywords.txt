@@ -1,0 +1,54 @@
+# STT vocabulary hints for Contract Formation Terms Vitiating Factors (A-level Law OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Contract formation
+Offer
+Acceptance
+Intention to create legal relations
+Consideration
+Invitation to treat
+Counter-offer
+Unilateral offer
+Postal rule
+Instantaneous communication
+Revocation
+Family presumption
+Commercial presumption
+Privity of contract
+Contract (Rights of Third Parties) Act 1999
+Agency
+Collateral contract
+Trusts
+Express terms
+Implied terms
+Consumer Rights Act 2015
+Conditions
+Warranties
+Innominate terms
+Incorporation
+Signature
+Notice
+Course of dealings
+Exclusion clause
+Limitation clause
+Contra proferentem
+Unfair Contract Terms Act 1977
+Reasonableness test
+Fairness test
+Misrepresentation
+Fraudulent misrepresentation
+Negligent misrepresentation
+Innocent misrepresentation
+Misrepresentation Act 1967
+Rescission
+Damages in lieu
+Affirmation
+Lapse of time
+Impossibility of restitution
+Economic duress
+Wrongful threat
+Undue influence
+Actual undue influence
+Presumed undue influence
+Bank guarantees
+Restitution

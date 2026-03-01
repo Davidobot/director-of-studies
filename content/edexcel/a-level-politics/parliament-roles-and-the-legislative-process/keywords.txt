@@ -1,0 +1,52 @@
+# STT vocabulary hints for Parliament Roles And The Legislative Process (A-level Politics EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Parliament
+House of Commons
+House of Lords
+monarch
+Acts of Parliament
+Royal Assent
+parliamentary sovereignty
+uncodified constitution
+scrutiny
+select committee
+Public Accounts Committee
+Secondary Legislation Scrutiny Committee
+Backbench Business Committee
+public bill committee
+First Reading
+Second Reading
+Committee Stage
+Report Stage
+Third Reading
+ping-pong
+Green Paper
+White Paper
+private members' bill
+Abortion Act 1967
+private bill
+hybrid bill
+delegated legislation
+statutory instrument
+affirmative resolution
+negative resolution
+Salisbury Convention
+Parliament Acts (1911 and 1949)
+money bill
+supply (approval of taxation)
+confidence procedures
+programme motion
+backbench rebellion
+confidence-and-supply
+Conservative–Liberal Democrat coalition 2010–2015
+Fixed-term Parliaments Act 2011
+Human Rights Act 1998
+devolution
+Brexit
+Supreme Court
+judicial review
+hereditary peers
+life peers
+appointed bishops
+patronage

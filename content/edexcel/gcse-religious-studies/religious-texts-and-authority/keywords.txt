@@ -1,0 +1,59 @@
+# STT vocabulary hints for Religious Texts And Authority (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Bible
+Old Testament
+New Testament
+Genesis 1–3
+Nicene Creed
+Catechism
+Ecumenical councils
+Magisterium
+Pope
+Papal encyclical
+Quran
+Hadith
+Muhammad
+Sunni
+Shia
+Surah 2:183
+Tenakh
+Talmud
+Torah
+Vedas
+Upanishads
+Bhagavad Gita
+Guru Granth Sahib
+Dhamma
+Sutras
+Pali texts
+Madhab
+Imam
+Rabbinic law
+Responsa
+Sangat
+Langar
+Incarnation
+Resurrection
+Eucharist
+Ramadan
+Salah
+Zakah
+Mitzvot
+Karma
+Dharma
+Eightfold Path
+Sewa
+Lourdes
+Pentecost
+Design argument
+Cosmological argument
+Historical-critical method
+Literalism
+Metaphorical reading
+Revelation
+Mystical experience
+Interfaith dialogue
+Bioethics
+Humanism
+Natural science

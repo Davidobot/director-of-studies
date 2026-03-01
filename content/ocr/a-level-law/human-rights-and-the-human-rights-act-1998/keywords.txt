@@ -1,0 +1,49 @@
+# STT vocabulary hints for Human Rights And The Human Rights Act 1998 (A-level Law OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Human Rights Act 1998
+HRA
+European Convention on Human Rights
+ECHR
+European Court of Human Rights
+ECtHR
+Strasbourg
+Council of Europe
+Section 6
+Section 3
+Section 4
+declaration of incompatibility
+compatibility obligation
+Strasbourg jurisprudence
+jurisprudence of the ECtHR
+proportionality
+margin of appreciation
+three‑part limitation test
+prescribed by law
+legitimate aim
+necessary in a democratic society
+Article 5
+Article 6
+Article 8
+Article 10
+Article 11
+fair trial
+liberty and security
+freedom of expression
+freedom of assembly
+judicial review
+domestic remedies
+exhaustion of domestic remedies
+admissibility criteria
+victim status
+declarations
+injunctions
+damages
+public authorities
+parliamentary sovereignty
+interpretive obligation (s3)
+declaratory remedy (s4)
+privacy claims
+confidentiality
+state surveillance
+UK Bill of Rights

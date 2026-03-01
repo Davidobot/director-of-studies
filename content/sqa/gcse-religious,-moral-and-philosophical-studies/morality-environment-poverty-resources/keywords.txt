@@ -1,0 +1,58 @@
+# STT vocabulary hints for Morality Environment Poverty Resources (GCSE Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+SQA
+GCSE RMPS
+Scottish Qualifications Authority
+Paris Agreement
+Fairtrade
+Fairtrade networks
+Grameen Bank
+microfinance
+climate finance
+climate reparations
+climate refugees
+climate migrants
+low-lying Pacific states
+small island nations
+fossil fuel extraction
+deforestation
+reforestation
+community forestry
+biodiversity
+biodiversity loss
+ecosystem services
+ecosystem resilience
+pollination
+soil fertility
+freshwater scarcity
+over-exploitation
+greenhouse gases
+global warming
+carbon pricing
+circular economy
+sustainable management
+resource management
+sustainable agriculture
+protected areas
+mitigation
+adaptation
+renewable energy
+energy efficiency
+fair trade
+tied aid
+debt relief
+development aid
+humanitarian aid
+subsidies
+supply chains
+humanism
+environmental ethics
+utilitarianism
+stewardship
+khalipha
+zakat
+tikkun olam
+sewa
+dharma
+ahimsa

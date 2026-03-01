@@ -1,0 +1,48 @@
+# STT vocabulary hints for Sentencing Principles Adults Young Offenders (A-level Law CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Sentencing Council
+Crown Court
+Magistrates' courts
+England and Wales
+A-level Law
+Cambridge International
+Custodial sentence
+Suspended sentence
+Community order
+Financial penalties
+Conditional discharge
+Absolute discharge
+Pre-sentence report
+Probation services
+Victim personal statement
+Sentencing guidelines
+Sentencing framework
+Aggravating factors
+Mitigating factors
+Culpability
+Harm
+Proportionality
+Individualisation
+Rehabilitation
+Retribution
+General deterrence
+Specific deterrence
+Public protection
+Reparation
+Restorative justice
+Youth offending teams
+Parental responsibility measures
+Youth justice
+Criminogenic effects
+Mandatory minimums
+Manifestly excessive
+Starting point
+Early guilty plea
+Guilty plea reductions
+Sentencing discretion
+Appeal against sentence
+Prison overcrowding
+Short custodial sentences
+Welfare
+Reintegration

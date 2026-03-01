@@ -1,0 +1,48 @@
+# STT vocabulary hints for Conservatism Core Political Idea (A-level Politics EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Conservatism
+One-nation conservatism
+Traditional conservatism
+New Right
+Neo-liberalism
+Neo-conservatism
+Libertarianism
+Paternalism
+Organic society
+Noblesse oblige
+Laissez-faire capitalism
+Privatisation
+Deregulation
+Welfare state
+Mixed economy
+Post-war consensus
+Law-and-order
+National sovereignty
+State intervention
+Redistribution
+Social cohesion
+Social engineering
+Human imperfection
+Gradualism
+Pragmatism
+Hierarchy
+Market freedom
+Free markets
+Property rights
+Self-ownership
+Minimal state
+Benjamin Disraeli
+Thomas Hobbes
+Edmund Burke
+Michael Oakeshott
+Ayn Rand
+Robert Nozick
+Margaret Thatcher
+Conservative Party
+Pearson Edexcel
+A-level
+AO1
+AO2
+AO3
+Fixed-term Parliaments

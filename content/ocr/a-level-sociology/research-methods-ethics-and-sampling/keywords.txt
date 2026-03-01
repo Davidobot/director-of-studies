@@ -1,0 +1,62 @@
+# STT vocabulary hints for Research Methods Ethics And Sampling (A-level Sociology OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Component 02
+A-level Sociology
+Oxford Cambridge and RSA
+British Sociological Association
+positivists
+interpretivists
+verstehen
+validity
+reliability
+representativeness
+generalisability
+operationalise
+pilot study
+respondent validation
+reflexivity
+gatekeepers
+stratified sampling
+simple random sampling
+systematic sampling
+quota sampling
+purposive sampling
+opportunity sampling
+volunteer sampling
+snowball sampling
+hidden populations
+selection bias
+sampling bias
+participant observation
+ethnography
+overt research
+covert research
+structured interview
+semi-structured interview
+unstructured interview
+questionnaires
+content analysis
+official statistics
+mixed methods
+triangulation
+methodological pluralism
+operational definitions
+social inequalities
+social class
+working-class
+middle-class
+digital divide
+cross-national survey
+methodological evaluation
+ethical principles
+informed consent
+anonymity
+right to withdraw
+vulnerable groups
+researcher effects
+social control
+deviant identities
+youth subculture
+domestic abuse
+support organisations

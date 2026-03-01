@@ -1,0 +1,62 @@
+# STT vocabulary hints for Fieldwork Planning Data Collection Analysis (GCSE Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+OCR GCSE Geography A (J383)
+Oxford Cambridge and RSA
+GCSE
+fieldwork statement
+pilot study
+pilot visit
+transect
+systematic sampling
+stratified sampling
+random sampling
+opportunistic sampling
+clinometer
+turbidity
+dissolved oxygen
+pH
+channel width
+channel depth
+channel velocity
+discharge
+transport processes
+pebble size
+beach profile
+land-use survey
+accessibility audit
+amenity audit
+pedestrian counts
+GPS
+choropleth map
+proportional symbol map
+GIS
+annotated base map
+transect diagram
+scatter graph
+correlation coefficient
+histogram
+box plot
+cumulative frequency
+interquartile range
+central tendency
+mean
+median
+range
+trend line
+interpolation
+extrapolation
+control-impact design
+longitudinal monitoring
+observer bias
+instrument error
+temporal variation
+sample size
+calibration
+field notebook
+data traceability
+Spelling, Punctuation and Grammar
+AO1
+AO2
+AO3
+AO4

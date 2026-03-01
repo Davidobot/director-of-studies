@@ -1,0 +1,43 @@
+# STT vocabulary hints for Uk Pressure Groups (A-level Government and Politics CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+pressure group
+sectional group
+cause group
+insider group
+outsider group
+social movement
+National Farmers’ Union
+NFU
+British Medical Association
+BMA
+Confederation of British Industry
+CBI
+Greenpeace
+RSPCA
+Extinction Rebellion
+Liberty
+Stonewall
+Snowdrop campaign
+Dunblane
+Smoking ban 2007
+same-sex marriage legislation
+judicial review
+judicial victories
+legal precedent
+select committees
+select committee inquiry
+devolved institutions
+policy communities
+agenda-setting
+instrumental success
+pluralist
+elitist
+lobbying
+industrial action
+public consultations
+think-tank partnerships
+coalition-building
+public mobilisation
+insider access
+Executive

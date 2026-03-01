@@ -1,0 +1,47 @@
+# STT vocabulary hints for Roman Britain Invasion Boudicca Romanisation (GCSE Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Roman Britain
+Claudius
+Claudian invasion
+AD 43
+Camulodunum
+Colchester
+Londinium
+Verulamium
+Boudicca
+Iceni
+Gaius Suetonius Paulinus
+Watling Street
+Cogidubnus
+Chichester inscription
+Fishbourne Roman Palace
+Aquae Sulis
+Sulis
+Minerva
+Tacitus
+Agricola
+Vindolanda tablets
+Romanisation
+client kings
+colonia
+villas
+hypocaust
+mosaic floors
+amphitheatre
+basilica
+forum
+imperial cult
+Druidism
+mystery cults
+Mithraism
+Roman roads
+frontier
+garrison
+lead mining
+tin
+inscriptions
+coins
+syncretism
+Hadrian’s Wall
+Britannia

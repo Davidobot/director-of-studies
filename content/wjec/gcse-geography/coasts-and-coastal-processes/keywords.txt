@@ -1,0 +1,69 @@
+# STT vocabulary hints for Coasts And Coastal Processes (GCSE Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+WJEC
+Eduqas
+Pembrokeshire
+Gower peninsula
+Kenfig
+Coasts
+Coastal processes
+Weathering
+Salt crystallisation
+Freeze–thaw
+Biological weathering
+Mass movement
+Slump
+Rockfall
+Erosion
+Hydraulic action
+Abrasion
+Attrition
+Solution
+Transportation
+Traction
+Saltation
+Suspension
+Longshore drift
+Deposition
+Constructive waves
+Destructive waves
+Fetch
+Wave energy
+Wave-cut platform
+Headland
+Bay
+Cave
+Arch
+Stack
+Stump
+Cliff retreat
+Beach profile
+Sand dune
+Tombolo
+Spit
+Bar
+Concordant coastline
+Discordant coastline
+Sea wall
+Groyne
+Revetment
+Beach nourishment
+Managed realignment
+Dune restoration
+Shingle
+Pebble roundness
+Clinometer
+Transect
+Callipers
+Sieves
+GIS
+NEA
+Tide tables
+Aerial photographs
+Median
+Mean
+Tidal range
+Sea-level change
+Storm intensity

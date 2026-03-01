@@ -1,0 +1,47 @@
+# STT vocabulary hints for Occupiers Liability (A-level Law WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Occupiers' Liability
+Occupiers' Liability Act 1957
+OLA 1957
+Occupiers' Liability Act 1984
+OLA 1984
+Wheat v Lacon
+Laverton v Kiapasha Tandoori Restaurant
+Glasgow Corporation v Taylor
+Phipps v Rochester Corporation
+Roles v Nathan
+Haseldine v Daw
+Tomlinson v Congleton Borough Council
+Ratcliff v McConnell
+Jolly
+Occupier
+Premises
+Lawful visitor
+Non-visitor
+Trespasser
+Invitee
+Licensee
+Duty of care
+Standard of care
+Reasonable steps
+Breach
+Causation
+Remoteness
+Foreseeability
+But for test
+Contributory negligence
+Volenti non fit injuria
+Warning sign
+Allurement
+Independent contractor
+Specialist technical skill
+Reasonable belief
+House of Lords
+Equitable relief
+Injunctions
+Public law
+Criminal law
+AO1
+AO2
+AO3

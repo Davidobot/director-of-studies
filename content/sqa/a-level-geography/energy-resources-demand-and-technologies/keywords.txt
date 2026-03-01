@@ -1,0 +1,55 @@
+# STT vocabulary hints for Energy Resources Demand And Technologies (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Middle East
+Norway
+Andes
+Iceland
+East Africa
+Scotland
+Mediterranean
+China
+France
+United States
+Germany
+Energiewende
+Coal
+Oil
+Natural gas
+Uranium
+Nuclear power
+Hydropower
+Pumped-storage hydropower
+Geothermal
+Offshore wind
+Wind farms
+Solar photovoltaic
+Insolation
+Tidal barrage
+Wave devices
+Marine technologies
+Bioenergy
+Shale gas
+Hydraulic fracturing
+Carbon capture and storage
+CCS
+Power-to-gas
+Hydrogen
+Grid-scale batteries
+Battery storage
+Smart meters
+Feed-in tariffs
+Renewable obligations
+Auction systems
+Carbon pricing
+Decentralised generation
+Micro-hydro
+Off-grid solar
+Energy mix
+Energy density
+Dispatchable supply
+Intermittency
+Energy security
+Seismic activity
+Groundwater contamination
+Decommissioning costs

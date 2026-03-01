@@ -1,0 +1,44 @@
+# STT vocabulary hints for Hadith Moral Teachings Application (A-level Islamic Studies CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Hadith
+Quran
+Sunnah
+Prophet Muhammad
+Mecca
+Conquest of Mecca
+Cambridge A-level
+Cambridge International
+AO1
+AO2
+Paper 1
+Sahabah
+isnad
+matn
+sahih
+hasan
+da'if
+Hadith criticism
+chains of transmission
+maqasid
+maslahah
+Sunni
+Shi'i
+Sufi
+ikhlas
+tawbah
+sabr
+nifaq
+sincerity
+repentance
+perseverance
+truthfulness
+piety
+hypocrisy
+business ethics
+riba
+fiqh
+jurisprudence
+canonical status
+Hadith collections
+Sirah

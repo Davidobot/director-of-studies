@@ -1,0 +1,54 @@
+# STT vocabulary hints for Breakdown Late Republic 88 31 Bc (A-level Ancient History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Sulla
+Sulla's march on Rome
+Sullan reforms
+Proscriptions
+First march on Rome
+Rubicon
+Crossing the Rubicon
+Caesar
+Conquest of Gaul
+Assassination of Caesar
+Ides of March
+First Triumvirate
+Second Triumvirate
+Battle of Actium
+Actium
+Pompey
+Battle of Pharsalus
+Crassus
+Octavian
+Antony
+Brutus
+Cassius
+Cicero
+Cato
+Spartacus
+Spartacus revolt
+Latifundia
+Publicani
+Equites
+Tribunes of the plebs
+Tribunate
+Sacrosanct veto
+Cursus honorum
+Veteran settlement
+Personal armies
+Provincial governorships
+Imperium
+Princeps
+Principate
+Senate
+Magistracies
+Consuls
+Praetors
+Quaestors
+Comitia
+Forum
+Numismatics
+Inscriptions
+Patron-client relationships
+Populares
+Optimates

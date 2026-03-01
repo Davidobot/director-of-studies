@@ -1,0 +1,63 @@
+# STT vocabulary hints for Places Art Music Festivals (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Pearson Edexcel
+Eucharist
+Tabernacle
+Altar
+Lectern
+Pulpit
+Crucifix
+Mihrab
+Mecca
+Minbar
+Ark
+Aron Kodesh
+Bimah
+Ner Tamid
+Mandir
+Gurdwara
+Vihara
+Murti
+Darshan
+Guru Granth Sahib
+Baptism
+Reconciliation
+Chalice
+Paten
+Baptismal font
+Torah
+Yad
+Qur'an
+Calligraphy
+Shirk
+names of Allah
+Icons
+Iconoclasm
+Plainchant
+Gregorian chant
+Nasheed
+Qawwali
+Sama
+Bhajan
+Kirtan
+Ramlila
+Mystery plays
+Passion plays
+Diwali
+Holi
+Passover
+Yom Kippur
+Gurpurb
+Hajj
+Lourdes
+Walsingham
+Ganges
+Varanasi
+Catechism
+Vatican
+Langar
+Golden Temple
+Ashura
+Eid al-Fitr

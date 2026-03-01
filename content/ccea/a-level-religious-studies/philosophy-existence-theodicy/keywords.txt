@@ -1,0 +1,56 @@
+# STT vocabulary hints for Philosophy Existence Theodicy (A-level Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Anselm
+Descartes
+Immanuel Kant
+Gaunilo
+Ontological argument
+Aquinas
+Cosmological argument
+Kalam cosmological argument
+Unmoved mover
+Necessary being
+Teleological argument
+Fine-tuning
+Design argument
+Problem of evil
+Theodicy
+Free will defence
+Augustine
+Privation
+Irenaeus
+Soul-making theodicy
+John Hick
+Process theodicies
+Richard Swinburne
+Gratuitous evil
+Natural evil
+Dostoevsky
+Camus
+Miracles
+David Hume
+Testimonial evidence
+Rudolf Otto
+Numinous
+Teresa of Avila
+William James
+Noetic quality
+Ineffability
+Verification principle
+Logical positivism
+Ludwig Wittgenstein
+Language games
+Via negativa
+Analogical language
+Dualism
+Plato
+Materialism
+Epiphenomenalism
+Psychological continuity theory
+Resurrection of the body
+Reincarnation
+Near-death experiences
+Kierkegaard
+Jean-Paul Sartre
+Existentialism

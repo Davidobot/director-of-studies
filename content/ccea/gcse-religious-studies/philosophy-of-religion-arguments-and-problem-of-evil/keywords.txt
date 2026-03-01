@@ -1,0 +1,53 @@
+# STT vocabulary hints for Philosophy Of Religion Arguments And Problem Of Evil (GCSE Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Thomas Aquinas
+Kalam cosmological argument
+Cosmological argument
+Teleological argument
+Watchmaker analogy
+William Paley
+David Hume
+Natural selection
+Moral argument
+Immanuel Kant
+C. S. Lewis
+Argument from religious experience
+William James
+J. L. Mackie
+Inconsistent triad
+Logical problem of evil
+Evidential problem of evil
+Omnipotence
+Omniscience
+Omnibenevolence
+Immanence
+Transcendence
+First cause
+Necessary being
+Uncaused cause
+Free will defence
+Alvin Plantinga
+Theodicy
+Augustine
+Privation of good
+Soul-making theodicy
+Irenaeus
+John Hick
+Vale of soul-making
+Process theology
+Skeptical theism
+Karma
+Buddhism
+Hinduism
+Islam
+Judaism
+Big Bang
+Creationism
+Intelligent design
+Methodological naturalism
+Metaphysical claims
+Gratuitous suffering
+Natural evil
+Moral evil
+Brute fact

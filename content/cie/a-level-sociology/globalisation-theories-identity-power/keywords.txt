@@ -1,0 +1,59 @@
+# STT vocabulary hints for Globalisation Theories Identity Power (A-level Sociology CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Globalisation
+Glocal
+Cultural imperialism
+Cultural convergence
+Cultural resistance
+Hybrid identity
+Syncretic identities
+Diasporic communities
+Cosmopolitan identities
+Ethnic revitalisation
+Cultural defence
+Transnational capitalist class
+Multinational corporations
+Global supply chains
+Financialisation
+Financial globalisation
+Dependency theory
+World-systems theory
+World-systems analysis
+Postcolonial critique
+Postmodernism
+Feminisation of migration
+Structural adjustment programmes
+International Monetary Fund
+World Bank
+World Trade Organization
+Supranational institutions
+Transnational actors
+Transnational organisations
+International NGOs
+Interpol
+Transnational crime
+Human trafficking
+Cybercrime
+Environmental crimes
+Corporate malfeasance
+Tax havens
+Extradition agreements
+Populist politics
+Protectionist politics
+Neoliberalism
+Remittances
+Brain drain
+Brain gain
+Transnational networks
+Social movements
+Arab Spring
+Climate change
+Peripheral economies
+Core countries
+Colonial trade
+Colonialism
+Philippines
+AO1
+AO2
+AO3

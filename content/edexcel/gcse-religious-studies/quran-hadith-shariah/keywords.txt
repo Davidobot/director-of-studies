@@ -1,0 +1,39 @@
+# STT vocabulary hints for Quran Hadith Shariah (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Qur'an
+Hadith
+Shari'ah
+Sunnah
+Muhammad
+tafsir
+naskh
+abrogation
+zakah
+sadaqah
+wudu
+ablution
+matn
+isnad
+sahih
+hasan
+da'if
+Sahih al-Bukhari
+Sahih Muslim
+Sunni
+Shi'a
+Ahl al-Bayt
+Imams
+fiqh
+ijma
+qiyas
+madhahib
+Hanafi
+Maliki
+Shafi'i
+Hanbali
+'aql
+maqasid
+maqasid al-Shari'ah
+fatwa
+jurisprudence

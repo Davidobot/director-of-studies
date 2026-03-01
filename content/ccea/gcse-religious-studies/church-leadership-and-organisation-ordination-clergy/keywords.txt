@@ -1,0 +1,59 @@
+# STT vocabulary hints for Church Leadership And Organisation Ordination Clergy (GCSE Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Council for the Curriculum, Examinations and Assessment
+Catholic Church
+Pope
+Bishop of Rome
+Diocese
+Parish
+Holy Orders
+Sacrament of Holy Orders
+Deacon
+Priest
+Bishop
+Apostolic succession
+Sacrament of Reconciliation
+Eucharist
+Mass
+Communion
+Lord’s Supper
+Baptism
+Baptismal font
+Tabernacle
+Altar
+Pulpit
+Lectern
+In persona Christi
+Seminary
+Theological college
+Ordination
+Ordination service
+Laying on of hands
+Commissioning prayer
+Sacramental rite
+Sacramental character
+Priesthood of all believers
+Anglicanism
+Church of England
+Presbyterianism
+Presbytery
+Congregationalism
+Council of elders
+Elder
+Lay minister
+Reader
+Celibacy
+LGBTQ+ clergy
+Same-sex unions
+Clerical abuse scandals
+Safeguarding
+Liturgical tradition
+Non-liturgical
+Pastoral care
+Lay leadership
+Real Presence
+Ordinances
+Charismatic expressions
+Interfaith dialogue

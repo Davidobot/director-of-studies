@@ -1,0 +1,61 @@
+# STT vocabulary hints for Usa 1918 1968 New Deal Civil Rights (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+USA 1918–1968
+New Deal
+Civil Rights movement
+First World War
+Second World War
+Great Depression
+Wall Street Crash 1929
+Smoot–Hawley Tariff
+Emergency Quota Act 1921
+Immigration Act 1924
+National origins quotas
+Ku Klux Klan
+Red Scare 1917–20
+Eugenics
+Jim Crow
+Plessy v. Ferguson
+Brown v. Board of Education 1954
+Civil Rights Act 1964
+Voting Rights Act 1965
+March on Washington 1963
+Montgomery Bus Boycott 1955–56
+Double V campaign
+Great Migration
+NAACP
+Thurgood Marshall
+SCLC
+Martin Luther King Jr.
+SNCC
+CORE
+Sit-ins
+Freedom Rides
+Voter registration drives
+Watts 1965
+Detroit 1967
+Black Power
+Assassination of Martin Luther King Jr. 1968
+FDIC
+SEC
+National Industrial Recovery Act
+Social Security
+Wagner Act
+Civilian Conservation Corps
+Works Progress Administration
+Court‑packing 1937
+Sharecropping
+Tenant farming
+Poll taxes
+Literacy tests
+White primary
+De jure segregation
+De facto segregation
+Enfranchisement
+Federal enforcement
+Isolationism
+Nativism
+Margin buying
+Bank runs
+Protectionism

@@ -1,0 +1,59 @@
+# STT vocabulary hints for Religion Peace And Conflict (GCSE Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Christianity
+Islam
+Judaism
+Buddhism
+Hinduism
+Jain
+Quakers
+Gandhi
+Martin Luther King Jr.
+Sermon on the Mount
+Bhagavad Gita
+Allah
+Day of Judgement
+Apartheid
+South Africa
+Britain
+Europe
+Just War
+proportionality
+last resort
+legitimate authority
+right intention
+probability of success
+jihad
+greater jihad
+lesser jihad
+dharma-yuddha
+ahimsa
+dharma
+karma
+samsara
+yogas
+pacifism
+absolute pacifism
+conditional pacifism
+teshuva
+restorative justice
+reconciliation
+truth commissions
+de-radicalisation
+radicalisation
+faith-based NGOs
+interfaith dialogue
+sanctity of life
+humanitarian intervention
+drone strikes
+nuclear weapons
+deterrence
+targeted killings
+civil disobedience
+counter-extremism
+religious capital
+SPaG
+AO1
+AO2
+sectarian violence

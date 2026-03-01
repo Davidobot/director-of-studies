@@ -1,0 +1,49 @@
+# STT vocabulary hints for Living Under Nazi Rule 1933 1945 (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Hitler
+Reichstag Fire
+Reichstag Fire Decree
+Enabling Act
+Gleichschaltung
+Night of the Long Knives
+Hindenburg
+Führer
+SS
+Waffen-SS
+SD (Sicherheitsdienst)
+Gestapo
+People's Court
+concentration camps
+Auschwitz-Birkenau
+Treblinka
+Sobibor
+Nuremberg Laws
+Kristallnacht
+Einsatzgruppen
+Wannsee Conference
+Final Solution
+T4 euthanasia project
+Holocaust
+ghettos
+deportations
+Wehrmacht
+forced labour
+Volkssturm
+Allied strategic bombing
+Eastern Front
+General Government
+Vichy
+Polish Home Army
+Armia Krajowa
+White Rose
+Hitler Youth
+League of German Girls
+Joseph Goebbels
+propaganda
+partisans
+death marches
+collaborationist regimes
+Jehovah's Witnesses
+Roma
+show trials

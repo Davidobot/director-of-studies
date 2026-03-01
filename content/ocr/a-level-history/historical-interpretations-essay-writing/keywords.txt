@@ -1,0 +1,44 @@
+# STT vocabulary hints for Historical Interpretations Essay Writing (A-level History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+A-level
+Oxford Cambridge and RSA
+OCR
+Thematic interpretations
+Thematic interpretations paper
+Source enquiry
+Topic based essay
+Depth studies
+Synoptic
+AO1
+AO2
+AO3
+Historiography
+Provenance
+Primary source
+Secondary source
+Government record
+Private letter
+Chronicle
+Propaganda
+Official proclamation
+Corroborate
+Contradict
+Glorious Revolution
+Pilgrimage of Grace
+Henry VIII
+Tudor rebellion
+English Civil War
+Industrialisation
+Whig
+Marxist
+Revisionist
+Post-revisionist
+Elite crisis
+State continuity
+Structural interpretation
+Agency
+Demographic change
+Internal moderation
+External moderation
+Title(s) Proposal tool

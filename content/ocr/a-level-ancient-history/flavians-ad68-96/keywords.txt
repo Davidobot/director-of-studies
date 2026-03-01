@@ -1,0 +1,49 @@
+# STT vocabulary hints for Flavians Ad68 96 (A-level Ancient History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Flavian dynasty
+Vespasian
+Titus
+Domitian
+Year of the Four Emperors
+AD 68–69
+Julio-Claudians
+principate
+princeps
+pater patriae
+aerarium
+fiscus
+equestrian officials
+freedmen
+equestrian procurators
+Jewish War
+Siege of Jerusalem 70
+Judaean revolt
+Menorah
+Arch of Titus
+Flavian Amphitheatre
+Colosseum
+triumph of Titus
+Josephus
+Tacitus
+Suetonius
+Dio Cassius
+numismatic evidence
+epigraphic evidence
+archaeological evidence
+donatives
+imperial cult
+imperial household
+provincial armies
+eastern legions
+legions
+garrisoning provinces
+fiscal administration
+fiscal reform
+administrative reform
+public works
+Domitian's censorship
+senatorial perspective
+Flavian propaganda
+monumental architecture
+Vesuvius eruption 79

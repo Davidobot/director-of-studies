@@ -1,0 +1,63 @@
+# STT vocabulary hints for Gospel Of Luke (A-level Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Gospel of Luke
+Luke
+Acts
+Luke-Acts
+John the Baptist
+Gentile physician
+Paul
+Mark
+Q source
+L source
+Synoptic Gospels
+Synoptic problem
+Source criticism
+Narrative criticism
+Social-scientific reading
+Canonical approaches
+Historical reliability
+Eyewitness testimony
+Infancy narrative
+Annunciation
+Magnificat
+Baptism
+Temptation
+Nazareth
+Pilate
+Centurion
+Census
+Pharisees
+Sadducees
+Good Samaritan
+Prodigal Son
+Rich Man and Lazarus
+Sower
+Great Banquet
+Miracles
+Healings
+Raisings
+Nature miracles
+Kingdom of God
+Salvation History
+Discipleship
+Sending of the Seventy
+Table fellowship
+Eucharistic
+Baptismal language
+Temple motifs
+Passion narrative
+Resurrection
+Inclusion
+Marginalised groups
+Reversal motif
+Fulfilment
+Evangelist
+Apologist
+Mission passages
+Jerusalem
+Gentiles
+Israel
+Social ethics
+Ritual initiation

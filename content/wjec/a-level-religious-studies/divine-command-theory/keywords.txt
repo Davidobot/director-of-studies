@@ -1,0 +1,49 @@
+# STT vocabulary hints for Divine Command Theory (A-level Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Divine Command Theory
+DCT
+Robert Adams
+Modified Divine Command Theory
+Euthyphro
+Plato
+Thomas Aquinas
+Natural Law
+Situation Ethics
+Utilitarianism
+Meta-ethics
+Omnibenevolence
+Divine fiat
+Moral objectivity
+Moral epistemology
+Arbitrariness objection
+Religious pluralism
+Sacred texts
+Prophetic teaching
+Revelation
+Conscience
+Theistic worldview
+Analytic philosophers
+Scholasticism
+Medieval theology
+Divine nature
+Moral authority
+Moral obligation
+Moral deliberation
+Moral consensus
+Natural law overlap
+Applied ethics
+Bioethics
+Sexual ethics
+Social justice
+Moral realism
+Moral language
+Epistemology
+AO1
+AO2
+A-level
+WJEC
+Eduqas
+Synoptic links
+Moral arbitrariness
+Divine will

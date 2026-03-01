@@ -1,0 +1,59 @@
+# STT vocabulary hints for Climate Change Impacts Mitigation Adaptation (A-level Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Anthropocene
+Intergovernmental Panel on Climate Change (IPCC)
+Paris Agreement
+Kyoto Protocol
+Green Climate Fund
+Great Barrier Reef
+Bangladesh
+Milankovitch cycles
+General Circulation Models (GCMs)
+RCPs
+SSPs
+Ice–albedo feedback
+Permafrost thaw
+Methane release
+Permafrost
+Sea-level rise
+Thermal expansion
+Ocean acidification
+Ocean heat content
+Coral bleaching
+Afforestation
+Reforestation
+Carbon capture and storage (CCS)
+Carbon pricing
+Emissions trading schemes
+Carbon tax
+Carbon credit schemes
+Geoengineering
+Managed realignment
+Maladaptation
+Tipping points
+Climate sensitivity
+Greenhouse gases
+Carbon dioxide (CO2)
+Methane (CH4)
+Nitrous oxide (N2O)
+Glacier retreat
+Antarctic ice sheet
+Greenland ice sheet
+Amazon rainforest dieback
+Atlantic Meridional Overturning Circulation (AMOC)
+Palaeoclimatology
+Ice cores
+Tree rings
+Marine sediments
+Coral proxies
+Arctic sea ice
+Tide gauges
+Ocean buoys
+Cumulative emissions
+Per capita emissions
+Just transition
+Vulnerability
+Drought-tolerant crops
+Coastal afforestation
+Energy-balance models

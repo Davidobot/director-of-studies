@@ -1,0 +1,53 @@
+# STT vocabulary hints for Ecosystems And Biomes (A-level Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Biomes
+Ecosystems
+Tropical rainforest
+Tropical grassland
+Savanna
+Tundra
+Hadley cell
+Inter-Tropical Convergence Zone
+ITCZ
+Tropic of Cancer
+Tropic of Capricorn
+Atmospheric circulation
+Ocean currents
+Oxisols
+Mollisols
+Chernozems
+Gelisols
+Permafrost
+Active layer
+Thermokarst
+Shrub encroachment
+Peat
+Carbon dioxide
+CO2
+Methane
+Nutrient cycling
+Decomposition
+Autotrophs
+Litter
+Biomass
+Humus
+Seral stages
+Primary succession
+Secondary succession
+Pioneer species
+Plagioclimax
+Marram grass
+Foredunes
+Maritime woodland
+Agroforestry
+Selective logging
+Amazon Basin
+Tomé-Açu
+Breen Wood
+Arctic tundra
+Alaska
+Siberia
+Payment for ecosystem services
+Community-based management
+Carbon budget

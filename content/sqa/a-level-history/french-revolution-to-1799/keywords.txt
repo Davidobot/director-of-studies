@@ -1,0 +1,53 @@
+# STT vocabulary hints for French Revolution To 1799 (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+French Revolution
+Ancien Régime
+Estates‑General
+National Assembly
+Legislative Assembly
+Constitution of 1791
+Civil Constitution of the Clergy
+Declaration of the Rights of Man and Citizen
+August Decrees
+Storming of the Bastille
+July 1789
+October Days
+March on Versailles
+Flight to Varennes
+Louis XVI
+Émigrés
+Calonne
+Brienne
+Parlements
+War on Austria
+Brunswick Manifesto
+Insurrection of 10 August 1792
+Proclamation of the Republic
+Trial and execution of Louis XVI
+Vendean uprising
+Girondins
+Jacobins
+Montagnards
+Sans‑culottes
+Committee of Public Safety
+Robespierre
+Levée en masse
+Law of Suspects
+Reign of Terror
+Thermidor
+Thermidorian Reaction
+Constitution of Year III
+Directory
+Coup of 18 Brumaire
+November 1799
+Napoleon Bonaparte
+Sieyès
+Consulate
+Year VIII
+Dechristianisation
+Enlightenment
+American Revolution
+Feudal dues
+Abolition of feudal privileges
+Secularisation

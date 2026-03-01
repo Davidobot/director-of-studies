@@ -1,0 +1,43 @@
+# STT vocabulary hints for Enslaved People Greek Roman (A-level Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Athens
+Rome
+Roman Republic
+Roman Empire
+fifth-century BC Athens
+first-century BC
+first-century AD
+Spartacus uprising
+Sicilian slave uprisings
+Laurion silver mines
+latifundia
+manumission
+manumission rituals
+freedpeople
+freedmen
+freedwomen
+natural slavery
+Aristotle
+Scythian archers
+slave trade
+piracy
+debt bondage
+exposure (of children)
+runaway slaves
+slave uprisings
+mines and quarries
+gladiators
+galleys
+household attendants
+domestic service
+public slaves
+public administration
+direct democracy
+patronage
+papyri
+inscriptions
+historiography
+Greek tragedy
+Greek comedy
+Hellenistic

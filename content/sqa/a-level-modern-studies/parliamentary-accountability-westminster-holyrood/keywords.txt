@@ -1,0 +1,56 @@
+# STT vocabulary hints for Parliamentary Accountability Westminster Holyrood (A-level Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Parliamentary accountability
+Westminster
+Holyrood
+UK Parliament
+Scottish Parliament
+Prime Minister's Questions
+PMQs
+First Minister's Questions
+FMQs
+Ministerial responsibility
+Collective responsibility
+Vote of no confidence
+Devolution
+Devolution settlement
+Legislative consent motion
+Legislative competence
+Reserved powers
+Select committees
+Departmental select committees
+Public Accounts Committee
+Subject committees
+Committee scrutiny
+Pre-legislative scrutiny
+Secondary legislation
+House of Lords
+Revising chamber
+Scottish Government
+UK Government
+MPs
+MSPs
+Backbenchers
+Whips
+First Past the Post
+Additional Member System
+Proportional representation
+Evidence-based scrutiny
+Written questions
+Oral question time
+Legislative stages
+Inter-parliamentary negotiation
+Ministerial resignation
+Scottish Qualifications Authority
+SQA
+Modern Studies
+Paper 1
+Paper 2
+Targeted political advertising
+Misinformation
+Online petitioning
+Trade unions
+Brexit
+Pandemics
+Climate change

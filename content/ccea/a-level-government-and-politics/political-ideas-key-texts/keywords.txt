@@ -1,0 +1,57 @@
+# STT vocabulary hints for Political Ideas Key Texts (A-level Government and Politics CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+J. S. Mill
+On Liberty
+Harm Principle
+tyranny of the majority
+utilitarianism
+Edmund Burke
+Reflections on the Revolution in France
+French Revolution
+organic society
+intermediary bodies
+monarchy
+rule of law
+Burkean paternalism
+Marx and Engels
+The Communist Manifesto
+class struggle
+surplus value
+means of production
+proletariat
+bourgeoisie
+proletarian revolution
+Leninism
+vanguard party
+state socialism
+democratic socialism
+social democracy
+liberalism
+classical liberalism
+social liberalism
+neoliberalism
+Thatcherism
+monetarist economics
+privatisation
+deregulation
+negative liberty
+positive liberty
+paternalism
+welfare state
+nationalisation
+progressive taxation
+trade unionism
+civil liberties
+social cohesion
+communitarianism
+market failure
+redistribution
+economic calculation
+bureaucratisation
+authoritarianism
+constitutional crises
+pluralist institutions
+AO1
+AO2
+AO3

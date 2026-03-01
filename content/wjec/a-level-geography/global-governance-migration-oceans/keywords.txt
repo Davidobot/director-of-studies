@@ -1,0 +1,63 @@
+# STT vocabulary hints for Global Governance Migration Oceans (A-level Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Global governance
+Ocean commons
+Globalisation
+Causality
+Interdependence
+Resilience
+Sustainability
+Mitigation
+Labour migrants
+Remittances
+Diasporas
+Transnational networks
+Push factors
+Pull factors
+Freedom of movement
+Colonial ties
+Tertiary sector
+Quaternary sector
+Brain drain
+Refugees
+Internally displaced people
+UNHCR
+Asylum policies
+Externalisation of borders
+Syrian refugee flows
+Rohingya crisis
+Bangladesh
+Rural–urban migration
+Megacities
+Informal settlements
+Peri-urban
+Grassroots upgrading
+United Nations Convention on the Law of the Sea
+UNCLOS
+Territorial seas
+Exclusive economic zones
+High seas
+Deep seabed
+Chokepoints
+Suez Canal
+Panama Canal
+Sea lanes
+Arctic resource claims
+Containerisation
+Undersea cables
+Piracy
+Deep-sea mining
+Fisheries management
+Regional fisheries management organisations
+No-take zones
+Illegal, unreported and unregulated fishing
+IUU fishing
+Plastic gyres
+Microplastics
+Oil spills
+Marine protected areas
+Somali piracy
+Mediterranean migration routes
+Remittance economies
+EU labour mobility

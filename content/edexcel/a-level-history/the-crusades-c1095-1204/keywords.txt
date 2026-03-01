@@ -1,0 +1,52 @@
+# STT vocabulary hints for The Crusades C1095 1204 (A-level History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+First Crusade
+Second Crusade
+Third Crusade
+Fourth Crusade
+Outremer
+Kingdom of Jerusalem
+Edessa
+Antioch
+Tripoli
+Capture of Jerusalem 1099
+Fall of Jerusalem 1187
+Battle of Hattin
+Siege of Antioch 1098
+Siege of Acre
+Battle of Arsuf
+Krak des Chevaliers
+Templars
+Hospitallers
+Military orders
+Plenary indulgence
+Papal reform movement
+Council of Clermont
+Urban II
+Innocent III
+Alexius I Comnenus
+Alexius IV
+Godfrey of Bouillon
+Bohemund of Taranto
+Baldwin IV
+Leper King
+Louis VII
+Conrad III
+Frederick Barbarossa
+Richard I
+Philip II
+Zengi
+Nur ad-Din
+Saladin
+Seljuk Turks
+Fatimid Caliphate
+Byzantium
+Constantinople
+Sack of Constantinople 1204
+Enrico Dandolo
+Maritime republics
+Venice
+Genoa
+Levantine trade
+jihad

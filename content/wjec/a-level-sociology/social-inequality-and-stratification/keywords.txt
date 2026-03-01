@@ -1,0 +1,75 @@
+# STT vocabulary hints for Social Inequality And Stratification (A-level Sociology WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+WJEC
+Eduqas
+A-level
+A2
+AS
+social inequality
+stratification
+life chances
+social class
+cultural capital
+Bourdieu
+gender
+ethnicity
+social construction
+disability
+labelling
+educational attainment
+social gradients
+morbidity
+mortality
+NHS
+Wales
+Welsh Government
+devolution
+Welsh assemblies
+occupational segregation
+pay gaps
+precarious work
+globalisation
+Marxism
+neo-Marxist
+Weberian
+status
+party (Weber)
+feminist theory
+patriarchy
+postmodernism
+New Right
+meritocracy
+triangulation
+methodological pluralism
+quantitative methods
+qualitative methods
+surveys
+official statistics
+ethnography
+focus groups
+interviews
+sampling
+stratified sampling
+snowball sampling
+purposive sampling
+simple random sampling
+systematic sampling
+generalisation
+operationalisation
+informed consent
+confidentiality
+thematic analysis
+medicalisation
+social determinants
+biomedical model
+researcher identity
+measurement bias
+causality
+gatekeepers
+life expectancy
+cohabitation
+turnout
+AO1
+AO2
+AO3

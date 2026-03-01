@@ -1,0 +1,50 @@
+# STT vocabulary hints for Sociological Research Methods (GCSE Sociology CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Cambridge International
+GCSE
+IGCSE
+Sociological research
+Positivist
+Interpretivist
+Quantitative evidence
+Qualitative methods
+Structured survey
+Unstructured interview
+Semi-structured interview
+Participant observation
+Non-participant observation
+Overt observation
+Covert observation
+Primary data
+Secondary data
+Official statistics
+National census
+Operationalisation
+Pilot study
+Random sampling
+Systematic sampling
+Stratified sampling
+Quota sampling
+Snowball sampling
+Surveys
+Questionnaires
+Closed questions
+Scaled responses
+Interviewer bias
+Hawthorne effect
+Observer effect
+Informed consent
+Confidentiality
+Anonymising
+Parental consent
+Debriefing
+Triangulation
+Longitudinal research
+Coding transcripts
+Thematic analysis
+Reflexivity
+Correlation vs causation
+AO1
+AO2
+AO3

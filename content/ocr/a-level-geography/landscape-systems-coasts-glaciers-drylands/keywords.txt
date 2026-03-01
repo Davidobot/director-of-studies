@@ -1,0 +1,63 @@
+# STT vocabulary hints for Landscape Systems Coasts Glaciers Drylands (A-level Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+sediment budget
+mass balance
+longshore drift
+constructive waves
+destructive waves
+spits
+tombolos
+barrier beaches
+raised beaches
+marine terraces
+rias
+fjords
+shore platforms
+arches
+stacks
+sea walls
+groynes
+beach nourishment
+managed retreat
+managed realignment
+sediment cell
+Holderness coast
+Hurst Castle
+Thames estuary
+Severn estuary
+accumulation
+ablation
+sublimation
+calving
+plucking
+abrasion
+basal sliding
+internal deformation
+cold-based glacier
+warm-based glacier
+drumlins
+eskers
+kames
+outwash plains
+moraines
+erratics
+cirques
+arêtes
+pyramidal peaks
+patterned ground
+pingos
+solifluction
+aridity index
+barchan dunes
+wadis
+alluvial fans
+bajadas
+pluvial phases
+periglacial
+ventifacts
+yardangs
+GPS
+GIS
+Spearman's rank
+OCR specification

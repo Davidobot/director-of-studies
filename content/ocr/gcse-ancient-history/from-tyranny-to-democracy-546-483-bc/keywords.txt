@@ -1,0 +1,48 @@
+# STT vocabulary hints for From Tyranny To Democracy 546 483 Bc (GCSE Ancient History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Athens
+Samos
+Persia
+Cyrus
+Cambyses
+Darius
+Ionian
+Ionian Revolt
+Peisistratos
+Peisistratid
+Polycrates
+Hipparchus
+Harmodios
+Aristogeiton
+Hippias
+Sparta
+Maeandrius
+Syloson
+Cleisthenes
+Demes
+Tribes
+Boule
+Isegoria
+Ostracism
+Archonship
+Themistocles
+Miltiades
+Marathon
+Tyrannicides
+Temple of Hera
+Herodotus
+Thucydides
+Aristotle
+Athenian Constitution
+Plutarch
+Old Oligarch
+Ostraka
+Tyranny
+Democracy
+Aegean
+Navy
+Tribute
+Client rulers
+Patronage
+Garrison

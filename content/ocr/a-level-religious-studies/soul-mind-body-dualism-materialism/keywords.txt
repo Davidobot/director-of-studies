@@ -1,0 +1,46 @@
+# STT vocabulary hints for Soul Mind Body Dualism Materialism (A-level Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Plato
+Aristotle
+René Descartes
+Cartesian dualism
+res cogitans
+res extensa
+Forms
+Plato's cave
+Substance dualism
+Property dualism
+Interaction problem
+Conservation laws
+Qualia
+Intentionality
+First-person perspective
+Personal identity
+Moral responsibility
+Survival after death
+Type identity theory
+Token identity theory
+Functionalism
+Behaviourism
+Eliminative materialism
+Materialism
+Physicalism
+Emergentism
+Explanatory gap
+Knowledge argument
+Mary thought experiment
+Multiple realisability
+Zombie argument
+Neural correlates
+Neuroscience
+Brain states
+Brain transplant
+Near-death experiences
+Resurrection
+Divine action
+Folk psychology
+Non-reductive physicalism
+Psychological continuity
+Category mistake
+Ryle

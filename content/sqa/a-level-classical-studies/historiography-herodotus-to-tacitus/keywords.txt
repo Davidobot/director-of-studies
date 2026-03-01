@@ -1,0 +1,46 @@
+# STT vocabulary hints for Historiography Herodotus To Tacitus (A-level Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Herodotus
+Histories
+Persian Wars
+Ethnography
+Oral tradition
+Thucydides
+Peloponnesian War
+Periclean Funeral Oration
+Causation
+Eyewitness testimony
+Source discrimination
+Polybius
+Mixed constitution
+Roman institutions
+Livy
+Praefatio
+Exempla
+Lucretia
+Romulus
+Numa
+Pietas
+Gravitas
+Disciplina
+Tacitus
+Annals
+Imperial administration
+Political secrecy
+Propaganda
+Set speeches
+Rhetorical devices
+Documentary evidence
+Annalists
+Historiography
+Comparative analysis
+Institutional causes
+Statecraft
+Moralising
+Bias
+Causal explanation
+Autocracy
+Narrative selection
+Interpretative frames
+Rhetorical strategy

@@ -1,0 +1,48 @@
+# STT vocabulary hints for Offences Against Property Theft Robbery Burglary (A-level Law CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Theft Act 1968
+s1
+s9
+s9(1)(a)
+s9(1)(b)
+s10
+actus reus
+mens rea
+appropriation
+appropriation by deception
+dishonesty
+two-stage test
+intention to permanently deprive
+property
+things in action
+intangible property
+confidential information
+belonging to another
+proprietary interest
+possession
+control
+continuing act
+force or threat
+immediacy
+causal relationship
+minimal force
+robbery
+burglary
+trespasser
+substantial and effective entry
+partial entry
+building
+part of a building
+inhabited house
+aggravated burglary
+weapon of offence
+imitation firearm
+explosive
+grievous bodily harm
+indictable-only
+triable either way
+aggravating features
+sentencing considerations
+deception
+switching labels

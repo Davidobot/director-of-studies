@@ -1,0 +1,50 @@
+# STT vocabulary hints for The Third Reich Nazi Germany (GCSE History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Third Reich
+Nazi Germany
+Adolf Hitler
+Weimar Republic
+Treaty of Versailles
+Great Depression
+National Socialist German Workers' Party
+Nazi Party
+Reichstag Fire
+Enabling Act
+Gleichschaltung
+Führer
+Paul von Hindenburg
+Night of the Long Knives
+Sturmabteilung
+SA
+Schutzstaffel
+SS
+Gestapo
+Volksgemeinschaft
+Nuremberg Laws
+Kristallnacht
+Holocaust
+Einsatzgruppen
+Extermination camps
+Ghettos
+Aryan
+Four-Year Plan
+Hermann Göring
+Hjalmar Schacht
+Concordat
+Confessional Church
+Dietrich Bonhoeffer
+Martin Niemöller
+Hitler Youth
+League of German Girls
+Kinder, Küche, Kirche
+Operation Valkyrie
+July 20 plot
+White Rose
+Allied bombing
+Nuremberg Trials
+Denazification
+Autarky
+Rearmament
+Total war
+Crimes against humanity

@@ -1,0 +1,63 @@
+# STT vocabulary hints for Political Parties And Systems (A-level Politics EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Political parties
+Party systems
+Representative democracy
+United Kingdom
+Westminster
+Devolved institutions
+Conservative Party
+Tory tradition
+Benjamin Disraeli
+One-nation paternalism
+New Right
+Thatcherism
+Labour Party
+Labour Representation Committee
+New Labour
+Tony Blair
+Third Way
+Liberal Party
+Social Democratic Party
+Liberal Democrats
+Conservative-Liberal Democrat coalition 2010-2015
+Scottish National Party
+SNP
+general election
+Plaid Cymru
+Northern Ireland
+Power-sharing
+Green Party
+UKIP
+Brexit referendum 2016
+Scottish referendum
+Devolution
+First-past-the-post
+FPTP
+Additional Member System
+AMS
+Single Transferable Vote
+STV
+Proportional representation
+Marginal constituencies
+Safe seats
+Electoral pacts
+Coalition government
+Labour landslide
+Conservative majority
+Party finance
+Lobbyists
+Trade unions
+Think tanks
+Realignment
+Fragmentation
+Dealignment
+Floating voters
+Manifesto
+Policy commissions
+Nationalisation
+Market liberalisation
+Deregulation
+Civil liberties
+Identity politics

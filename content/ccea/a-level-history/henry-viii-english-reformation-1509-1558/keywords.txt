@@ -1,0 +1,47 @@
+# STT vocabulary hints for Henry Viii English Reformation 1509 1558 (A-level History CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Henry VIII
+English Reformation
+Tudor monarchy
+Catherine of Aragon
+Annulment
+Papacy
+Act of Supremacy
+Thomas Cromwell
+Valor Ecclesiasticus
+Thomas Cranmer
+Dissolution of the monasteries
+Priories
+Friaries
+Edward VI
+Mary I
+Elizabeth I
+Act of Six Articles
+Book of Common Prayer
+Prayer Book
+Ordinal (1552)
+Pilgrimage of Grace
+Marian burnings
+Wyatt's Rebellion
+Philip of Spain
+Oath of Supremacy
+Privy Council
+Chancery
+Administrative revolution
+Commissions of inquiry
+Transubstantiation
+Clerical celibacy
+Monastic lands
+Gentry
+Nobility
+Parish church
+Parish clergy
+Iconoclasm
+Marian exiles
+Continental Protestantism
+Humanism
+Ecclesiastical revenue
+Royal supremacy
+Legal break with Rome
+Marian persecutions

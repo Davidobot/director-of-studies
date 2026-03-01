@@ -1,0 +1,57 @@
+# STT vocabulary hints for Fieldwork Enquiry And Sampling (GCSE Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+WJEC
+Eduqas
+GCSE
+Unit 2
+Developing Fieldwork Skills
+six-stage enquiry model
+enquiry question
+hypothesis
+random sampling
+systematic sampling
+stratified sampling
+opportunistic sampling
+transect
+quadrat
+sampling frame
+pebble sieve
+clinometer
+flow meter
+timing sticks
+flow velocity
+channel width
+pebble size
+transect counts
+sound meter
+turbidity tube
+GPS
+GIS
+Ordnance Survey
+grid reference
+four-figure grid reference
+six-figure grid reference
+map scale
+choropleth map
+flow map
+hydrograph
+scatter plot
+correlation coefficient
+mean
+median
+range
+interquartile range
+discharge
+cross-sectional area
+attrition
+sorting
+primary data
+secondary data
+census data
+local authority report
+risk assessment
+informed consent
+sample size
+selection bias
+participant bias

@@ -1,0 +1,51 @@
+# STT vocabulary hints for Elements Of Crime Actus Reus And Mens Rea (A-level Law CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Actus reus
+Mens rea
+Cambridge International Law 9084
+A-level
+Conduct crimes
+Consequence crimes
+State of affairs offences
+Omissions liability
+Legal duty
+Statutory duty
+Contractual duty
+Special relationship
+Voluntary assumption of care
+Creation of a dangerous situation
+Factual causation
+But for test
+Legal causation
+Operating and substantial cause
+Novus actus interveniens
+Intervening act
+Medical negligence
+Acts of God
+Foreseeability
+Transferred malice
+Continuing act
+Series of acts
+Concurrence
+Intention
+Direct intention
+Oblique intention
+Virtually certain test
+Recklessness
+Subjective recklessness
+Knowledge (mens rea)
+Belief (mens rea)
+Dishonesty
+Wilfulness
+Strict liability
+Regulatory offences
+Specific intent
+Basic intent
+Voluntary intoxication
+Involuntary intoxication
+Automatism
+Criminal negligence
+Gross negligence manslaughter
+AO1 knowledge
+Cambridge assessment objectives

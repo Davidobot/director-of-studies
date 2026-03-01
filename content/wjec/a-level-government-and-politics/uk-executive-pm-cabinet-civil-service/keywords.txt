@@ -1,0 +1,46 @@
+# STT vocabulary hints for Uk Executive Pm Cabinet Civil Service (A-level Government and Politics WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Prime Minister
+Cabinet
+Civil Service
+Prime Minister's Office
+Cabinet Office
+royal prerogative
+collective responsibility
+ministerial responsibility
+permanent secretaries
+special advisers
+Fixed-term Parliaments Act 2011
+Brexit
+Conservative–Liberal Democrat coalition
+Margaret Thatcher
+Prime Minister's Questions
+judicial review
+Supreme Court
+Devolution
+Scotland
+Wales
+Northern Ireland
+COVID-19 pandemic
+Whitehall
+core executive
+kitchen cabinet
+Cabinet committees
+plenary Cabinet meetings
+ministerial appointments
+patronage
+political neutrality
+administrative continuity
+select committees
+House of Commons
+backbenchers
+party factions
+coalition partners
+ministerial code
+lobbying
+referendums
+emergency powers
+scientific advisers
+parliamentary arithmetic
+public inquiries

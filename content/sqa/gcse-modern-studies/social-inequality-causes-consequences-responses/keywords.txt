@@ -1,0 +1,52 @@
+# STT vocabulary hints for Social Inequality Causes Consequences Responses (GCSE Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+UK
+Scottish Qualifications Authority
+SQA
+GCSE
+Modern Studies
+social inequality
+relative income poverty
+income distribution
+wealth inequality
+income poverty rates
+child poverty
+child poverty levels
+social mobility
+life chances
+life expectancy differentials
+educational attainment gaps
+catchment areas
+early years education
+apprenticeship programmes
+job‑training
+zero‑hours contracts
+temporary contracts
+part‑time contracts
+minimum wage
+living wage
+progressive tax
+social security benefits
+social security top‑ups
+welfare conditionality
+sanctions
+redistribution
+public spending
+targeted policies
+universal policies
+cliff edges
+institutional inequalities
+discrimination
+corporate social responsibility
+voluntary sector
+charities
+food banks
+housing support
+post‑industrial towns
+deprived urban neighbourhoods
+concentrated disadvantage
+social cohesion
+devolved governments
+devolution
+geographic inequality

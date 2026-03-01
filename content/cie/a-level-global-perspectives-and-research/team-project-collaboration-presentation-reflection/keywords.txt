@@ -1,0 +1,45 @@
+# STT vocabulary hints for Team Project Collaboration Presentation Reflection (A-level Global Perspectives & Research CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Cambridge International
+A-level Global Perspectives & Research
+Component 3
+Team Project
+Critical Path
+AO1
+AO2
+AO3
+Deconstruction
+Reconstruction
+Reflection
+Metacognition
+Single-use plastic
+Informal waste collectors
+Informal recyclers
+Municipal policy
+Microplastics
+Consumer behaviour
+Primary research
+Secondary research
+Methodology
+Provenance
+Sample sizes
+Generalisability
+Verbatim transcript
+Declaration of Authenticity
+Assessment objectives
+Reflective paper
+Audio/visual
+NGO reports
+Policy documents
+Ethical considerations
+Authenticity rules
+Research log
+Summative task
+Individual contribution
+Source triangulation
+Stakeholders
+Informal economy
+Livelihood impacts
+Infographics
+Examiners

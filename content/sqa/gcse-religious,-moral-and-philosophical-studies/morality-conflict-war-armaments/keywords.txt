@@ -1,0 +1,60 @@
+# STT vocabulary hints for Morality Conflict War Armaments (GCSE Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Morality and Conflict
+Armaments
+GCSE
+Scottish Qualifications Authority
+Interstate war
+Civil war
+Asymmetric conflict
+Insurgency
+Terrorist organisations
+Border dispute
+Truth and reconciliation
+Conventional war
+Guerrilla tactics
+Total war
+Cyber warfare
+Economic coercion
+Proxy war
+Just War theory
+Augustine
+Aquinas
+jus ad bellum
+jus in bello
+Legitimate authority
+Right intention
+Last resort
+Proportionality
+Discrimination (combatant distinction)
+Non-combatants
+Roman Catholic Church
+Classical jurists
+International Humanitarian Law
+Geneva Conventions
+Hague Conventions
+International Criminal Court
+War crimes
+Crimes against humanity
+Drone strikes
+Sovereignty
+Autonomous lethal weapons
+Killer robots
+Precision-guided munitions
+Smart weapons
+Drones
+Deterrence
+Nuclear weapons
+Chemical weapons
+Biological weapons
+Scorched earth
+Global arms trade
+Sanctions
+Apartheid South Africa
+Camp David Accords
+United Nations
+Peacekeeping
+Quakers
+Conscientious objection
+National 5

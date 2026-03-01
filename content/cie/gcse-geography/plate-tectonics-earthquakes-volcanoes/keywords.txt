@@ -1,0 +1,62 @@
+# STT vocabulary hints for Plate Tectonics Earthquakes Volcanoes (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Plate tectonics
+Pacific Ring of Fire
+Mid-Atlantic Ridge
+East African Rift
+Subduction
+Japan subduction zone
+Andes
+San Andreas Fault
+Transform boundary
+Divergent boundary
+Convergent boundary
+Constructive margin
+Destructive margin
+Lithosphere
+Mantle
+Asthenosphere
+Inner core
+Outer core
+Slab pull
+Ridge push
+Mantle plume
+Hotspot
+Hawaii
+Mauna Loa
+Shield volcano
+Stratovolcano
+Andesitic
+Rhyolitic
+Basaltic
+Magma chamber
+Focus (hypocentre)
+Epicentre
+P waves
+S waves
+Surface waves
+Seismograph
+Seismometer networks
+Moment magnitude (Mw)
+Richter scale
+Modified Mercalli Intensity
+Tsunami
+Pyroclastic flow
+Lahar
+Ash fall
+Lava flow
+Mount St Helens
+Tōhoku earthquake and tsunami
+Haiti earthquake
+Mount Pinatubo
+Fissure volcanism
+Island arc
+Geothermal energy
+Tiltmeter
+GPS measurements
+Ground deformation
+Pyroclastic material
+Oceanic trench
+Oceanic crust
+Continental mountain chains

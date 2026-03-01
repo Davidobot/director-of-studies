@@ -1,0 +1,56 @@
+# STT vocabulary hints for Northern Ireland 1965 98 Troubles And Peace (GCSE History CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Northern Ireland
+The Troubles
+Terence O'Neill
+Republic of Ireland
+Ian Paisley
+Northern Ireland Civil Rights Association
+NICRA
+People's Democracy
+Royal Ulster Constabulary
+RUC
+Ulster Volunteer Force
+UVF
+Ulster Defence Association
+UDA
+Internment without trial
+Bloody Sunday
+Derry
+Stormont
+Direct rule
+British Army
+Provisional IRA
+Irish Republican Army
+Bobby Sands
+Hunger strikes 1980–1981
+Sinn Féin
+Electoralism
+Ulster Workers' Council
+Sunningdale Agreement
+Council of Ireland
+Power-sharing Executive
+Anglo-Irish Agreement
+Margaret Thatcher
+Garret FitzGerald
+Hume–Adams contacts
+John Hume
+Gerry Adams
+Downing Street Declaration
+John Major
+Albert Reynolds
+Good Friday Agreement
+Belfast Agreement
+North–South Ministerial Council
+Decommissioning
+George Mitchell
+Referendums May 1998
+Partition
+Gerrymandering
+Sectarianism
+SDLP
+Loyalist paramilitaries
+Unionist
+GCSE
+CCEA

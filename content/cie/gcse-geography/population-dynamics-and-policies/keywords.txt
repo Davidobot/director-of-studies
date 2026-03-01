@@ -1,0 +1,62 @@
+# STT vocabulary hints for Population Dynamics And Policies (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Demographic Transition Model
+DTM
+Stage 1
+Stage 2
+Stage 3
+Stage 4
+Stage 5
+Natural change
+Net migration
+Birth rate
+Death rate
+Fertility rate
+Replacement level
+Dependency ratio
+Population pyramid
+Age structure
+Population density
+Population distribution
+Settlement hierarchy
+Nucleated settlement
+Dispersed settlement
+Linear settlement
+Urbanisation
+Rural-to-urban migration
+Push-pull model
+Remittances
+Central Business District
+CBD
+Squatter settlements
+Slums
+Urban sprawl
+Greenfield
+Megacities
+One-child policy
+Anti-natalist policy
+Pro-natalist policy
+Family planning
+Sterilisation campaigns
+Contraception
+Parental leave
+Subsidised childcare
+Labour shortages
+Ageing population
+Vaccination campaigns
+Decentralisation
+Selective migration
+Retirement age
+Life expectancy
+Niger
+Japan
+China
+India
+France
+Scandinavia
+Singapore
+Lagos
+Dhaka
+Syria
+Europe

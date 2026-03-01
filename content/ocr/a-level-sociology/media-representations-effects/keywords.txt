@@ -1,0 +1,54 @@
+# STT vocabulary hints for Media Representations Effects (A-level Sociology OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Stuart Hall
+Stanley Cohen
+Paul Lazarsfeld
+Jean Baudrillard
+Erving Goffman
+Mods and Rockers
+Global village
+Encoding/decoding
+Hypodermic-syringe model
+Two-step flow
+Uses and gratifications
+Reception studies
+Cultivation theory
+Moral panic
+Deviance amplification
+Symbolic annihilation
+Objectification
+Simulation
+Hyperreality
+Algorithmic curation
+Echo chambers
+Misinformation
+Glocalisation
+Media convergence
+Cultural homogenisation
+Gatekeeping
+Framing
+Sourcing
+Content analysis
+Ethnography
+Participant observation
+Focus groups
+Triangulation
+Experimental methods
+Ecological validity
+Audience studies
+Opinion leaders
+Folk devils
+Sensationalism
+Personalization
+Ruling-class ideology
+Ownership concentration
+Pluralist perspective
+Neo-Marxist
+Feminist approaches
+Postmodernist theory
+Dramaturgical
+Influencer culture
+AO1
+AO2
+AO3

@@ -1,0 +1,63 @@
+# STT vocabulary hints for Usa 1945 1974 (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+USA
+United States
+Second World War
+Cold War
+Soviet Union
+GI Bill
+Levittown
+Suburbanisation
+Mass consumer culture
+Red Scare
+Julius Rosenberg
+Ethel Rosenberg
+Joseph McCarthy
+J. Edgar Hoover
+Jim Crow
+Desegregation
+Brown v. Board of Education
+Montgomery Bus Boycott
+Martin Luther King Jr.
+Little Rock Nine
+Sit-ins
+Freedom Rides
+March on Washington for Jobs and Freedom
+I Have a Dream
+NAACP
+Civil Rights Act 1964
+Voting Rights Act 1965
+New Left
+Malcolm X
+Black Power
+Watts riots
+Detroit 1967
+Vietnam War
+Students for a Democratic Society
+SDS
+Teach-ins
+Tet Offensive 1968
+Great Society
+Medicare
+Medicaid
+Vietnamisation
+Law and order
+Richard Nixon
+Watergate
+Second-wave feminism
+Betty Friedan
+National Organization for Women
+Equal Pay Act 1963
+Title VII
+Stonewall riots 1969
+Gay liberation
+Freedom Summer
+Urban renewal
+De facto segregation
+Civil disobedience
+SPaG
+AO1
+AO2
+AO3
+AO4

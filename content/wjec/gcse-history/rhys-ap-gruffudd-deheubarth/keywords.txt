@@ -1,0 +1,50 @@
+# STT vocabulary hints for Rhys Ap Gruffudd Deheubarth (GCSE History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Rhys ap Gruffudd
+Lord Rhys
+Deheubarth
+Rhys ap Tewdwr
+Gruffydd ap Rhys
+Gwenllian ferch Madog ap Maredudd
+Powys
+Gwynedd
+Henry II
+Richard I
+Prince John
+Roger de Mortimer
+Hugh de Say
+Maelgwn
+Rhys Gryg
+Maredudd
+Justiciar of South Wales
+Eisteddfod of 1176
+Cardigan Castle
+Cardigan assembly
+Strata Florida
+Gerald of Wales
+Marcher lords
+Welsh Marches
+Norman colonisation
+Anglo-Norman
+Carmarthen
+Tenby
+Ceredigion
+Pembroke
+Haverfordwest
+Gower
+St Clears
+Laugharne
+Llansteffan
+Nevern
+Colwyn
+Radnor
+Gloucester (1175)
+Oxford (1177)
+Monastic patronage
+Excommunication
+St David’s
+Norman conquest of England
+Welsh princely families
+Eisteddfod tradition
+Medieval Wales

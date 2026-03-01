@@ -1,0 +1,57 @@
+# STT vocabulary hints for Nea Topic Based Essay Skills Y100 (A-level History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+NEA
+Topic-based essay
+Unit Y100
+A-level History
+OCR
+Oxford Cambridge and RSA
+AO1
+AO2
+AO3
+Synoptic
+Title(s) Proposal tool
+January
+centre
+Depth-study interpretation topics
+Primary sources
+Secondary works
+Printed pamphlets
+Government records
+Quantitative data
+Visual material
+Contemporary documents
+Archival searches
+Library loans
+Convenience sampling
+Bibliographic details
+Referencing
+Bibliography
+Provenance
+Corroboration
+Partiality
+Utility
+Reliability
+Contextualization
+Historiography
+Historiographical development
+Historiographical conversation
+Revisionist
+Traditional
+Marxist
+Cultural history
+Post-colonial
+Interpretation-evaluation
+Authentication
+JCQ
+Plagiarism
+Malpractice
+Moderated upload
+Moderated postal
+Carry forward
+Carry-forward entry code
+Substantiated judgement
+Signposting sentences
+Research plan
+Assessment criteria

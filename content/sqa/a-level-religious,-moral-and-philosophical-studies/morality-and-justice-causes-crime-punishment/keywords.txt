@@ -1,0 +1,51 @@
+# STT vocabulary hints for Morality And Justice Causes Crime Punishment (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Qualifications Authority
+Religious, Moral and Philosophical Studies
+Morality
+Justice
+Crime
+Punishment
+Environmental explanations
+Social exclusion
+Community cohesion
+Social learning theory
+Developmental psychology
+Attachment problems
+Cognitive distortions
+Impulsivity
+Low empathy
+Mental illness
+Psychiatric conditions
+Rehabilitation
+Reformation
+Retribution
+Deterrence
+Specific deterrence
+General deterrence
+Incapacitation
+Custodial sentences
+Non-custodial sentences
+Restorative justice
+Capital punishment
+Sanctity of life
+Wrongful execution
+Sharia
+Kamma (karma)
+Teshuva
+Dharma
+Rabbinic tradition
+Gospel
+Utilitarianism
+Kantian deontology
+Human rights
+Recidivism
+Indeterminate detention
+Life imprisonment without parole
+Juvenile justice
+Proportionality
+Community policing
+Community service
+Probation
+Fines

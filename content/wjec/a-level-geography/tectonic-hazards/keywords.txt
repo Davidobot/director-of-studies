@@ -1,0 +1,58 @@
+# STT vocabulary hints for Tectonic Hazards (A-level Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Tectonic hazards
+Lithosphere
+Asthenosphere
+Mantle convection
+Slab pull
+Ridge push
+Divergent margin
+Mid-ocean ridge
+Continental rift
+Convergent margin
+Subduction zone
+Transform margin
+Hotspot volcanism
+Mantle plume
+Shield volcano
+Stratovolcano
+Mafic magma
+Basaltic magma
+Andesitic magma
+Rhyolitic magma
+Effusive eruption
+Explosive eruption
+Pyroclastic density current
+Pyroclastic flow
+Lahar
+Jökulhlaup
+Ash plume
+Ballistic fragments
+Volcanic gases
+Lava flow
+Seismic networks
+InSAR
+GPS monitoring
+Moment magnitude (Mw)
+Modified Mercalli Intensity
+P waves
+S waves
+Surface waves
+Liquefaction
+Megathrust earthquake
+Deep-focus earthquake
+Foreshocks
+Tsunami
+Shallow-water wave
+DART arrays
+Run-up
+Indian Ocean tsunami
+Tōhoku tsunami
+Eyjafjallajökull 2010
+Mount Pinatubo 1991
+Kīlauea
+Hazard management cycle
+Resilience
+Mitigation
+Adaptation

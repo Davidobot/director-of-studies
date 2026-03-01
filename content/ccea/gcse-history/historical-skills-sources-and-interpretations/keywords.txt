@@ -1,0 +1,41 @@
+# STT vocabulary hints for Historical Skills Sources And Interpretations (GCSE History CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Council for the Curriculum, Examinations and Assessment
+AO1
+AO2
+AO3
+AO4
+Contemporary source
+Provenance
+Usefulness
+Bias
+Reliability
+Corroboration
+Contradiction
+Contextual knowledge
+Second-order concepts
+Continuity and change
+Cause and consequence
+Significance
+Similarity and difference
+Interpretation
+Historian
+Enabling Act
+Nazi Germany
+Nazi propaganda
+Ministry of Propaganda
+Hooverville
+Wall Street Crash
+Great Depression
+Cold War
+Berlin blockade
+Truman Doctrine
+Marshall Plan
+Eastern Europe
+Northern Ireland
+The Troubles
+Government memo
+Propaganda poster
+Statistical table

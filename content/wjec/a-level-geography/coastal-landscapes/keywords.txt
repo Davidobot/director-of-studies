@@ -1,0 +1,63 @@
+# STT vocabulary hints for Coastal Landscapes (A-level Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Coastal sediment cell
+Sediment budget
+Longshore drift
+Traction
+Saltation
+Hydraulic action
+Abrasion
+Wave propagation
+Wave refraction
+Fetch
+Bathymetry
+Tidal regime
+Tidal currents
+Intertidal zone
+Constructive wave
+Destructive wave
+Sub-aerial processes
+Mass movement
+Rockfall
+Landslide
+Dynamic equilibrium
+Feedbacks
+Thresholds
+Mitigation
+Adaptation
+Resilience
+Lithology
+Bedding
+Jointing
+Faults
+Folding
+Headland
+Arch
+Stack
+Wave-cut platform
+Pembrokeshire
+Gower Peninsula
+Chesil Beach
+Severn Estuary
+Spit
+Tombolo
+Tidal flat
+Saltmarsh
+Aeolian processes
+Dune zonation
+Mangrove forest
+Sundarbans
+Coral reef
+Eustatic sea-level change
+Isostatic adjustment
+Managed realignment
+Medmerry
+Integrated Coastal Zone Management
+Shoreline Management Plan
+Groyne
+Seawall
+Beach nourishment
+Offshore dredging
+Coastal squeeze
+GIS

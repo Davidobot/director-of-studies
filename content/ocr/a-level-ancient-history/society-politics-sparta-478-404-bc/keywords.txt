@@ -1,0 +1,43 @@
+# STT vocabulary hints for Society Politics Sparta 478 404 Bc (A-level Ancient History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Sparta
+Spartiates
+Perioikoi
+Helots
+Kleros
+Agoge
+Krypteia
+Ephors
+Ephorate
+Gerousia
+Apella
+Syssitia
+Hoplite
+Phalanx
+Hoplite phalanx
+Peloponnesian League
+Peloponnesian War
+Persian invasions
+Hellenic League
+Mantinea 418 BC
+Sphacteria
+Pylos 425 BC
+Brasidas
+Lysander
+Corinth
+Peloponnese
+Messenia
+Laconia
+Satrapal support
+Persia
+Oligarchy
+Dual kingship
+Oliganthropia
+Helot revolt 465–464 BC
+Spartan mirage
+Thucydides
+Xenophon
+Plutarch
+Archaeology
+Inscriptions

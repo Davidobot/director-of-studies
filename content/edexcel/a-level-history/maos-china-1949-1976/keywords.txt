@@ -1,0 +1,54 @@
+# STT vocabulary hints for Maos China 1949 1976 (A-level History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Mao Zedong
+Chinese Communist Party
+CCP
+People’s Republic of China
+PRC
+People’s Liberation Army
+PLA
+Land reform
+Laogai
+Hundred Flowers Movement
+Anti-Rightist Campaign
+Three Antis
+Five Antis
+Korean War
+First Five-Year Plan
+Five-Year Plan
+Soviet aid
+Sino-Soviet relations
+State-owned enterprises
+Planned economy
+Collectivisation
+Cooperatives
+Communes
+Great Leap Forward
+Backyard furnaces
+Great Famine
+Procurement quotas
+Liu Shaoqi
+Deng Xiaoping
+Zhou Enlai
+Cultural Revolution
+Red Guards
+Four Olds
+Struggle sessions
+Lin Biao
+Gang of Four
+Down to the Countryside Movement
+Sent-down youth
+Barefoot doctors
+Marriage Law 1950
+Socialist realism
+Mass mobilisation
+Household plots
+Political purges
+Political rehabilitation
+Literacy campaigns
+Urban industrialisation
+Steel production
+Political reliability
+Permanent revolution
+Economic rehabilitation

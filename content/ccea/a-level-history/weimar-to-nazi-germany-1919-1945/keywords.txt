@@ -1,0 +1,58 @@
+# STT vocabulary hints for Weimar To Nazi Germany 1919 1945 (A-level History CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Weimar Republic
+Weimar Constitution
+Treaty of Versailles
+Reparations
+Hyperinflation 1923
+Occupation of the Ruhr
+Gustav Stresemann
+Rentenmark
+Dawes Plan
+Locarno Treaties
+League of Nations
+Golden Years
+Proportional representation
+Kapp Putsch
+Communist uprisings 1919
+Wall Street Crash 1929
+Heinrich Brüning
+Article 48
+Nazi Party
+Adolf Hitler
+Reichstag
+Reichstag Fire
+Reichstag Fire Decree
+Enabling Act
+Gleichschaltung
+SA
+Night of the Long Knives
+Hindenburg
+Führer
+Führerprinzip
+Four Year Plan
+Göring
+Volksgemeinschaft
+Nuremberg Laws
+Remilitarisation of the Rhineland
+Spanish Civil War
+Anschluss
+Munich settlement
+Sudetenland
+Kristallnacht
+Lebensraum
+Joseph Goebbels
+degenerate art
+Gestapo
+Generalplan Ost
+Einsatzgruppen
+Final Solution
+Wannsee Conference
+Holocaust
+White Rose
+Kreisau Circle
+July 1944 assassination attempt
+Allied strategic bombing
+Denazification
+Forced labour

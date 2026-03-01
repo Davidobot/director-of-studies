@@ -1,0 +1,55 @@
+# STT vocabulary hints for Russia 1894 1941 (A-level History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Nicholas II
+October Manifesto
+February Revolution
+October Revolution
+Bolsheviks
+Mensheviks
+Provisional Government
+Petrograd Soviet
+Duma
+Stolypin
+Stolypin reforms
+Russo-Japanese War
+Bloody Sunday
+First World War
+Treaty of Brest‑Litovsk
+War Communism
+New Economic Policy
+NEP
+Kronstadt Rising
+Red Army
+Leon Trotsky
+Vladimir Lenin
+Joseph Stalin
+Five Year Plans
+Collectivisation
+Dekulakisation
+Holodomor
+Great Purge
+Great Terror
+Gulag
+Molotov–Ribbentrop Pact
+Winter War
+Operation Barbarossa
+Comintern
+Constituent Assembly
+Kornilov Affair
+July Days
+Mir
+Redemption payments
+Emancipation of 1861
+Fundamental Law 1906
+Show trials
+Cult of personality
+Industrialisation
+Heavy industry
+Nationalities
+Socialism in One Country
+Permanent Revolution
+St Petersburg
+Moscow
+Y219
+Y318

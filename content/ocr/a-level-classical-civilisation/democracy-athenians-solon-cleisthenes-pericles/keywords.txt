@@ -1,0 +1,40 @@
+# STT vocabulary hints for Democracy Athenians Solon Cleisthenes Pericles (A-level Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Solon
+Cleisthenes
+Pericles
+Ephialtes
+Draco
+Thucydides
+Aristophanes
+Plato
+Pseudo-Xenophon
+Old Oligarch
+Areopagus
+Boule
+Boule of 500
+Ekklesia
+Assembly
+Demes
+Tribes
+Sortition
+Ostracism
+Seisachtheia
+Debt-slavery
+Archons
+Magistracies
+Juries
+Jury pay
+People's courts
+Legal speeches
+Inscriptions
+Periclean building programme
+Athenian Empire
+Peloponnesian War
+Demagogues
+Oligarchy
+Polis
+Citizenship laws
+Property classes
+Appeal

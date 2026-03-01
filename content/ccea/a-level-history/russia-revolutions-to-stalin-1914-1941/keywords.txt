@@ -1,0 +1,43 @@
+# STT vocabulary hints for Russia Revolutions To Stalin 1914 1941 (A-level History CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Romanov
+Nicholas II
+February Revolution
+October Revolution
+Petrograd
+Dual Power
+Provisional Government
+Soviets
+Bolsheviks
+Lenin
+Peace, Land and Bread
+All Power to the Soviets
+Kornilov affair
+July Days
+Trotsky
+Red Guard
+Red Army
+White movement
+Russian Civil War
+War Communism
+Kronstadt mutiny
+New Economic Policy
+NEP
+Cheka
+Decree on Land
+Leninism
+General Secretary
+Stalin
+Five-Year Plans
+Gosplan
+Collectivisation
+Grain requisitioning
+Mass deportations
+Ukrainian famine 1932–33
+Holodomor
+Show trials
+Great Purge
+Gulag
+Cult of personality
+Bureaucratic centralisation

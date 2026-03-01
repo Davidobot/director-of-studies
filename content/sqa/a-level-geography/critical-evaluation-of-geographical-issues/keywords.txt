@@ -1,0 +1,50 @@
+# STT vocabulary hints for Critical Evaluation Of Geographical Issues (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Qualifications Authority
+SQA
+Advanced Higher
+project folio
+Ordnance Survey
+atlas
+coastal management
+shoreline mapping
+beach profile
+fracking
+environmental impact assessment
+groundwater quality
+seismic records
+urban regeneration
+municipal policy
+housing market
+spatial scale
+systems thinking
+human–environment interaction
+triangulation
+peer-reviewed
+sampling methods
+sample size
+statistical tests
+inferential statistics
+descriptive statistics
+remote sensing
+satellite imagery
+aerial photography
+map projection
+map scale
+relief
+mapped symbols
+fieldwork
+field notebooks
+qualitative data
+quantitative data
+representativeness
+methodology
+internal logic
+external corroboration
+weighting evidence
+credibility
+literature context
+research log
+bibliography
+ethical considerations

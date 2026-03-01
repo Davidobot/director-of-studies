@@ -1,0 +1,48 @@
+# STT vocabulary hints for Origins Us Civil War 1846 1861 (A-level History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Mexican–American War
+Treaty of Guadalupe Hidalgo
+Mexican Cession
+California
+New Mexico
+American Southwest
+Missouri Compromise (1820)
+Wilmot Proviso (1846)
+Compromise of 1850
+Fugitive Slave Act (1850)
+Personal liberty laws
+Underground Railroad
+Uncle Tom's Cabin
+Harriet Beecher Stowe
+Kansas–Nebraska Act (1854)
+Stephen A. Douglas
+Popular sovereignty
+Transcontinental railroad
+Bleeding Kansas
+Sacking of Lawrence
+Pottawatomie Massacre
+John Brown
+Border ruffians
+Whig Party
+Republican Party
+Free-Soilers
+Dred Scott v. Sandford (1857)
+Lecompton Constitution
+Lecompton controversy
+Harpers Ferry raid
+Abraham Lincoln
+presidential election
+Secession
+Confederate States of America
+Jefferson Davis
+Fort Sumter
+April 1861
+Lincoln’s call for 75,000 volunteers
+States’ rights
+Sectionalism
+Plantation slavery
+Cotton economy
+John C. Calhoun
+William H. Seward
+Political realignment

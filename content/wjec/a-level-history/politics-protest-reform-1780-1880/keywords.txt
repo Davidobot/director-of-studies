@@ -1,0 +1,47 @@
+# STT vocabulary hints for Politics Protest Reform 1780 1880 (A-level History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Industrial Revolution
+French Revolution
+Napoleonic Wars
+Rotten boroughs
+Pocket boroughs
+Enclosure
+Mechanisation
+Industrialisation
+Merthyr
+Merthyr Rising 1831
+South Wales coalfield
+Manchester
+Birmingham
+Peterloo Massacre
+Six Acts
+Lord Liverpool
+Liberal Tories
+Whigs
+Earl Grey
+Reform Act 1832
+Chartism
+People's Charter
+Newport Rising 1839
+Captain Swing
+Rebecca Riots
+Factory Act 1833
+Poor Law Amendment Act 1834
+Workhouse test
+Public Health Act 1848
+Mines Act 1842
+Sir Robert Peel
+Corn Laws
+Repeal of the Corn Laws 1846
+Anti-Corn Law League
+William Gladstone
+Benjamin Disraeli
+Second Reform Act 1867
+Electoral redistribution
+Universal manhood suffrage
+Secret ballot
+Payment for MPs
+Property qualifications
+Electoral districts
+Radicals

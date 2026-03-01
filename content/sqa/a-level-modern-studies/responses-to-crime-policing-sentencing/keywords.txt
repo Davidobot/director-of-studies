@@ -1,0 +1,58 @@
+# STT vocabulary hints for Responses To Crime Policing Sentencing (A-level Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Qualifications Authority
+Modern Studies
+Advanced Higher
+Scotland
+United Kingdom
+United States
+Nordic systems
+Violence Reduction Unit
+Glasgow Violence Reduction Unit
+VRU
+Community Payback Orders
+CPOs
+Community justice
+Community policing
+Hotspot policing
+Intelligence-led policing
+Stop-and-search
+Stop-and-search powers
+Biometric data retention
+Electronic monitoring
+Restriction of liberty orders
+Restorative justice
+Victimisation surveys
+Police-recorded crime
+Dark figure
+Moral panic
+Subcultural theory
+Social learning theory
+Labelling theory
+Strain theory
+Conflict theory
+Right realism
+Left realism
+Rehabilitation
+Deterrence
+Incapacitation
+Retributive justice
+Denunciation
+Custodial sentences
+Short custodial sentences
+Mass incarceration
+White-collar offences
+Organised crime
+Youth offending
+Public health approach
+Multi-agency working
+Third sector
+Victim support services
+Longitudinal studies
+Participant observation
+Qualitative methods
+Judicial frameworks
+Independent judiciary
+Fair trial rights
+Devolved criminal justice

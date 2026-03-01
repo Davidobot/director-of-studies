@@ -1,0 +1,61 @@
+# STT vocabulary hints for Education Role Curriculum Social Mobility (A-level Sociology CIE).
+# One term per line. Used to improve speech recognition quality.
+
+A-level
+Cambridge International
+Sociology
+Emile Durkheim
+Parsons
+Functionalism
+Marxism
+Neo-Marxist
+Bowles and Gintis
+Correspondence principle
+Feminism
+Liberal feminism
+Radical feminism
+Marxist feminism
+New Right
+Social democratic perspectives
+Bourdieu
+Cultural capital
+Habitus
+Meritocracy
+Role allocation
+Hidden curriculum
+Formal curriculum
+Null curriculum
+Ethnocentric curriculum
+Gendered curriculum
+Vocational routes
+Marketisation
+Parental choice
+League tables
+Academies
+Selective schooling
+Grammar schools
+Human capital
+Credentials
+Absolute mobility
+Relative mobility
+Scholarships
+Bursaries
+Compensatory education
+Outreach programmes
+Progressive taxation
+Streaming
+Setting
+Labelling theory
+Ethnography
+Longitudinal studies
+Triangulation
+Representativeness
+Reliability
+Validity
+GCSE
+Crisis of masculinity
+IQ testing
+Cultural reproduction
+Social solidarity
+Life-course
+Labour market

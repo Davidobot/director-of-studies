@@ -1,0 +1,55 @@
+# STT vocabulary hints for Sources And Principles Of English Law (A-level Law CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Common law
+Civil law
+Religious law
+Customary law
+Law of England and Wales
+Precedent
+Parliament
+Acts of Parliament
+Rule of law
+Diceyan sovereignty
+Human Rights Act 1998
+Convention rights
+European Union law
+Retained EU law
+Law Commission
+Delegated legislation
+Statutory instruments
+By‑laws
+Orders in Council
+Judicial review
+Ultra vires
+Procedural impropriety
+Wednesbury unreasonableness
+Statutory interpretation
+Literal rule
+Golden rule
+Mischief rule
+Purposive approach
+Intrinsic aids
+Extrinsic aids
+Pepper v Hart
+Hansard
+Ratio decidendi
+Obiter dicta
+Stare decisis
+Practice Statement 1966
+Supreme Court
+House of Lords
+Court of Appeal
+Young v Bristol Aeroplane Co
+Factortame
+PACE codes
+Actus reus
+Mens rea
+Damages
+Injunctions
+Royal Assent
+Green paper
+White paper
+Affirmative resolution
+Negative resolution
+Scrutiny committees

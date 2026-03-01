@@ -1,0 +1,49 @@
+# STT vocabulary hints for Women In Athens And Rome (A-level Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Athens
+Rome
+Athenian
+Roman
+fifth-century BC
+first century BC
+first century AD
+kyrios
+epikleros
+oikos
+Assembly
+Council
+courts
+manus
+cum manu
+sine manu
+sui iuris
+Dowry
+Panathenaia
+Thesmophoria
+Vestal Virgins
+Bona Dea
+Athena
+Demeter
+metics
+freedwomen
+manumission
+enslaved women
+slave uprisings
+Augustus
+Augustan marriage laws
+Livia
+Agrippina
+Antigone
+Medea
+epigraphic evidence
+archaeological evidence
+patronage
+imperial cult
+mystery cults
+textile production
+wet-nurses
+midwives
+magistracies
+legal guardianship
+adoption

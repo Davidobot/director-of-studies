@@ -1,0 +1,47 @@
+# STT vocabulary hints for Britain 1900 1951 (A-level History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Britain 1900–1951
+Liberal social reforms
+Liberal Party
+Conservative Party
+Labour Party
+Representation of the People Act 1918
+Franchise extension 1918
+National Insurance Act 1911
+Old Age Pension
+Free school meals
+First World War
+Second World War
+General Strike 1926
+Great Depression
+National Government 1931
+Appeasement
+Munich Agreement 1938
+Rearmament programme
+Wartime coalition
+Winston Churchill
+Clement Attlee
+Beveridge Report 1942
+Five Giants
+National Health Service (NHS)
+Attlee government
+Nationalisation
+Coal industry
+Railway nationalisation
+Utilities nationalisation
+Butler Education Act 1944
+Council house building
+Balance-of-payments crisis
+Sterling pressure
+Indian Independence 1947
+Partition 1947
+Home Front
+Conscription
+Rationing
+Central planning
+The Blitz 1940–41
+Evacuation
+Trade unions
+Industrial decline
+Coal, shipbuilding and textiles

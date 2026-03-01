@@ -1,0 +1,55 @@
+# STT vocabulary hints for Visual Material Culture Temples Sculptures Sites (GCSE Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Parthenon
+Parthenon frieze
+Temple of Zeus at Olympia
+Olympia
+Pantheon
+Temple of Fortuna Virilis
+Portunus
+Ara Pacis
+Trajan’s Column
+Augustus of Prima Porta
+Panathenaia
+Lupercalia
+Saturnalia
+Parentalia
+Lemuria
+Archaic period
+Archaic smile
+Classical period
+Hellenistic period
+Contrapposto
+Iconography
+Sculptural programme
+Sculptural cycle
+Relief sculpture
+Frieze
+Cult statue
+Naos
+Cella
+Altar
+Votive offerings
+Stelai
+Tholos tombs
+Shaft graves
+Grave Circle A
+Gold masks
+Mycenae
+Tiryns
+Hissarlik
+Troy
+Pompeii
+Ostia
+House of Menander
+House of Octavius Quartio
+Amphitheatre
+Theatre
+Portraiture
+Imperial propaganda
+Provenance
+Inscription
+Procession
+Funerary art
+Cyclopean walls

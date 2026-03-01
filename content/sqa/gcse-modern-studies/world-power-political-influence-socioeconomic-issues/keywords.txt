@@ -1,0 +1,46 @@
+# STT vocabulary hints for World Power Political Influence Socioeconomic Issues (GCSE Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+National 5
+GCSE Modern Studies
+Scottish Qualifications Authority
+G7
+Brazil
+China
+India
+Russia
+South Africa
+United States
+Communist Party
+National People's Congress
+Belt and Road Initiative
+NATO
+Congress
+Supreme Court
+Federalism
+Separation of powers
+Checks and balances
+Presidential system
+Parliamentary system
+Unitary state
+Federal state
+Single-party rule
+Multi-party system
+Centralised planning
+Rapid industrialisation
+Internal migration
+Air pollution
+Currency power
+Arms sales
+Military bases
+Development financing
+Soft power
+Bilateral alliances
+Trade sanctions
+Public expenditure
+Poverty rates
+Wage inequality
+Income inequality
+Social mobility
+Political polarisation
+Rehabilitation programmes

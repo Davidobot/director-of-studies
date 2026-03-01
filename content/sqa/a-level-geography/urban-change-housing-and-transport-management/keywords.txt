@@ -1,0 +1,56 @@
+# STT vocabulary hints for Urban Change Housing And Transport Management (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+deindustrialisation
+re-urbanisation
+suburban growth
+informal settlement
+squatter settlements
+slums
+slum upgrading
+site-and-service
+incremental upgrading
+tenure security
+tenure formalisation
+land markets
+planning regulations
+greenbelt
+gentrification
+urban regeneration
+right-to-buy
+mixed-tenure
+social housing
+municipal housing
+housing associations
+resettlement
+overcrowding
+transit-oriented development
+TOD
+Bus Rapid Transit
+BRT
+TransMilenio
+Curitiba
+Bogotá
+Medellín
+Vienna
+London
+Edinburgh
+Mumbai
+congestion charging
+low-emission zones
+pedestrianisation
+park-and-ride
+modal shift
+active travel
+informal transport
+feeder services
+rapid mass transit
+light rail
+metros
+land-use planning
+social segregation
+carbon emissions
+equity of access
+PEEL
+SQA
+Scottish Qualifications Authority

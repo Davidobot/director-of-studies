@@ -1,0 +1,44 @@
+# STT vocabulary hints for Religion Pluralism Secularism (A-level Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+John Hick
+Karl Rahner
+Peter Berger
+Charles Taylor
+Richard Dawkins
+Alister McGrath
+laïcité
+Church of England
+secularisation thesis
+secularism
+secularisation
+religious pluralism
+inclusivism
+exclusivism
+anonymous Christians
+buffered self
+evangelical movements
+charismatic renewal
+ecumenical movement
+interfaith dialogue
+faith schools
+halal
+kosher
+clerical authority
+privatization of belief
+public religion
+legal exemptions
+equality legislation
+migration
+modernity
+modernization
+philosophy of religion
+religion and ethics
+apologetics
+fundamentalism
+plural society
+religious symbols
+religious dress
+same-sex marriage
+AO1
+AO2

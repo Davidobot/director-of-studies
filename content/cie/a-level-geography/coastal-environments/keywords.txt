@@ -1,0 +1,63 @@
+# STT vocabulary hints for Coastal Environments (A-level Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Coastal environments
+A-level Geography
+Cambridge International
+Marine processes
+Waves
+Tides
+Currents
+Sub-aerial weathering
+Mass movement
+Sea-level variation
+Wave-cut cliff
+Wave-cut notch
+Wave-cut platform
+Arch
+Stack
+Stump
+Spit
+Tombolo
+Shingle beach
+Sandy beach
+Saltmarsh
+Coral reef
+Fringing reef
+Barrier reef
+Atoll
+Darwin’s subsidence theory
+Zooxanthellae
+Coral bleaching
+Ocean acidification
+Fetch
+Wave refraction
+Constructive wave
+Destructive wave
+Swash
+Backwash
+Hydraulic action
+Abrasion
+Attrition
+Solution
+Longshore drift
+Sediment cell
+Ria
+Fjord
+Eustatic change
+Isostatic change
+Relative sea-level change
+Holderness coast
+Aswan High Dam
+Nile Delta
+Great Barrier Reef
+Delta Works
+Medmerry
+Mappleton
+Integrated Coastal Zone Management
+Managed realignment
+Groynes
+Seawall
+Beach nourishment
+Mangroves
+Mudflat

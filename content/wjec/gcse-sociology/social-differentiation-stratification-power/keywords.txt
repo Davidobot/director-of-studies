@@ -1,0 +1,63 @@
+# STT vocabulary hints for Social Differentiation Stratification Power (GCSE Sociology WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Social differentiation
+Stratification
+Power
+Authority
+Meritocracy
+Davis and Moore
+Bourgeoisie
+Proletariat
+Marxism
+Max Weber
+Status
+Party (Weber)
+Patriarchy
+Traditional authority
+Charismatic authority
+Rational-legal authority
+Old boys' network
+Glass ceiling
+Crisis of masculinity
+Institutional racism
+Ageism
+Medical model
+Social model
+Homophobia
+Heteronormativity
+Socialisation
+Subcultures
+Moral panic
+Gatekeeping
+Elite recruitment
+Absolute poverty
+Relative poverty
+Material deprivation
+Culture of poverty
+Deindustrialisation
+Globalisation
+Social exclusion
+Anomie
+Strain theory
+Subcultural theory
+White-collar crime
+Corporate crime
+Labelling theory
+Dark figure
+Victim surveys
+Self-report studies
+Ethnography
+Participant observation
+Quantitative methods
+Qualitative methods
+Mixed-methods
+WJEC
+Eduqas
+AO1
+AO2
+AO3
+Representative sample
+Purposive sample
+Informed consent
+Confidentiality

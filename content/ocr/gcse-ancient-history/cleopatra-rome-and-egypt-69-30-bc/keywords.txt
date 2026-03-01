@@ -1,0 +1,45 @@
+# STT vocabulary hints for Cleopatra Rome And Egypt 69 30 Bc (GCSE Ancient History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Cleopatra VII Philopator
+Ptolemaic dynasty
+Ptolemy XIII
+Ptolemy XV Philopator Philometor Caesar
+Caesarion
+Julius Caesar
+Pompey
+Battle of Pharsalus
+Alexandrian civil war
+Alexandria
+Mark Antony
+Tarsus
+Donations of Alexandria
+Battle of Actium
+Marcus Vipsanius Agrippa
+Octavian
+Annexation of Egypt
+Ptolemies
+Hellenistic monarchy
+Macedonian Greeks
+Isis cult
+Temple reliefs
+Dendera relief
+Coinage
+Coins minted in Cyprus
+King of kings
+Roman Republic
+Roman civil wars
+Propaganda
+Plutarch
+Cassius Dio
+Suetonius
+Roman poets
+Archaeological evidence
+Inscriptions
+Caesar’s assassination 44 BC
+Client state
+Royal ideology
+Dynastic continuity
+Nile grain
+Egyptian economy
+OCR GCSE Ancient History

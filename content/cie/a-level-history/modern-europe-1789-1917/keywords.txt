@@ -1,0 +1,63 @@
+# STT vocabulary hints for Modern Europe 1789 1917 (A-level History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Ancien Régime
+French Revolution
+Estates-General
+National Assembly
+Bastille
+Feudal privileges
+Girondins
+Jacobins
+Committee of Public Safety
+The Terror
+The Directory
+Napoleon Bonaparte
+First Consul
+Napoleonic Code
+Prefect system
+Concordat
+Napoleonic Wars
+Administrative centralisation
+Industrial Revolution
+Steam engine
+Mechanised textile machinery
+Railways
+Factory system
+Urbanisation
+Industrial working class
+Bourgeoisie
+Trade unions
+Laissez-faire capitalism
+Triple Alliance
+Austria-Hungary
+Triple Entente
+Schlieffen Plan
+Archduke Franz Ferdinand
+Sarajevo
+Balkans
+Ottoman Empire
+Serbian nationalism
+Naval arms race
+Imperial rivalry
+Russo-Japanese War
+Bloody Sunday
+Revolution
+October Manifesto
+Duma
+Romanovs
+February Revolution
+Provisional Government
+Bolsheviks
+Vladimir Lenin
+Peace, Land, Bread
+October Revolution
+Nation-state
+Italian unification
+German unification
+National romanticism
+Mass politics
+Franchise expansion
+Mobilisation timetables
+Structural explanations
+Intentionalist

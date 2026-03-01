@@ -1,0 +1,50 @@
+# STT vocabulary hints for Treaty Of Versailles Weimar Germany (GCSE History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Treaty of Versailles
+Article 231
+war guilt clause
+reparations
+Dawes Plan
+Rentenmark
+Papiermark
+hyperinflation
+Occupation of the Ruhr
+passive resistance
+Freikorps
+Spartacist uprising
+Rosa Luxemburg
+Karl Liebknecht
+Kapp Putsch
+Wolfgang Kapp
+Dolchstoßlegende
+stab-in-the-back myth
+November criminals
+Weimar Republic
+Weimar Constitution
+National Assembly at Weimar
+Kaiser Wilhelm II
+Friedrich Ebert
+Paul von Hindenburg
+Gustav Stresemann
+Locarno Treaties
+League of Nations
+Reichswehr
+conscription ban
+demilitarised Rhineland
+Alsace-Lorraine
+Polish Corridor
+Upper Silesia
+League of Nations mandates
+Fourteen Points
+self-determination
+Woodrow Wilson
+Georges Clemenceau
+David Lloyd George
+proportional representation
+Article 48
+Reichstag
+Bauhaus
+National Socialists
+NSDAP
+Great Depression

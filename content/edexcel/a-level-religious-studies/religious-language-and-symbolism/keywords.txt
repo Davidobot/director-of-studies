@@ -1,0 +1,45 @@
+# STT vocabulary hints for Religious Language And Symbolism (A-level Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Religious language
+Symbolism
+Verificationism
+Falsificationism
+Logical positivism
+Verification principle
+Falsification principle
+Cognitive meaningfulness
+Cognitive
+Non-cognitive
+Analogy
+Analogy of attribution
+Analogy of proportion
+Anthropomorphism
+Transcendence
+Wittgenstein
+Language-games
+Forms of life
+Meaning as use
+Invisible Gardener
+Myth
+Metaphor
+Narrative
+Parable
+Sacrament
+Eucharist
+Real Presence
+Memorial
+Icon
+Windows to heaven
+Calligraphy
+Geometric patterns
+Eastern Christianity
+Islam
+Buddhist metaphors
+Hindu myths
+Sikh ritual symbolism
+Analytic philosophy
+Continental philosophy
+Post-modernism
+Experiential testimony
+Performative language

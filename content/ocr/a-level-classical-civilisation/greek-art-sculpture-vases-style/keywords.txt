@@ -1,0 +1,53 @@
+# STT vocabulary hints for Greek Art Sculpture Vases Style (A-level Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Archaic
+Classical
+High Classical
+kouros
+kore
+korai
+kouroi
+contrapposto
+chiastic composition
+Polykleitos
+Polykleitos’ Canon
+Doryphoros
+Kritios Boy
+Myron
+Diskobolos
+Praxiteles
+Aphrodite of Knidos
+Lysippos
+Charioteer of Delphi
+Artemision Bronze
+Bronze Zeus/Poseidon
+Parthenon
+Olympia
+Black-figure
+Red-figure
+lost-wax casting
+lost-wax method
+polychromy
+amphora
+krater
+volute krater
+kylix
+lekythos
+symposium
+votive figures
+anatomical votives
+funerary stele
+metope
+pediment
+frieze
+Ionic frieze
+registers
+incision
+slip
+Exekias
+Francois Vase
+Berlin Painter
+Kleophrades Painter
+provenance
+Roman marble copies

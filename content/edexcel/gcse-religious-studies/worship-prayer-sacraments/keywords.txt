@@ -1,0 +1,55 @@
+# STT vocabulary hints for Worship Prayer Sacraments (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Sacraments
+Eucharist
+Mass
+Transubstantiation
+Paschal Mystery
+Liturgy of the Word
+Liturgy of the Eucharist
+Baptism
+Confirmation
+Reconciliation
+Anointing of the Sick
+Holy Orders
+Matrimony
+Lord's Prayer
+Lord's Supper
+Salah
+Jummah
+Hajj
+Five Pillars
+Dhikr
+Sufi
+Qur'an
+Makkah
+Lourdes
+Walsingham
+Rome
+Rosary
+Stations of the Cross
+Eucharistic adoration
+Crucifix
+Altar
+Tabernacle
+Ark
+Bimah
+Mihrab
+Minbar
+Book of Common Prayer
+Anglican
+Evangelical
+Pentecostal
+Catholic Social Teaching
+CAFOD
+Christian Aid
+Zakah
+Sadaqah
+Gurdwara
+Imam
+Sunni
+Shi'a
+Puja
+Ganges
+Kosher

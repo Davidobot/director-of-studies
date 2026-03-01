@@ -1,0 +1,54 @@
+# STT vocabulary hints for Natural Regions Ecosystems And Land Degradation (GCSE Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Scottish Qualifications Authority
+Amazon Basin
+Sahel
+Scotland
+Arctic
+Tundra
+Permafrost
+Permafrost thaw
+Active layer
+Peatland
+Peatland drainage
+Re-wetting peat
+Equatorial tropical forest
+Rainforest
+Closed canopy
+Emergent trees
+Understory
+Biodiversity
+Biodiversity loss
+Ecosystem services
+Carbon sequestration
+Carbon credits
+Greenhouse gases
+Carbon dioxide
+Deforestation
+Forest clearance
+Cattle ranching
+Soy cultivation
+Commercial logging
+Road-building
+Desertification
+Salinisation
+Soil erosion
+Gullying
+Overgrazing
+Agroforestry
+Farmer-managed natural regeneration
+Contour farming
+Terracing
+Reduced tillage
+Reforestation
+Afforestation
+Integrated river basin management
+Land-use planning
+Payments for ecosystem services
+Certification schemes
+Mangrove
+Coral reef
+Vegetation surveys
+Soil tests

@@ -1,0 +1,50 @@
+# STT vocabulary hints for Law Making Devolution Wales England (A-level Law WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Parliamentary sovereignty
+Rule of law
+Separation of powers
+Acts of Parliament
+Primary legislation
+Delegated legislation
+Secondary legislation
+Statutory instruments
+By‑laws
+Orders in Council
+Royal Prerogative
+Royal Assent
+First Reading
+Second Reading
+Committee Stage
+Report Stage
+Third Reading
+Legislative competence
+Devolution settlement
+Government of Wales Act 1998
+Government of Wales Act 2006
+Wales Acts
+National Assembly for Wales
+Senedd
+Measures
+Devolved matters
+Reserved matters
+Judicial review
+Supreme Court
+Court of Appeal
+High Court
+Specialist tribunals
+Judicial precedent
+Ratio decidendi
+Obiter dicta
+Practice Statement 1966
+Statutory interpretation
+Literal rule
+Golden rule
+Mischief rule
+Purposive approach
+Intrinsic aids
+Extrinsic aids
+Law Commission
+Delegated powers
+Affirmative resolution
+Negative resolution

@@ -1,0 +1,53 @@
+# STT vocabulary hints for Religious Experience Theories (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+William James
+Rudolf Otto
+Richard Swinburne
+religious experience
+numinous
+mysterium tremendum et fascinans
+wholly other
+ineffability
+noetic quality
+transiency
+passivity
+mysticism
+conversion experience
+Paul's Damascus road
+St Augustine
+Teresa of Avila
+Toronto Blessing
+Lourdes
+near-death experience
+samadhi
+Sufi ecstasy
+miracles
+visions
+healings
+principle of credulity
+principle of testimony
+prima facie
+defeater
+epistemic justification
+analytic philosophy
+pragmatism
+pragmatic test
+sui generis
+collective unconscious
+archetypes
+transcranial stimulation
+neuroscience
+Durkheim
+Marx
+Freud
+Jung
+cultural conditioning
+perceptual anomaly
+brain states
+theism
+healthy-minded
+sick-souled
+mystical union
+testimony
+probabilistic

@@ -1,0 +1,50 @@
+# STT vocabulary hints for National 5 Assignment Research Sources Conclusions (GCSE Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+National 5
+SQA
+Scottish Qualifications Authority
+Classical Studies
+National 5 assignment
+Resource sheet
+Research stage
+Production stage
+Reasonable assistance
+Question paper
+Athenian democracy
+Pompeii
+Pompeian wall paintings
+Pompeian houses
+Vesuvius
+Pliny
+Plaster casts
+Vindolanda
+Vindolanda tablets
+Hadrian's Wall
+Roman Britain
+Roman frontier
+Roman army
+Enslaved people
+Archaeological remains
+Archaeological reports
+Museum summaries
+Literary texts
+Homer
+Sophocles
+Euripides
+Livy
+Classical literature
+Medea
+Translations
+Primary source
+Secondary analysis
+Provenance
+Purpose
+Content
+Corroboration
+Preservation bias
+Survival bias
+Eyewitness account
+Source handling
+Reasoned conclusion
+Comparative material

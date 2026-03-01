@@ -1,0 +1,50 @@
+# STT vocabulary hints for Owain Glyndwr Welsh Revolt (GCSE History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Owain Glyndŵr
+Owain Glyndwr
+Welsh Revolt
+Edwardian conquest
+Marcher lordships
+Marches
+Marcher system
+Richard II
+Henry IV
+Henry Bolingbroke
+Gruffudd Fychan ap Gruffudd
+Powys
+Inns of Court
+Earl of Arundel
+Margaret Hanmer
+Sycharth
+Reginald Grey
+Battle of Mynydd Hyddgen
+Battle of Bryn Glas
+Sir Edmund Mortimer
+Pwll Melyn
+Harlech Castle
+Machynlleth
+Machynlleth parliament
+Pennal Letter
+King Charles VI
+Tripartite Indenture
+Prince of Wales
+Welsh bishopric
+Harlech administration
+Anglo-Scottish frontier
+Anglo-French rivalry
+Welsh gentry
+Bardic poetry
+Bardic learning
+Genealogies
+Foreign diplomatic correspondence
+English administrative records
+Royal pardons
+Siege warfare
+Guerrilla warfare
+Hit-and-run tactics
+WJEC
+Eduqas
+GCSE
+Provenance
+Source criticism

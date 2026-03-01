@@ -1,0 +1,48 @@
+# STT vocabulary hints for Source And Interpretation Skills (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+AO3
+AO4
+GCSE
+Oxford Cambridge and RSA
+provenance
+corroboration
+contextual knowledge
+contextualisation
+primary source
+secondary source
+interpretation
+usefulness
+reliability
+bias
+authorship
+intended audience
+motive
+authenticity
+material culture
+archaeological feature
+law court record
+memoir
+eyewitness account
+eyewitness testimony
+propaganda poster
+government press release
+BBC wartime broadcast
+rationing
+bombing raids
+wartime censorship
+Appeasement
+Neville Chamberlain
+s
+First World War
+World War II
+Cold War
+Berlin Blockade
+Marshall Plan
+orthodox interpretation
+revisionist interpretation
+post-revisionist
+Soweto uprising
+structural causes
+ideological conflict
+social forces

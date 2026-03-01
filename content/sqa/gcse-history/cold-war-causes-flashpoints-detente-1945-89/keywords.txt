@@ -1,0 +1,55 @@
+# STT vocabulary hints for Cold War Causes Flashpoints Detente 1945 89 (GCSE History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Cold War
+Soviet Union
+United States
+Yalta Conference
+Potsdam Conference
+Poland
+Germany
+Atomic weapons
+Containment
+Marshall Plan
+Truman Doctrine
+NATO
+Warsaw Pact
+Federal Republic of Germany
+German Democratic Republic
+West Germany
+East Germany
+Berlin Blockade
+Berlin Airlift
+Korean War
+China
+Mutual Assured Destruction
+MAD
+Hungarian Uprising 1956
+Budapest
+Berlin Wall
+Fall of the Berlin Wall
+Cuban Missile Crisis
+Cuba
+Turkey
+Vietnam War
+Vietcong
+Domino theory
+Proxy wars
+Angola
+Soviet invasion of Afghanistan
+Détente
+Strategic Arms Limitation Talks
+SALT I
+Helsinki Accords
+Glasnost
+Perestroika
+Mikhail Gorbachev
+Intermediate-Range Nuclear Forces Treaty
+INF Treaty
+revolutions
+Iron Curtain
+Arms race
+Space race
+Espionage
+Propaganda
+Counter-insurgency

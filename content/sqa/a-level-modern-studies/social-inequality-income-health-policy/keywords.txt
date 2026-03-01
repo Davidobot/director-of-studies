@@ -1,0 +1,50 @@
+# STT vocabulary hints for Social Inequality Income Health Policy (A-level Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Gini coefficient
+Median income
+Income deciles
+Income quintiles
+Relative poverty (60% median)
+Absolute poverty
+Wealth inequality
+Income inequality
+Housing market inflation
+Housing tenure
+Social housing
+Private rent regulation
+National Minimum Wage
+National Living Wage
+Universal Credit
+Tax credits
+Progressive taxation
+Means-testing
+Benefit conditionality
+Cliff edges
+Welfare retrenchment
+Austerity policies
+Public health crises
+Pandemic response
+Scottish Government
+Scottish Child Payment
+Devolution
+Devolved tax bands
+Reserved powers
+NHS
+Social determinants of health
+Healthy life expectancy
+Infant mortality
+Chronic conditions
+Health inequalities
+Active labour market policies
+Labour market flexibility
+Unionised industries
+Trade unions
+Gender pay gap
+Intersectionality
+Intergenerational inheritance
+Quantitative evidence
+Qualitative research
+Sugar levy
+Smoking bans
+Apprenticeships

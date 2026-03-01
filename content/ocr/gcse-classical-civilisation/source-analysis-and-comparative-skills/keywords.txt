@@ -1,0 +1,57 @@
+# STT vocabulary hints for Source Analysis And Comparative Skills (GCSE Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+OCR GCSE Classical Civilisation
+Oxford Cambridge and RSA
+AO1
+AO2
+Homer
+Odyssey
+Homeric Hymn to Demeter
+Homeric Hymns
+Virgil
+Aeneid
+Trajan's Column
+Parthenon frieze
+Parthenon
+Ara Pacis
+Pompeii
+Pompeian house-plans
+Prima Porta
+Augustus of Prima Porta
+Prima Porta breastplate
+Panathenaic procession
+Theseus kylix
+Plutarch
+Theseus
+Romulus
+Centauromachy
+Amazonomachy
+Actium reliefs
+Octavian’s coinage
+Cleopatra
+atrium
+funerary stelai
+kylix
+contrapposto
+iconography
+materiality
+patronage
+formulaic epithets
+extended similes
+rhetorical devices
+narrative techniques
+inscription
+fresco
+lyric
+satire
+foundation myths
+domestic layouts
+Temple of Zeus
+breastplate scene
+comparative judgement
+provenance
+iconographic attributes
+public image
+imperial imagery
+propaganda

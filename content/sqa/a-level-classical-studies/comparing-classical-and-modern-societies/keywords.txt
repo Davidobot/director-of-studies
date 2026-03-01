@@ -1,0 +1,46 @@
+# STT vocabulary hints for Comparing Classical And Modern Societies (A-level Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Herodotus
+Thucydides
+Polybius
+Livy
+Tacitus
+Plato
+Aristotle
+Cicero
+Homer
+Virgil
+Aeneid
+Euripides
+Ovid
+Heroides
+Trojan Women
+Peloponnesian War
+pietas
+polis
+Athenian Old Comedy
+Aristophanes
+Horace
+Juvenal
+Roman satire
+satire
+tragedy
+elegiac
+heroism
+civic virtue
+citizenship
+human-rights frameworks
+franchise
+social mobility
+material culture
+inscriptions
+coins
+historiography
+methodological reflexivity
+archival standards
+primary texts
+secondary literature
+peer-reviewed
+project–dissertation
+source analysis

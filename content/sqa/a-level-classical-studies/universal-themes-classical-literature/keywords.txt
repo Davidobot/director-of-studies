@@ -1,0 +1,55 @@
+# STT vocabulary hints for Universal Themes Classical Literature (A-level Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Classical Studies
+Classical Literature
+SQA
+Greek tragedy
+epic
+Roman epic
+prose histories
+Sophocles
+Antigone
+Creon
+Oedipus
+Medea
+Aeneas
+Virgil
+Homer
+Iliad
+Thucydides
+Livy
+Tacitus
+Aristotle
+Stoic
+Epicurean
+pietas
+kleos
+hubris
+fate versus free will
+destiny
+prophecy
+oracles
+divine intervention
+dreams
+long similes
+catalogue scenes
+stage directions
+historiography
+civic history
+Athenian democracy
+Roman Senate
+Roman Republic
+republican ideal
+Pythia
+Vestal Virgins
+rhetorical confrontations
+archaeological evidence
+inscriptions
+epigraphy
+provenance
+close reading
+moralising history
+citizen participation
+determinism
+moral agency

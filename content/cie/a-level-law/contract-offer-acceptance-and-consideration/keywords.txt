@@ -1,0 +1,43 @@
+# STT vocabulary hints for Contract Offer Acceptance And Consideration (A-level Law CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Offer
+Acceptance
+Consideration
+Invitation to treat
+Bilateral contract
+Unilateral contract
+Revocation
+Lapse
+Counter-offer
+Mirror-image rule
+Postal rule
+Instantaneous communication
+Telex
+Auctioneer's call for bids
+Hammer falls
+Without reserve
+Invitation to tender
+Tendering process
+Implied promise
+Battle of the forms
+Last shot
+Acceptance by conduct
+Past consideration
+Practical benefit
+Existing contractual duty
+Part payment
+Promissory estoppel
+Equitable shield
+Sufficiency of consideration
+Adequacy of consideration
+Deed
+Intention to create legal relations
+Presumption of commercial agreements
+Capacity to contract
+Minors
+Contracts for necessaries
+Beneficial contracts of service
+Strict common law rule
+Modification by agreement
+Standard form contract

@@ -1,0 +1,53 @@
+# STT vocabulary hints for Legal Method Scenario Application And Evaluation Skills (A-level Law OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Legal method
+A-level
+Oxford Cambridge and RSA
+Statutory interpretation
+Judicial reasoning
+Literal rule
+Golden rule
+Mischief rule
+Purposive approach
+Proportionality
+Human Rights Act
+Convention rights
+European Convention on Human Rights
+EU-derived principles
+Intrinsic aids
+Extrinsic aids
+Law Commission
+Parliamentary materials
+Statute
+Schedules
+Judicial precedent
+Ratio decidendi
+Obiter dicta
+Supreme Court
+House of Lords
+Court of Appeal
+Distinguishing
+Overruling
+Reversing
+Supervisory powers
+Practice directions
+IRAC
+CREAC
+AO1
+AO2
+AO3
+Mens rea
+Causation
+Voluntariness
+Theft
+Appropriation
+Intention to permanently deprive
+Synoptic thinking
+Rule of law
+Remedies
+Civil liability
+Command words
+Explain
+Advise
+Discuss

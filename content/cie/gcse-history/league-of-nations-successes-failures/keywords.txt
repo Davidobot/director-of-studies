@@ -1,0 +1,50 @@
+# STT vocabulary hints for League Of Nations Successes Failures (GCSE History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+League of Nations
+Assembly
+Council
+Permanent Secretariat
+Permanent Court of International Justice
+Aaland Islands
+Aaland Islands case
+Finland
+Sweden
+Greek–Bulgarian crisis
+Corfu incident
+Vilna
+Lytton Commission
+Lytton Report
+Manchuria
+Manchurian crisis
+Manchukuo
+Japan
+Abyssinian crisis
+Abyssinia
+Ethiopia
+Italy
+Mussolini
+United States
+United Nations
+Security Council
+International Labour Organisation
+Health Organisation
+High Commission for Refugees
+Sanctions
+Collective security
+Unanimous decisions
+Economic Depression
+Great Depression
+Appeasement
+Secret diplomacy
+Disarmament
+Refugees
+Geneva
+Expansionist policies
+Moral persuasion
+Great‑power politics
+Revisionist states
+AO1
+AO2
+AO3
+GCSE History Cambridge International

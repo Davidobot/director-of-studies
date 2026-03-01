@@ -1,0 +1,52 @@
+# STT vocabulary hints for Religion Ethics Families (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Pearson Edexcel
+Religious Studies
+marriage
+sacrament
+covenant
+sacramental marriage
+unitive
+procreative
+Catholic
+Mass
+annulment
+canonical reasons
+Islam
+Qur’an
+Prophet
+ummah
+Sunni
+Shi’a
+Protestant
+Orthodox
+Humanism
+natural family planning
+artificial contraception
+fertility awareness
+condoms
+the pill
+implants
+contraception
+divorce
+remarriage
+civil divorce
+pastoral care
+pastoral responses
+sexual ethics
+situation ethics
+natural law
+deontological ethics
+consequentialist
+moral reasoning
+parish
+mosque
+faith-based campaigns
+same-sex parents
+nuclear family
+single-parent household
+blended families
+extended household
+stewardship

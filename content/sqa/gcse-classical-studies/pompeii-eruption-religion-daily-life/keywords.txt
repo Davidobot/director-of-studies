@@ -1,0 +1,60 @@
+# STT vocabulary hints for Pompeii Eruption Religion Daily Life (GCSE Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Pompeii
+Mount Vesuvius
+Bay of Naples
+AD
+Pliny the Younger
+Pliny the Elder
+Pliny's letters
+pyroclastic flows
+pyroclastic surge
+pumice
+volcanic ash
+plaster casts
+carbonised loaves
+lararium
+Lares
+Penates
+Vesta
+cult of Isis
+Bacchic rites
+Villa of the Mysteries
+hypocaust
+frigidarium
+tepidarium
+caldarium
+amphitheatre
+theatre
+triclinium
+garum
+thermopolium
+thermopolium counter
+forum
+atrium
+impluvium
+peristyle
+tablinum
+cubiculum
+House of the Faun
+Alexander mosaic
+graffiti
+fullers
+potters
+metalworkers
+cobblers
+enslaved people
+slave trade
+electoral graffiti
+Latin inscriptions
+thermopolia
+household gods
+mosaics
+frescoes
+archaeology
+volcanology
+underfloor heating
+stone mills
+bakeries
+National 5 Classical Studies

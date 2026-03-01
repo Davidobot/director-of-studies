@@ -1,0 +1,47 @@
+# STT vocabulary hints for Britain Democracy Welfare 1851 1951 (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Second Reform Act 1867
+Third Reform Act 1884
+Redistribution Act 1885
+Representation of the People Act 1918
+Equal Franchise Act 1928
+Secret Ballot 1872
+Parliament Act 1911
+House of Lords
+Liberal Party
+Conservative Party
+Labour Party
+National Union of Women's Suffrage Societies
+Women's Social and Political Union
+New Liberalism
+Booth survey
+Rowntree survey
+Old Age Pensions Act 1908
+National Insurance Act 1911
+Labour exchanges
+Free school meals
+Beveridge Report 1942
+Five Giants
+Jarrow March 1936
+National Insurance Act 1946
+National Health Service Act 1946
+Nationalisation
+Means test
+Contributory insurance
+Municipal socialism
+Mass mobilisation
+Rationing
+Welfare state
+Post‑war welfare settlement
+Family allowances
+Public housing programmes
+Redistribution of seats
+Constituency boundaries
+Suffrage
+Enfranchisement
+Trade unions
+Social investigation
+National efficiency
+Municipal experiments
+Mass democracy

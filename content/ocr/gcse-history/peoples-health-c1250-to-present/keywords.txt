@@ -1,0 +1,44 @@
+# STT vocabulary hints for Peoples Health C1250 To Present (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Peoples Health
+Black Death
+Plague
+Miasma
+Quarantine
+Plague orders
+John Snow
+Broad Street pump
+Cholera
+cholera epidemic
+cholera outbreak
+Edwin Chadwick
+Sanitary Conditions of the Labouring Population
+Great Stink
+Joseph Bazalgette
+London sewer system
+Public Health Act
+Germ theory
+Louis Pasteur
+Robert Koch
+Industrialisation
+Urbanisation
+Gin Act 1751
+Gin craze
+National Health Service
+NHS 1948
+Spanish Influenza 1918-1919
+Influenza pandemic
+AIDS epidemic
+Clean Air Act
+London smog 1952
+Anti-smoking campaigns
+Vaccines
+Antibiotics
+Obstetric care
+Sanitation
+Municipal public health
+Workhouses
+Parish records
+Sanitary reform
+Contaminated water

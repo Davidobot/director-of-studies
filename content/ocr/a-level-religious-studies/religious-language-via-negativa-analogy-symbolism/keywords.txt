@@ -1,0 +1,43 @@
+# STT vocabulary hints for Religious Language Via Negativa Analogy Symbolism (A-level Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+via negativa
+apophatic theology
+apophaticism
+via positiva
+cataphatic
+Thomas Aquinas
+analogy of attribution
+analogy of proportion
+univocal language
+equivocation
+Pseudo-Dionysius
+Christian mysticism
+Paul Tillich
+symbolism
+religious symbol
+symbolic participation
+ultimate concerns
+transcendence
+ineffability
+anthropomorphism
+sacramental language
+logical positivism
+verification principle
+A.J. Ayer
+verificationism
+Wittgenstein
+language games
+form of life
+Antony Flew
+parable of the gardener
+falsification
+R.M. Hare
+blik
+John Hick
+non-cognitivism
+cognitive content
+existential content
+mystical experience
+analogical theism
+doctrinal formulations

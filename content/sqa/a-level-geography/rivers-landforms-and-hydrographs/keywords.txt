@@ -1,0 +1,63 @@
+# STT vocabulary hints for Rivers Landforms And Hydrographs (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Hydrosphere
+Lithosphere
+Longitudinal profile
+V-shaped valley
+Waterfall
+High Force
+River Tees
+Gorge
+Hydraulic action
+Abrasion
+Attrition
+Solution
+Traction
+Saltation
+Suspension
+Competence
+Capacity
+Meander
+Oxbow lake
+Slip-off slope
+River cliff
+Helicoidal flow
+Plunge pool
+Headward erosion
+Levees
+Estuary
+Floodplain
+Estuarine mudflats
+Thames
+Ouse
+Hydrological cycle
+Hydrograph
+Rising limb
+Peak discharge
+Falling limb
+Recessional limb
+Baseflow
+Lag time
+Flashy hydrograph
+Drainage basin
+Antecedent moisture
+Drainage density
+River Nene
+Storage reservoir
+Flood bypass
+Soft engineering
+Wetted perimeter
+Hydraulic radius
+Downstream fining
+Q = A × V
+Mass movement
+Differential erosion
+Channel gradient
+Channel storage
+Joints
+Percolation
+Interception
+Infiltration
+Evapotranspiration
+Groundwater flow

@@ -1,0 +1,49 @@
+# STT vocabulary hints for Police Powers Arrest And Detention (A-level Law CIE).
+# One term per line. Used to improve speech recognition quality.
+
+PACE
+Police and Criminal Evidence Act 1984
+Codes of Practice
+PACE Codes
+Code A
+Code C
+Code G
+Code E
+Code F
+Stop and search
+Reasonable grounds
+Misuse of Drugs Act
+Counter-terrorism legislation
+Necessity test
+Statutory caution
+Right to legal advice
+Solicitor
+Appropriate adult
+Appropriate adult safeguard
+Custody officer
+Police custody
+Detention without charge
+Pre-charge detention
+Judicial authorisation
+Custody records
+Intimate search
+Strip search
+Fingerprints
+Forensic samples
+DNA database
+Data Protection
+Human Rights Act 1998
+Article 6
+Article 8
+Exclusionary rules
+Confession exclusion
+Oppression
+Admissibility
+Audio-visual recording
+Electronic recording
+Recording of interviews
+Body-worn camera
+Independent oversight bodies
+Interference with evidence
+Notification of arrest
+Vulnerable suspects

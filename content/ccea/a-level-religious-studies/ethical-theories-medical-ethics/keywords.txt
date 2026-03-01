@@ -1,0 +1,55 @@
+# STT vocabulary hints for Ethical Theories Medical Ethics (A-level Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+A-level
+Council for the Curriculum, Examinations and Assessment
+Human Fertilisation and Embryology Authority
+HFEA
+Natural moral law
+Aquinas
+Primary precepts
+Secondary precepts
+Proportionalism
+Doctrine of double effect
+Deontological ethics
+Teleological ethics
+Consequentialism
+Utilitarianism
+Classical utilitarianism
+Quantitative calculus
+Qualitative utilitarianism
+Virtue ethics
+Aristotle
+Situation ethics
+Agape
+Agapeic love
+Sanctity of life
+Personhood
+Moral status
+Autonomy
+Euthanasia
+Assisted dying
+Abortion
+Assisted reproduction
+In vitro fertilisation (IVF)
+IVF
+Surrogacy
+Embryo research
+Embryo disposal
+Pre-implantation genetic diagnosis (PGD)
+PGD
+Mitochondrial donation
+Three-parent babies
+Commodification of reproduction
+Parental responsibility
+Doctor–patient relationship
+Slippery slope argument
+Bioethics
+Human rights frameworks
+Conscience
+Freedom of belief
+Resource allocation
+Public policy
+Biblical ethics
+Decalogue
+Sermon on the Mount

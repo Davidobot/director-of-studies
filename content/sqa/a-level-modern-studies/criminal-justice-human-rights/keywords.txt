@@ -1,0 +1,52 @@
+# STT vocabulary hints for Criminal Justice Human Rights (A-level Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Advanced Higher
+Modern Studies
+Scottish Qualifications Authority
+criminal justice system
+rule of law
+human rights
+civil liberties
+judicial independence
+judicial review
+judicial appointment processes
+presumption of innocence
+right to a fair trial
+privacy rights
+protection against inhuman treatment
+surveillance
+counter-terror powers
+stop-and-search
+recorded crime statistics
+victimisation surveys
+self-report studies
+physiological accounts
+psychological theories
+sociological approaches
+right realist
+left realist
+moral panic
+deterrence
+rehabilitation
+incapacitation
+retributivism
+denunciation
+custodial sentences
+Community Payback Orders
+restorative justice
+electronic monitoring
+recidivism
+hotspot tactics
+multi-agency partnerships
+official statistics
+longitudinal studies
+covert observation
+victim support services
+compensation schemes
+Scotland’s Violence Reduction Unit
+Scandinavian penal systems
+mandatory sentencing
+mass incarceration
+project–dissertation
+source evaluation

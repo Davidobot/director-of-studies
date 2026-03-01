@@ -1,0 +1,54 @@
+# STT vocabulary hints for Tort Negligence Occupiers Liability And Trespass (A-level Law CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Tort
+Negligence
+Occupiers' liability
+Trespass
+Donoghue v Stevenson
+Neighbour principle
+Caparo test
+Duty of care
+Breach of duty
+Reasonable person standard
+Nettleship v Weston
+Bolam principle
+Paris v Stepney
+Reasonable child standard
+But‑for test
+Factual causation
+Legal causation
+Novus actus interveniens
+Remoteness
+Wagon Mound
+Foreseeability
+Pure economic loss
+Negligent misstatement
+Psychiatric injury
+Nervous shock
+Vicarious liability
+Joint and several liability
+Occupiers' Liability Act 1957
+Occupiers' Liability Act 1984
+Lawful visitor
+Unlawful visitor
+Trespass to land
+Entick v Carrington
+Nominal damages
+Compensatory damages
+Equitable remedies
+Prohibitory injunction
+Mandatory injunction
+Interlocutory injunction
+Assault (tort)
+Battery (tort)
+False imprisonment
+Volenti non fit injuria
+Contributory negligence
+Act of God
+Statutory authority
+Informed consent
+Mitigation of loss
+AO1
+AO2
+AO3

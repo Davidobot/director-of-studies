@@ -1,0 +1,61 @@
+# STT vocabulary hints for Development Globalisation Sdgs (GCSE Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Sustainable Development Goals
+SDGs
+Agenda
+United Nations
+MEDCs
+LEDCs
+Interdependence
+Sustainable development
+Human Development Index
+GDP per head
+Demographic transition model
+Population pyramids
+Dependency ratio
+Appropriate technology
+Solar cookers
+Hippo Water Roller
+Fair trade
+BRICS
+China
+Foreign direct investment
+Transnational companies
+Supply chains
+Export-led manufacturing
+Urban slums
+Air pollution
+Paris Agreement
+Goal 1 No Poverty
+Goal 6 Clean Water and Sanitation
+Goal 7 Affordable and Clean Energy
+Micro-hydro
+Solar panels
+Wind turbines
+Renewable energy
+Capacity-building
+Sustainable agriculture
+Syrian refugees
+Greece
+Titanic Quarter
+Belfast
+Shanty towns
+Kolkata
+Waste hierarchy
+Ecotourism
+Costa Rica
+GIS
+Synoptic charts
+Aerial photographs
+Satellite images
+Sampling techniques
+Primary data
+Secondary data
+Quantitative variables
+Hydraulic action
+Longshore drift
+Drainage basin
+Wave-cut platform
+Greenhouse gas emissions
+Carbon footprints

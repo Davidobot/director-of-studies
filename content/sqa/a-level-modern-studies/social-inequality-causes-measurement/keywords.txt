@@ -1,0 +1,61 @@
+# STT vocabulary hints for Social Inequality Causes Measurement (A-level Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Social inequality
+Advanced Higher
+Modern Studies
+Scottish Qualifications Authority
+SQA
+Gini coefficient
+Median household income
+Wealth measures
+Relative poverty
+Absolute poverty
+Social mobility
+Intergenerational mobility
+Intragenerational mobility
+Occupational class
+Cultural capital
+Meritocracy
+Welfare state
+Progressive taxation
+Living wage
+Minimum wage
+Social security
+Active labour market measures
+Redistributive policies
+Structuralist theory
+Functionalist approach
+Individualist explanations
+Marxist traditions
+Attitudinal surveys
+Longitudinal research
+Case studies
+Participant observation
+Non-participant observation
+Focus groups
+Sampling bias
+Question framing
+Representativeness
+Provenance
+Methodological rigour
+Qualitative methods
+Quantitative methods
+Comparative research
+Postcode differences
+Social cohesion
+Public services
+Intergenerational transmission
+Social stratification
+Income inequality
+Wealth inequality
+Life chances
+Educational attainment
+Occupational status
+Informed consent
+Confidentiality
+Empirical evidence
+Project–dissertation
+,000-word limit
+Political polarisation
+Stigma

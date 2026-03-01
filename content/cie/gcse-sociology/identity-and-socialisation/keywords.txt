@@ -1,0 +1,55 @@
+# STT vocabulary hints for Identity And Socialisation (GCSE Sociology CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Identity
+Socialisation
+Primary socialisation
+Secondary socialisation
+Culture
+Norms
+Values
+Social control
+Formal social control
+Informal social control
+Sanctions
+Subcultures
+Social stratification
+Intersectionality
+Cultural capital
+Hidden curriculum
+Labelling theory
+Functionalism
+Marxist theory
+Feminist theory
+Interactionism
+Postmodernism
+Positivist approach
+Interpretivist approach
+Triangulation
+Longitudinal studies
+Operationalisation
+Sampling
+Random sampling
+Systematic sampling
+Stratified sampling
+Quota sampling
+Snowball sampling
+Hawthorne effect
+Interviewer effect
+Informed consent
+Participant observation
+Surveys
+Official statistics
+Qualitative methods
+Quantitative data
+Reliability
+Validity
+Representativeness
+Cyberbullying
+Cultural homogenisation
+Cultural defence
+Globalisation
+Social media
+Cambridge International
+GCSE
+Paper 1

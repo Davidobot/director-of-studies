@@ -1,0 +1,47 @@
+# STT vocabulary hints for Voting Behaviour And The Media (A-level Politics EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Voting behaviour
+Representative democracy
+Valence issues
+Issue voting
+Leadership evaluations
+Electoral system
+Snap election
+Dealignment
+Realignment
+Class dealignment
+Floating voters
+general election
+Brexit
+Red Wall
+New Labour
+Tony Blair
+Margaret Thatcher
+Winter of Discontent
+SNP
+Devolution
+Turnout
+Gender gap
+Ethnic minority voters
+Micro-targeted advertising
+Misinformation
+Disinformation
+Agenda-setting
+Priming
+Framing
+BBC impartiality
+Tabloid endorsements
+Algorithmic curation
+Echo chambers
+Gatekeeping
+Opinion polls
+Bandwagon effect
+Tactical voting
+Polling failures
+Negative campaigning
+Constituency results
+Party alignment
+Partisan dealignment
+Commercial broadcasters
+Social media

@@ -1,0 +1,63 @@
+# STT vocabulary hints for Global Hazards Weather And Tectonics (GCSE Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Hadley cell
+Ferrel cell
+Polar cell
+Subtropical high
+Low pressure belt
+El Niño
+La Niña
+Sea surface temperature
+Tropical cyclone
+Hurricane
+Typhoon
+Storm surge
+Convective rainfall
+Orographic rainfall
+Flash flood
+Heatwave
+Urban heat island
+Drought
+Cape Town Day Zero
+Typhoon Haiyan
+UK summer heatwave 2003
+–2014 winter floods
+Slab pull
+Ridge push
+Lithosphere
+Mantle plume
+Hotspot
+Mid-ocean ridge
+Subduction zone
+Constructive boundary
+Destructive boundary
+Conservative boundary
+Strike-slip earthquake
+Shallow-focus earthquake
+Magnitude
+Focal depth
+Composite volcano
+Shield volcano
+Lahar
+Pyroclastic flow
+Lava flow
+Haiti earthquake
+Tōhoku earthquake and tsunami
+Armero (Nevado del Ruiz)
+Seismometer
+GPS network
+Satellite monitoring
+Tsunami warning system
+Sea-level gauge
+Base isolation
+Tuned mass damper
+Numerical weather prediction
+Meteorological satellite
+Radar
+GIS
+Remote sensing
+Flood defence
+Hazard mapping
+Land-use zoning
+Building code

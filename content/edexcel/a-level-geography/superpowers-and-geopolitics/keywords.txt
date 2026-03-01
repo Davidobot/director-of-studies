@@ -1,0 +1,52 @@
+# STT vocabulary hints for Superpowers And Geopolitics (A-level Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Superpowers
+Geopolitics
+A-level Geography
+Pearson Edexcel
+Hard power
+Soft power
+Military capacity
+Nuclear deterrence
+Cyber capabilities
+Space capabilities
+Transnational corporations (TNCs)
+United Nations (UN)
+International Monetary Fund (IMF)
+World Bank
+Belt and Road Initiative
+South China Sea
+Arctic
+Rare earths
+Hydrocarbons
+Shipping lanes
+Island-building
+Naval patrols
+Maritime boundaries
+Bipolarity
+Unipolarity
+Multipolarity
+Cold War
+United States (USA)
+Soviet Union
+China
+India
+Brazil
+Southeast Asia
+Climate finance
+Technology transfer
+Greenhouse gas emissions
+Biodiversity loss
+Resource extraction
+Infrastructure diplomacy
+Strategic partnerships
+Economic sanctions
+Financial markets
+Capital flows
+Global supply chains
+Climate-driven migration
+Non-state actors
+Synoptic themes
+Paper 3
+Paper 2

@@ -1,0 +1,47 @@
+# STT vocabulary hints for Sustainability Sdgs And Decision Making (GCSE Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+United Nations Sustainable Development Goals
+SDGs
+SDG 13 Climate Action
+SDG 14 Life Below Water
+SDG 6 Clean Water and Sanitation
+SDG 11 Sustainable Cities and Communities
+Wales Well-being of Future Generations Act
+Well-being goals
+WJEC
+Eduqas
+GCSE Geography
+Unit 4 Sustainable Solutions
+Sustainability impact assessment
+Three pillars
+Environmental pillar
+Economic pillar
+Social pillar
+Managed realignment
+Hard sea defences
+Coastal erosion
+Brownfield site
+Greenfield land
+Biodiversity
+Ecosystems
+Habitat loss
+Topography
+Flood risk
+Population data
+Land ownership
+Stakeholders
+Human rights
+Community cohesion
+Livelihoods
+Renewable energy projects
+Community solar
+National grid
+Carbon reduction
+Resilience
+Sustainability criteria
+Evidence-based analysis
+Resource Pack
+Timed assessment
+Implementation timescale
+Monitoring and review

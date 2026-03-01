@@ -1,0 +1,52 @@
+# STT vocabulary hints for Political Ideologies (A-level Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Qualifications Authority
+Modern Studies
+Political ideologies
+Liberalism
+Conservatism
+Socialism
+Nationalism
+John Locke
+John Stuart Mill
+Edmund Burke
+Benjamin Disraeli
+Thatcherism
+Neoliberalism
+Marxism
+Marxism–Leninism
+Social democracy
+One-nation Conservatism
+New Labour
+Third Way
+Tony Blair
+Liberal Democrats
+Conservative Party
+Labour Party
+Scottish National Party
+Brexit
+Nordic welfare model
+Sweden
+Norway
+Devolution
+Federalism
+First-past-the-post
+Proportional representation
+Populism
+Green ideology
+Environmentalism
+Climate change
+Privatisation
+Market liberalisation
+Redistribution
+Public ownership
+Welfare state
+Electoral systems
+Coalition politics
+Globalisation
+Supranational governance
+Multiculturalism
+Identity politics
+Independence movements
+Anti-colonial struggles

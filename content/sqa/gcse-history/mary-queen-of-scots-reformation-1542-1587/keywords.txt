@@ -1,0 +1,48 @@
+# STT vocabulary hints for Mary Queen Of Scots Reformation 1542 1587 (GCSE History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Mary Queen of Scots
+Mary Stuart
+James V
+James VI
+Mary of Guise
+Auld Alliance
+Rough Wooing
+Dauphin
+Francis II
+Henry Stuart, Lord Darnley
+David Rizzio
+James Hepburn, Earl of Bothwell
+Kirk o' Field
+Battle of Langside
+Treaty of Edinburgh (1560)
+Lords of the Congregation
+George Wishart
+John Knox
+Calvinism
+Scottish Kirk
+Presbyterianism
+Kirk sessions
+Presbyteries
+Andrew Melville
+Black Acts (1584)
+James Stewart, Earl of Moray
+James Douglas, Earl of Morton
+Fotheringhay Castle
+Elizabeth I
+Margaret Tudor
+Ridolfi Plot
+Duke of Norfolk
+Throckmorton Plot
+Babington Plot
+Spanish Armada (1588)
+Papal authority
+Reformation settlement
+Regents
+Regency
+Burghs
+Magnates
+Treason trial
+Union of the Crowns (1603)
+Stuart succession
+Catholic martyrdom

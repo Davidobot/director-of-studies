@@ -1,0 +1,53 @@
+# STT vocabulary hints for Germany 1925 1955 (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Weimar Republic
+Hyperinflation
+Wall Street Crash
+Great Depression
+Nazi Party
+Adolf Hitler
+Reichstag Fire
+Enabling Act
+Gleichschaltung
+German Labour Front
+Sturmabteilung (SA)
+Night of the Long Knives
+Paul von Hindenburg
+Führer state
+Volksgemeinschaft
+Ministry of Propaganda
+Joseph Goebbels
+Kinder, Küche, Kirche
+Hitler Youth
+Nuremberg Laws
+Kristallnacht
+Eugenics
+Sterilisation programme
+T4 programme
+Holocaust
+Einsatzgruppen
+Wannsee Conference
+Final Solution
+Extermination camps
+Auschwitz
+Treblinka
+Ghettos
+Forced labour
+Volkssturm
+Total war
+Denazification
+Nuremberg Trials
+Occupation zones
+Marshall Plan
+Berlin Blockade
+Federal Republic of Germany
+German Democratic Republic
+NATO
+Warsaw Pact
+Soviet occupation
+Currency reform
+Intentionalist
+Functionalist
+Totalitarianism
+Historiography

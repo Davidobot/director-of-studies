@@ -1,0 +1,62 @@
+# STT vocabulary hints for Offences And Defences Against Person And Property (A-level Law OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Actus reus
+Mens rea
+Omission
+Duty to act
+Direct intention
+Oblique intention
+Subjective recklessness
+Negligence
+Strict liability
+Foresight of virtual certainty
+But for test
+Legal causation
+Novus actus interveniens
+Murder
+Manslaughter
+Voluntary manslaughter
+Involuntary manslaughter
+Unlawful act manslaughter
+Gross negligence manslaughter
+Loss of control
+Diminished responsibility
+Qualifying trigger
+Abnormality of mental functioning
+Actual bodily harm
+Common assault
+Battery
+Grievous bodily harm
+Offences Against the Person Act 1861
+s47
+s20
+s18
+Psychiatric injury
+Theft Act 1968
+Theft
+Appropriation
+Dishonesty
+Intention to permanently deprive
+Robbery
+Burglary
+s9(1)(a)
+s9(1)(b)
+Trespasser
+Criminal damage
+Insanity
+M'Naghten rules
+Automatism
+Voluntary intoxication
+Involuntary intoxication
+Specific intent
+Basic intent
+Self-defence
+Duress
+Duress by threats
+Duress of circumstances
+Necessity
+Consent
+Attempt
+More than merely preparatory
+Impossibility

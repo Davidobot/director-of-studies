@@ -1,0 +1,49 @@
+# STT vocabulary hints for Early Christian Church Ad 325 (A-level Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Constantine
+Edict of Milan
+Battle of the Milvian Bridge
+Council of Nicaea
+Nicene formulation
+Nicene Creed
+Arian controversy
+Arianism
+Nero
+Tacitus
+Domitian
+Trajan
+Pliny the Younger
+Pliny's letter to Trajan
+Marcus Aurelius
+Decian persecution
+Diocletian persecution
+Blandina
+Polycarp of Smyrna
+Ignatius of Antioch
+Justin Martyr
+First Apology
+Tertullian
+Cyprian of Carthage
+Didache
+Apostolic Fathers
+Apostolic succession
+Rule of Faith
+Irenaeus of Lyons
+Gnosticism
+Marcionism
+Montanism
+Episcopacy
+Bishop
+Presbyter
+Deacon
+Eucharist
+Eucharistic prayers
+Baptism
+Infant baptism
+House churches
+Martyrdom
+Patristic
+Eusebius
+Lactantius
+Hippolytus

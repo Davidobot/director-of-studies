@@ -1,0 +1,63 @@
+# STT vocabulary hints for Ecosystems Biodiversity Arctic (A-level Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Ecosystems
+Biodiversity
+Arctic tundra
+WJEC
+Eduqas
+Equilibrium
+Feedback
+Interdependence
+Resilience
+Thresholds
+Biomes
+Primary productivity
+Nutrient cycling
+Permafrost
+Active layer
+Thermokarst
+Peatland
+Peat depth
+Peatland rewetting
+Carbon sequestration
+Greenhouse gases
+Methane
+Carbon dioxide
+Photosynthesis
+Respiration
+Evapotranspiration
+Hydrological connectivity
+Mass balance
+Simpsons diversity index
+Species richness
+Species evenness
+Genetic diversity
+Habitat diversity
+Invasive species
+Deforestation
+Wetland drainage
+Eutrophication
+Reforestation
+Protected areas
+No-take reserves
+Selective logging
+GIS
+Remote sensing
+Quadrat sampling
+Transects
+Bulk density
+Water chemistry
+Hydrocarbon exploration
+Mineral exploration
+Indigenous knowledge
+Agri-environment schemes
+Marine protected areas
+Seed banks
+NEA
+Land-use planning
+Biogeochemical cycles
+Negative feedback
+Carbon sink
+Permafrost thaw
+Permafrost degradation

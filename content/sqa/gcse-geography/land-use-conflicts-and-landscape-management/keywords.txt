@@ -1,0 +1,49 @@
+# STT vocabulary hints for Land Use Conflicts And Landscape Management (GCSE Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+National 5 Geography
+GCSE
+Scottish Qualifications Authority
+glaciated uplands
+coastal landscapes
+upland limestone
+rivers and their valleys
+karst
+limestone pavement
+peat bogs
+peatland restoration
+hydropower
+wind farms
+renewable energy
+conifer monocultures
+non-native species
+managed realignment
+dune restoration
+saltmarsh restoration
+river re-meandering
+floodplain reconnection
+Environmental Impact Assessment
+agri-environment schemes
+community benefit schemes
+landscape sensitivity assessments
+Ordnance Survey
+six-figure grid references
+transects
+habitat surveys
+channel straightening
+groynes
+seawalls
+levees
+coastal squeeze
+sediment movement
+ecosystem services
+carbon storage
+peat disturbance
+flood frequency
+visitor counts
+Processed Information sheets
+Yorkshire Dales
+national parks
+nature reserves
+participatory planning
+stakeholder forums

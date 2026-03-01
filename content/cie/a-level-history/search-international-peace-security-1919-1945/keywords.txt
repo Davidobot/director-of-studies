@@ -1,0 +1,53 @@
+# STT vocabulary hints for Search International Peace Security 1919 1945 (A-level History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+League of Nations
+Woodrow Wilson
+Covenant
+League Assembly
+League Council
+Permanent Secretariat
+Permanent Court of International Justice
+International Labour Organization
+Health Organization
+Mandates Commission
+Washington Naval Conference
+Locarno
+Dawes Plan
+Young Plan
+Kellogg‑Briand Pact
+Manchuria
+Mukden Incident
+Lytton Commission
+Lytton Report
+Japan
+Abyssinia
+Hoare–Laval
+Economic sanctions
+Appeasement
+Remilitarisation of the Rhineland
+Anschluss
+Munich Agreement
+Sudetenland
+Spanish Civil War
+Nazi–Soviet Pact
+German invasion of Poland
+United Nations
+Atlantic Charter
+San Francisco Conference
+Security Council
+Veto
+Franklin D. Roosevelt
+Winston Churchill
+Joseph Stalin
+Great Depression
+Collective security
+Disarmament
+Arbitration
+Paris Peace Conference
+Treaty of Versailles
+Revisionist states
+Mandates
+Combined arms warfare
+Reparations
+Geneva

@@ -1,0 +1,50 @@
+# STT vocabulary hints for Sikhism Gurus Khalsa Seva (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Sikhism
+Guru Nanak
+Guru Gobind Singh
+Guru Arjan
+Guru Granth Sahib
+Harmandir Sahib
+Golden Temple
+Amritsar
+Khalsa
+Anandpur Sahib
+Amrit Sanskar
+Amrit
+Amritdhari
+Sahajdhari
+Five Ks
+kes
+kanga
+kara
+kachera
+kirpan
+sant-sipahi
+saint-soldier
+Ik Onkar
+atma
+karma
+maya
+haumai
+Five Evils
+kam
+krodh
+lobh
+moh
+ahankar
+Gurmukh
+manmukh
+Jivan Mukti
+seva
+simran
+kirt
+langar
+gurdwara
+vand chakkana
+hukamnamas
+Rehat Maryada
+bhakti
+Sufi poets
+Mughal persecution

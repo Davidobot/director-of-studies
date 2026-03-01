@@ -1,0 +1,47 @@
+# STT vocabulary hints for Medical Ethics Abortion Euthanasia (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Sanctity of life
+Quality of life
+Abortion
+Euthanasia
+Assisted dying
+Assisted suicide
+Active euthanasia
+Passive euthanasia
+Voluntary euthanasia
+Non-voluntary euthanasia
+Involuntary euthanasia
+Foetus
+Ensoulment
+Pikuach nefesh
+Ahimsa
+Karmic continuity
+Image of God
+Soul
+Personhood
+Bodily autonomy
+Pro-life
+Pro-choice
+Catechism of the Catholic Church
+Roman Catholic Church
+Judaism
+Islam
+Hinduism
+Buddhism
+Sikhism
+Humanism
+Natural law
+Deontology
+Situation ethics
+Consequentialism
+Utilitarianism
+Virtue ethics
+Palliative medicine
+Palliative care
+Hospice care
+Life-sustaining treatment
+Withholding treatment
+Withdrawing treatment
+Extraordinary measures
+Legal frameworks

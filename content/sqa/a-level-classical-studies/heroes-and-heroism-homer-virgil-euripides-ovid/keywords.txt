@@ -1,0 +1,43 @@
+# STT vocabulary hints for Heroes And Heroism Homer Virgil Euripides Ovid (A-level Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Homer
+Virgil
+Euripides
+Ovid
+Achilles
+Hector
+Odysseus
+Aeneas
+Iliad
+Odyssey
+Aeneid
+Heroides
+Trojan Women
+Hecuba
+Cassandra
+Andromache
+Trojan War
+Fall of Troy
+kleos
+arete
+pietas
+aristeia
+xenia
+epistolary
+elegiac
+Homeric epic
+Attic drama
+Roman epic
+Olympian gods
+fate
+teleological
+imperial myth
+Augustus
+oral heroic tradition
+shame-culture
+guilt-culture
+epic simile
+choral speech
+anti-hero
+rhetorical conventions

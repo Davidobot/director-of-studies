@@ -1,0 +1,63 @@
+# STT vocabulary hints for Hazardous Environments (A-level Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Tectonic hazards
+Lithospheric plates
+Plate boundaries
+Megathrust
+Earthquakes
+Seismic building codes
+Fault activity
+Foreshock
+Surface rupture
+Ground shaking
+Tsunami
+Volcanic arcs
+Volcanoes
+Pyroclastic flows
+Lahars
+Ash fall
+Lava flows
+Pacific Ring of Fire
+Seismograph networks
+GPS
+InSAR
+Ground deformation
+Volcanic unrest
+Recurrence intervals
+Probabilistic seismic hazard assessment
+Mass movement
+Rotational slide
+Debris flow
+Rockfall
+Oso landslide
+Vargas tragedy
+Deforestation
+Tropical cyclone
+Hurricane
+Typhoon
+Storm surge
+Sea surface temperature
+Sea-level rise
+Typhoon Haiyan
+Bangladesh cyclone early warning systems
+Tornado
+Joplin tornado
+Mangroves
+Coastal geomorphology
+Numerical weather prediction
+Satellite monitoring
+Primary impacts
+Secondary impacts
+Cascading failures
+Base isolation
+Levees
+Integrated coastal zone management
+Managed retreat
+Evacuation planning
+Early warning systems
+Floodplain restoration
+Sediment flows
+Controlled land reclamation
+Ash cloud
+Hazard map

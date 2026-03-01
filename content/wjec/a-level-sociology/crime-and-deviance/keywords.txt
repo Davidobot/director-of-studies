@@ -1,0 +1,48 @@
+# STT vocabulary hints for Crime And Deviance (A-level Sociology WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+WJEC
+Eduqas
+A-level Sociology
+A2 option
+social construction
+official statistics
+police recorded crime
+victim surveys
+dark figure
+self-report studies
+cybercrime
+corporate crime
+white-collar crime
+knife offences
+domestic abuse
+sexual violence
+stop-and-search
+custodial sentences
+Merton’s strain theory
+functionalism
+Marxist theory
+neo-Marxism
+interactionism
+labelling theory
+secondary deviance
+career criminality
+right realism
+left realism
+situational prevention
+restorative justice
+youth offending teams
+austerity
+predictive policing
+civil liberties
+moral panic
+folk devils
+Stanley Cohen
+ethnography
+participant observation
+longitudinal studies
+positivism
+interpretivism
+social control
+social policy
+surveillance technologies

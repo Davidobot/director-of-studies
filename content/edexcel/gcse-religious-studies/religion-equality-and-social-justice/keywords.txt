@@ -1,0 +1,51 @@
+# STT vocabulary hints for Religion Equality And Social Justice (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Pearson Edexcel
+Christianity
+Catholic Social Teaching
+imago Dei
+Islam
+tawhid
+adl
+zakah
+Judaism
+covenant
+mitzvot
+Hinduism
+dharma
+karma
+Buddhism
+karuna
+Sikhism
+sewa
+langar
+humanism
+Christian Aid
+CAFOD
+Parable of the Sheep and Goats
+revelation
+visions
+miracles
+design argument
+cosmological argument
+problem of evil
+free‑will theodicy
+soul‑making theodicy
+restorative justice
+capital punishment
+death penalty
+utilitarianism
+situation ethics
+virtue ethics
+religious freedom
+human rights
+antisemitism
+Islamophobia
+anti-Sikh discrimination
+pluralism
+interfaith
+social cohesion
+common good
+SPaG

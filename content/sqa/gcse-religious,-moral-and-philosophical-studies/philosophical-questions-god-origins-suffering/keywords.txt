@@ -1,0 +1,47 @@
+# STT vocabulary hints for Philosophical Questions God Origins Suffering (GCSE Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE Religious, Moral and Philosophical Studies
+Scottish Qualifications Authority
+RMPS
+Big Bang theory
+Thomas Aquinas
+Cosmological argument
+Contingent
+First cause
+Necessary being
+Infinite regress
+Cosmology
+Teleological argument
+William Paley
+Watchmaker analogy
+Fine-tuning
+Physical constants
+Multiverse
+Evolution
+Natural selection
+Fossil record
+Genetic evidence
+Methodological naturalism
+Metaphysical claims
+Free will defence
+Soul-making theodicy
+Theodicies
+Moral evil
+Natural evil
+Omnipotent
+Omnibenevolent
+Inconsistent triad
+Divine intervention
+Miracle
+Resurrection
+Scriptural miracles
+Empirical evidence
+Testable predictions
+Determinism
+Naturalistic explanations
+Moral responsibility
+Design argument
+Chain of causation
+Cosmological models
+Sceptics

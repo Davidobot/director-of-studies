@@ -1,0 +1,42 @@
+# STT vocabulary hints for Islamic Law Shariah Sources Methodology (A-level Islamic Studies CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Shariah
+Fiqh
+Usul al-fiqh
+Qurʾan
+Sunnah
+Hadith
+isnād
+matn
+sahih
+daʿif
+ijmaʿ
+qiyas
+'aql
+'urf
+Medina
+Maliki
+Hanafi
+Shāfiʿī
+Ḥanbali
+Shīʿī
+Twelver
+Ahl al‑Bayt
+istihsan
+maslaha
+sadd al-dhara'i
+maqasid al-shariah
+naskh
+mujtahid
+ijtihad
+taqlid
+mufti
+fatwa
+murabaha
+mudaraba
+ijāra
+riba
+Salafi
+madhāhib
+usul

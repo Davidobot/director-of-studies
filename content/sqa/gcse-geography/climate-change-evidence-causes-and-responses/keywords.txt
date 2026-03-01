@@ -1,0 +1,48 @@
+# STT vocabulary hints for Climate Change Evidence Causes And Responses (GCSE Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Climate change
+Greenhouse effect
+Carbon cycle
+Carbon dioxide (CO2)
+Methane (CH4)
+Nitrous oxide (N2O)
+Fossil fuels
+Industrial Revolution
+Carbon sinks
+Ice cores
+Greenland
+Antarctica
+Tree rings
+Pollen records
+Satellite observations
+Thermometer measurements
+Glacier retreat
+Arctic sea ice
+Mountain snow cover
+Sea-level rise
+Thermal expansion
+Milankovitch cycles
+Solar output
+Volcanic eruptions
+Aerosols
+Water vapour
+Albedo
+Feedbacks
+Coral bleaching
+Great Barrier Reef
+Small island states
+Bangladesh
+Delta
+Storm surges
+Coastal embankments
+Managed retreat
+Carbon capture and storage
+Renewables
+Wind power
+Solar power
+Hydropower
+Carbon pricing
+Marine protected areas
+Heatwaves
+Flood defences

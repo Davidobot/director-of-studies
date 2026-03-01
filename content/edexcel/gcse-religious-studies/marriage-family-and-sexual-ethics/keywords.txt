@@ -1,0 +1,53 @@
+# STT vocabulary hints for Marriage Family And Sexual Ethics (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Pearson Edexcel
+Christianity
+Catholicism
+Protestantism
+Islam
+Sunni
+Shia
+Qur'an
+Surah 4
+Surah 24
+Hadith
+Nikah
+Talaq
+Ummah
+Judaism
+Ketubah
+Get
+Rabbinic law
+Hinduism
+Grihastha
+Varnashrama dharma
+Purusharthas
+Dharma
+Artha
+Kama
+Moksha
+Rig Veda
+Bhagavad Gita
+Sikhism
+Guru Granth Sahib
+Lavan
+Buddhism
+Theravada
+Mahayana
+Sigalovada Sutta
+Five Precepts
+Noble Eightfold Path
+Ten Commandments
+Five Pillars
+Humanae Vitae
+Familiaris Consortio
+Catechism
+Annulment
+Natural family planning
+Contraception
+Ahimsa
+Maslahat
+Situation ethics
+Utilitarianism
+Virtue ethics

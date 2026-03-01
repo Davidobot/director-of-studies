@@ -1,0 +1,38 @@
+# STT vocabulary hints for Hinduism Karma Samsara Moksha (GCSE Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Karma
+Samsara
+Moksha
+Atman
+Brahman
+Avidya
+Dharma
+Punya
+Papa
+Karmic impressions
+Karmic bondage
+Karma-marga
+Jnana-marga
+Bhakti-marga
+Marga
+Karma-yoga
+Bhagavad Gita
+Krishna
+Arjuna
+Vishnu
+Shiva
+Advaita Vedanta
+Non-dual
+Devotional
+Puja
+Mantra
+Pilgrimage
+Meditation
+Ahimsa
+Rebirth
+Liberation
+Divine grace
+Free will
+Determinism
+Samskaras

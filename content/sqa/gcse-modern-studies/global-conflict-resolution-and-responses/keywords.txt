@@ -1,0 +1,64 @@
+# STT vocabulary hints for Global Conflict Resolution And Responses (GCSE Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Modern Studies
+Scottish Qualifications Authority
+Global issues
+Conflict resolution
+Interstate conflict
+Civil war
+Terrorism
+Humanitarian crisis
+Refugee crisis
+Transnational economic problems
+Global recession
+Debt crisis
+Weak governance
+Identity politics
+Ethnic tension
+Religious tension
+Climate change
+Resource scarcity
+Displacement
+Refugees
+Humanitarian emergencies
+Peacekeeping
+United Nations
+UN Security Council
+European Union
+African Union
+NATO
+International Monetary Fund
+World Bank
+Non-governmental organisations
+NGOs
+Economic sanctions
+Diplomacy
+Military intervention
+Peacebuilding
+Disarmament
+Demobilisation
+Reintegration
+Transitional justice
+Truth commissions
+War crimes tribunals
+Mediation
+Ceasefire
+Regime change
+Counter-terrorism
+Humanitarian aid
+Post-conflict reconstruction
+Social reconciliation
+Sovereignty
+International law
+Legal accountability
+invasion of Ukraine
+Russia
+Syrian civil war
+Rohingya crisis
+Myanmar
+Bangladesh
+Security Council vetoes
+Energy security
+Food security
+Migration flows

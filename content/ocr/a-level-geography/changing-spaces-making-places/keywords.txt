@@ -1,0 +1,47 @@
+# STT vocabulary hints for Changing Spaces Making Places (A-level Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Changing Spaces Making Places
+Place identity
+Space–place distinction
+Placemaking
+Tactical urbanism
+Rebranding
+Reimaging
+Regeneration
+Docklands
+Mixed-use development
+Flagship architecture
+Cultural quarter
+Gentrification
+Community land trust
+Participatory planning
+Time–space compression
+Globalisation
+Remittances
+Global supply chains
+Commuter movements
+Socio-economic profiling
+Deprivation indices
+GIS
+Geospatial data layers
+Ethnography
+Transect
+Pedestrian counts
+Land-use mapping
+Administrative data
+Census data
+Social cohesion
+Heritage promotion
+Creative industries
+Multinational corporations
+Resident associations
+Grassroots placemaking
+Top-down regeneration
+Bottom-up actors
+Retail turnover
+Affordable housing
+Independent investigation
+AO1
+AO2
+AO3

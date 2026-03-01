@@ -1,0 +1,53 @@
+# STT vocabulary hints for Religious Experience Mysticism (A-level Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Religious experience
+Mysticism
+Numinous
+William James
+Ineffable
+Noetic
+Transient
+Passive (mystical criterion)
+Rudolf Otto
+Mysterium tremendum et fascinans
+Teresa of Avila
+Contemplative prayer
+Julian of Norwich
+Paul’s Damascus Road
+Conversion experience
+Muhammad’s Night of Power
+Laylat al‑Qadr
+Qur'an
+Sufism
+Dhikr
+Sufi mystical poetry
+Buddha’s awakening
+Bodhi tree
+Mahayana
+Vajrayana
+Mantra
+Meditation (mystical practice)
+Richard Swinburne
+Principle of credulity
+Principle of testimony
+David Hume
+Miracles
+Logical Positivism
+Falsification
+Wittgensteinian language‑game
+Caroline Franks Davis
+Subject‑related challenges
+Temporal lobe seizures
+Neuroscience (religious experience)
+Sigmund Freud
+Revelation
+Providence
+Intersubjective verification
+Empirical verifiability
+WJEC
+Eduqas
+AS Unit 2
+A‑level Unit 5
+AO1
+AO2

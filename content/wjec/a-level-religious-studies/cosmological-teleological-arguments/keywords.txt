@@ -1,0 +1,47 @@
+# STT vocabulary hints for Cosmological Teleological Arguments (A-level Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Thomas Aquinas
+Three Ways
+First Way
+Second Way
+Third Way
+Unmoved mover
+First mover
+Efficient cause
+Efficient causation
+Uncaused cause
+Necessary being
+Contingent being
+Principle of Sufficient Reason
+Infinite regress
+Kalam cosmological argument
+Kalam
+Big Bang
+Actual infinite
+Temporal beginning
+Timeless
+Spaceless
+Personal causation
+Personal agent
+Cosmological argument
+Teleological argument
+Teleonomy
+William Paley
+Watchmaker analogy
+Fifth Way
+Fine-tuning
+Anthropic principle
+Multiverse
+Probabilistic reasoning
+Inference to the Best Explanation
+Modal logic
+Modal vocabulary
+A posteriori
+Analogical reasoning
+Natural selection
+Darwinian evolution
+David Hume
+Problem of induction
+WJEC
+Eduqas

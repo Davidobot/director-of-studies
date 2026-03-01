@@ -1,0 +1,48 @@
+# STT vocabulary hints for Contested Interpretations Appeasement Cold War (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Appeasement
+Neville Chamberlain
+peace for our time
+Remilitarisation of the Rhineland
+Anschluss
+Munich Agreement
+Sudetenland
+Czechoslovakia
+Austria
+Invasion of Poland
+September 1939
+Great War
+Second World War
+Collective security
+Rearmament
+Pacifism
+Soviet communism
+Stalin
+Soviet expansionism
+Orthodox interpretation
+Revisionist
+Post‑revisionist
+Politburo minutes
+Soviet archives
+Diplomatic cables
+Cabinet minutes
+Yalta
+Potsdam
+Truman Doctrine
+Marshall Plan
+Containment
+Berlin Blockade
+Berlin Airlift
+NATO
+Warsaw Pact
+Korean War
+Cuban Missile Crisis
+Open markets
+Economic reconstruction
+Security dilemma
+Encirclement
+Ideological subversion
+Balance of power
+Formation of communist governments
+Eastern Europe

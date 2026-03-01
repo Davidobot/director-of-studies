@@ -1,0 +1,50 @@
+# STT vocabulary hints for Medical Ethics Abortion Euthanasia (GCSE Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+WJEC
+Eduqas
+Medical ethics
+Abortion
+Euthanasia
+Active euthanasia
+Passive euthanasia
+Assisted suicide
+Voluntary assisted dying
+Sanctity of life
+Quality of life
+Personhood
+Autonomy
+Beneficence
+Non-maleficence
+Doctrine of Double Effect
+Imago Dei
+Catechism
+Papal encyclicals
+Catholic moral theology
+Palliative care
+Hospice services
+Ensoulment
+days
+Foetus
+Embryo
+Foetal abnormality
+Qur'an
+Hadith
+Pikuach nefesh
+Orthodox Judaism
+Reform Judaism
+Ahimsa
+Atman
+Atma
+Samsara
+Dharma
+Karma
+Hukam
+Seva
+Humanism
+Utilitarianism
+Slippery slope
+AO1
+AO2
+AO3

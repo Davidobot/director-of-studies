@@ -1,0 +1,51 @@
+# STT vocabulary hints for Relationships And Families Religious Perspectives (GCSE Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Relationships and families
+OCR
+GCSE
+J625
+Component Group 1
+Component Group 2
+AO1
+AO2
+SPaG
+Genesis
+Jesus
+Qur'an
+Nikah
+Mitzvot
+Sinai
+Covenant
+Eucharistic
+Sacramental
+Indissolubility
+Ketubah
+Third Precept
+Monasticism
+Dharma
+Ashramas
+Dhammapada
+Bhagavad Gita
+Mishnah
+Talmud
+Natural family planning
+Artificial contraception
+Contraception
+Talaq
+Iddah
+Get
+Annulment
+Divorce
+Remarriage
+Sanctity of life
+Stewardship
+Principle of intention
+Complementarity
+Mutual submission
+Gender equality
+Same-sex marriage
+LGBT+
+Freedom of religion
+Freedom from discrimination
+British law

@@ -1,0 +1,44 @@
+# STT vocabulary hints for Source Interpretation Evaluation (A-level Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Thucydides
+Tacitus
+Athenian Empire
+Athens
+Greece
+Rome
+epigraphy
+epigraphic tribute lists
+inscriptions
+honorific inscriptions
+epitaphs
+manumission inscriptions
+manumission
+votive deposits
+votive offering
+temple architecture
+harbour installations
+stratigraphy
+typology
+radiocarbon dating
+dendrochronology
+provenance
+hoard
+funerary gear
+tomb types
+magistracies
+metics
+palaeography
+manuscript transmission
+scribal errors
+archaeological assemblage
+material culture
+elite bias
+civic festivals
+household archaeology
+legal documents
+corroboration
+resource sheet
+Higher course
+Scottish Qualifications Authority
+A-level Classical Studies

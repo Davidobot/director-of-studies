@@ -1,0 +1,44 @@
+# STT vocabulary hints for Greek Theatre Tragedy Comedy Performance (A-level Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+City Dionysia
+Dionysus
+Theatre of Dionysus
+Thorikos
+Acropolis
+Tetralogy
+Choregoi
+Choregos
+Choragos
+Aulos
+Mechane
+Ekkyklema
+Peripeteia
+Hamartia
+Anagnorisis
+Catharsis
+Aeschylus
+Sophocles
+Euripides
+Aristophanes
+Oedipus the King
+Bacchae
+Pentheus
+Maenads
+Parabasis
+Agon
+Frogs
+Metatheatre
+Messenger speech
+Chorus
+Theatron
+Skene
+Orchestra
+Pronomos volute krater
+Choregos Vase
+Black-figure
+Red-figure
+Metics
+Polis
+Choral lyric
+Dramatic irony

@@ -1,0 +1,45 @@
+# STT vocabulary hints for Roman Leisure Baths Theatres Amphitheatres (GCSE Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+hypocaust
+praefurnium
+pilae
+caldarium
+tepidarium
+frigidarium
+apodyterium
+palaestra
+thermae
+scaenae frons
+cavea
+orchestra
+odeon
+vomitoria
+venationes
+naumachiae
+gladiatorial combats
+gladiators
+gladiatorial schools
+mimes
+pantomime
+strigils
+Aquae Sulis
+Bath
+Pompeii
+Stabian Baths
+amphitheatre
+theatre
+Isca
+Caerleon
+Deva
+Chester
+Verulamium
+Capua
+Vesuvius
+BCE riot
+graffiti
+mosaics
+wall-paintings
+inscriptions
+Scottish Qualifications Authority
+GCSE Classical Studies

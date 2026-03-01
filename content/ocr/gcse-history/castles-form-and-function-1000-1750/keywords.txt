@@ -1,0 +1,42 @@
+# STT vocabulary hints for Castles Form And Function 1000 1750 (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Kenilworth Castle
+Geoffrey de Clinton
+Simon de Montfort
+John of Gaunt
+Robert Dudley
+Elizabeth I
+Earl of Leicester
+Norman Conquest
+Siege of 1266
+Progress
+English Civil War
+Civil War slighting
+Parliamentarians
+Baronial rebellion
+Baronial wars
+Motte-and-bailey
+Motte
+Bailey
+Curtain wall
+Keep
+Gatehouse
+Artificial mere
+Water defences
+Garrison
+Siege warfare
+State apartments
+Household inventories
+Cost-books
+Building accounts
+Royal licenses
+Pageantry
+Courtly display
+Artillery
+Gunpowder weapons
+Archaeological excavation
+Antiquarian drawings
+Slighting
+Administrative centre
+Lordship

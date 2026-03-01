@@ -1,0 +1,41 @@
+# STT vocabulary hints for Genghis Khan Mongol Imperialism (GCSE History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Genghis Khan
+Temüjin
+Temujin
+Kurultai
+Börte
+Toghrul
+Keraits
+Jamukha
+Yassa
+Keshig
+Decimal system
+Western Xia
+Xi Xia
+Tangut
+Jin dynasty
+Jurchen
+Khwarazmian Empire
+Otrar
+Bukhara
+Samarkand
+Silk Road
+Pax Mongolica
+Ögödei
+Ogedei
+Khanates
+Secret History of the Mongols
+Eurasian steppe
+Manchuria
+Composite bow
+Feigned retreat
+Siege engineers
+Siege technology
+Pastoralism
+Horsemanship
+Nomadic confederation
+Steppe military culture
+Psychological warfare
+Meritocracy

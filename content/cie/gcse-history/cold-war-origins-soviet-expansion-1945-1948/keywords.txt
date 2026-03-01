@@ -1,0 +1,41 @@
+# STT vocabulary hints for Cold War Origins Soviet Expansion 1945 1948 (GCSE History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Cold War
+Soviet expansion
+Red Army
+Yalta
+Potsdam
+Truman Doctrine
+Marshall Plan
+Berlin Blockade
+Berlin Airlift
+Trizonia
+NATO
+Warsaw Pact
+Tito
+Czechoslovak coup (Feb 1948)
+Poland
+Romania
+Bulgaria
+Albania
+Hungary
+Yugoslavia
+USSR
+United States
+Britain
+France
+Greece
+Turkey
+occupation zones
+demobilisation
+containment
+buffer zones
+satellite states
+single-party regimes
+security services
+security dilemma
+reparations
+currency reform
+arms race
+proxy conflicts

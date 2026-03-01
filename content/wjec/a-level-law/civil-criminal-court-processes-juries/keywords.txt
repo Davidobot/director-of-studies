@@ -1,0 +1,53 @@
+# STT vocabulary hints for Civil Criminal Court Processes Juries (A-level Law WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+County Court
+High Court
+Magistrates' Courts
+Crown Court
+Court of Appeal
+Supreme Court
+First-tier Tribunal
+Upper Tribunal
+Pre-action protocols
+Case management directions
+Disclosure
+Witness statements
+Trial bundles
+Balance of probabilities
+Beyond reasonable doubt
+Damages
+Injunctions
+Specific performance
+Declaratory relief
+Leave to appeal
+Summary offences
+Indictable offences
+Either-way offences
+Magistrates
+District judges
+Empanelling
+Vetting
+Majority verdicts
+Jury secrecy
+Defamation
+Torts
+Jury tampering
+Judge-only trials
+Professional jurors
+Mixed tribunals
+Judicial independence
+Solicitors
+Barristers
+Circuit judges
+Justices of the Supreme Court
+Judicial review
+Doctrine of precedent
+Statutory interpretation
+Literal rule
+Golden rule
+Mischief rule
+Purposive approach
+Quashing orders
+Mandatory orders
+Sentencing guidelines

@@ -1,0 +1,50 @@
+# STT vocabulary hints for Tropical Environments (A-level Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Intertropical Convergence Zone
+ITCZ
+Monsoon systems
+Subtropical anticyclones
+Orographic uplift
+Coastal upwelling
+Evapotranspiration
+Gersmehl diagram
+Saprolite
+Corestones
+Tors
+Bornhardts
+Inselbergs
+Karst
+Cone karst
+Tower karst
+Cockpit karst
+Atolls
+Ha Long Bay
+Granite weathering
+Limestone dissolution
+Laterization
+Lateritic soils
+Oxisols
+Latosols
+Cation exchange capacity
+Nutrient cycling
+Biomass store
+Litter layer
+Plagioclimax
+Succession
+Savanna
+Serengeti
+Cerrado
+Australian tropical plains
+Amazon rainforest
+Congo Basin
+Southeast Asian rainforests
+Borneo
+Sumatra
+Oil palm plantations
+Peatland fires
+REDD+
+Payment for ecosystem services
+Forest Stewardship Council
+Agroforestry
+Ecotourism

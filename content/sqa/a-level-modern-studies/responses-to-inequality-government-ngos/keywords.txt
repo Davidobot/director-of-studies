@@ -1,0 +1,50 @@
+# STT vocabulary hints for Responses To Inequality Government Ngos (A-level Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Gini coefficient
+Palma ratio
+Relative poverty threshold
+Absolute poverty
+Social mobility
+Income distribution
+Deprivation indices
+Progressive taxation
+Fiscal redistribution
+Universal Credit
+State pensions
+National Minimum Wage
+Living Wage
+NHS
+Child Poverty (Scotland) Act
+Scottish Government
+Scottish Qualifications Authority
+A-level Modern Studies
+Devolved powers
+Welfare programmes
+Universal public services
+Early years programmes
+Targeted cash transfers
+Public employment schemes
+Foodbanks
+Housing strategy
+Employment schemes
+Regional investment
+Social-democratic
+Neoliberal
+Individualism
+Collectivism
+Functionalism
+Conflict theory
+Structural theories
+Market failures
+Benefit take-up
+Cliff edges
+Cost-effectiveness
+Opportunity costs
+Response bias
+Think-tank reports
+Multi-agency approaches
+Local authorities
+Nordic countries
+Social cohesion
+Two-tier system

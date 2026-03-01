@@ -1,0 +1,49 @@
+# STT vocabulary hints for Revolution Nationalism 1780 1881 (A-level History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+French Revolution
+Napoleon
+Napoleonic Wars
+Congress of Vienna
+Concert of Europe
+Klemens von Metternich
+Revolutions of 1830
+Revolutions of 1848
+Realpolitik
+Crimean War (1853–1856)
+Risorgimento
+Giuseppe Mazzini
+Camillo Cavour
+Giuseppe Garibaldi
+Piedmont‑Sardinia
+Victor Emmanuel II
+Kingdom of the Two Sicilies
+Papal States
+Franco‑Prussian War (1870–71)
+Siege of Paris
+Paris Commune (1871)
+Zollverein
+Otto von Bismarck
+Austro‑Prussian War (1866)
+Second Schleswig War (1864)
+German Empire (1871)
+Battle of Sedan
+July Monarchy
+Second Republic (France)
+Second Empire (France)
+Third Republic (France)
+Louis‑Napoléon Bonaparte / Napoleon III
+Decembrist uprising (1825)
+Nicholas I
+Alexander II
+Assassination of Alexander II (1881)
+Emancipation of the serfs (1861)
+Zemstvos
+Conscription reform
+Social legislation
+Constitutional monarchy
+Plebiscite
+Industrialisation
+Railways
+Balance of power
+Great‑Power diplomacy

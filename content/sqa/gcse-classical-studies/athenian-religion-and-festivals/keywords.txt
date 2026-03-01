@@ -1,0 +1,48 @@
+# STT vocabulary hints for Athenian Religion And Festivals (GCSE Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Athena
+Dionysus
+Parthenon
+Athena Polias
+Athena Parthenos
+Parthenon frieze
+Phidias
+peplos
+peplos ceremony
+Panathenaia
+Great Panathenaia
+Panathenaic procession
+Panathenaic amphorae
+Panathenaic prize amphorae
+Theatre of Dionysus
+Acropolis
+City Dionysia
+choregos
+choregoi
+liturgies
+oikos
+Hestia
+Eleusinian Mysteries
+Demeter
+Persephone
+mystery cults
+pompe
+libation
+animal sacrifice
+thigh-bones
+chorus
+choral song
+tragedians
+Sophocles
+Euripides
+Homeric
+vase-paintings
+inscriptions
+cult statue
+sanctuary
+priesthoods
+initiation ceremonies
+initiates
+polis
+civic religion

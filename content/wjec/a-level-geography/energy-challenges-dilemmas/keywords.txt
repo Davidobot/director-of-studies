@@ -1,0 +1,63 @@
+# STT vocabulary hints for Energy Challenges Dilemmas (A-level Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+WJEC
+Eduqas
+A-level Geography
+fossil fuels
+coal
+oil
+natural gas
+nuclear
+uranium
+fission
+renewables
+hydropower
+run-of-river
+wind power
+solar radiation
+tidal
+bioenergy
+biofuels
+wave energy
+geothermal
+sedimentary basins
+source rocks
+reservoir rocks
+proven reserves
+proven recoverable stocks
+reserves
+resources
+insolation
+low-latitude
+Strait of Hormuz
+Suez Canal
+OPEC
+liquefied natural gas
+LNG
+pipeline politics
+unconventional hydrocarbons
+shale gas
+tight oil
+resource curse
+carbon capture and storage
+CCS
+hydrogen
+smart grids
+energy storage
+electrification
+intermittency
+microgrids
+North Sea
+Middle East
+Caspian
+Russia
+Norway
+China
+India
+USA
+Australia
+France
+Germany
+Kenya
+sovereign wealth fund

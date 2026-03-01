@@ -1,0 +1,52 @@
+# STT vocabulary hints for Aeneid Pietas Destiny Augustan Context (A-level Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Aeneid
+Virgil
+Aeneas
+Anchises
+Ascanius
+Dido
+Juno
+Lavinia
+Turnus
+Troy
+Underworld
+Shield of Aeneas
+Vulcan
+Venus
+Jupiter
+Homer
+Homeric
+kleos
+pietas
+fatum
+destiny
+Augustus
+Julian family
+Augustan Rome
+Augustan propaganda
+Augustan ideology
+Augustan iconography
+civil wars
+Golden Age
+triumphal imagery
+public monuments
+rituals
+ekphrasis
+epic similes
+catalogues
+flashbacks
+prophecies
+oracles
+omens
+imperial destiny
+state-building
+civilizing power
+moral ambiguity
+filial duty
+Book 1
+Book 4
+Book 6
+Book 8
+Book 12

@@ -1,0 +1,48 @@
+# STT vocabulary hints for Statutory Interpretation (A-level Law WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Statutory interpretation
+Literal rule
+Golden rule
+Mischief rule
+Heydon's Case
+Purposive approach
+Pepper v Hart
+Royal College of Nursing v DHSS
+Fisher v Bell
+R v Allen
+Ghaidan v Mendoza
+Human Rights Act 1998
+Section 3
+Section 4
+Declaration of incompatibility
+Law Commission
+Hansard
+Intrinsic aids
+Extrinsic aids
+Long title
+Short title
+Preamble
+Defined terms
+Schedules
+Mens rea
+Strict liability
+Presumption against retrospectivity
+Sweet v Parsley
+Factortame
+European Court of Justice
+ECJ jurisprudence
+Retained EU law
+Parliamentary sovereignty
+Judicial precedent
+House of Lords
+Supreme Court
+Interpretation obligation
+Invitation to treat
+Offer for sale
+Rent Act
+Bigamy offence
+AO1
+AO2
+AO3
+Judicial activism

@@ -1,0 +1,47 @@
+# STT vocabulary hints for Norman Conquest 1065 1087 (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Norman Conquest
+William of Normandy
+Battle of Hastings
+Harold Godwinson
+Edward the Confessor
+Harald Hardrada
+Tostig
+Stamford Bridge
+Tower of London
+Harrying of the North
+Hereward the Wake
+Domesday Book
+Lanfranc
+Canterbury
+Bayeux Tapestry
+Anglo-Saxon Chronicle
+William of Poitiers
+Orderic Vitalis
+motte-and-bailey
+stone keep
+tenants-in-chief
+feudal system
+witan
+shire courts
+earls
+thegns
+Mercia
+Fenlands
+Viking raid
+garrison
+manorial control
+Norman Yoke
+Norman French
+Old English
+monastic reforms
+Domesday entries
+Norman elite
+landholding
+charter evidence
+archaeological reports
+October 1066
+Christmas Day 1066
+–70
+continuity and change

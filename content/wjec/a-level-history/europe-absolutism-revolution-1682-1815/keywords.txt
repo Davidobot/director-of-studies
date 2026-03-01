@@ -1,0 +1,49 @@
+# STT vocabulary hints for Europe Absolutism Revolution 1682 1815 (A-level History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Age of Absolutism
+Enlightened absolutism
+Peter the Great
+St Petersburg
+Great Northern War
+Holy Synod
+Russian Orthodox Church
+Serfdom
+Prussia
+Frederick the Great
+Frederick II
+Silesian Wars
+Enlightened despot
+Ancien régime
+Estates-General
+Turgot
+Necker
+Calonne
+Seven Years' War
+Diplomatic Revolution
+War of the Spanish Succession
+Congress of Vienna
+French Revolution
+Napoleonic Wars
+Napoleon Bonaparte
+Napoleonic Code
+levee en masse
+Mass conscription
+Meritocratic bureaucracy
+Secularisation
+Total war
+Balance of power
+Great Powers
+Mercantilism
+Standing armies
+Fiscal crisis
+Public debt
+Colonial competition
+Dynastic claims
+Anglo-French rivalry
+Mulgrave diplomacy
+Historiography
+Synoptic
+AO1
+AO3
+NEA

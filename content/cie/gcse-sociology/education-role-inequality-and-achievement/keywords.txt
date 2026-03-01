@@ -1,0 +1,53 @@
+# STT vocabulary hints for Education Role Inequality And Achievement (GCSE Sociology CIE).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Cambridge International
+schooling
+formal education
+informal learning
+official curriculum
+hidden curriculum
+cultural capital
+meritocracy
+functionalism
+Marxism
+feminism
+labelling theory
+self-fulfilling prophecy
+setting
+streaming
+social class
+class reproduction
+material deprivation
+institutional racism
+ethnocentric curriculum
+language barriers
+gendered subject choices
+patriarchy
+role allocation
+social cohesion
+vocational routes
+vocational colleges
+homeschooling
+online learning
+faith schools
+selective schools
+private schools
+state schools
+international schools
+progressive schools
+teacher expectations
+teacher–pupil relationships
+high-stakes testing
+bursaries
+universal primary education
+free school meals
+early years interventions
+AO1
+AO2
+AO3
+cultural bias
+socialisation
+exam boards
+non-governmental organisations

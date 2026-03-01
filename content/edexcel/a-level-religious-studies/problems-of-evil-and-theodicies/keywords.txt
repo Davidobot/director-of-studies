@@ -1,0 +1,40 @@
+# STT vocabulary hints for Problems Of Evil And Theodicies (A-level Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Problem of evil
+Logical problem
+Evidential problem
+Inconsistent triad
+Omnipotence
+Omniscience
+Omnibenevolence
+Theodicy
+Defence
+Augustine
+Privation
+Irenaeus
+Vale of soul-making
+John Hick
+Soul-making
+Alvin Plantinga
+Free will defence
+Process theodicy
+Process philosophy
+Skeptical theism
+Eschatological justice
+Liberation theology
+Preferential option for the oppressed
+Karma
+Rebirth
+Book of Job
+Job's dialogues
+Holocaust
+Burning fawn
+Genocide
+Famine
+Natural evil
+Moral evil
+Gratuitous evil
+Fallen order
+Universalism
+Analytic philosophy

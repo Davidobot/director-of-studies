@@ -1,0 +1,53 @@
+# STT vocabulary hints for Russia 1881 1921 Tsarism To Bolshevik Revolution (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Alexander II
+Nicholas II
+Lenin
+Trotsky
+Pyotr Stolypin
+Bloody Sunday
+Russo-Japanese War
+Revolution
+October Manifesto
+Fundamental Laws (1906)
+Duma
+Okhrana
+Bolsheviks
+Mensheviks
+Socialist Revolutionaries
+Kadets
+Petrograd Soviet
+Provisional Government
+February Revolution (1917)
+October Revolution (1917)
+July Days
+Kornilov affair
+Military Revolutionary Committee
+Battleship Potemkin
+Red Army
+Whites
+Cheka
+War communism
+New Economic Policy (NEP)
+Emancipation of the serfs (1861)
+Mir
+Stolypin reforms
+Peasant proprietorship
+Land hunger
+Industrialisation
+Railways
+Petrograd
+St Petersburg
+Moscow
+Civil War (1918–1921)
+Treaty of Brest-Litovsk
+National minorities
+Russification
+Dual power
+Soviets
+Agrarian reform
+Seizure and redistribution of land
+One-party state
+Romanov autocracy
+Siberia

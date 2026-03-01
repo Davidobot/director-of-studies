@@ -1,0 +1,56 @@
+# STT vocabulary hints for Democracy And Participation (A-level Politics EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Representative democracy
+Direct democracy
+Pluralist democracy
+Great Reform Act 1832
+Representation of the People Act 1918
+Representation of the People Act 1928
+Representation of the People Act 1969
+Scottish independence referendum
+EU referendum
+AV referendum
+Suffragists
+Suffragettes
+Trades Union Congress
+TUC
+Confederation of British Industry
+CBI
+Greenpeace
+Liberty
+British Medical Association
+BMA
+Think‑tanks
+Lobbyists
+Lobbying registers
+Human Rights Act 1998
+European Convention on Human Rights
+Magna Carta
+Equality Act 2010
+Parliamentary sovereignty
+Judicial review
+Proportional representation
+Compulsory voting
+Automatic voter registration
+Citizens’ assemblies
+Deliberative mini‑publics
+Voter ID
+Democratic deficit
+Franchise
+Suffrage
+Civil liberties
+Coalition government
+Safe seats
+Political socialisation
+Pressure groups
+Insider groups
+Outsider groups
+Corporate lobbying
+Domestic bill of rights
+Political legitimacy
+Electoral turnout
+Party systems
+AO1
+AO2
+AO3

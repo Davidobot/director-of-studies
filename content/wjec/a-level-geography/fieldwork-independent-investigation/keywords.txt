@@ -1,0 +1,62 @@
+# STT vocabulary hints for Fieldwork Independent Investigation (A-level Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+WJEC
+Eduqas
+NEA
+Independent Investigation
+Unit 5
+AS
+A2
+Changing Landscapes
+Changing Places
+beach profile
+sediment characteristics
+corrie
+depositional features
+river catchment hydrology
+urban rebranding
+retail change
+risk assessment
+ethical considerations
+consent for interviews
+six-stage enquiry
+AO1
+AO2
+AO3
+abstract
+–4000 words
+cartographic referencing
+systematic sampling
+stratified sampling
+random sampling
+descriptive statistics
+inferential statistics
+Spearman rank
+Chi-square
+scatter plot
+GPS
+GIS
+remote sensing
+semi-structured interview
+participant observation
+photo-elicitation
+content analysis
+beach profile transect
+grain size distribution
+pilot study
+map scale
+northing
+GIS outputs
+systems
+feedbacks
+thresholds
+interdependence
+sustainability
+measurement error
+sampling bias
+temporal constraints
+internal standardisation
+moderation
+Geography Independent Investigation Form
+Harvard referencing

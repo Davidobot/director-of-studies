@@ -1,0 +1,46 @@
+# STT vocabulary hints for Climate Weather Biomes Equatorial Hot Desert (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Intertropical Convergence Zone (ITCZ)
+Hadley circulation
+Subtropical high‑pressure belt
+Convectional rainfall
+Convectional storms
+Equatorial climate
+Hot desert climate
+Tropical rainforest
+Oxisols
+Amazon Basin
+Borneo
+Congo rainforest
+Sahel
+Great Green Wall
+Desertification
+Xerophytic adaptations
+CAM photosynthesis
+Nomadic pastoralism
+Irrigated agriculture
+Drip irrigation
+Afforestation belts
+Agroforestry
+Reduced‑impact logging
+Protected areas
+Stevenson screen
+Wet‑and‑dry bulb thermometer
+Maximum–minimum thermometer
+Rain gauge
+Anemometer
+Barometer
+Wind vane
+Sunshine recorder
+Datalogger
+Relative humidity
+Diurnal temperature range
+Nutrient cycling
+Emergent layer
+Soil erosion
+Saline soils
+High‑pressure cells
+Carbon dioxide emissions
+Sustainable forestry
+Mineral resources

@@ -1,0 +1,50 @@
+# STT vocabulary hints for Migration To Britain 1000 2010 (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Viking raids
+Norman Conquest
+Jewish community
+Expulsion of 1290
+Resident aliens
+East India Company
+Lascar
+Ayah
+Huguenots
+Palatines
+Industrial Revolution
+Urbanisation
+Bristol
+Liverpool
+London
+Bank of England 1694
+South Sea Bubble
+Royal African Company 1698
+Atlantic slave trade
+Enslaved Africans
+Darien Scheme
+Act of Union 1707
+Treaty of Utrecht 1713
+Glorious Revolution
+Hanoverian succession
+Aliens Act 1905
+British Nationality Act 1948
+Empire Windrush
+Commonwealth Immigrants Act 1962
+Commonwealth
+Race relations legislation
+Asylum system
+EU enlargement
+Free movement
+Multiculturalism
+Spitalfields
+Butetown
+South Shields
+Historic environment
+Parish records
+Naturalisation
+Bantustan
+Diaspora
+Asylum seeker
+Port neighbourhoods
+Imperial expansion
+Slave-based economies

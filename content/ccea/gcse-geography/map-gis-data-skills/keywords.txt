@@ -1,0 +1,72 @@
+# STT vocabulary hints for Map Gis Data Skills (GCSE Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Ordnance Survey
+OS maps
+four‑figure grid reference
+six‑figure grid reference
+grid reference
+eastings
+northings
+latitude
+longitude
+compass points
+representative fraction
+scale bar
+:50 000
+contours
+contour spacing
+spot heights
+form lines
+valley cross‑section
+ridge cross‑section
+topographic map
+aerial photograph
+vertical photograph
+oblique photograph
+synoptic chart
+isobars
+depression
+anticyclone
+fronts
+true‑colour imagery
+infrared imagery
+vegetation health
+line graph
+bar chart
+pie chart
+scattergraph
+histogram
+frequency diagram
+class intervals
+line of best fit
+correlation
+mean
+median
+range
+outlier
+anomaly
+primary data
+secondary data
+transect
+systematic sampling
+random sampling
+stratified sampling
+flowmeter
+float method
+environmental quality survey
+pedestrian counts
+land use mapping
+callipers
+ranging poles
+choropleth map
+proportional symbol map
+flow map
+buffering
+overlay analysis
+attribute data
+thematic map
+GIS
+spatial analysis
+census statistics
+fieldwork statement

@@ -1,0 +1,46 @@
+# STT vocabulary hints for Wales Early Tudors Acts Of Union (GCSE History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Wales
+Early Tudors
+Acts of Union 1536
+Acts of Union 1543
+Henry VII
+Henry VIII
+Tudor dynasty
+Edwardian Conquest
+Marcher lords
+Marcher lordships
+Council in the Marches
+Ludlow
+Pembroke
+Bosworth
+Wars of the Roses
+Penmynydd
+Sir Rhys ap Thomas
+Sir Rhys ap Gruffudd
+John Veysey
+Lord President
+Princes of Wales
+Prince Arthur
+Princess Mary
+Henrician Reformation
+Thomas Cromwell
+Dissolution of the Monasteries
+Tintern
+Neath
+Margam
+Strata Florida
+Yn y Llyfr Hwn
+Welsh language
+Vernacular
+Sheriffs
+Justices of the Peace
+Quarter Sessions
+Great Sessions
+Rowland Lee
+Anglicisation
+Legal uniformity
+County courts
+Charters
+Patronage

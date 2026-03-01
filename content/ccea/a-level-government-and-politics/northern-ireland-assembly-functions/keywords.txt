@@ -1,0 +1,52 @@
+# STT vocabulary hints for Northern Ireland Assembly Functions (A-level Government and Politics CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Northern Ireland Assembly
+Good Friday Agreement
+power‑sharing
+community designation
+cross‑community voting
+cross‑community consent
+parallel consent
+weighted majority
+Northern Ireland Executive
+Executive Committee
+UK Parliament
+devolution
+St Andrews Agreement
+New Decade, New Approach
+transferred matters
+reserved matters
+excepted matters
+Members of the Legislative Assembly
+MLAs
+single transferable vote
+STV
+consociational
+mandatory coalition
+petition of concern
+D'Hondt method
+Office of the First Minister and Deputy First Minister
+OFMDFM
+Ulster Unionist Party
+Social Democratic and Labour Party
+SDLP
+Democratic Unionist Party
+DUP
+Sinn Féin
+Alliance Party
+departmental committees
+Public Accounts Committee
+plenary
+question time
+audit functions
+cross‑border bodies
+suspension of devolved institutions
+suspension
+restoration
+January 2017 collapse
+January 2020 restoration
+descriptive representation
+substantive representation
+ministerial allocations
+inter‑departmental coordination

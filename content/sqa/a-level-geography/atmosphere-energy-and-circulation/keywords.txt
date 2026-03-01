@@ -1,0 +1,48 @@
+# STT vocabulary hints for Atmosphere Energy And Circulation (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Hadley cell
+Ferrel cell
+Polar cell
+Intertropical Convergence Zone
+ITCZ
+Gulf Stream
+North Atlantic Drift
+North Atlantic Gyre
+Ekman transport
+Thermohaline circulation
+Global conveyor belt
+ENSO
+El Niño–Southern Oscillation
+El Niño
+La Niña
+Trade winds
+Coriolis effect
+Upwelling
+Downwelling
+Albedo
+Greenhouse gases
+Shortwave radiation
+Longwave radiation
+Incoming shortwave
+Outgoing longwave
+Polar amplification
+West African monsoon
+Sahel
+Sahara
+Thermal equator
+Convective uplift
+Prevailing westerlies
+Polar easterlies
+Depression tracks
+Gyres
+Warm pools
+Sea surface temperature
+Aerosols
+Cloud feedbacks
+Hydrograph
+Meridional cells
+Ocean–atmosphere coupling
+Density-driven circulation
+Salinity
+Peru upwelling

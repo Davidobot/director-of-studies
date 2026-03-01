@@ -1,0 +1,53 @@
+# STT vocabulary hints for Changing Nature Of Warfare 1792 1945 (A-level History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+levee en masse
+Napoleonic corps system
+Napoleonic Wars
+French Revolutionary Wars
+Austerlitz
+rifled weapons
+Minie ball
+railways
+telegraph
+American Civil War
+Ulysses S Grant
+William Tecumseh Sherman
+Shermans march
+Schlieffen Plan
+J F C Fuller
+Basil Liddell Hart
+combined arms
+creeping barrage
+tactical specialists
+Blitzkrieg
+strategic bombing
+armoured formations
+seaborne logistics
+smoothbore musket
+massed infantry volleys
+machine gun
+quick-firing artillery
+armoured vehicles
+aviation
+motor transport
+reconnaissance
+tanks
+radio
+radar
+Crimean War
+total war
+Ministry of Munitions
+conscription
+rationing
+directed industry
+Western Front
+trench stalemate
+Russo-Japanese War
+industrialised attrition
+operational art
+operational level
+corps organisation
+mass mobilisation
+medical services
+amphibious logistics

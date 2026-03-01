@@ -1,0 +1,45 @@
+# STT vocabulary hints for Good Friday Agreement And Devolved Institutions (A-level Government and Politics CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Good Friday Agreement
+Belfast Agreement
+Northern Ireland
+Northern Ireland Assembly
+Northern Ireland Executive
+devolved institutions
+Office of the First Minister and deputy First Minister
+OFMDFM
+First Minister
+deputy First Minister
+power-sharing
+consociationalism
+parity of esteem
+petition of concern
+decommissioning
+policing reform
+human rights obligations
+devolved competence
+reserved matters
+Westminster
+UK Parliament
+North/South Ministerial Council
+British–Irish Council
+MLA
+proportional representation
+unicameral legislature
+ministerial allocation
+cross‑community vote
+weighted support
+Ulster Unionist Party
+UUP
+Democratic Unionist Party
+DUP
+Sinn Féin
+Alliance Party
+St Andrews Agreement
+Hillsborough Castle talks
+Fresh Start Agreement
+New Decade New Approach
+suspension
+restoration
+legacy

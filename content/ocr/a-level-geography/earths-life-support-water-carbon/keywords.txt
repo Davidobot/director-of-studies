@@ -1,0 +1,62 @@
+# STT vocabulary hints for Earths Life Support Water Carbon (A-level Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Earth's Life Support Systems
+water cycle
+carbon cycle
+cryosphere
+evapotranspiration
+transpiration
+interception
+infiltration
+percolation
+throughflow
+groundwater flow
+runoff
+storm hydrograph
+flashy hydrograph
+baseflow
+aquifer
+confined aquifer
+unconfined aquifer
+aquifer drawdown
+managed aquifer recharge
+salinisation
+land subsidence
+mass balance
+fluxes
+residence time
+feedbacks
+permafrost
+thermokarst
+Arctic tundra
+Amazon
+tropical rainforest
+photosynthesis
+respiration
+decomposition
+weathering
+sedimentation
+carbonates
+sequestration
+fossil fuels
+sedimentary rocks
+Industrial Revolution
+greenhouse gases
+CO2
+methane
+carbon capture and storage
+afforestation
+reforestation
+carbon sinks
+carbon budget
+planetary energy balance
+albedo
+Arctic sea ice
+tipping points
+thresholds
+flux towers
+remote sensing
+geospatial data
+catchment hydrology
+basal sliding

@@ -1,0 +1,63 @@
+# STT vocabulary hints for Youth Cultures And Subcultures (A-level Sociology WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Youth cultures
+Subcultures
+Neo-tribes
+Neo-tribalism
+Liquid identities
+Birmingham Centre for Contemporary Cultural Studies
+CCCS
+Teddy Boys
+Mods
+Rockers
+Skinheads
+Punk
+Goth
+Rave
+Britpop
+Indie
+Grime
+Emo
+K-pop
+Hip hop
+Globalisation
+Commodification
+Consumer capitalism
+Cultural industries
+Cultural production
+Cultural capital
+Symbolic resistance
+Moral panic
+Labelling theory
+Interactionism
+Functionalism
+Marxism
+Feminist theory
+Postmodernism
+Ethnography
+Participant observation
+Triangulation
+Primary socialisation
+Secondary socialisation
+Intersectionality
+Cultural appropriation
+Youth rites of passage
+Right realism
+Left realism
+Stigmatization
+Class position
+Transnational youth culture
+Media amplification
+Authenticity
+Labour markets
+Devolved government
+Welsh language
+Community arts programmes
+Online fandoms
+Festival communities
+Hybrid music scenes
+Social construction
+Consumer culture
+Media industries
+Identity narratives

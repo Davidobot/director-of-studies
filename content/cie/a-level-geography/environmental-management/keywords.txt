@@ -1,0 +1,62 @@
+# STT vocabulary hints for Environmental Management (A-level Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Environmental management
+Human geography
+Renewable energy
+Non‑renewable energy
+Hydroelectric power
+Hydropower schemes
+Wind power
+Solar power
+Biofuels
+Fossil fuels
+Nuclear energy
+Natural gas
+Coal
+Biomass
+Enhanced greenhouse effect
+Air pollution
+Energy security
+Grid upgrades
+Transmission infrastructure
+Decentralised systems
+Energy mix
+Resource endowment
+Siting decisions
+Demand management
+Subsidies
+Regulation
+International agreements
+Displacement
+Resettlement
+Sediment regimes
+Life cycle greenhouse gas emissions
+Point source pollution
+Diffuse pollution
+Industrial effluent
+Agricultural runoff
+Untreated sewage
+Salinisation
+Soil erosion
+Deforestation
+Overgrazing
+Wastewater treatment
+Soil conservation
+Reforestation
+Land‑use planning
+Payment for ecosystem services
+Marketable permits
+Environmental impact assessment
+Baseline monitoring
+Adaptive management
+Three pillars of sustainability
+Cost–benefit analysis
+Non‑market valuation
+Ecosystem services
+Stakeholder analysis
+Governance capacity
+Biodiversity measures
+Pollutant concentrations
+Urban river cleanup
+Energy policy

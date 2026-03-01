@@ -1,0 +1,44 @@
+# STT vocabulary hints for First Crusade C1070 1100 (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+First Crusade
+Urban II
+Council of Clermont
+Alexios I Komnenos
+Byzantine Empire
+Battle of Manzikert
+Seljuk Turks
+Anatolia
+People’s Crusade
+Peter the Hermit
+Raymond of Toulouse
+Godfrey of Bouillon
+Bohemond of Taranto
+Robert of Normandy
+Tancred
+Nicaea
+Siege of Nicaea
+Battle of Dorylaeum
+Siege of Antioch
+Kerbogha
+Siege of Jerusalem
+Sack of Jerusalem
+Kingdom of Jerusalem
+Principality of Antioch
+County of Edessa
+County of Tripoli
+Levant
+Rhineland massacres
+Fulcher of Chartres
+Raymond of Aguilers
+Gesta Francorum
+Anna Komnene
+Alexiad
+Ibn al-Athir
+Nur ad-Din
+Saladin
+indulgences
+crusader states
+Latin Christendom
+siege warfare
+heavy cavalry

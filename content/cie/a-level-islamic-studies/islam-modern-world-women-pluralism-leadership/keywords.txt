@@ -1,0 +1,48 @@
+# STT vocabulary hints for Islam Modern World Women Pluralism Leadership (A-level Islamic Studies CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Quran
+Sunnah
+Hadith
+Shariah
+Fiqh
+Ijtihad
+Ijma
+Qiyas
+Shura
+Dhimma
+Constitution of Medina
+Medina
+Caliph
+Caliphate
+Umar ibn al-Khattab
+Imam
+Sunni
+Shia
+Sufi
+Murshid
+Salafi
+Mu'tazili
+Al-Andalus
+Lubna of Cordoba
+Khadija
+Aisha
+Fatima
+Benazir Bhutto
+Malala Yousafzai
+Mughal Empire
+Akbar
+Aurangzeb
+Muhammad Abduh
+Syed Ahmad Khan
+Syed Abul A'la Maududi
+Hasan al-Banna
+Allama Iqbal
+Pluralism
+Secularism
+Laicite
+Human rights
+Family law
+Gender parity
+AO1
+AO2

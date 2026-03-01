@@ -1,0 +1,48 @@
+# STT vocabulary hints for Legal Personnel Magistrates And Juries (A-level Law CIE).
+# One term per line. Used to improve speech recognition quality.
+
+High Court
+Court of Appeal
+Supreme Court
+Crown Court
+Magistrates' courts
+Lay magistrates
+Justices of the peace
+District judges
+Recorders
+Solicitors
+Barristers
+Legal executives
+Legal adviser
+Legally qualified clerk
+Bench of three
+Youth courts
+Summary offences
+Either-way offences
+Indictable offences
+Custodial sentences
+Sentencing powers
+Appellate levels
+Precedent
+Judicial independence
+Selection procedures
+Advisory committees
+Judicial training bodies
+Regulatory bodies
+Codes of professional behaviour
+Registers of electors
+Statutory qualifications
+Disqualification
+Excusal
+Vetting
+Challenge for cause
+Challenge to the array
+Majority verdict
+Unanimous verdict
+Jury secrecy
+Judge-alone trial
+Jury tampering
+Specialist tribunals
+Rules of evidence
+Disclosure obligations
+Fact-finding

@@ -1,0 +1,51 @@
+# STT vocabulary hints for Normative Ethical Theories (A-level Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Normative ethics
+Natural Law
+Situation Ethics
+Kantian ethics
+Utilitarianism
+OCR A‑level
+Aquinas
+Aristotle
+telos
+Eternal Law
+Divine Law
+Human Law
+primary precepts
+secondary precepts
+doctrine of double effect
+Catholic moral teaching
+bioethics
+sexual ethics
+Joseph Fletcher
+agape
+pragmatism
+relativism
+positivism
+personalism
+conscience as verb
+Categorical Imperative
+universalisability
+end in itself
+kingdom of ends
+hypothetical imperatives
+moral postulates
+Immanuel Kant
+Jeremy Bentham
+John Stuart Mill
+hedonic calculus
+higher and lower pleasures
+act utilitarianism
+rule utilitarianism
+consequentialism
+teleological ethics
+deontological ethics
+common good
+human dignity
+autonomy
+human rights
+euthanasia
+assisted dying
+business ethics

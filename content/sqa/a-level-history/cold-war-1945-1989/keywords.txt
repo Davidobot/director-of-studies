@@ -1,0 +1,43 @@
+# STT vocabulary hints for Cold War 1945 1989 (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Cold War in Europe
+Marshall Plan
+Truman Doctrine
+Berlin Blockade
+Berlin Airlift
+Federal Republic of Germany
+German Democratic Republic
+NATO
+COMECON
+Warsaw Pact
+Containment
+De-Stalinisation
+Nikita Khrushchev
+Hungarian Revolution 1956
+Polish unrest 1956
+Berlin Wall
+Berlin crisis 1961
+Cuban Missile Crisis
+October 1962
+Ballistic missiles
+Naval blockade
+SALT I
+Helsinki Accords
+Détente
+Soviet invasion of Afghanistan
+Moscow Olympics boycott
+Glasnost
+Perestroika
+Mikhail Gorbachev
+Solidarity
+Revolutions of 1989
+Arms race
+Proxy conflicts
+Political repression
+Show trials
+Collectivisation
+Security services
+Economic integration
+Central planning
+Third World

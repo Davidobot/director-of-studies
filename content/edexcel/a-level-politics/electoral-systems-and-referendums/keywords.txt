@@ -1,0 +1,51 @@
+# STT vocabulary hints for Electoral Systems And Referendums (A-level Politics EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+First-past-the-post
+FPTP
+Additional Member System
+AMS
+Single Transferable Vote
+STV
+Supplementary Vote
+SV
+Alternative Vote
+AV
+Proportional representation
+Plurality system
+Majoritarian system
+Single-member constituency
+Multi-member constituency
+Top-up seats
+List allocation
+Transfer rules
+Quota
+Threshold
+Wasted votes
+Safe seats
+Marginal seats
+Tactical voting
+Coalition government
+Minority government
+Party system
+Devolution referendum
+Scottish Parliament
+Senedd
+Northern Ireland Assembly
+Westminster
+AV referendum
+Scottish independence referendum
+EU referendum
+Brexit
+Parliamentary sovereignty
+Binding referendum
+Advisory referendum
+Turnout threshold
+Constituency link
+List members
+Constituency MPs
+Police and Crime Commissioner
+Mayoral elections
+Proportionality
+Electoral formula
+Manifesto

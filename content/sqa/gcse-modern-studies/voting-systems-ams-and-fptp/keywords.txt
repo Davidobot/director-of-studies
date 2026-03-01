@@ -1,0 +1,48 @@
+# STT vocabulary hints for Voting Systems Ams And Fptp (GCSE Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Additional Member System
+AMS
+First Past the Post
+FPTP
+Scottish Parliament
+House of Commons
+Holyrood
+Westminster
+Member of the Scottish Parliament
+MSP
+Member of Parliament
+MP
+d'Hondt method
+constituency MSP
+regional MSP
+regional list
+constituency seat
+regional seat
+single-member constituency
+plurality rule
+winner's bonus
+safe seats
+tactical voting
+split-ticket voting
+wasted votes
+proportionality
+top-up seats
+coalition government
+minority government
+consensual politics
+zipping
+positive action
+devolved matters
+reserved matters
+Scottish Government
+UK Government
+House of Commons select committees
+Prime Minister's Questions
+committee scrutiny
+gender balance
+electoral reform
+seats
+constituency seats
+regional seats
+constituencies

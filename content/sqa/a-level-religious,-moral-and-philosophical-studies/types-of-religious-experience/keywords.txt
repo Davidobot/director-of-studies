@@ -1,0 +1,48 @@
+# STT vocabulary hints for Types Of Religious Experience (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+William James
+The Varieties of Religious Experience
+Rudolf Otto
+Richard Swinburne
+numinous
+mysterium tremendum et fascinans
+ineffable
+noetic
+transiency
+passivity
+mysticism
+Sufism
+Rumi
+fana
+samadhi
+moksha
+St Teresa of Ávila
+St John of the Cross
+conversion
+intellectual conversion
+moral conversion
+social conversion
+Apostle Paul
+Damascus road
+Augustine
+miracles
+Hume
+Aquinas
+C. S. Lewis
+Lourdes
+providential coincidences
+temporal lobe epilepsy
+God helmet
+collective effervescence
+Durkheim
+Weber
+Marx
+Freud
+Jung
+phenomenology
+epistemology
+prima facie
+principle of credulity
+principle of testimony
+under-determination

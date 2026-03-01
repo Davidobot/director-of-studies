@@ -1,0 +1,47 @@
+# STT vocabulary hints for Treaty Of Union 1689 1715 (GCSE History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Treaty of Union
+Acts of Union
+Darien scheme
+Darien disaster
+Company of Scotland Trading to Africa and the Indies
+Company of Scotland
+Isthmus of Panama
+Equivalent
+Equivalent (£400,000)
+Act of Security
+Alien Act
+Act of Settlement
+Glorious Revolution
+Union of the Crowns
+William and Mary
+Queen Anne
+George I
+Hanoverian
+Protestant succession
+Jacobite rising of 1715
+Jacobitism
+Earl of Mar
+James Francis Edward Stuart
+Old Pretender
+Duke of Queensberry
+Andrew Fletcher of Saltoun
+Squadrone Volante
+Navigation Acts
+Customs union
+Church of Scotland
+Presbyterianism
+Kirk
+Scottish Parliament
+Westminster
+House of Commons
+House of Lords
+MPs
+representative peers
+Court party
+Lowland Tories
+Highland chiefs
+Patronage
+Scottish legal system
+parcel of rogues

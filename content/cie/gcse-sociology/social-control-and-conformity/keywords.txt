@@ -1,0 +1,50 @@
+# STT vocabulary hints for Social Control And Conformity (GCSE Sociology CIE).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE Sociology
+Cambridge International
+Social control
+Conformity
+Formal control
+Informal control
+Penal system
+Probation services
+Incarceration
+Deterrence
+Incapacitation
+Reoffending
+Selective enforcement
+Stop and search
+Primary socialisation
+Secondary socialisation
+Hidden curriculum
+Peer groups
+Ostracism
+Social exclusion
+Social media reinforcement
+Labelling theory
+Moral panics
+Functionalism
+Marxism
+Feminist perspectives
+Interactionism
+Self‑fulfilling prophecy
+Civil disobedience
+Subcultures
+Youth subcultures
+Civil rights campaigns
+Environmental activism
+Surveillance
+CCTV
+Facial recognition
+Algorithms
+Cancel culture
+Restorative justice
+Community sanctions
+Official crime statistics
+Underreporting
+Digital surveillance
+Transnational control
+Globalisation
+Policing strategies
+Criminal justice system

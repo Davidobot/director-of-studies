@@ -1,0 +1,42 @@
+# STT vocabulary hints for Ontological Argument (A-level Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Ontological Argument
+WJEC
+Eduqas
+Philosophy of Religion
+a priori
+deductive
+cosmological argument
+teleological argument
+metaphysics
+St Anselm
+Proslogion
+greatest conceivable being
+necessary existence
+contingent
+reductio ad absurdum
+René Descartes
+divine perfections
+Norman Malcolm
+modal Ontological Argument
+modal logic
+possible world
+Alvin Plantinga
+maximally great being
+Gaunilo
+perfect island
+Immanuel Kant
+existence as a predicate
+analytic/synthetic distinction
+predicate
+instantiation
+modal operators
+modal premise
+question-begging
+synoptic thinking
+AO1
+AO2
+a posteriori
+Anselmian
+metaphysical necessity

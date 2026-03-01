@@ -1,0 +1,53 @@
+# STT vocabulary hints for Higher Assignment Research Resource Sheet (A-level Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Higher assignment
+Classical Studies
+Scottish Qualifications Authority
+SQA
+Resource sheet
+Production of evidence
+Research stage
+Supervised assessment
+Invigilator
+External marking
+Mark allocation
+marks
+% weighting
+Thesis statement
+Contextual paragraph
+Comparative analysis
+Primary evidence
+Secondary interpretations
+Archaeological reports
+Inscriptional evidence
+Thucydides
+Thuc. 6.2
+Sicily debate
+Aristotle
+Antigone
+Sophocles
+Oedipus the King
+Soph. Oed. 440–470
+Oracle scene
+Athenian democracy
+Enslavement
+Manumission
+Votive offerings
+Temples
+Hymns
+Ritual descriptions
+Material remains
+Critical commentaries
+Source reliability
+Bibliographic details
+Fixed penalty
+Malpractice
+Authenticity
+Citizenship debates
+Migration
+Healing cults
+Festival audience
+Close reading
+Synthesis
+Counter-arguments

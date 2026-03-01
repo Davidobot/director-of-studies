@@ -1,0 +1,60 @@
+# STT vocabulary hints for Geographical Project Skills (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Advanced Higher
+A-level Geography
+Scottish Qualifications Authority
+SQA
+project–folio
+geographical study
+geographical issue
+fieldwork
+random sampling
+stratified sampling
+regular sampling
+transect
+transect diagram
+annotated overlay
+pebble axis length
+pebble angularity
+vernier calipers
+pebble chart
+clinometer
+ranging pole
+flow meter
+float timing
+quadrat
+pH testing
+Likert-type scale
+perception mapping
+mental mapping
+environmental quality survey
+Pearson’s product-moment correlation coefficient
+Pearson's r
+Spearman’s rank
+Spearman's rho
+Chi-squared test
+interquartile range
+standard deviation
+scattergraph
+line of best fit
+null hypothesis
+alternative hypothesis
+choropleth map
+proportional symbol map
+flow line map
+isoline map
+GIS
+:25 000 OS map
+Ordnance Survey
+grid reference
+relief symbol
+landform
+Harvard referencing
+APA
+MLA
+risk assessment
+parental consent
+authenticity
+plagiarism
+bibliography

@@ -1,0 +1,53 @@
+# STT vocabulary hints for Uk Executive Pm Cabinet (A-level Government and Politics CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Prime Minister
+Cabinet
+Number 10
+Downing Street
+Prime Minister's Office
+Cabinet Office
+Special advisers
+Political advisers
+Civil service
+Collective responsibility
+Individual ministerial responsibility
+Fixed-term Parliaments Act 2011
+Judicial review
+House of Commons
+House of Lords
+Select committees
+Prime Minister's Questions
+Ministerial questions
+Committee stages
+Whips
+Backbench rebellions
+Coalition government
+Conservative–Liberal Democrat coalition 2010–2015
+David Cameron
+Nick Clegg
+Tony Blair
+Margaret Thatcher
+Iraq intervention
+EU referendum
+Parliamentary sovereignty
+Confidence convention
+Votes of no confidence
+Meaningful votes
+Cabinet committees
+Party discipline
+Patronage
+Party machinery
+Presidentialisation
+Centralisation
+Devolved governments
+Scotland
+Wales
+Northern Ireland
+Legislative timetable
+Legislative process
+Public evidence sessions
+Electoral accountability
+Leadership challenge
+Policy implementation
+Ministerial posts

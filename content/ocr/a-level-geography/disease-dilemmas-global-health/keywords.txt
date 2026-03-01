@@ -1,0 +1,53 @@
+# STT vocabulary hints for Disease Dilemmas Global Health (A-level Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Disease Dilemmas
+Endemic
+Epidemic
+Pandemic
+Communicable diseases
+Non-communicable diseases
+Malaria
+Tuberculosis
+HIV/AIDS
+Ebola
+COVID-19
+Cholera
+Dengue
+West Nile virus
+Avian influenza
+Coronaviruses
+Zoonoses
+One Health
+Vector
+Vector ecology
+Vector control
+Insecticide-treated nets
+Indoor residual spraying
+WASH
+Surveillance
+Genomic sequencing
+Hägerstrand
+Spatial diffusion
+Epidemiological transition
+Antiretroviral therapy
+Vaccine-derived cases
+World Health Organization
+Médecins Sans Frontières
+Pharmaceutical transnationals
+Intellectual property regimes
+Generic manufacture
+Remittances
+Asymptomatic carriers
+Reservoirs
+Contact tracing
+Non-pharmaceutical interventions
+LIDCs
+EDCs
+ACs
+Polio
+Smallpox
+Monsoon
+Natural hazards
+Standing water
+Travel corridors

@@ -1,0 +1,51 @@
+# STT vocabulary hints for Prime Minister Cabinet And Executive Power (A-level Politics EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Prime Minister
+Cabinet
+Number 10
+Cabinet Office
+Prime Minister's Office
+Royal prerogative
+Statute law
+Common law
+Primary legislation
+Secondary legislation
+Delegated legislation
+Judicial review
+Collective ministerial responsibility
+Individual ministerial responsibility
+Prime Minister's Questions
+Select committees
+Ministerial question time
+Patronage
+Appointments
+Special advisers
+Central policy units
+Cabinet committees
+Elective dictatorship
+Presidentialisation
+Parliamentary arithmetic
+Backbench MPs
+Coalition government
+Minority government
+Human Rights Act
+Supreme Court
+Fixed-term Parliaments Act 2011
+prorogation
+Brexit
+Referendums
+New Labour
+Margaret Thatcher
+Tony Blair
+Privatisation
+Economic liberalisation
+Party discipline
+Party unity
+Ministerial resignations
+Armed forces deployment
+Treaty-making
+Foreign affairs
+Rally-round-the-flag effect
+Leadership challenge
+Party confidence

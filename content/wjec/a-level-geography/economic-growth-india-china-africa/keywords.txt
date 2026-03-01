@@ -1,0 +1,62 @@
+# STT vocabulary hints for Economic Growth India China Africa (A-level Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+WJEC
+Eduqas
+GDP
+interdependence
+globalisation
+inequality
+resilience
+sustainability
+thresholds
+Yangtze
+Yellow River
+Ganges
+Indus
+demographic dividend
+demographic transition
+rural-urban migration
+industrialisation
+Special Economic Zones
+SEZ
+export-led growth
+state-led investment
+manufacturing clusters
+export processing zones
+industrial parks
+Foreign direct investment
+FDI
+multinational corporations
+global supply chains
+trade agreements
+market-oriented reforms
+post-1991 liberalisation
+Bangalore
+Hyderabad
+outsourcing
+information technology
+commodities
+resource curse
+Botswana
+Nigeria
+Ethiopia
+Shenzhen
+new-type urbanisation
+green technologies
+water security
+desertification
+peatlands
+wetlands
+megacities
+Mumbai
+Shanghai
+Lagos
+Nairobi
+informal settlements
+land tenure
+human capital
+small and medium-sized enterprises
+SMEs
+renewable energy
+remittances

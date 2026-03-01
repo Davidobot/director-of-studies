@@ -1,0 +1,63 @@
+# STT vocabulary hints for Religion Identity Rituals (GCSE Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Rite of passage
+Pilgrimage
+St David’s Cathedral
+Pembrokeshire
+Taizé
+Lourdes
+St Peter’s Basilica
+Rome
+Bodh Gaya
+Lumbini
+Varanasi
+Ayodhya
+Samskaras
+Amritsar
+Harmandir Sahib
+Anandpur Sahib
+Langar
+Kirtan
+Hajj
+Mount Arafat
+Mina
+Baptism
+Eucharist
+Brit milah
+Antam Sanskaar
+Refuge ceremony
+Anand Karaj
+Guru Granth Sahib
+Dharma
+Karma
+Antyesti
+Pinda Daan
+Ghusl
+Salat al-Janazah
+Taharah
+Shiva
+Tibetan Book of the Dead
+Sky burial
+Five Ks
+Kirpan
+Khalsa
+Hijab
+Niqab
+Halal
+Kippah
+Tallit
+Kosher
+Malas
+Tilak
+Puja
+Zakah
+Tzedakah
+Christian Aid
+Khalsa Aid
+Sewa International
+Yad Vashem
+Sacrament
+Gurdwara
+Atman
+Samsara

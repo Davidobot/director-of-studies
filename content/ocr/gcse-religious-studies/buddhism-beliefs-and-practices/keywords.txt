@@ -1,0 +1,71 @@
+# STT vocabulary hints for Buddhism Beliefs And Practices (GCSE Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Buddhism
+Siddhartha Gautama
+Buddha
+Dhamma
+Sangha
+Nibbana
+Nirvana
+Anatta
+Anatman
+Suttas
+Theravada
+Mahayana
+Vajrayana
+Four Noble Truths
+Eightfold Path
+Kamma
+Karma
+Rebirth
+Three Marks of Existence
+Dukkha
+Tanha
+Three Poisons
+Dependent origination
+paṭicca-samuppāda
+Samsara
+Anicca
+Arhat
+Bodhisattva
+Buddha‑nature
+Dhammacakkappavattana sutta
+Bodh Gaya
+Bodhi tree
+Mara
+Four Sights
+Vinaya
+Five Precepts
+Khandhas
+Sunyata
+Tathāgatagarbha
+Cetana
+Dana
+Mettā
+Karuṇā
+Samatha
+Vipassanā
+Zazen
+Kenshō
+Satori
+Puja
+Sutras
+Mantras
+Malas
+Vihara
+Gompa
+Secular mindfulness
+Vassa
+Wesak
+Uposatha
+Sarnath
+Deer Park
+Kushinagar
+Parinirvana
+Bardo
+Tibetan Book of the Dead
+Obon
+Engaged Buddhism
+Thich Nhat Hanh
+Dhammapada

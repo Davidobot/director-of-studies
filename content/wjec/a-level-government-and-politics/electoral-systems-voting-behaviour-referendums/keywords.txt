@@ -1,0 +1,52 @@
+# STT vocabulary hints for Electoral Systems Voting Behaviour Referendums (A-level Government and Politics WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+First Past the Post
+FPTP
+Additional Member System
+AMS
+Single Transferable Vote
+STV
+Supplementary Vote
+Proportional representation
+Proportionality
+Majoritarian system
+Party List
+Closed list
+Open list
+Top-up seats
+Single-member constituency
+Multi-member constituency
+Surplus votes
+Transferred votes
+Wasted votes
+Vote-seat distortion
+Seat share exaggeration
+Tactical voting
+Preferential voting
+Plurality system
+Coalition government
+Minority government
+Two-party system
+Party cohesion
+Constituency link
+Valence model
+Rational choice model
+Sociological model
+Partisan dealignment
+Micro-targeting
+Targeted digital campaigning
+Misinformation
+Turnout threshold
+Supermajority
+Binding referendum
+Advisory referendum
+EU referendum
+Scottish independence referendum
+Alternative Vote referendum
+Devolution
+Senedd Cymru
+Welsh Assembly
+Scottish National Party
+Westminster Parliament
+Northern Ireland

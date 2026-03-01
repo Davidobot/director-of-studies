@@ -1,0 +1,53 @@
+# STT vocabulary hints for Northern Ireland Executive Ofmdfm (A-level Government and Politics CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Good Friday Agreement
+Northern Ireland Executive
+Office of the First Minister and Deputy First Minister
+OFMDFM
+Northern Ireland Assembly
+Executive Committee
+d'Hondt method
+First Minister
+Deputy First Minister
+power‑sharing
+consociationalism
+party designation
+MLA
+cross‑community safeguard
+cross‑community support
+cross‑community vote
+proportional allocation
+ministerial portfolio
+mandatory coalition
+St Andrews Agreement
+devolution of policing and justice
+North–South cooperation
+Republic of Ireland
+Democratic Unionist Party
+Sinn Féin
+Ian Paisley
+Martin McGuinness
+Paisley–McGuinness partnership
+cross‑border cooperation
+community relations
+human rights
+equality
+shared education policy
+community safety
+intergovernmental forum
+institutional suspension
+institutional collapse
+sectarian identity
+communal designation
+scrutiny committee
+executive dominance
+devolution
+proportional methods
+ministerial allocation
+CCEA
+AO1
+AO2
+AO3
+cross‑cutting remit
+political accountability

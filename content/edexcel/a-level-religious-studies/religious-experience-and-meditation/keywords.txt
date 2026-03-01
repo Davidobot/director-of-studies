@@ -1,0 +1,53 @@
+# STT vocabulary hints for Religious Experience And Meditation (A-level Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Religious experience
+Meditation
+Buddha's awakening
+Prophet's revelations
+Mystical union
+Sufi
+Sufism
+Bhakti
+Paul's Damascus road
+Conversion experience
+Mystical experience
+Ineffability
+Noetic quality
+Transiency
+Passivity
+Properly basic belief
+Cumulative testimony
+Verification
+Falsification
+Naturalistic explanation
+Samatha
+Vipassana
+Three marks of existence
+Impermanence
+Suffering
+Non-self
+Nibbana
+Raja yoga
+Jnana yoga
+Atman
+Brahman
+Lectio divina
+Centering prayer
+Teresa of Ávila
+John of the Cross
+Dhikr
+Fana
+Baqa
+Mindfulness
+Neuroimaging
+Cognitive biases
+Conversion dynamics
+Charismatic leaders
+Ritual
+Methodological agnosticism
+Prima facie
+Edexcel
+AO1
+AO2
+Pearson Edexcel

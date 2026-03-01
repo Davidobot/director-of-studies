@@ -1,0 +1,56 @@
+# STT vocabulary hints for Religion And Relationships (GCSE Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+WJEC
+Eduqas
+GCSE
+Unit 2
+NEA
+non‑examination assessment
+AO1
+AO2
+AO3
+Christianity
+Catholic Christianity
+Catholic Church
+Islam
+Judaism
+Orthodox Judaism
+Conservative Judaism
+Reform Judaism
+Hinduism
+Buddhism
+Sikhism
+Humanism
+agape
+Ten Commandments
+sacrament
+covenant
+sanctity of life
+indissolubility of marriage
+annulment
+canon law
+papal encyclical
+synod outcomes
+fatwa
+sharia
+juristic interpretation
+dharma
+ahimsa
+natural family planning
+contraception
+chastity
+cohabitation
+civil partnership
+civil marriage
+same‑sex relationships
+interfaith marriage
+rites of passage
+baptism
+faith schools
+pastoral care
+lived religion
+scripture
+moral law
+parental responsibility
+pluralism

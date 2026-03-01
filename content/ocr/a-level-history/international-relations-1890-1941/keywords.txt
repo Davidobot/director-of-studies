@@ -1,0 +1,54 @@
+# STT vocabulary hints for International Relations 1890 1941 (A-level History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Bismarck
+Weltpolitik
+Kaiser Wilhelm II
+Anglo-German naval race
+Triple Entente
+Triple Alliance
+Moroccan Crises
+Balkan Wars
+Schlieffen Plan
+Franz Ferdinand
+Sarajevo
+First World War
+Paris Peace Conference
+Treaty of Versailles
+Woodrow Wilson
+Fourteen Points
+League of Nations
+Washington Naval Conference
+Locarno Treaties
+Kellogg-Briand Pact
+Manchurian Incident
+Manchukuo
+Abyssinia
+Hoare-Laval Pact
+Great Depression
+Remilitarisation
+Reoccupation of the Rhineland
+Spanish Civil War
+Anschluss
+Sudetenland
+Munich Agreement
+Molotov-Ribbentrop Pact
+Marco Polo Bridge Incident
+Pearl Harbor
+Embargoes
+Isolationism
+Collective security
+Arms race
+Alliance system
+Balance of power
+Mobilisation
+Reparations
+Mandates
+Revisionism
+Militarism
+Appeasement
+Imperialism
+Economic nationalism
+Authoritarianism
+Trench warfare
+Total war

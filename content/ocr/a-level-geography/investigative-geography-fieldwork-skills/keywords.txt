@@ -1,0 +1,50 @@
+# STT vocabulary hints for Investigative Geography Fieldwork Skills (A-level Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Investigative Geography
+NEA
+Non-exam assessment
+OCR A Level Geography
+H481
+Oxford Cambridge and RSA
+Independent Investigation
+Geo-located context
+Geospatial
+GIS
+GPS-tagged samples
+Sampling framework
+Sampling design
+Sample size
+Representativeness
+Stratified sampling
+Spatial analysis
+Spatial layers
+Land-use
+Elevation
+Coastal processes
+Sediment size
+Sediment budgets
+Drainage basin
+Infiltration rates
+Land-use change
+Thematic maps
+Boxplots
+Scatterplots
+Cumulative frequency
+Descriptive statistics
+Interquartile range
+Standard deviation
+Chi-squared
+Spearman’s rank
+Mann–Whitney U
+t-tests
+Tests of association
+Thematic analysis
+Content analysis
+Qualitative coding
+Ethical consent
+Anonymity
+Authentication form
+Geography Independent Investigation Form
+Fieldwork statement
+Moderation

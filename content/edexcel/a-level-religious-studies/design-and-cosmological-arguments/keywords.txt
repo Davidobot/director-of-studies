@@ -1,0 +1,54 @@
+# STT vocabulary hints for Design And Cosmological Arguments (A-level Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Teleological argument
+Cosmological argument
+Paley
+Paley's watch analogy
+Watchmaker analogy
+Natural teleology
+Teleology
+Fine-tuning
+Strong nuclear force
+Cosmological constant
+Multiverse
+Inductive argument
+Deductive argument
+Probabilistic inference
+Explanatory inference
+Swinburne
+Hume
+Darwin
+Natural selection
+Problem of evil
+Anthropic principle
+Anthropic objection
+Observation selection effects
+God hypothesis
+Dawkins
+Aquinas
+Aquinas' ways
+Leibniz
+Principle of Sufficient Reason
+PSR
+Kalam cosmological argument
+Kalam
+William Lane Craig
+Actual infinite
+Infinite regress
+First cause
+Necessary being
+Contingency
+Causal chains
+Causation
+Bertrand Russell
+Fallacy of composition
+Quantum cosmology
+Big Bang cosmology
+Modal logic
+Philosophy of science
+Brute fact
+Pearson Edexcel
+A-level Religious Studies
+AS
+A2

@@ -1,0 +1,55 @@
+# STT vocabulary hints for Parties Pressure Groups Social Movements (A-level Government and Politics WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Political parties
+Pressure groups
+Social movements
+Senedd Cymru
+Welsh Parliament
+Westminster
+Devolution
+Electoral Commission
+First Past the Post
+Additional Member System
+Plaid Cymru
+Green Party
+Extinction Rebellion
+Black Lives Matter
+#MeToo
+Snowdrop campaign
+Dunblane
+Short money
+Cash for influence
+Party finance
+Insider groups
+Outsider groups
+Trade unions
+Catch-all parties
+Professionalised parties
+Factionalism
+Personality politics
+Lobbying transparency
+Revolving doors
+Campaign finance
+Civil disobedience
+Agenda-setting
+Institutionalisation
+Multi-level governance
+Senedd committees
+Pluralism
+Elitism
+Elitist-pluralist
+Valence theory
+Rational choice
+Sociological explanations
+Partisan realignment
+Brexit
+Media fragmentation
+Dealignment
+Voting behaviour
+Turnout
+Coalition government
+Minority government
+Judicial challenges
+Direct action
+Grassroots mobilisation

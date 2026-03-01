@@ -1,0 +1,53 @@
+# STT vocabulary hints for Close Reading Prescribed Set Texts (GCSE Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+OCR
+GCSE
+Classical Civilisation
+Homer
+Virgil
+Ovid
+Euripides
+Pliny
+Horace
+Juvenal
+Petronius
+Aristophanes
+Plutarch
+Livy
+Odysseus
+Athena
+Aeneas
+Romulus
+Remus
+Theseus
+Medea
+Helen
+Cleopatra
+Parthenon
+Parthenon Frieze
+Centauromachy
+Ara Pacis
+Prima Porta
+Augustus
+Trajan's Column
+Pantheon
+Aeneid
+Homeric Hymn to Demeter
+Orpheus
+Pompeii
+Vestal House
+Spartan agoge
+nostos
+xenia
+epic
+satire
+invective
+fresco
+mosaic
+relief sculpture
+cella
+cult statue
+triumphal arch
+inscriptional
+archaeological

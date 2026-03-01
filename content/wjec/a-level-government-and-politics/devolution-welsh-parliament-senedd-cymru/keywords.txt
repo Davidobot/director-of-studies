@@ -1,0 +1,53 @@
+# STT vocabulary hints for Devolution Welsh Parliament Senedd Cymru (A-level Government and Politics WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Devolution
+Welsh Parliament
+Senedd Cymru
+Senedd
+National Assembly for Wales
+Government of Wales Act 2006
+referendum
+Reserved powers model
+Conferred powers model
+Parliamentary sovereignty
+Rule of law
+Multi-level governance
+Additional Member System
+First-past-the-post
+Regional top-up members
+Members of the Senedd (MSs)
+First Minister
+First Minister’s Questions
+Welsh Government
+Welsh civil service
+Committee scrutiny
+Plenary sessions
+Primary legislation
+Measures
+Competence
+Limits of competence
+UK courts
+Shared legal jurisdiction
+England and Wales legal jurisdiction
+Intergovernmental relations
+Brexit
+Repatriated powers
+Fiscal powers
+Fiscal devolution
+Independence
+One Wales coalition
+Prescription charges
+Policy divergence
+Health devolution
+Education devolution
+Housing devolved powers
+Transport devolution
+Environment devolved powers
+Taxation powers
+WJEC
+Eduqas
+A-level Government and Politics
+AO1
+AO2
+AO3

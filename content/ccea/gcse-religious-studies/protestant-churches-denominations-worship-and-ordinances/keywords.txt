@@ -1,0 +1,65 @@
+# STT vocabulary hints for Protestant Churches Denominations Worship And Ordinances (GCSE Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Protestantism
+Reformation
+Martin Luther
+John Calvin
+Scripture
+Justification by faith
+Anglican
+Church of England
+Reformed tradition
+Presbyterian
+Covenant theology
+Assemblies
+Methodism
+John Wesley
+Charles Wesley
+Baptist
+Believer’s baptism
+Infant baptism
+Full immersion
+Pentecostal
+Charismatic
+Holy Spirit
+Salvation Army
+Quakers
+Episcopal
+Bishop
+Diocese
+Ordination
+Priesthood of all believers
+Priest
+Minister
+Pastor
+Deacon
+Elder
+Liturgical
+Non-liturgical
+Eucharist
+Lord’s Supper
+Holy Communion
+Transubstantiation
+Sacrament
+Ordinance
+Memorialism
+Spiritual presence
+Means of grace
+Communion table
+Baptismal font
+Baptismal pool
+Reserved sacrament
+Chancel
+Pulpit
+Lectern
+Hymnody
+Apostles’ Creed
+Advent
+Lent
+Holy Week
+Easter
+Pentecost
+Ecumenical
+Social reform
+Bioethics

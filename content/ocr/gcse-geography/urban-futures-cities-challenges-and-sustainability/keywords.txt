@@ -1,0 +1,49 @@
+# STT vocabulary hints for Urban Futures Cities Challenges And Sustainability (GCSE Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Urban futures
+Urbanisation
+Megacity
+World city
+Global city
+London
+New York
+Tokyo
+Mumbai
+Dharavi
+Docklands
+Queen Elizabeth Olympic Park
+LIDC
+EDC
+AC
+Informal settlements
+Slums
+Informal economy
+Rural–urban migration
+Natural increase
+Urban heat island
+Bus rapid transit
+BRT
+Curitiba
+Medellín
+Social urbanism
+Cable cars
+Congestion charge
+Low-emission zones
+Brownfield redevelopment
+Green infrastructure
+GIS
+Smart sensors
+Participatory governance
+Slum upgrading
+Monsoon
+Sea-level rise
+Storm surges
+Urban sprawl
+Land-use planning
+Central business district
+Transit corridors
+Transects
+Bivariate data
+Measures of central tendency
+SPaG

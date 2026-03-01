@@ -1,0 +1,63 @@
+# STT vocabulary hints for Islam Beliefs And Practices (GCSE Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+OCR J625
+Islam
+Sunni
+Shi’a
+Six Articles of Faith
+Five Roots
+Usul ad-Din
+Tawhid
+Allah
+Shirk
+Qur’an
+Hadith
+Sunnah
+Prophethood
+Muhammad
+Ibrahim
+Musa
+Isa
+Jibril
+Malaikah
+Mika’il
+Israfil
+Izra’il
+Akhirah
+Barzakh
+al-Jannah
+Jahannam
+al-Qadr
+Mu'tazilites
+Ash'arites
+Five Pillars
+Shahadah
+Salat
+Wudu
+Kaʿba
+Mecca
+Zakat
+Sawm
+Ramadan
+Laylat al-Qadr
+Hajj
+Ihram
+Tawaf
+Safa
+Marwah
+Arafat
+Mina
+Ten Obligatory Acts
+Eid al-Fitr
+Eid al-Adha
+Ashura
+Husayn
+Karbala
+Eid al-Ghadeer
+Jihad
+Dhikr
+Sufism
+Imamah
+Imams
+Jurisprudence

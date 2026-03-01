@@ -1,0 +1,76 @@
+# STT vocabulary hints for Myth And Religion J199 11 (GCSE Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Zeus
+Hera
+Demeter
+Persephone
+Poseidon
+Hephaistos
+Apollo
+Artemis
+Athena
+Aphrodite
+Ares
+Dionysos
+Hestia
+Hermes
+Hades
+Jupiter
+Juno
+Ceres
+Neptune
+Vulcan
+Diana
+Minerva
+Venus
+Mars
+Pluto
+Heracles
+Hercules
+Theseus
+Aeneas
+Alba Longa
+Romulus
+Remus
+Cacus
+Parthenon
+Athenian Acropolis
+Temple of Zeus at Olympia
+Pantheon
+Temple of Fortuna Virilis
+Ara Pacis
+Augustus of Prima Porta
+Bassae frieze
+Parthenon friezes
+Great Panathenaia
+City Dionysia
+Lupercalia
+Saturnalia
+Genesia
+Parentalia
+Lemuria
+Homeric Hymns
+Homeric Hymn to Demeter
+Ovid
+Virgil
+Livy
+Metamorphoses
+Orpheus
+Eurydice
+Centauromachy
+Amazonomachy
+Olympic Games
+Labours of Heracles
+Pontiffs
+Vestal Virgins
+augurs
+haruspices
+prothesis
+ekphora
+stelai
+painted sarcophagi
+Mycenaean shaft graves
+cult statue
+libations
+dedications

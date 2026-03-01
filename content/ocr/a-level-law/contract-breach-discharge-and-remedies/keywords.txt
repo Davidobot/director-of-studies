@@ -1,0 +1,49 @@
+# STT vocabulary hints for Contract Breach Discharge And Remedies (A-level Law OCR).
+# One term per line. Used to improve speech recognition quality.
+
+A-level
+Oxford Cambridge and RSA
+Contract
+Breach of contract
+Discharge
+Remedies
+Performance
+Tender of performance
+Divisible contracts
+Severable contracts
+Mutual rescission
+Contractual variation
+Frustration
+Supervening event
+Self-induced frustration
+Illegality
+Unique subject matter
+Condition (contractual)
+Warranty
+Innominate term
+Repudiation
+Anticipatory breach
+Expectation interest
+Reliance interest
+Restitutionary award
+Restitution
+Causation
+Factual causation
+Legal causation
+But‑for test
+Remoteness of loss
+Foreseeability test
+Mitigation
+Duty to mitigate
+Liquidated damages
+Penalty clause
+Unjust enrichment
+Specific performance
+Injunction
+Equitable remedies
+Statutory remedies
+Consumer protections
+Short‑term right to reject
+Repair or replacement
+Reasonable care and skill
+Quantum of damages

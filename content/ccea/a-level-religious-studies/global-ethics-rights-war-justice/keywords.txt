@@ -1,0 +1,62 @@
+# STT vocabulary hints for Global Ethics Rights War Justice (A-level Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Global Ethics
+Human Rights
+Universal Declarations
+International Law
+Virtue Ethics
+Aristotle
+Ethical Relativism
+Cultural Relativism
+Free Will
+Determinism
+Hard Determinism
+Compatibilism
+Libertarianism
+Natural Law
+Bentham
+Utilitarianism
+Human Dignity
+Autonomy
+Feminist Ethics
+Postcolonial Critique
+Animal Rights
+Refugee Protection
+Labour Rights
+Global Supply Chains
+Sexual Identity
+Gender Justice
+Female Genital Cutting
+Honour-based Violence
+Reproductive Health Services
+Just War Tradition
+Jus ad Bellum
+Jus in Bello
+Jus post Bellum
+Proportionality
+Protection of Non-combatants
+Asymmetric Warfare
+Terrorism
+Drone Strikes
+Cyber War
+Weapons of Mass Destruction
+Nuclear Deterrence
+Humanitarian Intervention
+Iraq War
+Pacifism
+Consequentialism
+Deontology
+Retribution
+Deterrence
+Rehabilitation
+Diminished Responsibility
+Transitional Justice
+International Criminal Tribunals
+Restorative Justice
+Conscience Clause
+Freedom of Belief
+Prisoners of Conscience
+Fundamentalism
+AO1
+AO2

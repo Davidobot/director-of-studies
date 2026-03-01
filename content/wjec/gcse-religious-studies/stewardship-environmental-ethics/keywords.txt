@@ -1,0 +1,46 @@
+# STT vocabulary hints for Stewardship Environmental Ethics (GCSE Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+stewardship
+environmental ethics
+Judeo‑Christian
+Genesis 1:26–28
+Psalm 8
+Leviticus
+Pope Francis
+Laudato Si'
+A Rocha
+Dependent Origination
+karuna
+ahimsa
+Brahman
+dharma
+khalifah
+mizan
+Islamic Foundation for Ecology and Environmental Sciences
+bal tashchit
+Tikkun Olam
+hukam
+Sarbat da Bhala
+tza'ar ba'alei chayim
+Humanist Climate Action
+humanism
+Deep Ecology
+Animal Welfare Act 2022
+sentience
+Three Rs
+Replacement
+Reduction
+Refinement
+utilitarianism
+rights‑based approaches
+virtue ethics
+environmental justice
+climate justice
+biodiversity
+conservation
+deforestation
+climate change
+anthropocentrism
+sustainability
+ethical consumption

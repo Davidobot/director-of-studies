@@ -1,0 +1,58 @@
+# STT vocabulary hints for River Environments Processes Landforms Management (GCSE Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Drainage basin
+Watershed
+Precipitation
+Groundwater
+Surface runoff
+Overland flow
+Infiltration
+Throughflow
+Percolation
+River discharge
+Evapotranspiration
+Long profile
+Upper course
+Tributary
+Confluence
+River mouth
+Hydraulic action
+Abrasion
+Corrasion
+Attrition
+Solution (corrosion)
+Traction
+Saltation
+Suspension
+Dissolved load
+Deposition
+Waterfall
+Plunge pool
+Gorge
+Meander
+River cliff
+Slip-off slope
+Floodplain
+Levee
+Overbank flow
+Q = A × v
+Fieldwork
+Somerset Levels 2014
+Hard engineering
+Dams
+Soft engineering
+Washlands
+Afforestation
+Mississippi River
+U.S. Army Corps of Engineers
+Ordnance Survey
+Contour lines
+Planform
+Oxbow scars
+Alluvial fan
+V-shaped valley
+High-energy erosion
+Wetland buffering
+Managed floodplain reconnection
+Sustainability

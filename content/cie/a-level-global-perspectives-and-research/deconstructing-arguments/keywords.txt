@@ -1,0 +1,59 @@
+# STT vocabulary hints for Deconstructing Arguments (A-level Global Perspectives & Research CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Deconstruction
+Reconstruction
+Critical Path
+Global Perspectives & Research
+Cambridge International
+A-level
+Conclusion
+Premises
+Unstated assumptions
+Provenance
+Causation
+Correlation
+Sample size
+Countervailing data
+Logical fallacies
+Appeal to emotion
+False analogy
+Sweeping generalisation
+Hasty generalisation
+Slippery slope
+Historical analogy
+Geopolitical standpoints
+Disciplinary standpoints
+NGO reports
+Government statistics
+Academic studies
+Anonymous sources
+Anecdotal evidence
+Datum
+Inference
+Synthesis
+Reflection
+Research proposal
+Research log
+Methodology
+Research methods
+Cambridge Research Report
+Team project
+Reflective paper
+Timed source analyses
+Annotating
+Citation
+Bibliography
+Word limit 1750–2000
+words
+Oral presentation
+Signposting language
+Comparative evaluation
+Evidence-based judgement
+Assessment components
+Academic honesty
+Paraphrasing
+Plagiarism
+Source materials
+Structured questions
+Global contexts

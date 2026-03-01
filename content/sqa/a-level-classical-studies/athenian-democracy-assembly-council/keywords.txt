@@ -1,0 +1,39 @@
+# STT vocabulary hints for Athenian Democracy Assembly Council (A-level Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Athenian democracy
+Ekklesia
+Assembly
+Boule
+Council of 500
+Pnyx
+polis
+metics
+citizenship
+sortition
+prytany
+prytany rotation
+ten tribes
+jurors
+jury service
+pay for jury service
+liturgies
+magistrates
+magistracy
+generals
+public finances
+foreign envoys
+vetting
+review procedures
+legal checks
+ostracism
+exile
+oratory
+demagoguery
+direct democracy
+accountability
+scrutiny
+declarations of war
+peace treaties
+legislation
+popular power

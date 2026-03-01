@@ -1,0 +1,46 @@
+# STT vocabulary hints for Ni Political Parties Electoral Change (A-level Government and Politics CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Good Friday Agreement (1998)
+Northern Ireland Assembly
+Northern Ireland Executive
+Power-sharing
+Consociational
+Ministerial responsibility
+Single transferable vote
+STV
+Sinn Féin
+Democratic Unionist Party
+DUP
+Ulster Unionist Party
+UUP
+Social Democratic and Labour Party
+SDLP
+Alliance Party
+Stormont
+Brexit
+Northern Ireland Protocol
+Renewable Heat Incentive scandal
+Devolution
+Devolved government
+Decommissioning
+Paramilitarism
+Confidence-and-supply
+Westminster
+European Parliament election
+Assembly election
+Border poll
+Irish unity
+Republicanism
+Unionism
+Nationalism
+Cross-community
+Non-sectarian
+Electoral transfers
+Turnout
+Voter volatility
+Demographic change
+Generational change
+Proportional representation
+Political realignment
+Restoration of devolved government 2007

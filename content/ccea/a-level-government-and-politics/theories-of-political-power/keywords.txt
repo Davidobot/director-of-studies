@@ -1,0 +1,46 @@
+# STT vocabulary hints for Theories Of Political Power (A-level Government and Politics CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Pluralism
+Marxism
+Elite theory
+Feminism
+A-level Government and Politics
+CCEA
+Robert Dahl
+David Truman
+Antonio Gramsci
+Nicos Poulantzas
+Vilfredo Pareto
+Gaetano Mosca
+C. Wright Mills
+Kimberlé Crenshaw
+Interest group pluralism
+Pressure groups
+Trade unions
+Business associations
+Cultural hegemony
+Means of production
+Base and superstructure
+Class conflict
+Ruling class
+Neoliberalism
+Privatization
+Regulatory capture
+Power elite
+Revolving door
+Elite recruitment
+Intersectionality
+Socialist feminism
+Patriarchy
+Austerity
+Industrial relations
+Deregulation
+Authoritarian regimes
+Fragile states
+#MeToo
+Lobbying
+Civil society
+Public consultations
+Parliamentary structures
+Civil service

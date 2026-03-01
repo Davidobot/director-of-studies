@@ -1,0 +1,47 @@
+# STT vocabulary hints for Evaluating Historical Sources (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Advanced Higher
+Scottish Qualifications Authority
+A‑level History
+provenance
+purpose
+content
+historiography
+historiographical context
+applied historiography
+primary source
+secondary source
+primary evidence
+project–dissertation
+dissertation
+reliability
+usefulness
+typicality
+corroboration
+cross‑checking
+triangulation
+source criticism
+contextualisation
+material culture
+partisan pamphlet
+official statistic
+editorial policy
+army officer’s report
+memoir
+newspaper editorial
+royal proclamation
+fourteenth century
+royal authority
+campaign
+policy debate
+election
+bibliographic details
+referencing conventions
+bibliography
+abstract
+intended audience
+rhetorical analysis
+two‑source comparison
+usefulness question
+how fully question

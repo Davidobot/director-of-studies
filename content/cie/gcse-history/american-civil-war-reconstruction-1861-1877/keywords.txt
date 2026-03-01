@@ -1,0 +1,45 @@
+# STT vocabulary hints for American Civil War Reconstruction 1861 1877 (GCSE History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Missouri Compromise
+Kansas–Nebraska Act
+Bleeding Kansas
+Dred Scott decision
+John Brown's raid
+Harpers Ferry
+Abraham Lincoln
+Jefferson Davis
+Confederate States of America
+Fort Sumter
+Battle of Antietam
+Emancipation Proclamation
+Battle of Gettysburg
+Siege of Vicksburg
+Ulysses S. Grant
+William Tecumseh Sherman
+March to the Sea
+Appomattox Court House
+Union blockade
+Total war
+th Amendment
+Presidential Reconstruction
+Impeachment of Andrew Johnson
+Radical Republicans
+Reconstruction Acts
+Freedmen's Bureau
+Black Codes
+Ku Klux Klan
+Sharecropping
+Tenant farming
+Compromise of 1877
+Redeemers
+Panic of 1873
+Jim Crow
+Poll taxes
+Literacy tests
+Black officeholders
+Suffrage
+Disenfranchisement
+Military districts
+Secession
+Abolitionism

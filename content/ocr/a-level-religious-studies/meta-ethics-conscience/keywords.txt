@@ -1,0 +1,39 @@
+# STT vocabulary hints for Meta Ethics Conscience (A-level Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Meta-ethics
+Conscience
+Naturalism
+Emotivism
+Non-cognitivism
+Thomas Aquinas
+Sigmund Freud
+A-level Religious Studies
+Oxford Cambridge and RSA
+Natural law
+Practical reason
+Practical judgement
+Synderesis
+Conscientia
+Vincible ignorance
+Invincible ignorance
+Superego
+is-ought problem
+Naturalistic fallacy
+Intuitionism
+Moral intuition
+Moral facts
+Moral ontology
+Normative force
+Moral epistemology
+Human flourishing
+Telos
+Expressivism
+Psychological reductionism
+Internalisation
+Moral responsibility
+Voluntary euthanasia
+Whistleblower
+Operationalisation
+AO1
+AO2

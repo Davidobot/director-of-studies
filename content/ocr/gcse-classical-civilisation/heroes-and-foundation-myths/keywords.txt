@@ -1,0 +1,48 @@
+# STT vocabulary hints for Heroes And Foundation Myths (GCSE Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Heracles
+Hercules
+Theseus
+Aeneas
+Romulus
+Remus
+Troy
+Alba Longa
+Olympia
+Temple of Zeus at Olympia
+Parthenon frieze
+Ara Pacis
+Augustus
+Augustan propaganda
+Augustus of Prima Porta
+Virgil
+Aeneid
+Aeneid Book 8
+Livy
+Plutarch
+Ovid
+Homeric Hymns
+Twelve Labours
+Minotaur
+kylix
+Theseus kylix
+lion-skin
+Heracles' club
+Achelous
+Nessus
+Shirt of Nessus
+apotheosis
+pietas
+panhellenic
+Lupercalia
+Quirinus
+she-wolf
+Tiber
+Hercules and Cacus
+vase-paintings
+funerary reliefs
+shield of Aeneas
+Senate
+civic hero
+foundation myths

@@ -1,0 +1,58 @@
+# STT vocabulary hints for Seventeenth Century Britain Civil Wars 1603 1702 (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Seventeenth-century Britain
+Union of the Crowns
+James VI
+James I
+Charles I
+William III
+William of Orange
+James II
+Divine Right of Kings
+Parliament
+Personal Rule
+Impositions
+Monopolies
+Puritans
+Gunpowder Plot
+Archbishop Laud
+Book of Common Prayer
+National Covenant
+Covenanters
+Bishops' Wars
+Star Chamber
+Ship Money
+Five Knights’ Case
+Long Parliament
+Grand Remonstrance
+Nottingham
+New Model Army
+Battle of Naseby
+Regicide
+Commonwealth
+Rump Parliament
+Pride’s Purge
+Levellers
+Barebone’s Parliament
+Oliver Cromwell
+Protectorate
+Instrument of Government
+Restoration
+Exclusion Crisis
+Glorious Revolution
+Declaration of Right
+Bill of Rights
+Toleration Act 1689
+Bank of England
+National debt
+Civil List
+Fiscal-military statehood
+Presbyterianism
+Puritanism
+Arminianism
+Whigs
+Tories
+Three Kingdoms
+Nonconformity
+Religious settlement

@@ -1,0 +1,46 @@
+# STT vocabulary hints for Religious Experience Mystical Conversion (A-level Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+William James
+St Teresa of Avila
+Rudolf Otto
+Augustine
+Paul
+Road to Damascus
+Sufi
+fana’
+Vedanta
+atman
+Brahman
+satori
+numinous
+mysterium tremendum et fascinans
+noetic quality
+ineffability
+passivity
+transiency
+mystical experience
+conversion experience
+Pentecostal outpourings
+revival meetings
+temporal lobe
+neurochemical correlates
+neuroscience
+psychoanalytic
+Freudian interpretation
+conversion psychology
+experiential knowledge
+testimony
+epistemic status
+prima facie evidence
+defeaters
+private revelation
+communal doctrine
+communal verification
+proselytism
+missionary activity
+charismatic leadership
+moral fruit
+near-death experience
+sensory deprivation
+meditation

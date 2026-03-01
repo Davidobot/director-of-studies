@@ -1,0 +1,63 @@
+# STT vocabulary hints for War Peace And Sexual Ethics (A-level Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Natural moral law
+Aquinas
+Deontological ethics
+Kantian ethics
+Utilitarianism
+Situation ethics
+Consequentialism
+Virtue ethics
+Conscience
+Justice
+Jus ad bellum
+Jus in bello
+Just War theory
+Just cause
+Legitimate authority
+Right intention
+Last resort
+Reasonable chance of success
+Proportionality
+Discrimination (combatant/non‑combatant)
+Genocide
+Pre‑emptive strikes
+Pacifism
+Quaker tradition
+Turning the other cheek
+Gandhi
+Satyagraha
+Conscientious objection
+Nuclear deterrence
+Drones
+Cyber‑warfare
+Sanctity of life
+Sexual ethics
+Contraception
+Divorce
+Same‑sex relationships
+Sexual identity
+Catholic teaching
+Anglicanism
+Islamic sexual ethics
+Judaism
+Orthodox Judaism
+Reform Judaism
+Liberal Judaism
+Hindu ethics
+Buddhist sexual misconduct precept
+Sikh teaching
+Agape
+Dharma
+Mitzvot
+Natural law account
+In vitro fertilisation
+International humanitarian law
+United Nations
+Responsibility to Protect
+R2P
+Conscription
+World Wars
+AO1
+AO2

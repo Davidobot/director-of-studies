@@ -1,0 +1,44 @@
+# STT vocabulary hints for Population Development And Indicators (GCSE Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Population distribution
+Demographic Transition Model
+DTM
+Population pyramid
+Dependency ratio
+Natural change
+Birth rate
+Death rate
+Fertility rate
+Infant mortality rate
+Life expectancy
+Population structure
+Population density
+Internal migration
+International migration
+Urbanisation
+Informal settlements
+Export-processing zones
+Remittances
+Migration flows
+Ageing population
+Demographic ageing
+Pro‑natalist policy
+Family planning programmes
+Human Development Index
+HDI
+GDP per capita
+GNI per capita
+Gini coefficient
+Informal economy
+Physician density
+Access to clean water
+Sustainable agriculture
+Renewable energy
+Microfinance
+Colonial legacies
+Globalisation
+Global supply chains
+Multinational corporations
+Scottish Qualifications Authority
+GCSE

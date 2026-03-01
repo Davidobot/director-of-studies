@@ -1,0 +1,59 @@
+# STT vocabulary hints for Judaism Beliefs And Practices (GCSE Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Judaism
+G‑d
+Shema
+Shekinah
+Torah
+Tenakh
+Talmud
+Mishnah
+Gemara
+Halakhah
+mitzvot
+tzedakah
+tikkun olam
+pikuach nefesh
+Messiah
+Mashiach
+Sheol
+Gan Eden
+Gehenna
+Synagogue
+Ark
+Bimah
+Ner Tamid
+Amidah
+berakhot
+tallit
+tefillin
+kashrut
+chametz
+Seder
+Rosh Hashanah
+Yom Kippur
+shofar
+Book of Life
+Pesach
+Sukkot
+sukkah
+lulav
+Shavuot
+Hanukkah
+brit milah
+bar mitzvah
+bat mitzvah
+ketubah
+Shabbat
+Covenant
+Sinai
+Abraham
+Moses
+Orthodox
+Conservative
+Masorti
+Reform
+rabbinic literature
+rabbinic interpretation
+Messianic Age

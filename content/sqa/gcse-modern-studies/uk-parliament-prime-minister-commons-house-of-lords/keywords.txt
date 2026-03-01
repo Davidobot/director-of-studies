@@ -1,0 +1,58 @@
+# STT vocabulary hints for Uk Parliament Prime Minister Commons House Of Lords (GCSE Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+UK Parliament
+Prime Minister
+House of Commons
+House of Lords
+Westminster
+Scottish Parliament
+Holyrood
+First Minister
+Royal Assent
+Prime Minister's Questions
+PMQs
+Fixed-term Parliaments Act 2011
+Royal prerogative
+Cabinet
+Collective responsibility
+Patronage
+First Past the Post
+FPTP
+Select committees
+Public Accounts Committee
+Departmental select committees
+Life peers
+Hereditary peers
+Salisbury Convention
+Parliament Act 1911
+Parliament Act 1949
+Money bills
+Committee stage
+Second reading
+Report stage
+Third reading
+First reading
+Question Time
+Constituency
+MPs
+MSPs
+Devolution
+Reserved matters
+Devolved powers
+Hung Parliament
+Backbenchers
+Whip system
+Whips
+Electoral reform
+Public petitions
+Pressure groups
+Trade unions
+All-women shortlists
+Scottish Qualifications Authority
+Modern Studies
+Select committee inquiries
+Ministerial accountability
+Legislative scrutiny
+Election manifesto
+Dissolution

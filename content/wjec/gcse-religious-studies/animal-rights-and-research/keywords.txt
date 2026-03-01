@@ -1,0 +1,56 @@
+# STT vocabulary hints for Animal Rights And Research (GCSE Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Animal Welfare (Sentience) Act 2022
+Animals (Scientific Procedures) Act 1986
+Rs
+Replace
+Reduce
+Refine
+organids
+organoids
+organ-on-chip
+cell cultures
+computer modelling
+thalidomide
+Genesis 1:26–28
+Proverbs 12:10
+Laudato Si’
+Pope Francis
+Catechism
+Christian Vegetarians & Vegans UK
+A Rocha
+Karuna Trust
+Catholic Concern for Animals
+Dharma Voices for Animals
+PETA
+First Precept
+ahimsa
+karma
+samsara
+atman
+dharma
+daya
+seva
+langar
+gurdwara
+khalifah
+mizan
+Qur'an
+Hadith
+tza'ar ba'alei chayim
+shechita
+pikuach nefesh
+halal
+speciesism
+anti-speciesist
+utilitarianism
+rights-based
+humanist
+sentience
+animal experimentation
+vaccine development
+cosmetic testing ban
+WJEC
+Eduqas
+GCSE Religious Studies

@@ -1,0 +1,62 @@
+# STT vocabulary hints for Fieldwork Sampling Gis And Data Analysis (A-level Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+A-level Geography
+AS Unit 3
+A2
+AO1
+AO2
+AO3
+Ordnance Survey
+satellite imagery
+synoptic charts
+Geographical Information Systems
+GIS
+vector layer
+raster layer
+spatial join
+buffer
+inverse distance weighting
+choropleth map
+isoline map
+dot map
+flow map
+proportional symbol map
+cartographic conventions
+north arrow
+scale bar
+legend/key
+transect
+random sampling
+systematic sampling
+stratified sampling
+pragmatic sampling
+point sampling
+line sampling
+quadrat sampling
+nearest neighbour analysis
+Spearman’s rank correlation
+chi-squared test
+location quotient
+non-parametric
+p-value
+mean
+median
+mode
+range
+current meter
+clinometer
+calliper
+pebble chart
+bedload
+pebble roundness
+pebble diameter
+sediment composition
+soil pH meter
+light meter
+GPS waypoints
+timestamp
+geolocation
+pedestrian counts
+structured questionnaires
+spreadsheet

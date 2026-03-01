@@ -1,0 +1,43 @@
+# STT vocabulary hints for Fiqh Schools Sunni Shii Sufi Reformist (A-level Islamic Studies CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Fiqh
+Shariah
+Qurʾan
+Sunnah
+madhahib
+Hanafi
+Maliki
+Shafiʿi
+Hanbali
+Sunni
+Shiʿi
+Twelver
+Ismaili
+Ahl al-Bayt
+Imams
+mujtahid
+ijtihad
+ijmaʿ
+qiyas
+ʿurf
+ʿaql
+maqasid al-shariah
+taqlid
+Salafi
+Reformist
+Sufism
+tariqa
+murshid
+dhikr
+niyyah
+Mansur al-Hallaj
+hadith
+riba
+wudu
+fatwa
+fiqh councils
+legal pluralism
+legal maxims
+predestination
+mixed-faith marriages

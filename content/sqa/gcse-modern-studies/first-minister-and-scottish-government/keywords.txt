@@ -1,0 +1,42 @@
+# STT vocabulary hints for First Minister And Scottish Government (GCSE Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+First Minister
+Scottish Government
+Scottish Parliament
+Members of the Scottish Parliament
+MSPs
+Monarch
+Scottish Cabinet
+Cabinet Secretaries
+junior ministers
+civil service
+government Bills
+legislative priorities
+Budget
+block grant
+devolved taxes
+devolved areas
+reserved matters
+Sewel convention
+collective responsibility
+competence (question of competence)
+NHS Scotland
+minimum unit pricing
+public health
+intergovernmental committees
+civil contingencies
+First Minister’s Questions
+vote of no confidence
+devolution
+UK Government
+UK Parliament
+fiscal autonomy
+coalition government
+minority government
+ministerial posts
+parliamentary committees
+oral questions
+written questions
+court challenge
+social security devolutions

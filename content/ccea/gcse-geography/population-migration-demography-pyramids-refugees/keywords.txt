@@ -1,0 +1,58 @@
+# STT vocabulary hints for Population Migration Demography Pyramids Refugees (GCSE Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Demography
+Demographic Transition Model
+DTM
+Stage 1
+Stage 2
+Stage 3
+Stage 4
+Stage 5
+Population pyramid
+Age-sex structure
+Crude birth rate
+Crude death rate
+Natural increase
+Natural decrease
+Aged dependency ratio
+Youth dependency
+Dependency ratio
+Working-age population
+Youth bulge
+Ageing population
+LEDCs
+MEDCs
+Urbanisation
+Contraception
+Remittances
+Brain drain
+Emigration
+Immigration rules
+Economic migrants
+Refugees
+Asylum systems
+Asylum processing
+Asylum seeker
+Visa controls
+Border fences
+Irregular movement
+Migration flows
+Push factors
+Pull factors
+Labour migration
+Humanitarian resettlement
+Voluntary return
+Local integration
+Syrian refugees
+Europe
+United Nations
+Sustainable Development Goals
+Census data
+Population registers
+GIS
+Surveys
+Migration maps
+Sanitation
+Healthcare
+Pensions

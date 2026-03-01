@@ -1,0 +1,49 @@
+# STT vocabulary hints for Crime Law Justice Causes Responses (A-level Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Qualifications Authority
+A-level
+Modern Studies
+Scottish Parliament
+Holyrood
+Westminster
+Scottish legal system
+Devolved powers
+Presumption of innocence
+Right to a fair trial
+Legal representation
+Police forces
+Prosecutors
+Courts
+Sentencing practices
+Custodial sentences
+Prisons
+Community sentences
+Community Payback Orders
+Electronic monitoring
+Restorative justice
+Diversion schemes
+Youth justice
+Community policing
+Problem-oriented policing
+Rehabilitation
+Social reintegration
+Recidivism
+Reoffending
+Criminal records
+Cost-benefit analysis
+Crime displacement
+Victim satisfaction
+Community safety
+Social disorganisation theory
+Labelling theory
+Subcultural theory
+Strain theory
+Biological explanations
+Psychological theories
+Individualist approaches
+Collectivist approaches
+Relative deprivation
+Informal social control
+Marginalised groups
+Peer review

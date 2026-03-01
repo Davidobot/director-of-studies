@@ -1,0 +1,43 @@
+# STT vocabulary hints for 25 Mark Essay Technique (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Qualifications Authority
+SQA Advanced Higher
+Advanced Higher
+Part A
+Part B
+mark essay
+mark schemes
+specimen marking instructions
+mark bands
+top-band responses
+thesis
+balanced judgement
+command words
+To what extent
+How far
+How valid is this view
+How justified is this view
+historiography
+historiographical debate
+structuralist accounts
+intentionalist explanations
+Weimar collapse
+Weimar Republic
+Nazi organisation
+Nazi strategy
+primary sources
+secondary sources
+provenance
+source analysis
+counter-arguments
+analytical claim
+topic sentence
+transitional phrases
+critical engagement
+structural causes
+immediate triggers
+short-term effects
+long-term effects
+comparative evaluation
+timed essays

@@ -1,0 +1,57 @@
+# STT vocabulary hints for Christianity Beliefs Practices (GCSE Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Christianity
+National 5
+GCSE
+Scottish Qualifications Authority
+Roman Catholicism
+Eastern Orthodoxy
+Protestantism
+Anglican
+Baptist
+Pentecostal
+Charismatic
+Trinity
+Father
+Son
+Holy Spirit
+Incarnation
+Atonement
+Resurrection
+Salvation
+Judgement
+Heaven
+Hell
+Omnipotent
+Omniscient
+Omnibenevolent
+Transcendent
+Immanent
+Original sin
+Free will
+Sin
+Repentance
+Forgiveness
+Eucharist
+Holy Communion
+Baptism
+Believer's baptism
+Infant baptism
+Last Supper
+Easter
+Advent
+Lent
+Sermon on the Mount
+Good Samaritan
+Sacrament
+Sacramental theology
+Liturgy
+Charismatic gifts
+Parables
+Discipleship
+Scripture
+Bible
+Pastoral care
+Social justice
+Resource Sheet

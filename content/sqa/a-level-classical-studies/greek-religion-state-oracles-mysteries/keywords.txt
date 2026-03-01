@@ -1,0 +1,47 @@
+# STT vocabulary hints for Greek Religion State Oracles Mysteries (A-level Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Parthenon
+Athenian Acropolis
+Athena Polias
+Athena
+Panathenaia
+City Dionysia
+Delphi
+Pythia
+Dodona
+Zeus
+amphictyony
+Croesus
+Eleusinian Mysteries
+Eleusis
+Demeter
+Kore
+Persephone
+telesterion
+kykeon
+Dionysus
+Asclepius
+Epidaurus
+abaton
+incubation
+hierophant
+mantis
+haruspices
+ex-votos
+votive offerings
+votive deposits
+terracottas
+bronze figurines
+dedicatory formulae
+inscriptions
+Pan-Hellenic
+polis
+Orphism
+Pythagoreanism
+Xenophanes
+Plato
+Herodotus
+Pausanias
+Homeric
+Hesiodic

@@ -1,0 +1,52 @@
+# STT vocabulary hints for Arguments For Gods Existence (A-level Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Teleological argument
+Cosmological argument
+Ontological argument
+Teleology
+Cosmology
+A priori
+A posteriori
+William Paley
+Watch analogy
+Thomas Aquinas
+Aquinas' Fifth Way
+Anselm
+Gaunilo
+Gaunilo's lost island
+That-than-which-nothing-greater
+David Hume
+Humean criticism
+Immanuel Kant
+Kantian critique
+Charles Darwin
+Darwinian biology
+Natural selection
+Fine-tuning argument
+Anthropic principle
+Multiverse
+Multiverse models
+Kalam cosmological argument
+Gottfried Leibniz
+Principle of Sufficient Reason
+Necessary being
+Contingent being
+Necessary existence
+Infinite regress
+Unmoved mover
+First cause
+Causation
+Modal logic
+Alvin Plantinga
+Maximally great being
+Maximal greatness
+Existence as predicate
+Problem of evil
+Classical theism
+Quantum cosmology
+Modal reformulation
+AO1
+AO2
+A-level Religious Studies
+OCR (Oxford, Cambridge and RSA)

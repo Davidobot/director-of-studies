@@ -1,0 +1,59 @@
+# STT vocabulary hints for War And Warfare Sparta Athens Rome J199 23 (GCSE Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+OCR J199/23
+GCSE Classical Civilisation
+Sparta
+Athens
+Rome
+fifth century BC
+Imperial period
+agoge
+syssitia
+Spartiates
+perioikoi
+helots
+hoplite phalanx
+Thermopylae
+Leonidas
+Xerxes
+Persian Wars
+trireme
+Themistocles
+diekplous
+periplous
+Battle of Salamis
+Artemisia
+Actium
+BC
+Octavian
+Agrippa
+Mark Antony
+Cleopatra
+Trajan
+Dacia
+Dacian Wars
+Trajan's Column
+legion
+cohort
+century
+auxilia
+auxiliary cavalry
+legionary
+gladius
+pila
+principia
+Romanisation
+kylix
+Temple of Athena Nike
+south frieze
+Bronze Warrior
+Corinthian-type helmet
+aristeiai
+Iliad
+Tyrtaeus
+Laconic style
+Virgil
+Aeneid
+Horace
+Augustan period

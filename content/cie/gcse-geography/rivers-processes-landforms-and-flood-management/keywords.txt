@@ -1,0 +1,61 @@
+# STT vocabulary hints for Rivers Processes Landforms And Flood Management (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+hydrological cycle
+drainage basin
+interception
+infiltration
+throughflow
+groundwater flow
+Bradshaw model
+longitudinal profile
+discharge
+cross-sectional area
+flow meter
+hydraulic action
+abrasion
+corrasion
+attrition
+solution
+traction
+saltation
+suspension
+bedload
+plunge pool
+gorge
+potholes
+vertical erosion
+lateral erosion
+meander
+point bar
+oxbow lake
+floodplain
+levees
+alluvium
+backswamp
+meander scar
+delta
+distributary
+estuary
+mudflats
+salt marsh
+storm surge
+monsoon
+urbanisation
+hydrograph
+channelisation
+embankments
+dams and reservoirs
+Thames Barrier
+River Thames
+polders
+managed retreat
+re-meandering
+sustainable urban drainage systems
+SUDS
+permeable paving
+green roofs
+afforestation
+soil conservation
+integrated catchment management
+Bangladesh

@@ -1,0 +1,61 @@
+# STT vocabulary hints for Families And Households (A-level Sociology WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+A-level
+WJEC
+Eduqas
+England and Wales
+Wales
+Welsh Government
+New Right
+Parsons
+Marxism
+Neo-Marxism
+Feminist theory
+Radical feminism
+Liberal feminism
+Marxist feminism
+Postmodernism
+Individualisation thesis
+Beanpole family
+Nuclear family
+Extended family
+Lone-parent family
+Reconstituted family
+Stepfamily
+Same-sex parent family
+Civil partnership
+Same-sex marriage
+Assisted reproductive technologies
+Reliable contraception
+Cohabitation
+Divorce law
+Secularisation
+Individualism
+Cultural capital
+Division of labour
+Instrumental role
+Expressive role
+Double burden
+Primary socialisation
+Secondary socialisation
+Life-course
+Longitudinal study
+Ethnography
+Life history
+Quantitative methods
+Qualitative methods
+Census data
+Fertility rates
+Ageing population
+Transnational families
+Child protection
+Welfare reform
+Austerity
+Household composition
+Multi-generational household
+Social differentiation
+Power and stratification
+Domestic labour
+Unpaid care
+Care services

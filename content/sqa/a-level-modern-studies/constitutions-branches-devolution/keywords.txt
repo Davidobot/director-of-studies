@@ -1,0 +1,56 @@
+# STT vocabulary hints for Constitutions Branches Devolution (A-level Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+United Kingdom
+UK
+Scotland
+Scottish Parliament
+Scottish Government
+Holyrood
+Westminster
+Scotland Act 1998
+Scotland Act 2012
+Scotland Act 2016
+Scotland Acts
+devolution referendums
+Scottish independence referendum
+Supreme Court
+Sewel Convention
+Joint Ministerial Committee
+Land and Buildings Transaction Tax
+Scottish landfill tax
+Fiscal powers
+Varying rates of income tax
+Devolution
+Asymmetric devolution
+Reserved matters
+Reserved powers
+Devolved competence
+Outwith competence
+Parliamentary sovereignty
+Rule of law
+Judicial review
+Prorogation
+Brexit
+Prerogative powers
+Fusion of powers
+Separation of powers
+Judicial interpretation
+Constitutional convention
+Codified constitution
+Uncodified constitution
+Constitutional supremacy
+Federalism
+Constitutional courts
+Administrative law
+Judicial oversight
+Devolved administrations
+Intergovernmental disputes
+Judicial scrutiny
+First Minister
+Prime Minister
+Cabinet
+Modern Studies
+Scottish Qualifications Authority
+Acts of Parliament
+Referendums

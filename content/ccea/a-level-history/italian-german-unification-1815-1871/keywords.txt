@@ -1,0 +1,50 @@
+# STT vocabulary hints for Italian German Unification 1815 1871 (A-level History CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Congress of Vienna
+Napoleonic Wars
+German Empire
+Kingdom of Sardinia
+Piedmont
+Kingdom of the Two Sicilies
+Papal States
+Lombardy–Venetia
+German Confederation
+Zollverein
+Revolutions of 1848
+Risorgimento
+Victor Emmanuel II
+Count Camillo di Cavour
+Plombières
+Napoleon III
+Second Italian War of Independence
+Magenta
+Solferino
+Giuseppe Garibaldi
+Expedition of the Thousand
+Kingdom of Italy
+Venetia
+Austro-Prussian War
+Franco-Prussian War
+Prussia
+Otto von Bismarck
+Realpolitik
+Schleswig
+Holstein
+Königgrätz
+North German Confederation
+Ems Dispatch
+Hall of Mirrors
+Versailles
+Wilhelm I
+Sedan
+Balance of Power
+Constitutional monarchy
+Industrialisation
+Railways
+Piedmontese reforms
+Clericalists
+Great powers
+Economic integration
+State-building
+Minister-President

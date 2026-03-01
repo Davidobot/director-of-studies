@@ -1,0 +1,52 @@
+# STT vocabulary hints for Maps Gis And Cartographic Skills (GCSE Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Oxford Cambridge and RSA
+Ordnance Survey
+OS
+GIS
+Geographical Information Systems
+LiDAR
+LiDAR elevation model
+Choropleth map
+Proportional symbol map
+Flow line map
+Desire-line map
+Thematic map
+Topographic map
+Isoline map
+Contour line
+Contour interval
+Spot height
+Six-figure grid reference
+Eastings
+Northings
+Latitude
+Longitude
+National grid
+Map projection
+Generalisation
+Resolution
+Scale 1:25 000
+Scale 1:50 000
+Scale factor
+Gradient
+Cross-section
+Transect
+Profile transect
+Beach profile transect
+Clinometer
+Rangefinder
+GPS
+Flood risk mapping
+Overlay
+Classification threshold
+Population pyramid
+Climate graph
+Sampling bias
+Cartography
+Cartographer
+Spatial data
+Attribute data
+Pythagoras

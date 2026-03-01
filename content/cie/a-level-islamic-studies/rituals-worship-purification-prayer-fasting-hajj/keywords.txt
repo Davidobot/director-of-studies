@@ -1,0 +1,60 @@
+# STT vocabulary hints for Rituals Worship Purification Prayer Fasting Hajj (A-level Islamic Studies CIE).
+# One term per line. Used to improve speech recognition quality.
+
+taharah
+wudu
+ghusl
+tayammum
+niyyah
+zakat
+sawm
+Ramadan
+iftar
+Eid al-Fitr
+sadaqah
+taqwa
+salah
+fajr
+dhuhr
+asr
+maghrib
+isha
+rakah
+adhan
+takbir
+qiyam
+ruku
+sujud
+tashahhud
+Jumu'ah
+mosque
+awrah
+qibla
+madhahib
+fiqh
+janabah
+Hajj
+Dhu al-Hijjah
+ihram
+tawaf
+sa'i
+Safa
+Marwah
+Arafah
+wuquf
+Muzdalifah
+Mina
+ramy al-jamarat
+qurbani
+Kaaba
+Hagar
+Abrahamic
+tawhid
+ummah
+sunnah
+shariah
+Salafi
+Shi'i
+Sunni
+jurisprudence
+jurists

@@ -1,0 +1,46 @@
+# STT vocabulary hints for Problem Of Evil Theodicies (A-level Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Problem of Evil
+Theodicy
+Augustinian theodicy
+Irenaean theodicy
+Soul-making theodicy
+Free will defence
+Transworld depravity
+Inconsistent triad
+Logical problem of evil
+Evidential problem of evil
+Omnipotence
+Omniscience
+Omnibenevolence
+Moral evil
+Natural evil
+Privation of good
+Epistemic distance
+Vale of soul-making
+Process theodicy
+Process philosophy
+Skeptical theism
+Protest theodicy
+Eschatological justice
+Eschatology
+Book of Job
+Genesis
+Holocaust
+Animal suffering
+Natural disasters
+Libertarian freedom
+Moral agency
+Gratuitous evil
+Plantinga
+John Hick
+Augustine
+Irenaeus
+Mackie
+Rowe
+WJEC
+Eduqas
+A-level Religious Studies
+Divine omnipotence
+Epistemic limits

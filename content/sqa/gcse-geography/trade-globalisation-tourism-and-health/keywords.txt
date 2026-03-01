@@ -1,0 +1,53 @@
+# STT vocabulary hints for Trade Globalisation Tourism And Health (GCSE Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Globalisation
+Trade
+Multinational corporations
+Transnational corporations (TNCs)
+Deindustrialisation
+China
+India
+Southeast Asia
+Colonial trade patterns
+Tariffs
+Primary products
+Garment industry
+Bangladesh
+Heavy industry
+United Kingdom
+Trade alliances
+Economic blocs
+Fair trade
+Financial leakage
+Resource efficiency
+Renewable energy
+Mass tourism
+Eco-tourism
+Butler model
+Mediterranean beach resorts
+Costa Rica
+Dubai
+Machu Picchu
+Great Barrier Reef
+Biodiversity
+Conservation management
+Visitor caps
+Zoning
+Permit systems
+Pathway design
+Carbon emissions
+Non-communicable diseases
+HIV/AIDS
+Sub-Saharan Africa
+Malaria
+Vaccination programmes
+Mosquito nets
+Sanitation
+Maternal and child healthcare
+Supply chains
+Four-figure grid references
+Six-figure grid references
+Contour patterns
+Processed Information
+Supervised production stage

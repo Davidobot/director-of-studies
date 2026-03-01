@@ -1,0 +1,58 @@
+# STT vocabulary hints for Resource Management Food Water Energy And Environmental Risks (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Green Revolution
+Chernobyl
+Fukushima
+GCSE Cambridge International
+food security
+high-yielding varieties
+agrochemicals
+precision agriculture
+agroecological methods
+sustainable intensification
+smallholder agriculture
+subsistence systems
+commercial agriculture
+arable farming
+pastoral farming
+mixed farming
+intensive agriculture
+extensive systems
+irrigation
+desalination
+rainwater harvesting
+groundwater
+aquifers
+boreholes
+reservoirs
+dams
+hydropower
+pumped hydro
+wastewater recycling
+Integrated Water Resources Management (IWRM)
+water–energy–food nexus
+energy security
+fossil fuels
+modern bioenergy
+geothermal energy
+solar energy
+wind energy
+nuclear power
+radioactive waste
+greenhouse gases
+carbon sequestration
+biodiversity
+deforestation
+sedimentation
+soil erosion
+post-harvest losses
+waterborne disease
+Environmental Impact Assessment (EIA)
+circular economy
+common-pool resources
+adaptive governance
+development finance
+transnational corporations
+terrace farming
+land rights

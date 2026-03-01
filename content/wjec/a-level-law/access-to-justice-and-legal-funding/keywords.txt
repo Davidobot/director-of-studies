@@ -1,0 +1,42 @@
+# STT vocabulary hints for Access To Justice And Legal Funding (A-level Law WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Access to justice
+Legal Aid Agency
+means testing
+merit testing
+interests of justice
+interests of justice threshold
+Legal Aid, Sentencing and Punishment of Offenders Act
+LASPO
+civil legal aid
+criminal legal aid
+duty solicitors
+litigants in person
+public defender
+public defender model
+conditional fee agreement
+CFA
+no win no fee
+after‑the‑event insurance
+ATE insurance
+success fee
+recoverability rules
+legal expenses insurance
+alternative dispute resolution
+ADR
+mediation
+law centres
+pro bono
+university legal clinics
+advice agencies
+advice charities
+trade unions (legal assistance)
+possession proceedings
+homelessness duties
+human rights (engagement)
+personal injury claims
+early legal advice
+community legal services
+Welsh Government
+England and Wales

@@ -1,0 +1,53 @@
+# STT vocabulary hints for Education Role Processes Achievement (GCSE Sociology WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Socialisation
+Hidden curriculum
+Agents of socialisation
+Formal social control
+Informal social control
+Feral children
+Nuclear family
+Extended family
+Single-parent household
+Reconstituted family
+Beanpole families
+Arranged marriages
+One-child policy
+New Man
+Boomerang children
+Sandwich generation
+Parsons
+Functionalism
+Zaretsky
+Delphy
+Leonard
+New Right
+Education
+Durkheim
+Bowles and Gintis
+Correspondence theory
+Meritocracy
+Labelling
+Streaming
+Setting
+Anti-school subcultures
+Hargreaves
+Ball
+Willis
+Counter-school culture
+Participant observation
+Structured questionnaires
+Official statistics
+Mixed-methods
+Validity
+Reliability
+Representativeness
+Anonymisation
+Stratification
+Davis and Moore
+Bourgeoisie
+Proletariat
+Weber
+Relative deprivation
+Dark figure

@@ -1,0 +1,45 @@
+# STT vocabulary hints for Atheism Classical Theism (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Atheism
+Classical theism
+Scottish Qualifications Authority
+Omnipotence
+Omniscience
+Omnibenevolence
+Immutability
+Timelessness
+Transcendent
+Necessary being
+Metaphysical
+Cosmological argument
+Teleological argument
+Principle of Sufficient Reason
+Fine-tuning argument
+Multiverse hypothesis
+Problem of evil
+Omnipotence paradox
+Omniscience-free will tension
+Free will defense
+Soul-making theodicy
+Greater-good theodicy
+Presumption of atheism
+Burden of proof
+Russell's teapot
+Probabilistic argument
+Evidential argument
+Parsimony
+Properly basic belief
+Epistemic standards
+Process theology
+Open theism
+Cosmology
+Big Bang
+Evolution
+Neuroscience
+Naturalism
+Theodicy
+Moral norms
+Consciousness
+Lawful universe
+Maximally great being

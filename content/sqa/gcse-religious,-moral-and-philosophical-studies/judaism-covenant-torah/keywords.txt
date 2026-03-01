@@ -1,0 +1,56 @@
+# STT vocabulary hints for Judaism Covenant Torah (GCSE Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Covenant
+Brit
+Brit milah
+Sinai covenant
+Abraham
+Moses
+Exodus
+Deuteronomy
+Genesis
+Leviticus
+Numbers
+Torah
+Written Torah
+Oral Torah
+Pentateuch
+Mishnah
+Gemara
+Talmud
+Second Temple
+CE
+Halakhah
+Mitzvot
+Kashrut
+Shabbat
+Shema
+Amidah
+Sefer Torah
+Aron Kodesh
+Bimah
+Yad
+Tallit
+Tefillin
+Phylacteries
+Passover
+Pesach
+Passover Seder
+Sukkot
+Rosh Hashanah
+Yom Kippur
+Shavuot
+Temple cult
+Rabbinic Judaism
+Rabbi
+Tanakh
+Nevi'im
+Ketuvim
+Ten Commandments
+State of Israel
+Orthodox
+Conservative
+Masorti
+Reform
+Liberal

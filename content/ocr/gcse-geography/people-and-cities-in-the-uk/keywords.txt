@@ -1,0 +1,58 @@
+# STT vocabulary hints for People And Cities In The Uk (GCSE Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+OCR
+Oxford Cambridge and RSA
+Demographic Transition Model
+Population pyramid
+International migration
+Commonwealth
+London
+Manchester
+Birmingham
+Glasgow
+Leeds
+Bristol
+Liverpool
+Hull
+North–South divide
+Deindustrialisation
+Suburbanisation
+Counter-urbanisation
+Re-urbanisation
+Gentrification
+Regeneration
+Brownfield redevelopment
+Greenfield land
+Congestion charging
+Waste-to-energy
+Tertiary sector
+Quaternary sector
+Ordnance Survey
+Choropleth map
+Flow lines
+Commuter belt
+University town
+Pedestrian flow
+Environmental quality assessment
+Fieldwork
+Primary data
+Line of best fit
+Scatter plot
+Histogram
+Interquartile range
+Mean
+Median
+Mode
+Labour market
+Affordable housing programme
+Retirement age policy
+Transport congestion
+Air quality
+Recycling programme
+Port activity
+World city
+Global financial links
+Investment zone
+Retraining programme

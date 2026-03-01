@@ -1,0 +1,53 @@
+# STT vocabulary hints for Russia 1917 1991 (A-level History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Romanov autocracy
+Bolshevik
+Provisional Government
+Petrograd Soviet
+February Revolution
+October Revolution
+Brest-Litovsk
+Red Army
+Leon Trotsky
+White Armies
+War Communism
+New Economic Policy
+NEP
+Kronstadt
+Vladimir Lenin
+Stalin
+Collectivisation
+Five-Year Plans
+Gulag
+Great Purge
+Show trials
+Great Patriotic War
+Nazi Germany
+Cold War
+Nikita Khrushchev
+Secret Speech
+De-Stalinisation
+Virgin Lands campaign
+Hungary 1956
+Cuban Missile Crisis
+Leonid Brezhnev
+Détente
+Prague Spring
+Warsaw Pact
+Soviet-Afghan War
+Mikhail Gorbachev
+Perestroika
+Glasnost
+August 1991 coup
+Boris Yeltsin
+Dissolution of the USSR
+Korenizatsiia
+Russification
+Samizdat
+KGB
+Nomenklatura
+Socialist Realism
+Command economy
+State socialism
+Nationalist movements

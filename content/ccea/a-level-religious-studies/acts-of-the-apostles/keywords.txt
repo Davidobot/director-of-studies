@@ -1,0 +1,48 @@
+# STT vocabulary hints for Acts Of The Apostles (A-level Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Acts of the Apostles
+Luke–Acts
+Theophilus
+Holy Spirit
+Pentecost
+Ascension
+Matthias
+Ananias and Sapphira
+Seven deacons
+Stephen
+Philip
+Ethiopian eunuch
+Cornelius
+Peter
+Council of Jerusalem
+Paul
+Road to Damascus
+Conversion of Paul
+Missionary journeys
+Pisidian Antioch
+Areopagus
+Athens
+Philippian jail
+Shipwreck (Acts 27–28)
+Rome
+Sanhedrin
+Hellenist
+Pneumatology
+Martyria
+Ecclesiology
+Salvation history
+"We" passages
+Pauline epistles
+Historiography
+Apologetic aims
+Gentile mission
+Jewish law
+Communal life
+Sacrament
+Miracle narratives
+Charismatic movements
+Pentecostalism
+Itinerant preacher
+Apologist
+Luke's theological shaping

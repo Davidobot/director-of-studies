@@ -1,0 +1,52 @@
+# STT vocabulary hints for Migration Causes And Impacts (GCSE Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Migration
+Internal migration
+International migration
+Regular migration
+Irregular migration
+Voluntary migration
+Forced migration
+Asylum seeker
+Refugee
+Internally displaced person
+IDP
+Push factors
+Pull factors
+Remittances
+Brain drain
+Sea-level rise
+Desertification
+Prolonged drought
+Climate adaptation
+Human trafficking
+Smuggling networks
+Asylum laws
+Refugee protection frameworks
+Points-based immigration
+Visa systems
+Family reunification
+Humanitarian resettlement
+Seasonal labour migration
+Labour shortages
+Diaspora
+Colonial links
+Integration strategies
+Multiculturalism
+Segregation
+Dependency ratio
+Age structure
+Border controls
+Carrier sanctions
+Quotas
+Transit countries
+Source country
+Host country
+Syrian conflict
+Poland
+United Kingdom
+Germany
+Kiribati
+Bangladesh
+Small Island Developing States

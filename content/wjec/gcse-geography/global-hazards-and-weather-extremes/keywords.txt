@@ -1,0 +1,52 @@
+# STT vocabulary hints for Global Hazards And Weather Extremes (GCSE Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Hadley cell
+Ferrel cell
+Polar cell
+Anticyclone
+Depression
+Extratropical cyclone
+Tropical cyclone
+Hurricane
+Typhoon
+Typhoon Haiyan
+European heatwave
+Storm surge
+Frontal rainfall
+Convectional rainfall
+Orographic rainfall
+Air mass
+Fronts
+Vertical wind shear
+Sea surface temperature
+Blocking patterns
+Urban heat island
+Heatwave
+Drought
+Sea-level rise
+Coastal defence
+Floodplain
+Managed retreat
+Nature-based solutions
+Wetland restoration
+Attribution studies
+Greenhouse gases
+Carbon dioxide
+Methane
+Nitrous oxide
+Milankovitch cycles
+Stratospheric aerosols
+Synoptic chart
+Satellite imagery
+Climate graph
+Hydrograph
+Ice-core data
+Return period
+Temperate storm track
+Evacuation planning
+Heat-health action plan
+Philippines
+Wales
+United Kingdom
+Europe

@@ -1,0 +1,60 @@
+# STT vocabulary hints for Economic Development Globalisation Economic Sectors (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Human Development Index
+HDI
+Gross National Product
+GNP
+Gross Domestic Product
+GDP
+Primary sector
+Secondary sector
+Tertiary sector
+Quaternary sector
+Mechanisation
+Urbanisation
+Industrialisation
+Deindustrialisation
+Transnational corporations
+TNCs
+Foreign direct investment
+FDI
+Supply chains
+Special economic zones
+Industrial estates
+Subsistence agriculture
+Commercial farming
+Intensive agriculture
+Extensive farming
+Integrated pest management
+Agroforestry
+Precision farming
+Irrigation
+Desalination
+Boreholes
+Hydropower
+Geothermal
+Renewable energy
+Nuclear power
+Radioactive waste
+Energy security
+Water scarcity
+Day Zero
+Cape Town
+Horn of Africa
+Bali
+Mediterranean coast
+Northern England
+Seoul
+New York
+London
+Toyota
+Unilever
+Apple
+Circular economy
+Greenhouse gas emissions
+Protected areas
+Cleaner production
+AO1
+AO2
+AO3

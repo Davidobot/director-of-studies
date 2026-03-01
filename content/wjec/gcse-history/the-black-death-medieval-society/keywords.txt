@@ -1,0 +1,46 @@
+# STT vocabulary hints for The Black Death Medieval Society (GCSE History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Black Death
+Yersinia pestis
+bubonic plague
+pneumonic plague
+buboes
+fleas
+Rattus rattus
+Silk Road
+Black Sea
+Genoese ships
+Venetian ships
+Genoa
+Venice
+Constantinople
+Messina
+Marseille
+Bristol
+London
+Low Countries
+quarantine
+humoral theory
+miasma
+flagellant movement
+pogroms
+scapegoating
+Statute of Labourers (1351)
+Peasants' Revolt (1381)
+Decameron
+Boccaccio
+Danse Macabre
+depopulation
+demographic shock
+feudal obligations
+conversion to pasture
+municipal public-health measures
+guilds
+ordination
+clergy shortage
+mortality rate
+maritime networks
+overland routes
+trade routes
+respiratory droplets

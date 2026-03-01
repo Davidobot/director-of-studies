@@ -1,0 +1,55 @@
+# STT vocabulary hints for Research Methods Methodology (A-level Global Perspectives & Research CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Cambridge International
+A-level Global Perspectives & Research
+Global Perspectives & Research
+Critical Path
+Research Report
+Team Project
+Component 1
+AO1
+AO2
+AO3
+Deconstruction
+Reconstruction
+Reflection
+Source-based written exam
+Provenance
+Research methods
+Methodology
+Mixed-methods
+Triangulation
+Qualitative methods
+Quantitative methods
+Ethnography
+Close textual analysis
+Secondary literature review
+Primary data
+Interviews
+Focus groups
+Surveys
+Experiments
+Observation
+Statistical analysis
+Purposive sampling
+Random sampling
+Stratified sampling
+Sampling strategy
+Validity
+Reliability
+Generalisability
+Research log
+Pilot instruments
+Research proposal
+Declaration of Authenticity
+Harvard referencing
+APA
+Chicago
+Plagiarism detection
+Verbatim transcript
+Reflective paragraph
+Anonymisation
+Consent
+Confidentiality
+Bibliography

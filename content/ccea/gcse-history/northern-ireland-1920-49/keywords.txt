@@ -1,0 +1,43 @@
+# STT vocabulary hints for Northern Ireland 1920 49 (GCSE History CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Northern Ireland
+Irish Free State
+Éire
+Stormont
+Government of Ireland Act 1920
+Anglo‑Irish Treaty
+Boundary Commission 1924–25
+Éamon de Valera
+Constitution
+Economic War
+land annuities
+Treaty ports
+Anglo‑Irish Agreements 1938
+Belfast Blitz
+Luftwaffe
+Republic of Ireland Act 1949
+Ireland Act 1949
+Declaration of the Republic
+Anti‑Partition League
+chapel‑gate
+Welfare State
+National Health Service
+(Northern Ireland) Education Act
+conscription
+neutrality
+benevolent neutrality
+IRA
+shipyards
+linen industry
+civil defence
+national insurance
+national assistance
+family allowances
+partition
+dominion
+unionists
+nationalists
+republicans
+Anglo‑Irish diplomacy
+state‑building

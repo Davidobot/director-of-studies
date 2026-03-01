@@ -1,0 +1,61 @@
+# STT vocabulary hints for Birth And Development Of The Christian Church (GCSE Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Pentecost
+Holy Spirit
+St Paul
+Acts 2
+Early Church
+Apostles' Creed
+St Patrick
+Ireland
+Celtic Christianity
+Monasteries
+Missionary activity
+Protestant Reformation
+Indulgences
+Sola scriptura
+Justification by faith
+Priesthood of all believers
+Catholic Church
+Pope
+Bishops
+Apostolic succession
+Ordination
+Clerical hierarchy
+Eucharist
+Real presence
+Communion
+Memorialism
+Lutheranism
+Reformed tradition
+Baptism
+Infant baptism
+Believer's baptism
+Full‑immersion baptism
+Reconciliation
+Confirmation
+Anointing of the Sick
+Lord's Supper
+Mass
+Sacrament
+Sacramental theology
+Liturgical worship
+Non‑liturgical worship
+Pulpit
+Altar
+Lectern
+Tabernacle
+Baptismal font
+Stained glass
+Eastward‑facing altar
+Saints' Days
+Advent
+Christmas
+Lent
+Holy Week
+Easter
+Harvest festival
+Secularisation
+Religious pluralism
+Denomination

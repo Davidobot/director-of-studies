@@ -1,0 +1,46 @@
+# STT vocabulary hints for Anglo Saxon To Anglo Norman England C1053 1106 (A-level History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Edward the Confessor
+Earl Godwin
+Harold Godwinson
+William of Normandy
+Harald Hardrada
+Battle of Hastings
+Hastings 1066
+Norman Conquest
+Harrying of the North
+Tinchebray 1106
+Domesday Book
+Domesday Survey 1086
+Lanfranc
+Anselm
+William Rufus
+Robert Curthose
+Henry I
+Malcolm III
+Marcher lordship
+Motte-and-bailey
+Stone keep
+Castle network
+Tenants-in-chief
+Feudal bond
+Witan
+Shire system
+Sheriff
+Geld
+Silver penny
+Royal mints
+Chancery
+Writs
+Livery and maintenance
+Manorial system
+Feudal incidents
+Profits of justice
+Anglo-Saxon Chronicle
+William of Poitiers
+William of Jumièges
+Orderic Vitalis
+Bayeux Tapestry
+Investiture
+Anglo‑Norman kingdom

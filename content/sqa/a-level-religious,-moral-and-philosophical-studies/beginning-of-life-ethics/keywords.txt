@@ -1,0 +1,52 @@
+# STT vocabulary hints for Beginning Of Life Ethics (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Beginning of Life Ethics
+Scottish Qualifications Authority
+Advanced Higher
+A-level
+UK law
+personhood
+sanctity of life
+quality of life
+autonomy
+beneficence
+non-maleficence
+justice
+four-principle approach
+utilitarianism
+virtue ethics
+zygote
+blastocyst
+embryo
+foetus
+viability
+implantation
+primitive streak
+ensoulment
+Mary Anne Warren
+personhood criteria
+potentiality argument
+in vitro fertilisation
+IVF
+frozen embryos
+embryo research
+embryonic stem-cell research
+stem cells
+saviour sibling
+cord blood
+genetic selection
+instrumentalisation
+ectopic pregnancy
+principle of double effect
+foetal abnormality
+late-term abortion
+abortion law
+reproductive choice
+humanist
+Islamic ethical thought
+Roman Catholic
+Jewish ethics
+consent
+regulatory framework
+parental responsibility

@@ -1,0 +1,51 @@
+# STT vocabulary hints for Celtic Church Ireland 5Th 7Th Century (A-level Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Celtic Church
+Patrick
+Palladius
+Confessio
+Letter to Coroticus
+Hagiography
+Muirchú
+Cogitosus
+Enda
+Finnian of Clonard
+Brigit of Kildare
+Brendan of Clonfert
+Comgall of Bangor
+Columbanus
+Columba (Colmcille)
+Aidan
+Burgh Castle Group
+Iona
+Luxeuil
+Bobbio
+Peregrinatio pro Christo
+peregrinus
+Penitentials
+Penitential literature
+Tariffed penances
+Private confession
+Public penance
+Paschal controversy
+Synod of Whitby (664)
+Tonsure
+Monasticism
+Anchoritic asceticism
+Monastic federations
+Abbot prominence
+Episcopal organisation
+Manuscript production
+Stone monuments
+Genealogical strategies
+Armagh
+Primacy claims
+Monastic reform
+Missionary outreach
+Anglo-Saxon
+Northumbria
+Liturgical practices
+Cummean
+Monastic discipline
+Hagiographical embellishment

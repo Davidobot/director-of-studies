@@ -1,0 +1,63 @@
+# STT vocabulary hints for Water Cycle And Water Insecurity (A-level Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Hydrological cycle
+Evaporation
+Transpiration
+Condensation
+Precipitation
+Runoff
+Infiltration
+Groundwater flow
+Aquifer
+Groundwater recharge
+Managed aquifer recharge
+Drainage basin
+Water budget
+Hydrograph
+Storm hydrograph
+Lag time
+Peak discharge
+Baseflow
+Throughflow
+Residence time
+River regime
+Evapotranspiration
+ENSO
+El Niño Southern Oscillation
+Glacier retreat
+Snowmelt seasonality
+Water stress
+Water scarcity
+Per capita water supply
+Sea‑water intrusion
+Over‑abstraction
+Groundwater depletion
+Central Valley
+Colorado River
+Day Zero
+Cape Town Day Zero
+South–North Water Transfer Project
+Desalination
+Brine disposal
+Groundwater mining
+Dams
+Reservoirs
+Inter‑basin transfer
+Integrated Water Resources Management
+Payment for ecosystem services
+Virtual water trade
+NEWater
+Nile basin
+Mekong
+Singapore
+Wetland restoration
+Floodplain restoration
+Drip irrigation
+Precision irrigation
+Greywater recycling
+Rainwater harvesting
+Water poverty index
+Transboundary rivers
+Sediment trapping
+TNCs

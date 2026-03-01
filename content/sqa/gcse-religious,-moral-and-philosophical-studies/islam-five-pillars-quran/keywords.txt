@@ -1,0 +1,53 @@
+# STT vocabulary hints for Islam Five Pillars Quran (GCSE Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Islam
+Allah
+Qur'an
+Muhammad
+Prophet Muhammad
+Seal of the Prophets
+Jibril
+Hadith
+Hadith collections
+Sunnah
+Shahadah
+Salah
+Wudu
+Jumu'ah
+Zakat
+Nisab
+Sawm
+Ramadan
+Hajj
+Ihram
+Kaaba
+Tawaf
+Sa'i
+Safa
+Marwah
+Arafat
+Mina
+Stoning at Mina
+Eid al-Fitr
+Eid al-Adha
+al-Jannah
+Jahannam
+Khalifah
+Tawhid
+Day of Judgement
+Shariah
+Sunni
+Shia
+Jurisprudence
+Islamic calendar
+Fajr
+Dhuhr
+Asr
+Maghrib
+Isha
+GCSE
+National 5
+RMPS
+Scottish Qualifications Authority
+Resource Sheet

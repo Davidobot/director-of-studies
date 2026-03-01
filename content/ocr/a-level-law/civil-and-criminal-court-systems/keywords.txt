@@ -1,0 +1,61 @@
+# STT vocabulary hints for Civil And Criminal Court Systems (A-level Law OCR).
+# One term per line. Used to improve speech recognition quality.
+
+County Court
+High Court
+Magistrates' Courts
+Crown Court
+Supreme Court
+King's Bench Division
+Queen's Bench Division
+Chancery Division
+Family Division
+Civil Procedure Rules
+small claims track
+fast track
+multi-track
+Court of Appeal
+Court of Appeal (Civil Division)
+Alternative dispute resolution
+ADR
+Mediation
+Arbitration
+Conciliation
+Criminal Justice Act 2003
+summary offences
+triable either-way offences
+indictable-only offences
+Justices of the Peace
+jury selection
+electoral roll
+jury tampering
+legal adviser
+Solicitors
+Barristers
+Legal executives
+Legal Aid Agency
+conditional fee agreement
+no win no fee
+after-the-event insurance
+pro bono
+Free Representation Unit
+Citizens Advice
+law centres
+Employment tribunals
+Judicial review
+committal proceedings
+plea and trial preparation
+sentencing bands
+Community orders
+custodial sentences
+Judicial independence
+security of tenure
+immunity from suit
+judicial conduct procedures
+IRAC
+AO1
+AO2
+AO3
+case allocation rules
+magistrates' courts guidelines
+specialist courts

@@ -1,0 +1,55 @@
+# STT vocabulary hints for Religious Language Miracles Afterlife (A-level Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+A-level
+Council for the Curriculum, Examinations and Assessment
+Philosophy of religion
+Medieval philosophy
+Equivocal
+Univocal
+Analogical language
+Logical Positivism
+Verification Principle
+Wittgenstein
+Language game
+Form of life
+Literalism
+Symbolic reading
+Thomas Aquinas
+David Hume
+Richard Swinburne
+Probabilistic approach
+Testimony
+Religious experience
+Visions
+Mystical union
+Conversion experience
+Numinous
+Rudolf Otto
+Teresa of Avila
+John Hick
+Replica theory
+Dualism
+Materialism
+Epiphenomenalism
+Identity theory
+Reincarnation
+Near‑death experience
+Resurrection
+Miracle
+Supernatural intervention
+Miracles as signs
+Theodicy
+Augustinian theodicy
+Irenaean theodicy
+Process theodicies
+Problem of evil
+Moral evil
+Natural evil
+Omnipotent
+Omnibenevolent
+Soul‑making
+Privation of good
+Background probability
+Cumulative testimony
+Non‑cognitive language

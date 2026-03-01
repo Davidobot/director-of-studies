@@ -1,0 +1,44 @@
+# STT vocabulary hints for Death Burial And The Underworld (GCSE Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Hades
+Pluto
+Persephone
+Demeter
+Homeric Hymn to Demeter
+Ovid
+Orpheus
+Eurydice
+Metamorphoses
+Eleusinian Mysteries
+Eleusis
+Tartarus
+Fields of Asphodel
+Elysium
+Styx
+Lethe
+Charon
+Proserpina
+Lemuria
+Genesia
+Parentalia
+psychē
+chthonic
+prothesis
+ekphora
+stelai
+cinerary urns
+inhumation
+cremation
+imagines
+wax death masks
+collegia funeraticia
+ancestor cult
+funerary epitaphs
+funerary inscriptions
+Pompeii
+grave goods
+votive offerings
+funerary reliefs
+tomb architecture
+funeral orations

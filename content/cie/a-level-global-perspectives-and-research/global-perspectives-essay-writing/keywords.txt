@@ -1,0 +1,44 @@
+# STT vocabulary hints for Global Perspectives Essay Writing (A-level Global Perspectives & Research CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Cambridge International
+A‑level Global Perspectives & Research
+Component 2
+Critical Path
+Deconstruction
+Reconstruction
+Reflection
+Communication
+AO1
+AO2
+AO3
+Primary evidence
+Secondary sources
+Primary sources
+Secondary material
+Think‑tank analyses
+Provenance
+Methodology
+Research design
+Plagiarism detection
+Declaration of Authenticity
+Harvard referencing
+APA referencing
+Chicago referencing
+Bibliographical references
+Continuous prose
+Signposting language
+Synthesis
+Higher‑order thinking
+Evaluative comment
+Reflective element
+Trade‑offs
+Quantitative evidence
+Observational evidence
+Official statistics
+Government documents
+Scholarly articles
+Expert commentary
+Geographically diverse sources
+Research notebook
+Word count 1750–2000

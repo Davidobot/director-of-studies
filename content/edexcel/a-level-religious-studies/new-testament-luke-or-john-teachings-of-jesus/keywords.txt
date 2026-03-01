@@ -1,0 +1,56 @@
+# STT vocabulary hints for New Testament Luke Or John Teachings Of Jesus (A-level Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+New Testament
+Gospels
+Luke
+John
+Fourth Gospel
+Pearson Edexcel
+A-level
+Sermon on the Plain
+Parables
+Kingdom of God
+Good Samaritan
+Great Banquet
+Prodigal Son
+Lost Sheep
+Lost Coin
+Prologue
+John 1:1–18
+Logos
+“I am” sayings
+Bread of Life
+Light of the World
+Good Shepherd
+Resurrection and the Life
+Way, Truth and Life
+True Vine
+Signs
+Semeia
+Miracle narratives
+Nain
+Widow’s Son
+Magnificat
+Farewell Discourses
+John 14–17
+Luke 22–24
+John 18–21
+High Christology
+Incarnation
+Salvation history
+Historical-critical
+Johannine
+Synoptic
+Eschatological
+Realised eschatology
+Discipleship
+Exorcisms
+Feeding miracles
+Samaritan woman
+Woman caught in adultery
+Mary at the tomb
+Gentiles
+Holy Spirit
+Apologetic passages
+Radical hospitality

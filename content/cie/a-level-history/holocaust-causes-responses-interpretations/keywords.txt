@@ -1,0 +1,48 @@
+# STT vocabulary hints for Holocaust Causes Responses Interpretations (A-level History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Holocaust
+Nazi Germany
+antisemitism
+Weimar Republic
+Nuremberg Laws
+Kristallnacht
+pogrom
+Einsatzgruppen
+mobile killing units
+mass shootings
+extermination camps
+death camps
+Auschwitz‑Birkenau
+Belzec
+Sobibor
+Treblinka
+Warsaw Ghetto
+Łódź Ghetto
+Warsaw Ghetto Uprising
+Judenräte
+T4 euthanasia programme
+Evian Conference
+Danish rescue
+SS
+Wehrmacht
+local auxiliaries
+ghettoisation
+deportations
+killing centres
+partisan activity
+Roma
+social Darwinism
+pseudo‑scientific racial theories
+industrialised mass killing
+bureaucratic dynamics
+survivor testimony
+perpetrator records
+forensic archaeology
+administrative paperwork
+intentionalist
+functionalist
+structuralist
+synthesis approaches
+Eastern Europe
+Soviet Union

@@ -1,0 +1,63 @@
+# STT vocabulary hints for Glaciated Landscapes And Change (A-level Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Glaciated landscapes
+Greenland
+Antarctica
+Alps
+Pleistocene
+Quaternary
+Cryosphere
+Milankovitch cycles
+ENSO
+Anthropocene
+Mass balance
+Accumulation
+Ablation
+Equilibrium line altitude
+ELA
+Internal deformation
+Basal sliding
+Regelation
+Polar glaciers
+Temperate glaciers
+Abrasion
+Plucking
+Striations
+Englacial drainage
+Subglacial drainage
+Supraglacial streams
+Nivation
+Cirque
+Corrie
+Arête
+Horn
+U-shaped trough
+Hanging valley
+Roches moutonnées
+Crag-and-tail
+Fjord
+Till
+Moraine
+Drumlin
+Erratic
+Fluvioglacial
+Esker
+Kame
+Sandur
+Kettle hole
+Periglacial
+Permafrost
+Patterned ground
+Solifluction
+Pingo
+Loess
+Glacial lake outburst flood
+GLOF
+Yosemite Valley
+Himalaya
+Andes
+BGS drift maps
+Drumlin morphometry
+Rose diagram
+GIS

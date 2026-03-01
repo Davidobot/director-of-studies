@@ -1,0 +1,44 @@
+# STT vocabulary hints for Italian Unification 1848 1870 (GCSE History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Kingdom of Sardinia-Piedmont
+Kingdom of the Two Sicilies
+Papal States
+Lombardy-Venetia
+Giuseppe Mazzini
+Young Italy
+Giuseppe Garibaldi
+Redshirts
+Count Camillo di Cavour
+Victor Emmanuel II
+Statuto Albertino
+Plombières
+Napoleon III
+Savoy
+Nice
+Magenta
+Solferino
+Villafranca
+Expedition of the Thousand
+Teano
+Piedmont
+Turin
+Florence
+Porta Pia
+Franco-Prussian War
+Austro-Prussian War
+Venetia
+Lateran Treaty
+Roman Question
+Risorgimento
+Plebiscite
+Brigandage
+Franco-Piedmontese
+Austrian Empire
+Holy See
+Bourbons
+Kingdom of Italy
+Annexation
+Ancien régime
+Liberalism
+Nationalism

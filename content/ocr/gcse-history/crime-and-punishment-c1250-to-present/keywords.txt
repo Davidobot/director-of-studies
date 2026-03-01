@@ -1,0 +1,47 @@
+# STT vocabulary hints for Crime And Punishment C1250 To Present (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Crime and Punishment
+Black Death
+manor court
+hundred court
+royal courts
+hue and cry
+tithings
+Church courts
+penances
+stocks
+pillory
+whipping
+hanging
+public executions
+capital punishment
+Reformation
+vagrancy
+vagrancy laws
+witchcraft trials
+Bloody Code
+Bow Street Runners
+Metropolitan Police
+county forces
+transportation
+Australia
+John Howard
+Elizabeth Fry
+Separate system
+Silent system
+prison reform
+forensics
+fingerprinting
+DNA profiling
+CCTV
+restorative justice
+community sentencing
+white-collar crime
+organised crime
+terrorism
+emergency legislation
+highwaymen
+smuggling
+urbanisation
+penal reformers

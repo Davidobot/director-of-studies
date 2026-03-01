@@ -1,0 +1,50 @@
+# STT vocabulary hints for Morality Medicine Euthanasia Embryos (GCSE Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Euthanasia
+Assisted dying
+Assisted suicide
+Voluntary euthanasia
+Non‑voluntary euthanasia
+Involuntary euthanasia
+Palliative care
+Hospice care
+Sanctity of life
+Personal autonomy
+Utilitarianism
+Deontological ethics
+Slippery slope
+Pikuach nefesh
+Roman Catholic Church
+Protestantism
+Judaism
+Islamic jurisprudence
+Ensoulment
+Buddhism
+Hinduism
+In vitro fertilisation
+IVF
+Embryonic stem cells
+Pluripotent
+Therapeutic cloning
+Somatic cell nuclear transfer
+Induced pluripotent stem cells
+iPS cells
+Adult stem cells
+Patient‑matched stem cells
+Embryo research
+Embryo adoption
+Moral status of embryos
+Embryo destruction
+Spare embryos
+Embryo storage
+Consent
+Advance directives
+Clinical ethics committees
+Regulatory frameworks
+United Kingdom
+Netherlands
+Belgium
+Switzerland
+Secular humanism
+Landmark legal cases

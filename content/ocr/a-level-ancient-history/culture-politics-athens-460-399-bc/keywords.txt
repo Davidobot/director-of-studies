@@ -1,0 +1,50 @@
+# STT vocabulary hints for Culture Politics Athens 460 399 Bc (A-level Ancient History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Pericles
+Periclean building programme
+Periclean dominance
+Delian League
+Athenian Empire
+Peloponnesian War
+Peloponnesian conflict
+Sicilian Expedition
+Acropolis
+Parthenon
+Parthenon sculptural programme
+Ecclesia
+Boule
+Archons
+Strategoi
+Ostracism
+Citizen juries
+Liturgies
+Liturgists
+Metics
+Attica
+Sparta
+Nicias
+Alcibiades
+Cleon
+Sophists
+Socrates
+Trial of Socrates
+Impiety
+Corrupting the youth
+Aeschylus
+Sophocles
+Euripides
+Aristophanes
+Panathenaea
+City Dionysia
+Lenaea
+Thucydides
+Demagogues
+Rhetorical education
+Oratory
+Garrisons
+Puppet governments
+Imperialism
+Golden Age (Athens)
+c.460–399 BC
+BC

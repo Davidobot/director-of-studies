@@ -1,0 +1,51 @@
+# STT vocabulary hints for Judiciary Uk Supreme Court (A-level Government and Politics WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Judiciary
+Supreme Court of the United Kingdom
+Constitutional Reform Act 2005
+Appellate Committee of the House of Lords
+Human Rights Act 1998
+European Convention on Human Rights
+Parliamentary sovereignty
+Judicial review
+Ultra vires
+Wednesbury unreasonableness
+Declarations of incompatibility
+Section 3
+Section 4
+R (Miller) v Secretary of State for Exiting the European Union
+Article 50
+Prerogative power
+R (Miller) v The Prime Minister; Cherry v Advocate General for Scotland
+Prorogation
+Council of Civil Service Unions v Minister for the Civil Service
+GCHQ case
+Anisminic Ltd v Foreign Compensation Commission
+Jackson v Attorney General
+R (Evans) v Attorney General
+Rule of law
+Judicial Appointments Commission
+Lord Chancellor
+Judicial independence
+Security of tenure
+Devolution
+Devolved institutions
+Welsh jurisdiction
+Competence disputes
+Stare decisis
+Statutory interpretation
+Literal rule
+Golden rule
+Purposive approach
+Proportionality
+Judicial activism
+Judicial restraint
+Ouster clauses
+Executive certificates
+Human rights jurisprudence
+Administrative law
+Comparative reasoning
+Parliamentary scrutiny
+Declarations of incompatibility procedure
+Independent selection commission

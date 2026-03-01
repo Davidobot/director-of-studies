@@ -1,0 +1,62 @@
+# STT vocabulary hints for Coastal Environments Processes Landforms Management (GCSE Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE Geography
+Council for the Curriculum, Examinations and Assessment
+Constructive waves
+Destructive waves
+Swash
+Backwash
+Fetch
+Wave energy
+Hydraulic action
+Abrasion
+Corrasion
+Attrition
+Solution
+Corrosion
+Longshore drift
+Spit
+Recurved spit
+Tombolo
+Barrier beach
+Beach nourishment
+Shingle beach
+Sandy beach
+Foreshore
+Wave-cut notch
+Wave-cut platform
+Cliff retreat
+Cave
+Arch
+Stack
+Stump
+Durdle Door
+Jurassic Coast
+Spurn Head
+Holderness
+Chesil Beach
+Rock armour
+Rip-rap
+Sea wall
+Groynes
+Revetments
+Managed retreat
+Managed realignment
+Dune regeneration
+Salt marsh
+Integrated Coastal Zone Management
+ICZM
+Pebble sampling
+Transect
+Clinometer
+Beach profile
+Cross-sectional diagram
+Cumulative frequency graph
+Histogram
+Ranging poles
+Sediment supply
+Boulder clay
+Newcastle, County Down
+Pembrokeshire
+Sea level rise

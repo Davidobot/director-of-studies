@@ -1,0 +1,48 @@
+# STT vocabulary hints for Life In Usa 1920 33 (GCSE History CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Roaring Twenties
+Wall Street Crash
+Great Depression
+Republican administrations
+Warren G. Harding
+Calvin Coolidge
+Herbert Hoover
+Franklin D. Roosevelt
+laissez-faire
+th Amendment
+flapper
+Great Migration
+Harlem Renaissance
+Jim Crow
+Ku Klux Klan
+Sacco and Vanzetti
+Red Scare
+Palmer Raids
+Eighteenth Amendment
+Volstead Act
+Prohibition
+Al Capone
+St. Valentine's Day Massacre
+Henry Ford
+assembly line
+mass production
+hire-purchase
+consumerism
+radio
+jazz
+Hollywood
+Dust Bowl
+Okie migration
+Smoot-Hawley Tariff
+Reconstruction Finance Corporation
+Bonus Army
+Hoovervilles
+buying on margin
+stock market speculation
+antitrust enforcement
+voluntarism
+fiscal conservatism
+allotment policies
+boarding schools
+organised crime

@@ -1,0 +1,47 @@
+# STT vocabulary hints for Crusades 1071 1204 (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Battle of Manzikert
+Anatolia
+Byzantine Empire
+Alexios I Komnenos
+Pope Urban II
+Council of Clermont
+First Crusade
+Taking the cross
+Armed pilgrimage
+Crusader states
+Edessa
+Antioch
+Tripoli
+Kingdom of Jerusalem
+Levantine coast
+Latin Christendom
+Seljuk Turks
+Fatimid Caliphate
+People’s Crusade
+Godfrey of Bouillon
+Raymond of Toulouse
+Bohemond of Taranto
+Heavy cavalry
+Siege warfare
+Siege of Antioch
+Siege of Jerusalem
+Battle of Hattin
+Ṣalāḥ ad‑Dīn (Saladin)
+Third Crusade
+Richard I
+Philip II
+Frederick I Barbarossa
+Siege of Acre
+truce
+Fourth Crusade
+Sack of Constantinople
+Venetian maritime interests
+Byzantine succession
+Maritime republics
+Feudal nobility
+Retinues
+Pilgrimage routes
+Mediterranean trade
+Crusading ideal

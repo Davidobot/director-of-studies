@@ -1,0 +1,47 @@
+# STT vocabulary hints for Contract Terms Unfair Terms Consumer Rights 2015 (A-level Law CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Consumer Rights Act 2015
+CRA 2015
+Unfair Contract Terms Act 1977
+UCTA 1977
+L’Estrange v Graucob
+Bannerman v White
+Routledge v McKay
+Parker v South Eastern Railway
+Chapelton v Barry UDC
+Thornton v Shoe Lane Parking
+Interfoto Picture Library v Stiletto
+Poussard v Spiers
+Bettini v Gye
+Hong Kong Fir Shipping
+Canada Steamship
+Photo Production
+contra proferentem
+parol evidence rule
+red hand principle
+incorporation by notice
+course of dealings
+innominate term
+condition
+warranty
+implied terms
+statutory implied terms
+satisfactory quality
+short-term right to reject
+reasonable care and skill
+repeat performance
+price reduction
+reasonableness test
+fairness and transparency
+grey list
+exclusion clause
+limitation clause
+standard form contract
+onerous clause
+signature rule
+bargaining positions
+negligence
+death or personal injury
+specific performance
+tortious claims

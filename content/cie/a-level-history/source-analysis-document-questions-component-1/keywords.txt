@@ -1,0 +1,47 @@
+# STT vocabulary hints for Source Analysis Document Questions Component 1 (A-level History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Component 1
+Cambridge International
+A-level
+AS level
+Source analysis
+Provenance
+Contextualise
+Primary source
+Secondary source
+Close reading
+Textual evidence
+Comparative analysis
+Synthesis
+Part (a)
+Part (b)
+Diplomatic dispatches
+Memoirs
+Newspaper editorial
+Covenant
+League of Nations
+United Nations
+San Francisco Conference
+Specialised agencies
+Manchuria
+Abyssinia
+Sanctions
+Humanitarian work
+Liberalism and Nationalism
+Unification of Italy
+Cavour
+Garibaldi
+Bismarck
+Piedmont
+Prussia
+–49
+Great-power diplomacy
+Mexican War
+Compromise of 1850
+Fugitive Slave Act
+Kansas–Nebraska
+Dred Scott
+Republican Party
+election
+Sectional tensions

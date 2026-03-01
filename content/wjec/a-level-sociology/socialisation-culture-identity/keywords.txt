@@ -1,0 +1,59 @@
+# STT vocabulary hints for Socialisation Culture Identity (A-level Sociology WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Socialisation
+Culture
+Identity
+WJEC
+Eduqas
+A-level Sociology
+Wales
+Welsh-language culture
+Bilingual education
+Nature-nurture debate
+Feral children
+Social construction
+Cultural transmission
+Subcultures
+Neo-tribes
+Mods and Rockers
+Punk
+Pierre Bourdieu
+Cultural capital
+Devolution
+Welsh Government
+Moral panic
+Hidden curriculum
+Primary socialisation
+Secondary socialisation
+Social control
+Labelling
+Stereotyping
+Discrimination
+Interactionism
+Functionalism
+Marxism
+Neo-Marxism
+Feminist theory
+Postmodernism
+New Right
+Ethnography
+Longitudinal studies
+Triangulation
+Methodological pluralism
+Positivism
+Interpretivism
+Realism
+Participant observation
+Focus groups
+Questionnaires
+Surveys
+Diasporas
+Cultural heritage
+Migration
+Digital technologies
+AO1
+AO2
+AO3
+Unit 2
+Unit 4

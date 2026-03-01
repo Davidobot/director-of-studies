@@ -1,0 +1,57 @@
+# STT vocabulary hints for Life After Death Eschatology (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Eschatology
+GCSE Religious Studies
+Pearson Edexcel
+Resurrection
+Resurrection of Jesus
+Final judgement
+Particular judgement
+General resurrection
+Purgatory
+Heaven
+Hell
+Communion with God
+Akhirah
+Day of Judgement
+Qur’an
+Jannah
+Jahannam
+Iman
+Amal
+Sunni
+Shiʿa
+Predestination
+Atman
+Samsara
+Karma
+Kamma
+Moksha
+Brahman
+Anatta
+Nirvana
+Theravada
+Noble Eightfold Path
+Mahayana
+Bodhisattva
+Pure Land
+Sheol
+Olam ha‑ba
+Messianic age
+Covenant
+Mukti
+Naam Japna
+Seva
+Janazah
+Śrāddha
+Shiva
+Pauline language
+Spiritual body
+Near‑death experiences
+Materialism
+Personal identity
+Funeral liturgy
+Committal
+Almsgiving
+Funeral mass

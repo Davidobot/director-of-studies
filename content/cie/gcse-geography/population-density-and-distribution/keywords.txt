@@ -1,0 +1,51 @@
+# STT vocabulary hints for Population Density And Distribution (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Population density
+Population distribution
+Arithmetic density
+Physiological density
+Agricultural density
+Arable land
+Choropleth map
+Dot map
+Kernel density map
+GIS
+Nile Delta
+Indo-Gangetic Plain
+North China Plain
+Ganges Delta
+Bangladesh
+Australia
+Canada
+Mongolia
+Megacity
+Urbanisation
+Rural-to-urban migration
+Central Business District
+Inner-city
+Suburbs
+Coastal belt
+River valley
+Transport corridor
+Colonial settlement
+Industrialisation
+Land tenure
+Forced displacement
+Planning controls
+Informal settlements
+Green infrastructure
+Demographic change
+Fertility rates
+Pro-natalist policy
+Anti-natalist policy
+Decentralisation
+Regional development
+Land-use change
+Service provision
+Economies of scale
+Overcrowding
+Sewage systems
+Housing supply
+Resource exploitation
+Accessibility

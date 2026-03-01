@@ -1,0 +1,53 @@
+# STT vocabulary hints for Global Connections Trade Migration (A-level Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Global Connections
+OCR
+A-level
+International trade
+Global migration
+Global governance
+Interdependence
+Inequality
+Representation
+Merchandise
+Services
+Capital flows
+Containerised exports
+Asia–Europe freight corridors
+European Union
+Core economies
+Peripheral states
+Commodity exports
+Internationalisation of production
+Multinational corporations
+Global supply chains
+Regional trading blocs
+Preferential agreements
+South–south trade
+Digital trade
+Export-led manufacturing
+Emerging and Developing Country (EDC)
+MNC
+Remittances
+South–North corridors
+South–South corridors
+Gulf migration
+Brain drain
+Circular migration
+Human rights
+Forced labour
+Maternal mortality
+Capital punishment
+United Nations
+International courts
+NGOs
+Transnational networks
+Sovereignty
+Territorial integrity
+Supranational institutions
+Ethno-political movements
+Peacekeeping missions
+Shipping choke-point
+Human Development Index (HDI)
+GIS

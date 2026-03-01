@@ -1,0 +1,63 @@
+# STT vocabulary hints for Climate Change Causes Impacts And Responses (A-level Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+A‑level Geography
+Council for the Curriculum, Examinations and Assessment
+Climate change
+Greenhouse gases
+Carbon dioxide
+Methane
+Nitrous oxide
+Fluorinated gases
+Enhanced greenhouse effect
+Fossil fuels
+Deforestation
+Land‑use change
+Carbon capture and storage
+CCS
+Holocene
+Milankovitch forcing
+Orbital variations
+Glacial‑interglacial cycles
+Ice cores
+Foraminifera
+Oxygen isotopes
+Pollen proxies
+Ocean‑floor sediments
+Permafrost thaw
+Tundra ecosystems
+Mangroves
+Coral reefs
+Coral bleaching
+Ocean acidification
+Thermal expansion
+Sea level rise
+Amazon Basin
+Tomé‑Açu
+Kiribati
+Somerset Levels
+Pakistan 2010 floods
+Hurricane Katrina
+Typhoon Haiyan
+UN Framework Convention on Climate Change
+Kyoto Protocol
+Intergovernmental Panel on Climate Change
+Nationally determined contributions
+Mitigation
+Adaptation
+Managed retreat
+Shoreline management plans
+Floodplain zoning
+Drought‑resilient agriculture
+Carbon reservoirs
+Positive feedback
+Negative feedback
+Ocean circulation
+Plate tectonics
+Volcanic aerosols
+Solar output variability
+Hydrological cycle
+Ruminant livestock
+Fossil fuel extraction
+Climate justice
+Adaptive capacity

@@ -1,0 +1,55 @@
+# STT vocabulary hints for Comedy And Satire Aristophanes Horace Juvenal (A-level Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Aristophanes
+Horace
+Juvenal
+Old Comedy
+Lenaea
+City Dionysia
+Peloponnesian War
+Acharnians
+Knights
+Clouds
+Peace
+Assembly Women
+Cleon
+Socratic intellectualism
+Demagogue
+Parabasis
+Agon
+Chorus
+Chorus-song
+Masks
+Set-pieces
+Sophistry
+Satires
+Hexameter
+Maecenas
+Augustan settlement
+Augustus
+Otium
+Stoic
+Epicurean
+Persona
+Invective
+Bread and circuses
+Parody
+Allegory
+Grotesque humour
+Typification
+Exempla
+Patronage
+Sycophancy
+Lampoon
+Moralising rhetoric
+Imperial Rome
+Athenian democracy
+Performance
+Dramatic stagecraft
+Public recitation
+Rhetorical fury
+Moral indignation
+Civic festivals
+Satiric voice
+Moderation

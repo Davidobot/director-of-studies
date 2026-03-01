@@ -1,0 +1,44 @@
+# STT vocabulary hints for Migrants To Britain C1250 To Present (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Expulsion of Jews (1290)
+Jewish communities
+Low Countries
+Flemish cloth workers
+Dutch migrants
+Huguenots
+Spitalfields
+Palatines
+Romany Gypsies
+ayah
+Lascars
+Eastern European Jews
+East End
+Great Famine (Ireland)
+Irish Famine
+HMT Empire Windrush
+Windrush generation
+Kindertransport
+Internment
+Enemy aliens
+British Nationality Act 1948
+Commonwealth
+Commonwealth Immigrants Acts
+Asylum seeker
+Refugee
+Chain migration
+Push-pull factors
+Naturalisation
+Steamships
+Railways
+Telegraph
+Atlantic trade
+Colonial networks
+Seafaring hubs
+Liverpool
+Glasgow
+Reformation
+Huguenot silk weavers
+Textile workshops
+British Empire
+Anti-racist movements

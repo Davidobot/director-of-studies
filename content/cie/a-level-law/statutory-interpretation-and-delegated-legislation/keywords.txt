@@ -1,0 +1,57 @@
+# STT vocabulary hints for Statutory Interpretation And Delegated Legislation (A-level Law CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Statutory interpretation
+Delegated legislation
+Act of Parliament
+Enabling provision
+Parent Act
+Statutory instruments
+Bylaws
+Orders in Council
+Royal Prerogatives
+Legislative and Regulatory Reform Act 2006
+Affirmative resolution
+Negative resolution
+Negative procedure
+Select committees
+Pre-drafting consultation
+Explanatory documents
+Delegated instruments
+Delegated powers
+Democratic accountability
+Democratic deficit
+Judicial review
+Ultra vires
+Illegality
+Procedural impropriety
+Irrationality
+Wednesbury principle
+Proportionality
+Locus standi
+Quashing order
+Prohibiting order
+Mandatory order
+Declaration of illegality
+Literal rule
+Golden rule
+Mischief rule
+Purposive approach
+Intrinsic aids
+Extrinsic aids
+Long title
+Short title
+Preamble
+Headings
+Schedules
+Interpretation sections
+Hansard
+European Union law
+Human Rights Act 1998
+Convention rights
+Precedent
+Legal hierarchy
+Law reform reports
+Parliamentary materials
+Judicial deference
+Technical regulators

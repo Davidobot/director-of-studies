@@ -1,0 +1,49 @@
+# STT vocabulary hints for Core Beliefs Tawhid Prophethood Afterlife (A-level Islamic Studies CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Tawhid
+Risalah
+ʾakhirah
+Qurʾan
+Sunnah
+Hadith
+Muʾtazilah
+al‑Ashʿari
+Sufism
+Mansur al‑Hallaj
+Muhammad
+Mecca
+Hijrah
+Medina
+Niyyah
+Dhikr
+Qadar
+Mahdi
+Hidden Imam
+Shiʾi
+Sunni
+Salafi
+Ijtihad
+Occasionalism
+Zakat
+Ramadan
+Al‑Khwarizmi
+Ibn Sina
+Al‑Ghazzali
+Greco‑Roman
+Exegesis
+Jurisprudence
+Prophethood
+Day of Judgement
+Resurrection
+Paradise
+Hell
+Eschatology
+Hadith authenticity
+Hadith grading
+Hadith collections
+Divine decree
+Free will
+Divine justice
+Divine sovereignty
+Spiritual stations

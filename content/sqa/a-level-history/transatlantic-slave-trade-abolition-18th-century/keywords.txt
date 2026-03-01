@@ -1,0 +1,43 @@
+# STT vocabulary hints for Transatlantic Slave Trade Abolition 18Th Century (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Transatlantic Slave Trade
+Middle Passage
+Triangular trade
+Caribbean plantations
+West Africa
+West African factories
+Coastal forts
+Trading posts
+Liverpool
+Bristol
+London
+Plantation economy
+Enslaved labour
+Middle Passage mortality
+Gang system
+Tasking system
+Maroon communities
+Slave-raiding economies
+Plantation rebellions
+Saint-Domingue
+Haitian Revolution
+Haiti
+William Wilberforce
+Thomas Clarkson
+Olaudah Equiano
+Autobiography (Equiano)
+Zong massacre
+Society for Effecting the Abolition of the Slave Trade
+Slave Trade Act 1807
+Royal Navy
+Napoleonic Wars
+Evangelical revival
+Quakers
+Radical writers
+Parliamentary reformers
+Insurance interests
+Historiographical debate
+Wage labour
+Industrialisation
+Metropolitan politicians

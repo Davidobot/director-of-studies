@@ -1,0 +1,48 @@
+# STT vocabulary hints for Us Elections Political Parties Voting Behaviour (A-level Government and Politics WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Electoral College
+Invisible Primary
+Primaries
+Caucuses
+Delegates
+National Convention
+Winner-takes-all
+Swing States
+Electors
+Popular Vote
+Political Action Committees (PACs)
+Super-PACs
+Independent Expenditure Groups
+Campaign Finance
+Micro-targeting
+Digital Targeting
+Social Media
+Television Advertising
+Debates
+Endorsements
+Sociological Model
+Rational Choice Model
+Valence Model
+New Deal Coalition
+Religious Right
+Tea Party
+Democratic Party
+Republican Party
+Third Parties
+Independent Candidates
+Incumbency
+Retrospective Voting
+Voter Turnout
+Voter Identification Laws
+Early Voting
+Absentee Ballots
+Mail Voting
+Felony Disenfranchisement
+Ballot Access Laws
+Electoral Map
+Mobilisation
+Misinformation
+Media Framing
+Fundraising
+Polling

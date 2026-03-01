@@ -1,0 +1,47 @@
+# STT vocabulary hints for Ireland 1823 1867 Oconnell Famine (A-level History CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Daniel O'Connell
+Catholic Association
+Catholic Emancipation
+Roman Catholic Relief Act 1829
+County Clare election 1828
+Repeal Association
+Monster meetings
+Clontarf meeting 1843
+Conspiracy conviction 1844
+Great Famine
+Potato blight
+Phytophthora infestans
+Black ’47
+Irish Poor Law 1838
+Workhouses
+Board of Works
+Public works schemes
+Soup kitchens
+Sir Robert Peel
+Indian maize
+Lord John Russell
+Evictions
+Absentee landlords
+Cottier tenants
+Land question
+Fixity of tenure
+Fair rents
+Tenure insecurity
+Landlordism
+Monoculture
+Demographic pressure
+Laissez‑faire economics
+Mass migration
+Emigration to North America
+Young Ireland
+Rising
+Irish Republican Brotherhood
+Fenian Rising 1867
+Fenian movement
+Moral force
+Constitutional nationalism
+Physical‑force nationalism
+Genocide debate
+Home Rule movement

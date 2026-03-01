@@ -1,0 +1,43 @@
+# STT vocabulary hints for Population (A-level Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Population geography
+Demographic Transition Model
+DTM
+Stage 1
+Stage 2
+Stage 3
+Stage 4
+Stage 5
+Natural increase
+Net migration
+Crude birth rate
+Crude death rate
+Total fertility rate
+Infant mortality rate
+Dependency ratio
+Carrying capacity
+Age/sex pyramid
+Population structure
+Population ageing
+Youth bulge
+Demographic dividend
+Anti-natalist policy
+Pro-natalist policy
+One-child policy
+Family planning
+Green Revolution
+Malthusian
+Food security
+Rural–urban migration
+Urbanisation
+Distorted sex ratio
+Working-age cohort
+Fertility decline
+Public health
+Distributional inequalities
+Sub‑Saharan Africa
+Bangladesh
+Iran
+Japan
+China

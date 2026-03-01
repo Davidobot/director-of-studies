@@ -1,37 +1,41 @@
 # STT vocabulary hints for Five Pillars Islamic Practices (GCSE Religious Studies EDEXCEL).
 # One term per line. Used to improve speech recognition quality.
 
+Five Pillars
 Shahadah
 Salah
 Sawm
 Zakah
 Hajj
-Qur'an
+Quran
 Hadith
 Shari'ah
+Fiqh
+Mosque
 Sufism
 Sunni
 Shi'a
 Tawhid
-shirk
-wudu
-Ka'ba
+Shirk
+Wudu
+Kaaba
 Mecca
 Jummah
-imam
-rak'ah
-dhikr
-taraweeh
+Imam
+Rak'ah
+Dhikr
+Taraweeh
 Laylat al-Qadr
-Id‑ul‑Fitr
-Id‑ul‑Adha
+Ramadan
+Eid al-Fitr
+Eid al-Adha
 Ashura
 Husayn
 Ibrahim
 Khums
-sadaqah
-waqf
-ihram
+Sadaqah
+Waqf
+Ihram
 Tawaf
 Safa
 Marwah
@@ -39,12 +43,9 @@ Arafat
 Mina
 Jamarat
 Umrah
-ummah
-Qurbani
+Ummah
+Pilgrimage
 AO1
 AO2
 SPaG
-Pearson Edexcel
-GCSE
-wali
-Ali
+Wuquf

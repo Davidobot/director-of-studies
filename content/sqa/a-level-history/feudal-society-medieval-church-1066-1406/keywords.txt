@@ -1,0 +1,53 @@
+# STT vocabulary hints for Feudal Society Medieval Church 1066 1406 (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Feudal society
+Manorialism
+Norman Conquest
+William I
+Domesday Survey
+Tenants‑in‑chief
+Subinfeudation
+David I
+Davidian revolution
+Royal burghs
+Sheriffs
+Melrose Abbey
+Anglo‑Norman tenure
+Demesne
+Scutage
+Knights
+Castellans
+Chivalry
+Gregorian reforms
+Investiture Controversy
+Papal authority
+Mendicant friars
+Franciscans
+Dominicans
+Monasticism
+Benedictine
+Cistercian
+Tithes
+Excommunication
+Interdict
+Bishops
+Abbots
+Constitutions of Clarendon
+Thomas Becket
+Becket murder 1170
+Henry II
+Itinerant justices
+Common law
+Jury system
+King John
+Magna Carta 1215
+Angevin Empire
+Loss of Normandy 1204
+Black Death 1348–49
+Statute of Labourers 1351
+Peasants' Revolt 1381
+Hundred Years War
+Longbow
+Gunpowder weapons
+Wool trade

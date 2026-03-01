@@ -1,0 +1,58 @@
+# STT vocabulary hints for Heritage Umayyads Abbasids (A-level Islamic Studies CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Umayyad dynasty
+ʿAbbasid caliphate
+caliphate
+Muʿāwiya
+ʿAbd al‑Malik
+Hārūn al‑Rashīd
+al‑Maʾmūn
+Four Rightly-Guided Caliphs
+Iberia
+al‑Andalus
+Córdoba
+Damascus
+Great Mosque of Damascus
+Masjid al‑Aqsa
+Umayyad mosaics
+Baghdad
+House of Wisdom
+Translation Movement
+Samarra
+Malwiya (Samarra spiral minaret)
+hypostyle mosque
+horseshoe arches
+minaret
+madrasas
+Arabic as administrative language
+standardisation of coinage
+mawālī
+dhimmī
+dhimma
+convivencia
+Persian administrative practices
+translation and transmission
+medieval Spain
+Sicily
+Islamic Golden Age
+al‑Khwarizmi
+algebra
+Ibn Sīnā
+Canon of Medicine
+Ibn al‑Haytham
+optics
+Ibn Tufayl
+Hayy ibn Yaqzan
+Al‑Ghazālī
+Incoherence of the Philosophers
+Ibn Khaldun
+Muqaddimah
+Rābiʿa al‑ʿAdawiyya
+arabesque
+calligraphy
+jurisprudence
+fiqh
+anthropomorphism
+Qurʾan
+Sunnah

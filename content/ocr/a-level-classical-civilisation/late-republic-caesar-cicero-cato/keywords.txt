@@ -1,0 +1,55 @@
+# STT vocabulary hints for Late Republic Caesar Cicero Cato (A-level Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Late Republic
+Gaius Julius Caesar
+Marcus Tullius Cicero
+Marcus Porcius Cato
+res publica
+cursus honorum
+quaestor
+consul
+imperium
+dictatorship
+patronage
+clientela
+amicitia
+populares
+optimates
+tribunician legislation
+grain law
+Stoicism
+First Triumvirate
+Pompey
+Crassus
+Gaul
+Rubicon
+civil war (49–45 BC)
+Ides of March
+perpetual dictatorship
+census
+veteran colonies
+municipal structures
+assassination
+novus homo
+concordia ordinum
+cum dignitate otium
+Verrine affair
+In Verrem
+Verres
+Cicero's letters
+anaphora
+tricolon
+invective
+Second Triumvirate
+Mark Antony
+Octavian
+proscriptions
+numismatic evidence
+epigraphic evidence
+material culture
+archaeological evidence
+provincial commands
+personal armies
+senatorial prerogative
+monarchical tendencies

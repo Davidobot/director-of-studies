@@ -1,0 +1,60 @@
+# STT vocabulary hints for Usa 1917 1996 (A-level History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+American Dream
+Woodrow Wilson
+Fourteen Points
+Franklin D. Roosevelt
+New Deal
+Social Security
+Public Works
+Regulatory agencies
+Great Depression
+Roaring Twenties
+Stock Market Crash 1929
+First World War
+World War Two
+Cold War
+Containment
+Harry S. Truman
+Dwight D. Eisenhower
+John F. Kennedy
+Lyndon B. Johnson
+Richard Nixon
+McCarthyism
+Vietnam War
+Watergate
+Ronald Reagan
+Supply-side economics
+Stagflation
+Oil shocks
+Deregulation
+Fiscal deficit
+Globalisation
+Deindustrialisation
+GI Bill
+Suburbanisation
+Brown v. Board of Education (1954)
+Montgomery Bus Boycott (1955)
+March on Washington (1963)
+Selma to Montgomery Marches (1965)
+Civil Rights Act (1964)
+Voting Rights Act (1965)
+Black Power
+Native American activism
+Chicano movement
+Women's liberation
+Gay rights movement
+Jazz Age
+Hollywood
+Counterculture
+Hart-Celler Act (1965)
+Détente
+Korean War
+Arms build-up
+Defence spending
+Historiography
+Provenance
+Interpretations question
+AO1
+AO3

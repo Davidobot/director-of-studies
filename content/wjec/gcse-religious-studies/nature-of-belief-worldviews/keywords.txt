@@ -1,0 +1,58 @@
+# STT vocabulary hints for Nature Of Belief Worldviews (GCSE Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+WJEC
+Eduqas
+theists
+monotheists
+polytheists
+religious pluralists
+agnostics
+atheists
+humanists
+problem of evil
+Brahman
+Dharma
+Waheguru
+atman
+moksha
+nirvana
+reincarnation
+karma
+Ten Commandments
+Sharia
+Natural Law
+Five Precepts
+Bhagavad Gita
+Guru Granth Sahib
+Qur’an
+Torah
+Talmud
+Hadith
+Catechism
+Parable of the Sheep and Goats
+Noble Eightfold Path
+mitzvot
+seva
+langar
+puja
+salah
+Eucharist
+baptism
+bar mitzvah
+kippah
+hijab
+halal
+kosher
+utilitarianism
+deontology
+virtue ethics
+cynefin
+AO1
+AO2
+AO3
+theodicies
+stewardship
+LGBTQ+
+human rights
+environmental crisis

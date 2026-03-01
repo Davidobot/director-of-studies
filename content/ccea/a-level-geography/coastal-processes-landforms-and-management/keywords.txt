@@ -1,0 +1,63 @@
+# STT vocabulary hints for Coastal Processes Landforms And Management (A-level Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+A-level
+fetch
+constructive waves
+destructive waves
+wave refraction
+hydraulic action
+abrasion
+corrasion
+attrition
+solution
+suspension
+saltation
+traction
+longshore drift
+Hjulström curve
+wave-cut platform
+headland
+bay
+cave
+arch
+stack
+stump
+beach
+dune
+spit
+recurved spit
+tombolo
+bar
+lagoon
+intertidal zone
+tidal range
+estuarine processes
+eustatic sea-level change
+isostatic change
+isostatic rebound
+emergent coastline
+submergent coastline
+ria
+fjord
+raised beach
+relict cliff
+palaeoenvironments
+sediment cell
+Shoreline Management Plan
+SMP
+Environmental Impact Assessment
+EIA
+Cost–Benefit Analysis
+CBA
+managed realignment
+beach nourishment
+dune restoration
+sea wall
+revetment
+groyne
+Medmerry
+Lyme Regis
+South Devon
+Kiribati
+Integrated Coastal Zone Management

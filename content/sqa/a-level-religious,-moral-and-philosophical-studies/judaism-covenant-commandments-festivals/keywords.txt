@@ -1,0 +1,59 @@
+# STT vocabulary hints for Judaism Covenant Commandments Festivals (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Judaism
+Covenant
+Covenantal identity
+Halakhah
+Halakhic methodology
+Mitzvot
+Torah
+Sinai covenant
+Abraham
+Moses
+Exodus
+Temple
+Exile
+Rabbinic literature
+Rabbis
+Mishnah
+Talmud
+Maimonides
+Ten Commandments
+Rosh Hashanah
+Yom Kippur
+Days of Awe
+Shofar
+Vidui
+Atonement
+Passover
+Pesach
+Seder
+Haggadah
+Chametz
+Matzah
+Shavuot
+Sukkot
+Sukkah
+Lulav
+Etrog
+Four species
+Shabbat
+Shema
+Amidah
+Kashrut
+Ashkenazi
+Sephardi
+Mizrahi
+Orthodox
+Conservative
+Reform
+Olam Ha'ba
+Messiah
+Messianic Age
+Prophetic writings
+Psalms
+Ethical commandments
+Ritual commandments
+Organ donation
+Same-sex relationships

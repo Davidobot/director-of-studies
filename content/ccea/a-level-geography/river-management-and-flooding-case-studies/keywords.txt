@@ -1,0 +1,57 @@
+# STT vocabulary hints for River Management And Flooding Case Studies (A-level Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Drainage basin
+River discharge
+Overland flow
+Throughflow
+Groundwater flow
+Channel flow
+Flash floods
+Catchment
+Relief
+Basin shape
+Geology
+Hydrograph
+Rising limb
+Peak discharge
+Lag time
+Antecedent moisture
+Soil infiltration capacity
+Urbanisation
+Hydrograph peaks
+Gauging station
+Channelisation
+Levees
+Embankments
+Dredging
+Flood storage schemes
+Natural flood management
+NFM
+Reconnected floodplains
+Washlands
+Meander restoration
+Riparian buffer strips
+Strategic afforestation
+Interception
+Peat desiccation
+Pumping stations
+Somerset Levels 2014
+Somerset Levels
+Tidal influences
+On-farm storage
+Flood governance
+MEDC
+LEDC
+Pakistan 2010
+Indus basin
+Monsoon precipitation
+Riverine flooding
+Early warning systems
+Catchment-scale planning
+Floodplain reconnection
+Sediment dynamics
+Flood magnitude
+Flood risk
+Channel straightening
+Floodplain storage

@@ -1,0 +1,46 @@
+# STT vocabulary hints for Problem Of Evil Theodicies (A-level Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Problem of Evil
+Theodicy
+Augustine
+John Hick
+Irenaean theodicy
+Augustinian theodicy
+Privation theory
+Privation
+The Fall
+Original sin
+Concupiscence
+Free will defence
+Free will
+Moral evil
+Natural evil
+Natural disasters
+Soul‑making
+Vale of soul‑making
+Epistemic distance
+Universal salvation
+Universalism
+Soteriology
+Divine grace
+Omnipotence
+Omniscience
+Divine justice
+Teleology
+Evidential problem
+Logical problem
+Inscrutability
+Gratuitous suffering
+Horrendous evil
+Holocaust
+Evolutionary science
+Process theodicy
+Protest theodicy
+Moral responsibility
+Moral culpability
+Animal suffering
+OCR A‑Level
+Oxford Cambridge and RSA
+Moral psychology
+Redemption

@@ -1,0 +1,45 @@
+# STT vocabulary hints for Old Testament Themes (A-level Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Old Testament
+Hebrew Bible
+Noahic Covenant
+Abrahamic Covenant
+Mosaic Covenant
+Covenant
+Election
+Davidic covenant
+Davidic narratives
+Deuteronomistic history
+Deuteronomistic
+Minimalist-maximalist debate
+Minimalists
+Maximalists
+Elijah
+Ahab
+Mount Carmel
+Amos
+Jeremiah
+Ezekiel
+Valley of Dry Bones
+New Covenant
+Herem
+Divine warrior
+Temple
+Exile
+Post-exilic
+Covenant lawsuit
+Courtroom imagery
+Redactional layers
+Oracular speech
+Prophetic oracles
+Prophetic traditions
+Prophetic movement
+Call narratives
+Lament
+Enacted parables
+Symbolic action
+Legal metaphor
+Cultic centre
+Restoration
+Social justice

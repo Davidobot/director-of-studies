@@ -1,0 +1,63 @@
+# STT vocabulary hints for Development And Health Indicators And Disease Control (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Human Development Index
+HDI
+Gross National Income
+GNI
+Gross Domestic Product
+GDP
+GNI per capita
+GDP per capita
+Multidimensional Poverty Index
+MPI
+Life expectancy
+Literacy rates
+Mean years of schooling
+Infant mortality
+Maternal mortality
+Crude birth rate
+Crude death rate
+Safe drinking water
+Sanitation
+Sanitation infrastructure
+Oral rehydration therapy
+ORT
+Oral rehydration salts
+ORS
+Vibrio cholerae
+Cholera
+Waterborne disease
+Water-related disease
+Primary healthcare
+PHC
+Community health worker
+Health extension worker
+Family Health Strategy
+Immunisation
+Mass vaccination
+Integrated Management of Childhood Illness
+IMCI
+Community-led total sanitation
+CLTS
+Open defecation
+Antimicrobial resistance
+Surveillance systems
+Emergency water chlorination
+Vector-borne disease
+Seasonal flooding
+Population displacement
+Waste management
+Commodity dependence
+Extractive industries
+Landlocked
+Sub-Saharan Africa
+South Asia
+East Asia
+Bangladesh
+Ethiopia
+Brazil
+Terms of trade
+Foreign aid
+Per capita income
+Underreporting

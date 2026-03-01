@@ -1,0 +1,58 @@
+# STT vocabulary hints for Rivers And Drainage Basins (GCSE Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+WJEC
+Eduqas
+GCSE
+Hydrological cycle
+Drainage basin
+Watershed
+Drainage divide
+Tributary
+Confluence
+Channel
+Floodplain
+Interception storage
+Surface storage
+Soil moisture
+Groundwater
+Infiltration
+Percolation
+Throughflow
+Overland flow
+Channel flow
+Snowmelt
+Weathering
+Erosion
+Fluvial transport
+Hydraulic action
+Abrasion
+Attrition
+Solution
+Traction
+Saltation
+Suspension
+Sediment sorting
+Long profile
+Cross profile
+Vertical erosion
+Lateral erosion
+Waterfall
+Plunge pool
+Gorge
+Pistyll Rhaeadr
+Meander
+Oxbow lake
+Natural levee
+Alluvial soils
+Discharge
+Channel gradient
+Rapids
+Hydroelectricity
+Hydrograph
+Rising limb
+Peak discharge
+Falling limb
+Lag time
+Urbanisation
+Natural flood management

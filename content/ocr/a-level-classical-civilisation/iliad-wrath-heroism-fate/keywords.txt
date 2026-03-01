@@ -1,0 +1,46 @@
+# STT vocabulary hints for Iliad Wrath Heroism Fate (A-level Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Iliad
+Homer
+Achilles
+Agamemnon
+Briseis
+Patroclus
+Priam
+Hector
+Andromache
+Sarpedon
+Zeus
+Athena
+Hera
+Apollo
+menis
+timē
+kleos
+aristeia
+aristeiai
+Trojan War
+Catalogue of Ships
+Ransom of Hector
+Death of Patroclus
+Embassy to Achilles
+Hector’s farewell
+Arming scenes
+Funeral rites
+Funeral games
+Lamentation
+Oral-formulaic composition
+Homeric epithet
+Extended similes
+Teleology
+Gift exchange
+Greek war camp
+Homeric anthropology
+AO1
+AO2
+H408/11
+Reconciliation scene
+Priam and Achilles
+Oracular pronouncement
+Heroic code

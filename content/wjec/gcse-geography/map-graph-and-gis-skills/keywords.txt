@@ -1,0 +1,63 @@
+# STT vocabulary hints for Map Graph And Gis Skills (GCSE Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Ordnance Survey
+OS map
+map key
+north arrow
+scale line
+four-figure grid reference
+six-figure grid reference
+contour line
+contour interval
+gradient
+gradient formula
+rise/run
+cross-section
+transect
+clinometer
+trundle wheel
+quadrat
+flow meter
+tape measure
+structured interview
+field sketch
+choropleth map
+flow map
+scatter plot
+line graph
+bar chart
+mean
+median
+mode
+range
+interquartile range
+percentage change
+ratio
+random sampling
+systematic sampling
+stratified sampling
+opportunistic sampling
+six-stage enquiry model
+primary data
+secondary data
+topographic survey
+GIS
+Geographical Information Systems
+remote sensing
+satellite imagery
+aerial photograph
+buffering
+density calculation
+map projection
+resolution
+vegetation signature
+NEA
+non-exam assessment
+central business district
+industrial estate
+built-up area
+beach profile
+river discharge
+microclimate
+risk assessment

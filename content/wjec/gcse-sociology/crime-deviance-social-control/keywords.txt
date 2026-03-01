@@ -1,0 +1,59 @@
+# STT vocabulary hints for Crime Deviance Social Control (GCSE Sociology WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Crime
+Deviance
+Social control
+Formal social control
+Informal social control
+Agencies of social control
+Police
+Courts
+Prisons
+Sanctions
+Social norms
+Social construction
+Labelling
+Self-fulfilling prophecy
+Deviant career
+Moral panic
+Moral entrepreneurs
+Media sensationalism
+Official statistics
+Dark figure of crime
+Victim surveys
+Crime Survey for England and Wales
+Self-report studies
+Strain theory
+Robert Merton
+Subcultural theory
+Albert Cohen
+Marxism
+Conflict perspective
+Chambliss
+Differential enforcement
+White-collar crime
+Edwin Sutherland
+Corporate crime
+Corporate scandals
+Fraud
+Tax evasion
+Environmental damage
+Interactionism
+Howard Becker
+Feminist theory
+Heidensohn
+Carlen
+Institutional racism
+Restorative justice
+Rehabilitation
+Community-based interventions
+Deterrence
+Policing practices
+Social class
+Ethnicity
+Gender
+Age
+GCSE
+WJEC
+Eduqas

@@ -1,0 +1,39 @@
+# STT vocabulary hints for Spanish Conquest Aztecs (GCSE History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Hernán Cortés
+Tenochtitlan
+Montezuma II
+La Noche Triste
+Tlaxcalans
+La Malinche (Malinalli)
+Diego Velázquez
+Iberian Peninsula
+Castile
+Aragon
+Conquistador
+Aztec Empire
+tlatoani
+Tribute system
+Ritual sacrifice
+Tlaxcalan alliance
+Siege of Tenochtitlan
+Viceroyalty of New Spain
+New Spain
+Encomienda
+Columbian Exchange
+Smallpox
+Old World pathogens
+Mesoamerica
+Cavalry
+Firearms
+Steel weaponry
+Navigation techniques
+Papal decrees
+Royal decrees
+Spanish chronicles
+Indigenous codices
+Archaeological evidence
+Provenance
+Global silver trade
+Atlantic exploration

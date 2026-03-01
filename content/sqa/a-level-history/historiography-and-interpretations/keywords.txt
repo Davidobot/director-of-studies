@@ -1,0 +1,53 @@
+# STT vocabulary hints for Historiography And Interpretations (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Historiography
+Historiographical awareness
+Scottish Qualifications Authority
+Advanced Higher
+Whiggish
+Marxist
+Liberal
+Feminist
+Post‑revisionist
+Revisionist
+Intentionalist
+Structuralist
+New Economic Policy
+Collectivisation
+Stalin
+Bannockburn
+Nazi Germany
+Primary sources
+Secondary sources
+Provenance
+Content analysis
+Contextual knowledge
+Typicality
+Two‑source question
+Evaluate the usefulness
+How fully question
+Project‑dissertation
+Abstract
+Bibliography
+Referencing
+Author–date
+Footnotes
+Battlefield dispatches
+Factory records
+Women under Stalin
+Teleological
+Thematic
+Ideological lenses
+Class analysis
+Materialist explanation
+Gender history
+Cultural framework
+Economic framework
+Social framework
+Historiographical trends
+Historiographical pitfalls
+Source criticism
+Source evaluation
+Recalled knowledge
+Thesis

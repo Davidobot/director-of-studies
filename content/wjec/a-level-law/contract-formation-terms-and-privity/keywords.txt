@@ -1,0 +1,49 @@
+# STT vocabulary hints for Contract Formation Terms And Privity (A-level Law WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Offer
+Acceptance
+Invitation to treat
+Unilateral offer
+Postal rule
+Instantaneous communications
+Consideration
+Past consideration
+Promissory estoppel
+Intention to create legal relations
+Business efficacy
+Officious bystander test
+Express term
+Implied term
+Representation
+Condition
+Warranty
+Innominate term
+Repudiatory breach
+Termination
+Damages
+Incorporation
+Signature
+Reasonable notice
+Course of dealing
+Exclusion clause
+Limitation clause
+Unfair Contract Terms Act
+Reasonableness test
+Contracts (Rights of Third Parties) Act 1999
+Privity of contract
+Agency
+Assignment
+Collateral contract
+Trust
+Third party beneficiary
+Party autonomy
+Consumer protection legislation
+Subcontractor
+Life insurance
+Business-to-business
+Black-letter rules
+Leading authorities
+IRAC
+WJEC
+Eduqas

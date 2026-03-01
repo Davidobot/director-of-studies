@@ -1,0 +1,55 @@
+# STT vocabulary hints for Medical Ethics And Bioethics (A-level Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+autonomy
+beneficence
+non-maleficence
+justice
+utilitarianism
+deontological ethics
+Kantian ethics
+divine command theory
+Natural Moral Law
+virtue ethics
+situation ethics
+casuistry
+sanctity of life
+personhood
+moral status
+viability
+sentience
+abortion
+in vitro fertilisation
+IVF
+gamete donation
+surrogacy
+mitochondrial replacement
+pre-implantation diagnosis
+genetic testing
+eugenics
+reproductive technologies
+euthanasia
+assisted suicide
+voluntary active euthanasia
+withdrawal of life-sustaining treatment
+doctrine of double effect
+palliative sedation
+end-of-life care
+organ transplantation
+consent models
+opt-in
+opt-out
+living donation
+organ trafficking
+quality-adjusted life years
+QALYs
+germline modification
+gene editing
+therapy vs enhancement
+neonatal ethics
+palliative medicine
+advance directives
+allocation of scarce resources
+priority systems
+playing God
+stewardship

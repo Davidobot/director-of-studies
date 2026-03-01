@@ -1,0 +1,56 @@
+# STT vocabulary hints for Christian Ethics Relationships Life Death Bioethics (GCSE Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Christian ethics
+Council for the Curriculum, Examinations and Assessment
+GCSE Religious Studies
+Roman Catholic
+Anglican
+Methodist
+Baptist
+Protestant
+Genesis 2:24
+Jesus
+Agape
+Sanctity of life
+Conscience
+Sacramental view of marriage
+Clergy
+Celibacy
+Good Samaritan
+Parable of the Good Samaritan
+Pro-life
+Pro-choice
+Euthanasia
+Active euthanasia
+Passive euthanasia
+Assisted dying
+Hospice movement
+In vitro fertilisation
+IVF
+Embryos
+Embryo research
+Embryo selection
+Surrogacy
+Donor conception
+Human Fertilisation and Embryology Authority
+HFEA
+Christian Aid
+Capital punishment
+Restorative justice
+Just War tradition
+Just cause
+Last resort
+Proportionality
+Proper authority
+Pacifism
+Weapons of mass destruction
+Nuclear deterrence
+Child soldiers
+Stewardship
+Autonomy
+Moral status
+Intention
+Consequences
+AO1
+AO2

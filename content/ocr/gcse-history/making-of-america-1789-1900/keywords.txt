@@ -1,0 +1,61 @@
+# STT vocabulary hints for Making Of America 1789 1900 (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Making of America
+Constitution of 1789
+George Washington
+Thomas Jefferson
+Louisiana Purchase
+Cotton gin
+Market Revolution
+Manifest Destiny
+Oregon Trail
+California Trail
+Mormon migration
+Utah Territory
+California Gold Rush
+Forty-Niners
+Mexican–American War
+Treaty of Guadalupe Hidalgo
+Indian Removal Act of 1830
+Trail of Tears
+Lakota Sioux
+Little Crow's War
+Red Cloud's War
+Great Sioux War
+Battle of the Little Bighorn
+American Civil War
+Secession
+Abraham Lincoln
+Emancipation Proclamation
+Thirteenth Amendment
+Reconstruction
+Fourteenth Amendment
+Fifteenth Amendment
+Black Codes
+Compromise of 1877
+Transcontinental railroads
+Homestead Act of 1862
+Ranching
+Cattle drives
+Cow towns
+Buffalo economy
+Reservation system
+Gilded Age
+Andrew Carnegie
+John D. Rockefeller
+New York
+Chicago
+Tenements
+Haymarket affair
+Labour unions
+Jim Crow
+Plessy v. Ferguson
+Spanish–American War
+Puerto Rico
+Philippines
+Industrialisation
+Urbanisation
+Immigration
+Political machines
+Gettysburg Address

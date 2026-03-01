@@ -1,0 +1,59 @@
+# STT vocabulary hints for Usa 1850 1865 House Divided (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+USA 1850–65
+A House Divided
+Abraham Lincoln
+Lincoln–Douglas debates
+Stephen A. Douglas
+Compromise of 1850
+Fugitive Slave Act
+Kansas–Nebraska Act
+Missouri Compromise
+Bleeding Kansas
+Dred Scott decision
+Slave power
+Whig Party
+Know-Nothing movement
+Republican Party
+Second Party System
+Election of 1860
+Secession
+Confederate States of America
+Jefferson Davis
+Fort Sumter
+Border states
+Delaware
+Maryland
+Kentucky
+Missouri
+Union
+Confederacy
+Ulysses S. Grant
+William Tecumseh Sherman
+Total war
+Antietam
+Gettysburg
+Vicksburg campaign
+th Massachusetts
+Emancipation Proclamation
+Preliminary Emancipation Proclamation
+Thirteenth Amendment
+Enslavement
+Abolitionists
+Popular sovereignty
+Slaveholders
+Cotton diplomacy
+Union blockade
+Rail logistics
+Rifled artillery
+Telegraph
+Conscription
+Reconstruction
+Historiography
+Provenance
+Contextualisation
+Electoral College
+Political realignment
+Eastern theatre
+Western theatre

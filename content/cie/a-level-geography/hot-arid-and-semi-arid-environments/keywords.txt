@@ -1,0 +1,59 @@
+# STT vocabulary hints for Hot Arid And Semi Arid Environments (A-level Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Sahara
+Arabian Desert
+Australian deserts
+Sahel
+Taklamakan
+Namib
+Hadley cell
+subtropical anticyclones
+Intertropical Convergence Zone
+ITCZ
+rain shadow
+aridity
+potential evapotranspiration
+insolation
+Pleistocene pluvials
+palaeolake
+palaeoriver
+Lake Chad
+aeolian
+fluvial
+deflation
+abrasion
+saltation
+traction
+ventifact
+yardang
+zeugen
+barchan dune
+transverse dune
+linear dune
+star dune
+wadi
+arroyo
+bolson
+ephemeral channel
+braided channel
+alluvial fan
+playa
+salt pan
+pediment
+bajada
+piedmont
+salinisation
+Crassulacean Acid Metabolism
+CAM
+succulent
+sheetwash
+spate-irrigation
+drip irrigation
+micro-irrigation
+groundwater recharge
+desalination
+Great Green Wall
+Negev
+qanat
+fog harvesting

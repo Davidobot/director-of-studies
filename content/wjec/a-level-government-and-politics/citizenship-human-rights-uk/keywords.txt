@@ -1,0 +1,45 @@
+# STT vocabulary hints for Citizenship Human Rights Uk (A-level Government and Politics WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Human Rights Act 1998
+Equality Act 2010
+European Convention on Human Rights
+European Court of Human Rights
+Investigatory Powers Act
+Windrush scandal
+British Bill of Rights
+Supreme Court
+judicial review
+habeas corpus
+ultra vires
+parliamentary sovereignty
+devolution
+Equality and Human Rights Commission
+ombudsmen
+common law
+statute law
+political conventions
+international treaties
+UN human rights treaties
+Strasbourg
+Brexit
+WJEC
+Eduqas
+A‑level Government and Politics
+civil liberties
+counter‑terrorism
+data protection
+digital rights
+social media activism
+misinformation
+big data
+judicial independence
+executive power
+access to justice
+public order
+freedom of assembly
+freedom of expression
+freedom of religion
+right to a fair trial
+discrimination law
+administrative practice

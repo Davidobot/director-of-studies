@@ -1,0 +1,63 @@
+# STT vocabulary hints for Plate Tectonics Earthquakes Volcanoes (GCSE Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Plate tectonics
+Inner core
+Outer core
+Mantle
+Crust
+Mantle convection
+Constructive margin
+Mid‑Atlantic Ridge
+Rift valley
+Destructive margin
+Subduction
+Ocean trench
+Andes
+Collision zone
+Himalayas
+Transform margin
+San Andreas Fault
+Fold mountains
+Basalt
+Granite
+Sandstone
+Limestone
+Slate
+Marble
+Igneous rocks
+Sedimentary rocks
+Metamorphic rocks
+Seismic waves
+Seismograph
+Focus
+Epicentre
+Richter scale
+Moment magnitude scale
+Liquefaction
+Tsunami
+Haiti earthquake
+Tōhoku earthquake
+Fukushima
+Mauna Loa
+Shield volcano
+Stratovolcano
+Mount St Helens
+Mount Fuji
+Supervolcano
+Yellowstone
+Pyroclastic flow
+Ash fall
+Lahar
+Volcanic aerosols
+Sulphur dioxide
+GPS
+Gas sensors
+Early warning systems
+Hazard mapping
+Exclusion zone
+Earthquake‑resistant construction
+Retrofitting
+MEDC
+LEDC
+Plate margins

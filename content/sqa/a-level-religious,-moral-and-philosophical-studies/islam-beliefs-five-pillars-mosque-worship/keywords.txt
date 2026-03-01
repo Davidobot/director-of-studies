@@ -1,0 +1,44 @@
+# STT vocabulary hints for Islam Beliefs Five Pillars Mosque Worship (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Islam
+Tawhid
+Allah
+Quran
+Hadith
+Sunnah
+Muhammad
+Seal of the Prophets
+Khalifa
+Ahl al-bayt
+Imamate
+Sunni
+Shia
+Akhira
+Day of Judgement
+al-Jannah
+Jahannam
+Five Pillars
+Shahada
+Salah
+Zakah
+Khums
+Sawm
+Ramadan
+Hajj
+Mosque
+Masjid
+Qibla
+Mihrab
+Minbar
+Jumu'ah
+Ablution
+Sharia
+Fiqh
+Madhahib
+Jurisprudence
+Eschatology
+Prophethood
+SQA
+Higher RMPS
+Scottish Qualifications Authority

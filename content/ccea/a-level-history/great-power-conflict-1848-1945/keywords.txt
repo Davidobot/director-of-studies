@@ -1,0 +1,57 @@
+# STT vocabulary hints for Great Power Conflict 1848 1945 (A-level History CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Great Power Conflict 1848–1945
+A-level History
+German unification
+Revolutions of 1848
+Otto von Bismarck
+Prussia
+German Empire 1871
+Kaiser Wilhelm II
+Weltpolitik
+Schlieffen Plan
+Alsace‑Lorraine
+Revanchism
+Eastern Question
+Ottoman Empire
+Balkans
+Serbian nationalism
+Bulgarian nationalism
+Greek nationalism
+Austro‑Hungarian Empire
+Bosnian annexation 1908
+Assassination of Archduke Franz Ferdinand
+Sarajevo 1914
+Balkan Wars 1912–13
+Triple Entente
+Triple Alliance
+Anglo‑German naval arms race
+Militarism
+Mobilisation timetables
+Treaty of Versailles 1919
+Article 231
+Reparations
+League of Nations
+Locarno Treaties
+Dawes Plan
+Great Depression 1929
+Hyperinflation 1923
+Fascism
+Nazism
+Adolf Hitler
+Anschluss
+Remilitarisation of the Rhineland
+Munich Agreement 1938
+Nazi‑Soviet Pact (Molotov‑Ribbentrop Pact)
+Invasion of Poland 1939
+Second World War
+Holocaust
+Atomic bombs 1945
+United Nations
+Bretton Woods
+Decolonisation
+Cold War
+Division of Germany
+Total mobilisation
+Russian Empire

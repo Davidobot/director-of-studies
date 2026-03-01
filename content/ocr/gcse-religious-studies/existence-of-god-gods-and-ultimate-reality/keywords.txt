@@ -1,0 +1,63 @@
+# STT vocabulary hints for Existence Of God Gods And Ultimate Reality (GCSE Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Monotheism
+Polytheism
+Pantheism
+Panentheism
+Nibbāna
+Brahman
+Transcendent
+Immanent
+Personal deity
+Impersonal ultimate
+Cosmological argument
+Teleological argument
+Design argument
+Fine-tuning
+Moral argument
+Problem of evil
+Logical problem of evil
+Evidential problem of evil
+Free will defence
+Soul‑making theodicy
+Irenaean theodicy
+Skeptical theism
+Naturalistic explanations
+Religious experience
+Revelation
+Miracles
+Conversion
+Mystical union
+Visions
+Scripture
+Prophetic revelation
+Saguna
+Nirguna
+Atman
+Moksha
+Saṃsāra
+Dhamma
+Four Noble Truths
+Impermanence
+Anattā
+Resurrection
+Purgatory
+Karma
+Rebirth
+Atheism
+Agnosticism
+Humanism
+Exclusivism
+Inclusivism
+Pluralism
+AO1
+AO2
+SPaG
+Fine-tuning of physical constants
+Watch analogy
+Moral lawgiver
+Teleology
+Vishnu
+Shiva
+Buddha

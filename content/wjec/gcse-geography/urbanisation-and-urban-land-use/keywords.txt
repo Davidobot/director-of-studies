@@ -1,0 +1,54 @@
+# STT vocabulary hints for Urbanisation And Urban Land Use (GCSE Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Urbanisation
+Industrial Revolution
+Globalisation
+Megacity
+Global city
+World city
+Central Business District
+CBD
+Concentric zone model
+Sector model
+Multiple nuclei model
+Inner-city
+Suburbs
+Rural-urban fringe
+Informal settlement
+Slum
+Dharavi
+Lagos
+Mumbai
+Shanghai
+London
+New York
+Tokyo
+Rio de Janeiro
+Favelas
+Gentrification
+Suburbanisation
+Counter-urbanisation
+Re-urbanisation
+Brownfield
+Greenfield
+Brownfield regeneration
+Urban sprawl
+Urban heat island
+Impermeable surfaces
+Congestion charging
+Green belt
+Sustainable urban drainage systems
+Urban greening
+Rooftop gardens
+Informal economy
+Land tenure
+Multinational companies
+Port city
+Industrial park
+Affordable housing
+Public transport
+Land reform
+Resettlement schemes
+Spatial inequality
+Flood risk

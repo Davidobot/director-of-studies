@@ -1,0 +1,53 @@
+# STT vocabulary hints for Social Stratification And Life Chances (GCSE Sociology CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Social stratification
+Life chances
+Achieved status
+Ascribed status
+Caste system
+Open systems
+Closed systems
+Social mobility
+Meritocracy
+Means of production
+Capitalism
+Marxist theory
+Reserve army of labour
+Poverty trap
+Class hegemony
+Ideological control
+Patriarchy
+Sexual division of labour
+Unpaid domestic labour
+Interactionism
+Labelling theory
+Master status
+Self-fulfilling prophecy
+Intersectionality
+Welfare state
+Progressive taxation
+Statutory minimum wage
+Public housing
+Equal opportunities legislation
+Non-governmental organisations
+New Right
+Globalisation
+Transnational corporations
+Colonialism
+Migration
+Remittances
+Modern slavery
+Gini coefficient
+Human Development Index
+Income distribution
+Poverty line
+Life expectancy
+Ethnography
+Quantitative measures
+Qualitative research
+Informal work
+Sampling bias
+Researcher effects
+Cambridge International
+Assessment objectives

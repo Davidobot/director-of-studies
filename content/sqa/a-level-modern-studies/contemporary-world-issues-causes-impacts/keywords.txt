@@ -1,0 +1,53 @@
+# STT vocabulary hints for Contemporary World Issues Causes Impacts (A-level Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Qualifications Authority
+Modern Studies
+Contemporary world issues
+Democracy in Scotland
+United Kingdom
+Devolved settlement
+Federal system
+Unitary state
+Social inequality
+Crime and the law
+Socio-economic inequality
+Austerity measures
+Unemployment
+Income distribution
+Welfare measures
+Custodial sentences
+Social cohesion
+Fiscal pressure
+Humanitarian aid
+Development aid
+Sanctions
+Peacekeeping missions
+Collective defence
+NATO
+United Nations
+European Union
+African Union
+G20
+United States
+China
+Germany
+Mass displacement
+Climate-related migration
+Protracted conflict
+Colonial legacies
+Strategic resources
+Foreign interventions
+Multilateral action
+Unilateral action
+Polarisation
+Misinformation
+Social media
+Targeted online communications
+Institutional power
+Legitimacy
+Migration
+Refugees
+Think-tank
+Non-governmental organisation
+Source reliability

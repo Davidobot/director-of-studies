@@ -1,0 +1,43 @@
+# STT vocabulary hints for Britain In Peace And War 1900 1918 (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Edwardian Britain
+First World War
+Seebohm Rowntree
+Rowntree social survey
+Liberal reforms
+Old-age pensions
+National Insurance Act
+People’s Budget
+David Lloyd George
+House of Lords
+Parliament Act 1911
+Liberal Party
+Conservative government
+Labour Party
+Militant trade unions
+Women’s Social and Political Union (WSPU)
+National Union of Women’s Suffrage Societies (NUWSS)
+Pankhursts
+Suffragettes
+Hunger strikes
+Force-feeding
+Women’s Land Army
+Ministry of Munitions
+Defence of the Realm Act (DORA)
+Military Service Acts
+Conscription
+Conscientious objectors
+Tribunals
+Pals battalions
+Western Front
+Boer War
+Concentration camps
+Home Rule crisis
+Ulster Volunteer Force (UVF)
+Larne gun-running
+Naval arms race
+Rationing
+Total war
+Liberal landslide
+general elections

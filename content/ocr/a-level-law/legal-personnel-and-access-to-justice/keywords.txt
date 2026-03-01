@@ -1,0 +1,58 @@
+# STT vocabulary hints for Legal Personnel And Access To Justice (A-level Law OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Access to justice
+A-level Law
+Legal Aid Agency
+Legal Aid
+LASPO
+Legal Aid, Sentencing and Punishment of Offenders Act 2012
+Solicitors Regulation Authority
+SRA
+Bar Standards Board
+BSB
+CILEx
+CILEx Regulation
+Solicitors Qualifying Examination
+SQE
+Legal Practice Course
+LPC
+Conditional fee agreement
+No win no fee
+Legal expenses insurance
+Pro bono
+Free Representation Unit
+Citizens Advice
+Law centres
+University legal clinics
+Alternative dispute resolution
+ADR
+Mediation
+Conciliation
+Arbitration
+Online dispute resolution
+Virtual hearings
+Judicial independence
+Separation of powers
+Security of tenure
+Immunity from suit
+Rights of audience
+Higher rights of audience
+Direct public access
+Pupillage
+Vocational training
+Chambers
+Advocacy
+Magistrates' courts
+Crown Court
+High Court
+Court of Appeal
+Supreme Court
+Lay magistrates
+Juries
+Chartered legal executive
+Legal executive
+Solicitor
+Barrister
+Rule of law
+Triage

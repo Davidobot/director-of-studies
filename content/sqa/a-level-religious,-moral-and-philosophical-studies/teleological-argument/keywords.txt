@@ -1,0 +1,43 @@
+# STT vocabulary hints for Teleological Argument (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Teleological argument
+Argument from design
+A posteriori
+Teleology
+Thomas Aquinas
+Fifth Way
+Summa Theologiae
+Final causes
+Aristotelian teleology
+William Paley
+Watchmaker analogy
+Paleyan
+Eye (biological example)
+Intelligent Design
+Specified complexity
+Irreducible complexity
+Fine-tuning argument
+Cosmological fine-tuning
+Physical constants
+Cosmological constant
+Richard Swinburne
+Probabilistic reasoning
+Bayesian inference
+David Hume
+Dialogues Concerning Natural Religion
+Problem of induction
+John Stuart Mill
+Natural evil
+Designer regress
+Designer hypothesis
+Natural selection
+Charles Darwin
+Evolutionary biology
+Multiverse hypothesis
+Anthropic principle
+Theistic evolution
+Bacterial flagellum
+Mechanistic explanation
+Analogical reasoning
+Suboptimal design

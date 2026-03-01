@@ -1,0 +1,49 @@
+# STT vocabulary hints for Crime And Deviance (A-level Sociology OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Crime and deviance
+OCR A‑level Sociology
+Social construction
+Victimisation
+Labelling theory
+Interactionism
+Structural explanations
+Functionalism
+Marxism
+Neo‑Marxist
+Radical criminology
+Subcultural theory
+Strain theory
+Left realism
+Right realism
+Feminist criminology
+Life‑course perspective
+Masculinity studies
+Institutional racism
+Differential offending
+Official recorded crime statistics
+Victim surveys
+Self‑report studies
+Dark figure of crime
+Validity
+Reliability
+Representativeness
+Situational crime prevention
+Target hardening
+Environmental design
+Restorative justice
+Stop‑and‑search
+Community policing
+Recidivism
+Transnational organised crime
+Human trafficking
+Cybercrime
+Identity theft
+Online fraud
+Hacking
+Environmental crime
+Green crime
+Wildlife trafficking
+Illegal waste dumping
+Globalisation
+Jurisdictional challenges

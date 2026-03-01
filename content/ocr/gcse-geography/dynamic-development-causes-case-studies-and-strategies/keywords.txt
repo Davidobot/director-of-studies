@@ -1,0 +1,48 @@
+# STT vocabulary hints for Dynamic Development Causes Case Studies And Strategies (GCSE Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Bangladesh
+Grameen Bank
+Ready-made garment (RMG)
+Export processing zones (EPZs)
+Transnational corporations (TNCs)
+Global value chains
+Remittances
+Microfinance
+Microcredit
+Human Development Index (HDI)
+Gross National Income (GNI) per capita
+Gross Domestic Product (GDP)
+LIDCs
+Rostow's stages of economic growth
+Take-off
+Mass consumption
+Traditional society
+Export-led growth
+Service sector expansion
+Foreign direct investment (FDI)
+Debt relief
+Sustainable Development Goals (SDGs)
+Climate-resilient crops
+Sea-level rise
+Storm surges
+River flooding
+Flood defences
+Early warning systems
+Informal economies
+Human capital
+Labour protections
+Fairer trade terms
+National development plans
+Industrial parks
+Top-down strategies
+Bottom-up strategies
+Community health programmes
+Smallholder agriculture
+Export diversification
+Price shocks
+Vulnerability to hazards
+Landlocked countries
+PEEL
+PEC
+SPaG

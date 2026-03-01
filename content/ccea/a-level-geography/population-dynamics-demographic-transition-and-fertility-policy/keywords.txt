@@ -1,0 +1,54 @@
+# STT vocabulary hints for Population Dynamics Demographic Transition And Fertility Policy (A-level Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Demographic Transition Model
+DTM
+Epidemiological transition
+Crude birth rate
+CBR
+Crude death rate
+CDR
+Rate of natural increase
+Total fertility rate
+TFR
+Infant mortality rate
+IMR
+Age–sex pyramid
+Population pyramid
+Dependency ratio
+Vital registration
+Census
+Age heaping
+Under-registration
+Delayed registration
+Replacement level fertility
+Malthusian theory
+Neo-Malthusians
+Ester Boserup
+Boserup
+Anti-natalist policy
+Pro-natalist policy
+Family planning
+Contraception
+One-child policy
+Two-child policy
+Three-child policy
+Sex ratio at birth
+Missing girls
+Forced sterilisation
+Demographic dividend
+Population ageing
+Working-age cohort
+Urbanisation
+Female education
+Labour market participation
+Public health
+Sanitation
+Chronic non-communicable diseases
+Industrialisation
+Migration
+United Kingdom
+Kenya
+China
+Environmental degradation
+Optimum population

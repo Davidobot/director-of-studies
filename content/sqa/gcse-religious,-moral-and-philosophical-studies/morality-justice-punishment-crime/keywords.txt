@@ -1,0 +1,60 @@
+# STT vocabulary hints for Morality Justice Punishment Crime (GCSE Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Morality
+Justice
+Punishment
+Retribution
+Deterrence
+Specific deterrence
+General deterrence
+Reformation
+Rehabilitation
+Protection
+Incapacitation
+Custodial sentence
+Non‑custodial sentence
+Community payback order
+Electronic monitoring
+Curfew
+Probation supervision
+Fines
+Restorative justice
+Restorative justice conference
+Life sentence
+Life tariff
+Whole life order
+Parole
+Tariff
+Capital punishment
+Death penalty
+Human rights
+Right to life
+Cruel and degrading treatment
+Situational prevention
+Social prevention
+Target hardening
+CCTV
+Early intervention programmes
+Recidivism
+Reoffending
+Adverse childhood experiences
+Substance misuse
+Personality disorder
+Gang culture
+Economic inequality
+Poverty
+Community sentences
+Scottish Qualifications Authority
+GCSE
+National 5
+RMPS Resource Sheet
+Utilitarianism
+Consequentialism
+Humanism
+Proportionality
+Systemic inequality
+Bias
+Victims' satisfaction
+Parole system
+At‑risk youth

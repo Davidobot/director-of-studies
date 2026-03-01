@@ -1,0 +1,51 @@
+# STT vocabulary hints for Globalisation Poverty Migration Crime (A-level Sociology CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Globalisation
+Glocalisation
+Cultural hybridisation
+Convergence
+Divergence
+Transnational corporations
+Multinational corporations
+Global South
+Neoliberalism
+Structural adjustment programmes
+Remittances
+Diaspora
+Brain drain
+Brain gain
+International Monetary Fund (IMF)
+World Bank
+World Trade Organization (WTO)
+INTERPOL
+Transnational organisations
+Human trafficking
+Organised corporate crime
+Transnational drug networks
+Cybercrime
+Environmental crime
+Illegal logging
+Waste dumping
+Regulatory arbitrage
+Global supply chains
+Mutual legal assistance agreements
+Securitisation
+Global justice movement
+Migrant rights organisations
+Precarious employment
+Informal sector
+Patriarchal structures
+Feminist perspectives
+Marxist perspectives
+Neo‑Marxism
+Postmodernist perspectives
+Transformationalists
+Sceptics (globalisation debate)
+Transnational activism
+Microfinance
+Debt dependence
+Conditionality
+Asylum systems
+Refugee crises
+Climate change

@@ -1,0 +1,49 @@
+# STT vocabulary hints for Tudor England 1485 1603 (A-level History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Tudor England
+Henry VII
+Henry VIII
+Edward VI
+Mary I
+Elizabeth I
+Bosworth
+Lambert Simnel
+Perkin Warbeck
+Council Learned in the Law
+recognisances
+bonds
+Magnus Intercursus
+Medina del Campo
+Etaples
+Thomas Wolsey
+Thomas Cromwell
+Acts of Supremacy
+Dissolution of the Monasteries
+Book of Common Prayer
+Amicable Grant
+Justices of the Peace
+Privy Council
+Parliament
+Pilgrimage of Grace
+Western Rebellion
+Kett's Rebellion
+Wyatt's Rebellion
+Marian burnings
+Philip II
+Mary Queen of Scots
+papal excommunication
+via media
+Lord Burghley
+William Cecil
+Robert Cecil
+privateering
+Spanish Armada
+Drake
+enclosure
+debasement
+inflation
+mid-Tudor crisis
+Dutch Revolt
+subsidies
+succession crisis

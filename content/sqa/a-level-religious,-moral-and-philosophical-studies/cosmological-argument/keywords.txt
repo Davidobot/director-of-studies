@@ -1,0 +1,46 @@
+# STT vocabulary hints for Cosmological Argument (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Cosmological Argument
+Thomas Aquinas
+Aquinas' ways
+Unmoved Mover
+Efficient Cause
+Contingency Argument
+Gottfried Leibniz
+Principle of Sufficient Reason
+PSR
+Necessary Being
+Necessary Existence
+Contingent Being
+Kalam Cosmological Argument
+Medieval Islamic Philosophy
+Actual Infinite
+Infinite Regress
+Big Bang
+Singularity
+Quantum Mechanics
+Quantum Indeterminacy
+Quantum Origin
+Multiverse Hypothesis
+Fine-tuning
+Bouncing Cosmology
+Begins to exist
+Universal Causation
+Metaphysical Grounding
+Brute Fact
+Fallacy of Composition
+Special Pleading
+David Hume
+Bertrand Russell
+Thomism
+Leibnizians
+Teleological Considerations
+Possible Worlds
+Modal Metaphysics
+Series per se
+Temporal Series
+Aristotelian Physics
+Actualiser
+Explanatory Demand
+Temporal Origin

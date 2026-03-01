@@ -1,0 +1,54 @@
+# STT vocabulary hints for Alternative Accounts Religious Experience (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Alternative accounts
+Religious experience
+Mystical states
+Conversions
+Visions
+Miraculous healings
+Felt sense of God
+Advanced Higher RMPS
+Scottish Qualifications Authority
+Sigmund Freud
+Carl Jung
+Collective unconscious
+Archetypal imagery
+Individuation
+Dissociation
+Sleep-wake boundary events
+Temporal lobe epilepsy
+Psychoses
+Neuroimaging
+Parietal lobe
+Limbic regions
+Neurotheology
+Electromagnetic stimulation
+Hyperactive agency detection
+Evolutionary explanations
+Group cohesion
+Émile Durkheim
+Collective effervescence
+Karl Marx
+Max Weber
+Charismatic leadership
+Routinisation
+Pilgrimage
+Revival meetings
+Toronto Blessing
+Near-death experiences
+Teresa of Ávila
+Road to Damascus
+Persinger
+Prolonged meditation
+Non-dual experience
+Absorption (psychology)
+Neural correlates
+Correlation versus causation
+Reductionism
+Phenomenology
+Epistemic reliability
+Social shaping
+Neurophysiological studies
+Charismatic revival
+Moral order

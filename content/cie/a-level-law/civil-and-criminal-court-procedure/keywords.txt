@@ -1,0 +1,67 @@
+# STT vocabulary hints for Civil And Criminal Court Procedure (A-level Law CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Civil Procedure Rules
+CPR
+Woolf reforms
+Police and Criminal Evidence Act 1984
+PACE
+PACE Codes
+Arbitration Act 1996
+County Court
+High Court
+Court of Appeal
+Supreme Court
+Magistrates’ Court
+Crown Court
+Crown Prosecution Service
+CPS
+Small claims
+Fast track
+Multi‑track
+Specialist divisions
+Supervisory jurisdiction
+Case management
+Case allocation
+Pre‑action protocols
+Claim form
+Particulars of claim
+Disclosure of documents
+Witness statements
+Trial bundles
+Alternative dispute resolution
+ADR
+Mediation
+Conciliation
+Arbitration
+Remedies
+Damages
+Specific performance
+Injunctions
+Declaratory relief
+Causation
+Remoteness
+Mitigation
+Enforcement
+Writs
+Charging orders
+Third‑party debt orders
+Costs budgeting
+Costs rules
+Summary offences
+Either‑way offences
+Indictable only
+Mode of trial
+Committal
+Bail
+Appropriate adult
+Sections 76 and 78
+Exclusion of evidence
+Judicial review
+Appellate hierarchy
+Court of Appeal (Criminal Division)
+Lay magistrates
+Barristers
+Solicitors
+Jury
+Sentencing

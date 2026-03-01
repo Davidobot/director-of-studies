@@ -1,0 +1,49 @@
+# STT vocabulary hints for Europe Dictators 1918 1941 (A-level History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Lenin
+Trotsky
+Cheka
+Red Terror
+War Communism
+New Economic Policy
+Kronstadt mutiny
+Mussolini
+March on Rome
+Acerbo Law
+Giacomo Matteotti
+Opera Nazionale Balilla
+Lateran Pacts
+Fascism
+Corporatism
+Autarky
+Abyssinia
+Spanish Civil War
+Franco
+Stalin
+Five‑Year Plans
+Collectivisation
+Holodomor
+Purges
+Show trials
+Komsomol
+Red Army
+Cult of personality
+Industrialisation
+Hitler
+Beer Hall Putsch
+Great Depression
+Weimar Republic
+SA
+Reichstag Fire
+Enabling Act
+Gleichschaltung
+Night of the Long Knives
+Nuremberg Laws
+Anschluss
+Sudetenland
+Lebensraum
+Appeasement
+Totalitarianism
+Versailles Settlement
+Non‑aggression pact

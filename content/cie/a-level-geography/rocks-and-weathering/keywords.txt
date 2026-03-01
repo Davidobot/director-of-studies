@@ -1,0 +1,53 @@
+# STT vocabulary hints for Rocks And Weathering (A-level Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Plate tectonics
+Lithosphere
+Divergent boundary
+Constructive boundary
+Mid-Atlantic Ridge
+Sea-floor spreading
+Conservative boundary
+Strike-slip fault
+San Andreas
+Convergent boundary
+Subduction zone
+Ocean trench
+Volcanic arc
+Fold mountain belt
+Himalayas
+Continental collision
+Japan
+Philippines
+Physical weathering
+Mechanical weathering
+Freeze-thaw
+Thermal fracture
+Salt crystal growth
+Pressure release
+Dilatation
+Pluton
+Exfoliation
+Root wedging
+Scree
+Talus
+Chemical weathering
+Hydrolysis
+Feldspar
+Kaolinite
+Carbonation
+Carbonic acid
+Limestone
+Karst
+Sinkhole
+Lateritic soils
+Peltier-style relationship
+Jointing
+Bedding planes
+Rainsplash
+Sheetwash
+Rills
+Mass movement
+Mudflow
+Earthflow
+Rock-bolting

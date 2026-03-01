@@ -1,0 +1,52 @@
+# STT vocabulary hints for Alexander The Great 356 323 Bc (GCSE Ancient History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Alexander the Great
+Pella
+Macedonia
+Philip II
+Olympias
+Aristotle
+Parmenion
+Hephaestion
+Ptolemy
+Seleucus
+Darius III
+Porus
+Cleitus
+Diadochi
+Plutarch
+Arrian
+Diodorus
+Aristobulus
+Persepolis
+Babylon
+Tyre
+Gaugamela
+Issus
+Granicus
+Hydaspes
+Hyphasis
+Beas
+Aornos
+Susa
+Alexandria
+Achaemenid Empire
+satrap
+sarissa
+phalanx
+Companion cavalry
+siegecraft
+logistics
+Alexander sarcophagus
+Zeus-Ammon
+Babylonian astronomical diary
+Susa marriages
+Ptolemaic
+Hellenistic
+Hellenic
+garrison
+SPaG
+AO1
+AO2
+AO3

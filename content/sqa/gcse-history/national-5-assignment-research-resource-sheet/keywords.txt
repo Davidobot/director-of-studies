@@ -1,0 +1,41 @@
+# STT vocabulary hints for National 5 Assignment Research Resource Sheet (GCSE History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+National 5 History
+National 5 assignment
+Scottish Qualifications Authority
+SQA
+History Resource Sheet
+timed production
+research stage
+production stage
+one-hour controlled task
+Western Front
+World War I
+Liberal Reforms 1906–1914
+Pals battalions
+Propaganda
+Primary sources
+Secondary sources
+Authentication
+Reasonable assistance
+Supervision and control
+Assessor
+Candidate
+Interim progress meetings
+Authenticity checks
+Aide-mémoire
+Thesis sentence
+Evaluation
+Analysis
+Causes and effects
+Different perspectives
+words limit
+Single side of A4
+Marking criteria
+Eight aspects
+Supported conclusion
+Source bias
+Attribution
+Timed production rules
+Exam technique

@@ -1,0 +1,62 @@
+# STT vocabulary hints for Environmental Hazards Earthquakes Volcanoes And Storms (GCSE Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Environmental hazard
+Natural disaster
+Haiti earthquake
+Tōhoku earthquake and tsunami
+Eyjafjallajökull eruption
+Typhoon (Philippines)
+Plate tectonics
+Fault
+Plate boundary
+Convergent boundary
+Divergent boundary
+Transform boundary
+Subduction zone
+Mid-ocean ridge
+Hotspot
+Mantle plume
+Magma
+Lava flow
+Explosive eruption
+Volcanic ash
+Ash cloud
+Seismic activity
+Seismic monitoring
+Earthquake magnitude
+Tsunami
+Tropical cyclone
+Hurricane
+Sea surface temperature
+Coriolis effect
+Storm surge
+Eye of the storm
+Spiralling bands
+Coastal erosion
+Landslide
+Ground deformation
+Gas emissions
+Meteorological satellites
+Forecasting models
+Hazard map
+Storm track map
+Land-use zoning
+Building codes
+Early-warning systems
+Evacuation routes
+Mangrove forests
+Coastal dunes
+Mitigation
+Resilience
+Vulnerability
+Exposure
+Preparedness
+Humanitarian aid
+Insurance
+Economic losses
+Population displacement
+PEE approach
+SQA National 5
+Scottish Qualifications Authority
+GCSE Geography

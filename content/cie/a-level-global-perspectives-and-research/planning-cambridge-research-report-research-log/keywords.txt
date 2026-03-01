@@ -1,0 +1,49 @@
+# STT vocabulary hints for Planning Cambridge Research Report Research Log (A-level Global Perspectives & Research CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Cambridge Research Report
+Component 4
+A Level Global Perspectives & Research
+Cambridge International
+Research log
+Critical Path
+Deconstruction
+Reconstruction
+Reflection
+Communication
+AO1
+AO2
+AO3
+Research proposal
+Research proposal form
+Methodology
+Methodology and limitations
+Primary evidence
+Secondary evidence
+Primary data collection
+Literature review
+Theoretical analysis
+Field observation
+Close textual analysis
+Interviews
+Surveys
+Experiments
+Historical documents
+Policy reports
+Reputable statistics
+Sample size
+Sampling bias
+Sampling
+Provenance
+Ethical constraints
+Triangulate
+Qualitative studies
+Trustworthiness
+Declaration of Authenticity
+Plagiarism detection
+Referencing style
+Harvard
+APA
+Chicago
+Bibliography
+Appendices

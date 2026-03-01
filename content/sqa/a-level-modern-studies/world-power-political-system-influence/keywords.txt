@@ -1,0 +1,63 @@
+# STT vocabulary hints for World Power Political System Influence (A-level Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Modern Studies
+Scottish Qualifications Authority
+Scotland
+United Kingdom
+Scottish Parliament
+UK Parliament
+Devolved settlement
+Federalism
+Independence
+First-past-the-post
+Additional Member System
+Single Transferable Vote
+Electoral systems
+Voting behaviour
+Pressure groups
+Digital campaigning
+Social inequality
+Welfare state
+Minimum wage
+NHS
+Custodial sentences
+Non-custodial responses
+Electronic monitoring
+Reoffending rates
+G20
+European Union
+United States
+China
+Civil liberties
+Checks and balances
+Party dominance
+Executive control
+Socio-economic inequality
+Taxation
+Educational attainment gaps
+Health indicators
+Hard power
+Soft power
+Diplomacy
+Development assistance
+International organisations
+Peacekeeping
+Military interventions
+Foreign direct investment
+Trade negotiations
+Climate diplomacy
+Large-scale migration
+Global pandemics
+Sanctions
+Humanitarian aid
+International law
+United Nations
+Security Council
+Multilateral action
+Source evaluation
+Provenance
+Authorship
+Source-handling
+Graphical interpretation
+Numeracy

@@ -1,0 +1,51 @@
+# STT vocabulary hints for Rise Of Macedon 359 323 Bc (A-level Ancient History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Macedon
+Philip II
+Alexander the Great
+Illyrians
+Paeonians
+Sarissa
+Phalanx
+Companion cavalry
+Hetairoi
+Siegecraft
+Siege engineering
+Ancient artillery
+Perinthus
+Byzantium
+Hellespont
+Chaeronea (338 BC)
+League of Corinth
+Granicus (334 BC)
+Issus (333 BC)
+Gaugamela (331 BC)
+Siege of Tyre
+Siege of Halicarnassus
+Siege of Gaza
+Persepolis
+Achaemenid Empire
+Darius III
+Satrap
+Satrapal forces
+Bessus
+Hyphasis (Beas)
+Gedrosian Desert
+Wars of the Diadochi
+Demosthenes
+Philippics
+Arrian
+Curtius
+Alexander Sarcophagus
+Numismatics
+Inscriptions
+Panegyric
+Encomium
+Hegemony
+Combined-arms
+Logistics
+Garrisons
+Thrace
+Chalcidice
+Thessaly

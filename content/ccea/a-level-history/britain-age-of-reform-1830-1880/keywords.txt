@@ -1,0 +1,45 @@
+# STT vocabulary hints for Britain Age Of Reform 1830 1880 (A-level History CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Great Reform Act 1832
+Reform Crisis 1830–32
+rotten boroughs
+Whig
+Earl Grey
+Lord Melbourne
+Factory Act 1833
+Poor Law Amendment Act 1834
+Slavery Abolition Act 1833
+Anti-Corn Law League
+Corn Laws
+Irish Famine
+Robert Peel
+Peelites
+protectionists
+free trade
+Chartism
+People’s Charter
+universal male suffrage
+secret ballot
+abolition of property qualifications
+payment for MPs
+equal constituencies
+annual parliaments
+Benjamin Disraeli
+Tory democracy
+William Gladstone
+Second Reform Act 1867
+franchise expansion
+electorate
+industrialisation
+urbanisation
+mass politics
+Conservative Party
+Liberal Party
+party realignment
+party organisation
+electoral mobilisation
+historiography
+AO1
+AO2
+AO3

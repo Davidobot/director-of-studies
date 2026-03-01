@@ -1,0 +1,52 @@
+# STT vocabulary hints for Negligence And Tort Remedies (A-level Law WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Donoghue v Stevenson
+Caparo v Dickman
+neighbour principle
+Caparo test
+duty of care
+but for test
+novus actus interveniens
+proximate cause
+remoteness of damage
+Wagon Mound
+thin skull rule
+eggshell skull rule
+Smith v Leech Brain
+psychiatric injury
+nervous shock
+primary victims
+secondary victims
+Alcock
+Page v Smith
+Occupiers' Liability Act 1957
+Occupiers' Liability Act 1984
+Herrington v British Railways Board
+Wheat v E Lacon
+Glasgow Corporation v Taylor
+occupiers’ liability
+compensatory damages
+general damages
+special damages
+nominal damages
+exemplary damages
+mitigation
+British Westinghouse
+injunction
+prohibitory injunction
+mandatory injunction
+equitable remedies
+Bolam principle
+reasonable person standard
+objective test
+Blyth v Birmingham Waterworks
+Barnett v Chelsea & Kensington Hospital
+Knightley v Johns
+McKew v Holland
+Bolton v Stone
+Paris v Stepney Borough Council
+Nettleship v Weston
+corrective justice
+distributive justice
+strict liability

@@ -1,0 +1,50 @@
+# STT vocabulary hints for History Around Us Site Study (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+History Around Us
+History Around Us Site Proposal Form
+OCR
+Oxford Cambridge and RSA
+History B (SHP)
+J411
+GCSE
+SPaG
+site study
+physical remains
+surviving fabric
+stonework
+foundations
+earthwork
+defensive bank
+motte
+bailey
+nave
+kiln
+dock
+quay
+hangar
+gatehouse
+airbase
+Iron Age hillfort
+Iron Age
+Second World War airfield
+Second World War
+late medieval period
+cartographic sources
+excavation reports
+archaeological context
+measured plans
+aerial images
+virtual tours
+annotated photographs
+sketch plans
+oral testimony
+provenance
+conservation
+erosion
+rebuilding
+typicality
+tax rolls
+enclosure
+assessment criteria
+material evidence

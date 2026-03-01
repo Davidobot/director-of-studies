@@ -1,0 +1,39 @@
+# STT vocabulary hints for Source Analysis Evidence And Bias (A-level Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Herodotus
+Thucydides
+Polybius
+Livy
+Tacitus
+Peloponnesian War
+Caesar
+Pan-Hellenic
+source criticism
+eyewitness testimony
+official documents
+epigraphic evidence
+archaeological assemblage
+material culture
+vase-painting
+statuary
+inscriptions
+coins
+monuments
+set speeches
+digression
+teleology
+causal analysis
+moralising
+patriotic embellishment
+founding legends
+mythic origin
+ethnographic detail
+rhetorical works
+genre expectations
+authorial voice
+corroboration
+documentary claims
+partisan narrator
+literary stylist
+provenance

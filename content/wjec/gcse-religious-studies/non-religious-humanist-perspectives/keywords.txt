@@ -1,0 +1,48 @@
+# STT vocabulary hints for Non Religious Humanist Perspectives (GCSE Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Humanism
+Secular humanism
+Non-religious
+Humanists UK
+WJEC
+Eduqas
+GCSE Religious Studies
+Atheist
+Agnostic
+Consequentialism
+Virtue ethics
+Personhood
+Gradualist approach
+Euthanasia
+Assisted dying
+Palliative care
+Bodily integrity
+Autonomy
+Human rights
+Secularism
+Separation of church and state
+State neutrality
+Stewardship
+Biodiversity
+Animal sentience
+Eschatology
+Celebrant services
+Humanist funerals
+Naming ceremonies
+Memorial services
+Ethical reflection
+Empirical evidence
+Critical thinking
+Conscience
+Moral status
+Public policy
+Progressive taxation
+Climate justice
+Safeguarding
+AO1
+AO2
+AO3
+Catholic Christian
+Secular organisations
+Philosophical societies

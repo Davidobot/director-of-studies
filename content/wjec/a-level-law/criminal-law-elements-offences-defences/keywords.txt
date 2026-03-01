@@ -1,0 +1,61 @@
+# STT vocabulary hints for Criminal Law Elements Offences Defences (A-level Law WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Actus reus
+Mens rea
+Strict liability
+Factual causation
+Legal causation
+but for test
+R v White
+R v Jordan
+R v Smith
+R v Woollin
+Oblique intention
+Recklessness
+Caldwell test
+Gammon principles
+Offences Against the Person Act 1861
+Murder
+Voluntary manslaughter
+Involuntary manslaughter
+Constructive manslaughter
+Gross negligence manslaughter
+R v Church
+R v Adomako
+Coroners and Justice Act 2009
+Loss of control
+Diminished responsibility
+M'Naghten rules
+Automatism
+Bratty
+R v Quick
+R v Hennessy
+DPP v Majewski
+Intoxication
+Assault
+Battery
+Logdon
+Collins v Wilcock
+R v Ireland
+Grievous bodily harm
+s.18
+s.20
+s.47
+Theft Act 1968
+Appropriation
+Dishonesty
+Ivey v Genting Casinos
+Robbery
+Burglary
+s.9(1)(a)
+s.9(1)(b)
+Inchoate offences
+Attempt
+R v Gullefer
+R v Shivpuri
+Duress by threats
+Burden of proof
+Beyond reasonable doubt
+Reverse burden
+Sentencing

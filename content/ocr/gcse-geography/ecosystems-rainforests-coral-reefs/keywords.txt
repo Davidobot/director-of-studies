@@ -1,0 +1,54 @@
+# STT vocabulary hints for Ecosystems Rainforests Coral Reefs (GCSE Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Ecosystem
+Tropical rainforests
+Coral reefs
+Amazon Basin
+Congo Basin
+Madagascar
+Southeast Asia
+Australasia
+Great Barrier Reef
+Mesoamerican Reef
+Red Sea
+Zooxanthellae
+Coral bleaching
+Ocean acidification
+Calcium carbonate
+Marine heatwaves
+Reef restoration
+Coral transplantation
+Coral gardening
+Assisted evolution
+REDD+
+Agroforestry
+Selective logging
+Oil palm
+Cattle ranching
+Soy cultivation
+Deforestation
+Sedimentation
+Nutrient cycling
+Evapotranspiration
+Symbiosis
+Epiphytes
+Understorey
+Emergent trees
+Canopy
+Mangroves
+Marine protected area
+Marine protected area networks
+Overfishing
+Destructive fishing
+Payment-for-ecosystem-services
+Ecotourism
+Remote sensing
+GIS mapping
+Transects
+Quadrats
+Turbidity
+pH monitoring
+Carbon stocks
+Habitat fragmentation
+Fisheries management

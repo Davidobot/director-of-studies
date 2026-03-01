@@ -1,0 +1,51 @@
+# STT vocabulary hints for Liberalism Nationalism Italy Germany 1815 1871 (A-level History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Liberalism
+Nationalism
+Congress of Vienna
+Kingdom of Sardinia-Piedmont
+Kingdom of the Two Sicilies
+Papal States
+Lombardy-Venetia
+Carbonari
+Giuseppe Mazzini
+Young Italy
+Piedmont
+Revolutions of 1848
+Roman Republic 1849
+Charles Albert
+Frankfurt Parliament
+Risorgimento
+Count Camillo di Cavour
+Plombières
+Napoleon III
+Second Italian War of Independence
+Plebiscites
+Giuseppe Garibaldi
+Expedition of the Thousand
+Victor Emmanuel II
+Venetia
+Austro-Prussian War 1866
+Franco-Prussian War 1870–71
+Zollverein
+German Confederation
+Otto von Bismarck
+Realpolitik
+Blood and Iron
+Schleswig and Holstein
+North German Confederation
+Hall of Mirrors
+Versailles
+Wilhelm I
+Kaiser
+Frederick William IV
+Austria
+Prussia
+Greater Germany
+Lesser Germany
+Cultural nationalism
+Piedmontese constitutional monarchy
+Mazzinian republicanism
+Cavourian pragmatism
+Bismarckian unification

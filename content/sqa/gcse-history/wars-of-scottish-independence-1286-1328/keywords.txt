@@ -1,0 +1,41 @@
+# STT vocabulary hints for Wars Of Scottish Independence 1286 1328 (GCSE History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Alexander III
+Margaret, Maid of Norway
+Great Cause
+Norham
+John Balliol
+Balliols
+Robert Bruce
+Edward I
+Treaty of Birgham
+Sack of Berwick
+Tower of London
+Ragman Rolls
+William Wallace
+Andrew Moray
+Battle of Stirling Bridge
+Guardian of Scotland
+Battle of Falkirk
+schiltron
+longbowmen
+cavalry
+John Comyn
+Greyfriars Church
+Dumfries
+Scone
+King Robert I
+guerrilla warfare
+Battle of Bannockburn
+Auld Alliance
+Declaration of Arbroath
+Treaty of Edinburgh‑Northampton
+David II
+Joan of the Tower
+Edward II
+Edward III
+Blind Harry
+overlordship
+fealty
+English sheriffs

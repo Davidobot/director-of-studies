@@ -1,0 +1,57 @@
+# STT vocabulary hints for Resources Food Water Energy Environmental Risks (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Green Revolution
+Sahel
+Ethiopian famines
+Horn of Africa drought 2011
+Yemen
+Niger Delta
+Aral Sea
+Indonesia
+Palm oil
+Peatland drainage
+Fire and haze
+Chernobyl
+Fukushima
+Israel
+Drip irrigation
+Desalination
+Wastewater reuse
+Water recycling
+Singapore reclaimed water
+Boreholes
+Reservoirs
+Integrated Water Resources Management
+Aquifers
+Over-abstraction
+Salinisation
+Agroecological
+Agroforestry
+Integrated pest management
+Conservation agriculture
+High-yield varieties
+Mechanisation
+Post-harvest losses
+Off-grid solar
+Biofuel plantations
+Hydropower
+Geothermal
+Tidal energy
+Nuclear power
+Fuelwood
+Fossil fuels
+Greenhouse gases
+Energy security
+Energy mix
+Energy efficiency
+Intermittency
+Acid mine drainage
+Gas flaring
+Payment for ecosystem services
+Sustainable land-use planning
+Desertification
+Soil erosion
+Reforestation
+Flood risk
+Leak reduction

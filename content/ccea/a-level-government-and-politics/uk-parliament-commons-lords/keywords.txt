@@ -1,0 +1,53 @@
+# STT vocabulary hints for Uk Parliament Commons Lords (A-level Government and Politics CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+House of Commons
+House of Lords
+Crown
+Members of Parliament
+MPs
+Life peers
+Hereditary peers
+Lords Spiritual
+Parliament Act 1911
+Parliament Act 1949
+Salisbury Convention
+Public Bill Committee
+Committee of the Whole House
+Grand Committee
+Money bills
+Royal Assent
+Supply
+First reading
+Second reading
+Committee stage
+Report stage
+Third reading
+Consideration of amendments
+Select committees
+Departmental select committees
+Elected chairs
+Prime Minister’s Questions
+PMQs
+Backbench Business Committee
+House of Lords Act 1999
+Constitutional Reform Act 2005
+Supreme Court 2009
+Judicial Committee of the House of Lords
+Appellate Committee
+Life peerages
+Crossbench peers
+Party whips
+Collective responsibility
+Executive dominance
+Party discipline
+Financial privilege
+Hunting Act 2004
+Manifesto
+Minority government
+Coalition government
+Backbenchers
+Oral evidence sessions
+Written questions
+Urgent questions
+Adjournment debates

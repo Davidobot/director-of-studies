@@ -1,0 +1,52 @@
+# STT vocabulary hints for Homeric World Mycenae Odyssey J199 21 (GCSE Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Homeric World
+Mycenae
+Odyssey
+J199/21
+OCR
+GCSE Classical Civilisation
+Mycenaean
+Tiryns
+Late Bronze Age
+Megaron
+Cyclopean
+Lion Gate
+Grave Circle A
+Mask of Agamemnon
+Schliemann
+Rhyta
+Inlaid dagger
+Tholos tomb
+Beehive tomb
+Shaft graves
+Chamber burials
+Frescoes
+Linear B
+Pylos
+Palatial complexes
+Palace administration
+Redistributive economies
+Chariot fittings
+Citadel
+Funerary practice
+Xenia
+Cyclops
+Circe
+Hermes
+Moly
+Metis
+Nostos
+Formulaic language
+Epithets
+Similes
+Recognition plot
+Name‑trick "Nobody"
+Contest of the bow
+Suitors
+Odysseus
+Penelope
+Telemachus
+Athena
+Poseidon

@@ -1,0 +1,61 @@
+# STT vocabulary hints for Uk Landscapes Rivers Coasts (GCSE Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Lake District
+Scottish Highlands
+Pennines
+East Anglia
+High Force
+River Tees
+Whin Sill
+Basalt
+Plunge pool
+Gorge
+V-shaped valley
+Interlocking spurs
+Somerset Levels
+River Severn
+Floodplain
+Oxbow lake
+Meander
+Levees
+Traction
+Saltation
+Suspension
+Attrition
+Hydraulic action
+Abrasion
+Solution
+Chemical weathering
+Freeze-thaw
+Mass movement
+Longshore drift
+Spurn Point
+Humber
+Chesil Beach
+Durdle Door
+Jurassic Coast
+Wave-cut platform
+Stack
+Arch
+Holderness
+Boulder clays
+Sea wall
+Groynes
+Beach nourishment
+Managed realignment
+Dune restoration
+Riparian buffer strips
+River restoration
+Re-meandering
+North Atlantic Drift
+Sediment budget
+Long profile
+Clinometer
+Flow meter
+Intermediate axis method
+OS map
+GIS
+Pebble size analysis
+Hard engineering
+Soft engineering

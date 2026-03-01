@@ -1,0 +1,51 @@
+# STT vocabulary hints for Foundations Of Rome 753 440 Bc (GCSE Ancient History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Foundations of Rome
+Rome
+Tiber
+Romulus
+Remus
+Aeneas
+Troy
+Numa Pompilius
+Tullus Hostilius
+Ancus Marcius
+Alba Longa
+Etruscans
+Tarquin Priscus
+Servius Tullius
+Tarquin the Proud
+Tarquinus Superbus
+Servian reforms
+Servian reorganisation
+Census
+Consulship
+Consuls
+Senate
+Lucretia
+Sextus Tarquinius
+Lucius Junius Brutus
+Collatinus
+Silva Arsia
+Lars Porsena
+First Secession of the Plebs
+Second Secession
+Tribune of the Plebs
+Volero Publilius
+Decemvirate
+Decemviri
+Twelve Tables
+Valerio-Horatian laws
+Plebeians
+Patricians
+Magistracy
+Tyranny
+Roman Republic
+Kingship
+Urbanisation
+Necropolises
+Temple foundations
+Drainage works
+Archaeology
+Antiquarian historians

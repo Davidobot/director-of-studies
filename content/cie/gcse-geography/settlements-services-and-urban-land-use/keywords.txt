@@ -1,0 +1,48 @@
+# STT vocabulary hints for Settlements Services And Urban Land Use (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE Geography Cambridge International
+nucleated settlement
+linear settlement
+dispersed settlement
+site and situation
+Central Business District
+CBD
+concentric zone model
+sector model
+multiple nuclei model
+central place theory
+threshold
+sphere of influence
+bid-rent theory
+rural–urban continuum
+peri-urban
+exurbs
+green belt
+urban sprawl
+brownfield redevelopment
+slum upgrading
+secure land tenure
+informal settlements
+squatter settlements
+transit-oriented development
+bus rapid transit
+Geographic Information Systems
+GIS
+land-use survey
+transect
+pedestrian counts
+sustainable drainage systems
+urban greening
+congestion charging
+spatial segregation
+mixed-use development
+business park
+out-of-town retail centre
+industrial park
+megacity
+rural–urban migration
+urbanisation
+population density
+inner-city
+Paper 4

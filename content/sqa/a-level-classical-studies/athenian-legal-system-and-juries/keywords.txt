@@ -1,0 +1,38 @@
+# STT vocabulary hints for Athenian Legal System And Juries (A-level Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Athenian legal system
+dikasteria
+dikai
+graphe
+graphe paranomon
+eisangelia
+Areopagus
+Heliaia
+heliastic courts
+jurors
+kleroterion
+klepsydra
+archons
+magistrates
+Council of 500
+Assembly
+logographers
+forensic speeches
+forensic oratory
+Lysias
+Demosthenes
+Isaeus
+Socrates
+jury pay
+selection by lot
+secret ballots
+public prosecutions
+private lawsuits
+homicide procedures
+demagogues
+impiety
+corrupting the youth
+private initiative
+jury stipends
+rotation of jurors

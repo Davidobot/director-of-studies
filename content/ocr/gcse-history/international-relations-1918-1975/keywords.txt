@@ -1,0 +1,49 @@
+# STT vocabulary hints for International Relations 1918 1975 (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Treaty of Versailles
+League of Nations
+Dawes Plan
+Locarno Treaties
+Kellogg‑Briand Pact
+Wall Street Crash
+Global Depression
+Manchuria
+Abyssinia
+Appeasement
+Munich Agreement 1938
+Yalta Conference
+Potsdam Conference
+Division of Germany
+Truman Doctrine
+Marshall Plan
+Berlin Blockade
+Berlin Airlift
+NATO
+Warsaw Pact
+Berlin Wall
+Iron Curtain
+Cuban Missile Crisis
+Brinkmanship
+Crisis management
+Dien Bien Phu
+Gulf of Tonkin
+Vietnam War
+Fall of Saigon
+Détente
+Strategic Arms Limitation Talks
+SALT
+Proxy wars
+Containment
+Superpower rivalry
+Collective security
+Reparations
+Revisionist interpretation
+Traditionalist interpretation
+Post‑revisionist
+Soviet archives
+Synoptic
+Depth study
+Provenance
+SPaG
+Continuity and change

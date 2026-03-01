@@ -1,0 +1,63 @@
+# STT vocabulary hints for Christianity Jesus Trinity And Sacraments (A-level Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Christianity
+Jesus Christ
+Trinity
+Sacraments
+Baptism
+Eucharist
+Pearson Edexcel
+Luke
+John
+Fourth Gospel
+Logos
+I AM sayings
+Sermon on the Plain
+Parables
+Temple
+Galilee
+Judea
+Nicene Creed
+Athanasian Creed
+ousia
+hypostases
+tritheism
+modalism
+Council of Nicaea
+Chalcedonian formula
+Arian controversy
+Incarnation
+Atonement
+Christus Victor
+Substitutionary atonement
+Moral influence theory
+Resurrection
+Transubstantiation
+Consubstantiation
+Memorialism
+Spiritual presence
+Real presence
+Corinthians 11
+Last Supper
+Ex opere operato
+Anamnesis
+Sanctifying grace
+Ecumenical Movement
+Liberation theology
+Dietrich Bonhoeffer
+Karl Barth
+Gustavo Gutiérrez
+Karl Rahner
+John Macquarrie
+Anglicanism
+Baptists
+Free Churches
+Infant baptism
+Believer's baptism
+Eucharistic theology
+Ecclesiology
+Liturgical
+Non-liturgical
+Personhood
+Monotheism

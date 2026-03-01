@@ -1,0 +1,65 @@
+# STT vocabulary hints for Methods Of Sociological Enquiry (A-level Sociology WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+WJEC
+Eduqas
+Methods of sociological enquiry
+AO1
+AO2
+AO3
+Welsh Government datasets
+Crime Survey for England and Wales
+school league tables
+positivism
+interpretivism
+realism
+operationalisation
+operational definitions
+validity
+reliability
+representativeness
+generalisability
+objectivity
+ethics
+informed consent
+confidentiality
+anonymity
+right to withdraw
+institutional ethical approval
+Hawthorne effect
+social desirability bias
+deception
+covert research
+participant observation
+non‑participant observation
+overt observation
+covert observation
+ethnography
+structured interviews
+semi‑structured interviews
+unstructured interviews
+questionnaires
+focus groups
+simple random sampling
+stratified random sampling
+systematic sampling
+quota sampling
+purposive sampling
+snowball sampling
+gatekeepers
+mixed methods
+methodological pluralism
+triangulation
+official statistics
+content analysis
+secondary data
+primary research
+thematic analysis
+grounded theory
+narrative analysis
+coding
+cross‑tabulations
+descriptive statistics
+measures of association
+verbatim quotes
+vignettes

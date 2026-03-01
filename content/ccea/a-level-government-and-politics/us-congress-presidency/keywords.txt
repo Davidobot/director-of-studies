@@ -1,0 +1,63 @@
+# STT vocabulary hints for Us Congress Presidency (A-level Government and Politics CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+US Constitution
+separation of powers
+checks and balances
+Founding Fathers
+Congress
+House of Representatives
+Senate
+bicameral legislature
+apportionment
+staggered terms
+revenue bills
+impeachment
+Senate trial
+advice and consent
+treaty ratification
+filibuster
+cloture
+House Rules Committee
+committee chairs
+congressional oversight
+subpoenas
+power of the purse
+appropriations
+authorisations
+executive orders
+presidential memoranda
+executive agreements
+bully pulpit
+commander-in-chief
+State of the Union
+judicial review
+Marbury v. Madison
+United States v. Nixon
+Brown v. Board of Education
+War Powers Resolution
+Watergate
+Iran‑Contra hearings
+January 6 committee
+Bill Clinton impeachment
+Donald Trump impeachment
+Robert Bork
+confirmation battles
+Senate confirmation
+life tenure
+standing
+mootness
+justiciability
+administrative law
+inspector-general
+federalism
+midterm elections
+unified government
+divided government
+partisan polarisation
+interest groups
+investigative journalism
+career civil service
+norms and conventions
+executive privilege
+Supreme Court

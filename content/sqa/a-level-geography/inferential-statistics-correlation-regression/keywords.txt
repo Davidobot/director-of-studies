@@ -1,0 +1,53 @@
+# STT vocabulary hints for Inferential Statistics Correlation Regression (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Advanced Higher Geography
+Scottish Qualifications Authority
+SQA
+Pearson’s r
+Pearson’s product‑moment correlation
+Spearman’s rho
+Spearman’s rank correlation
+R²
+coefficient of determination
+chi‑squared test
+χ²
+contingency table
+degrees of freedom
+p‑value
+null hypothesis
+alternative hypothesis
+linear regression
+simple linear regression
+slope (b)
+intercept (a)
+residuals
+covariance
+standard deviation
+homoscedasticity
+extrapolation
+log transform
+monotonic relationship
+ranked data
+ties in ranks
+nearest neighbour analysis
+nearest‑neighbour ratio R
+complete spatial randomness
+mean nearest‑neighbour distance
+edge effects
+point density
+stratified sampling
+systematic sampling
+random sampling
+transect diagram
+kite diagram
+scatterplot
+box plot
+histogram
+pebble diameter
+downstream
+foredune
+mid‑dune
+back‑dune
+spatial patterning
+clustering

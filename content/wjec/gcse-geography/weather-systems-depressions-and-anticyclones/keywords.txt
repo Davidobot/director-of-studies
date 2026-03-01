@@ -1,0 +1,53 @@
+# STT vocabulary hints for Weather Systems Depressions And Anticyclones (GCSE Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Weather systems
+Depressions
+Anticyclones
+Synoptic chart
+Isobars
+Isobar spacing
+Warm front
+Cold front
+Occluded front
+Occlusion
+Warm sector
+Polar front
+Jet stream
+Hadley cell
+Ferrel cell
+Polar cell
+Subtropical highs
+Gulf Stream
+North Atlantic
+Atlantic storms
+Storm Desmond
+Mid-latitude depressions
+Cyclones
+Frontal rainfall
+Convectional rainfall
+Relief rainfall
+Orographic rainfall
+Cumulonimbus
+Rain shadow
+Windward slopes
+Lee side
+Post-frontal conditions
+Clockwise winds
+Counter-clockwise winds
+Pressure centres
+Low pressure
+High pressure
+Subsiding air
+Frontal uplift
+Air masses
+Temperature inversion
+Blocking highs
+Heatwave
+Drought
+River flooding
+Coastal flooding
+Flood management
+Flood warnings
+River engineering
+Heat-health plans

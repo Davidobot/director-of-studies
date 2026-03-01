@@ -1,0 +1,55 @@
+# STT vocabulary hints for Research Methods Source Evaluation (A-level Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Qualifications Authority
+SQA
+Advanced Higher
+Modern Studies
+UK
+Scotland
+official statistics
+dark figure
+longitudinal study
+survey
+postal survey
+telephone survey
+online survey
+sampling frame
+random sample
+stratified sample
+convenience sample
+response rate
+attrition
+self-selection bias
+sampling bias
+leading questions
+reliability
+validity
+bias
+triangulation
+mixed-methods
+structured interview
+semi-structured interview
+unstructured interview
+focus group
+overt observation
+covert observation
+Hawthorne effect
+case study
+ethnography
+thick description
+provenance
+methodological transparency
+corroboration
+think-tank briefing
+government report
+academic journal
+campaign leaflet
+data protection
+confidentiality
+anonymity
+project–dissertation
+primary research
+secondary data
+victim survey
+police recorded crime

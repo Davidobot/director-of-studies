@@ -1,0 +1,48 @@
+# STT vocabulary hints for Britain 1785 1870 (A-level History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Great Reform Act 1832
+Second Reform Act 1867
+Chartism
+Peterloo Massacre 1819
+Tolpuddle Martyrs 1834
+Reform League
+Luddism
+Swing Riots
+Combination Acts 1799–1800
+Poor Law Amendment Act 1834
+less eligibility
+workhouse
+Factory Act
+factory system
+industrialisation
+machine‑breaking
+trade unions
+New Model Trade Unions
+enclosure
+pauperism
+Andover scandal
+Seebohm Rowntree
+Charles Dickens
+William Wilberforce
+Olaudah Equiano
+abolition of the transatlantic slave trade 1807
+abolitionist societies
+Haitian Revolution
+Royal Navy
+parliamentary reform
+rotten boroughs
+pocket boroughs
+universal male suffrage
+secret ballot
+annual parliaments
+cotton industry
+Lancashire
+Manchester
+Leeds
+Birmingham
+iron industry
+coal industry
+Midlands
+friendly societies
+cooperatives

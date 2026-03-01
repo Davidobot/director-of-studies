@@ -1,0 +1,51 @@
+# STT vocabulary hints for Religion And Secularisation (A-level Sociology WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+WJEC
+Eduqas
+A-level
+Emile Durkheim
+Max Weber
+Marxism
+Functionalism
+Weberian theory
+Feminist theory
+Postmodernism
+Ritual
+Collective worship
+Social solidarity
+Protestantism
+Protestant Ethic
+Capitalism
+Structural differentiation
+Rationalisation
+Religious market theory
+Rational choice theory
+Secularisation
+Institutional secularisation
+Privatization of belief
+Religious pluralism
+Pentecostalism
+Charismatic churches
+Fundamentalism
+New Religious Movements
+Bricolage
+Spirituality
+Spiritual but not religious
+Transnational religious networks
+Faith-based organisations
+Faith-based welfare
+Faith schools
+Religious education
+Liberation theology
+Denominational switching
+Pick-and-mix spiritualities
+Lived religion
+Ethnography
+Quantitative surveys
+In-depth interviews
+Sacramental participation
+Clergy
+Wales
+United Kingdom (UK)
+Faith-based civil-rights movements

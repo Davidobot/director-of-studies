@@ -1,0 +1,43 @@
+# STT vocabulary hints for Hitler Foreign Policy 1933 1939 (GCSE History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Adolf Hitler
+Treaty of Versailles
+League of Nations
+Mein Kampf
+Lebensraum
+Jewish‑Bolshevik
+Rearmament
+Conscription
+Luftwaffe
+Four-Year Plan
+Anglo‑German Naval Agreement
+Saar plebiscite
+Rhineland
+Locarno Treaties
+Spanish Civil War
+Rome–Berlin Axis
+Benito Mussolini
+Anschluss
+Sudetenland
+Munich Agreement
+Czechoslovakia
+Occupation of Czechoslovakia
+Danzig
+Polish Corridor
+Nazi–Soviet Pact
+Molotov–Ribbentrop Pact
+Secret protocols
+Invasion of Poland
+Second World War
+Appeasement
+Neville Chamberlain
+Collective security
+Manchuria
+Abyssinia
+Reparations
+Greater Germany
+Brinkmanship
+Great Depression
+Territorial revision
+Saarland

@@ -1,0 +1,59 @@
+# STT vocabulary hints for Judaism Beliefs Practices Festivals Issues (GCSE Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Abraham
+Moses
+Israelites
+Covenant
+Jerusalem
+Land of Israel
+Torah
+Tanakh
+Nevi'im
+Ketuvim
+Pentateuch
+Hebrew Bible
+Mishnah
+Talmud
+Gemara
+Oral Torah
+Halakhah
+Mitzvot
+Kashrut
+Kosher
+Shabbat
+Rosh Hashanah
+Yom Kippur
+Pesach
+Seder
+Sukkot
+Sukkah
+Brit Milah
+Bar Mitzvah
+Bat Mitzvah
+Chuppah
+Aron Kodesh
+Bimah
+Menorah
+Mechitzah
+Rabbi
+Chazan
+Cantor
+Tallit
+Tefillin
+Phylacteries
+Kippah
+Shofar
+Shiva
+Orthodox Judaism
+Reform Judaism
+Liberal Judaism
+Conservative Judaism
+Modern Orthodox
+Reconstructionism
+Antisemitism
+Synagogue
+Liturgy
+Ethical monotheism
+GCSE
+CCEA

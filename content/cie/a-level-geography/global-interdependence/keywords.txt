@@ -1,0 +1,62 @@
+# STT vocabulary hints for Global Interdependence (A-level Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Global interdependence
+Human geography
+Trade flows
+Visible trade
+Invisible trade
+Intellectual property
+Resource endowments
+Comparative advantage
+Colonial ties
+Imperial centres
+Regional blocs
+Containerisation
+Resource curse
+World Trade Organization
+WTO
+Trade liberalisation
+Fairtrade
+International debt
+International aid
+Debt servicing
+International debt crisis 1980s
+Heavily Indebted Poor Countries
+HIPC
+Debt relief
+Multilateral mechanisms
+Tied aid
+Bilateral aid
+Multilateral aid
+Development aid
+Relief aid
+Tourism multiplier
+Low-cost airlines
+Package holidays
+Online booking platforms
+Tourism leakage
+Carrying capacity
+Life-cycle model
+Ecotourism
+Community-based tourism
+Sea walls
+Soft engineering
+Transnational corporation
+TNC
+New international division of labour
+Foreign direct investment
+Supply chains
+Core-periphery
+Export-oriented agriculture
+Trade balance
+Flow map
+Assessment Objectives
+AO1
+AO2
+AO3
+AO4
+Stakeholder engagement
+Sewage systems
+Solid waste systems
+Tourism seasonality

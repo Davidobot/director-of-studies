@@ -1,0 +1,63 @@
+# STT vocabulary hints for Glaciated Uplands And Coastal Landscapes (GCSE Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Qualifications Authority
+Glaciated uplands
+Valley glacier
+Ice sheet
+Abrasion
+Plucking
+Freeze–thaw weathering
+Scree slope
+Corrie
+Cirque
+Tarn
+Nivation
+Arête
+Pyramidal peak
+Horn
+Matterhorn
+U-shaped valley
+Hanging valley
+Truncated spur
+Moraine
+Hydraulic action
+Attrition
+Solution (corrosion)
+Destructive wave
+Constructive wave
+Backwash
+Swash
+Longshore drift
+Spit
+Shingle bar
+Concordant coastline
+Discordant coastline
+Arch
+Stack
+Headland
+Spurn Head
+Humber estuary
+Chesil Beach
+Jurassic Coast
+Old Harry Rocks
+Studland
+Flamborough Head
+Kintyre
+Caithness
+Cairngorms
+Lake District
+Holderness
+Medmerry
+Managed realignment
+Beach nourishment
+Sea wall
+Rock armour
+Rewilding
+Hydroelectric schemes
+Offshore wind farm
+Ordnance Survey
+Grid reference
+Transect
+Beach profile
+Glacial landforms

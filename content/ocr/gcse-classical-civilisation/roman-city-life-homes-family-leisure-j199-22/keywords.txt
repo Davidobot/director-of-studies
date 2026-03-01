@@ -1,0 +1,58 @@
+# STT vocabulary hints for Roman City Life Homes Family Leisure J199 22 (GCSE Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Roman City Life
+OCR J199/22
+GCSE Classical Civilisation
+Oxford Cambridge and RSA
+Rome
+Pompeii
+Herculaneum
+Ostia
+Vesuvius
+House of Menander
+House of Octavius Quartio
+Insula of Diana
+domus
+insulae
+atrium
+impluvium
+tablinum
+peristyle
+frescoes
+mosaics
+graffiti
+cena
+paterfamilias
+patron-client network
+freedmen
+slavery
+litterator
+grammaticus
+rhetor
+stylus
+wax tablet
+papyrus
+frigidarium
+tepidarium
+caldarium
+palaestra
+amphitheatre
+Colosseum
+Circus Maximus
+ludus
+gladiators
+charioteers
+Horace's Satires
+Juvenal's Satire 3
+Petronius' Satyricon
+Dinner with Trimalchio
+Pliny's letters
+material culture
+visual culture
+inscriptions
+electoral notices
+survival bias
+representativeness
+AO1
+AO2

@@ -1,0 +1,63 @@
+# STT vocabulary hints for Fieldwork Geographical Skills Nea (A-level Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+NEA
+Non-Examination Assessment
+A-level
+Pearson Edexcel
+Independent Investigation
+fieldwork
+geospatial technologies
+GIS
+geo-located data
+geo-referencing
+stratified sampling
+systematic transect
+quota sampling
+transect temperature readings
+Spearman’s rank
+t-test
+chi-squared test
+descriptive statistics
+measures of dispersion
+mean
+median
+mode
+scatterplot
+line of best fit
+hydrograph
+box plot
+Lorenz curve
+proportional symbols
+size distribution analysis
+beach sediment size
+drift-aligned coast
+geomorphological response
+river channel form
+cross-section diagram
+coastal cell
+river reach
+sampling bias
+measurement error
+metadata
+calibration
+coordinates
+thematic analysis
+coding
+content analysis
+photographic interpretation
+participant observation
+informed consent
+anonymity
+risk assessment
+lone-working protocol
+IMD figures
+urban greening
+pedestrian comfort
+PEEL
+AO1
+AO2
+AO3
+internal standardisation
+external moderation
+declaration

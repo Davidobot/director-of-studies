@@ -1,0 +1,62 @@
+# STT vocabulary hints for Future Of Food Food Security (A-level Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Food security
+Availability
+Access
+Utilisation
+Food system
+Agroecology
+Agroforestry
+Conservation agriculture
+Drip irrigation
+Irrigation
+Soil salinisation
+El Niño
+Suez Canal
+Trade chokepoint
+Land grabbing
+Land acquisitions
+Land tenure
+Agribusiness
+Multinational food companies
+Supermarket chains
+World Trade Organization
+Multilateral development banks
+Transgenic crops
+Genetic improvement
+Precision agriculture
+Controlled environment agriculture
+Vertical farming
+Sahel
+Israel
+Andean terraces
+Raised fields
+–08 global food price spikes
+Food riots
+Biofuel policies
+Post‑harvest losses
+Storage and transport
+Supply chains
+Value chains
+Market stabilisation
+Water scarcity
+Groundwater depletion
+Deforestation
+Biodiversity loss
+Agrochemicals
+Soil conservation
+Crop diversification
+Undernutrition
+Stunting
+Non‑communicable diseases
+Fair‑trade movements
+Social protection
+Targeted cash transfers
+Malthusian
+Boserup
+Climate hazard
+Vulnerability
+Resilience
+Traditional ecological knowledge
+Emergency food aid

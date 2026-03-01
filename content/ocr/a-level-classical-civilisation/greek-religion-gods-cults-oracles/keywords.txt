@@ -1,0 +1,49 @@
+# STT vocabulary hints for Greek Religion Gods Cults Oracles (A-level Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Greek religion
+Olympian gods
+Zeus Agoraios
+Athena Polias
+hero cults
+Athenian Acropolis
+Delphi
+Temple of Apollo
+Pythia
+Olympia
+Panathenaia
+Panathenaic amphorae
+Parthenon
+Parthenon metope
+votive offerings
+votive anatomical models
+sanctuaries
+Asclepius
+Asclepieia
+abaton
+incubation
+Eleusinian Mysteries
+Eleusinian rites
+Demeter
+Persephone
+divination
+oracle
+oracular utterance
+Dodona
+mantis
+seers
+Herodotus
+Homer
+Hesiod
+Xenophanes
+Socrates
+asebeia
+ritual procession
+libations
+tripods
+dedications
+archaeological assemblages
+H408/31
+OCR
+AO1
+AO2

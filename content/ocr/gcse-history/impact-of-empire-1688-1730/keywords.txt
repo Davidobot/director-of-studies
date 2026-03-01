@@ -1,0 +1,49 @@
+# STT vocabulary hints for Impact Of Empire 1688 1730 (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Glorious Revolution
+Hanoverians
+British Empire
+Nine Years War
+War of the Spanish Succession
+Treaty of Utrecht
+Royal African Company
+Bank of England
+South Sea Bubble
+East India Company
+Bengal
+Liverpool
+Bristol
+London
+Coffee houses
+Plantation economies
+Enslaved labour
+Slave trade
+Slave ports
+Darien
+Darien disaster
+Act of Union 1707
+Jacobite
+Whigs
+Tories
+Mercantile
+Commercial class
+Merchant account books
+Port records
+Shipbuilding
+Maritime industries
+Insurance
+Public finance
+Government debt
+Trading companies
+Company charters
+Ship manifests
+Indentured servants
+Lascars
+Ayahs
+Consumer revolution
+Print and advertising
+Naval power
+Naval bases
+Seamen
+Colonial outposts

@@ -1,0 +1,39 @@
+# STT vocabulary hints for English Reformation 1520 1550 (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+English Reformation
+Henry VIII
+Catherine of Aragon
+Reformation Parliament
+Act in Restraint of Appeals
+Act of Supremacy 1534
+Thomas Cromwell
+Dissolution of the Monasteries
+Valor Ecclesiasticus
+Suppression Acts 1536
+Suppression Acts 1539
+Monastic visitation
+Pilgrimage of Grace
+Lincolnshire Rising
+Robert Aske
+Prayer Book Rebellion
+Book of Common Prayer 1549
+Ten Articles
+Royal injunctions
+Iconoclasm
+Edward VI
+Vernacular preaching
+Chantry records
+Parish registers
+Pluralism
+Absentee clergy
+Sale of indulgences
+Humanist criticism
+Lutheranism
+Commissioners' reports
+Monastic charity
+Monastic lands
+Royal supremacy
+Acts of Parliament
+Protestant theology
+Complaint lists

@@ -1,0 +1,63 @@
+# STT vocabulary hints for Rural Land Degradation And Management (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Amazon basin
+Southeast Asia
+Sahel
+Cairngorms
+Scottish Qualifications Authority
+Deforestation
+Commercial logging
+Cash-crop
+Soya
+Frontier advance
+Tropical rainforest
+Highly weathered tropical soils
+Soil organic matter
+Nutrient cycling
+Sheet erosion
+Rill erosion
+Gully erosion
+Wind erosion
+Soil crusting
+Salinisation
+Leaching
+Sediment load
+Turbidity
+Overgrazing
+Sedentarisation
+Pastoralism
+Rotational grazing
+Stocking rates
+Pastoral corridors
+Contour ploughing
+Contour bunds
+Stone lines
+Check-dams
+Micro-catchments
+Agroforestry
+Afforestation
+Reforestation
+Monocultural plantations
+Green manures
+Reduced tillage
+Mulching
+Water-harvesting
+Erosion pins
+Sediment traps
+Vegetation transects
+Soil pits
+Remote sensing
+GIS
+Payment for ecosystem services
+Farmer-managed natural regeneration
+Community-based natural resource management
+Managed realignment
+Soft engineering
+Agri-environment schemes
+River basin framework
+Carbon sequestration
+Desertification
+Topsoil
+Reservoir capacity
+Mangroves

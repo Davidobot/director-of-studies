@@ -1,0 +1,51 @@
+# STT vocabulary hints for Population Structure Data And Migration (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Qualifications Authority
+SQA
+A-level Geography
+Population structure
+Population pyramid
+Expansive pyramid
+Constrictive pyramid
+Stationary pyramid
+Dependency ratio
+Median age
+Sex ratio
+Crude birth rate
+Crude death rate
+Total fertility rate
+Demographic Transition Model
+Demographic dividend
+Cohort effects
+Baby‑boom cohort
+Urbanisation
+Rural-urban migration
+Internal migration
+International migration
+Forced migration
+Refugees
+Internally displaced persons
+Return migration
+Circulatory migration
+Brain drain
+Remittances
+Civil registration systems
+Sample surveys
+Administrative records
+Satellite imagery
+Undercounting
+Sampling error
+Definitional differences
+Pro-immigration measures
+Family policies
+NHS
+Malawi
+Syria
+Eastern Europe
+EU enlargement
+United Kingdom
+Temporary labour migration
+Informal settlements
+Housing pressure
+Social cohesion

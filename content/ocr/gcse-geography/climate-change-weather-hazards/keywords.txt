@@ -1,0 +1,49 @@
+# STT vocabulary hints for Climate Change Weather Hazards (GCSE Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Climate change
+Greenhouse effect
+Enhanced greenhouse effect
+Greenhouse gases
+Carbon dioxide
+Methane
+Nitrous oxide
+Intertropical Convergence Zone
+Coriolis effect
+Polar cell
+Mid-latitude westerlies
+North Atlantic Drift
+Atlantic depressions
+Tropical storms
+Hurricane
+Typhoon
+Cyclone
+Sea surface temperature
+El Niño Southern Oscillation
+ENSO
+La Niña
+–2016 El Niño
+Coral bleaching
+Great Barrier Reef
+Drought
+Flooding
+Storm Desmond
+Cumbria
+Storm surge
+Floodplain management
+Managed realignment
+Wetland restoration
+River discharge
+Catchment
+Runoff
+Instrumental records
+Proxy sources
+Ice cores
+Tree rings
+Ocean‑atmosphere coupling
+Sea level rise
+Flood risk
+Urbanisation
+Fracking
+Renewable energy
+Synoptic weather patterns

@@ -1,0 +1,60 @@
+# STT vocabulary hints for Germany 1918 1939 Weimar Nazi (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Weimar Republic
+November Revolution
+Kaiser
+Friedrich Ebert
+Ebert–Groener agreement
+Soviet councils
+Spartacist uprising
+Freikorps
+Treaty of Versailles
+war guilt clause
+occupation of the Ruhr
+hyperinflation
+Rentenmark
+Dawes Plan
+Gustav Stresemann
+Erfüllungspolitik
+Locarno Treaties
+League of Nations
+Wall Street Crash
+Heinrich Brüning
+Article 48
+NSDAP
+National Socialist German Workers’ Party
+Reichstag
+von Papen
+Paul von Hindenburg
+Reichstag Fire
+Reichstag Fire Decree
+Enabling Act
+Gleichschaltung
+Länder
+Law for the Restoration of the Professional Civil Service
+SA (Sturmabteilung)
+Night of the Long Knives
+Joseph Goebbels
+Führer
+Volksgemeinschaft
+Nuremberg Laws
+Kinder, Küche, Kirche
+Hjalmar Schacht
+Reichsbank
+New Plan
+Mefo bills
+Hermann Göring
+Four Year Plan
+remilitarisation of the Rhineland
+Anschluss
+Munich Agreement
+Sudetenland
+Confessing Church
+Martin Niemöller
+Gestapo
+SS
+Sonderweg
+intentionalist
+structuralist
+National Socialism

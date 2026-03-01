@@ -1,0 +1,62 @@
+# STT vocabulary hints for Glacial And Coastal Landforms (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+corrie
+nivation
+arête
+pyramidal peak
+tarn
+U-shaped trough
+hanging valley
+ribbon lake
+overdeepening
+firn
+till
+terminal moraine
+lateral moraine
+medial moraine
+drumlin
+drumlin field
+esker
+roches moutonnées
+abrasion
+plucking
+internal deformation
+basal sliding
+warm-based glacier
+cold-based glacier
+meltwater
+longshore drift
+hydraulic action
+attrition
+solution/corrosion
+destructive wave
+fetch
+wave-cut platform
+cave-arch-stack
+tombolo
+ria
+fjord
+isostatic rebound
+eustatic sea-level change
+raised beach
+sediment budget
+groynes
+managed realignment
+GIS
+Buachaille Etive Mòr
+Glencoe
+Cuillin Ridge
+Matterhorn
+Windermere
+Lake District
+Spurn Head
+Humber Estuary
+Holderness cliffs
+Chesil Beach
+Isle of Portland
+St Ninian's Isle
+Jurassic Coast
+Lulworth Cove
+Durdle Door
+Old Harry Rocks

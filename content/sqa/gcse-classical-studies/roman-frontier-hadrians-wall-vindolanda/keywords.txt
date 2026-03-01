@@ -1,0 +1,45 @@
+# STT vocabulary hints for Roman Frontier Hadrians Wall Vindolanda (GCSE Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Hadrian's Wall
+Vindolanda
+Solway Firth
+River Tyne
+Housesteads
+Birdoswald
+Chesters
+Military Way
+Milecastle
+Turret
+Fortlet
+Fort
+Vicus
+Bath-house
+Hypocaust
+Valetudinarium
+Barrack block
+Contubernia
+Principia
+Praetorium
+Auxilia
+Vindolanda Tablets
+Claudia Severa
+Sulpicia Lepidina
+Amphorae
+Sulis Minerva
+Mithraism
+Mithraeum
+Dendrochronology
+Stratigraphy
+Anaerobic preservation
+Waterlogged soil
+Fulleries
+Granaries
+Blacksmith workshop
+Stylus
+Writing tablet
+Supply chains
+Romanisation
+Votive offering
+Votive inscription
+Logistics

@@ -1,0 +1,50 @@
+# STT vocabulary hints for End Of Life Ethics (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+End-of-life ethics
+Assisted dying
+Assisted suicide
+Euthanasia
+Voluntary euthanasia
+Non‑voluntary euthanasia
+Involuntary euthanasia
+Active euthanasia
+Passive euthanasia
+Palliative care
+Palliative sedation
+High‑dose analgesia
+Doctrine of double effect
+Suicide Act 1961
+Scottish common law
+Physician‑assisted dying
+Physician‑administered euthanasia
+Medical Assistance in Dying (MAiD)
+Netherlands
+Belgium
+Switzerland
+Canada
+Capacity assessment
+Advance directives
+Advance care plans
+Withdrawal of treatment
+Refusal of treatment
+Conscientious objection
+Sanctity of life
+Autonomy
+Quality of life
+Non‑maleficence
+Consequentialism
+Utilitarianism
+Natural law
+Deontological ethics
+Kantian ethics
+Virtue ethics
+Safeguards
+Slippery slope
+Vulnerable populations
+Psychiatric cases
+Residency requirements
+Waiting periods
+Independent assessment
+Hospice care
+Social safety nets

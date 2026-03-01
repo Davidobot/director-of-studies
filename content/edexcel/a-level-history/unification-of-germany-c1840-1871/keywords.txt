@@ -1,0 +1,50 @@
+# STT vocabulary hints for Unification Of Germany C1840 1871 (A-level History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Unification of Germany
+Prussia
+Zollverein
+German Confederation
+Congress of Vienna
+Junker
+Kleindeutsch
+Grossdeutsch
+Frankfurt Parliament
+Frederick William IV
+Otto von Bismarck
+Realpolitik
+Albrecht von Roon
+Helmuth von Moltke
+Danish War 1864
+Austro‑Prussian War
+Seven Weeks' War
+Franco‑Prussian War
+Hall of Mirrors
+Versailles
+Wilhelm I
+German Empire
+North German Confederation
+Treaty of Prague
+Dreyse needle‑gun
+Königgrätz
+Sadowa
+Ems Dispatch
+Napoleon III
+Sedan
+Siege of Paris
+Bundesrat
+Reichstag
+Industrialisation
+Railways
+Schleswig
+Holstein
+Rhineland
+Ruhr
+Liberal nationalism
+Constitutionalism
+Parliamentary rights
+General Staff
+Mobilisation
+Bismarckian
+Prussian hegemony
+Italian unification

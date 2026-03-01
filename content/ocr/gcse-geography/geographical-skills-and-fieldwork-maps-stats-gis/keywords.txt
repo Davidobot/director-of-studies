@@ -1,0 +1,63 @@
+# STT vocabulary hints for Geographical Skills And Fieldwork Maps Stats Gis (GCSE Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+OCR J384
+GCSE
+Oxford Cambridge and RSA
+Geography B
+Geographical Exploration
+Our Natural World
+People and Society
+Ordnance Survey
+:50 000
+:25 000
+Choropleth map
+Flow-line map
+Proportional symbol map
+Grid reference
+Contour lines
+Spot heights
+Contour interval
+Gradient
+Cross-section
+Transect
+Slope steepness
+Atlas map
+Thematic map
+Histogram
+Scatter plot
+Line of best fit
+Population pyramid
+Radial diagram
+Rose diagram
+Climate graph
+Mean
+Median
+Mode
+Quartiles
+Inter-quartile range
+Interpolation
+Extrapolation
+Sampling design
+Random sampling
+Systematic transect
+Stratified sampling
+Purposive sampling
+Gravelometer
+Modified Wentworth scale
+Infiltration rate
+Soil pH
+Land-use survey
+Environmental quality assessment
+GIS
+Remote sensing
+Spectral signatures
+Ground-truthing
+Flood hazard map
+Census statistics
+Interfluve
+Mitigation
+Urban sprawl
+SPaG
+Resource Booklet
+Synoptic

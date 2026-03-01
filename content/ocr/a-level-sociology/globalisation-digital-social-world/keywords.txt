@@ -1,0 +1,54 @@
+# STT vocabulary hints for Globalisation Digital Social World (A-level Sociology OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Globalisation
+Digital revolution
+Networked global society
+Media convergence
+Social media
+Virtual communities
+Marxist perspective
+Feminist approaches
+Postmodernism
+Network theory
+Platforms
+Platform labour
+Means of production
+Algorithms
+Algorithmic visibility
+Algorithmic outputs
+Surveillance
+Digital surveillance
+Digital divide
+Digital literacy
+Digital inclusion
+Digital exclusion
+Hybrid identities
+Performativity
+Cultural homogenisation
+Cultural imperialism
+Glocalisation
+Cultural diffusion
+Transnational mobilisation
+Hashtags
+Livestreaming
+Cybercrime
+Online fraud
+Transnational organised networks
+Gig economy
+Micro-entrepreneurship
+Platform-mediated interactions
+Social capital
+Online ethnography
+Virtual interviews
+Network analysis
+Big data
+Platform affordances
+Digital traces
+Consent
+Privacy
+Synoptic
+AO1
+AO2
+AO3
+Global South

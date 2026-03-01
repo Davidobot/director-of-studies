@@ -1,0 +1,44 @@
+# STT vocabulary hints for Uk Eu Relations Brexit Impacts (A-level Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Trade and Cooperation Agreement
+TCA
+Article 50
+Withdrawal Agreement
+Northern Ireland Protocol
+Windsor Framework
+Good Friday Agreement
+European Court of Justice
+European Economic Community
+European Union
+Single market
+Customs union
+Rules of origin
+Non-tariff barriers
+Sanitary and phytosanitary requirements
+SPS
+Passporting
+Points-based immigration system
+Free movement
+City of London
+Devolved administrations
+Holyrood
+Westminster
+Sewel Convention
+Just-in-time manufacturing
+Supply chains
+Financial services
+Data adequacy
+Turing Scheme
+Erasmus
+Foreign direct investment
+Regulatory divergence
+Customs checks
+Zero-tariff commitments
+Net migration
+Scottish independence
+referendum
+Leave
+Remain
+SQA
+Intergovernmental relations

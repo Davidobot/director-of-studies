@@ -1,0 +1,56 @@
+# STT vocabulary hints for Britannia Conquest To Province Ad 43 C 84 (GCSE Ancient History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Britannia
+Roman Britain
+AD 43
+c.84
+AD 60–61
+Claudius
+Aulus Plautius
+Vespasian
+Agricola
+Ostorius Scapula
+Didius Gallus
+Suetonius Paulinus
+Tacitus
+Cassius Dio
+Suetonius
+Camulodunum
+Colchester
+Medway
+Thames
+Catuvellauni
+Cunobelinus
+Atrebates
+Verica
+Cogidubnus
+Fishbourne
+Bath
+Aquae Sulis
+Fosse Way
+Vindolanda
+Vindolanda tablets
+Iceni
+Boudicca
+Prasutagus
+Caratacus
+Venutius
+Brigantes
+Silures
+Londinium
+Verulamium
+Military diplomas
+Colonia
+Romanisation
+Client king
+Fortification
+Villas
+Forums
+Coins
+Inscriptions
+Army logistics
+Casus belli
+Triumphal honours
+Propaganda
+Legate

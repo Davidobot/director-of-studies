@@ -1,0 +1,39 @@
+# STT vocabulary hints for Judicial Precedent And Court Hierarchy (A-level Law WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+England and Wales
+Supreme Court
+Court of Appeal
+Civil Division
+Criminal Division
+High Court
+Divisional courts
+Crown Court
+County Courts
+Magistrates' courts
+Privy Council
+specialist tribunals
+common law system
+stare decisis
+ratio decidendi
+obiter dicta
+binding precedent
+persuasive precedent
+binding authority
+persuasive authority
+material facts
+distinguishing
+reversing
+overruling
+panel of judges
+majority reasoning
+coordinate jurisdiction
+first instance
+appellate courts
+academic commentary
+Balfour-type domestic cases
+contractual intention
+duty of care
+legal certainty
+precedent hierarchy
+statutory amendment

@@ -1,0 +1,54 @@
+# STT vocabulary hints for Family Roles Diversity Social Change (A-level Sociology CIE).
+# One term per line. Used to improve speech recognition quality.
+
+A-level Sociology Cambridge International
+nuclear family
+extended family
+household
+cohabitation
+reconstituted families
+blended families
+lone-parent households
+single-person households
+same-sex partnerships
+families of choice
+functionalism
+Marxism
+Feminism
+liberal feminism
+radical feminism
+Marxist feminism
+New Right
+postmodernism
+individualisation
+conjugal roles
+segregated conjugal roles
+joint/symmetrical roles
+dual-earner households
+domestic labour
+instrumental tasks
+expressive labour
+emotion work
+double burden
+triple shift
+gender pay gap
+gender socialisation
+parity in decision-making
+parental leave
+civil partnerships
+divorce law reform
+welfare regimes
+social policy
+cultural capital
+patriarchy
+role allocation
+life course
+transnational families
+multi-generational households
+ideological control
+labour power
+class inequality
+structure and agency
+AO1
+AO2
+AO3

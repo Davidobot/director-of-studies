@@ -1,0 +1,45 @@
+# STT vocabulary hints for Education Inequality Class Ethnicity Gender (A-level Sociology CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Functionalism
+Marxism
+Correspondence thesis
+Feminist perspectives
+New Right
+Meritocracy
+Meritocratic society
+Social mobility
+Cultural capital
+Hidden curriculum
+Ethnocentric curriculum
+Institutional racism
+Intersectionality
+Stereotype threat
+Flynn effect
+Continuous assessment
+Contextual admissions
+Compensatory education
+Labelling theory
+Setting and streaming
+Pupil subcultures
+Anti-racist curriculum
+Unconscious bias
+Bilingual support
+Free school meals
+Private tuition
+Private schooling
+Selection processes
+Gatekeeping
+Cultural bias
+Material explanations
+Structural explanations
+Life-course approaches
+Interactionism
+Ethnographic studies
+Cultural resistance
+Gendered power relations
+Crisis of masculinity
+STEM
+Assessment Objectives (AO1)
+Assessment Objectives (AO2)
+Assessment Objectives (AO3)

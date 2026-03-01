@@ -1,0 +1,62 @@
+# STT vocabulary hints for Uk Environmental Challenges Floods Energy (GCSE Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+United Kingdom
+North Atlantic Drift
+North Atlantic
+maritime climate
+frontal systems
+intense rainfall
+flash flooding
+surface water flooding
+floodplain
+floodplain restoration
+re-meandering
+upstream storage
+sustainable drainage systems
+SuDS
+flood walls
+embankments
+levees
+storm surge
+river channel straightening
+catchment
+upland catchments
+soil saturation
+hydrograph
+climate graphs
+summer 2007 floods
+UK floods
+Environment Agency
+flood forecasting
+early warning systems
+flood risk management
+reservoirs
+North Sea oil and gas
+North Sea
+offshore wind farms
+offshore wind
+onshore wind
+tidal technology
+wave technology
+nuclear power
+baseload
+fracking
+shale gas
+energy mix
+greenhouse gas emissions
+net zero 2050
+electricity grid
+transmission lines
+battery storage
+smart meters
+energy audit
+biomass
+renewable energy
+climate change
+urban drainage
+river velocity
+flood insurance
+land use
+biodiversity
+catchment management

@@ -1,0 +1,44 @@
+# STT vocabulary hints for Urbanisation And Urban Problems (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Mumbai
+Dharavi
+Rio de Janeiro
+Favela Bairro
+Karachi
+Orangi Pilot Project
+Lagos
+Makoko
+London
+Urbanisation
+Squatter settlements
+Informal settlements
+Slums
+Urban heat island
+Peri-urban
+Land tenure
+Informal employment
+Underemployment
+Natural increase
+Push factors
+Pull factors
+Slum upgrading
+Sanitation networks
+Waste-to-energy
+Green infrastructure
+Transit-oriented development
+Mass transit
+Congestion charging
+Zoning
+Green belts
+Incremental housing
+Microfinance
+Land regulation
+Self-organised communities
+Informal small-scale industry
+Central Business District
+Gated communities
+Floodplains
+Drainage
+Remittances
+Urban land-use model

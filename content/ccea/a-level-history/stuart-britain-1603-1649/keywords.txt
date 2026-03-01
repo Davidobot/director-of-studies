@@ -1,0 +1,51 @@
+# STT vocabulary hints for Stuart Britain 1603 1649 (A-level History CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+James VI
+James I
+Charles I
+Duke of Buckingham
+Thomas Wentworth
+Earl of Strafford
+William Laud
+John Pym
+Prince Rupert
+Sir Thomas Fairfax
+Oliver Cromwell
+New Model Army
+Naseby
+Petition of Right (1628)
+Grand Remonstrance
+Short Parliament
+Long Parliament
+Personal Rule
+Ship money
+Forest fines
+Feudal dues
+Impositions
+Monopolies
+Forced loans
+Billeting
+Star Chamber
+Court of High Commission
+Bishops' Wars
+Solemn League and Covenant
+Irish Rebellion of 1641
+First Civil War
+Second Civil War
+Pride's Purge
+Rump Parliament
+Trial of Charles I
+Regicide
+Commonwealth
+Gunpowder Plot (1605)
+Divine right of kings
+Arminianism
+Puritanism
+Catholic influence
+Patronage
+Royal prerogative
+Public sphere
+Revisionist
+Marxist interpretations
+Capitalist transformations

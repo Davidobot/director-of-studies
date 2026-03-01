@@ -1,0 +1,49 @@
+# STT vocabulary hints for Sampling And Data Collection (GCSE Sociology CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Sampling
+Sampling frame
+Coverage errors
+Random sampling
+Systematic sampling
+Stratified sampling
+Quota sampling
+Snowball sampling
+Probability sampling
+Non-probability sampling
+Purposive sampling
+Convenience sampling
+Participant observation
+Unstructured interviews
+Structured questionnaire
+Focus groups
+Mixed-methods
+Triangulation
+Operationalisation
+Likert scales
+Pilot testing
+Validity
+Reliability
+Representativeness
+Generalisability
+Response rate
+Gatekeepers
+Informed consent
+Confidentiality
+Anonymisation
+Deception
+Positivist
+Interpretivist
+Ethnographic
+Electoral roll
+School register
+Sampling bias
+Selection bias
+Standardised measures
+Statistical techniques
+Social class
+Deviance
+Family involvement
+Digital divide
+Cambridge International
+Paper 1

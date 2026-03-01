@@ -1,0 +1,48 @@
+# STT vocabulary hints for Freedom Of Religious Expression (GCSE Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Freedom of religious expression
+Human rights
+GCSE
+WJEC
+Eduqas
+Great Commission
+Matthew 28:19–20
+Matthew 7:12
+Catholic social teaching
+Catholic teaching
+Guru Tegh Bahadur
+Sikhism
+Kirpan
+Hijab
+Turban
+No compulsion in religion
+Islamic sources
+Jewish thought
+Hinduism
+Buddhist perspectives
+Humanism
+Secularism
+Separation of state and religion
+State neutrality
+Proportionality
+Public order
+Public safety
+Freedom of conscience
+Proselytising
+Interfaith coexistence
+Interfaith initiatives
+Faith schools
+Faith-based agencies
+NGOs
+Universal Declaration of Human Rights
+Human rights instruments
+Persecution
+Forced conversion
+Martyrdom
+Religious liberty
+Religious accommodation
+Place of worship planning
+Face-coverings
+Coercion
+Human dignity

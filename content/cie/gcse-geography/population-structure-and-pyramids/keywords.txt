@@ -1,0 +1,45 @@
+# STT vocabulary hints for Population Structure And Pyramids (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Population structure
+Population pyramid
+Age-sex group
+Five-year cohorts
+Cohort bulge
+Fertility
+Mortality
+Migration
+Gendered migration
+Male out-migration
+Expansive pyramid
+Constrictive pyramid
+Stationary pyramid
+Baby boom
+Epidemics
+Mass migration
+Dependency ratio
+Demographic dividend
+Working-age population
+Young dependents
+Elderly dependents
+Dependency burden
+Ageing population
+Life expectancy
+Female education
+Contraception
+Pronatalist measures
+Antinatalist measures
+Maternal health
+Immunisation
+Sanitation
+Pension funding
+Labour shortages
+Age-friendly housing
+Demographic change
+High-income countries
+Low-income countries
+GCSE Geography Cambridge International
+Niger
+Uganda
+Japan
+Italy

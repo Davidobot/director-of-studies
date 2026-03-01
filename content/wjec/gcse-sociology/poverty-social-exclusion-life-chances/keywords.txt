@@ -1,0 +1,45 @@
+# STT vocabulary hints for Poverty Social Exclusion Life Chances (GCSE Sociology WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Max Weber
+Townsend
+Murray
+Devine
+GCSE
+WJEC
+Eduqas
+absolute poverty
+relative poverty
+material deprivation
+social exclusion
+life chances
+cycle of deprivation
+working poor
+zero-hours contracts
+precarious work
+austerity
+globalisation
+social mobility
+underclass thesis
+feminisation of poverty
+glass ceiling
+intersectionality
+social capital
+occupational status
+progressive taxation
+minimum wage
+social security
+active labour market programmes
+apprenticeships
+benefit sanctions
+digital exclusion
+dark figure
+post-industrial towns
+private schooling
+old boys' network
+culture of poverty
+labour market regulation
+bourgeoisie
+proletariat
+qualitative research
+representativeness

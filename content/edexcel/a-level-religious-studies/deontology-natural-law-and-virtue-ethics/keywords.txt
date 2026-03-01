@@ -1,0 +1,43 @@
+# STT vocabulary hints for Deontology Natural Law And Virtue Ethics (A-level Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Deontology
+Natural law
+Virtue ethics
+Pearson Edexcel
+Immanuel Kant
+Categorical imperative
+Universalisation
+Ends in themselves
+W. D. Ross
+Prima facie duties
+Intuitionist deontology
+Thomas Aquinas
+Aristotelian teleology
+John Finnis
+Basic goods
+Practical reasonableness
+Primary precepts
+Secondary precepts
+Preservation of life
+Euthanasia
+Contraception
+Procreation
+Eudaimonia
+Phronesis
+Golden mean
+Habituation
+Alasdair MacIntyre
+Elizabeth Anscombe
+Philippa Foot
+Moral exemplars
+Consequentialist
+Human flourishing
+Teleological thinking
+Human telos
+Beneficence
+Practical wisdom
+Moral intuitionism
+Moral psychology
+Human dignity
+Moral formation

@@ -1,0 +1,47 @@
+# STT vocabulary hints for Hannibal Second Punic War 218 201 Bc (GCSE Ancient History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Hannibal Barca
+Carthage
+Rome
+Second Punic War
+First Punic War
+Barcids
+Hamilcar Barca
+Hasdrubal Barca
+Saguntum
+Iberia
+Alpine crossing
+War elephants
+Trebia
+Lake Trasimene
+Cannae
+Double envelopment
+Quintus Fabius Maximus
+Cunctator
+Fabian strategy
+Attrition
+Publius Cornelius Scipio
+Scipio Africanus
+Metaurus
+Zama
+Massinissa
+Numidian cavalry
+North Africa
+Carthaginian navy
+Supply lines
+Logistics
+Foraging parties
+Reinforcements from Spain
+Treaty of 201 BC
+Indemnity
+Pro-war faction
+Pro-peace faction
+Polybius
+Livy
+Inscriptions
+Coins
+Battlefield archaeology
+Western Mediterranean
+Strategic avoidance
+Political mobilisation

@@ -1,0 +1,46 @@
+# STT vocabulary hints for Plato Aristotle Reality Forms (A-level Religious Studies OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Plato
+Aristotle
+Socrates
+Academy
+Lyceum
+A-level
+Oxford Cambridge and RSA
+Forms
+Theory of the Forms
+Form of the Good
+Cave analogy
+Epistēmē
+Doxa
+Participation problem
+Third Man objection
+Universals
+Metaphysics
+Epistemology
+Ontology
+Hylomorphism
+Immanent forms
+Transcendent forms
+Matter
+Form (philosophical)
+Substance
+Actuality
+Potentiality
+Four Causes
+Material cause
+Formal cause
+Efficient cause
+Final cause
+Prime Mover
+Unmoved mover
+Teleology
+Natural theology
+Platonic realism
+Aristotelian teleology
+Moral realism
+Divine ideality
+Medieval synthesis
+Participation
+Normativity

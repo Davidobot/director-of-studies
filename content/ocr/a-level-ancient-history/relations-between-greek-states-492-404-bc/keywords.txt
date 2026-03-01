@@ -1,0 +1,50 @@
+# STT vocabulary hints for Relations Between Greek States 492 404 Bc (A-level Ancient History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Mardonius
+Marathon
+Thermopylae
+Salamis
+Plataea
+Darius
+Xerxes
+Persian Wars
+Hellenic League
+Delian League
+Athenian Empire
+Peloponnesian League
+Sparta
+Athens
+helot revolt
+Peloponnese
+First Peloponnesian War
+Peace of 446
+Tanagra
+Megara
+Corinth
+Corcyra
+Potidaea
+Megarian Decrees
+Archidamian War
+Archidamus II
+Pylos
+Sphacteria
+Brasidas
+Peace of Nicias
+Sicilian Expedition
+Alcibiades
+Decelean War
+Decelea
+Persian intervention
+Lysander
+Thucydides
+Herodotus
+Xenophon
+Plutarch
+inscriptions
+coinage
+hoplites
+Aegean
+Attica
+polis
+AO1–AO4

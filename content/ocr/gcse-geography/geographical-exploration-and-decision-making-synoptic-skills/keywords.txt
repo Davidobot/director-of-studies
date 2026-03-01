@@ -1,0 +1,57 @@
+# STT vocabulary hints for Geographical Exploration And Decision Making Synoptic Skills (GCSE Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Geographical Exploration
+Synoptic
+J384/03
+OCR
+Oxford Cambridge and RSA
+GCSE
+Our Natural World
+People and Society
+Decision-Making Exercise
+DME
+Changing Climate
+Resource Reliance
+Urban Futures
+UK in the 21st Century
+Cartographic skills
+Choropleth map
+Flow-line map
+Isoline map
+GIS-style reasoning
+Population pyramid
+Line graph
+Scatter plot
+Measures of central tendency
+Inter-quartile range
+Bivariate data
+Runoff
+Mitigation
+Ecosystem services
+Fieldwork
+Beach profile
+Water quality
+Sediment transport
+Erosion
+Coastal management
+Water resource allocation
+Transnational corporation
+TNC
+Peri-urban wetlands
+Green infrastructure
+Protected areas
+Stakeholders
+Long-term sustainability
+Feasibility
+Sample size
+Bias
+Spatial patterns
+Scale considerations
+Quantitative skills
+Resource Booklet
+SPaG
+AO1
+AO2
+AO3
+AO4

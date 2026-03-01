@@ -1,0 +1,52 @@
+# STT vocabulary hints for Tudor England 1509 1603 (A-level History EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Tudor England
+Henry VIII
+Elizabeth I
+Edward VI
+Mary I
+Thomas Wolsey
+Thomas Cromwell
+Privy Council
+Justices of the Peace
+Dissolution of the Monasteries
+Break with Rome
+Acts of Supremacy
+Acts of Uniformity
+Book of Common Prayer
+Elizabethan Religious Settlement
+English Reformation
+Pilgrimage of Grace
+Northern Earls' Rebellion
+Ridolfi Plot
+Throckmorton Plot
+Babington Plot
+Jesuit missionaries
+Papal plots
+Recusancy
+Puritanism
+Spanish Armada
+Philip of Spain
+Irish wars
+Enclosure
+New draperies
+Cloth trade
+Elizabethan Poor Laws
+Monopolies (1601)
+Patronage
+Royal household
+Factionalism
+Succession crisis
+Population growth
+Inflation
+Printing press
+Shakespeare
+Christopher Marlowe
+Courtly patronage
+Regency
+Minority rule
+Historiography
+AO3
+Paper 1
+Pearson Edexcel

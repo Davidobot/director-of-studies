@@ -1,0 +1,53 @@
+# STT vocabulary hints for Evaluating Sources Reconstructing Perspectives (A-level Global Perspectives & Research CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Cambridge International
+A-level
+Global Perspectives & Research
+Critical Path
+Deconstruction
+Reconstruction
+Reflection
+Component 1
+AO1
+AO2
+AO3
+Research Report
+Team Project
+Essay
+Research log
+Declaration of Authenticity
+Primary source
+Secondary source
+Quantitative
+Qualitative
+Peer-reviewed
+Provenance
+Methodology
+Sample size
+Sampling bias
+Empirical support
+Counter-evidence
+Overgeneralisation
+Cherry-picking
+False cause
+Emotive language
+Causal claims
+Comparative essay
+Source-based
+Bibliography
+Paraphrase
+Citation
+Academic honesty
+Ethical constraints
+Narrated slide deck
+Verbatim transcript
+Live presentation
+Infrastructure costs
+Community displacement
+Sociological studies
+Economic reports
+Provisional nature of knowledge
+Standpoint
+Reflective awareness
+Olympics

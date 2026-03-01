@@ -1,0 +1,51 @@
+# STT vocabulary hints for Revolutions Of 1848 (GCSE History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Congress of Vienna
+Liberalism
+Nationalism
+Industrialisation
+revolutions
+February Revolution in Paris
+July Monarchy
+Second Republic
+Louis-Philippe
+Louis-Napoleon Bonaparte
+Napoleon III
+National workshops
+Universal male suffrage
+June Days
+Five Days of Milan
+Charles Albert
+Sardinia-Piedmont
+Lombardy
+Venetia
+Custoza
+Novara
+Roman Republic (1849)
+Pope Pius IX
+Giuseppe Mazzini
+Giuseppe Garibaldi
+Austrian Empire
+Habsburg monarchy
+Metternich
+Lajos Kossuth
+Russian intervention
+Frankfurt Parliament
+Grossdeutschland
+Kleindeutschland
+Frederick William IV
+Prussia
+Bismarck
+Hungarian revolt
+Conservative monarchs
+Liberal constitutions
+Metternichian diplomacy
+Mass politics
+Italian unification
+German unification
+Bourgeoisie
+Radical socialists
+National self-determination
+coup
+Restoration of conservative order

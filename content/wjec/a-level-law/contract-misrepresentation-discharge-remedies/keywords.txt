@@ -1,0 +1,51 @@
+# STT vocabulary hints for Contract Misrepresentation Discharge Remedies (A-level Law WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+WJEC
+Eduqas
+misrepresentation
+vitiating factor
+voidable
+rescission
+restitutio in integrum
+equitable indemnity
+fraudulent misrepresentation
+negligent misrepresentation
+negligent misstatement
+innocent misrepresentation
+duty of care
+statutory remedies
+damages for deceit
+damages in lieu
+equitable jurisdiction
+economic duress
+duress of goods
+duress to the person
+illegitimate commercial pressure
+anticipatory breach
+repudiation
+frustration
+supervening illegality
+discharge by performance
+entire performance
+divisible obligations
+condition (contract term)
+warranty
+innominate term
+specific performance
+injunction
+rectification
+restitution
+unjust enrichment
+bona fide purchaser for value
+third-party rights
+reliance
+causation
+remoteness
+mitigation
+expectation damages
+consumer protection legislation
+exclusion clauses
+reasonableness test
+restitutionary obligations
+sales puffery

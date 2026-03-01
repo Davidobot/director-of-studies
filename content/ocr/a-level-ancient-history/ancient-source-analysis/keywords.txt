@@ -1,0 +1,45 @@
+# STT vocabulary hints for Ancient Source Analysis (A-level Ancient History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+OCR A Level Ancient History
+AO1
+AO2
+AO3
+AO4
+Herodotus
+Thucydides
+Tacitus
+Suetonius
+Plutarch
+Dio
+Xenophon
+Augustus
+Res Gestae
+Cicero
+Peloponnesian War
+Persian-Greek conflict
+Greek Archaic
+Late Republic
+Julio-Claudians
+Sparta
+Athens
+Acropolis
+Hadrian's Wall
+Helot revolts
+Epigraphy
+Numismatics
+Inscriptional evidence
+Numismatic evidence
+Coinage
+Panegyric
+Epitome
+Provenance
+Transmission
+Survival bias
+Corroboration
+Contradiction
+Material culture
+Source-utility
+Interpretation question
+Rhetorical exaggeration
+Anachronism

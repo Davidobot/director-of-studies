@@ -1,0 +1,55 @@
+# STT vocabulary hints for Crime Deviance And Punishment (GCSE Sociology CIE).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE Sociology
+Cambridge International
+Crime
+Deviance
+Structural inequality
+Cybercrime
+Organised global crime
+Environmental wrongdoing
+Green crime
+Digital surveillance
+Official statistics
+Victim surveys
+Self-report studies
+Triangulation
+Validity
+Reliability
+Representativeness
+Bias
+Moral panics
+Youth sub‑cultures
+Labelling theory
+Strain theory
+Functionalism
+Interactionism
+Marxist theory
+Crimes of the powerful
+Corporate fraud
+White‑collar crime
+Feminist perspectives
+Patriarchal structures
+Postmodernism
+Identity‑based offences
+Late modernity
+Intersectionality
+Institutional racism
+Stop‑and‑search
+Community policing
+Predictive surveillance
+Restorative justice
+Electronic monitoring
+Community sentences
+Incapacitation
+Deterrence
+Rehabilitation
+Retribution
+Reoffending
+Trafficking
+Financial crime
+Miscarriages of justice
+Police brutality
+Diversion schemes
+Social control

@@ -1,0 +1,47 @@
+# STT vocabulary hints for Love Relationships Ethics Poetry (A-level Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Classical Civilisation
+A-level
+Oxford Cambridge and RSA
+Plato
+Ladder of Love
+Form of Beauty
+Theory of Forms
+eros
+pederasty
+homoerotic
+Stoicism
+Seneca
+furor
+pietas
+Sappho
+Sapphic
+lyric fragments
+lyric
+elegy
+Ovid
+Ars Amatoria
+Ars Amatoria Book 3
+Augustan moral reforms
+didacticism
+didactic playfulness
+moral exempla
+rhetorical invective
+mythological exempla
+dialectical argument
+dramatic set pieces
+close reading
+imagery
+metaphor
+direct address
+female agency
+commodification
+civic honour
+lineage
+Republican Rome
+Imperial Rome
+classical Athens
+social order
+self-mastery
+educational pederasty

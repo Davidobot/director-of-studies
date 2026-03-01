@@ -1,0 +1,44 @@
+# STT vocabulary hints for Evaluating Modern Historians Interpretations (A-level Ancient History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+A-level
+Ancient History
+Oxford
+Cambridge
+RSA
+OCR H407
+AO1
+AO2
+AO3
+AO4
+Historiography
+Peloponnesian War
+Athenian imperialism
+Sparta
+Sicilian Expedition
+Augustus
+Republic
+Princeps
+Thucydides
+Herodotus
+Tacitus
+Numismatics
+Epigraphy
+Archaeology
+Mortuary inscriptions
+Coinage
+Literary narratives
+Provenance
+Chronology
+Anachronism
+Socio-economic
+Structuralist
+Revisionist
+Causal chains
+Explanatory power
+Source criticism
+Comparative evidence
+Contingency
+Elite decision-making
+Rhetoric
+Material change

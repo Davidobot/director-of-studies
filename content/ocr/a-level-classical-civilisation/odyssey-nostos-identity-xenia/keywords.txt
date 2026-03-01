@@ -1,0 +1,43 @@
+# STT vocabulary hints for Odyssey Nostos Identity Xenia (A-level Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Odyssey
+Odysseus
+Nostos
+Xenia
+Ithaca
+Phaeacians
+Polyphemus
+Cyclops
+Circe
+Calypso
+Telemachus
+Penelope
+Athena
+Zeus
+Poseidon
+Helios
+Underworld
+Eurycleia
+Metis
+Polymetis
+Polytropos
+Recognition scenes
+Bed test
+Shroud (Penelope)
+Guest‑friendship
+In medias res
+Epithets
+Formulaic phrases
+Similes
+Oral tradition
+Mnemonic formulas
+Hospitality rituals
+Household authority
+Archaic polis
+Late Bronze Age memory
+Phaeacian episodes
+Suitors
+Restoration of household order
+Civic decline
+Narrative voice

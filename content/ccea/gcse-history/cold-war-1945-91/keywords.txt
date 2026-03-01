@@ -1,0 +1,55 @@
+# STT vocabulary hints for Cold War 1945 91 (GCSE History CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Cold War
+Yalta Conference
+Potsdam Conference
+Soviet Union
+United States
+Franklin D. Roosevelt
+Harry S. Truman
+Winston Churchill
+Iron Curtain
+Truman Doctrine
+Containment
+Marshall Plan
+Cominform
+Comecon
+Berlin Blockade
+Berlin Airlift
+NATO
+Warsaw Pact
+Atomic bomb
+Nuclear monopoly
+Arms race
+Satellite states
+Eastern Bloc
+Hungarian Uprising (1956)
+Budapest
+Berlin Wall
+East Germany
+Prague Spring
+Brezhnev Doctrine
+Korean War
+North Korea
+People's Republic of China
+United Nations
+Cuban Missile Crisis
+Fidel Castro
+Turkish missiles
+Domino theory
+Vietnam War
+Détente
+SALT I
+Helsinki Accords
+Soviet invasion of Afghanistan (1979)
+Mikhail Gorbachev
+Perestroika
+Glasnost
+Ronald Reagan
+Fall of the Berlin Wall
+German reunification
+Dissolution of the Soviet Union
+Proxy wars
+Arms control
+DMZ (Korea)

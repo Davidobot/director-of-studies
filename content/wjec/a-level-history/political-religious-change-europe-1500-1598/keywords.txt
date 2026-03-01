@@ -1,0 +1,45 @@
+# STT vocabulary hints for Political Religious Change Europe 1500 1598 (A-level History WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Martin Luther
+Indulgences
+Sola fide
+Sola scriptura
+Printing press
+Peace of Augsburg
+Cuius regio, eius religio
+Charles V
+Habsburgs
+Valois
+Bourbons
+Philip II
+Ferdinand
+Henry VIII
+Elizabethan Settlement
+Spanish Armada
+Council of Trent
+Counter-Reformation
+Jesuits
+Ignatius Loyola
+Inquisition
+Episcopal oversight
+Seminarian education
+John Calvin
+Geneva
+Zwingli
+Zurich
+Anabaptists
+Münster
+Huguenots
+Low Countries
+Spanish Netherlands
+Ottoman Empire
+Suleiman the Magnificent
+Lepanto
+New World bullion
+Inflation
+Confessionalisation
+Consistory courts
+Baroque
+Confessional states
+Italian Wars

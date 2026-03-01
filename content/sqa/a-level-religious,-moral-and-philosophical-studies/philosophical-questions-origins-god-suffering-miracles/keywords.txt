@@ -1,0 +1,47 @@
+# STT vocabulary hints for Philosophical Questions Origins God Suffering Miracles (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Qualifications Authority
+A-level Religious Moral and Philosophical Studies
+Genesis
+Abrahamic tradition
+Hindu cosmology
+Buddhism
+samsara
+Big Bang
+cosmology
+evolution by natural selection
+theistic evolution
+teleology
+teleological argument
+William Paley
+watchmaker analogy
+cosmological argument
+Kalam cosmological argument
+Aquinas
+first mover
+first cause
+contingency
+fine-tuning
+ontological argument
+modal logic
+Hume
+Humean scepticism
+empiricism
+Richard Swinburne
+miracle
+testimony evaluation
+probabilistic treatment
+Augustinian theodicy
+privation of good
+Irenaean theodicy
+soul-making
+process theology
+omnipotent
+omnibenevolent
+omniscient
+moral arguments
+moral objectivity
+divine lawgiver
+structural injustice
+stem-cell research

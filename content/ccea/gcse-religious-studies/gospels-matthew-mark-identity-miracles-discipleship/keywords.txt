@@ -1,0 +1,54 @@
+# STT vocabulary hints for Gospels Matthew Mark Identity Miracles Discipleship (GCSE Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Matthew
+Mark
+GCSE Religious Studies
+Council for the Curriculum, Examinations and Assessment
+CCEA
+Son of God
+Messiah
+Christ
+Son of Man
+Son of David
+Saviour
+Transfiguration
+Baptism
+Sermon on the Mount
+Great Commission
+Kingdom of God
+Messianic secret
+Parable
+Sower
+Weeds
+Workers in the Vineyard
+Wedding Feast
+Mustard Seed
+Growing Seed
+Miracles
+Healings
+Exorcisms
+Nature miracles
+Cleansing of a leper
+Healing of a paralysed man
+Calming of the storm
+Feeding the crowds
+Casting out an evil spirit
+Exorcism in the synagogue
+Jairus' daughter
+Woman with a haemorrhage
+Sabbath controversy
+Peter's confession
+Peter's denial
+Discipleship
+Apprentices
+Itinerant companions
+Markan priority
+Fulfilment citations
+Genealogy
+AO1
+AO2
+Purity laws
+Ritual purity
+Religious leaders
+Gethsemane

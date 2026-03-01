@@ -1,0 +1,58 @@
+# STT vocabulary hints for Rivers Processes Landforms Flooding (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+drainage basin
+drainage divide
+infiltration
+throughflow
+groundwater flow
+overland flow
+discharge
+surface runoff
+hydraulic action
+abrasion
+attrition
+traction
+saltation
+suspension
+turbidity
+delta
+long profile
+V-shaped valley
+interlocking spurs
+waterfall
+undercutting
+gorge
+meander
+slip-off slope
+oxbow lake
+floodplain
+alluvium
+natural levees
+hydrograph
+peak discharge
+lag time
+rising limb
+falling limb
+flashy hydrograph
+drainage density
+convective storm
+snowmelt
+catchment
+impermeable geology
+saturated soils
+tidal surge
+Nile delta
+hard engineering
+soft engineering
+levee
+floodplain zoning
+afforestation
+wetland restoration
+sustainable drainage systems
+permeable paving
+flood forecasting
+early warning system
+Integrated River Basin Management
+cross-sectional area
+velocity

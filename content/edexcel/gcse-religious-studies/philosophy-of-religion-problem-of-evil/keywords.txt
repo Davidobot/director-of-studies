@@ -1,0 +1,54 @@
+# STT vocabulary hints for Philosophy Of Religion Problem Of Evil (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Problem of evil
+Logical problem of evil
+Evidential problem of evil
+Omnipotence
+Omniscience
+Omnibenevolence
+Theodicy
+Free Will Defence
+Augustine
+Soul‑making theodicy
+Irenaeus
+Process theology
+Sceptical theism
+Inscrutability
+Cosmological argument
+Thomas Aquinas
+First Cause
+Unmoved Mover
+Kalam cosmological argument
+Actual infinite
+Necessary being
+Teleological argument
+William Paley
+Fine‑tuning
+Natural selection
+Charles Darwin
+Moral argument
+Immanuel Kant
+Moral realism
+Religious experience
+Miracles
+Lourdes
+David Hume
+Gratuitous suffering
+Book of Job
+Catholic theology
+Protestant theology
+Allah
+Sabr
+Dukkha
+Eightfold Path
+Buddhism
+Alvin Plantinga
+Natural evil
+Moral evil
+Confirmation bias
+Infinite regress
+PEEL
+SPaG
+Theism
+Non‑theism

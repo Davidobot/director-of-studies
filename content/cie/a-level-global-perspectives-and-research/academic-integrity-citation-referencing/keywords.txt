@@ -1,0 +1,46 @@
+# STT vocabulary hints for Academic Integrity Citation Referencing (A-level Global Perspectives & Research CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Global Perspectives & Research
+Cambridge International
+A Level
+Component 1
+Component 2
+Component 4
+Declaration of Authenticity
+Cambridge Research Report
+Team Project
+Critical Path
+provenance
+bibliography
+bibliographic entry
+in-text citation
+parenthetical reference
+footnote
+Harvard
+APA
+Chicago
+DOI
+stable URL
+access date
+direct quotation
+paraphrasing
+synthesis
+plagiarism
+plagiarism-detection
+research log
+research proposal
+research ethics
+informed consent
+anonymity
+vulnerable groups
+interviewee
+original data
+datasets
+reflective paper
+transcripts
+reference manager
+continuous essays
+word count limits (1750–2000)
+research report (5000 words)
+presentation time limit (ten minutes)

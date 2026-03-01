@@ -1,0 +1,63 @@
+# STT vocabulary hints for Glaciated Landscapes (A-level Geography WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Glacier mass balance
+Accumulation
+Ablation
+Sublimation
+Calving
+Quaternary
+Little Ice Age
+Albedo feedback
+Thresholds
+Internal deformation
+Basal sliding
+Subglacial bed deformation
+Cold-based glacier
+Warm-based glacier
+Abrasion
+Plucking
+Striations
+Cirque
+Corrie
+Arête
+Pyramidal peak
+U-shaped valley
+Truncated spur
+Hanging valley
+Snowdonia
+Scottish Highlands
+Alps
+Himalaya
+Andes
+Cwm Idwal
+Ogwen Valley
+Supraglacial
+Englacial
+Subglacial
+Glacial till
+Lodgement till
+Ablation till
+Deformation till
+Moraines
+Drumlin
+Roche moutonnée
+Esker
+Kame
+Varve
+Kettle hole
+Periglacial
+Permafrost
+Ice wedge polygon
+Pingo
+Solifluction terrace
+Blockfield
+Thermokarst
+GLOF
+Moraine dam
+Till fabric analysis
+DEM
+GIS
+GPS
+Fluvioglacial
+Palaeo-ice flow

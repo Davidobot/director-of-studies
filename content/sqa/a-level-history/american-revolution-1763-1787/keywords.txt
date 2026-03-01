@@ -1,0 +1,54 @@
+# STT vocabulary hints for American Revolution 1763 1787 (A-level History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+American Revolution
+Seven Years' War
+Salutary Neglect
+Navigation Acts
+Sugar Act
+Stamp Act
+No Taxation Without Representation
+Boston Massacre
+Intolerable Acts
+Coercive Acts
+Boston Tea Party
+Thomas Paine
+Common Sense
+George Washington
+Continental Congress
+John Adams
+Benjamin Franklin
+Thomas Jefferson
+Declaration of Independence
+Lexington and Concord
+Bunker Hill
+Saratoga
+Valley Forge
+Baron von Steuben
+Continental Army
+French intervention
+French navy
+Spain
+Dutch Republic
+League of Armed Neutrality
+Kings Mountain
+Cowpens
+Yorktown
+Charles Cornwallis
+Treaty of Paris
+Articles of Confederation
+Shays' Rebellion
+Constitutional Convention
+Three-Fifths Compromise
+Bicameral legislature
+Federal judiciary
+Loyalists
+Native American nations
+Enslaved people
+Stamp Act Congress
+Prerogative
+Republicanism
+Transatlantic war
+Guerrilla warfare
+Atlantic world
+Emancipation

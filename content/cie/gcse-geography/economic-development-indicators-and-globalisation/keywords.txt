@@ -1,0 +1,54 @@
+# STT vocabulary hints for Economic Development Indicators And Globalisation (GCSE Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE
+Cambridge International
+Economic development
+GNP per capita
+GNI per capita
+Human Development Index
+HDI
+Infant mortality
+Life expectancy
+Literacy rates
+School enrolment
+Poverty line
+Informal economy
+Exchange rates
+Colonialism
+Human capital
+Urbanisation
+Industrialisation
+Structural change
+Employment structure
+Primary sector
+Secondary industry
+Tertiary sector
+Quaternary sector
+Transnational corporations
+TNCs
+Multinational corporations
+Foreign direct investment
+FDI
+Globalisation
+Global supply chains
+Technology transfer
+Trade barriers
+Transport and communications
+Productivity
+Sustainable development
+Renewable energy
+Reforestation
+Fair trade
+Waste management
+Greenhouse gas emissions
+Biodiversity loss
+Deforestation
+Soil erosion
+Water pollution
+Slums
+Host country
+Headquarters
+Case study
+Mark scheme
+Command words

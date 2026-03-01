@@ -1,0 +1,52 @@
+# STT vocabulary hints for Revelation And Religious Experience (GCSE Religious Studies CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Revelation
+Religious experience
+Scripture
+Bible
+New Testament
+Gospel
+Acts 2
+Pentecost
+Corinthians 12
+Saul/Paul
+Road to Damascus
+Transfiguration
+Resurrection
+Eucharist
+Mass
+Sacrament
+Transubstantiation
+Apostles' Creed
+Tradition
+Sola scriptura
+Biblical inspiration
+Spiritual gifts
+Holy Spirit
+Miracles
+Lourdes
+Pilgrimage miracles
+Exorcism
+Healing miracles
+Feeding the multitudes
+Calming the storm
+Healing of the paralysed man
+Charismatic gifts
+Speaking in tongues
+Prophecy
+Conversion experience
+Mystical experience
+Apparitions
+Revival meetings
+General revelation
+Special revelation
+Natural laws
+David Hume
+Confirmation bias
+Problem of evil
+Ecclesial scrutiny
+Communal validation
+ACTS pattern
+Liturgical worship
+Non‑liturgical worship

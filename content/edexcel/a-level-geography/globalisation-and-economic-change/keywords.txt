@@ -1,0 +1,58 @@
+# STT vocabulary hints for Globalisation And Economic Change (A-level Geography EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+World Trade Organization
+International Monetary Fund
+World Bank
+KOF Globalisation Index
+AT Kearney/Foreign Policy Globalization Index
+Shenzhen
+Guangzhou
+Rust Belt
+North Korea
+China
+India
+Bangalore
+Mumbai
+Salford Quays
+Greater Manchester
+time-space compression
+containerisation
+container shipping
+air freight
+jet travel
+information and communication technologies
+ICT
+transnational corporations
+TNCs
+global value chains
+global production networks
+foreign direct investment
+FDI
+special economic zones
+Open Door policy
+deindustrialisation
+regeneration
+rebranding
+science parks
+technology clusters
+Human Development Index
+Gini coefficient
+Lorenz curve
+remittances
+megacity
+urbanisation
+industrialisation
+corporate social responsibility
+sustainability reporting
+transition towns
+local sourcing
+managed integration
+protectionism
+liberalisation
+global shift
+spatial inequality
+resource security
+environmental degradation
+outsourcing
+service sector

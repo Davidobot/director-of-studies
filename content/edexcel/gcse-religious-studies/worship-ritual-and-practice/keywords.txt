@@ -1,0 +1,63 @@
+# STT vocabulary hints for Worship Ritual And Practice (GCSE Religious Studies EDEXCEL).
+# One term per line. Used to improve speech recognition quality.
+
+Pearson Edexcel
+Catholic
+Anglican
+Eucharist
+Communion
+Pentecostal
+Protestant
+salah
+Qur'anic recitation
+samatha
+vipassana
+puja
+darshan
+bhajan
+kirtan
+baptism
+Amrit
+brit milah
+Bar Mitzvah
+Ark
+Torah scroll
+mihrab
+Guru Granth Sahib
+rosary
+mala beads
+menorah
+Om
+lotus
+saptapadi
+nikah
+atman
+moksha
+Hajj
+Mecca
+Lourdes
+Walsingham
+Ganges
+Varanasi
+Bodh Gaya
+Easter
+Ramadan
+Eid
+Diwali
+Vaisakhi
+Pesach
+Wesak
+Stations of the Cross
+sewa
+zakah
+tzedakah
+Catholic Social Teaching
+Liberation theology
+engaged Buddhism
+Sunni
+Shi'a
+Brahman
+sacralisation
+liturgy
+sacrament
+pilgrimage

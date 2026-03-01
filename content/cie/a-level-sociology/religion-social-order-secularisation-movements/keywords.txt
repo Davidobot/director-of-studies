@@ -1,0 +1,57 @@
+# STT vocabulary hints for Religion Social Order Secularisation Movements (A-level Sociology CIE).
+# One term per line. Used to improve speech recognition quality.
+
+A-level Sociology Cambridge International
+religiosity
+substantive approaches
+functional approaches
+social constructionist
+affiliation
+private spirituality
+social desirability bias
+cross-national comparability
+nominal affiliation
+functionalism
+Durkheim
+collective effervescence
+anomie
+funerary rites
+civil religion
+Marxist
+superstructure
+economic base
+neo-Marxist
+Max Weber
+Protestant ethic
+Calvinism
+asceticism
+liberation theology
+Evangelical movements
+Iranian Revolution 1979
+secularisation thesis
+modernisation
+rationalisation
+industrialisation
+religious market theory
+multiple modernities
+differentiation
+privatisation
+religious pluralism
+Pentecostalism
+Global South
+feminism
+patriarchy
+women's ordination
+New Religious Movements
+New Age spirituality
+fundamentalism
+cultural defence
+cultural transition
+marginality
+transnational religious networks
+globalisation
+spiritual shopping
+post-modernity
+AO1
+AO2
+AO3

@@ -1,0 +1,45 @@
+# STT vocabulary hints for Life In Nazi Germany 1933 45 (GCSE History CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Adolf Hitler
+Führer
+Reichstag fire
+Enabling Act
+Gleichschaltung
+SA (Sturmabteilung)
+Ernst Röhm
+Night of the Long Knives
+Paul von Hindenburg
+Heinrich Himmler
+SS (Schutzstaffel)
+Gestapo
+Concentration camps
+Joseph Goebbels
+Ministry of Propaganda
+Nuremberg Laws
+Kristallnacht
+Boycott of Jewish businesses
+Einsatzgruppen
+Ghettos
+Death camps
+Final Solution
+Holocaust
+Deutsche Arbeitsfront
+Kraft durch Freude
+Schönheit der Arbeit
+Kinder, Küche, Kirche
+Hitler Youth
+League of German Girls
+Martin Niemöller
+Swing Youth
+Edelweiss Pirates
+Autobahn construction
+Conscription
+Rearmament
+Rationing
+Forced labour
+Sterilisation laws
+Weimar years
+Total war
+Allied bombing
+July Plot

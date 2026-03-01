@@ -1,0 +1,50 @@
+# STT vocabulary hints for Morality Environment Global Issues (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Qualifications Authority
+SQA
+Morality
+Environmental ethics
+Climate change
+Climate justice
+Paris Agreement
+World Trade Organization
+Rawlsian theory
+Kantian
+Utilitarianism
+Peter Singer
+Solidarity
+Subsidiarity
+Zakat
+Sadaqah
+Tzedakah
+Seva
+Vand chhakna
+Papal teaching
+Ecological conversion
+Stewardship
+Common but differentiated responsibilities
+Intergenerational justice
+Resource curse
+Circular economy
+Biodiversity
+Biodiversity loss
+Deep ecology
+Anthropocentric ethics
+Biocentric
+Ecocentric
+Carbon pricing
+Emissions trading
+Climate finance
+Fair trade
+Ethical certification
+Intellectual property rules
+Debt relief
+Overfishing
+Deforestation
+Palm oil expansion
+Small island states
+Bangladesh
+West Africa
+Indigenous spiritualities
+Sustainable development

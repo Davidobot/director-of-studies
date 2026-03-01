@@ -1,0 +1,59 @@
+# STT vocabulary hints for Exploring Oceans Systems Resources (A-level Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+thermohaline circulation
+global conveyor belt
+Gulf Stream
+North Atlantic
+El Niño-Southern Oscillation
+gyres
+Coriolis effect
+continental shelf
+continental slope
+abyssal plain
+mid-ocean ridge
+ocean trench
+subduction zones
+salinity
+sea surface temperature
+Exclusive Economic Zone
+EEZ
+territorial waters
+contiguous zone
+United Nations Convention on the Law of the Sea
+UNCLOS
+high seas
+Commission for the Conservation of Antarctic Marine Living Resources
+CCAMLR
+Marine Protected Areas
+MPAs
+Deepwater Horizon spill
+offshore hydrocarbons
+offshore wind
+tidal barrage
+wave energy devices
+seabed mining
+polymetallic nodules
+cobalt-rich crusts
+rare earth elements
+eutrophication
+hypoxic dead zones
+ocean acidification
+carbonate ions
+calcifying organisms
+coral bleaching
+Great Barrier Reef
+North Pacific garbage patch
+microplastics
+persistent organic pollutants
+bioaccumulation
+Maldives
+Tuvalu
+Newfoundland
+northern cod collapse
+piracy
+Arctic geopolitics
+cryosphere
+phenology
+ecosystem-based management
+marine productivity

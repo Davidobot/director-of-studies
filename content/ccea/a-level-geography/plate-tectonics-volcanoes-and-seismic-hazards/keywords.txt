@@ -1,0 +1,63 @@
+# STT vocabulary hints for Plate Tectonics Volcanoes And Seismic Hazards (A-level Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Plate tectonics
+Lithosphere
+Mantle upwelling
+Mid-ocean ridge
+Rift valley
+Constructive margin
+Destructive margin
+Collision margin
+Conservative margin
+Subduction
+Deep-sea trench
+Volcanic arc
+Island arc
+Fold mountain belt
+Himalayas
+San Andreas
+Strike-slip fault
+Elastic rebound
+Magmatism
+Crustal deformation
+Mantle plume
+Hotspot
+Hawaiian chain
+Basaltic magma
+Andesitic magma
+Rhyolitic magma
+Effusive eruption
+Explosive eruption
+Shield volcano
+Composite cone
+Stratovolcano
+Caldera
+Tephra
+Ashfall
+Pyroclastic flow
+Lahar
+Sulphur aerosols
+P-waves
+S-waves
+Surface waves
+Magnitude
+Intensity
+Focal depth
+Megathrust earthquake
+Tohoku 2011
+Tsunami
+Tsunami warning system
+Liquefaction
+Landslides
+InSAR
+GPS
+Seismic networks
+Seismic gap theory
+Strain accumulation
+Probabilistic forecasting
+Hazard mapping
+Exclusion zone
+Pinatubo 1991
+Montserrat 1995
+Haiti 2010

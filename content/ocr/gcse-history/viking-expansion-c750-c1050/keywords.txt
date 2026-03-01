@@ -1,0 +1,48 @@
+# STT vocabulary hints for Viking Expansion C750 C1050 (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Viking Expansion
+Norse
+Scandinavia
+Longship
+Thing
+Odin
+Thor
+Rus
+Volga route
+Varangian Guard
+Constantinople
+Staraya Ladoga
+Novgorod
+Arab silver dirhams
+Byzantine Empire
+Baltic
+Black Sea
+Caspian
+Lindisfarne (793)
+Great Heathen Army (865)
+Jorvik
+York
+Normandy
+Iceland
+Greenland
+Vinland
+Old Norse
+Norse sagas
+Harald Bluetooth
+Jelling
+Svein Forkbeard
+Cnut the Great
+Anglo-Scandinavian empire
+Anglo-Saxon Chronicle
+Oseberg
+Gokstad
+Ship burial
+Runic inscriptions
+Isotopic analyses
+Hoards
+Amber
+Furs
+Slaves
+Earldoms
+Seamanship

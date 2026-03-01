@@ -1,0 +1,56 @@
+# STT vocabulary hints for Persian Empire 559 465 Bc (GCSE Ancient History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Achaemenid
+Cyrus II
+Cyrus the Great
+Cambyses II
+Darius I
+Xerxes I
+Bardiya
+Gaumata
+Smerdis
+Pasargadae
+Persepolis
+Susa
+Babylon
+Media
+Lydia
+Egypt
+Anatolia
+Asia Minor
+Aegean
+Ionian Revolt
+Battle of Marathon
+Thermopylae
+Battle of Salamis
+Battle of Eurymedon
+Persian Wars
+Royal Road
+satrapy
+satrap
+couriers
+tribute
+taxation quotas
+Persian fleet
+hoplite
+hoplite tactics
+Persian cavalry
+royal guards
+Zoroastrianism
+royal inscriptions
+reliefs
+monumental architecture
+Nile–Red Sea canal
+long-distance trade
+Herodotus
+Macedon
+multi-ethnic empire
+royal ideology
+subject peoples
+logistics
+provisioning
+bridges
+archaeology
+coins
+pottery

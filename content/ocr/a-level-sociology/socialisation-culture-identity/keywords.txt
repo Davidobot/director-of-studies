@@ -1,0 +1,61 @@
+# STT vocabulary hints for Socialisation Culture Identity (A-level Sociology OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Oxford Cambridge and RSA
+High culture
+Popular culture
+Subculture
+Global culture
+Consumer culture
+Hybridity
+Primary socialisation
+Secondary socialisation
+Agents of socialisation
+Nature/nurture debate
+Social control
+Formal social control
+Informal social control
+Ethnicity
+Nationality
+Gender
+Social class
+Sexuality
+Disability
+Intersectionality
+Hybrid identities
+Nuclear family
+Extended family
+Lone-parent family
+Reconstituted household
+Cohabitation
+Functionalism
+New Right
+Marxism
+Feminism
+Postmodernism
+Domestic division of labour
+Youth subcultures
+Labelling theory
+Moral panic
+Mods
+Punks
+Skinheads
+Grime
+Online gaming communities
+Media representation
+Media effects
+Hypodermic model
+Two-step flow
+Pluralism
+Reflexivity
+Validity
+Reliability
+Sampling
+Operationalisation
+Ethical constraints
+Globalisation
+Digital revolution
+Social media platforms
+Media convergence
+Cultural capital
+Commodification

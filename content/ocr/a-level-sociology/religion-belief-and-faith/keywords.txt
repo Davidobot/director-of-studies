@@ -1,0 +1,63 @@
+# STT vocabulary hints for Religion Belief And Faith (A-level Sociology OCR).
+# One term per line. Used to improve speech recognition quality.
+
+A-level
+Oxford
+Cambridge
+RSA
+religion
+belief
+faith
+sacred
+transcendent
+rituals
+institutions
+churches
+denominations
+sects
+cults
+new religious movements
+NRMs
+New Age movements
+fundamentalism
+charismatic leadership
+vicarious religion
+belonging without believing
+religiosity
+church attendance
+private prayer
+self-identification
+censuses
+large surveys
+social desirability
+structural-functionalism
+collective conscience
+Marxism
+neo-Marxist
+interpretive sociology
+phenomenology
+Weberian
+feminist analysis
+postmodernism
+spiritual bricolage
+secularisation
+differentiation of institutions
+religious revival
+transnational religious networks
+religious market
+religious pluralism
+social cohesion
+social control
+charismatic movements
+gender differences
+ethnicity
+class patterns
+generational decline
+faith-based schools
+religious freedom
+online worship
+globalisation
+assessment objectives
+AO1
+AO2
+AO3

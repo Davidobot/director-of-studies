@@ -1,0 +1,62 @@
+# STT vocabulary hints for Atmosphere And Weather (A-level Geography CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Albedo
+Diurnal energy budget
+Shortwave radiation
+Longwave radiation
+Sensible heat
+Latent heat
+Conduction
+Convection
+Energy budget
+Hadley cell
+Ferrel cell
+Polar cell
+Three-cell model
+Intertropical Convergence Zone
+ITCZ
+Gulf Stream
+Ocean currents
+Sea breeze
+Land–sea breeze
+Mesoscale circulation
+Monsoon
+Monsoon basin
+Orographic uplift
+Frontal lifting
+Convectional precipitation
+Frontal precipitation
+Orographic precipitation
+Condensation nuclei
+Saturation
+Dew point
+Evaporation
+Condensation
+Precipitation
+Supercooled regions
+Hail
+Fog
+Dew
+Cyclone
+Hurricane
+Typhoon
+Mid-latitude depression
+Anticyclone
+Tornado
+El Niño–Southern Oscillation
+ENSO
+Radiative forcing
+Greenhouse gases
+Carbon dioxide
+Methane
+Nitrous oxide
+Thermal expansion
+Sea-level rise
+Urban heat island
+Urban greening
+Impervious surfaces
+Aerosol
+Urban-induced convection
+Storm surge
+Valley winds

@@ -1,0 +1,48 @@
+# STT vocabulary hints for Decision Making Case Studies And Synoptic Skills (A-level Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Decision‑making
+Synoptic
+A2
+AS
+A‑level Geography
+Council for the Curriculum, Examinations and Assessment
+Resource booklet
+AO1
+AO2
+AO3
+Somerset Levels
+South Devon
+Dorset
+Kiribati
+Pakistan floods
+Mallorca
+Costa Rica
+Managed retreat
+Managed realignment
+Sediment budget
+Sediment cells
+Coastal erosion
+Shoreline management
+Hard engineering
+Soft engineering
+Channelisation
+Washlands
+Afforestation
+Flood dynamics
+Coastal management
+Land‑use planning
+Sustainable development
+Environmental impact assessment
+Stakeholder
+Honeypot sites
+Local economic leakage
+Disaster resilience
+Community‑led adaptation
+Mitigation
+Adaptation strategies
+Implementation plan
+Trade‑offs
+Quantitative data
+Per capita
+Quality of written communication

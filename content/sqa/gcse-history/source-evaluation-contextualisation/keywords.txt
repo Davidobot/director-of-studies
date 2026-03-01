@@ -1,0 +1,57 @@
+# STT vocabulary hints for Source Evaluation Contextualisation (GCSE History SQA).
+# One term per line. Used to improve speech recognition quality.
+
+National 5
+GCSE
+Scottish Qualifications Authority
+SQA
+National 5 assignment
+History Resource Sheet
+source evaluation
+contextualisation
+provenance
+authorship
+primary source
+secondary source
+contemporaneous
+hindsight
+bias
+reliability
+usefulness
+corroboration
+internal consistency
+omission
+distracters
+audience
+purpose
+timing
+propaganda
+assessment conditions
+research stage
+production stage
+notional period
+banked paragraphs
+point-by-point comparison
+comparative judgement
+triangular trade
+enslaved narrative
+Darien disaster
+Treaty of Union
+Alien Act
+Robert Bruce
+Scottish noble
+Bannockburn
+Reformation
+Industrial Revolution
+industrialisation
+World Wars
+th-century dictatorships
+factory inspector
+British merchant
+memoirs
+diaries
+statistical tables
+official documents
+newspaper reports
+letters
+speeches

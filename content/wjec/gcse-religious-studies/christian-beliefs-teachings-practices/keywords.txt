@@ -1,0 +1,58 @@
+# STT vocabulary hints for Christian Beliefs Teachings Practices (GCSE Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Trinity
+Incarnation
+Imago Dei
+Creation ex nihilo
+Omnipotence
+Omniscience
+Omnibenevolence
+Omnipresence
+Jesus of Nazareth
+Messiah
+Crucifixion
+Resurrection
+Ascension
+Atonement
+Kingdom of God
+Good Samaritan
+Agape
+Eucharist
+Holy Communion
+Transubstantiation
+Baptism
+Believers' baptism
+Infant baptism
+Last Supper
+Bible
+Apostles' Creed
+Nicene Creed
+Magisterium
+Catechism
+Papal encyclical
+Roman Catholicism
+Protestant
+Anglican
+Baptist
+Methodist
+Orthodox
+Sola scriptura
+Theodicy
+Augustinian theodicy
+Irenaean theodicy
+Soul-making
+Purgatory
+Natural Law
+Thomas Aquinas
+Christian Aid
+CAFOD
+Preferential Option for the Poor
+Lourdes
+St Peter's Basilica
+Taizé
+St David's
+Sacraments
+Confirmation
+Liturgy
+Pilgrimage

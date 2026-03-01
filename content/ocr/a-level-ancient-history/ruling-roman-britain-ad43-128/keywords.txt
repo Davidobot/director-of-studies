@@ -1,0 +1,52 @@
+# STT vocabulary hints for Ruling Roman Britain Ad43 128 (A-level Ancient History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Roman Britain
+Claudian invasion
+Claudius
+Aulus Plautius
+Tacitus
+Annals
+Agricola
+Dio Cassius
+Suetonius
+Fishbourne Palace
+Vindolanda tablets
+Ostorius Scapula
+Caratacus
+Catuvellauni
+Boudiccan Revolt
+Boudicca
+Iceni
+Colchester
+Londinium
+Verulamium
+Gaius Suetonius Paulinus
+Cartimandua
+Brigantes
+Venutius
+Calgacus
+Prasutagus
+Cogidubnus
+Romanisation
+coloniae
+municipia
+civitates
+vici
+Hadrian
+Hadrian's Wall
+Stanegate system
+Mons Graupius
+Domitian
+milecastles
+forts
+legions
+procurator
+military diplomas
+inscriptions
+coinage
+epigraphy
+numismatics
+villas
+military roads
+temporary camps

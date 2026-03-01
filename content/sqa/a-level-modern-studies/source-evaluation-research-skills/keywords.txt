@@ -1,0 +1,45 @@
+# STT vocabulary hints for Source Evaluation Research Skills (A-level Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+A-level Modern Studies
+Higher Modern Studies
+Scottish Qualifications Authority
+SQA
+source evaluation
+provenance
+reliability
+validity
+currency
+methodology
+methodological transparency
+expertise
+statistical office
+Office for National Statistics
+infographic
+pressure-group material
+party campaign poster
+academic commentary
+peer review
+primary source
+secondary source
+sample size
+sampling bias
+response rate
+margin of error
+statistical release
+raw tables
+truncated axes
+graphical misrepresentation
+newspaper leader
+emotive language
+evaluative judgement
+synthesise
+triangulation
+research sheet
+controlled production
+production of evidence
+assessor
+extended-response question
+source-based question
+assignment
+timed production

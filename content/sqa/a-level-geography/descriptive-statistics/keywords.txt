@@ -1,0 +1,59 @@
+# STT vocabulary hints for Descriptive Statistics (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Descriptive statistics
+Advanced Higher
+Scottish Qualifications Authority
+A-level Geography
+Nominal data
+Ordinal data
+Interval data
+Ratio data
+Mean
+Median
+Mode
+Range
+Interquartile range (IQR)
+Standard deviation
+Standard error of the mean
+Coefficient of variation
+Histogram
+Frequency polygon
+Boxplot
+Scattergraph
+Polar graph
+Rose diagram
+Kite diagram
+Dispersion diagram
+Transect
+Pebble size distribution
+Boulder
+Cobble
+Choropleth map
+Modifiable areal unit problem (MAUP)
+Proportional symbol map
+Isoline map
+Flow-line map
+Ordnance Survey (OS) map
+Cross-section graph
+Spearman's rank correlation coefficient
+Pearson product-moment correlation
+Linear regression
+Residuals
+Chi-squared analysis
+Nearest neighbour analysis
+Spatial statistic
+One-tailed test
+Two-tailed test
+Statistical significance
+Ecological fallacy
+Confounding variable
+Microclimate
+Metadata
+Triangulation
+Stratified sampling
+Random sampling
+Regular sampling
+Systematic bias
+Sample size
+Outlier

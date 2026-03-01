@@ -1,0 +1,50 @@
+# STT vocabulary hints for Resource Reliance And Food Security (GCSE Geography OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Green Revolution
+Thomas Malthus
+Ester Boserup
+World Hunger Index
+Food security
+Food balance sheet
+Availability
+Access
+Utilization
+Stability
+Undernourishment rates
+High-yielding varieties
+Genetically modified (GM) crops
+Precision agriculture
+Hydroponics
+Urban vertical farms
+Agroecology
+Conservation agriculture
+Permaculture
+Water-energy-food nexus
+Biofuel expansion
+Soil salinisation
+Soil erosion
+Biodiversity loss
+Natural capital
+Carbon sinks
+Overfishing
+Commercial fishing
+Irrigation
+Mechanisation
+Inter-basin water transfer
+Reservoirs
+Water stress
+Soil fertility
+Fertilisers
+Pesticides
+Food deserts
+Food miles
+Community food banks
+Fair trade
+Food waste audit
+Population pyramids
+GIS
+Food imports
+Price spikes
+Crop yield
+Agricultural intensification

@@ -1,0 +1,49 @@
+# STT vocabulary hints for Buddhism Three Marks Eightfold Path Meditation (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Anicca
+Anatta
+Dukkha
+Tanha
+Lobha
+Dosa
+Moha
+Three Root Poisons
+Kamma
+Karma
+Samsara
+Nibbana
+Nirvana
+Noble Eightfold Path
+Paññā
+Sīla
+Samādhi
+Right View
+Right Intention
+Right Speech
+Right Action
+Right Livelihood
+Right Effort
+Right Mindfulness
+Right Concentration
+Jhana
+Jhanas
+Five Precepts
+Sangha
+Three Jewels
+Buddha
+Dhamma
+Mettā
+Metta
+Samatha
+Vipassana
+Satipaṭṭhāna
+Satipatthana
+Pali Canon
+Dhammapada
+Theravāda
+Mahāyāna
+Burmese satipaṭṭhāna tradition
+Mindfulness movement
+Four Noble Truths
+Three Marks of Existence

@@ -1,0 +1,40 @@
+# STT vocabulary hints for Sikhism Guru Granth Sewa (GCSE Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Sikhism
+Guru Nanak
+Gurus
+Guru Granth Sahib
+Guru Gobind Singh
+Guru Arjan
+Adi Granth
+Khalsa
+Five Ks
+Gurmukhi
+Ragas
+Shabads
+Bhagats
+Gurdwara
+Langar
+Sangat
+Palki
+Kirtan
+Hukam
+Hukamnama
+Simran
+Naam Japna
+Kirat Karni
+Vand Chhakna
+Sewa
+Physical sewa
+Material sewa
+Spiritual sewa
+Haumai
+Maya
+Jivan Mukti
+Ik Onkar
+Founding of the Khalsa (1699)
+Guru Gobind Singh's declaration (1708)
+Guru Arjan's compilation (1604)
+GCSE
+SQA

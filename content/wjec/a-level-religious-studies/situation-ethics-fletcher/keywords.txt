@@ -1,0 +1,44 @@
+# STT vocabulary hints for Situation Ethics Fletcher (A-level Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Joseph Fletcher
+Situation Ethics
+agape
+WJEC
+Eduqas
+Good Samaritan
+Luke 10:25–37
+Corinthians 13
+Paul
+Jesus
+Situation Ethics (1966)
+Bernard Hoose
+proportionalism
+Natural Law
+teleological
+consequentialist
+positivism
+personalism
+pragmatism
+relativism
+antinomianism
+legalism
+moral imagination
+intrinsic good
+telos
+utilitarianism
+deontological
+emotivism
+subjectivism
+conscience
+pastoral care
+pluralism
+polyamory
+homosexuality
+biomedical ethics
+working principles
+fundamental propositions
+moral agent
+A-level
+AO1
+AO2

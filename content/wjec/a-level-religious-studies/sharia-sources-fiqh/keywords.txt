@@ -1,0 +1,58 @@
+# STT vocabulary hints for Sharia Sources Fiqh (A-level Religious Studies WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Shari'a
+Sharia
+fiqh
+usul al-fiqh
+usul
+madhahib
+Hanafi
+Maliki
+Shafi'i
+Hanbali
+Ja'fari
+Abu Hanifa
+al-Shafi'i
+Ahmad ibn Hanbal
+Imam
+Qur'an
+Quran
+Sunnah
+hadith
+Sahih al-Bukhari
+Sahih Muslim
+isnad
+sahih
+hasan
+da'if
+naskh
+ijma
+qiyas
+ʿillah
+istihsan
+maslaha
+ʿurf
+maqasid al-shari'a
+maqasid
+al-Shatibi
+ijtihad
+taqlid
+mujtahid
+mufti
+fatwa
+furuʿ
+darura
+hudud
+riba
+Islamic finance
+profit-and-loss sharing
+organ donation
+IVF
+Sharia councils
+Sharia tribunals
+Iran
+Saudi Arabia
+Medina
+legal pluralism
+personal law

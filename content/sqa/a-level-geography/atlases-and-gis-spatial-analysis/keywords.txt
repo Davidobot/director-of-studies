@@ -1,0 +1,55 @@
+# STT vocabulary hints for Atlases And Gis Spatial Analysis (A-level Geography SQA).
+# One term per line. Used to improve speech recognition quality.
+
+GIS
+Geographical Information Systems
+Atlas
+Advanced Higher
+Scottish Qualifications Authority
+SQA
+SCQF level 7
+Ordnance Survey National Grid
+OSGB36
+British National Grid
+WGS84
+GPS
+:25,000 OS Explorer
+Coordinate Reference System
+CRS
+Datum
+Vector data
+Raster data
+DEM
+Hillshade
+Slope
+Aspect
+Overlay analysis
+Buffering
+Interpolation
+Inverse distance weighting
+Kriging
+Kernel density
+Hotspot analysis
+Spatial autocorrelation
+Nearest neighbour
+Spatial joins
+Zonal statistics
+Choropleth
+Natural breaks (Jenks)
+Quantile classification
+Equal-interval classification
+Proportionate symbol
+Isoline maps
+Flow maps
+Spearman’s rank
+Pearson’s product-moment
+Scatterplot
+Regression
+Transect
+Cross-section
+Ground-truthing
+Metadata
+Land-cover map
+Census-derived population density
+Electoral wards
+Service areas

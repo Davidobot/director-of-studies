@@ -1,0 +1,41 @@
+# STT vocabulary hints for Roman Republic Institutions Provincial Administration (A-level Classical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Roman Republic
+cursus honorum
+magistrates
+quaestors
+aediles
+praetors
+consuls
+censors
+tribunes of the plebs
+sacrosanct
+dictator
+imperium
+promagistrates
+proconsul
+propraetor
+auspices
+Senate
+senatus consulta
+comitia centuriata
+comitia tributa
+concilium plebis
+plebiscites
+patron–client
+publicani
+tax farming
+repetundae
+provincia
+Romanisation
+client kingdoms
+Gallic campaigns
+Julius Caesar
+legions
+municipia
+coloniae
+equites
+patrician
+plebeian
+provincial commands

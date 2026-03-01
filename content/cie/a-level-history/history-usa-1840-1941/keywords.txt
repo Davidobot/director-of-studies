@@ -1,0 +1,59 @@
+# STT vocabulary hints for History Usa 1840 1941 (A-level History CIE).
+# One term per line. Used to improve speech recognition quality.
+
+Manifest Destiny
+Mexican–American War
+Treaty of Guadalupe Hidalgo
+Alaska Purchase
+Annexation of Hawaii
+Spanish–American War
+Philippines
+Puerto Rico
+Open Door policy
+Panama Canal
+Missouri Compromise
+Compromise of 1850
+Fugitive Slave Act
+Kansas–Nebraska Act
+Popular sovereignty
+Dred Scott decision
+John Brown
+Harpers Ferry
+Republican Party
+Confederacy
+Emancipation Proclamation
+Reconstruction
+Radical Republicans
+th Amendment
+Black Codes
+Compromise of 1877
+Gilded Age
+Carnegie Steel
+Standard Oil
+Haymarket affair
+Homestead Strike
+Pullman Strike
+Populist movement
+Progressivism
+Muckrakers
+Theodore Roosevelt
+Trust-busting
+Woodrow Wilson
+Federal Reserve
+Clayton Antitrust Act
+World War I
+Unrestricted submarine warfare
+Zimmermann Telegram
+Fourteen Points
+League of Nations
+Treaty of Versailles
+Isolationism
+Roosevelt Corollary
+Neutrality Acts
+Wall Street Crash of 1929
+Great Depression
+Franklin D. Roosevelt
+New Deal
+Second New Deal
+Social Security
+Sherman Antitrust Act

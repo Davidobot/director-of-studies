@@ -1,0 +1,48 @@
+# STT vocabulary hints for Source Based Analysis Evaluation (A-level Religious, Moral and Philosophical Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+Scottish Qualifications Authority
+Advanced Higher RMPS
+Religious, Moral and Philosophical Studies
+unseen source
+source-based skills
+cosmological argument
+a posteriori
+contingent being
+necessary being
+teleological argument
+design argument
+teleological analogy
+Paley's watch analogy
+fine-tuning
+inference to the best explanation
+classical theism
+numinous
+sanctity of life
+assisted dying
+voluntary euthanasia
+non-voluntary euthanasia
+organ procurement
+beginning-of-life interventions
+religious experience
+mystical experience
+meditative experience
+conversion types
+epistemic justification
+prima facie
+quantum indeterminacy
+neurological explanations
+sociological explanations
+explanatory power
+evidential support
+causation
+Darwinian responses
+David Hume
+Thomas Aquinas
+William Paley
+William James
+Rudolf Otto
+Richard Swinburne
+William Lane Craig
+Bertrand Russell
+Frederick Copleston

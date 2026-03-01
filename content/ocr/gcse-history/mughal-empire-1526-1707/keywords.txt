@@ -1,0 +1,55 @@
+# STT vocabulary hints for Mughal Empire 1526 1707 (GCSE History OCR).
+# One term per line. Used to improve speech recognition quality.
+
+Mughal Empire
+Babur
+First Battle of Panipat
+Panipat
+Humayun
+Sher Shah Suri
+Suri interlude
+Akbar
+Fatehpur Sikri
+mansabdari
+jagir
+Todar Mal
+Sulh-i-kul
+Persianate
+Jahangir
+Nur Jahan
+Shah Jahan
+Shahjahanabad
+Red Fort
+Taj Mahal
+Mumtaz Mahal
+Aurangzeb
+Dara Shikoh
+jizya
+Deccan
+Marathas
+Bijapur
+Golconda
+Agra
+Delhi
+Lahore
+English East India Company
+Portuguese
+Dutch
+Mughal miniature painting
+land revenue
+agrarian economy
+standardised coinage
+road improvements
+revenue reforms
+centralised administration
+provincial governors
+regional powers
+Persian literature
+calligraphy
+carpet-making
+court culture
+Sikhs
+Jains
+European traders
+textiles
+bullion

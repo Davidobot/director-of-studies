@@ -1,0 +1,60 @@
+# STT vocabulary hints for Families Structures Roles And Change (GCSE Sociology CIE).
+# One term per line. Used to improve speech recognition quality.
+
+GCSE Sociology Cambridge International
+kinship
+nuclear family
+extended family
+reconstituted family
+lone-parent family
+empty-nest household
+single-person household
+arranged marriage
+polygamy
+same-sex partnership
+serial monogamy
+chosen family
+shared household
+social class
+ethnicity
+secularisation
+socialisation
+hidden curriculum
+domestic division of labour
+domestic labour
+conjugal roles
+segregated conjugal roles
+joint conjugal roles
+male breadwinner
+dual-earner
+dual burden
+triple shift
+functionalism
+warm bath
+Marxism
+feminism
+intersectionality
+postmodernism
+late modernity
+digital communication
+industrialisation
+urbanisation
+demographic trends
+ageing population
+falling birth rates
+cohabitation
+civil partnership
+divorce law
+remarriage
+transnational families
+globalisation
+migration
+welfare state
+New Right
+parental leave
+childcare provision
+unit of consumption
+life course stages
+household formation
+transnational economic pressures
+media flows

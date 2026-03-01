@@ -1,0 +1,47 @@
+# STT vocabulary hints for Urban Change Land Use Inner City Regeneration (GCSE Geography CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Urban change
+Land use
+Inner city
+Regeneration
+GCSE Geography
+Council for the Curriculum, Examinations and Assessment
+Central Business District (CBD)
+Rural–urban fringe
+Ordnance Survey
+Cross-sectional sketches
+Brownfield land
+Titanic Quarter
+Belfast
+MEDCs
+LEDCs
+Gentrification
+Shanty towns
+Informal settlements
+Informal economy
+Slum upgrading
+Land tenure
+Mixed-use development
+Green infrastructure
+Community land trusts
+Flagship projects
+Waterfront regeneration
+Urbanisation
+Pedestrian flow
+Traffic counts
+Aerial photographs
+Satellite images
+Fieldwork statement
+Primary quantitative data
+Affordable housing
+Sustainability criteria
+Social equity
+Hard engineering
+Soft approaches
+Community-led regeneration
+Road hierarchies
+Land use mapping
+Building density
+Community consultation
+Incremental upgrading

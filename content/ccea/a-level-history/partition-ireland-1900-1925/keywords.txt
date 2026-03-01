@@ -1,0 +1,52 @@
+# STT vocabulary hints for Partition Ireland 1900 1925 (A-level History CCEA).
+# One term per line. Used to improve speech recognition quality.
+
+Partition of Ireland
+Home Rule
+Irish Parliamentary Party
+John Redmond
+Ulster
+Ulster Protestants
+Unionism
+Belfast
+Liberal Party
+Conservative and Unionist alliance
+Parliament Act 1911
+Edwardian period
+Edward Carson
+Ulster Unionist Council
+Ulster Volunteer Force
+Ulster Covenant
+Larne gun‑running
+Belfast gun‑running
+Curragh incident
+Third Home Rule Bill
+Government of Ireland Act 1920
+Southern Ireland
+Northern Ireland
+First World War
+Easter Rising 1916
+Sinn Féin
+Conscription crisis 1918
+December 1918 general election
+Dáil Éireann
+Irish Republic
+Irish Republican Army
+Black and Tans
+Auxiliary Division
+Anglo‑Irish Treaty 1921
+Irish Free State
+Oath of Allegiance
+Sir James Craig
+Stormont
+Boundary Commission
+agreement
+Pro‑Treaty
+Anti‑Treaty
+Irish Civil War 1922–23
+Internment
+Sectarian division
+Economic divergence
+Devolved parliament
+Dominion status
+Home Rule crisis

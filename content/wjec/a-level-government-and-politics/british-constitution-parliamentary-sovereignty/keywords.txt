@@ -1,0 +1,48 @@
+# STT vocabulary hints for British Constitution Parliamentary Sovereignty (A-level Government and Politics WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+Westminster
+Parliament
+House of Commons
+House of Lords
+Prime Minister
+Cabinet
+Civil Service
+Supreme Court
+Senedd Cymru
+Bill of Rights 1689
+Acts of Union
+Parliament Acts 1911
+Parliament Act 1949
+Human Rights Act 1998
+European Communities Act 1972
+EU (Withdrawal) Act 2018
+Article 50
+Prorogation
+Miller judgments
+Jackson (Hunting Act)
+Brexit
+Devolution
+Sewel convention
+Judicial review
+Rule of law
+Ultra vires
+Declaration of incompatibility
+Uncodified constitution
+Codification
+Bills of Rights
+Prerogative powers
+Elective dictatorship
+Popular sovereignty
+Legal sovereignty
+Political sovereignty
+Common law
+Statute law
+Works of constitutional authority
+Government of Wales Acts
+Scotland Act
+Select committees
+Parliamentary scrutiny
+Entrenched judicial review
+Referendums
+International law

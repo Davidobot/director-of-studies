@@ -1,0 +1,58 @@
+# STT vocabulary hints for Us Constitution Federalism Bill Of Rights (A-level Government and Politics WJEC).
+# One term per line. Used to improve speech recognition quality.
+
+United States Constitution
+Bill of Rights
+Federalism
+Separation of Powers
+Checks and Balances
+Commerce Clause
+Necessary and Proper Clause
+Supremacy Clause
+Tenth Amendment
+Article V
+Ratification
+Republicanism
+Enumerated powers
+Implied powers
+McCulloch v. Maryland
+Wickard v. Filburn
+United States v. Lopez
+South Dakota v. Dole
+Dobbs v. Jackson Women's Health Organization
+Marbury v. Madison
+Supreme Court
+Judicial review
+Fourteenth Amendment
+Due Process Clause
+Selective incorporation
+Fiscal federalism
+Cooperative federalism
+Conditional funding
+Federal grants
+Mandates
+Interstate commerce
+Article I
+Article II
+Article III
+Bicameral Congress
+House of Representatives
+Senate
+Commander-in-Chief
+Advice and consent
+Judicial interpretation
+Originalism
+Judicial activism
+Gitlow v. New York
+Obergefell v. Hodges
+Right to privacy
+First Amendment
+Second Amendment
+Free Exercise Clause
+Establishment Clause
+Fourth Amendment
+Unreasonable searches and seizures
+Capital punishment
+Marijuana legalization
+Reproductive privacy
+Minimum drinking age

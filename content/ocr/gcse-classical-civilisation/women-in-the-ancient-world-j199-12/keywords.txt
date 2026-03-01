@@ -1,0 +1,62 @@
+# STT vocabulary hints for Women In The Ancient World J199 12 (GCSE Classical Civilisation OCR).
+# One term per line. Used to improve speech recognition quality.
+
+OCR J199/12
+Women in the Ancient World
+GCSE Classical Civilisation
+Athens
+Republican Rome
+Sparta
+Pompeii
+Helen of Troy
+Lucretia
+Pandora
+Sabine Women
+Tarpeia
+Euripides
+Livy
+Plutarch
+Catullus
+Cicero
+Aristophanes
+Virgil
+Sallust
+Hegeso stele
+House of the Vestal Virgins
+Vestal Virgins
+Pythia
+Flaminica Dialis
+Flamen Dialis
+Thesmophoria
+Panathenaia
+Bona Dea
+Oppian Law
+Laudatio Turiae
+Assemblywomen
+Medea
+Amazons
+Penthesilea
+Camilla
+Cleopatra VII
+Neaira
+Aspasia
+Clodia
+Lesbia
+pornai
+hetairai
+meretrix
+lena
+coemptio
+confarreatio
+usus
+cum manu
+sine manu
+kyria
+matrona
+symposium
+Flight of Medea krater
+Parthenon
+Bassae friezes
+funerary stele
+grave stelai
+frescoes

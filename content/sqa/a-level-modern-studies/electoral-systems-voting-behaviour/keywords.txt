@@ -1,0 +1,54 @@
+# STT vocabulary hints for Electoral Systems Voting Behaviour (A-level Modern Studies SQA).
+# One term per line. Used to improve speech recognition quality.
+
+First Past the Post
+FPTP
+Proportional representation
+PR
+Single Transferable Vote
+STV
+Additional Member System
+AMS
+Duverger’s Law
+Party list system
+Constituency
+Multi-member constituency
+Constituency MSP
+Regional list
+List vote
+Proportionality
+Disproportionality
+Winner-takes-all
+Majoritarian system
+Plurality system
+Coalition government
+Multi-party system
+Two-party system
+Tactical voting
+Class dealignment
+Descriptive representation
+Devolved institutions
+Scottish Parliament
+Holyrood
+Welsh Senedd
+Northern Ireland Assembly
+Scottish Qualifications Authority
+SQA
+Brexit referendum
+Brexit
+Remain
+Leave
+Westminster election
+Electoral College
+United States
+Pressure groups
+Insider organisations
+Outsider groups
+Micro-targeting
+Social media
+Agenda-setting
+Electoral reform
+Question Paper 2
+Research sheet
+Modern Studies
+A-level
