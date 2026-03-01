@@ -5,47 +5,15 @@ Each item includes implementation notes written for an AI coding agent.
 
 ---
 
-## 1. Billing & Payments ❌ (nothing exists)
+## 1. Billing & Payments ✅
 
-### 1.1 Add Stripe integration to the web app
-- Install `stripe` and `@stripe/stripe-js` in `apps/web`
-- Add env vars: `STRIPE_SECRET_KEY`, `STRIPE_PUBLISHABLE_KEY`, `STRIPE_WEBHOOK_SECRET`
-- Create a FastAPI endpoint `POST /billing/create-checkout-session` in `apps/agent/app/main.py` (or a dedicated `billing.py` module) using the Stripe Python SDK
-- Create a FastAPI endpoint `POST /billing/webhook` to handle `checkout.session.completed`, `invoice.payment_failed`, `customer.subscription.deleted` etc.
-- Protect the webhook endpoint with Stripe signature verification (`stripe.Webhook.construct_event`)
-
-### 1.2 Add subscription/billing tables to the DB schema
-- In `apps/web/src/db/schema.ts` add tables:
-  - `billing_customers` — `(id, profileId FK, stripeCustomerId, createdAt)`
-  - `subscriptions` — `(id, profileId FK, stripeSubscriptionId, stripePriceId, status, currentPeriodEnd, cancelAtPeriodEnd, createdAt, updatedAt)`
-  - `plans` — `(id, name, stripePriceId, monthlyMinutes, price)` (seed with free/pro tiers)
-- Run `npm run db:push` in `apps/web` after schema changes, or ideally switch to versioned migrations first (see item 4.1)
-- Mirror these tables in `apps/agent/scripts/bootstrap_db.py` (raw SQL CREATE TABLE IF NOT EXISTS block)
-
-### 1.3 Add usage tracking
-- In `apps/agent/app/main.py`, record session duration (minutes) to a `session_usage` column on the `sessions` table, or log to a separate `usage_events` table
-- Add a Python helper `check_subscription_quota(student_id)` that reads the student's active subscription plan minute allowance and compares to their usage in the current billing period
-- Call the quota check at session create time — return HTTP 402 if over limit
-- Schema: add `durationSeconds integer` to the `sessions` table and populate it at session end inside the existing `POST /api/session/end` handler in `apps/agent/app/main.py`
-
-### 1.4 Add a billing/subscription page in the web UI
-- Create `apps/web/src/app/settings/billing/page.tsx`
-- Fetch the student's current plan from `GET /billing/subscription` (add this Python endpoint)
-- Render current plan, next billing date, and a "Manage subscription" link (Stripe Customer Portal)
-- Add `POST /billing/portal-session` FastAPI endpoint to create a Stripe Customer Portal session and return its URL
-- Add "Billing" to the `AccountMenu` dropdown in `apps/web/src/components/AccountMenu.tsx` (link to `/settings/billing`)
-
-### 1.5 Implement a paywall / free tier
-- Decide on the free tier limit and encode it in the `plans` seed data
-- The quota check (1.3) should enforce this; sessions beyond the limit require an active paid subscription
-- Add a UI component that shows a paywall modal when the student is over quota, with a CTA to the billing page
-
-- In terms of plans: have 1 hour free lesson per account - they can use this straight away after signing up without putting a card down. Have the standard subscription be monthly gbp50 for 8 hours a month (2 tutorials a week)
-- if the student signs up with their school email (check against list) then offer gbp50 for 10 hours a month (2 hours free, 25% more)
-- Also offer a year-long subscription that offers two months free so gbp500/year for the same 8 hours a month (or 10 hours a month if a student).
-- Present these prices as price-per-hour of tutoring in all these options 
+- In terms of plans: have 1 hour free lesson per account - they can use this straight away after signing up without putting a card down. Have the standard subscription be monthly gbp60 for 8 hours a month (2 tutorials a week, £7.50/hr); unused hours roll over for up to 3 months then expire
+- if the student signs up with their school email (check against list) then offer gbp60 for 10 hours a month (£6.00/hr, 25% more hours)
+- Also offer a year-long subscription at gbp600/year for the same 8 hours a month (or 10 hours a month if a student) — equivalent to 2 months free (£6.25/hr standard, £5.00/hr student).
+- Present these prices as price-per-hour of tutoring in all these options
 - Add an option to refer a parent/student and get 5 hours free each (for referer and referee) once the referee buys some subscription
-- Also offer packages of pay-by-hour (1hr for gbp10.0, 2hrs for gbp 15.0, 10hrs for gbp 70.0)
+- Also offer packages of pay-by-hour (1hr for gbp10.0, 2hrs for gbp17.50, 10hrs for gbp80.0); these credits never expire
+- Free starter credits and referral credits also never expire (set expires_at = NULL in usage_credits)
 
 ---
 
@@ -108,15 +76,15 @@ Each item includes implementation notes written for an AI coding agent.
 
 ---
 
-## 4. Database & Migrations ❌
+## 4. Database & Migrations ✅
 
-### 4.1 Switch from `drizzle push` to versioned migrations and remove any mention of drizzle since it's outdated
-- In `apps/web/drizzle.config.ts`, the current setup uses `drizzle-kit push` which is destructive and not safe for production
-- Switch to versioned migration files: run `npx drizzle-kit generate` to snapshot the current schema as migration `0001_initial.sql` in `apps/web/drizzle/`
-- Update `apps/web/package.json` scripts: replace `db:push` with `db:generate` (create migration files) and `db:migrate` (apply them via `drizzle-kit migrate`)
-- Update `apps/web/drizzle.config.ts` if needed to point `out` directory at `./drizzle`
-- Update `Makefile` `db-migrate` target to run the new migration command
-- Update `README.md` to document the new workflow
+### 4.1 Remove `drizzle-kit` migration workflow and make Python bootstrap the single source of truth
+- Removed `apps/web/drizzle.config.ts`
+- Removed `drizzle-kit` and related scripts from `apps/web/package.json`
+- Kept `drizzle-orm` in the web app as query builder only
+- Agent now runs `apps/agent/scripts/bootstrap_db.py` automatically at startup (`apps/agent/entrypoint.sh`)
+- `Makefile` `db-migrate` continues to run Python bootstrap manually
+- Updated `README.md` to document this workflow
 
 ---
 

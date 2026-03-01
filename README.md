@@ -8,7 +8,7 @@ Simple local-first MVP for a voice-first AI tutor for GCSE/A-level Humanities.
 - LiveKit Server (self-hosted in Docker)
 - Python 3.11 API + agent service (FastAPI + LiveKit Agents + Deepgram + OpenAI)
 - Postgres 16 + pgvector
-- Drizzle schema (legacy reference only; runtime API is Python/FastAPI)
+- Drizzle ORM query builder in web + Python-owned database schema bootstrap
 
 ## Repo layout
 
@@ -86,6 +86,13 @@ cp .env.example .env
 
 ```bash
 make seed
+```
+
+Database migrations/schema updates are managed by Python via `apps/agent/scripts/bootstrap_db.py`.
+The agent container runs this bootstrap script automatically on startup, and you can apply it manually with:
+
+```bash
+make db-migrate
 ```
 
 > Model settings can also be changed per-session on the home page UI.

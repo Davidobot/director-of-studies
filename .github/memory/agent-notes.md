@@ -334,3 +334,17 @@ Use this file as shared working memory across tasks.
 - **Files touched:** `apps/agent/scripts/build_schools_domain_csv.py`, `content/schools_domain.csv`, `.github/memory/agent-notes.md`.
 - **Follow-up:** If strict equivalence to raw `EstablishmentNumber` is required in downstream joins, add a third column `establishment_number` in a follow-up patch.
 
+### 2026-03-01 (remove drizzle-kit migrations; Python bootstrap only)
+- **Context:** Implemented TODO section 4.1 after deciding to remove `drizzle-kit` while keeping `drizzle-orm` query usage in the web app.
+- **Discovery:** `drizzle-kit` was only used for optional dev scripts; actual schema application already flowed through Python `scripts/bootstrap_db.py` via `make db-migrate`/`make seed`. Replacing `drizzle-orm` would require rewriting ~28 query call sites in 10 files and was out of scope.
+- **Decision:** Removed `drizzle-kit` scripts/config from web, deleted `apps/web/drizzle.config.ts`, and made agent startup run `python scripts/bootstrap_db.py` before ingestion and API boot. Updated docs and TODO to reflect Python as schema source-of-truth.
+- **Files touched:** `apps/web/package.json`, `apps/web/drizzle.config.ts` (deleted), `apps/agent/entrypoint.sh`, `README.md`, `TODO.md`, `.github/memory/agent-notes.md`.
+- **Follow-up:** If desired later, migrate off `drizzle-orm` query builder in a dedicated change (raw SQL or alternative typed query layer).
+
+### 2026-03-01 (db-migrate smoke test fix: plans.rollover_months backfill)
+- **Context:** Running `make db-migrate` after migration-workflow changes failed on existing databases with `UndefinedColumn: column "rollover_months" of relation "plans" does not exist`.
+- **Discovery:** `bootstrap_db.py` inserted into `plans(... rollover_months ...)` but had no idempotent `ALTER TABLE` for already-created `plans` tables.
+- **Decision:** Added `ALTER TABLE plans ADD COLUMN IF NOT EXISTS rollover_months integer` immediately after `CREATE TABLE IF NOT EXISTS plans` in bootstrap SQL list; reran smoke test successfully.
+- **Files touched:** `apps/agent/scripts/bootstrap_db.py`, `.github/memory/agent-notes.md`.
+- **Follow-up:** Keep this pattern for any future added columns so existing local/prod DBs upgrade safely via `make db-migrate`.
+

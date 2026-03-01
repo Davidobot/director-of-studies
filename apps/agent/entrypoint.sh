@@ -6,5 +6,6 @@ until nc -z postgres 5432; do
   sleep 1
 done
 
+python scripts/bootstrap_db.py
 python scripts/ingest.py || true
 exec uvicorn app.main:app --host 0.0.0.0 --port 8000

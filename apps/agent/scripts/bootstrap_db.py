@@ -133,6 +133,7 @@ SCHEMA_SQL = [
       credit_minutes integer,
       price_pence integer NOT NULL DEFAULT 0,
       interval text,
+      rollover_months integer,
       is_school_plan boolean NOT NULL DEFAULT false,
       is_active boolean NOT NULL DEFAULT true,
       created_at timestamptz NOT NULL DEFAULT NOW(),
@@ -140,6 +141,7 @@ SCHEMA_SQL = [
       UNIQUE(stripe_price_id)
     )
     """,
+    "ALTER TABLE plans ADD COLUMN IF NOT EXISTS rollover_months integer",
     """
     CREATE TABLE IF NOT EXISTS billing_customers (
       id serial PRIMARY KEY,
@@ -197,16 +199,16 @@ SCHEMA_SQL = [
     )
     """,
     """
-    INSERT INTO plans (name, plan_type, stripe_price_id, monthly_minutes, credit_minutes, price_pence, interval, is_school_plan, is_active)
+    INSERT INTO plans (name, plan_type, stripe_price_id, monthly_minutes, credit_minutes, price_pence, interval, rollover_months, is_school_plan, is_active)
     VALUES
-      ('Free Starter', 'free', NULL, NULL, 60, 0, NULL, false, true),
-      ('Standard Monthly', 'subscription', 'price_standard_monthly', 480, NULL, 5000, 'month', false, true),
-      ('School Monthly', 'subscription', 'price_school_monthly', 600, NULL, 5000, 'month', true, true),
-      ('Standard Annual', 'subscription', 'price_standard_annual', 480, NULL, 50000, 'year', false, true),
-      ('School Annual', 'subscription', 'price_school_annual', 600, NULL, 50000, 'year', true, true),
-      ('Credit Pack 1h', 'credit_pack', 'price_credit_1h', NULL, 60, 1000, NULL, false, true),
-      ('Credit Pack 2h', 'credit_pack', 'price_credit_2h', NULL, 120, 1500, NULL, false, true),
-      ('Credit Pack 10h', 'credit_pack', 'price_credit_10h', NULL, 600, 7000, NULL, false, true)
+      ('Free Starter', 'free', NULL, NULL, 60, 0, NULL, NULL, false, true),
+      ('Standard Monthly', 'subscription', 'price_standard_monthly', 480, NULL, 6000, 'month', 3, false, true),
+      ('School Monthly', 'subscription', 'price_school_monthly', 600, NULL, 6000, 'month', 3, true, true),
+      ('Standard Annual', 'subscription', 'price_standard_annual', 480, NULL, 60000, 'year', 3, false, true),
+      ('School Annual', 'subscription', 'price_school_annual', 600, NULL, 60000, 'year', 3, true, true),
+      ('Credit Pack 1h', 'credit_pack', 'price_credit_1h', NULL, 60, 1000, NULL, NULL, false, true),
+      ('Credit Pack 2h', 'credit_pack', 'price_credit_2h', NULL, 120, 1750, NULL, NULL, false, true),
+      ('Credit Pack 10h', 'credit_pack', 'price_credit_10h', NULL, 600, 8000, NULL, NULL, false, true)
     ON CONFLICT (name) DO NOTHING
     """,
     """
